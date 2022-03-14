@@ -15,9 +15,9 @@ export const en = defineNavbarConfig([
         icon: "hot",
         children:[
           {
-            text: "C++ Programming",
+            text: "Programming",
             icon: "c",
-            link: "cpp/",
+            link: "coding/",
           },
           {
             text: "Computer Organization",
