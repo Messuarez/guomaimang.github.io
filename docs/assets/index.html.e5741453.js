@@ -1,0 +1,1 @@
+import{_ as e,o,a,d as t,b as c}from"./app.24648840.js";const n={},i={id:"combinational-logic",tabindex:"-1"},s=t("a",{class:"header-anchor",href:"#combinational-logic","aria-hidden":"true"},"#",-1),r=c(" Combinational Logic"),_=[s,r];function d(h,l){return o(),a("h1",i,_)}var f=e(n,[["render",d]]);export{f as default};

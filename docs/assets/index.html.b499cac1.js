@@ -1,0 +1,1 @@
+import{_ as e,o as c,a as t,d as o,b as s}from"./app.24648840.js";const a={},r={id:"computer-science",tabindex:"-1"},n=o("a",{class:"header-anchor",href:"#computer-science","aria-hidden":"true"},"#",-1),_=s(" Computer Science"),d=[n,_];function i(h,m){return c(),t("h1",r,d)}var p=e(a,[["render",i]]);export{p as default};

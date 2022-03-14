@@ -2057,6 +2057,10 @@ const themeData$1 = {
             {
               "text": "\u9999\u6E2F\u7406\u5DE5\u5927\u5B66",
               "link": "https://polyu.edu.hk"
+            },
+            {
+              "text": "\u590D\u65E6\u5927\u5B66",
+              "link": "https://www.fudan.edu.cn"
             }
           ]
         },
@@ -2154,6 +2158,65 @@ const themeData$1 = {
           "link": "/myself/"
         },
         {
+          "text": "Study Note",
+          "prefix": "/note/",
+          "icon": "note",
+          "children": [
+            {
+              "text": "Computer Science",
+              "prefix": "cs/",
+              "icon": "hot",
+              "children": [
+                {
+                  "text": "C++ Programming",
+                  "icon": "c",
+                  "link": "cpp/"
+                },
+                {
+                  "text": "Computer Organization",
+                  "icon": "workingDirectory",
+                  "link": "co/"
+                },
+                {
+                  "text": "Operating System",
+                  "icon": "centos",
+                  "link": "os/"
+                }
+              ]
+            },
+            {
+              "text": "Data Science",
+              "icon": "emmet",
+              "prefix": "ds/",
+              "children": []
+            },
+            {
+              "text": "IT Management",
+              "icon": "emmet",
+              "prefix": "it/",
+              "children": []
+            },
+            {
+              "text": "Mathematics",
+              "icon": "function",
+              "prefix": "math/",
+              "children": []
+            },
+            {
+              "text": "Others",
+              "icon": "relation",
+              "prefix": "others/",
+              "children": [
+                {
+                  "text": "Computer Application",
+                  "icon": "app",
+                  "link": "app/"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "text": "Campus",
           "prefix": "/",
           "icon": "study",
@@ -2165,6 +2228,10 @@ const themeData$1 = {
             {
               "text": "Hong Kong Polytechnic University",
               "link": "https://polyu.edu.hk"
+            },
+            {
+              "text": "Fudan University",
+              "link": "https://www.fudan.edu.cn"
             }
           ]
         },
@@ -2270,10 +2337,10 @@ const themeData$1 = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$KmtpOojmzissuxbmF4OfdODsyg5SaM.QpgisPoYNqwEzb/VHpG90G"
+        "$2a$10$i9NCsNcBq/Z49aHXyuwpDOePeAX56zf/IiPnhmi4E6x3Ae/7FSxey"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$PEzyuRP/u3Z0/cgsb4vJhO6CV4Tw7VbsImmVibuz0lbyX8m6Z8Evm"
+        "$2a$10$yDBOMe1iXPQkmuAVfhBj1uz6caMiPnq4YAFOPbaUBpDpieGn0DYDW"
       ]
     },
     "global": false
