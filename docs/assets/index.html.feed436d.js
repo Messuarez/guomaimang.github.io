@@ -1,0 +1,13 @@
+const e={key:"v-a774af74",path:"/note/app/website/",title:"\u7F51\u9875\u5165\u95E8",lang:"zh-CN",frontmatter:{icon:"network",title:"\u7F51\u9875\u5165\u95E8",date:"2019-09-01T00:00:00.000Z",category:["\u524D\u7AEF"],tag:["\u7F51\u9875","\u4ECB\u7ECD"],star:!0,summary:`\u7F51\u9875\u9700\u8981\u4E09\u4EF6\u5957: HTML\u3001CSS \u548C JavaScript\u3002
+
+HTML \u5B9A\u4E49\u4E86\u7F51\u9875\u7684\u5185\u5BB9
+CSS \u63CF\u8FF0\u4E86\u7F51\u9875\u7684\u6837\u5F0F
+JavaScript \u7F16\u5199\u7F51\u9875\u7684\u884C\u4E3A
+
+`,head:[["meta",{property:"og:url",content:"https://vuepress-theme-hope-v2-demo.mrhope.site/note/app/website/"}],["meta",{property:"og:site_name",content:"\u5F18\u6811"}],["meta",{property:"og:title",content:"\u7F51\u9875\u5165\u95E8"}],["meta",{property:"og:type",content:"article"}],["meta",{property:"og:locale",content:"zh-CN"}],["meta",{property:"og:locale:alternate",content:"en-US"}],["meta",{name:"twitter:card",content:"summary_large_image"}],["meta",{name:"twitter:image:alt",content:"\u5F18\u6811"}],["meta",{property:"article:author",content:"HongShu"}],["meta",{property:"article:tag",content:"\u7F51\u9875"}],["meta",{property:"article:tag",content:"\u4ECB\u7ECD"}],["meta",{property:"article:published_time",content:"2019-09-01T00:00:00.000Z"}]]},excerpt:`<p>\u7F51\u9875\u9700\u8981\u4E09\u4EF6\u5957: <strong>HTML</strong>\u3001<strong>CSS</strong> \u548C <strong>JavaScript</strong>\u3002</p>
+<ol>
+<li>HTML \u5B9A\u4E49\u4E86\u7F51\u9875\u7684\u5185\u5BB9</li>
+<li>CSS \u63CF\u8FF0\u4E86\u7F51\u9875\u7684\u6837\u5F0F</li>
+<li>JavaScript \u7F16\u5199\u7F51\u9875\u7684\u884C\u4E3A</li>
+</ol>
+`,headers:[{level:2,title:"HTML",slug:"html",children:[]},{level:2,title:"CSS",slug:"css",children:[]},{level:2,title:"Emmet",slug:"emmet",children:[]},{level:2,title:"JavaScript",slug:"javascript",children:[{level:3,title:"TypeScript",slug:"typescript",children:[]}]},{level:2,title:"Node.js",slug:"node-js",children:[]},{level:2,title:"\u5386\u53F2\u524D\u7AEF\u6846\u67B6",slug:"\u5386\u53F2\u524D\u7AEF\u6846\u67B6",children:[{level:3,title:"jQuery",slug:"jquery",children:[]},{level:3,title:"Bootstrap4",slug:"bootstrap4",children:[]}]},{level:2,title:"\u73B0\u4EE3\u524D\u7AEF\u6846\u67B6",slug:"\u73B0\u4EE3\u524D\u7AEF\u6846\u67B6",children:[{level:3,title:"Vue",slug:"vue",children:[]},{level:3,title:"React",slug:"react",children:[]},{level:3,title:"Angular",slug:"angular",children:[]}]},{level:2,title:"\u5176\u4ED6\u6587\u6863",slug:"\u5176\u4ED6\u6587\u6863",children:[]}],git:{createdTime:1647280116e3,updatedTime:1647280116e3,contributors:[{name:"hanjiaming",email:"47519540+guomaimang@users.noreply.github.com",commits:1}]},readingTime:{minutes:2.69,words:808},filePathRelative:"note/app/website/README.md"};export{e as data};

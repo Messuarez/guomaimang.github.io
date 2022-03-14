@@ -1,0 +1,11 @@
+const e={key:"v-6ef3a988",path:"/note/cs/coding/python/functional-programming/high-order-function/map-and-reduce.html",title:"map / reduce",lang:"zh-CN",frontmatter:{title:"map / reduce",icon:"map",author:"\u5ED6\u96EA\u5CF0",date:"2020-05-31T00:00:00.000Z",category:["Python"],summary:`Python \u5185\u5EFA\u4E86 map() \u548C reduce() \u51FD\u6570\u3002
+\u5982\u679C\u60A8\u8BFB\u8FC7 Google \u7684\u90A3\u7BC7\u5927\u540D\u9F0E\u9F0E\u7684\u8BBA\u6587 \u201CMapReduce: Simplified Data Processing on Large Clusters\u201D\uFF0C\u60A8\u5C31\u80FD\u5927\u6982\u660E\u767D map / reduce \u7684\u6982\u5FF5\u3002
+
+\u8BBF\u95EE\u9700\u8981\u79D1\u5B66\u4E0A\u7F51\u3002
+
+`,head:[["meta",{property:"og:url",content:"https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/coding/python/functional-programming/high-order-function/map-and-reduce.html"}],["meta",{property:"og:site_name",content:"\u5F18\u6811"}],["meta",{property:"og:title",content:"map / reduce"}],["meta",{property:"og:type",content:"article"}],["meta",{property:"og:locale",content:"zh-CN"}],["meta",{property:"og:locale:alternate",content:"en-US"}],["meta",{name:"twitter:card",content:"summary_large_image"}],["meta",{name:"twitter:image:alt",content:"\u5F18\u6811"}],["meta",{property:"article:author",content:"\u5ED6\u96EA\u5CF0"}],["meta",{property:"article:published_time",content:"2020-05-31T00:00:00.000Z"}]]},excerpt:`<p>Python \u5185\u5EFA\u4E86 <code>map()</code> \u548C <code>reduce()</code> \u51FD\u6570\u3002</p>
+<p>\u5982\u679C\u60A8\u8BFB\u8FC7 Google \u7684\u90A3\u7BC7\u5927\u540D\u9F0E\u9F0E\u7684\u8BBA\u6587 <a href="http://research.google.com/archive/mapreduce.html" target="_blank" rel="noopener noreferrer">\u201CMapReduce: Simplified Data Processing on Large Clusters\u201D<ExternalLinkIcon/></a>\uFF0C\u60A8\u5C31\u80FD\u5927\u6982\u660E\u767D map / reduce \u7684\u6982\u5FF5\u3002</p>
+<blockquote>
+<p>\u8BBF\u95EE\u9700\u8981\u79D1\u5B66\u4E0A\u7F51\u3002</p>
+</blockquote>
+`,headers:[],git:{createdTime:1647280116e3,updatedTime:1647280116e3,contributors:[{name:"hanjiaming",email:"47519540+guomaimang@users.noreply.github.com",commits:1}]},readingTime:{minutes:3.14,words:943},filePathRelative:"note/cs/coding/python/functional-programming/high-order-function/map-and-reduce.md"};export{e as data};
