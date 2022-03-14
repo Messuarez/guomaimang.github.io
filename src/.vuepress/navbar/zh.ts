@@ -109,6 +109,10 @@ export const zh = defineNavbarConfig([
         text: "香港理工大学",
         link: "https://polyu.edu.hk",
       },
+      {
+        text: "复旦大学",
+        link: "https://www.fudan.edu.cn",
+      },
   ]
   },
   {
