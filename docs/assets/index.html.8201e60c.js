@@ -1,1 +1,0 @@
-import{_ as e,o,a as t,d as a,b as r}from"./app.43eefb5f.js";const s={},c={id:"memory",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#memory","aria-hidden":"true"},"#",-1),n=r(" Memory"),d=[_,n];function i(h,m){return o(),t("h1",c,d)}var l=e(s,[["render",i]]);export{l as default};

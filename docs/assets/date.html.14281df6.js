@@ -1,2 +1,0 @@
-import{_ as e,f as a}from"./app.43eefb5f.js";const s={},n=a(`<h1 id="date" tabindex="-1"><a class="header-anchor" href="#date" aria-hidden="true">#</a> date</h1><p><code>date</code> \u547D\u4EE4\u663E\u793A\u5F53\u524D\u7684\u65E5\u671F\u548C\u65F6\u95F4\u3002</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">date</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div>`,3);function d(t,r){return n}var i=e(s,[["render",d]]);export{i as default};

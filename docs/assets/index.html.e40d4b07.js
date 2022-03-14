@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as s,d as a,b as o}from"./app.77ba5bb0.js";const c={},r={id:"digital-system",tabindex:"-1"},d=a("a",{class:"header-anchor",href:"#digital-system","aria-hidden":"true"},"#",-1),i=o(" Digital System"),_=[d,i];function n(h,l){return t(),s("h1",r,_)}var f=e(c,[["render",n]]);export{f as default};
