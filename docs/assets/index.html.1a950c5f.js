@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as n}from"./app.43eefb5f.js";const r={},c={style:{"text-align":"center"}};function o(s,_){return t(),n("h6",c," Legends never die. ")}var d=e(r,[["render",o]]);export{d as default};
