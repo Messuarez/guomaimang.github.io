@@ -16,7 +16,7 @@ export default defineThemeConfig({
   logo: "/logo.svg",
   repo: "https://github.com/guomaimang/guomaimang.github.io",
 
-  docsDir: "demo/src",
+  docsDir: "src",
 
   blog: {
     medias: {

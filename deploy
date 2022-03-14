@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm run src:build
+rm -rf docs
+mv ./dist ./docs

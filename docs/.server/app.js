@@ -347,6 +347,15 @@ const pagesComponents = {
   "v-314da5b0": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$1L;
   })),
+  "v-3ffb3bbc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return digitalSystem1_html$2;
+  })),
+  "v-41b0145b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return digitalSystem2_html$2;
+  })),
+  "v-4364ecfa": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return digitalSystem3_html$2;
+  })),
   "v-66087266": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return External_Memory_html$2;
   })),
@@ -359,20 +368,23 @@ const pagesComponents = {
   "v-b19eba34": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$1J;
   })),
-  "v-3ffb3bbc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return digitalSystem1_html$2;
+  "v-fe32b758": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$1H;
   })),
-  "v-41b0145b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return digitalSystem2_html$2;
+  "v-333107ad": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return cppStd1_html$2;
   })),
-  "v-4364ecfa": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return digitalSystem3_html$2;
+  "v-34e5e04c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return cppStd2_html$2;
+  })),
+  "v-369ab8eb": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return cppStd3_html$2;
   })),
   "v-95cb104c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return BlockCollectionStd_html$2;
   })),
   "v-7246cfeb": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$1H;
+    return index_html$1F;
   })),
   "v-848fadd2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return SearchingAlgorithms_html$2;
@@ -394,18 +406,6 @@ const pagesComponents = {
   })),
   "v-7f730508": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return recursionPractice_html$2;
-  })),
-  "v-fe32b758": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$1F;
-  })),
-  "v-333107ad": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return cppStd1_html$2;
-  })),
-  "v-34e5e04c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return cppStd2_html$2;
-  })),
-  "v-369ab8eb": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return cppStd3_html$2;
   })),
   "v-9b2e9c38": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$1D;
@@ -796,6 +796,15 @@ const pagesData$1 = {
   "v-314da5b0": () => Promise.resolve().then(function() {
     return index_html$y;
   }).then(({ data: data2 }) => data2),
+  "v-3ffb3bbc": () => Promise.resolve().then(function() {
+    return digitalSystem1_html;
+  }).then(({ data: data2 }) => data2),
+  "v-41b0145b": () => Promise.resolve().then(function() {
+    return digitalSystem2_html;
+  }).then(({ data: data2 }) => data2),
+  "v-4364ecfa": () => Promise.resolve().then(function() {
+    return digitalSystem3_html;
+  }).then(({ data: data2 }) => data2),
   "v-66087266": () => Promise.resolve().then(function() {
     return External_Memory_html;
   }).then(({ data: data2 }) => data2),
@@ -808,20 +817,23 @@ const pagesData$1 = {
   "v-b19eba34": () => Promise.resolve().then(function() {
     return index_html$x;
   }).then(({ data: data2 }) => data2),
-  "v-3ffb3bbc": () => Promise.resolve().then(function() {
-    return digitalSystem1_html;
+  "v-fe32b758": () => Promise.resolve().then(function() {
+    return index_html$w;
   }).then(({ data: data2 }) => data2),
-  "v-41b0145b": () => Promise.resolve().then(function() {
-    return digitalSystem2_html;
+  "v-333107ad": () => Promise.resolve().then(function() {
+    return cppStd1_html;
   }).then(({ data: data2 }) => data2),
-  "v-4364ecfa": () => Promise.resolve().then(function() {
-    return digitalSystem3_html;
+  "v-34e5e04c": () => Promise.resolve().then(function() {
+    return cppStd2_html;
+  }).then(({ data: data2 }) => data2),
+  "v-369ab8eb": () => Promise.resolve().then(function() {
+    return cppStd3_html;
   }).then(({ data: data2 }) => data2),
   "v-95cb104c": () => Promise.resolve().then(function() {
     return BlockCollectionStd_html;
   }).then(({ data: data2 }) => data2),
   "v-7246cfeb": () => Promise.resolve().then(function() {
-    return index_html$w;
+    return index_html$v;
   }).then(({ data: data2 }) => data2),
   "v-848fadd2": () => Promise.resolve().then(function() {
     return SearchingAlgorithms_html;
@@ -843,18 +855,6 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-7f730508": () => Promise.resolve().then(function() {
     return recursionPractice_html;
-  }).then(({ data: data2 }) => data2),
-  "v-fe32b758": () => Promise.resolve().then(function() {
-    return index_html$v;
-  }).then(({ data: data2 }) => data2),
-  "v-333107ad": () => Promise.resolve().then(function() {
-    return cppStd1_html;
-  }).then(({ data: data2 }) => data2),
-  "v-34e5e04c": () => Promise.resolve().then(function() {
-    return cppStd2_html;
-  }).then(({ data: data2 }) => data2),
-  "v-369ab8eb": () => Promise.resolve().then(function() {
-    return cppStd3_html;
   }).then(({ data: data2 }) => data2),
   "v-9b2e9c38": () => Promise.resolve().then(function() {
     return index_html$u;
@@ -1902,7 +1902,7 @@ const themeData$1 = {
   "iconPrefix": "iconfont icon-",
   "logo": "/logo.svg",
   "repo": "https://github.com/guomaimang/guomaimang.github.io",
-  "docsDir": "demo/src",
+  "docsDir": "src",
   "blog": {
     "medias": {
       "Email": "mailto:hanjiaming@zhongxueguan.cn",
@@ -2252,10 +2252,10 @@ const themeData$1 = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$oVWEp9roivuubHCo6bXsSeuyI9rGIEWHbAWQXn04LgZooZGFPVBVW"
+        "$2a$10$AapFY4FsmIRCFggSN9wkcexTTFlknzlflOasGpHxvzKy2Ui2Qr6b2"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$6fvhk5qnlpwA3Azvh643SONsWnttHphQX2DKIddoS5Ghl8pzq0C.i"
+        "$2a$10$VGjun.9sy2OA.RG8ftXE3uBxK6YWX59Xamq6iBsD7iCx1HdwZ59Lm"
       ]
     },
     "global": false
@@ -4531,7 +4531,7 @@ if (void 0) {
     __VUE_HMR_RUNTIME__.updateBlogCategory(categoryMap);
   }
 }
-const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4c0cfbb5", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-3e9371aa", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-3e9371aa", "v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4c0cfbb5", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540", "v-3e9371aa"] } } };
+const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4c0cfbb5", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-3e9371aa", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-3e9371aa", "v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4c0cfbb5", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540", "v-3e9371aa"] } } };
 if (void 0) {
   (void 0).accept();
   if (__VUE_HMR_RUNTIME__.updateBlogType) {
@@ -5557,15 +5557,15 @@ const clientAppSetups = [
   clientAppSetup6
 ];
 const routeItems = [
-  ["v-8daa1a0e", "/", { "title": "\u535A\u5BA2\u4E3B\u9875", "icon": "home", "type": "home", "readingTime": { "minutes": 0.13, "words": 38 }, "excerpt": "" }, ["/index.html", "/README.md"]],
+  ["v-8daa1a0e", "/", { "title": "\u535A\u5BA2\u4E3B\u9875", "icon": "home", "type": "home", "readingTime": { "minutes": 0.13, "words": 38 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z" }, ["/index.html", "/README.md"]],
   ["v-b1714770", "/myself.html", { "title": "Han Jiaming (\u97E9\u4F73\u660E)", "icon": "profile", "type": "page", "readingTime": { "minutes": 0.73, "words": 220 }, "excerpt": "", "date": "2022-03-12T00:00:00.000Z", "category": [], "tag": [] }, ["/myself", "/myself.md"]],
-  ["v-70fab1c5", "/research.html", { "title": "Research", "icon": "home", "type": "home", "readingTime": { "minutes": 0.23, "words": 68 }, "excerpt": "" }, ["/research", "/research.md"]],
-  ["v-2d0a870d", "/en/", { "title": "Blog", "icon": "home", "type": "home", "readingTime": { "minutes": 0.03, "words": 9 }, "excerpt": "" }, ["/en/index.html", "/en/README.md"]],
+  ["v-70fab1c5", "/research.html", { "title": "Research", "icon": "home", "type": "home", "readingTime": { "minutes": 0.23, "words": 68 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z" }, ["/research", "/research.md"]],
+  ["v-2d0a870d", "/en/", { "title": "Blog", "icon": "home", "type": "home", "readingTime": { "minutes": 0.03, "words": 9 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z" }, ["/en/index.html", "/en/README.md"]],
   ["v-4a3483a8", "/posts/welcome.html", { "title": "\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!", "icon": null, "type": "article", "readingTime": { "minutes": 0.06, "words": 18 }, "excerpt": "", "date": "2020-01-25T00:00:00.000Z", "category": [], "tag": [], "star": null }, ["/posts/welcome", "/posts/welcome.md"]],
-  ["v-e6412400", "/en/guide/", { "title": "Guides", "icon": "creative", "type": "article", "readingTime": { "minutes": 0.04, "words": 13 }, "excerpt": "", "category": ["Guide"] }, ["/en/guide/index.html", "/en/guide/README.md"]],
-  ["v-45af1cf1", "/en/guide/disable.html", { "title": "Component disabled", "icon": "config", "type": "article", "readingTime": { "minutes": 0.14, "words": 42 }, "excerpt": "<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>\n", "category": ["Guide"], "tag": ["disable"] }, ["/en/guide/disable", "/en/guide/disable.md"]],
-  ["v-0c393394", "/en/guide/encrypt.html", { "title": "Encryption article", "icon": "lock", "type": "article", "readingTime": { "minutes": 0.28, "words": 84 }, "excerpt": "", "category": ["Guide"], "tag": ["encryption"] }, ["/en/guide/encrypt", "/en/guide/encrypt.md"]],
-  ["v-0d98534a", "/en/guide/markdown.html", { "title": "Markdown Enhance", "icon": "markdown", "type": "article", "readingTime": { "minutes": 2.21, "words": 664 }, "excerpt": "<p>Every document page in VuePress is rendered by Markdown.</p>\n<p>You need to build your document or blog page by creating and writing Markdown in the corresponding path.</p>\n", "category": ["Guide"], "tag": ["markdown"] }, ["/en/guide/markdown", "/en/guide/markdown.md"]],
+  ["v-e6412400", "/en/guide/", { "title": "Guides", "icon": "creative", "type": "article", "readingTime": { "minutes": 0.04, "words": 13 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z", "category": ["Guide"] }, ["/en/guide/index.html", "/en/guide/README.md"]],
+  ["v-45af1cf1", "/en/guide/disable.html", { "title": "Component disabled", "icon": "config", "type": "article", "readingTime": { "minutes": 0.14, "words": 42 }, "excerpt": "<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>\n", "date": "2022-03-14T04:06:13.000Z", "category": ["Guide"], "tag": ["disable"] }, ["/en/guide/disable", "/en/guide/disable.md"]],
+  ["v-0c393394", "/en/guide/encrypt.html", { "title": "Encryption article", "icon": "lock", "type": "article", "readingTime": { "minutes": 0.28, "words": 84 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z", "category": ["Guide"], "tag": ["encryption"] }, ["/en/guide/encrypt", "/en/guide/encrypt.md"]],
+  ["v-0d98534a", "/en/guide/markdown.html", { "title": "Markdown Enhance", "icon": "markdown", "type": "article", "readingTime": { "minutes": 2.21, "words": 664 }, "excerpt": "<p>Every document page in VuePress is rendered by Markdown.</p>\n<p>You need to build your document or blog page by creating and writing Markdown in the corresponding path.</p>\n", "date": "2022-03-14T04:06:13.000Z", "category": ["Guide"], "tag": ["markdown"] }, ["/en/guide/markdown", "/en/guide/markdown.md"]],
   ["v-3e9371aa", "/en/guide/page.html", { "title": "page config", "icon": "page", "type": "article", "readingTime": { "minutes": 0.39, "words": 116 }, "excerpt": "<p>Content before <code>more</code> comment is regarded as page excerpt.</p>\n", "author": "Ms.Hope", "date": "2020-01-01T00:00:00.000Z", "category": ["Guide"], "tag": ["Page config", "Guide"], "sticky": true, "star": true }, ["/en/guide/page", "/en/guide/page.md"]],
   ["v-46d7f540", "/en/posts/welcome.html", { "title": "\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!", "icon": null, "type": "article", "readingTime": { "minutes": 0.06, "words": 18 }, "excerpt": "", "date": "2020-01-25T00:00:00.000Z", "category": [], "tag": [], "star": null }, ["/en/posts/welcome", "/en/posts/welcome.md"]],
   ["v-34d6301b", "/note/cs/", { "title": "Computer Science", "type": "page", "readingTime": { "minutes": 0.01, "words": 2 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/index.html", "/note/cs/README.md"]],
@@ -5649,13 +5649,17 @@ const routeItems = [
   ["v-7533ec0a", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A82.html", { "title": "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E82", "type": "page", "readingTime": { "minutes": 5.72, "words": 1715 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/MIPS/MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E82.html", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A82", "/note/cs/co/MIPS/MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E82.md", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A82.md"]],
   ["v-76e8c4a9", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A83.html", { "title": "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E83", "type": "page", "readingTime": { "minutes": 6.68, "words": 2004 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/MIPS/MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E83.html", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A83", "/note/cs/co/MIPS/MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E83.md", "/note/cs/co/MIPS/MIPS%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A83.md"]],
   ["v-314da5b0", "/note/cs/co/MIPS/", { "title": "MIPS", "type": "page", "readingTime": { "minutes": 0, "words": 1 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/MIPS/index.html", "/note/cs/co/MIPS/README.md"]],
+  ["v-3ffb3bbc", "/note/cs/co/digitalSystem/digital-system1.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51", "type": "page", "readingTime": { "minutes": 4.08, "words": 1224 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system1", "/note/cs/co/digitalSystem/digital-system1.md"]],
+  ["v-41b0145b", "/note/cs/co/digitalSystem/digital-system2.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52", "type": "page", "readingTime": { "minutes": 14.17, "words": 4252 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system2", "/note/cs/co/digitalSystem/digital-system2.md"]],
+  ["v-4364ecfa", "/note/cs/co/digitalSystem/digital-system3.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53", "type": "page", "readingTime": { "minutes": 5.21, "words": 1563 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system3", "/note/cs/co/digitalSystem/digital-system3.md"]],
   ["v-66087266", "/note/cs/co/Memory/External%20Memory.html", { "title": "External Memory", "type": "page", "readingTime": { "minutes": 11.93, "words": 3579 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/Memory/External Memory.html", "/note/cs/co/Memory/External%20Memory", "/note/cs/co/Memory/External Memory.md", "/note/cs/co/Memory/External%20Memory.md"]],
   ["v-0225c5d8", "/note/cs/co/Memory/Internal%20Memory.html", { "title": "Internal Memory", "type": "page", "readingTime": { "minutes": 15.61, "words": 4684 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/Memory/Internal Memory.html", "/note/cs/co/Memory/Internal%20Memory", "/note/cs/co/Memory/Internal Memory.md", "/note/cs/co/Memory/Internal%20Memory.md"]],
   ["v-00f03e50", "/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory.html", { "title": "Introduction to Computer Memory and Cache Memory", "type": "page", "readingTime": { "minutes": 18.4, "words": 5519 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory", "/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory.md"]],
   ["v-b19eba34", "/note/cs/co/Memory/", { "title": "Memory", "type": "page", "readingTime": { "minutes": 0, "words": 1 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/Memory/index.html", "/note/cs/co/Memory/README.md"]],
-  ["v-3ffb3bbc", "/note/cs/co/digitalSystem/digital-system1.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51", "type": "page", "readingTime": { "minutes": 4.08, "words": 1224 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system1", "/note/cs/co/digitalSystem/digital-system1.md"]],
-  ["v-41b0145b", "/note/cs/co/digitalSystem/digital-system2.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52", "type": "page", "readingTime": { "minutes": 14.17, "words": 4252 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system2", "/note/cs/co/digitalSystem/digital-system2.md"]],
-  ["v-4364ecfa", "/note/cs/co/digitalSystem/digital-system3.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53", "type": "page", "readingTime": { "minutes": 5.21, "words": 1563 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system3", "/note/cs/co/digitalSystem/digital-system3.md"]],
+  ["v-fe32b758", "/note/cs/cpp/start/", { "title": "Getting Started Guide", "type": "page", "readingTime": { "minutes": 0.01, "words": 3 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/index.html", "/note/cs/cpp/start/README.md"]],
+  ["v-333107ad", "/note/cs/cpp/start/cpp-std1.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E81", "type": "page", "readingTime": { "minutes": 9.66, "words": 2897 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std1", "/note/cs/cpp/start/cpp-std1.md"]],
+  ["v-34e5e04c", "/note/cs/cpp/start/cpp-std2.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E82", "type": "page", "readingTime": { "minutes": 2.21, "words": 664 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std2", "/note/cs/cpp/start/cpp-std2.md"]],
+  ["v-369ab8eb", "/note/cs/cpp/start/cpp-std3.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E83", "type": "page", "readingTime": { "minutes": 2.05, "words": 616 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std3", "/note/cs/cpp/start/cpp-std3.md"]],
   ["v-95cb104c", "/note/cs/cpp/related/Block-Collection-std.html", { "title": "Block Collection", "type": "page", "readingTime": { "minutes": 2.27, "words": 680 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/Block-Collection-std", "/note/cs/cpp/related/Block-Collection-std.md"]],
   ["v-7246cfeb", "/note/cs/cpp/related/", { "title": "Related Knowledge Guide", "type": "page", "readingTime": { "minutes": 0.01, "words": 3 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/index.html", "/note/cs/cpp/related/README.md"]],
   ["v-848fadd2", "/note/cs/cpp/related/Searching-Algorithms.html", { "title": "Searching Algorithms", "type": "page", "readingTime": { "minutes": 2.22, "words": 667 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/Searching-Algorithms", "/note/cs/cpp/related/Searching-Algorithms.md"]],
@@ -5665,10 +5669,6 @@ const routeItems = [
   ["v-093f55f0", "/note/cs/cpp/related/cpp-oop-std.html", { "title": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8", "type": "page", "readingTime": { "minutes": 14.1, "words": 4230 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/cpp-oop-std", "/note/cs/cpp/related/cpp-oop-std.md"]],
   ["v-96348938", "/note/cs/cpp/related/cpp-pointer-thinking.html", { "title": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003", "type": "page", "readingTime": { "minutes": 1.24, "words": 373 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/cpp-pointer-thinking", "/note/cs/cpp/related/cpp-pointer-thinking.md"]],
   ["v-7f730508", "/note/cs/cpp/related/recursion-practice.html", { "title": "\u9012\u5F52\u5B9E\u8DF5", "type": "page", "readingTime": { "minutes": 4.65, "words": 1394 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/related/recursion-practice", "/note/cs/cpp/related/recursion-practice.md"]],
-  ["v-fe32b758", "/note/cs/cpp/start/", { "title": "Getting Started Guide", "type": "page", "readingTime": { "minutes": 0.01, "words": 3 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/index.html", "/note/cs/cpp/start/README.md"]],
-  ["v-333107ad", "/note/cs/cpp/start/cpp-std1.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E81", "type": "page", "readingTime": { "minutes": 9.66, "words": 2897 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std1", "/note/cs/cpp/start/cpp-std1.md"]],
-  ["v-34e5e04c", "/note/cs/cpp/start/cpp-std2.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E82", "type": "page", "readingTime": { "minutes": 2.21, "words": 664 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std2", "/note/cs/cpp/start/cpp-std2.md"]],
-  ["v-369ab8eb", "/note/cs/cpp/start/cpp-std3.html", { "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E83", "type": "page", "readingTime": { "minutes": 2.05, "words": 616 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/cpp/start/cpp-std3", "/note/cs/cpp/start/cpp-std3.md"]],
   ["v-9b2e9c38", "/note/cs/os/asm/", { "title": "Assembly language", "type": "page", "readingTime": { "minutes": 0.01, "words": 2 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/index.html", "/note/cs/os/asm/README.md"]],
   ["v-2af9f9dd", "/note/cs/os/asm/Y86-64-processer-arch.html", { "title": "Y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB", "type": "page", "readingTime": { "minutes": 9.29, "words": 2786 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/Y86-64-processer-arch", "/note/cs/os/asm/Y86-64-processer-arch.md"]],
   ["v-514ca1be", "/note/cs/os/asm/gnu-gdb-std.html", { "title": "GNU\u5BB6\u65CF\u7B80\u4ECB\u53CAGDB\u6C47\u7F16\u73A9\u6CD5", "type": "page", "readingTime": { "minutes": 8.58, "words": 2575 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/gnu-gdb-std", "/note/cs/os/asm/gnu-gdb-std.md"]],
@@ -7966,99 +7966,36 @@ var index_html$1L = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineP
 }, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$U = {};
 function _sfc_ssrRender$U(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="external-memory" tabindex="-1"><a class="header-anchor" href="#external-memory" aria-hidden="true">#</a> External Memory</h1><h2 id="magnetic-disk" tabindex="-1"><a class="header-anchor" href="#magnetic-disk" aria-hidden="true">#</a> Magnetic Disk</h2><p>The most important external memory device on almost all computer systems\u300C\u51E0\u4E4E\u6240\u6709\u8BA1\u7B97\u673A\u7CFB\u7EDF\u4E0A\u6700\u91CD\u8981\u7684\u5916\u90E8\u5B58\u50A8\u8BBE\u5907\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/4e3368955f781.png" alt="CleanShot 2021-04-19 at 11.57.37@2x.png" title="CleanShot 2021-04-19 at 11.57.37@2x.png"><h3 id="working-mechanism" tabindex="-1"><a class="header-anchor" href="#working-mechanism" aria-hidden="true">#</a> Working mechanism</h3><h4 id="how-bits-are-read-written" tabindex="-1"><a class="header-anchor" href="#how-bits-are-read-written" aria-hidden="true">#</a> How bits are read/written?</h4><p>(1) Head moves to the \u201Cright position\u201D \u300C\uFF081\uFF09\u5934\u90E8\u79FB\u81F3\u201C\u6B63\u786E\u4F4D\u7F6E\u201D\u300D (2) Platter spins\u300C\uFF082\uFF09\u76D8\u65CB\u8F6C\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/01ad230a8bac3.png" alt="image.png" title="image.png" width="300px"><h4 id="how-are-the-bits-stored-on-platter" tabindex="-1"><a class="header-anchor" href="#how-are-the-bits-stored-on-platter" aria-hidden="true">#</a> How are the Bits stored on Platter?</h4><p>Platter\u300C\u76D8\u300D</p><ul><li>Nonmagnetic material covered with magnetic \u201Ccoats\u201D\u300C\u975E\u78C1\u6027\u6750\u6599\u8986\u76D6\u6709\u78C1\u6027\u201C\u6D82\u5C42\u201D\u300D</li><li>On the magnetic surface, there are many magnetized\u300C\u78C1\u5316\u7684\u300D spots \u2013 each spot stores one bit\u300C\u5728\u78C1\u6027\u8868\u9762\u4E0A\uFF0C\u6709\u8BB8\u591A\u78C1\u5316\u6591\u70B9\u2013\u6BCF\u4E2A\u6591\u70B9\u5B58\u50A8\u4E00\u4F4D\u300D</li><li>More specifically, each magnetized spot has two polarities: S and N\u300C\u66F4\u5177\u4F53\u5730\u8BF4\uFF0C\u6BCF\u4E2A\u78C1\u5316\u70B9\u5177\u6709\u4E24\u4E2A\u6781\u6027\uFF1AS\u548CN\u300D</li><li>The orientations (S-N or N-S) are represented as 0 or 1\u300C\u65B9\u5411\uFF08S-N\u6216NS-S\uFF09\u8868\u793A\u4E3A0\u62161\u300D</li><li>Example: 120Gb hard disk drive contains over 120 billion spots!\u300C\u793A\u4F8B\uFF1A120 Gb\u786C\u76D8\u9A71\u52A8\u5668\u5305\u542B\u8D85\u8FC71200\u4EBF\u4E2A\u6591\u70B9\uFF01\u300D</li></ul><h5 id="the-interaction-between-head-and-platter" tabindex="-1"><a class="header-anchor" href="#the-interaction-between-head-and-platter" aria-hidden="true">#</a> The interaction between Head and Platter</h5><ul><li><p>The essence is the electromagnetic fields \u2013 the change of current will cause the change the magnetic fields, and vice versa\u300C\u672C\u8D28\u662F\u7535\u78C1\u573A\u2013\u7535\u6D41\u7684\u53D8\u5316\u5C06\u5F15\u8D77\u78C1\u573A\u7684\u53D8\u5316\uFF0C\u53CD\u4E4B\u4EA6\u7136\u300D</p></li><li><p>Head is covered with magnetic fields and electronic wires\u300C\u5934\u90E8\u88AB\u78C1\u573A\u548C\u7535\u7EBF\u8986\u76D6\u300D</p></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/ab7be11c4b6a3.png" alt="image.png" title="image.png"><p>Read and write essentially have the same mechanism: the direction of the current in the Head corresponds to the orientation of the magnetized spot\u300C\u8BFB\u5199\u672C\u8D28\u4E0A\u5177\u6709\u76F8\u540C\u7684\u673A\u5236\uFF1A\u78C1\u5934\u4E2D\u7535\u6D41\u7684\u65B9\u5411\u4E0E\u78C1\u5316\u70B9\u7684\u65B9\u5411\u76F8\u5BF9\u5E94\u300D</p><p>Two states of the directions of current = two states of the orientations (S-N or N-S) \u300C\u7535\u6D41\u65B9\u5411\u7684\u4E24\u4E2A\u72B6\u6001=\u65B9\u5411\u7684\u4E24\u4E2A\u72B6\u6001\uFF08S-N\u6216N-S\uFF09\u300D</p><ul><li>Read: magnetic (Platter) \u2192 current (Head)</li><li>Write: current (Head) \u2192 magnetic (Platter)</li></ul><h4 id="how-are-the-bits-organized-on-platter" tabindex="-1"><a class="header-anchor" href="#how-are-the-bits-organized-on-platter" aria-hidden="true">#</a> How are the Bits Organized on Platter</h4><p>Tracks and Sectors on Platter\u300C\u76D8\u4E0A\u7684\u8F68\u9053\u548C\u6247\u533A\u300D</p><ul><li>The patter contains a set of concentric rings, called tracks\u300C\u56FE\u6848\u5305\u542B\u4E00\u7EC4\u540C\u5FC3\u73AF\uFF0C\u79F0\u4E3A\u8F68\u9053\u300D</li><li>Each track contains a number of sectors\u300C\u6BCF\u4E2A\u8F68\u9053\u5305\u542B\u591A\u4E2A\u6247\u533A\u300D</li><li>Sector = a number of magnetized spots ( a block of data)\u300C\u6247\u533A=\u78C1\u5316\u70B9\u6570\uFF08\u6570\u636E\u5757\uFF09\u300D</li><li>The size of a sector may vary\u300C\u4E00\u4E2A\u6247\u533A\u7684\u89C4\u6A21\u53EF\u80FD\u4F1A\u6709\u6240\u4E0D\u540C\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/7869321a7b2c0.png" alt="image.png" title="image.png"><h5 id="one-issue-with-this-organization" tabindex="-1"><a class="header-anchor" href="#one-issue-with-this-organization" aria-hidden="true">#</a> One issue with this Organization</h5><p>There could be different date rates for different tracks</p><ul><li>The head is fixed while the platter is spinning\u300C\u76D8\u65CB\u8F6C\u65F6\uFF0C\u5934\u662F\u56FA\u5B9A\u7684\u300D</li><li>Inner and Outer tracks have different speed relatively to the head\u300C\u5185\u78C1\u9053\u548C\u5916\u78C1\u9053\u76F8\u5BF9\u4E8E\u78C1\u5934\u7684\u901F\u5EA6\u4E0D\u540C\u300D <ul><li>this result in different data rates when reading/writing bits stored in inner and outer tracks\u300C\u8BFB\u53D6/\u5199\u5165\u5B58\u50A8\u5728\u5185\u78C1\u9053\u548C\u5916\u78C1\u9053\u4E2D\u7684\u4F4D\u65F6\uFF0C\u8FD9\u5BFC\u81F4\u4E0D\u540C\u7684\u6570\u636E\u901F\u7387\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/6c49ef45a57a7.png" alt="image.png" title="image.png"><h6 id="arrangement-1-constant-angular-velocity-cav" tabindex="-1"><a class="header-anchor" href="#arrangement-1-constant-angular-velocity-cav" aria-hidden="true">#</a> Arrangement 1: Constant Angular Velocity (CAV)</h6><p>\u5E03\u7F6E1\uFF1A\u6052\u5B9A\u89D2\u901F\u5EA6\uFF08CAV\uFF09</p><ul><li>Ideal: rotate\u300C\u65CB\u8F6C\u300D the platter\u300C\u76D8\u300D at a constant speed, but the densities\u300C\u5BC6\u5EA6\u300D of spots (bits) on different tracks\u300C\u8F68\u9053\u300D are different\u300C\u7406\u60F3\uFF1A\u4EE5\u6052\u5B9A\u7684\u901F\u5EA6\u65CB\u8F6C\u76D8\u5B50\uFF0C\u4F46\u662F\u4E0D\u540C\u8F68\u9053\u4E0A\u7684\u6591\u70B9\uFF08\u4F4D\uFF09\u7684\u5BC6\u5EA6\u4E0D\u540C\u300D</li><li>Platter is divided into a number of pie-shaped sectors\u300C\u6247\u533A\u300D \u2013 advantage: blocks of data can be addressed by tracks and sectors\u300C\u76D8\u7247\u5206\u4E3A\u591A\u4E2A\u6247\u5F62\u6247\u533A\u2013\u4F18\u52BF\uFF1A\u6570\u636E\u5757\u53EF\u4EE5\u901A\u8FC7\u78C1\u9053\u548C\u6247\u533A\u8FDB\u884C\u5BFB\u5740\u300D</li><li>Disadvantage: amount of data can be stored on long outer tracks is only the same as what can be stored on short inner tracks (waste of space)\u300C\u7F3A\u70B9\uFF1A\u53EF\u4EE5\u5728\u957F\u7684\u5916\u90E8\u78C1\u9053\u4E0A\u5B58\u50A8\u7684\u6570\u636E\u91CF\u4E0E\u53EF\u4EE5\u5728\u77ED\u7684\u5185\u90E8\u78C1\u9053\u4E0A\u5B58\u50A8\u7684\u6570\u636E\u91CF\u76F8\u540C\uFF08\u6D6A\u8D39\u7A7A\u95F4\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/9fe9487796b45.png" alt="image.png" title="image.png" width="300px"><h6 id="arrangement-2-multiple-zone-recording" tabindex="-1"><a class="header-anchor" href="#arrangement-2-multiple-zone-recording" aria-hidden="true">#</a> Arrangement 2: Multiple Zone Recording</h6><p>Platter are organized into zones</p><ul><li>Each zone has multiple tracks\u300C\u6BCF\u4E2A\u533A\u57DF\u90FD\u6709\u591A\u4E2A\u8F68\u9053\u300D</li><li>Outer track has more sectors\u300C\u5916\u8F68\u6709\u66F4\u591A\u7684\u6247\u533A\u300D</li><li>The densities of the sectors are the same \u2013 increased capacity\u300C\u90E8\u95E8\u7684\u5BC6\u5EA6\u76F8\u540C\u2013\u589E\u52A0\u5BB9\u91CF\u300D</li><li>Various data transfer rate (for some disk designs, the rotation speed may change to achieve constant transfer rate)\u300C\u5404\u79CD\u6570\u636E\u4F20\u8F93\u901F\u7387\uFF08\u5BF9\u4E8E\u67D0\u4E9B\u78C1\u76D8\u8BBE\u8BA1\uFF0C\u8F6C\u901F\u53EF\u80FD\u4F1A\u6709\u6240\u53D8\u5316\uFF0C\u4EE5\u5B9E\u73B0\u6052\u5B9A\u7684\u4F20\u8F93\u901F\u7387\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/3131225d3da22.png" alt="image.png" title="image.png" width="240px"><h3 id="components-of-disk-drive" tabindex="-1"><a class="header-anchor" href="#components-of-disk-drive" aria-hidden="true">#</a> Components of Disk Drive</h3><p>Data organization on Disk\u300C\u78C1\u76D8\u4E0A\u7684\u6570\u636E\u7EC4\u7EC7\u300D</p><ul><li>Disk \u2013 Platters \u2013 Tracks \u2013 Sectors\u300C\u78C1\u76D8\u2013\u76D8\u2013\u8F68\u9053\u2013\u6247\u533A\u300D</li><li>Head has the same width as that of tracks (or sectors)\u300C\u78C1\u5934\u7684\u5BBD\u5EA6\u4E0E\u78C1\u9053\uFF08\u6216\u6247\u533A\uFF09\u7684\u5BBD\u5EA6\u76F8\u540C\u300D</li><li>Read/Write by sectors (one sector usually contain 512 bytes)\u300C\u6309\u6247\u533A\u8BFB/\u5199\uFF08\u4E00\u4E2A\u6247\u533A\u901A\u5E38\u5305\u542B512\u5B57\u8282\uFF09\u300D</li></ul><p>question: how to locate\u300C\u5B9A\u4F4D\u5230\u300D the desired\u300C\u6240\u9700\u300D sectors within a track?\u300C\u95EE\u9898\uFF1A\u5982\u4F55\u5728\u8F68\u9053\u4E2D\u627E\u5230\u6240\u9700\u7684\u6247\u533A\uFF1F\u300D</p><h4 id="how-to-locate-sector-positions-within-track" tabindex="-1"><a class="header-anchor" href="#how-to-locate-sector-positions-within-track" aria-hidden="true">#</a> How to Locate Sector Positions within Track</h4><img src="https://pic.hanjiaming.com.cn/2021/04/19/106a006305d32.png" alt="image.png" title="image.png"><p>Use extra control data as Marks\u300C\u4F7F\u7528\u989D\u5916\u7684\u63A7\u5236\u6570\u636E\u4F5C\u4E3A\u6807\u8BB0\u300D</p><p>Extra control data \u2013 used only by disk drive, not accessible by users Format of Disk (the organization of user data and control data)\u300C\u989D\u5916\u7684\u63A7\u5236\u6570\u636E\u2013\u4EC5\u7531\u78C1\u76D8\u9A71\u52A8\u5668\u4F7F\u7528\uFF0C\u7528\u6237\u65E0\u6CD5\u8BBF\u95EE\u300D</p><p>Example: Winchester Disk Format: each track has 30 sectors, each sector has 600 bytes (512 for data storage)\u300C\u793A\u4F8B\uFF1A\u6E29\u5F7B\u65AF\u7279\u78C1\u76D8\u683C\u5F0F\uFF1A\u6BCF\u4E2A\u8F68\u9053\u670930\u4E2A\u6247\u533A\uFF0C\u6BCF\u4E2A\u6247\u533A\u6709600\u5B57\u8282\uFF08\u6570\u636E\u5B58\u50A8\u4E3A512\uFF09\u300D</p><h4 id="how-to-locate-sector-positions-within-track-1" tabindex="-1"><a class="header-anchor" href="#how-to-locate-sector-positions-within-track-1" aria-hidden="true">#</a> How to Locate Sector Positions within Track</h4><p>field\u300C\u5B57\u6BB5\u300D</p><ul><li>Synch byte: the beginning\u300C\u540C\u6B65\u5B57\u8282\uFF1A\u5F00\u59CB\u300D</li><li>Head number: because there are multiple platters and heads\u300C\u5934\u6570\uFF1A\u56E0\u4E3A\u6709\u591A\u4E2A\u76D8\u548C\u5934\u300D</li><li>CRC: error correction code\u300CCRC\uFF1A\u7EA0\u9519\u7801\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/8c925cdac0cb9.png" alt="image.png" title="image.png"><h3 id="the-timing-of-disk-i-o-transfer" tabindex="-1"><a class="header-anchor" href="#the-timing-of-disk-i-o-transfer" aria-hidden="true">#</a> The Timing of Disk I/O Transfer</h3><p>An important performance measurement\u300C\u4E00\u4E2A\u91CD\u8981\u7684\u6027\u80FD\u6307\u6807\u300D</p><p>The time does not just depend on how fast the disk can read/write bits \u2013 many other considerations\u300C\u65F6\u95F4\u4E0D\u4EC5\u4EC5\u53D6\u51B3\u4E8E\u78C1\u76D8\u53EF\u4EE5\u8BFB\u53D6/\u5199\u5165\u4F4D\u7684\u901F\u5EA6\u2013\u8FD8\u6709\u8BB8\u591A\u5176\u4ED6\u6CE8\u610F\u4E8B\u9879\u300D</p><p>There are various queuing delays: wait for device and wait for channel\u300C\u6392\u961F\u5EF6\u8FDF\u6709\u591A\u79CD\uFF1A\u7B49\u5F85\u8BBE\u5907\u548C\u7B49\u5F85\u9891\u9053\u300D</p><ul><li>Wait for device: when process (task) issues an I/O request, it must first wait in a queue for the device to be available\u300C\u7B49\u5F85\u8BBE\u5907\uFF1A\u5F53\u8FDB\u7A0B\uFF08\u4EFB\u52A1\uFF09\u53D1\u51FAI / O\u8BF7\u6C42\u65F6\uFF0C\u5B83\u5FC5\u987B\u9996\u5148\u5728\u961F\u5217\u4E2D\u7B49\u5F85\u8BBE\u5907\u53EF\u7528\u300D</li><li>Wait for channel: multiple I/O devices may share the channel between Processor and devices \u2013 need to wait for the channel to be available\u300C\u7B49\u5F85\u901A\u9053\uFF1A\u591A\u4E2AI / O\u8BBE\u5907\u53EF\u80FD\u5728\u5904\u7406\u5668\u548C\u8BBE\u5907\u4E4B\u95F4\u5171\u4EAB\u901A\u9053\u2013\u9700\u8981\u7B49\u5F85\u901A\u9053\u53EF\u7528\u300D</li></ul><p><strong>Access time</strong></p><p>The time for the Head to get to the right position\u300C\u5934\u90E8\u5230\u8FBE\u6B63\u786E\u4F4D\u7F6E\u7684\u65F6\u95F4\u300D</p><p>It consists of two parts: seek time and rotational delay\u300C\u5B83\u7531\u4E24\u90E8\u5206\u7EC4\u6210\uFF1A\u5BFB\u9053\u65F6\u95F4\u548C\u65CB\u8F6C\u5EF6\u8FDF\u300D</p><ul><li>Seek time: the Head moves to the right track\u300C\u641C\u5BFB\u65F6\u95F4\uFF1A\u5934\u90E8\u79FB\u52A8\u5230\u6B63\u786E\u7684<strong>\u8F68\u9053</strong>\u300D</li><li>Rotational delay: the desired sector rotates to the Head\u300C\u65CB\u8F6C\u5EF6\u8FDF\uFF1A\u6240\u9700\u6247\u533A\u65CB\u8F6C\u5230<strong>\u78C1\u5934</strong>\u300D</li><li>Factors: how compact is the platter (size of platter), rotation speed\u300C\u56E0\u7D20\uFF1A\u76D8\u7247\u7684\u7D27\u51D1\u7A0B\u5EA6\uFF08\u76D8\u7247\u7684\u5927\u5C0F\uFF09\uFF0C\u65CB\u8F6C\u901F\u5EA6\u300D</li></ul><p>Common example: average seek time ~ 10 ms; average rotational delay ~ 1.5 ms\u300C\u5E38\u89C1\u793A\u4F8B\uFF1A\u5E73\u5747\u5BFB\u9053\u65F6\u95F4\uFF5E10\u6BEB\u79D2\uFF1B\u5E73\u5747\u65CB\u8F6C\u5EF6\u8FDF\uFF5E1.5\u6BEB\u79D2\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/9f86073471711.png" alt="image.png" title="image.png"><p><strong>Data transfer</strong></p><p>The actual time to read/write data as platter moves under head\u300C\u5F53\u78C1\u76D8\u5728\u78C1\u5934\u4E0B\u65B9\u79FB\u52A8\u65F6\uFF0C\u8BFB\u53D6/\u5199\u5165\u6570\u636E\u7684\u5B9E\u9645\u65F6\u95F4\u300D</p><p>Factor: the rotation speed and the number of sectors\u300C\u56E0\u7D20\uFF1A\u8F6C\u901F\u548C\u6247\u533A\u6570\u300D Typical rotation speed: 3600 \u2013 20,000 rpm (revolutions per min)\u300C\u5178\u578B\u8F6C\u901F\uFF1A3600 \u2013 20,000 rpm\uFF08\u6BCF\u5206\u949F\u8F6C\u6570\uFF09\u300D</p><h3 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/1c5a4658ef677.png" alt="image.png" title="image.png"><h2 id="redundant-array-of-independent-disks" tabindex="-1"><a class="header-anchor" href="#redundant-array-of-independent-disks" aria-hidden="true">#</a> Redundant Array of Independent Disks</h2><p>Redundant Array of Independent Disks (RAID)\u300C\u72EC\u7ACB\u78C1\u76D8\u5197\u4F59\u9635\u5217\uFF08RAID\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/c24969bc7bffc.png" alt="image.png" title="image.png"><h3 id="overview" tabindex="-1"><a class="header-anchor" href="#overview" aria-hidden="true">#</a> Overview</h3><ul><li>There are 7 levels: RAID 0 to RAID 6\u300C\u5171\u67097\u4E2A\u7EA7\u522B\uFF1ARAID 0\u81F3RAID 6\u300D</li><li>These levels are NOT hierarchical, they are different designs (disks)\u300C\u8FD9\u4E9B\u7EA7\u522B\u4E0D\u662F\u5206\u5C42\u7684\uFF0C\u5B83\u4EEC\u662F\u4E0D\u540C\u7684\u8BBE\u8BA1\uFF08\u78C1\u76D8\uFF09\u300D</li><li>Different levels have different characteristics\u300C\u4E0D\u540C\u7EA7\u522B\u5177\u6709\u4E0D\u540C\u7279\u5F81\u300D</li></ul><h4 id="common-characteristics" tabindex="-1"><a class="header-anchor" href="#common-characteristics" aria-hidden="true">#</a> Common Characteristics</h4><p>Common Characteristics\u300C\u5171\u540C\u7279\u5F81\u300D</p><ul><li>A logic disk drive to the operating system\u300C\u64CD\u4F5C\u7CFB\u7EDF\u7684\u903B\u8F91\u78C1\u76D8\u9A71\u52A8\u5668\u300D</li><li>Data striping: divide logically sequential data (file) into segments (strips) and distribute them to different physical devices\u300C\u6570\u636E\u6761\u5E26\u5316\uFF1A\u5C06\u903B\u8F91\u4E0A\u987A\u5E8F\u7684\u6570\u636E\uFF08\u6587\u4EF6\uFF09\u5212\u5206\u4E3A\u6BB5\uFF08\u6761\uFF09\u5E76\u5C06\u5176\u5206\u53D1\u5230\u4E0D\u540C\u7684\u7269\u7406\u8BBE\u5907\u300D</li><li>Redundant: will store some redundant data (except for RAID 0)\u300C\u5197\u4F59\uFF1A\u5C06\u5B58\u50A8\u4E00\u4E9B\u5197\u4F59\u6570\u636E\uFF08RAID 0\u9664\u5916\uFF09\u300D</li></ul><p>RAID wants to address two main issues of single disk\u300CRAID\u5E0C\u671B\u89E3\u51B3\u5355\u4E2A\u78C1\u76D8\u7684\u4E24\u4E2A\u4E3B\u8981\u95EE\u9898\u300D</p><ul><li>I/O speed: parallel the I/O operations across many disks\u300CI / O\u901F\u5EA6\uFF1A\u8DE8\u591A\u4E2A\u78C1\u76D8\u5E76\u884C\u6267\u884CI / O\u64CD\u4F5C\u300D</li><li>Reliability: introduce redundancy\u300C\u53EF\u9760\u6027\uFF1A\u5F15\u5165\u5197\u4F59\u300D</li></ul><h3 id="raid-0-\u2013-data-distribution-no-redundancy" tabindex="-1"><a class="header-anchor" href="#raid-0-\u2013-data-distribution-no-redundancy" aria-hidden="true">#</a> RAID 0 \u2013 Data Distribution (NO Redundancy)</h3><p>Data are segmented into strips and distributed:\u300C\u6570\u636E\u88AB\u5206\u5272\u6210\u6761\u5E26\u5E76\u5206\u53D1\uFF1A\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/0ac9de319e6af.png" alt="image.png" title="image.png"><ul><li>Data are stripped across all disks\u300C\u6570\u636E\u8DE8\u6240\u6709\u78C1\u76D8\u5265\u79BB\u300D\uFF1ARound Robin stripping\u300C\u5FAA\u73AF\u5265\u79BB\u300D</li><li>Increased speed\u300C\u63D0\u9AD8\u901F\u5EA6\u300D <ul><li>A set of data is likely to be stripped across multiple disks \u300C\u4E00\u7EC4\u6570\u636E\u53EF\u80FD\u4F1A\u8DE8\u591A\u4E2A\u78C1\u76D8\u5265\u79BB\u300D</li><li>Disks seek in parallel\u300C\u78C1\u76D8\u5E76\u884C\u67E5\u627E\u300D Failure of one disk may cause the loss of multiple files\u300C\u4E00\u4E2A\u78C1\u76D8\u53D1\u751F\u6545\u969C\u53EF\u80FD\u4F1A\u5BFC\u81F4\u591A\u4E2A\u6587\u4EF6\u4E22\u5931\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/11b168754f6a5.png" alt="image.png" title="image.png"><h3 id="raid-1-duplicated-data-mirrored-data" tabindex="-1"><a class="header-anchor" href="#raid-1-duplicated-data-mirrored-data" aria-hidden="true">#</a> Raid 1 Duplicated data (mirrored data)</h3><p>\u91CD\u590D\u6570\u636E\uFF08\u955C\u50CF\u6570\u636E\uFF09</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/75aef1e5eb8f0.png" alt="image.png" title="image.png"><p>Now, a logical disk contains two same components\u300C\u73B0\u5728\uFF0C\u903B\u8F91\u78C1\u76D8\u5305\u542B\u4E24\u4E2A\u76F8\u540C\u7684\u7EC4\u4EF6\u300D</p><h3 id="raid-2-and-raid-3-redundancy-through-error-correction-code" tabindex="-1"><a class="header-anchor" href="#raid-2-and-raid-3-redundancy-through-error-correction-code" aria-hidden="true">#</a> RAID 2 and RAID 3: Redundancy through Error Correction Code</h3><p>RAID 2\u548CRAID 3\uFF1A\u901A\u8FC7\u7EA0\u9519\u7801\u5B9E\u73B0\u5197\u4F59</p><ul><li>Parallel Access Technique\u300C\u5E76\u884C\u8BBF\u95EE\u6280\u672F\u300D</li><li>The spindles of disk drives are synchronized so that each disk head is in the same position on each disk at any given time\u300C\u78C1\u76D8\u9A71\u52A8\u5668\u7684\u4E3B\u8F74\u5DF2\u540C\u6B65\uFF0C\u56E0\u6B64\u6BCF\u4E2A\u78C1\u76D8\u5934\u5728\u4EFB\u4F55\u7ED9\u5B9A\u65F6\u95F4\u90FD\u5728\u6BCF\u4E2A\u78C1\u76D8\u4E0A\u7684\u76F8\u540C\u4F4D\u7F6E\u300D</li><li>Read the bits in the same position in parallel\u300C\u5E76\u884C\u8BFB\u53D6\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u300D</li><li>The size of each strip is very small (e.g., a single byte or word)\u300C\u5E76\u884C\u8BFB\u53D6\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u300D</li></ul><p>RAID 2 and RAID 3 differ in error correction code used\u300CRAID 2\u548CRAID 3\u4F7F\u7528\u7684\u7EA0\u9519\u7801\u4E0D\u540C\u300D</p><p><strong>RAID 2 typically uses Hamming Code</strong></p><p>Example: (7-4) Hamming Code, the bits in the same position on each data disks are encoded, the resulting parity bits are then stored in the same position on the parity disks\u300C\u793A\u4F8B\uFF1A\uFF087-4\uFF09\u6C49\u660E\u7801\uFF0C\u5BF9\u6BCF\u4E2A\u6570\u636E\u78C1\u76D8\u4E0A\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u8FDB\u884C\u7F16\u7801\uFF0C\u7136\u540E\u5C06\u6240\u5F97\u7684\u5947\u5076\u6821\u9A8C\u4F4D\u5B58\u50A8\u5728\u5947\u5076\u6821\u9A8C\u78C1\u76D8\u4E0A\u7684\u76F8\u540C\u4F4D\u7F6E\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/fbea71618ff6c.png" alt="image.png" title="image.png"><p>Data bits and parity bits are read/write simultaneously\u300C\u540C\u65F6\u8BFB\u53D6/\u5199\u5165\u6570\u636E\u4F4D\u548C\u5947\u5076\u6821\u9A8C\u4F4D\u300D</p><ul><li>Codes are calculated \u201Con-the-fly\u201D\u300C\u4EE3\u7801\u662F\u201C\u52A8\u6001\u201D\u8BA1\u7B97\u7684\u300D</li><li>Correct error in real time\u300C\u5B9E\u65F6\u7EA0\u6B63\u9519\u8BEF\u300D</li><li>Good for low quality disks which has frequent errors\u300C\u9002\u7528\u4E8E\u7ECF\u5E38\u51FA\u9519\u7684\u4F4E\u8D28\u91CF\u78C1\u76D8\u300D</li></ul><p>Still lots of redundancy (although better than RAID 1)\u300C\u4ECD\u7136\u6709\u5F88\u591A\u5197\u4F59\uFF08\u5C3D\u7BA1\u66F4\u597D\uFF0C\u6BD4RAID 1\uFF09\u300D</p><p>Expensive, not commonly used\u300C\u6602\u8D35\uFF0C\u4E0D\u5E38\u7528\u300D</p><p><strong>RAID 3 uses a single parity bit</strong></p><p>Add a single parity bit for the data bits (b0 \u2013 b3) in the same position (bit-interleaved parity)\u300C\u5728\u540C\u4E00\u4F4D\u7F6E\u4E3A\u6570\u636E\u4F4D\uFF08b0 \u2013 b3\uFF09\u6DFB\u52A0\u4E00\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\uFF08\u6BD4\u7279\u4EA4\u7EC7\u5947\u5076\u6821\u9A8C\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/f274b622d6288.png" alt="image.png" title="image.png"><p>Only one redundant disk, no matter how large the array\u300C\u53EA\u6709\u4E00\u4E2A\u5197\u4F59\u78C1\u76D8\uFF0C\u65E0\u8BBA\u9635\u5217\u6709\u591A\u5927\u300D</p><p>Efficient than RAID 2\u300C\u6BD4RAID 2\u66F4\u9AD8\u6548\u300D</p><h3 id="raid-4-6" tabindex="-1"><a class="header-anchor" href="#raid-4-6" aria-hidden="true">#</a> RAID 4 - 6</h3><p>Compared to RAID 3\u300C\u4E0ERAID 3\u76F8\u6BD4\u300D</p><ul><li>Disks are accessed independently (not in parallel)\u300C\u72EC\u7ACB\u8BBF\u95EE\u78C1\u76D8\uFF08\u4E0D\u662F\u5E76\u884C\u8BBF\u95EE\uFF09\u300D</li><li>Strips have much larger size (block-level), good for high I/O read request rate (since one request can handled by one disk)\u300C\u6761\u5E26\u7684\u5927\u5C0F\u8981\u5927\u5F97\u591A\uFF08\u5757\u7EA7\uFF09\uFF0C\u6709\u5229\u4E8E\u9AD8I/O\u8BFB\u53D6\u8BF7\u6C42\u7387\uFF08\u56E0\u4E3A\u4E00\u4E2A\u78C1\u76D8\u53EF\u4EE5\u5904\u7406\u4E00\u4E2A\u8BF7\u6C42\uFF09\u300D</li><li>Also compute a single bit parity for corresponding data bits (the distribution of parity bits are different in RAID 4, 5, 6\u300C\u8FD8\u8BA1\u7B97\u76F8\u5E94\u6570\u636E\u4F4D\u7684\u5355\u4F4D\u5947\u5076\u6821\u9A8C\uFF08\u5947\u5076\u6821\u9A8C\u4F4D\u5728RAID 4\u30015\u30016\u4E2D\u7684\u5206\u5E03\u4E0D\u540C\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/feb59393e7c87.png" alt="image.png" title="image.png"><p>Bottleneck for data update (there is a write penalty): suppose we want to update one file in block 0, we need to read multiple blocks to also update the parity information)\u300C\u6570\u636E\u66F4\u65B0\u74F6\u9888\uFF08\u6709\u5199\u60E9\u7F5A\uFF09\uFF1A\u5047\u8BBE\u6211\u4EEC\u8981\u66F4\u65B0\u57570\u4E2D\u7684\u4E00\u4E2A\u6587\u4EF6\uFF0C\u6211\u4EEC\u9700\u8981\u8BFB\u53D6\u591A\u4E2A\u5757\u6765\u66F4\u65B0\u5947\u5076\u6821\u9A8C\u4FE1\u606F\uFF09\u300D</p><p><strong>Raid 5</strong></p><p>Almost the same as RAID 4\u300C\u51E0\u4E4E\u4E0ERAID 4\u76F8\u540C\u300D</p><ul><li>Difference: round robin allocation for parity strips, so that parity information is striped across all disks\u300C\u533A\u522B\uFF1A\u5947\u5076\u6821\u9A8C\u6761\u5E26\u7684\u8F6E\u8BE2\u5206\u914D\uFF0C\u4ECE\u800C\u4F7F\u5947\u5076\u6821\u9A8C\u4FE1\u606F\u5728\u6240\u6709\u78C1\u76D8\u4E0A\u5206\u6761\u300D</li><li>Can avoid the bottleneck at parity disk in RAID 4\u300C\u53EF\u4EE5\u907F\u514DRAID 4\u4E2D\u5947\u5076\u6821\u9A8C\u78C1\u76D8\u7684\u74F6\u9888\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/5de45613fc708.png" alt="image.png" title="image.png"><h2 id="ssd-basics" tabindex="-1"><a class="header-anchor" href="#ssd-basics" aria-hidden="true">#</a> SSD Basics</h2><ul><li>Previous memory devices\u300C\u4EE5\u524D\u7684\u5B58\u50A8\u8BBE\u5907\u300D</li><li>RAM: fast but volatile \u300CRAM\uFF1A\u5FEB\u901F\u4F46\u6613\u5931\u300D</li><li>ROM: read only\u300CROM\uFF1A\u53EA\u8BFB\u300D</li><li>Variations of ROM (PROM, EPROM, Flash Memory, EEPROM): write at a high cost\u300CROM\u7684\u53D8\u4F53\uFF08PROM\uFF0CEPROM\uFF0C\u95EA\u5B58\uFF0CEEPROM\uFF09\uFF1A\u5199\u5165\u6210\u672C\u9AD8\u300D</li><li>Hard drive disk: mechanical parts\u300C\u786C\u76D8\u78C1\u76D8\uFF1A\u673A\u68B0\u96F6\u4EF6\u300D</li></ul><p>Two components\uFF1AController + memory component\u300C\u63A7\u5236\u5668+\u5185\u5B58\u7EC4\u4EF6\u300D</p><ul><li>Specifically, memory component uses NAND flash memory (since 1990s)\u300C\u5177\u4F53\u6765\u8BF4\uFF0C\u5B58\u50A8\u7EC4\u4EF6\u4F7F\u7528NAND\u95EA\u5B58\uFF08\u81EA20\u4E16\u7EAA90\u5E74\u4EE3\u4EE5\u6765\uFF09\u300D</li><li>Basic element: NAND flash cell that can store 1 bit\u300C\u57FA\u672C\u5143\u4EF6\uFF1A\u53EF\u5B58\u50A81\u4F4D\u7684NAND\u95EA\u5B58\u5355\u5143\u300D</li><li>Design: the organization of cells and read/write operations\u300C\u8BBE\u8BA1\uFF1A\u5355\u5143\u7684\u7EC4\u7EC7\u548C\u8BFB\u5199\u64CD\u4F5C\u300D</li></ul><h3 id="nand-flash-cell" tabindex="-1"><a class="header-anchor" href="#nand-flash-cell" aria-hidden="true">#</a> NAND Flash Cell</h3><p>Surrounding circuitry can change the states of the floating gate\u300C\u5468\u56F4\u7684\u7535\u8DEF\u53EF\u4EE5\u6539\u53D8\u6D6E\u6805\u7684\u72B6\u6001\u300D</p><p>read/write though the control gate\u300C\u901A\u8FC7\u63A7\u5236\u95E8\u8BFB/\u5199\u300D</p><p>Overall, this cell can store one bit\u300C\u603B\u7684\u6765\u8BF4\uFF0C\u8FD9\u4E2A\u5355\u5143\u53EF\u4EE5\u5B58\u50A8\u4E00\u4E2A\u4F4D\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/b0e77f321a368.png" alt="image.png" title="image.png"><h3 id="from-cells-to-pages-to-blocks" tabindex="-1"><a class="header-anchor" href="#from-cells-to-pages-to-blocks" aria-hidden="true">#</a> From Cells to Pages to Blocks</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/c67fa0c7689d6.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/19/245686c4d53ac.png" alt="image.png" title="image.png"><h3 id="ssd-architecture" tabindex="-1"><a class="header-anchor" href="#ssd-architecture" aria-hidden="true">#</a> SSD Architecture</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/e8e31ac581bcc.png" alt="image.png" title="image.png"><h3 id="read-and-write-operation" tabindex="-1"><a class="header-anchor" href="#read-and-write-operation" aria-hidden="true">#</a> Read and Write Operation</h3><p>Characteristics\u300C\u7279\u70B9\u300D</p><p>Basic unit: read \u2013 page; write \u2013 page (when the page is empty, i.e., there is no direct over-write)\u300C\u57FA\u672C\u5355\u4F4D\uFF1A\u8BFB-\u9875\uFF1B\u5199-\u9875\uFF08\u5F53\u9875\u4E3A\u7A7A\u65F6\uFF0C\u5373\u6CA1\u6709\u76F4\u63A5\u91CD\u5199\uFF09\u300D</p><p>The feature of flash memory: need to erase data before over-write (update)\u300C\u95EA\u5B58\u7684\u7279\u70B9\uFF1A\u5728\u91CD\u5199\uFF08\u66F4\u65B0\uFF09\u4E4B\u524D\u9700\u8981\u64E6\u9664\u6570\u636E\u300D</p><p>Data are erased in blocks (using high voltage, time consuming)\u300C\u6570\u636E\u5206\u5757\u64E6\u9664\uFF08\u4F7F\u7528\u9AD8\u7535\u538B\uFF0C\u8017\u65F6\uFF09\u300D</p><p>As a result, if we want to over-write some pages, we need to erase a block first, write pages\u300C\u56E0\u6B64\uFF0C\u5982\u679C\u6211\u4EEC\u60F3\u91CD\u5199\u4E00\u4E9B\u9875\u9762\uFF0C\u6211\u4EEC\u9700\u8981\u5148\u5220\u9664\u4E00\u4E2A\u5757\uFF0C\u7136\u540E\u518D\u5199\u9875\u9762\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/7fd236ffa2ac8.png" alt="image.png" title="image.png"><p>Garbage collection\u300C\u5783\u573E\u6536\u96C6\u300D:</p><ul><li>Copy \u201Cgood data\u201D E,F,G,H and A\u2019,B\u2019,C\u2019,D\u2019 into a new empty block Y\u300C\u5C06\u201C\u597D\u6570\u636E\u201D E\uFF0CF\uFF0CG\uFF0CH\u548CA\u2032\uFF0CB\u2032\uFF0CC\u2032\uFF0CD\u2032\u590D\u5236\u5230\u65B0\u7684\u7A7A\u767D\u5757Y\u4E2D\u300D</li><li>Erase block X (garbage A, B, C,D are collected \u2013 more empty pages)\u300C\u64E6\u9664\u5757X\uFF08\u6536\u96C6\u4E86\u5783\u573EA\uFF0CB\uFF0CC\uFF0CD \u2013\u66F4\u591A\u7684\u7A7A\u767D\u9875\uFF09\u300D</li><li>This is done in the background, and is controlled by the Controller component in SSD\u300C\u8FD9\u662F\u5728\u540E\u53F0\u5B8C\u6210\u7684\uFF0C\u5E76\u7531SSD\u4E2D\u7684Controller\u7EC4\u4EF6\u63A7\u5236\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/84b6bdcf56db0.png" alt="image.png" title="image.png" width="300px "><h3 id="comparison" tabindex="-1"><a class="header-anchor" href="#comparison" aria-hidden="true">#</a> Comparison</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/607f93e951dfb.png" alt="image.png" title="image.png"><!--]-->`);
+  _push(`<!--[--><h1 id="\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51" tabindex="-1"><a class="header-anchor" href="#\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51" aria-hidden="true">#</a> \u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51</h1><p>\u5199\u8FC7\u8BA1\u7B97\u673A\u4EE3\u7801\u7684\u540C\u5B66\u5927\u90FD\u77E5\u9053\uFF0C\u8BA1\u7B97\u673A\u4E2D\u7684\u5C0F\u6570\u65E0\u6CD5\u8FDB\u884C\u7CBE\u786E\u8BA1\u7B97\uFF0C\u8FD9\u662F\u4E3A\u4EC0\u4E48\u5462\uFF1F\u8FD9\u662F\u56E0\u4E3A\u4E0D\u540C\u8FDB\u5236\u7684\u5C0F\u6570\u4E0D\u80FD\u7CBE\u786E\u7684\u8F6C\u6362\u3002\u6211\u4EEC\u8FD9\u7BC7\u6587\u7AE0\u5C06\u63A2\u7A76\u8FD9\u4E2A\u95EE\u9898\u3002</p><p>\u9605\u8BFB\u8FD9\u7BC7\u6587\u7AE0\u524D\uFF0C\u4F60\u53EF\u80FD\u9700\u8981\u9605\u8BFB \u8BA1\u7B97\u673A\u7EC4\u7EC7\u7B80\u4ECB</p><h2 id="number-systems-\u7684-\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#number-systems-\u7684-\u6982\u8FF0" aria-hidden="true">#</a> Number Systems \u7684 \u6982\u8FF0</h2><h3 id="\u6574\u6570\u7684\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7684\u8868\u793A" aria-hidden="true">#</a> \u6574\u6570\u7684\u8868\u793A</h3><p>\u4EBA\u8BA1\u6570\u4EE510\u4E3A\u8FDB\u5236</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129043516586.png" alt="img" loading="lazy"></p><p>610\uFF0C\u4E00\u4E2A\u7B80\u5355\u7684\u5341\u8FDB\u5236\u7684\u6570\u5B57\u3002</p><p>\u89C2\u5BDF\u6211\u4EEC\u53EF\u4EE5\u53D1\u73B0\uFF0C\u4E00\u4E2A\u6570\u5B57\u6709\u8FD9\u6837\u7684\u7279\u70B9</p><ul><li>\u57FA\u6570/\u8FDB\u5236/base \u4E3AB\uFF0C\u4F8B\u5982 B = 10</li><li>B\u4E2A\u4E0D\u540C\u7684\u7B26\u53F7\uFF0C\u5176\u4E2D\u6BCF\u4E2A\u7B26\u53F7\u90FD\u662F\u4E00\u4E2A\u6570\u5B57\uFF08\u4F8B\u598210\u8FDB\u5236\u4E2D\uFF0C0\u30011\u30012\u30013\u30014\u30015\u30016\u30017\u30018\u30019\uFF09</li><li>\u5C06\u7279\u5B9A\u6570\u5B57\u8868\u793A\u4E3A\u62BD\u8C61\u5BF9\u8C61\u7684\u4E66\u5199\u7EA6\u5B9A\uFF08\u4F8B\u5982610\uFF09</li></ul><p>\u5728\u5341\u8FDB\u5236\u7CFB\u7EDF\u4E2D\uFF0C\u5BF9\u4E8E\u6570\u5B57 103</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060639856.png" alt="img" loading="lazy"></p><p>\u5728\u4E8C\u8FDB\u5236\u7CFB\u7EDF\u4E2D\uFF0CB = 2\uFF0C\u6240\u4EE5\u6211\u4EEC\u67092\u4E2A\u7B26\u53F7\uFF1A0\u30011\uFF0C\u6211\u4EEC\u548C\u5341\u8FDB\u5236\u8FDB\u884C\u5BF9\u6BD4\uFF0C\u5BFB\u627E\u5176\u5171\u540C\u7279\u5F81\uFF0C103\u7528\u4E8C\u8FDB\u5236\u8868\u793A\u4E3A1011</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060912480.png" alt="img" loading="lazy"></p><p>\u5341\u516D\u8FDB\u5236\u4E2D\uFF0CB = 16\uFF0C16\u4E2A\u7B26\u53F7\uFF1A0\uFF0C\u2026\uFF0C9\uFF0CA\uFF0CB\uFF0CC\uFF0CD\uFF0CE\uFF0CF</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060959240.png" alt="img" loading="lazy"></p><p>\u90A3\u4E48\uFF0C\u6839\u636E\u6211\u4EEC\u5230\u76EE\u524D\u4E3A\u6B62\u6240\u5B66\u5230\u7684\u77E5\u8BC6\uFF0C103\u7684\u542B\u4E49\u662F\u4EC0\u4E48\uFF1F\u8FD8\u4E0D\u6E05\u695A\uFF01\u6211\u4EEC\u9700\u8981\u4E00\u4E2A\u4E0B\u6807\u6765\u8868\u793A\u6211\u4EEC\u6B63\u5728\u4F7F\u7528\u7684\u6570\u5B57\u7CFB\u7EDF\uFF01\u8FD9\u53EA\u662F\u5E94\u7528\u5728\u6211\u4EEC\u4E66\u5199\u7684\u8FC7\u7A0B\u4E2D\u3002</p><h3 id="\u63A2\u7D22\u89C4\u5F8B" tabindex="-1"><a class="header-anchor" href="#\u63A2\u7D22\u89C4\u5F8B" aria-hidden="true">#</a> \u63A2\u7D22\u89C4\u5F8B</h3><p>\u6570\u5B57\u8868\u793A\uFF1A\u5BF9\u4E8E\u5177\u6709n\u4F4D\u6570\u5B57\u7684\u6574\u6570X\uFF0C\u6211\u4EEC\u5C06\u5176\u5199\u4E3A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061218318.png" alt="img" loading="lazy"></p><p>\u5176\u5341\u8FDB\u5236\u503C\u8868\u793A\u4E3A\uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061244940.png" alt="img" loading="lazy"></p><h3 id="\u5C0F\u6570\u7684\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u6570\u7684\u8868\u793A" aria-hidden="true">#</a> \u5C0F\u6570\u7684\u8868\u793A</h3><p>\u7ED9\u5B9A\u5E26\u5C0F\u6570\u7684\u5B9E\u6570\uFF0Cn\uFF1A\u6574\u6570\u4E2A\u6570\uFF0Cm\uFF1A\u5206\u6570\u4E2A\u6570\uFF0C . \u4F5C\u4E3A\u5206\u6570\u5206\u9694\u7B26 \uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061423942.png" alt="img" loading="lazy"></p><p>\u5176\u5341\u8FDB\u5236\u503C\u8868\u793A\u4E3A\uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061500428.png" alt="img" loading="lazy"></p><h2 id="\u8F6C\u6362\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8F6C\u6362\u6CD5" aria-hidden="true">#</a> \u8F6C\u6362\u6CD5</h2><h3 id="\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236" aria-hidden="true">#</a> \u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236</h3><p>\u6BD4\u5982\uFF1A 1101101.101\uFF082\uFF09 \u8F6C\u5316\u4E3A\u5341\u8FDB\u5236</p><p>1101101.101\uFF082\uFF09 = 1<em>2^6 + 1 * 2^5 + 1</em> 2^3 +1<em>2^2 +1x 2^0 +1</em>2^(-1) +1*10^(-3) = 109.625</p><h3 id="_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236" aria-hidden="true">#</a> 10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236</h3><p>\u6BD4\u5982\uFF1A\u5C06\u5341\u8FDB\u5236\u6574\u657012\u8F6C\u6362\u4E3A\u5176\u4E8C\u8FDB\u5236\u8868\u793A\u5F62\u5F0F 1100\uFF082\uFF09</p><p>\u5BF9\u4E00\u4E2A\u4E8C\u8FDB\u5236\u7684\u6570\u5B57N\uFF0C\u53EF\u4EE5\u5199\u6210</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062208468.png" alt="img" loading="lazy"></p><p>\u5B83\u7684\u5B9E\u9645\u542B\u4E49\u662F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062710292.png" alt="img" loading="lazy"></p><p>\u5982\u679C\u6211\u4EEC\u63D0\u51FA\u4E00\u4E2A2</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062701831.png" alt="img" loading="lazy"></p><p>a0\u5C0F\u4E8E2\uFF0C\u6545\u6211\u4EEC\u6210\u529F\u628Aa0\u5206\u79BB\u5F00</p><p>\u7EE7\u7EED\u63D0\u51FA\u4E00\u4E2A2\uFF0C\u5F97\u5230</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063005706.png" alt="img" loading="lazy"></p><p>a1\u5C0F\u4E8E2\uFF0C\u6545\u6211\u4EEC\u6210\u529F\u628Aa1\u5206\u79BB\u5F00</p><p>\u7B97\u6CD5\uFF1A\u53CD\u590D\u53D6\u5546\u5E76\u5C06\u5176\u9664\u4EE52\uFF0C\u7136\u540E\u5C06\u4F59\u6570\u4F5C\u4E3A\u8F93\u51FA\u6570\u5B57 \u4F55\u65F6\u505C\u6B62\uFF1A\u76F4\u5230\u5546\u4E3A0</p><p>\u8FD9\u4E2A\u65B9\u6CD5\u6211\u4EEC\u5728\u9AD8\u4E2D\u5B66\u8FC7\uFF0C\u5C31\u4E0D\u518D\u8BE6\u7EC6\u89E3\u91CA\uFF0C\u53EA\u662F\u4E3E\u4E2A\u4F8B\u5B50\uFF1A\u5BF9\u4E8E29\u5341\u8FDB\u5236\u8F6C\u6362\u62102\u8FDB\u5236\uFF0C\u6211\u4EEC\u8981\u5BF929\u4E0D\u505C\u5730\u9664\u4EE5\u4E8C\uFF0C\u76F4\u5230\u5546\u4E3A\u96F6\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063138883.png" alt="img" loading="lazy"></p><p>\u7136\u540E\u6211\u4EEC\u5012\u5E8F\u6536\u96C6\uFF0C\u5982\u56FE\u6240\u793A\uFF0C\u654529\uFF0810\uFF09\u4E3A11101\uFF082\uFF09</p><h3 id="\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236</h3><p>\u6211\u4EEC\u5047\u5B9A\u4E00\u4E2A\u4E8C\u8FDB\u5236\u5C0F\u6570\u4E3AF</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063435151.png" alt="img" loading="lazy"></p><p>\u5219\u6309\u7167\u4E0A\u9762\u7684\u89C4\u5219\uFF0C\u53EF\u4EE5\u8FD9\u6837\u628A\u5B83\u8F6C\u6362\u621010\u8FDB\u5236</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063444881.png" alt="img" loading="lazy"></p><h3 id="\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236</h3><p>\u4E3E\u4E2A\u4F8B\u5B50\uFF0C\u5BF9\u4E8E0.45(10),\u8F6C\u6362\u62102\u8FDB\u5236</p><p>\u6839\u636E\u8FD9\u4E2A\u516C\u5F0F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064221102.png" alt="img" loading="lazy"></p><p>\u6211\u4EEC\u53EF\u4EE5\u8FD9\u6837</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064233639.png" alt="img" loading="lazy"></p><p>\u6211\u4EEC\u5C06\u4E0D\u505C\u5730\u91CD\u590D\u8FD9\u4E2A\u8FC7\u7A0B\u3002\u8BF7\u770B\u4E0A\u56FE</p><p>\u6700\u540E\u8FD9\u6837\u8868\u793A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064117128.png" alt="img" loading="lazy"></p><p>\u6CE8\u610F\uFF1A\u5728\u67D0\u4E9B\u60C5\u51B5\u4E0B\uFF0C\u6CA1\u6709\u786E\u5207\u7684\u8868\u793A\uFF0C\u6211\u4EEC\u53EA\u80FD\u5C06\u5C0F\u6570\u70B9\u540E\u7684\u5206\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236\u6570\uFF0C\u53EF\u4EE5\u8BBE\u7F6E\u7CBE\u5EA6\u6700\u9AD8\u4E3Ak</p><p>\u6240\u4EE5</p><h3 id="\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236</h3><p>\u60F3\u6CD5\u5F88\u7B80\u5355\uFF1A\u5C06\u6BCF4\u4E2A\u4E8C\u8FDB\u5236\u6570\u5B57\u8F6C\u6362\u4E3A\u4E00\u4E2A\u5341\u516D\u8FDB\u5236\u6570\u5B57</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064638624.png" alt="img" loading="lazy"></p><p>\u5341\u516D\u8FDB\u5236\u8868\u793A\u6CD5\u901A\u5E38\u7528\u4E8E\u4EE3\u66FF\u4E8C\u8FDB\u5236\u8868\u793A\u6CD5\uFF0C\u4EE5\u63D0\u9AD8\u4EBA\u4EEC\u7684\u53EF\u8BFB\u6027\u3002\uFF0C\u6240\u4EE5\u6613\u4E8E\u5728\u4E8C\u8FDB\u5236\u548C\u5341\u516D\u8FDB\u5236\u4E4B\u95F4\u8F6C\u6362\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064716738.png" alt="img" loading="lazy"></p><h2 id="\u9644\u6CE8" tabindex="-1"><a class="header-anchor" href="#\u9644\u6CE8" aria-hidden="true">#</a> \u9644\u6CE8</h2><p>\u5728\u6570\u5B66\u4E2D\uFF0C\u5BF9\u4E8E\u4EE5B\u4E3A\u8FDB\u5236\u7684\u6570\u5B57\u7CFB\u7EDF\u4E2D\u5177\u6709n\u4F4D\u6570\u5B57\u7684\u6570\u5B57\uFF0Cn\u4F4D\u6570\u5B57\u53EF\u4EE5\u8868\u793A\u7684\u4E0D\u540C\u503C\u7684\u603B\u6570\u662F B^n</p><p>\u4F53\u9A8C\u4F7F\u7528\u8BA1\u7B97\u5668\u8FDB\u884C\u8FDB\u5236\u8F6C\u6362\uFF1Ahttps://tool.oschina.net/hexconvert</p><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>William Stallings, \u201CComputer organization and architecture: Designing for Performance\u201D, 8th Edition, 2010</li><li>Dr. Kai Zhou&#39;s PowerPoint</li><li>LYU, Mingsong &#39;s PowerPoint</li><li>https://www.zhihu.com/question/46432979</li><li>https://www.cnblogs.com/l199616j/p/10401094.html</li><li>https://blog.csdn.net/abc_xian/article/details/100131083</li><li>https://www.cnblogs.com/haotianmichael/p/8024777.html</li><li>https://blog.csdn.net/CYJ2014go/article/details/78080279</li></ul><!--]-->`);
 }
 const _sfc_setup$U = _sfc_main$U.setup;
 _sfc_main$U.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/External Memory.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/digitalSystem/digital-system1.html.vue");
   return _sfc_setup$U ? _sfc_setup$U(props, ctx) : void 0;
 };
-var External_Memory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$U]]);
-var External_Memory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": External_Memory_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$T = {};
-function _sfc_ssrRender$T(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="internal-memory" tabindex="-1"><a class="header-anchor" href="#internal-memory" aria-hidden="true">#</a> Internal Memory</h1><h2 id="recap" tabindex="-1"><a class="header-anchor" href="#recap" aria-hidden="true">#</a> Recap</h2><h3 id="internal-memory-cache" tabindex="-1"><a class="header-anchor" href="#internal-memory-cache" aria-hidden="true">#</a> Internal memory: Cache</h3><ul><li>why? -- locality of references: CPU tends to access clusters of data at certain time\u300C\u4E3A\u4EC0\u4E48\uFF1F -\u5F15\u7528\u7684\u4F4D\u7F6E\uFF1ACPU\u503E\u5411\u4E8E\u5728\u7279\u5B9A\u65F6\u95F4\u8BBF\u95EE\u6570\u636E\u96C6\u7FA4\u300D</li><li>the introduction of fast but small memory (Cache) between CPU and main memory\u300C\u5728CPU\u548C\u4E3B\u5185\u5B58\u4E4B\u95F4\u5F15\u5165\u5FEB\u901F\u4F46\u8F83\u5C0F\u7684\u5185\u5B58\uFF08Cache\uFF09\u300D</li><li>mechanism: dynamically copy clusters into Cache -- virtually, we are using fast and large memory\u300C\u673A\u5236\uFF1A\u5C06\u96C6\u7FA4\u52A8\u6001\u590D\u5236\u5230Cache\u4E2D-\u5B9E\u9645\u4E0A\uFF0C\u6211\u4EEC\u6B63\u5728\u4F7F\u7528\u5FEB\u901F\u4E14\u5927\u5BB9\u91CF\u7684\u5185\u5B58\u300D</li></ul><h3 id="design-elements-of-cache" tabindex="-1"><a class="header-anchor" href="#design-elements-of-cache" aria-hidden="true">#</a> Design elements of Cache</h3><ul><li>mapping function: how to map blocks to cache lines <ul><li>direct mapping vs. associative mapping</li></ul></li></ul><p>other issues: replacement algorithms, writing policy, etc.</p><h2 id="internal-memory-1" tabindex="-1"><a class="header-anchor" href="#internal-memory-1" aria-hidden="true">#</a> Internal Memory</h2><p>&quot;Internal&quot;: the CPU can have direct access</p><ul><li>main memory, registers, cache</li><li>ROM (read only memory)</li></ul><p>There are different types of internal memory, but they share some common features\u300C\u5185\u90E8\u5B58\u50A8\u5668\u7684\u7C7B\u578B\u4E0D\u540C\uFF0C\u4F46\u662F\u5B83\u4EEC\u5177\u6709\u4E00\u4E9B\u5171\u540C\u7684\u7279\u5F81\u300D</p><ul><li>implemented using semiconductor technology\u300C\u4F7F\u7528\u534A\u5BFC\u4F53\u6280\u672F\u5B9E\u73B0\u300D</li><li>random access method \u300C\u968F\u673A\u8BBF\u95EE\u65B9\u6CD5\u300D</li><li>cope with the speed of CPU\u300C\u5E94\u4ED8CPU\u7684\u901F\u5EA6\u300D</li></ul><h3 id="type" tabindex="-1"><a class="header-anchor" href="#type" aria-hidden="true">#</a> Type</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/eb2dbb3e5c0e6.png" alt="image.png" title="image.png"><p><strong>Random access memory (RAM): it is a mis-use of term. All the above memory use random aceess method; however, we usually use RAM to refer to main memory\u300C\u968F\u673A\u5B58\u53D6\u5B58\u50A8\u5668\uFF08RAM\uFF09\uFF1A\u8FD9\u662F\u672F\u8BED\u7684\u9519\u8BEF\u4F7F\u7528\u3002\u4EE5\u4E0A\u6240\u6709\u8BB0\u5FC6\u5747\u91C7\u7528\u968F\u673Aaceess\u65B9\u6CD5\uFF1B\u4F46\u662F\uFF0C\u6211\u4EEC\u901A\u5E38\u4F7F\u7528RAM\u6765\u5F15\u7528\u4E3B\u5185\u5B58\u300D</strong></p><h2 id="memory-cell" tabindex="-1"><a class="header-anchor" href="#memory-cell" aria-hidden="true">#</a> Memory Cell</h2><p>Memory Cell -- the Basic Element of Memory\u300C\u8BB0\u5FC6\u5355\u5143-\u8BB0\u5FC6\u7684\u57FA\u672C\u8981\u7D20\u300D</p><p>Despite of the memory types, all semiconductor memory cells share common properties</p><ul><li>two stable states, used to represent 0 and 1\u300C\u4E24\u4E2A\u7A33\u5B9A\u72B6\u6001\uFF0C\u5206\u522B\u4EE3\u88680\u548C1\u300D</li><li>can be written into (set the state)\u300C\u53EF\u4EE5\u5199\u5165\uFF08\u8BBE\u7F6E\u72B6\u6001\uFF09\u300D</li><li>can be read to sense the state\u300C\u53EF\u4EE5\u8BFB\u53D6\u4EE5\u611F\u6D4B\u72B6\u6001\u300D</li></ul><h3 id="abstract-model" tabindex="-1"><a class="header-anchor" href="#abstract-model" aria-hidden="true">#</a> Abstract Model</h3><p>Three &quot;terminals&quot; for one cell:\u300C\u4E00\u4E2A\u5355\u5143\u7684\u4E09\u4E2A\u201C\u7EC8\u7AEF\u201D\uFF1A\u300D</p><ul><li>Select: select the cell for read or write operations</li><li>Control: to write or to read</li><li>Data: the bit</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/7d36987c08ce8.png" alt="image.png" title="image.png"><h3 id="implementation-technologies" tabindex="-1"><a class="header-anchor" href="#implementation-technologies" aria-hidden="true">#</a> Implementation Technologies</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/b5d9b3851a851.png" alt="image.png" title="image.png"><p>Capacitors\u300C\u7535\u5BB9\u5668\u300D and Transistors\u300C\u6676\u4F53\u7BA1\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/30768ee0530c6.png" alt="image.png" title="image.png"><h3 id="dynamic-ram-cells" tabindex="-1"><a class="header-anchor" href="#dynamic-ram-cells" aria-hidden="true">#</a> Dynamic RAM Cells</h3><p>Data is stored as the charge of capacitors\u300C\u6570\u636E\u5B58\u50A8\u4E3A\u7535\u5BB9\u5668\u7684\u7535\u8377\u300D</p><ul><li>high level of charge -- 1</li><li>low level of charge -- 0</li><li>dynamic: DRAM requires periodic charge refreshing to maintain data storage (capacitors have the tendency to leak charge)\u300C\u52A8\u6001\uFF1ADRAM\u9700\u8981\u5B9A\u671F\u5237\u65B0\u7535\u8377\u4EE5\u7EF4\u6301\u6570\u636E\u5B58\u50A8\uFF08\u7535\u5BB9\u5668\u6709\u6CC4\u6F0F\u7535\u8377\u7684\u8D8B\u52BF\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/7932f84c0ff55.png" alt="image.png" title="image.png"><ul><li>Write: hight (low) voltage is applied to Bit line to charge the capacitor for 1 (0)\u300C\u5199\uFF1A\u5411\u4F4D\u7EBF\u65BD\u52A0\u9AD8\uFF08\u4F4E\uFF09\u7535\u538B\u4EE5\u5BF9\u7535\u5BB9\u5668\u5145\u75351\uFF080\uFF09\u300D</li><li>Read: charge stored in the capacitor is fed out onto the Bit line, a sense amplifier can compare the capacitor voltage to a reference value \u300C\u8BFB\u53D6\uFF1A\u7535\u5BB9\u5668\u4E2D\u5B58\u50A8\u7684\u7535\u8377\u88AB\u9988\u9001\u5230\u4F4D\u7EBF\u4E0A\uFF0C\u8BFB\u51FA\u653E\u5927\u5668\u53EF\u4EE5\u5C06\u7535\u5BB9\u5668\u7535\u538B\u4E0E\u53C2\u8003\u503C\u8FDB\u884C\u6BD4\u8F83\u300D</li></ul><h3 id="static-ram-cells" tabindex="-1"><a class="header-anchor" href="#static-ram-cells" aria-hidden="true">#</a> Static RAM Cells</h3><p>Static RAM Cells\u300C\u9759\u6001RAM\u5355\u5143\u300D</p><ul><li>binary bit is stored using flip-flop logic gates configurations -- essentially, transistors (as switches) and voltage\u300C\u4F7F\u7528\u89E6\u53D1\u5668\u903B\u8F91\u95E8\u914D\u7F6E\u5B58\u50A8\u4E8C\u8FDB\u5236\u4F4D-\u672C\u8D28\u4E0A\u662F\u6676\u4F53\u7BA1\uFF08\u4F5C\u4E3A\u5F00\u5173\uFF09\u548C\u7535\u538B\u300D</li><li>static: the cell will hold the data as long as power is supplied to it (no need to refresh)\u300C\u9759\u6001\uFF1A\u53EA\u8981\u4F9B\u7535\uFF0C\u5355\u5143\u5C06\u4FDD\u5B58\u6570\u636E\uFF08\u65E0\u9700\u5237\u65B0\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/4bce0d9a1021b.png" alt="image.png" title="image.png"><ul><li><p>Four transistors (T1, T2, T3, T4) are cross connected in an arrangement that produces stable states -- represent 1/0\u300C\u56DB\u4E2A\u6676\u4F53\u7BA1\uFF08T1\uFF0CT2\uFF0CT3\uFF0CT4\uFF09\u4EA4\u53C9\u8FDE\u63A5\uFF0C\u4EA7\u751F\u7A33\u5B9A\u72B6\u6001-\u8868\u793A1/0\u300D</p></li><li><p>Address line uses T5 and T6 to select this cell\u300C\u5730\u5740\u884C\u4F7F\u7528T5\u548CT6\u9009\u62E9\u8BE5\u5355\u5143\u683C\u300D</p></li><li><p>Read</p><ul><li>stable state 1: C1 is high, C2 is low -&gt; T1 and T4 are OFF, T2 and T3 are ON -&gt; read high voltage from Bit line B\u300C\u7A33\u5B9A\u72B6\u60011\uFF1AC1\u4E3A\u9AD8\uFF0CC2\u4E3A\u4F4E-&gt; T1\u548CT4\u622A\u6B62\uFF0CT2\u548CT3\u5BFC\u901A-&gt;\u4ECE\u4F4D\u7EBFB\u8BFB\u53D6\u9AD8\u7535\u538B\u300D</li><li>stable state 0: C1 is low, C2 is high -&gt; T1 and T4 are ON, T2 and T3 are OFF -&gt; read low voltage from Bit line B</li></ul></li><li><p>Write</p><ul><li>Apply high voltage (1) or low voltage (0) to Bit line B --&gt; force the transistors into the proper states --&gt; corresponding stable states\u300C\u7A33\u5B9A\u72B6\u60010\uFF1AC1\u4E3A\u4F4E\u7535\u5E73\uFF0CC2\u4E3A\u9AD8-&gt; T1\u548CT4\u5BFC\u901A\uFF0CT2\u548CT3\u622A\u6B62-&gt;\u4ECE\u4F4D\u7EBFB\u8BFB\u53D6\u4F4E\u7535\u538B\u300D</li></ul></li></ul><h3 id="dram-vs-sram" tabindex="-1"><a class="header-anchor" href="#dram-vs-sram" aria-hidden="true">#</a> DRAM vs. SRAM</h3><ul><li>Common <ul><li>volatile -- need continuous power\u300C\u5E38\u89C1\uFF1A\u6613\u6325\u53D1-\u9700\u8981\u6301\u7EED\u4F9B\u7535\u300D</li></ul></li><li>Difference <ul><li>DRAM cell is simpler and smaller, thus denser (more cells per unit area) and less expensive\u300CDRAM\u5355\u5143\u66F4\u7B80\u5355\uFF0C\u66F4\u5C0F\uFF0C\u56E0\u6B64\u5BC6\u5EA6\u66F4\u9AD8\uFF08\u6BCF\u5355\u4F4D\u9762\u79EF\u66F4\u591A\u7684\u5355\u5143\uFF09\u4E14\u4EF7\u683C\u66F4\u4F4E\u300D</li><li>however, DRAM requires the supporting refresh circuitry\u300C\u4F46\u662F\uFF0CDRAM\u9700\u8981\u652F\u6301\u7684\u5237\u65B0\u7535\u8DEF\u300D</li><li>DRAM tends to be favored for large memory requirement\u300CDRAM\u503E\u5411\u4E8E\u6EE1\u8DB3\u5927\u5185\u5B58\u9700\u6C42\u300D</li><li>DRAM for main memory, SRAM for cache</li></ul></li></ul><h2 id="read-only-memory-rom" tabindex="-1"><a class="header-anchor" href="#read-only-memory-rom" aria-hidden="true">#</a> Read-Only Memory (ROM)</h2><p>ROM characteristics\u300CROM\u7279\u6027\u300D</p><ul><li><p>contains permanent data that cannot be changed (cannot write) -- not exactly, depending on the types of ROM\u300C\u5305\u542B\u65E0\u6CD5\u66F4\u6539\uFF08\u65E0\u6CD5\u5199\u5165\uFF09\u7684\u6C38\u4E45\u6570\u636E-\u4E0D\u5B8C\u5168\u53D6\u51B3\u4E8EROM\u7684\u7C7B\u578B\u300D</p></li><li><p>data are burned into the chip during fabrication process -- relatively large fixed cost, and there is no room for error\u300C\u6570\u636E\u5728\u5236\u9020\u8FC7\u7A0B\u4E2D\u88AB\u70E7\u5165\u82AF\u7247-\u56FA\u5B9A\u6210\u672C\u76F8\u5BF9\u8F83\u9AD8\uFF0C\u5E76\u4E14\u6CA1\u6709\u9519\u8BEF\u4F59\u5730\u300D</p></li><li><p>nonvolatile, no need for continous power\u300C\u975E\u6613\u5931\u6027\uFF0C\u65E0\u9700\u6301\u7EED\u4F9B\u7535\u300D</p></li></ul><h2 id="special-types-of-rom" tabindex="-1"><a class="header-anchor" href="#special-types-of-rom" aria-hidden="true">#</a> Special Types of ROM</h2><h3 id="programmable-rom-prom" tabindex="-1"><a class="header-anchor" href="#programmable-rom-prom" aria-hidden="true">#</a> Programmable ROM (PROM)</h3><p>Programmable ROM (PROM)\u300C\u53EF\u7F16\u7A0BROM\uFF08PROM\uFF09\u300D</p><ul><li>like ROM, it can be written into only once (after fabrication process)</li><li>customers can use special equipment to electrically write once</li><li>idea: each bit is locked by a fuse; initially all 1&#39;s in the chip, if burn the fuse, change 1 to 0 (write once)</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/5c19bc3e8eeaf.png" alt="image.png" title="image.png"><h3 id="read-mostly-memory" tabindex="-1"><a class="header-anchor" href="#read-mostly-memory" aria-hidden="true">#</a> Read-Mostly Memory</h3><p>Read-Mostly Memory (a variation of ROM\u300CROM\u7684\u53D8\u4F53\u300D)</p><ul><li>we can re-write the memory, but at a higher cost\u300C\u6211\u4EEC\u53EF\u4EE5\u91CD\u65B0\u5199\u5165\u5185\u5B58\uFF0C\u4F46\u662F\u6210\u672C\u66F4\u9AD8\u300D</li><li>useful for applications in which read operations are far more frequent then write operations, but for which nonvolatile storage is required\u300C\u5BF9\u4E8E\u8BFB\u64CD\u4F5C\u6BD4\u5199\u64CD\u4F5C\u66F4\u9891\u7E41\u4F46\u9700\u8981\u975E\u6613\u5931\u6027\u5B58\u50A8\u7684\u5E94\u7528\u7A0B\u5E8F\u5F88\u6709\u7528\u300D</li><li>three common types: EPROM, EEPROM, flash memory\u300C\u4E09\u79CD\u5E38\u89C1\u7C7B\u578B\uFF1AEPROM\uFF0CEEPROM\uFF0C\u95EA\u5B58\u300D</li></ul><h3 id="erasable-programmable-rom-eprom" tabindex="-1"><a class="header-anchor" href="#erasable-programmable-rom-eprom" aria-hidden="true">#</a> Erasable Programmable ROM (EPROM)</h3><p>Erasable Programmable ROM (EPROM)\u300C\u53EF\u64E6\u53EF\u7F16\u7A0BROM\uFF08EPROM\uFF09\u300D</p><ul><li>before a write operation, all the storage cells must be erased to the same initial state by exposure to ultraviolet radiation\u300C\u5728\u5199\u64CD\u4F5C\u4E4B\u524D\uFF0C\u5FC5\u987B\u901A\u8FC7\u66B4\u9732\u5728\u7D2B\u5916\u7EBF\u4E0B\u5C06\u6240\u6709\u5B58\u50A8\u5355\u5143\u64E6\u9664\u5230\u76F8\u540C\u7684\u521D\u59CB\u72B6\u6001\u300D</li><li>then write electronically\u300C\u7136\u540E\u7528\u7535\u5B50\u65B9\u5F0F\u5199\u300D</li><li>read -- exposure \u2013 write\u300C\u9605\u8BFB-\u66DD\u5149-\u5199\u300D erasable: through exposure (could take 20 mins)\u300C\u53EF\u64E6\uFF1A\u901A\u8FC7\u66DD\u5149\uFF08\u53EF\u80FD\u9700\u898120\u5206\u949F\uFF09\u300D more flexible than PROM\u300C\u6BD4PROM\u66F4\u7075\u6D3B\u300D</li></ul><h3 id="electronically-erasable-programmable-rom-eeprom" tabindex="-1"><a class="header-anchor" href="#electronically-erasable-programmable-rom-eeprom" aria-hidden="true">#</a> Electronically Erasable Programmable ROM (EEPROM)</h3><p>\u7535\u5B50\u53EF\u64E6\u53EF\u7F16\u7A0BROM\uFF08EEPROM\uFF09</p><ul><li><ul><li>updates (write operations) happen at byte level (not entire chip)\u300C\u66F4\u65B0\uFF08\u5199\u64CD\u4F5C\uFF09\u53D1\u751F\u5728\u5B57\u8282\u7EA7\u522B\uFF08\u4E0D\u662F\u6574\u4E2A\u82AF\u7247\uFF09\u300D</li><li>however, write operation takes considerably longer than read (several hundred microseconds per byte)\u300C\u4F46\u662F\uFF0C\u5199\u64CD\u4F5C\u8981\u6BD4\u8BFB\u64CD\u4F5C\u82B1\u8D39\u66F4\u957F\u7684\u65F6\u95F4\uFF08\u6BCF\u5B57\u8282\u51E0\u767E\u5FAE\u79D2\uFF09\u300D</li><li>more expensive and less dence (fewer bits per chip) than EPROM\u300C\u6BD4EPROM\u66F4\u6602\u8D35\uFF0C\u66F4\u7701\u94B1\uFF08\u6BCF\u4E2A\u82AF\u7247\u4E0A\u7684\u4F4D\u6570\u66F4\u5C11\uFF09\u300D</li></ul></li></ul><h3 id="flash-memory" tabindex="-1"><a class="header-anchor" href="#flash-memory" aria-hidden="true">#</a> Flash Memory</h3><ul><li>intermediate between EPROM and EEPROM\u300CEPROM\u548CEEPROM\u4E4B\u95F4\u7684\u4E2D\u95F4\u5C42\u300D</li><li>erasure at block level (compred to byte-level and chip level)\u300C\u5757\u7EA7\u522B\u7684\u64E6\u9664\uFF08\u4E0E\u5B57\u8282\u7EA7\u522B\u548C\u82AF\u7247\u7EA7\u522B\u76F8\u6BD4\uFF09\u300D</li></ul><h3 id="summary-of-rom" tabindex="-1"><a class="header-anchor" href="#summary-of-rom" aria-hidden="true">#</a> Summary of ROM</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/622e2c21f6c0e.png" alt="image.png" title="image.png"><h2 id="chip-logic" tabindex="-1"><a class="header-anchor" href="#chip-logic" aria-hidden="true">#</a> Chip Logic</h2><p>Semiconductor memory comes in package chips\u300C\u534A\u5BFC\u4F53\u5B58\u50A8\u5668\u5305\u542B\u5728\u5C01\u88C5\u82AF\u7247\u4E2D\u300D</p><ul><li>each chip contains an array of memory cells\u300C\u6BCF\u4E2A\u82AF\u7247\u5305\u542B\u4E00\u4E2A\u5B58\u50A8\u5355\u5143\u9635\u5217\u300D</li><li>essential\u300C\u57FA\u672C\u300D task: provide address to chip, and access bits\u300C\u57FA\u672C\u4EFB\u52A1\uFF1A\u63D0\u4F9B\u82AF\u7247\u5730\u5740\u548C\u8BBF\u95EE\u4F4D\u300D</li></ul><p><strong>how to organize and wire the cells in chips to satisfy the needs for addressing\u300C\u5982\u4F55\u7EC4\u7EC7\u548C\u8FDE\u63A5\u82AF\u7247\u4E2D\u7684\u5355\u5143\u4EE5\u6EE1\u8DB3\u5BFB\u5740\u9700\u6C42\u300D</strong></p><img src="https://pic.hanjiaming.com.cn/2021/04/14/36d7de8acdc3b.png" alt="image.png" title="image.png"><p><strong>Key issue: how to group cells into a logical piece of data\u300C\u5173\u952E\u95EE\u9898\uFF1A\u5982\u4F55\u5C06\u5355\u5143\u683C\u5206\u7EC4\u4E3A\u903B\u8F91\u6570\u636E\u300D</strong></p><ul><li>how many bits to read/write at a time</li><li>one extreme: 1 bit a time\u300C\u4E00\u4E2A\u6781\u7AEF\uFF1A\u4E00\u6B211\u6BD4\u7279\u300D</li><li>the other extreme: one word a time (word: the unit for data processing in CPU)\u300C\u53E6\u4E00\u4E2A\u6781\u7AEF\uFF1A\u4E00\u6B21\u4E00\u4E2A\u5B57\uFF08\u5B57\uFF1ACPU\u4E2D\u7528\u4E8E\u6570\u636E\u5904\u7406\u7684\u5355\u4F4D\uFF09\u300D</li><li>in between: k bits for one chip, combine multiple chips to get a word (example later)\u300C\u4ECB\u4E8E\u4E24\u8005\u4E4B\u95F4\uFF1A\u4E00\u4E2A\u82AF\u7247\u7684k\u4F4D\uFF0C\u5408\u5E76\u591A\u4E2A\u82AF\u7247\u5F97\u5230\u4E00\u4E2A\u5B57\uFF08\u540E\u9762\u7684\u793A\u4F8B\uFF09\u300D</li></ul><h3 id="simple-example-of-64-cells" tabindex="-1"><a class="header-anchor" href="#simple-example-of-64-cells" aria-hidden="true">#</a> Simple Example of 64 Cells</h3><p><strong>Read/Write 1 bit a time (logical data unit = 1 bit)\u300C\u4E00\u6B21\u8BFB/\u51991\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 1\u4F4D\uFF09\u300D</strong></p><ul><li>each cell needs to have an address\u300C\u6BCF\u4E2A\u5355\u5143\u90FD\u9700\u8981\u6709\u4E00\u4E2A\u5730\u5740\u300D</li><li>64 = 2^{6}, we need 6 address lines\u300C64 = 2 ^ {6}\uFF0C\u6211\u4EEC\u9700\u89816\u6761\u5730\u5740\u7EBF\u300D</li><li>remember decoder? we can use a 6-to-64 decoder\u300C\u8FD8\u8BB0\u5F97\u89E3\u7801\u5668\u5417\uFF1F\u6211\u4EEC\u53EF\u4EE5\u4F7F\u75286\u523064\u7684\u89E3\u7801\u5668\u300D</li><li>6 input address lines, 64 output select lines -- each is connected to the select terminal of the cell\u300C6\u6761\u8F93\u5165\u5730\u5740\u7EBF\uFF0C64\u6761\u8F93\u51FA\u9009\u62E9\u7EBF-\u6BCF\u6761\u8FDE\u63A5\u5230\u5355\u5143\u7684\u9009\u62E9\u7AEF\u5B50\u300D</li><li>in the chip package, 6 address pins, 1 data pins\u300C\u5728\u82AF\u7247\u5C01\u88C5\u4E2D\uFF0C\u67096\u4E2A\u5730\u5740\u5F15\u811A\uFF0C1\u4E2A\u6570\u636E\u5F15\u811A\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/72e7437a17b73.png" alt="image.png" title="image.png" width="400px"><ul><li>we also need to consider the memory access cyles\u300C\u6211\u4EEC\u8FD8\u9700\u8981\u8003\u8651\u5185\u5B58\u8BBF\u95EE\u5468\u671F\u300D</li><li>in each cycle, we provide an address to access 1 bit\u300C\u5728\u6BCF\u4E2A\u5468\u671F\u4E2D\uFF0C\u6211\u4EEC\u63D0\u4F9B\u4E00\u4E2A\u5730\u5740\u6765\u8BBF\u95EE1\u4F4D\u300D</li><li>64 cycles to access 64 bits -- too slow\u300C64\u4E2A\u5468\u671F\u8BBF\u95EE64\u4F4D-\u592A\u6162\u300D</li></ul><p><strong>Read/Write 8 bits a time (logical data unit = 8 bits)\u300C\u4E00\u6B21\u8BFB/\u51998\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 8\u4F4D\uFF09\u300D</strong></p><ul><li>cells are organized into 8 groups, each group containing 8 cells\u300C\u5355\u5143\u683C\u5206\u4E3A8\u7EC4\uFF0C\u6BCF\u7EC4\u5305\u542B8\u4E2A\u5355\u5143\u683C\u300D</li><li>one group share the same address\u300C\u4E00\u7EC4\u5171\u4EAB\u76F8\u540C\u7684\u5730\u5740\u300D</li><li>3 address pins, 8 data pins\u300C3\u4E2A\u5730\u5740\u5F15\u811A\uFF0C8\u4E2A\u6570\u636E\u5F15\u811A\u300D <ul><li>64/8 = 8</li></ul></li><li>less memory access cycles\u300C\u66F4\u5C11\u7684\u5185\u5B58\u8BBF\u95EE\u5468\u671F\u300D</li></ul><p><strong>Read/Write 4 bits a time (logical data unit = 4 bits)\u300C\u4E00\u6B21\u8BFB/\u51994\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 4\u4F4D\uFF09\u300D</strong></p><ul><li>we can use two chips A and B\u300C\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u4E24\u4E2A\u82AF\u7247A\u548CB\u300D</li><li>access 4 bits from A, and 4 bits from B using the same address\u300C\u4F7F\u7528\u76F8\u540C\u7684\u5730\u5740\u8BBF\u95EEA\u76844\u4F4D\u548CB\u76844\u4F4D\u300D</li><li>together, it is like accessing 8 bits one time\u300C\u5728\u4E00\u8D77\uFF0C\u5C31\u50CF\u4E00\u6B21\u8BBF\u95EE8\u4F4D\u300D</li><li>more flexible for different processors\u300C\u5BF9\u4E8E\u4E0D\u540C\u7684\u5904\u7406\u5668\u66F4\u52A0\u7075\u6D3B\u300D</li><li>the size of the logical data unit is a key design parameter\u300C\u903B\u8F91\u6570\u636E\u5355\u5143\u7684\u5927\u5C0F\u662F\u5173\u952E\u8BBE\u8BA1\u53C2\u6570\u300D</li></ul><h3 id="example-of-16-mbit-dram" tabindex="-1"><a class="header-anchor" href="#example-of-16-mbit-dram" aria-hidden="true">#</a> Example of 16-Mbit DRAM</h3><p>It is implemented using four 4Mbit memory components</p><p>Each 4 Mbit component is a 2048 x 2048 square of cells (2^22 bits)\u300C\u6BCF\u4E2A4 Mbit\u5206\u91CF\u662F\u4E00\u4E2A2048 x 2048\u5E73\u65B9\u7684\u5355\u5143\u683C\uFF082 ^ 22\u4F4D\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/ad8d12c9dd1b5.png" alt="image.png" title="image.png"><p><strong>Use address to locate (select) the cell\u300C\u4F7F\u7528\u5730\u5740\u67E5\u627E\uFF08\u9009\u62E9\uFF09\u5355\u5143\u683C\u300D</strong></p><ul><li>2048 x 2048 square of cells = 2^{22} cells, intuitively\u300C\u51ED\u76F4\u89C9\u300D, we need 22 address lines</li><li>however, there are only 11 address pins (A0 \u2013 A10)</li><li>solution: use an external select logic (a multiplexer), where input is the 22 address lines and output is the 11 address pins\u300C\u89E3\u51B3\u65B9\u6848\uFF1A\u4F7F\u7528\u5916\u90E8\u9009\u62E9\u903B\u8F91\uFF08\u591A\u8DEF\u590D\u7528\u5668\uFF09\uFF0C\u5176\u4E2D\u8F93\u5165\u662F22\u6761\u5730\u5740\u7EBF\uFF0C\u8F93\u51FA\u662F11\u6761\u5730\u5740\u5F15\u811A\u300D</li><li>effect: divided the 22 address lines into 2 groups, which are fed into the chip through 11 address pins separately\u300C\u6548\u679C\uFF1A\u5C0622\u6761\u5730\u5740\u7EBF\u5206\u4E3A2\u7EC4\uFF0C\u5206\u522B\u901A\u8FC711\u4E2A\u5730\u5740\u5F15\u811A\u9988\u5165\u82AF\u7247\u300D</li></ul><p><strong>Use address to locate (select) the cell\u300C\u4F7F\u7528\u5730\u5740\u67E5\u627E\uFF08\u9009\u62E9\uFF09\u5355\u5143\u683C\u300D</strong></p><ul><li>11 row address lines/11 column address lines\u300C11\u884C\u5730\u5740\u7EBF/ 11\u5217\u5730\u5740\u7EBF\u300D</li><li>use another two pins to indicate: RAS (row address select) and CAS (column address select)\u300C\u4F7F\u7528\u53E6\u5916\u4E24\u4E2A\u5F15\u811A\u6307\u793A\uFF1ARAS\uFF08\u884C\u5730\u5740\u9009\u62E9\uFF09\u548CCAS\uFF08\u5217\u5730\u5740\u9009\u62E9\uFF09\u300D</li><li>then, use can use a 11-to-2048 decoder to select the corrsponding row and column --&gt; locate a cell in one square\u300C\u7136\u540E\uFF0C\u53EF\u4EE5\u4F7F\u752811\u52302048\u89E3\u7801\u5668\u9009\u62E9\u76F8\u5E94\u7684\u884C\u548C\u5217-&gt;\u5728\u4E00\u4E2A\u6B63\u65B9\u5F62\u4E2D\u5B9A\u4F4D\u4E00\u4E2A\u5355\u5143\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/b44508f7dab50.png" alt="image.png" title="image.png"><h3 id="read-write-operation" tabindex="-1"><a class="header-anchor" href="#read-write-operation" aria-hidden="true">#</a> Read/Write operation</h3><ul><li>4 data lines (pins, D1 - D4), each connecting to one square\u300C4\u6761\u6570\u636E\u7EBF\uFF08\u5F15\u811AD1-D4\uFF09\uFF0C\u6BCF\u6761\u8FDE\u63A5\u5230\u4E00\u4E2A\u6B63\u65B9\u5F62\u300D</li><li>write: apply high/low voltage to the data lines to charge the capacitors\u300C\u5199\uFF1A\u5411\u6570\u636E\u7EBF\u65BD\u52A0\u9AD8/\u4F4E\u7535\u538B\u4EE5\u5BF9\u7535\u5BB9\u5668\u5145\u7535\u300D</li><li>read: use a sense amplifier to sense the voltage\u300C\u9605\u8BFB\uFF1A\u4F7F\u7528\u611F\u5E94\u653E\u5927\u5668\u611F\u5E94\u7535\u538B\u300D</li><li>two pins to control write/read: WE (write enable) and OE (output enable)\u300C\u4E24\u4E2A\u5F15\u811A\u63A7\u5236\u5199/\u8BFB\uFF1AWE\uFF08\u5199\u4F7F\u80FD\uFF09\u548COE\uFF08\u8F93\u51FA\u4F7F\u80FD\uFF09\u300D</li><li>we can use multiple Chips to read/write a word at a time depending on the processor\u300C\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u591A\u4E2A\u82AF\u7247\u4E00\u6B21\u8BFB\u53D6/\u5199\u5165\u4E00\u4E2Aword\uFF0C\u5177\u4F53\u53D6\u51B3\u4E8E\u5904\u7406\u5668\u300D</li></ul><h3 id="summary-of-chip-logic" tabindex="-1"><a class="header-anchor" href="#summary-of-chip-logic" aria-hidden="true">#</a> Summary of Chip Logic</h3><p>Current technology:</p><ul><li>we can make very large capacity in a very small area\u300C\u6211\u4EEC\u53EF\u4EE5\u5728\u5F88\u5C0F\u7684\u533A\u57DF\u5185\u5236\u9020\u5F88\u5927\u7684\u5BB9\u91CF\u300D</li><li>however, the limit is bounded by the physical space needed for pins -- careful design to save number of pins is important\u300C\u4F46\u662F\uFF0C\u8BE5\u9650\u5236\u53D7\u5F15\u811A\u6240\u9700\u7684\u7269\u7406\u7A7A\u95F4\u9650\u5236-\u8C28\u614E\u8BBE\u8BA1\u4EE5\u8282\u7701\u5F15\u811A\u6570\u5F88\u91CD\u8981\u300D</li></ul><p>Chip Logic considerations\u300C\u82AF\u7247\u903B\u8F91\u6CE8\u610F\u4E8B\u9879\uFF1A\u300D:</p><ul><li>determine the number of data pins (how many bits to read/write at a time)\u300C\u786E\u5B9A\u6570\u636E\u5F15\u811A\u7684\u6570\u91CF\uFF08\u4E00\u6B21\u8BFB\u53D6/\u5199\u5165\u591A\u5C11\u4F4D\uFF09\u300D</li><li>determine the number of address pins (need consideration of address multiplexing)\u300C\u786E\u5B9A\u5730\u5740\u5F15\u811A\u7684\u6570\u91CF\uFF08\u9700\u8981\u8003\u8651\u5730\u5740\u591A\u8DEF\u590D\u7528\uFF09\u300D</li><li>need for additional buffers and controls\u300C\u9700\u8981\u989D\u5916\u7684\u7F13\u51B2\u533A\u548C\u63A7\u4EF6\u300D</li><li>layout and wiring need to consider heat distribution (data pins are distributed on the two sides of the chip)\u300C\u5E03\u5C40\u548C\u5E03\u7EBF\u9700\u8981\u8003\u8651\u70ED\u91CF\u5206\u5E03\uFF08\u6570\u636E\u5F15\u811A\u5206\u5E03\u5728\u82AF\u7247\u7684\u4E24\u4FA7\uFF09\u300D</li></ul><h2 id="memory-errors" tabindex="-1"><a class="header-anchor" href="#memory-errors" aria-hidden="true">#</a> Memory Errors</h2><ul><li>Hard Failure <ul><li>permanent physical defect to cells\u300C\u6C38\u4E45\u7684\u786C\u4EF6\u635F\u574F\u300D</li><li>replacement\u300C\u66FF\u4EE3\u4EE5\u4FEE\u590D\u300D</li></ul></li><li>Soft Error <ul><li>content of the cell is modified, due to random, nondestructive event\u300C\u7531\u4E8E\u968F\u673A\uFF0C\u975E\u7834\u574F\u6027\u4E8B\u4EF6\uFF0C\u4FEE\u6539\u4E86\u5355\u5143\u683C\u7684\u5185\u5BB9\u300D</li><li>the function of cell is still OK\u300C\u5355\u5143\u683C\u7684\u529F\u80FD\u8FD8\u662F\u597D\u7684\u300D</li><li>example: the charging to the capacitor is not sufficient: 1 -&gt; 0\u300C\u6BD4\u5982\u7535\u5BB9\u5668\u5145\u7535\u4E0D\u8DB3\u5BFC\u81F41-&gt;0</li></ul></li><li>Error Detection <ul><li>knowing that there are errors in a block of data</li></ul></li><li>Error Correction <ul><li>detect, and recover the correct contents\u300C\u68C0\u6D4B\u5E76\u6062\u590D\u6B63\u786E\u7684\u5185\u5BB9\u300D</li><li>correction is harder than detection\u300C\u6821\u6B63\u6BD4\u68C0\u6D4B\u96BE\u300D <ul><li>example: we know there are an even numuber of 1&#39;s in the data (detection is easy); detection is hard: there could be multiple combinations of errors\u300C\u4F8B\u5982\uFF1A\u6211\u4EEC\u77E5\u9053\u6570\u636E\u4E2D\u7684\u5076\u6570\u4E3A1\uFF08\u68C0\u6D4B\u5F88\u5BB9\u6613\uFF09\uFF1B\u68C0\u6D4B\u5F88\u96BE\uFF1A\u53EF\u80FD\u6709\u591A\u79CD\u9519\u8BEF\u7EC4\u5408\u300D</li></ul></li></ul></li></ul><h3 id="coding-theory" tabindex="-1"><a class="header-anchor" href="#coding-theory" aria-hidden="true">#</a> Coding Theory</h3><p>Coding theory itself is a fruitful field of study\u300C\u7F16\u7801\u7406\u8BBA\u672C\u8EAB\u662F\u4E00\u4E2A\u5BCC\u6709\u6210\u679C\u7684\u7814\u7A76\u9886\u57DF\u300D</p><p>general idea: use redundancy to encode the conditions for which correct data should satisfy -- redundancy is a function of original data: K = f(M)\u300C\u603B\u4F53\u601D\u8DEF\uFF1A\u4F7F\u7528\u5197\u4F59\u7F16\u7801\u6B63\u786E\u6570\u636E\u5E94\u6EE1\u8DB3\u7684\u6761\u4EF6-\u5197\u4F59\u662F\u539F\u59CB\u6570\u636E\u7684\u51FD\u6570\uFF1AK = f\uFF08M\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/4b16ed0e4944b.png" alt="image.png" title="image.png"><h3 id="framework-of-error-correction" tabindex="-1"><a class="header-anchor" href="#framework-of-error-correction" aria-hidden="true">#</a> Framework of Error Correction</h3><p>Framework of Error Correction\u300C\u7EA0\u9519\u6846\u67B6\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/db242feee716a.png" alt="image.png" title="image.png"><p>Example: Hash Functions for Error Detection</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/68194656bae86.png" alt="image.png" title="image.png"><h3 id="encode-for-check" tabindex="-1"><a class="header-anchor" href="#encode-for-check" aria-hidden="true">#</a> Encode for check</h3><h4 id="warm-up-single-parity-code" tabindex="-1"><a class="header-anchor" href="#warm-up-single-parity-code" aria-hidden="true">#</a> Warm-up: single parity code</h4><ul><li>original data block M has 7 bits (abuse of term, M = 7)\u300C\u539F\u59CB\u6570\u636E\u5757M\u5177\u67097\u4F4D\uFF08\u6EE5\u7528\u9879\uFF0CM = 7\uFF09\u300D</li><li>attach a single bit K to the end of block (K=1)\u300C\u5C06\u5355\u4E2AK\u9644\u52A0\u5230\u5757\u7684\u672B\u5C3E\uFF08K = 1\uFF09\u300D</li><li>the code thus has 8 bits, M|| K --- this is a simple encoding process given M, we need to decide K\u300C\u8BE5\u4EE3\u7801\u56E0\u6B64\u5177\u67098\u4F4D\uFF0CM || K-\u8FD9\u662F\u4E00\u4E2A\u7B80\u5355\u7684\u7F16\u7801\u8FC7\u7A0B\u300D</li></ul><h4 id="enconding-rule" tabindex="-1"><a class="header-anchor" href="#enconding-rule" aria-hidden="true">#</a> Enconding rule</h4><ul><li>function W(D) = number of 1&#39;s in data block D</li><li>Rule: add K such that W(M||K) is even (even parity)\u300C\u89C4\u5219\uFF1A\u52A0K\u4F7F\u5F97W\uFF08M || K\uFF09\u4E3A\u5076\u6570\uFF08\u5076\u6570\uFF09\u300D</li><li>example <ul><li>M = 000 0011, W(M) = 2 -&gt; set K = 0</li><li>M = 110 0111, W(M) = 5 -&gt; set K = 1</li></ul></li><li>we also could have odd parity\u300C\u6211\u4EEC\u4E5F\u53EF\u80FD\u6709\u5947\u5076\u6821\u9A8C\u300D</li></ul><h4 id="one-error-detection" tabindex="-1"><a class="header-anchor" href="#one-error-detection" aria-hidden="true">#</a> One Error Detection</h4><p>The single parity code is able to detect one error\u300C\u5355\u4E00\u5947\u5076\u6821\u9A8C\u7801\u80FD\u591F\u68C0\u6D4B\u5230\u4E00\u4E2A\u9519\u8BEF\u300D</p><ul><li>suppose the stored data is D, we can compute W(D)\u300C\u5047\u8BBE\u5B58\u50A8\u7684\u6570\u636E\u4E3AD\uFF0C\u6211\u4EEC\u53EF\u4EE5\u8BA1\u7B97W\uFF08D\uFF09\u300D</li><li>if W(D) is even --&gt; no error; else one error\u300C\u5982\u679CW\uFF08D\uFF09\u662F\u5076\u6570-&gt;\u6CA1\u6709\u9519\u8BEF\uFF1B\u5426\u5219\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>note that the above detection algorithm relies on one essential assumption: there is at most one error \u300C\u8BF7\u6CE8\u610F\uFF0C\u4E0A\u8FF0\u68C0\u6D4B\u7B97\u6CD5\u57FA\u4E8E\u4E00\u4E2A\u57FA\u672C\u5047\u8BBE\uFF1A\u6700\u591A\u5B58\u5728\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>also note that, we can only detect error, we do not know the position of the error (cannot correct the error)\u300C\u8FD8\u8981\u6CE8\u610F\uFF0C\u6211\u4EEC\u53EA\u80FD\u68C0\u6D4B\u9519\u8BEF\uFF0C\u6211\u4EEC\u4E0D\u77E5\u9053\u9519\u8BEF\u7684\u4F4D\u7F6E\uFF08\u65E0\u6CD5\u7EA0\u6B63\u9519\u8BEF\uFF09\u300D</li></ul><h4 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h4><ul><li>suppose M = 000 0011, W(M) = 2 --&gt; K = 0</li><li>store M||K = 000 0011 0 in the storage device</li><li>some time later, we check this data block D by computing W(D)</li><li>suppose W(D) = 3 --&gt; error: e.g., 000 0111 0 or 000 0011 1</li><li>suppose W(D) = 2 --&gt; correct; but could also be 000 0101 0 (two errors, we assume that this could not happen)</li></ul><h4 id="the-essence" tabindex="-1"><a class="header-anchor" href="#the-essence" aria-hidden="true">#</a> The Essence</h4><p>essence\u300C\u7CBE\u534E\u300D</p><p>we are using 1 redundant bit to encode two cases:</p><ul><li>case 1: no error</li><li>case 2: 1 error</li></ul><p>question: can we extend this idea to general error-correcting code?</p><h3 id="correct" tabindex="-1"><a class="header-anchor" href="#correct" aria-hidden="true">#</a> Correct</h3><h4 id="general-case" tabindex="-1"><a class="header-anchor" href="#general-case" aria-hidden="true">#</a> General Case</h4><p>Consider one error correcting code</p><ul><li>original data M bits, redundancy K bits; together N = M + K bits\u300C\u539F\u59CB\u6570\u636EM\u4F4D\uFF0C\u5197\u4F59K\u4F4D; N = M + K\u4F4D\u300D</li><li>again, we assume that there is at most one error\u300C\u518D\u4E00\u6B21\uFF0C\u6211\u4EEC\u5047\u8BBE\u6700\u591A\u6709\u4E00\u4E2A\u9519\u8BEF\u300D</li></ul><p>Our goal is to correct one error (if happens) -- in other words, know the position of the error\u300C\u6211\u4EEC\u7684\u76EE\u6807\u662F\u7EA0\u6B63\u4E00\u4E2A\u9519\u8BEF\uFF08\u5982\u679C\u53D1\u751F\uFF09-\u6362\u53E5\u8BDD\u8BF4\uFF0C\u77E5\u9053\u9519\u8BEF\u7684\u4F4D\u7F6E\u300D</p><p>there are a total of (N+1) cases. Why?\u300C\u5171\u6709\uFF08N + 1\uFF09\u4E2A\u6848\u4F8B\u3002\u4E3A\u4EC0\u4E48\uFF1F\u300D</p><p>(N+1) cases:</p><ul><li><p>case 0: no error</p></li><li><p>case 1: error at position 1</p></li><li><p>case t: error at position t</p></li><li><p>the essence of error correction code: use K bits to encode (N+1) cases\u300C\u7EA0\u9519\u7801\u7684\u672C\u8D28\uFF1A\u4F7F\u7528K\u4F4D\u7F16\u7801\uFF08N + 1\uFF09\u79CD\u60C5\u51B5\u300D</p></li><li><p>relation: 2^{K} &gt;= M + K +1\u300C\u5173\u7CFB\uFF1A2 ^ {K}&gt; = M + K +1\u300D</p></li><li><p>coding theory deals with the realization of the above encoding process using mathematical tools\u300C\u7F16\u7801\u7406\u8BBA\u4F7F\u7528\u6570\u5B66\u5DE5\u5177\u5904\u7406\u4E0A\u8FF0\u7F16\u7801\u8FC7\u7A0B\u7684\u5B9E\u73B0\u300D</p></li></ul><p>Overhead: K/M, which is the redundancy\u300C\u5197\u4F59\u300D ratio\u300C\u7387\u300D\u300C\u5F00\u9500\uFF1AK / M\uFF0C\u5373\u5197\u4F59\u7387\u300D</p><ul><li>M = 4 -&gt; K = 3 ( 2^3 = 8 &gt;= 4 + 3 +1); K/M = 3/4</li><li>M = 8 -&gt; K = 4 ( 2^4 = 16 &gt;= 8 + 4 +1); K/M = 4/8</li><li>M = 16 -&gt; K = 5 ( 2^5 = 32 &gt;= 16 + 5 +1); K/M = 5/16</li></ul><p>as M increases, the overhead decreases\u300C\u968F\u7740M\u7684\u589E\u52A0\uFF0C\u5F00\u9500\u51CF\u5C11\u300D</p><p>So, is M the larger the better?</p><ul><li>unfortunately, no</li><li>remember the fundamental assumption: at most one error\u300C\u8BB0\u4F4F\u57FA\u672C\u5047\u8BBE\uFF1A\u81F3\u591A\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>as M increases, the probability of having more errors also goes up\u300C\u589E\u52A0\u300D\u300C\u968F\u7740M\u7684\u589E\u52A0\uFF0C\u51FA\u73B0\u66F4\u591A\u9519\u8BEF\u7684\u53EF\u80FD\u6027\u4E5F\u4F1A\u589E\u52A0\u300D</li></ul><h4 id="case-study-7-4-hamming-code" tabindex="-1"><a class="header-anchor" href="#case-study-7-4-hamming-code" aria-hidden="true">#</a> Case Study: (7-4) Hamming Code</h4><p>Hamming Code\u300C\u6D77\u660E\u7801\u300D\u3001parity bits\u300C\u5947\u5076\u6821\u9A8C\u4F4D\u300D</p><ul><li>the classical one-error correction code, with (7-4) the most common setting\u300C\u7ECF\u5178\u7684-\u7EA0\u9519\u7801\uFF0C\u6700\u5E38\u89C1\u7684\u8BBE\u7F6E\u662F\uFF087-4\uFF09\u300D</li><li>N = 7, M = 4 (original data), K = 3 (redundancy bits)</li><li>we will not dig into\u300C\u6DF1\u5165\u7814\u7A76\u300D the mathematical\u300C\u6570\u5B66\u7684\u300D details\u300C\u6211\u4EEC\u4E0D\u4F1A\u6DF1\u5165\u7814\u7A76\u6570\u5B66\u7EC6\u8282\u300D</li><li>similar to single parity code, however, we now use three parity bits\u300C\u4E0E\u5355\u4E2A\u5947\u5076\u6821\u9A8C\u4EE3\u7801\u76F8\u4F3C\uFF0C\u4F46\u662F\uFF0C\u6211\u4EEC\u73B0\u5728\u4F7F\u7528\u4E09\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\u300D</li><li>data bits: d1, d2, d3, d4\u300C\u6570\u636E\u4F4D\uFF1Ad1\uFF0Cd2\uFF0Cd3\uFF0Cd4\u300D</li><li>parity bits: p1, p2, p3, where each parity bit &quot;cover&quot; 3 data bits\u300C\u5947\u5076\u6821\u9A8C\u4F4D\uFF1Ap1\uFF0Cp2\uFF0Cp3\uFF0C\u5176\u4E2D\u6BCF\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\u201C\u8986\u76D6\u201D 3\u4E2A\u6570\u636E\u4F4D\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/942122c3d2e35.png" alt="image.png" title="image.png"><ul><li>p1: cover d1, d2, d4, that is, number of 1&#39;s in p1||d1||d2||d4 should be even</li><li>p2: cover d1, d3, d4</li><li>p3: cover d2, d3, d4</li></ul><h5 id="example-1" tabindex="-1"><a class="header-anchor" href="#example-1" aria-hidden="true">#</a> Example</h5><img src="https://pic.hanjiaming.com.cn/2021/04/19/221a369946373.png" alt="image.png" title="image.png"><h5 id="more" tabindex="-1"><a class="header-anchor" href="#more" aria-hidden="true">#</a> More</h5><p>Not Required</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/6767bc2be229d.png" alt="image.png" title="image.png"><h5 id="the-code-words" tabindex="-1"><a class="header-anchor" href="#the-code-words" aria-hidden="true">#</a> The code words</h5><ul><li>there are a total of 16 valid code words (why? 4 &quot;free&quot; data bits)\u300C\u5171\u670916\u4E2A\u6709\u6548\u4EE3\u7801\u5B57\uFF08\u4E3A\u4EC0\u4E48\uFF1F4\u4E2A\u201C\u7A7A\u95F2\u201D\u6570\u636E\u4F4D\uFF09\u300D</li><li>the Hamming distance between every two code words is 3\u300C\u6BCF\u4E24\u4E2A\u4EE3\u7801\u5B57\u4E4B\u95F4\u7684\u6C49\u660E\u8DDD\u79BB\u4E3A3\u300D</li><li>Hamming distance: the number of different bits\u300C\u6C49\u660E\u8DDD\u79BB\uFF1A\u4E0D\u540C\u4F4D\u6570\u300D</li><li>this examples why Hamming code can correct 1 error\u300C\u8FD9\u4E2A\u4F8B\u5B50\u4E3A\u4EC0\u4E48\u6C49\u660E\u7801\u53EF\u4EE5\u7EA0\u6B631\u4E2A\u9519\u8BEF\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/da2f8990b0a05.png" alt="image.png" title="image.png"><p>\u6279\u6CE8\uFF1A\u4E0D\u660E\u767D\u5728\u8BF4\u4EC0\u4E48......</p><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP2421@PolyU PowerPoint</li></ul><!--]-->`);
-}
-const _sfc_setup$T = _sfc_main$T.setup;
-_sfc_main$T.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/Internal Memory.html.vue");
-  return _sfc_setup$T ? _sfc_setup$T(props, ctx) : void 0;
-};
-var Internal_Memory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["ssrRender", _sfc_ssrRender$T]]);
-var Internal_Memory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": Internal_Memory_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$S = {};
-function _sfc_ssrRender$S(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="introduction-to-computer-memory-and-cache-memory" tabindex="-1"><a class="header-anchor" href="#introduction-to-computer-memory-and-cache-memory" aria-hidden="true">#</a> Introduction to Computer Memory and Cache Memory</h1><h2 id="computer-components-revisited" tabindex="-1"><a class="header-anchor" href="#computer-components-revisited" aria-hidden="true">#</a> Computer components revisited</h2><img src="https://pic.hanjiaming.com.cn/2021/04/07/b306fada01c11.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/70b7fd8eb1e55.png" alt="image.png" title="image.png"><h2 id="computer-memory" tabindex="-1"><a class="header-anchor" href="#computer-memory" aria-hidden="true">#</a> Computer Memory</h2><p>Computer memory refers to any physical device capable of storing information\u300C\u8BA1\u7B97\u673A\u5185\u5B58\u662F\u6307\u80FD\u591F\u5B58\u50A8\u4FE1\u606F\u7684\u4EFB\u4F55\u7269\u7406\u8BBE\u5907\u300D</p><p>a wide range of type, technology, performance, cost, etc. --- Characteristics of Memory\u300C\u7C7B\u578B\uFF0C\u6280\u672F\uFF0C\u6027\u80FD\uFF0C\u6210\u672C\u7B49\u5E7F\u6CDB\u7684\u8303\u56F4-\u5185\u5B58\u7684\u7279\u5F81\u300D</p><p>Memory organization: select the right memory, and put it to the right place</p><h3 id="motivation" tabindex="-1"><a class="header-anchor" href="#motivation" aria-hidden="true">#</a> Motivation</h3><p>Choosing the right memory (physical device) is just like buying the right desk\u300C\u9009\u62E9\u5408\u9002\u7684\u5185\u5B58\uFF08\u7269\u7406\u8BBE\u5907\uFF09\u5C31\u50CF\u8D2D\u4E70\u5408\u9002\u7684\u529E\u516C\u684C\u300D</p><p>Underlying\u300C\u57FA\u672C\u7684\u300D learning goals:</p><ul><li>trade-off between performance and cost</li><li>design philosophies\u300C\u54F2\u7406\u300D/techniques to use constrained cost to achieve better performance\u300C\u8BBE\u8BA1\u54F2\u5B66/\u6280\u672F\u4EE5\u4F7F\u7528\u6709\u9650\u7684\u6210\u672C\u6765\u83B7\u5F97\u66F4\u597D\u7684\u6027\u80FD\u300D</li></ul><h3 id="characteristics-of-memory" tabindex="-1"><a class="header-anchor" href="#characteristics-of-memory" aria-hidden="true">#</a> <strong>Characteristics</strong> of Memory</h3><p>Memory can be categorized\u300C\u5206\u7C7B\u300D from many aspects\u300C\u65B9\u9762\u300D</p><ul><li>the technology it uses</li><li>the physical media</li><li>the cost</li><li>the access speed</li><li>the location (where it is in the computer)</li></ul><h4 id="location" tabindex="-1"><a class="header-anchor" href="#location" aria-hidden="true">#</a> Location</h4><ul><li>internal memory or external memory? <ul><li>internal: registers in processor, main memory, cache, etc.</li><li>external: the peripheral storage devices, such as disk and tape -- they are accessible to the processor via I/O controllers</li></ul></li></ul><p>\u6CE8\u610F\uFF1A\u4E00\u822C\u5728\u6301\u4E45\u5728\u4E3B\u677F\u4E0A\u63D2\u7740\u7684 Memory \u7B97 internal memory</p><h4 id="access-method" tabindex="-1"><a class="header-anchor" href="#access-method" aria-hidden="true">#</a> Access method</h4><h5 id="sequential-access" tabindex="-1"><a class="header-anchor" href="#sequential-access" aria-hidden="true">#</a> Sequential Access</h5><p>\u300C\u987A\u5E8F\u8BBF\u95EE\u300D</p><ul><li>memory is organized into units of data (records)\u300C\u5185\u5B58\u4EE5\u6570\u636E\uFF08\u8BB0\u5F55\uFF09\u4E3A\u5355\u4F4D\u8FDB\u884C\u7EC4\u7EC7\uFF1B\u300D;</li><li>access each records in sequence: move from a current location to the desired location sequentially\u300C\u4F9D\u6B21\u8BBF\u95EE\u6BCF\u4E2A\u8BB0\u5F55\uFF1A\u4ECE\u5F53\u524D\u4F4D\u7F6E\u987A\u5E8F\u79FB\u52A8\u5230\u6240\u9700\u4F4D\u7F6E\u300D</li><li>as a result, the time to access an arbitrary record is highly variable\u300C\u975E\u5E38\u53EF\u53D8\u7684\u300D</li></ul><p>example: tape\u300C\u78C1\u5E26\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/3d59e9efb4597.png" alt="image.png" title="image.png"><h5 id="direct-access-random-access" tabindex="-1"><a class="header-anchor" href="#direct-access-random-access" aria-hidden="true">#</a> Direct Access/Random Access</h5><ul><li>each location in the memory has a unique address\u300C\u5185\u5B58\u4E2D\u7684\u6BCF\u4E2A\u4F4D\u7F6E\u90FD\u6709\u4E00\u4E2A\u552F\u4E00\u7684\u5730\u5740\u300D</li><li>direct access often refers to secondary devices such as disks (access the block of data, may plus sequential search)\u300C\u76F4\u63A5\u8BBF\u95EE\u901A\u5E38\u662F\u6307\u8BF8\u5982\u78C1\u76D8\u4E4B\u7C7B\u7684\u8F85\u52A9\u8BBE\u5907\uFF08\u8BBF\u95EE\u6570\u636E\u5757\uFF0C\u53EF\u80FD\u8FD8\u9700\u8981\u987A\u5E8F\u641C\u7D22\uFF09\u300D</li><li>random access often refers to main memory or cache\u300C\u968F\u673A\u8BBF\u95EE\u901A\u5E38\u662F\u6307\u4E3B\u5185\u5B58\u6216\u7F13\u5B58\u300D</li><li>the time to access a given location is typically independent of the sequence of prior accesses and is often constant\u300C\u8BBF\u95EE\u7ED9\u5B9A\u4F4D\u7F6E\u7684\u65F6\u95F4\u901A\u5E38\u4E0E\u5148\u524D\u8BBF\u95EE\u7684\u987A\u5E8F\u65E0\u5173\uFF0C\u5E76\u4E14\u901A\u5E38\u662F\u6052\u5B9A\u7684\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/a0bd5e5c66dbb.png" alt="image.png" title="image.png"><h4 id="access-time-latency" tabindex="-1"><a class="header-anchor" href="#access-time-latency" aria-hidden="true">#</a> Access Time (latency)</h4><ul><li>Measures of Performance -- Access Time (latency)\u300C\u6027\u80FD\u6307\u6807-\u8BBF\u95EE\u65F6\u95F4\uFF08\u5EF6\u8FDF\uFF09\u300D</li><li>for random access, the time it takes to perform a read or write operation, i.e., from the time when an address is presented to memory to the time when data have been stored or become available\u300C\u5BF9\u4E8E\u968F\u673A\u8BBF\u95EE\uFF0C\u6267\u884C\u8BFB\u6216\u5199\u64CD\u4F5C\u6240\u82B1\u8D39\u7684\u65F6\u95F4\uFF0C\u5373 <strong>\u4ECE\u5C06\u5730\u5740\u7ED9\u5185\u5B58\u7684\u65F6\u95F4 \u5230 \u6570\u636E\u5DF2\u5B58\u50A8\u6216\u53EF\u7528 \u7684\u65F6\u95F4</strong>\u300D</li><li>for non-random access, from the time the instruction is issued to the time the data position is located for read/write operation\u300C\u5BF9\u4E8E\u975E\u968F\u673A\u8BBF\u95EE\uFF0C\u4ECE <strong>\u53D1\u51FA\u6307\u4EE4\u7684\u65F6\u95F4\u5230\u4E3A\u8BFB/\u5199\u64CD\u4F5C\u5B9A\u4F4D\u6570\u636E\u4F4D\u7F6E</strong> \u7684\u65F6\u95F4\u300D</li></ul><h4 id="memory-cycle-time" tabindex="-1"><a class="header-anchor" href="#memory-cycle-time" aria-hidden="true">#</a> Memory Cycle Time</h4><p>Measures of Performance -- Memory Cycle Time</p><p>Primarily\u300C\u4E3B\u8981\u300D applied to random access memory\u300C\u4E3B\u8981\u5E94\u7528\u4E8E\u968F\u673A\u5B58\u53D6\u5B58\u50A8\u5668\u300D\uFF1Ait consists of the access time plus any additional time required before a second access can be made (cycle)\u300C\u5B83\u7531 \u8BBF\u95EE\u65F6\u95F4\u52A0\u4E0A \u4EFB\u4F55\u989D\u5916\u7684\u65F6\u95F4 \u5728\u7B2C\u4E8C\u6B21\u8BBF\u95EE\u53EF\u88AB\u6267\u884C\u524D\u300D</p><p>Example: in computer games, skills (QWER) + cool down\u300C\u5728\u7535\u8111\u6E38\u620F\u4E2D\uFF0C\u6280\u80FD\uFF08QWER\uFF09+\u51B7\u9759\u4E0B\u6765\u300D</p><p>it is concerned with the system bus\u300C\u5B83\u4E0E\u7CFB\u7EDF\u603B\u7EBF\u6709\u5173\u300D</p><p><strong>An associated concept is transfer rate = 1/memory cycle time</strong><br> \u9891\u7387\u4E00\u822C\u662F\u8FD9\u6837\u8BA1\u7B97\u51FA\u6765\u7684</p><h4 id="physical-materials-technologies" tabindex="-1"><a class="header-anchor" href="#physical-materials-technologies" aria-hidden="true">#</a> Physical materials/technologies</h4><ul><li>semiconductor: RAM, Cache\u300C\u9AD8\u901F\u7F13\u5B58\u300D</li><li>magnetic: hard-drive</li><li>solid-state devices (a kind of semiconductor technology); replace hard-drive\u300C\u56FA\u6001\u8BBE\u5907\uFF08\u4E00\u79CD\u534A\u5BFC\u4F53\u6280\u672F\uFF09\uFF1B\u66FF\u4EE3\u786C\u76D8\u300D</li><li>optical: CD\u300C\u5149\u5B66\u7684\uFF1ACD\u300D</li></ul><h4 id="volatile-vs-non-volatile" tabindex="-1"><a class="header-anchor" href="#volatile-vs-non-volatile" aria-hidden="true">#</a> Volatile vs. Non-volatile</h4><p>Physical features\u300C\u7269\u7406\u7279\u6027\u300D -- Volatile vs. Non-volatile</p><ul><li>Volatile memory: need power to maintain the stored information (memory is lost when power is off), e.g., registers, RAM\u300C\u6613\u5931\u6027\u5185\u5B58\uFF1A\u9700\u8981\u7535\u6E90\u6765\u7EF4\u62A4\u5B58\u50A8\u7684\u4FE1\u606F\uFF08\u7535\u6E90\u5173\u95ED\u65F6\u5185\u5B58\u4E22\u5931\uFF09\uFF0C\u4F8B\u5982\u5BC4\u5B58\u5668\uFF0CRAM\u300D</li><li>non-volatile memory: no need to be charged all the time, e.g., hard drive\u300C\u975E\u6613\u5931\u6027\u5B58\u50A8\u5668\uFF1A\u65E0\u9700\u4E00\u76F4\u5145\u7535\uFF0C\u4F8B\u5982\u786C\u76D8\u9A71\u52A8\u5668\u300D</li></ul><h4 id="erasable-vs-non-erasable" tabindex="-1"><a class="header-anchor" href="#erasable-vs-non-erasable" aria-hidden="true">#</a> Erasable vs. Non-erasable</h4><p>Physical features -- Erasable vs. Non-erasable</p><ul><li>erasable: can be deleted or rewritten with new data, e.g., registers, hard drive</li><li>non-earsable: cannot be delelted/rewritten, e.g., ROM (Read Only Memory), CD</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/e2098839ffa27.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/04b38cc8be69f.png" alt="image.png" title="image.png"><h2 id="memory-hierarchy" tabindex="-1"><a class="header-anchor" href="#memory-hierarchy" aria-hidden="true">#</a> Memory Hierarchy</h2><p>Memory Hierarchy\u300C\u5185\u5B58\u5C42\u6B21\u7ED3\u6784\u300D</p><p>In the hierarchy</p><ul><li>closer to the processor: we have faster but lower-capacity, more expensive memory\u300C\u8DDD\u79BB\u5904\u7406\u5668\u66F4\u8FD1\uFF1A\u6211\u4EEC\u62E5\u6709\u66F4\u5FEB\u4F46\u5BB9\u91CF\u66F4\u4F4E\uFF0C\u5185\u5B58\u66F4\u6602\u8D35\u7684\u5185\u5B58\u300D</li><li>further to the processor: we have slower but higher-capacity, less expensive memory\u300C\u8DDD\u79BB\u5904\u7406\u5668\u66F4\u8FDC\uFF1A\u6211\u4EEC\u7684\u5185\u5B58\u901F\u5EA6\u8F83\u6162\u4F46\u5BB9\u91CF\u8F83\u9AD8\uFF0C\u5185\u5B58\u4EF7\u683C\u8F83\u4FBF\u5B9C\u300D</li><li>the essential design question: can we &quot;alloate&quot; the information such that frequently accessed information is stored in faster memory\u300C\u8BBE\u8BA1\u7684\u57FA\u672C\u95EE\u9898\uFF1A\u6211\u4EEC\u80FD\u5426\u201C\u5206\u914D\u201D\u4FE1\u606F\uFF0C\u4EE5\u4FBF\u5C06\u7ECF\u5E38\u8BBF\u95EE\u7684\u4FE1\u606F\u5B58\u50A8\u5728\u66F4\u5FEB\u7684\u5185\u5B58\u4E2D\u300D</li></ul><p>example: Program Counter register</p><h3 id="access-latency" tabindex="-1"><a class="header-anchor" href="#access-latency" aria-hidden="true">#</a> Access latency</h3><p>Access latency\u300C\u5B58\u53D6\u5EF6\u8FDF\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/4b4054871af47.png" alt="image.png" title="image.png"><ul><li>Time used by CPU to execute one instruction <ul><li>1 cycle for most instructions (1GHz CPU, 1 cycle = 10-9s)</li></ul></li><li>Time used to fetch a word from main memory <ul><li>10 ~ 100 cycles</li></ul></li><li>Time used to fetch a block of data from disks <ul><li>10,000 ~ 1,000,000 cycles</li></ul></li></ul><p>The gap\u300C\u95F4\u9699\u300D between CPU, main memory and disks</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/68881ede4ffdd.png" alt="image.png" title="image.png"><p>Solve the problem: a fast CPU is wasted by waiting for slow memory?</p><p>The processor has access to two levels of memory</p><ul><li>Level-1: capacity C1 = 100 words, access time T1 = 0.1s</li><li>Level-2: capacity C2 = 1000 words, access time T2 = 1s</li></ul><p>access mechanism: if some data is in Level-1, directly access the data; \u300C\u8BBF\u95EE\u673A\u5236\uFF1A\u5982\u679C\u67D0\u4E9B\u6570\u636E\u5904\u4E8E\u7EA7\u522B1\uFF0C\u5219\u76F4\u63A5\u8BBF\u95EE\u6570\u636E\uFF1B\u300Dotherwise, move the data from Level-2 to Level-1 first, and then access the data from Level-1\u300C\u5426\u5219\uFF0C\u9996\u5148\u5C06\u6570\u636E\u4ECELevel-2\u79FB\u5230Level-1\uFF0C\u7136\u540E\u4ECELevel-1\u8BBF\u95EE\u6570\u636E\u300D</p><p>T1 vs. (T1 + T2)</p><h3 id="locality" tabindex="-1"><a class="header-anchor" href="#locality" aria-hidden="true">#</a> Locality</h3><h4 id="clustering-effect" tabindex="-1"><a class="header-anchor" href="#clustering-effect" aria-hidden="true">#</a> Clustering effect</h4><p>\u5728\u5185\u5B58\u4E2D\uFF0Cbit\u7EC4\u6210byte\uFF0C\u591A\u884Cbyte\u7EC4\u6210word\uFF0C\u591A\u4E2Aword\u7EC4\u6210block\u3002</p><p>Basic idea: during program execution, memory accesses (for instructions and data) by processor tend to cluster\u300C\u57FA\u672C\u601D\u60F3\uFF1A\u5728\u7A0B\u5E8F\u6267\u884C\u8FC7\u7A0B\u4E2D\uFF0C\u5904\u7406\u5668\u5BF9\u5185\u5B58\u7684\u8BBF\u95EE\uFF08\u7528\u4E8E\u6307\u4EE4\u548C\u6570\u636E\uFF09\u503E\u5411\u4E8E\u805A\u96C6\u300D</p><p>Reasons: programs typically contain loops/subroutines -- repeatedly access a small set of instructions; also, for data, operations on tables and arrays involve access to a clustered set of data\u300C\u539F\u56E0\uFF1A\u7A0B\u5E8F\u901A\u5E38\u5305\u542B\u5FAA\u73AF/\u5B50\u4F8B\u7A0B-\u91CD\u590D\u8BBF\u95EE\u4E00\u5C0F\u7EC4\u6307\u4EE4;\u540C\u6837\uFF0C\u5BF9\u4E8E\u6570\u636E\uFF0C\u5BF9\u8868\u548C\u6570\u7EC4\u7684\u64CD\u4F5C\u6D89\u53CA\u5BF9\u96C6\u7FA4\u6570\u636E\u96C6\u7684\u8BBF\u95EE\u300D</p><p>During some specific time period, processor wants to access a portion of main memory (one cluster)\u300C\u5728\u67D0\u4E2A\u7279\u5B9A\u65F6\u95F4\u6BB5\u5185\uFF0C\u5904\u7406\u5668\u5E0C\u671B\u8BBF\u95EE\u4E3B\u5185\u5B58\u7684\u4E00\u90E8\u5206\uFF08\u4E00\u4E2A\u96C6\u7FA4\uFF09\u300D</p><p>Over time, processor accesses different clusters\u300C\u968F\u7740\u65F6\u95F4\u7684\u6D41\u901D\uFF0C\u5904\u7406\u5668\u8BBF\u95EE\u4E0D\u540C\u7684\u96C6\u7FA4\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/1ad834c46e638.png" alt="image.png" title="image.png"><h4 id="concept" tabindex="-1"><a class="header-anchor" href="#concept" aria-hidden="true">#</a> Concept</h4><ul><li>Principle of locality: Programs tend to use data and instructions with addresses near or equal to those they have used recently\u300C\u672C\u5730\u6027\u539F\u5219\uFF1A\u7A0B\u5E8F\u503E\u5411\u4E8E\u4F7F\u7528\u5730\u5740\u6216\u5730\u5740\u4E0E\u5B83\u4EEC\u6700\u8FD1\u4F7F\u7528\u7684\u5730\u5740\u63A5\u8FD1\u6216\u76F8\u7B49\u7684\u6570\u636E\u548C\u6307\u4EE4\u3002\u300D</li><li>Temporal\u300C\u65F6\u95F4\u300D locality: recently referenced items (data, instructions) are likely to be referenced again in the near future\u300C\u65F6\u95F4\u4F4D\u7F6E\uFF1A\u8FD1\u671F\u5F15\u7528\u7684\u9879\u76EE\uFF08\u6570\u636E\uFF0C\u8BF4\u660E\uFF09\u53EF\u80FD\u4F1A\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u518D\u6B21\u5F15\u7528\u300D</li><li>Spatial\u300C\u7A7A\u95F4\u300D locality: items (data, instructions) with nearby addresses tend to be referenced close together in time\u300C\u7A7A\u95F4\u4F4D\u7F6E\uFF1A\u5177\u6709\u9644\u8FD1\u5730\u5740\u7684\u9879\u76EE\uFF08\u6570\u636E\uFF0C\u6307\u4EE4\uFF09\u5F80\u5F80\u5728\u65F6\u95F4\u4E0A\u9760\u8FD1\u5728\u4E00\u8D77\u5F15\u7528\u300D</li></ul><p>THINK: WHY LOCALITY EXISTS?</p><h4 id="example-two-level-memory" tabindex="-1"><a class="header-anchor" href="#example-two-level-memory" aria-hidden="true">#</a> Example: Two-Level Memory</h4><p>Hit Ratio: the fraction of accesses involving only Level-1</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7c3301409c48a.png" alt="image.png" title="image.png"><p>Conclusion-- increase the hit ratio</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/3044bb32a2838.png" alt="image.png" title="image.png"><h4 id="examples-of-locality" tabindex="-1"><a class="header-anchor" href="#examples-of-locality" aria-hidden="true">#</a> Examples of locality</h4><p>To compute the sum of all elements in an 2-D array</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/be300de3c3488.png" alt="image.png" title="image.png"><p>\u540C\u65F6\u6211\u4EEC\u53D1\u73B0\u6570\u7EC4\u662F\u6309x-y-z\u7684\u7EF4\u5EA6\u5B58\u50A8\u7684\u3002\u6240\u4EE5\uFF0C\u5F53\u6211\u4EEC\u4F7F\u7528\u4E0B\u9762\u7684\u7B97\u6CD5\u65F6</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/cb956aaadce82.png" alt="image.png" title="image.png" width="240px"><p>\u5C31\u662F BAD LOCALITY</p><h4 id="examples-of-temporal-locality" tabindex="-1"><a class="header-anchor" href="#examples-of-temporal-locality" aria-hidden="true">#</a> Examples of temporal locality</h4><ul><li><p>Data references</p></li><li><ul><li>The access to \u201Csum\u201D in the inner loop</li><li>Once accesses, will be accessed again in the near future\u300C\u4E00\u65E6\u6267\u884C\uFF0C\u5C06\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u518D\u6B21\u6267\u884C\u300D</li></ul></li><li><p>Instruction references</p></li><li><ul><li>The instructions to do \u201Csum += a[][]\u201D</li><li>Once executed, will be executed again in the near future</li></ul></li></ul><p>To understand locality for \u201Cdata\u201D and \u201Cinstructions\u201D:<br> They are essentially the same, as instructions are special data stored in memory</p><h4 id="to-measure-locality" tabindex="-1"><a class="header-anchor" href="#to-measure-locality" aria-hidden="true">#</a> To measure locality</h4><p>\u5982\u4F55\u8BC4\u4EF7\u4E00\u4E2Alocality\u7684\u597D\u574F\u5462\uFF1F</p><ul><li>Stride: The distance of two adjacent data accesses in memory location, in the unit of 1 data element\u300C\u6B65\u5E45\uFF1A\u5185\u5B58\u4F4D\u7F6E\u4E2D\u4E24\u4E2A\u76F8\u90BB\u6570\u636E\u8BBF\u95EE\u7684\u8DDD\u79BB\uFF0C\u4EE51\u4E2A\u6570\u636E\u5143\u7D20\u7684\u957F\u5EA6\u4E3A\u76F8\u540C\u5355\u4F4D\u300D <ul><li>Stride-1 reference pattern: access the data one by one according to their memory addresses, such as the good locality example\u300C\u6839\u636E\u6570\u636E\u7684\u5B58\u50A8\u5730\u5740\u4E00\u4E00\u8BBF\u95EE\u6570\u636E\uFF0C\u4F8B\u5982\u826F\u597D\u7684locality\u793A\u4F8B\u300D</li><li>Stride-k reference pattern: for example, the bad locality example generally has a stride-4 reference pattern\u300C\u4F8B\u5982\uFF0C\u4E0D\u826Flocality\u793A\u4F8B\u901A\u5E38\u5177\u6709 a stride-4 reference pattern\u300D</li></ul></li><li>The smaller the stride, the better the locality\u300C\u6B65\u5E45\u8D8A\u5C0F\uFF0Clocality \u8D8A\u597D\u300D</li></ul><h3 id="cache-memory" tabindex="-1"><a class="header-anchor" href="#cache-memory" aria-hidden="true">#</a> Cache Memory</h3><img src="https://pic.hanjiaming.com.cn/2021/04/07/5cecb7a84188e.png" alt="image.png" title="image.png"><p>\u8FD9\u91CC\u51B0\u7BB1\u5C31\u76F8\u5F53\u4E8E Cache Memory</p><p>Caching idea\uFF1AAdding a small but fast memory inside the CPU</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/0f77d2ce106a8.png" alt="image.png" title="image.png"><p>cache\u662F\u4E00\u884C\u4E00\u884C\u7684\u3002\u6211\u4EEC\u8BA4\u4E3A cache \u6BCF\u884C\u957F\u5EA6 = \u5185\u5B58\u6BCF\u4E2Ablock\u5927\u5C0F\u3002</p><h4 id="concept-1" tabindex="-1"><a class="header-anchor" href="#concept-1" aria-hidden="true">#</a> Concept</h4><img src="https://pic.hanjiaming.com.cn/2021/04/07/e9c84f5447c5a.png" alt="image.png" title="image.png"><p>Cache is fast but has relatively small capacity.\u300C\u7F13\u5B58\u901F\u5EA6\u5FEB\uFF0C\u4F46\u5BB9\u91CF\u76F8\u5BF9\u8F83\u5C0F\u3002\u300D</p><p>Basic mechanism: cache contains the copy of portions of main memory (blocks). \u300C\u57FA\u672C\u673A\u5236\uFF1A\u9AD8\u901F\u7F13\u5B58\u5305\u542B\u4E3B\u5185\u5B58\u90E8\u5206\uFF08\u5757\uFF09\u7684\u526F\u672C\u3002\u300D</p><ul><li>when CPU wants to read a word: <ul><li>if the word is in cache, access the word</li><li>else a block of main memory (containing that word) is read into cache</li></ul></li><li>thenthe word is delivered to CPU\u300C\u5426\u5219\u5C06\u4E00\u5757\u4E3B\u5B58\u50A8\u5668\uFF08\u5305\u542B\u8BE5\u5355\u8BCD\uFF09\u8BFB\u5165\u7F13\u5B58\uFF0C\u7136\u540E\u8FD9\u4E2A\u8BCD\u88AB\u4EA4\u4ED8\u7ED9CPU\u300D</li></ul><p>Due to locality of reference, the hit ratio is high (words can be found in cache with high chance)\u300CDue to locality of reference \u547D\u4E2D\u7387\u5F88\u9AD8\uFF08\u53EF\u4EE5\u5728\u9AD8\u901F\u7F13\u5B58\u4E2D\u627E\u5230\u5355\u8BCD\uFF09\u300D</p><p>As a result, as if there is memory with large capacity and fast access speed\u300C\u7ED3\u679C\uFF0C\u597D\u50CF\u6709\u5927\u5BB9\u91CF\u4E14\u8BBF\u95EE\u901F\u5EA6\u5FEB\u7684\u5185\u5B58\u300D</p><h4 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h4><p>Assume When a program executes, it generates 20 memory accesses<br> ABCDCCCDDDEGHGHGHGHB</p><p>The unit of data loading is \u201Cone block\u201D\uFF1AOne block contains two data variables</p><ul><li>Cache size = 2 blocks</li><li>Data access time <ul><li>Cache hit: 1 cycle\u300C\u7F13\u5B58\u547D\u4E2D\uFF1A1\u4E2A\u5468\u671F\u300D</li><li>\u300C\u7F13\u5B58\u672A\u547D\u4E2D\uFF1A200\u4E2A\u5468\u671F\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/a3d302d2fa796.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/3292afeed1f5b.png" alt="image.png" title="image.png"><p>Performance with cache\uFF1AAccess time = 1 * 15 + 5 * 200 = 1015 cycles Performance without cache\uFF1AAccess time = 200 * 20 = 4000 cycles</p><p>\u6CE8\uFF1A\u5047\u8BBE\u5224\u65AD\u4E0D\u9700\u8981\u65F6\u95F4\u3002\u4ECE\u5185\u5B58\u63D0\u53D6\u6570\u636E\u7684\u95F4\u9699\u662F 200c \uFF0C\u4ECE cash \u63D0\u53D6\u6570\u636E\u95F4\u9699\u662F 15c</p><p>Multiple-Level Cache Organization \u56FE\u793A</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7f000345e3c0a.png" alt="image.png" title="image.png"><h4 id="application" tabindex="-1"><a class="header-anchor" href="#application" aria-hidden="true">#</a> Application</h4><img src="https://pic.hanjiaming.com.cn/2021/04/27/c5fa8774ea8cc.png" alt="CleanShot 2021-04-27 at 12.31.42@2x.png" title="CleanShot 2021-04-27 at 12.31.42@2x.png" width="300px"><h3 id="structure-of-a-cache-main-memory-system" tabindex="-1"><a class="header-anchor" href="#structure-of-a-cache-main-memory-system" aria-hidden="true">#</a> Structure of a Cache/Main-Memory System</h3><img src="https://pic.hanjiaming.com.cn/2021/04/07/305fa65e5042d.png" alt="image.png" title="image.png"><p>The Cache consists of m <strong>lines,</strong> where each line has a length of K words (the size of one block in memory)\u300Ccache \u7531m\u884C\u7EC4\u6210\uFF0C\u5176\u4E2D\u6BCF\u884C\u7684\u957F\u5EA6\u4E3AK\u4E2A\u5B57\uFF08\u5185\u5B58\u4E2D\u4E00\u4E2A\u5757\u7684\u5927\u5C0F\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7ff4348d3fede.png" alt="image.png" title="image.png" width="350px"><p><strong>m lines</strong> in Cache vs. <strong>M blocks</strong> in Memory <strong>(m &lt;&lt;M)</strong></p><p>access mechanism: when we want to access a word in the memory, the whole block containing that word is copied into one line of cache\u300C\u8BBF\u95EE\u673A\u5236\uFF1A\u5F53\u6211\u4EEC\u8981\u8BBF\u95EE\u5185\u5B58\u4E2D\u7684\u4E00\u4E2Aword\u65F6\uFF0C\u5305\u542B\u8BE5word\u7684\u6574\u4E2A\u5757\u88AB\u590D\u5236\u5230\u7F13\u5B58\u7684\u4E00\u884C\u4E2D</p><p>One cache line cannot be permanently allocated to one memory block -- use the tag to indicate which block is stored in cache (more on this later)\u300C\u4E00\u6761\u9AD8\u901F\u7F13\u5B58\u884C\u4E0D\u80FD\u6C38\u4E45\u5206\u914D\u7ED9\u4E00\u4E2A\u5185\u5B58\u5757-\u4F7F\u7528\u6807\u7B7E\u6307\u793A\u54EA\u4E2A\u5757\u5B58\u50A8\u5728\u9AD8\u901F\u7F13\u5B58\u4E2D\uFF08\u7A0D\u540E\u4F1A\u8BE6\u7EC6\u4ECB\u7ECD\uFF09\u300D</p><p>Illustration of Cache Read Operation \u5982\u4E0B</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/b886280cea662.png" alt="image.png" title="image.png"><p>Typical Cache Organization \u5982\u4E0B\u56FE</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/fbde1110fca38.png" alt="image.png" title="image.png"><p>Mapping Function\u2014\u2014Basic Elements of Cache Design</p><h4 id="mapping-function" tabindex="-1"><a class="header-anchor" href="#mapping-function" aria-hidden="true">#</a> Mapping Function</h4><p>The essential problem we want to address: map M memory blocks to m cache lines (m &lt;&lt; M)\u2014\u2014mapping function\u300C\u6211\u4EEC\u8981\u89E3\u51B3\u7684\u57FA\u672C\u95EE\u9898\uFF1A\u5C06M\u4E2A\u5185\u5B58\u5757\u6620\u5C04\u5230m\u4E2A\u7F13\u5B58\u884C\uFF08m &lt;&lt; M\uFF09-\u6620\u5C04\u529F\u80FD\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/5836c70fcf801.png" alt="image.png" title="image.png"><p>A mapping function defines where the needed blocks in memory are loaded to Cache (M blocks, m positions)\u300C\u6620\u5C04\u529F\u80FD\u5B9A\u4E49\u5C06\u5185\u5B58\u4E2D\u6240\u9700\u7684\u5757\u52A0\u8F7D\u5230\u9AD8\u901F\u7F13\u5B58\u7684\u4F4D\u7F6E\uFF08M\u4E2A\u5757\uFF0Cm\u4E2A\u4F4D\u7F6E\uFF09\u300D</p><ul><li>direct mapping: a kind of fixed mapping, i.e., blocks in memory are allocated to fixed cache lines <ul><li>Q = M/m, Q blocks are mapped to one single cache line; Q to 1 mapping\u300CQ = M / m\uFF0CQ\u4E2A\u5757\u88AB \u6620\u5C04 \u5230\u4E00\u6761 cache line\uFF1B Q\u5BF91\u6620\u5C04\u300D</li></ul></li><li>associative mapping: any block can go to any cache line\u300C\u5173\u8054\u6620\u5C04\uFF1A\u4EFB\u4F55\u5757 \u90FD\u53EF\u4EE5\u5230 \u4EFB\u4F55 cache line\u300D</li></ul><h5 id="direct-mapping" tabindex="-1"><a class="header-anchor" href="#direct-mapping" aria-hidden="true">#</a> Direct mapping</h5><h6 id="direct-mapping-example" tabindex="-1"><a class="header-anchor" href="#direct-mapping-example" aria-hidden="true">#</a> Direct mapping Example</h6><p>Map all students to 10 seats using direct mapping</p><ul><li>suppose SID has 8 digits, split SID into 2 parts: first 7 digits and the last digit\u300C\u5047\u8BBESID\u67098\u4F4D\u6570\u5B57\uFF0C\u5219\u5C06SID\u5206\u4E3A2\u90E8\u5206\uFF1A\u524D7\u4F4D\u548C\u540E1\u4F4D\u300D</li><li>use your last digit as your seat number -- all students are divided into 10 groups, it is a fixed mapping\u300C\u7528\u60A8\u7684\u6700\u540E\u4E00\u4F4D\u6570\u5B57\u4F5C\u4E3A\u5EA7\u4F4D\u53F7-\u6240\u6709\u5B66\u751F\u5206\u4E3A10\u7EC4\uFF0C\u8FD9\u662F\u4E00\u4E2A\u56FA\u5B9A\u7684\u6620\u5C04\u300D</li></ul><p>How can we know who is currently sitting in seat i (i 0 to 9)?\u300C\u6211\u4EEC\u5982\u4F55\u77E5\u9053\u8C01\u73B0\u5728\u5750\u5728\u5EA7\u4F4Di\uFF08i 0\u52309\uFF09\u4E2D\uFF1F\u300D</p><p>a student can use the first 7 digits as a tag -- the tag is unique for that particular student\u300C\u4E00\u4E2A\u5B66\u751F\u53EF\u4EE5\u4F7F\u7528\u524D7\u4F4D\u6570\u5B57\u4F5C\u4E3A\u6807\u7B7E-\u8BE5\u6807\u7B7E\u5BF9\u4E8E\u8BE5\u7279\u5B9A\u5B66\u751F\u662F\u552F\u4E00\u7684\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7d57e6b79307c.png" alt="image.png" title="image.png"><p>SID = memory address (tag in cache is a portion of memory address)\u300CSID =\u5185\u5B58\u5730\u5740\uFF08\u7F13\u5B58\u4E2D\u7684\u6807\u7B7E\u662F\u5185\u5B58\u5730\u5740\u7684\u4E00\u90E8\u5206\uFF09\u300D</p><h6 id="implementation" tabindex="-1"><a class="header-anchor" href="#implementation" aria-hidden="true">#</a> Implementation</h6><ul><li>Use main memory address to implement direct mapping\u300C\u4F7F\u7528 main memory address \u5B9E\u73B0\u76F4\u63A5\u6620\u5C04\u300D</li><li>bear in mind that Cache line = Memory Block (they contain the same number of words)\u300C\u8BF7\u8BB0\u4F4F\uFF0C\u7F13\u5B58\u884C=\u5185\u5B58\u5757\uFF08\u5B83\u4EEC\u5305\u542B\u76F8\u540C\u6570\u91CF\u7684\u5B57\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/08/e95e52739c8a3.png" alt="image.png" title="image.png"><p>\u6CE8\u610F\uFF1A\u8FD9\u5E76\u4E0D\u8FDD\u80CC\u5730\u5740\u7F16\u53F7\u7684\u76F8\u5173\u77E5\u8BC6\u3002\u539F\u56E0\u662Fs+w\u5E76\u4E0D\u4F1A\u5360\u6EE1\u6240\u6709\u7684\u6BD4\u7279\u4F4D\u3002</p><h6 id="cache-interpret" tabindex="-1"><a class="header-anchor" href="#cache-interpret" aria-hidden="true">#</a> Cache interpret</h6><p>How would the cache interpret\u300C\u89E3\u91CA\u300D main memory address?</p><img src="https://pic.hanjiaming.com.cn/2021/04/08/a3495e9188da5.png" alt="image.png" title="image.png"><p>Example\uFF1As = 4 bits, r = 2 bits</p><ul><li><p>01 11 \u2014 11 determines which line you should go to</p></li><li><p>00 11, 01 11, 10 11, 11 11: the four blocks ending with 11 will go to the same line; they are differentiated by the tag (first two bits)</p></li><li><p>01 11 mod 4 = 3 \u2014 the line with line number 3</p></li></ul><h6 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h6><p>Summary of Mapping Function:</p><ul><li>given a memory address ( s + w) bits\uFF0Cwe know which block it is through the s bits\u300C\u6211\u4EEC\u901A\u8FC7s\u4F4D\u77E5\u9053\u5B83\u662F\u54EA\u4E2A\u5757\u300D <ul><li>among the s bits, there are r bits, which tell us the line number in Cache that stores this block\u300C\u5728s\u4F4D\u4E2D\uFF0C\u6709r\u4F4D\uFF0C\u5B83\u4EEC\u544A\u8BC9\u6211\u4EEC\u5B58\u50A8\u6B64\u5757\u7684Cache\u4E2D\u7684\u884C\u53F7\u300D</li><li>As there are more blocks than lines (s &gt; r), the remaining (s - r) bits serve as a tag for the Cache line, telling us which block this line is currently storing</li></ul></li></ul><p>Multiple Blocks to One Line\uFF1Aaddress s + w bits</p><ul><li>cache will interprete it as three fields: tag (s-r), line (r), word (w) <ul><li>line (r) determines which line in cache the block will map to</li><li>tag (s-r) determines the current block that line is storing CPU can directly check that line, and compare the tag field\u300C\u6BD4\u8F83\u6807\u7B7E\u5B57\u6BB5\u300D to determine whether the block is now in the cache</li></ul></li></ul><p>\u6CE8\uFF1Atag\u4E0D\u662F\u81EA\u5E26\u7684\uFF0C\u662F\u53EF\u4EE5\u88AB\u5199\u5165\u7684\u3002</p><p>How does CPU access a word?</p><ol><li>Given an address (s+w) bits</li><li>Use r bits to locate the line in Cache</li><li>Compare the (s-r) bits with the tag: <ul><li>if (s-r) match, the line stores the desired block; use w bits to identify the desired word</li><li>if (s-r) no match, access the memory, copy the block to the line</li></ul></li></ol><img src="https://pic.hanjiaming.com.cn/2021/04/08/3b73fd74b3948.png" alt="image.png" title="image.png"><h6 id="example-1" tabindex="-1"><a class="header-anchor" href="#example-1" aria-hidden="true">#</a> Example</h6><p>Settings\uFF1A</p><ul><li>word = one byte, block = 4 words (4 bytes)</li><li>main memory has 16 Mbytes (note: 1 MB = 1024 KB; 1 KB = 1024B); <ul><li>that is, 2^{24} bytes -&gt; 24 bits for the address</li><li>we have 2^{22} blocks -&gt; s = 22 bits, w = 2 bits</li></ul></li><li>cache has 64 KB = 2^{16} bytes</li></ul><p><strong>R = 14 bits,How many lines are there in the Cache?</strong></p><p>The number of lines are determined by the number of address.</p><p>2^{14} lines -&gt; among the 22 bits, r = 14 bits, 8 bits for the tag</p><h6 id="pros-and-cons" tabindex="-1"><a class="header-anchor" href="#pros-and-cons" aria-hidden="true">#</a> Pros and Cons</h6><ul><li>simple and inexpensive to implement</li><li>main disadvantage: muliptle blocks in memory are mapped to a fixed Cache line <ul><li>if a program happends to access words repeatedly from two different blocks that map into the same line</li><li>the two blocks will be continually swapped in the cache -- low hit ratio</li></ul></li></ul><h5 id="associative-mapping" tabindex="-1"><a class="header-anchor" href="#associative-mapping" aria-hidden="true">#</a> Associative Mapping</h5><p>Key difference from direct mapping:</p><ul><li>a block in memory can be mapped to any line in cache\u300C\u5185\u5B58\u4E2D\u7684\u4E00\u4E2A\u5757\u53EF\u4EE5\u6620\u5C04\u5230\u7F13\u5B58\u4E2D\u7684\u4EFB\u4F55\u884C\u300D</li><li>cache will interpret the address as two fields Tag and Word\u300C\u7F13\u5B58\u4F1A\u5C06\u5730\u5740\u89E3\u91CA\u4E3ATag\u548CWord\u4E24\u4E2A\u5B57\u6BB5\u300D <ul><li>address = s + w bits; 2^s blocks in memory</li><li>s serves as the tag, and it is stored together with the data\u300Cs\u4F5C\u4E3A\u6807\u7B7E\uFF0C\u5B83\u4E0E\u6570\u636E\u4E00\u8D77\u5B58\u50A8\u300D</li></ul></li><li>note: there is no field to determine the line number\u300C\u6CE8\u610F\uFF1A\u6CA1\u6709\u7528\u4E8E\u786E\u5B9A\u884C\u53F7\u7684\u5B57\u6BB5\u300D</li></ul><h6 id="associative-mapping-example" tabindex="-1"><a class="header-anchor" href="#associative-mapping-example" aria-hidden="true">#</a> Associative Mapping Example</h6><p>Settings:</p><ul><li>memory has 2^{22} blocks, each block has 4 bytes (data = 32 bits)</li><li>address is 24 bits = 22 bits (s) + 2 bits (w)</li><li>Tag: 22 bits</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/08/36cf701400133.png" alt="image.png" title="image.png"><h6 id="implementation-1" tabindex="-1"><a class="header-anchor" href="#implementation-1" aria-hidden="true">#</a> Implementation</h6><img src="https://pic.hanjiaming.com.cn/2021/04/08/33bb201d268c5.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/08/15af32c54ea74.png" alt="image.png" title="image.png"><p>A block can be mapped to any line in cache! What if the cache is full?</p><ul><li>For direct mapping, there is no choice.</li><li>For associative mapping, we need to decide which block should be replaced --- replacement algorithms</li></ul><p>The main disadvantage of associative mapping is the complex circuitry required to examine the tags of all cache lines in parallel\u300Cassociative mapping \u7684\u4E3B\u8981\u7F3A\u70B9\u662F\u9700\u8981 \u5E76\u884C\u68C0\u67E5 \u6240\u6709 cache \u884C\u7684\u6807\u7B7E\u7684 \u590D\u6742\u7535\u8DEF\u300D</p><h6 id="replacement-algorithms" tabindex="-1"><a class="header-anchor" href="#replacement-algorithms" aria-hidden="true">#</a> Replacement Algorithms</h6><p><strong>Least Recently Used (LRU)\u2014\u2014Most popular replacement algorithm</strong></p><ul><li>replace the block that has been in the cache longest with no reference to it</li><li>there requires some extra index to record the time when a line is referenced \u2013 the price need to pay</li><li>Simple for two-way set-associative mapping: use a single bit USE to indicate the most recently used line in the set</li></ul><p><strong>Other common replacement algorithms</strong></p><p>First-in-first-out (FIFO): replace that block in the set that has been in the cache longest (what&#39;s the difference from LRU)</p><p>Least Frequently Used (LFU): associate a counter to each line</p><p>Random (not based on usage): randomly pick one to replace \u2013 some papers show that Random is only slightly worse than previous usage-based algorithms</p><h5 id="set-associative-mapping" tabindex="-1"><a class="header-anchor" href="#set-associative-mapping" aria-hidden="true">#</a> Set-Associative Mapping</h5><p>not required</p><h3 id="write-policy" tabindex="-1"><a class="header-anchor" href="#write-policy" aria-hidden="true">#</a> Write Policy</h3><p>Why does inconsistency happen?</p><ul><li>multiple CPUs\u300C\u6BD4\u5982\u5728\u670D\u52A1\u5668\u4E2D\u300D: each CPU has its own cache, which may store the same block in memory</li><li>I/O can directly access main memory</li></ul><p>we need a policy to deal with such inconsistency\u300C\u6211\u4EEC\u9700\u8981\u4E00\u9879\u653F\u7B56\u6765\u5E94\u5BF9\u8FD9\u79CD\u77DB\u76FE\u300D</p><h4 id="write-policy-i-write-through" tabindex="-1"><a class="header-anchor" href="#write-policy-i-write-through" aria-hidden="true">#</a> Write Policy I - Write Through</h4><p>All writes go to cache as well as main memory</p><ul><li>multiple CPUs need to monitor main memory traffic to keep local (with respect to CPU) cache up to date</li><li>lots of traffic</li><li>slows down writes</li></ul><h4 id="write-policy-ii-write-back" tabindex="-1"><a class="header-anchor" href="#write-policy-ii-write-back" aria-hidden="true">#</a> Write Policy II - Write Back</h4><ul><li>Updates initially made in cache only, then memory</li><li>use an extra bit along with each cache line to indicate whether there&#39;s update in this line (set the bit if there&#39;s update)</li><li>when this cache line needs to be replaced, check this bit, write back to memory if the bit is set (such that updates are not lost)</li></ul><p>requirement: I/O has to access cache, not main memory directly</p><h3 id="exploiting-locality" tabindex="-1"><a class="header-anchor" href="#exploiting-locality" aria-hidden="true">#</a> Exploiting locality</h3><h4 id="hints-to-software-developers" tabindex="-1"><a class="header-anchor" href="#hints-to-software-developers" aria-hidden="true">#</a> Hints to software developers</h4><ul><li>Caching leverages locality, good locality make good use of cache\u300C\u7F13\u5B58\u5229\u7528\u4E86\u5C40\u90E8\u6027\uFF0C\u826F\u597D\u7684\u5C40\u90E8\u6027\u5145\u5206\u5229\u7528\u4E86\u9AD8\u901F\u7F13\u5B58\u300D</li><li>General principles to write programs with good locality\u300C\u7F16\u5199\u5177\u6709\u826F\u597D\u672C\u5730\u6027\u7684\u7A0B\u5E8F\u7684\u4E00\u822C\u539F\u5219\u300D <ul><li>Focus your attention on inner loops, where the CPU spends most of the time\u300C\u5C06\u6CE8\u610F\u529B\u96C6\u4E2D\u5728CPU\u5927\u90E8\u5206\u65F6\u95F4\u90FD\u5728\u5176\u4E2D\u7684\u5185\u5FAA\u73AF\u4E0A\u300D</li><li>Try to maximize the spatial locality by reading data objects sequentially, with stride 1, in the order they are stored in memory\u300C\u5C1D\u8BD5\u901A\u8FC7\u8DE8\u6B65\u8BFB\u53D6\u6570\u636E\u5BF9\u8C61\uFF08\u6B65\u957F\u4E3A1\uFF09\uFF0C\u4EE5\u5C06\u5B83\u4EEC\u5B58\u50A8\u5728\u5185\u5B58\u4E2D\u7684\u987A\u5E8F\u6765\u6700\u5927\u5316\u7A7A\u95F4\u5C40\u90E8\u6027</li><li>Try to maximize the temporal locality by using a data object as often as possible once it has been read from memory\u300C\u4ECE\u5185\u5B58\u4E2D\u8BFB\u53D6\u6570\u636E\u5BF9\u8C61\u540E\uFF0C\u5E94\u5C3D\u53EF\u80FD\u9891\u7E41\u5730\u4F7F\u7528\u5B83\u6765\u5C1D\u8BD5\u6700\u5927\u5316\u65F6\u95F4\u5C40\u90E8\u6027\u300D</li></ul></li></ul><h3 id="managing-caches" tabindex="-1"><a class="header-anchor" href="#managing-caches" aria-hidden="true">#</a> Managing caches</h3><p>Design considerations of caches</p><ul><li>Block size <ul><li>Bigger block size exploits spatial locality\u300C\u66F4\u5927\u7684\u5757\u5927\u5C0F\u5229\u7528\u7A7A\u95F4\u5C40\u90E8\u6027\u300D</li><li>Too big, bringing in many data that will not be used, waste of space and time\u300C\u592A\u5927\u4E86\uFF0C\u5E26\u6765\u4E86\u5F88\u591A\u65E0\u6CD5\u4F7F\u7528\u7684\u6570\u636E\uFF0C\u6D6A\u8D39\u4E86\u7A7A\u95F4\u548C\u65F6\u95F4\u300D</li></ul></li><li>Who is in, who is out? <ul><li>Replacement policy: if cache is full, new data going in, evict which data?\u300C\u66FF\u6362\u7B56\u7565\uFF1A\u5982\u679C\u7F13\u5B58\u5DF2\u6EE1\uFF0C\u5219\u6709\u65B0\u6570\u636E\u8FDB\u5165\uFF0C\u9010\u51FA\u54EA\u4E9B\u6570\u636E\uFF1F\u300D <ul><li>Intuition\u300C\u76F4\u89C9\u300D: keep the data being used in the near future in cache\u300C\u76F4\u89C9\uFF1A\u5C06\u6570\u636E\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u4FDD\u5B58\u5728\u7F13\u5B58\u4E2D\u300DBut, how do we know which data will be used in the near future?\u300C\u4F46\u662F\uFF0C\u6211\u4EEC\u5982\u4F55\u77E5\u9053\u4E0D\u4E45\u7684\u5C06\u6765\u5C06\u4F7F\u7528\u54EA\u4E9B\u6570\u636E\uFF1F\u300D</li></ul></li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/64de54be53967.png" alt="image.png" title="image.png" width="240px"><ul><li>To efficiently find a data item in the cache <ul><li>Find 1 data in 1000 candidates? Takes too long!</li><li>Partition the cache into groups, map different data into different groups</li><li>To find a data item in a smaller group can be efficient, but space may not be fully utilized</li></ul></li></ul><h4 id="impacts-to-hw-design" tabindex="-1"><a class="header-anchor" href="#impacts-to-hw-design" aria-hidden="true">#</a> Impacts to HW design</h4><p>\u5BF9\u786C\u4EF6\u8BBE\u8BA1\u7684\u5F71\u54CD\u2013\u5B58\u50A8\u5C42\u6B21\u7ED3\u6784</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/28b3ee018d930.png" alt="image.png" title="image.png"><ul><li>Conceptually\u300C\u4ECE\u6982\u5FF5\u4E0A\u8BB2\u300D, level K can be viewed as a cache of level K+1, storing a subset of K&#39;data in level K+1</li><li>If caching policies are smartly designed, most of the time, cache accesses will be hit</li><li>Pretty much like we have a memory system that works at a speed of the highest level, but have the storage space of the lowest level, with reasonably low price\u300C\u4ECE\u6982\u5FF5\u4E0A\u8BB2\uFF0C\u53EF\u4EE5\u5C06\u7EA7\u522BK\u89C6\u4E3A\u7EA7\u522BK + 1\u7684\u7F13\u5B58\uFF0C\u5C06\u6570\u636E\u7684\u5B50\u96C6\u5B58\u50A8\u5728\u7EA7\u522BK + 1\u4E2D \u5982\u679C\u5BF9\u7F13\u5B58\u7B56\u7565\u8FDB\u884C\u4E86\u7CBE\u5FC3\u8BBE\u8BA1\uFF0C\u90A3\u4E48\u5728\u5927\u591A\u6570\u60C5\u51B5\u4E0B\uFF0C\u7F13\u5B58\u8BBF\u95EE\u5C06\u53D7\u5230\u5F71\u54CD \u5C31\u50CF\u6211\u4EEC\u6709\u4E00\u4E2A\u5185\u5B58\u7CFB\u7EDF\u53EF\u4EE5\u4EE5\u6700\u9AD8\u7EA7\u522B\u7684\u901F\u5EA6\u5DE5\u4F5C\uFF0C\u4F46\u62E5\u6709\u6700\u4F4E\u7EA7\u522B\u7684\u5B58\u50A8\u7A7A\u95F4\u5E76\u4E14\u4EF7\u683C\u5374\u76F8\u5F53\u4F4E\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/00e40e65b1134.png" alt="image.png" title="image.png"><h2 id="replacement-policy" tabindex="-1"><a class="header-anchor" href="#replacement-policy" aria-hidden="true">#</a> Replacement Policy</h2><h3 id="lru-replacement" tabindex="-1"><a class="header-anchor" href="#lru-replacement" aria-hidden="true">#</a> LRU Replacement</h3><p>\u6700\u8FD1\u6700\u5C11\u4F7F\u7528</p><p>In the Least Recently Used (LRU) page replacement policy, the page that is used least recently will be replaced. Implementation: Add a register to every page frame - contain the last time that the page in that frame was accessed. Use a &quot;logical clock&quot; that advance by 1 tick each time a memory reference is made.\u300C\u5728\u6700\u8FD1\u6700\u5C11\u4F7F\u7528\uFF08LRU\uFF09\u9875\u9762\u66FF\u6362\u7B56\u7565\u4E2D\uFF0C\u6700\u8FD1\u6700\u5C11\u4F7F\u7528\u7684\u9875\u9762\u5C06\u88AB\u66FF\u6362\u3002\u5B9E\u73B0\uFF1A\u5728\u6BCF\u4E2A\u9875\u9762\u6846\u67B6\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u5BC4\u5B58\u5668-\u5305\u542B\u6700\u540E\u4E00\u6B21\u8BBF\u95EE\u8BE5\u6846\u67B6\u4E2D\u7684\u9875\u9762\u7684\u65F6\u95F4\u3002\u6BCF\u6B21\u4F7F\u7528\u5185\u5B58\u5F15\u7528\u65F6\uFF0C\u8BF7\u4F7F\u7528\u63D0\u524D1\u6EF4\u7B54\u7684\u201C\u903B\u8F91\u65F6\u949F\u201D\u3002\u300D</p><h3 id="fifo-replacement" tabindex="-1"><a class="header-anchor" href="#fifo-replacement" aria-hidden="true">#</a> FIFO Replacement</h3><p>\u5148\u8FDB\u5148\u51FA\uFF08FIFO\uFF09</p><p>The cache is managed with the FIFO replacement policy: when all the 3 cache blocks are used up and a new data block will be loaded into cache, one data block out of the 3 blocks will be replaced out of the cache. The data block that was earliest loaded into the cache will be replaced. We assume that at the very beginning, the cache is empty.\u300C\u9AD8\u901F\u7F13\u5B58\u901A\u8FC7FIFO\u66FF\u6362\u7B56\u7565\u8FDB\u884C\u7BA1\u7406\uFF1A\u5F533\u4E2A\u9AD8\u901F\u7F13\u5B58\u5757\u5168\u90E8\u7528\u5B8C\u5E76\u4E14\u65B0\u6570\u636E\u5757\u5C06\u88AB\u52A0\u8F7D\u5230\u9AD8\u901F\u7F13\u5B58\u4E2D\u65F6\uFF0C\u8FD93\u4E2A\u5757\u4E2D\u7684\u4E00\u4E2A\u6570\u636E\u5757\u5C06\u4ECE\u9AD8\u901F\u7F13\u5B58\u4E2D\u66FF\u6362\u3002\u6700\u65E9\u52A0\u8F7D\u5230\u7F13\u5B58\u4E2D\u7684\u6570\u636E\u5757\u5C06\u88AB\u66FF\u6362\u3002\u6211\u4EEC\u5047\u8BBE\u4E00\u5F00\u59CB\u7F13\u5B58\u5C31\u4E3A\u7A7A\u3002\u300D</p><p>\u4F7F\u7528\u6B64\u7B97\u6CD5\uFF0C\u9AD8\u901F\u7F13\u5B58\u6309\u6DFB\u52A0\u5757\u7684\u987A\u5E8F\u9010\u51FA\u8BE5\u5757\uFF0C\u800C\u65E0\u9700\u8003\u8651\u5B83\u4EEC\u4E4B\u524D\u88AB\u8BBF\u95EE\u8FC7\u7684\u9891\u7387\u6216\u6B21\u6570\u3002</p><h3 id="lifo-replacement" tabindex="-1"><a class="header-anchor" href="#lifo-replacement" aria-hidden="true">#</a> LIFO Replacement</h3><p>\u540E\u8FDB\u5148\u51FA\uFF08LIFO\uFF09</p><p>\u4F7F\u7528\u6B64\u7B97\u6CD5\uFF0C\u4E0EFIFO\u961F\u5217\u7684\u884C\u4E3A\u6070\u597D\u76F8\u53CD\u3002\u9AD8\u901F\u7F13\u5B58\u9010\u51FA\u6700\u5148\u6DFB\u52A0\u7684\u5757\uFF0C\u800C\u4E0E\u4E4B\u524D\u8BBF\u95EE\u5B83\u7684\u9891\u7387\u6216\u6B21\u6570\u65E0\u5173\u3002</p><!--]-->`);
-}
-const _sfc_setup$S = _sfc_main$S.setup;
-_sfc_main$S.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory.html.vue");
-  return _sfc_setup$S ? _sfc_setup$S(props, ctx) : void 0;
-};
-var IntroductionToComputerMemoryAndCacheMemory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["ssrRender", _sfc_ssrRender$S]]);
-var IntroductionToComputerMemoryAndCacheMemory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": IntroductionToComputerMemoryAndCacheMemory_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$R = {};
-function _sfc_ssrRender$R(_ctx, _push, _parent, _attrs) {
-  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "memory",
-    tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#memory" aria-hidden="true">#</a> Memory</h1>`);
-}
-const _sfc_setup$R = _sfc_main$R.setup;
-_sfc_main$R.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/index.html.vue");
-  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
-};
-var index_html$1I = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$R]]);
-var index_html$1J = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": index_html$1I
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$Q = {};
-function _sfc_ssrRender$Q(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51" tabindex="-1"><a class="header-anchor" href="#\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51" aria-hidden="true">#</a> \u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51</h1><p>\u5199\u8FC7\u8BA1\u7B97\u673A\u4EE3\u7801\u7684\u540C\u5B66\u5927\u90FD\u77E5\u9053\uFF0C\u8BA1\u7B97\u673A\u4E2D\u7684\u5C0F\u6570\u65E0\u6CD5\u8FDB\u884C\u7CBE\u786E\u8BA1\u7B97\uFF0C\u8FD9\u662F\u4E3A\u4EC0\u4E48\u5462\uFF1F\u8FD9\u662F\u56E0\u4E3A\u4E0D\u540C\u8FDB\u5236\u7684\u5C0F\u6570\u4E0D\u80FD\u7CBE\u786E\u7684\u8F6C\u6362\u3002\u6211\u4EEC\u8FD9\u7BC7\u6587\u7AE0\u5C06\u63A2\u7A76\u8FD9\u4E2A\u95EE\u9898\u3002</p><p>\u9605\u8BFB\u8FD9\u7BC7\u6587\u7AE0\u524D\uFF0C\u4F60\u53EF\u80FD\u9700\u8981\u9605\u8BFB \u8BA1\u7B97\u673A\u7EC4\u7EC7\u7B80\u4ECB</p><h2 id="number-systems-\u7684-\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#number-systems-\u7684-\u6982\u8FF0" aria-hidden="true">#</a> Number Systems \u7684 \u6982\u8FF0</h2><h3 id="\u6574\u6570\u7684\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7684\u8868\u793A" aria-hidden="true">#</a> \u6574\u6570\u7684\u8868\u793A</h3><p>\u4EBA\u8BA1\u6570\u4EE510\u4E3A\u8FDB\u5236</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129043516586.png" alt="img" loading="lazy"></p><p>610\uFF0C\u4E00\u4E2A\u7B80\u5355\u7684\u5341\u8FDB\u5236\u7684\u6570\u5B57\u3002</p><p>\u89C2\u5BDF\u6211\u4EEC\u53EF\u4EE5\u53D1\u73B0\uFF0C\u4E00\u4E2A\u6570\u5B57\u6709\u8FD9\u6837\u7684\u7279\u70B9</p><ul><li>\u57FA\u6570/\u8FDB\u5236/base \u4E3AB\uFF0C\u4F8B\u5982 B = 10</li><li>B\u4E2A\u4E0D\u540C\u7684\u7B26\u53F7\uFF0C\u5176\u4E2D\u6BCF\u4E2A\u7B26\u53F7\u90FD\u662F\u4E00\u4E2A\u6570\u5B57\uFF08\u4F8B\u598210\u8FDB\u5236\u4E2D\uFF0C0\u30011\u30012\u30013\u30014\u30015\u30016\u30017\u30018\u30019\uFF09</li><li>\u5C06\u7279\u5B9A\u6570\u5B57\u8868\u793A\u4E3A\u62BD\u8C61\u5BF9\u8C61\u7684\u4E66\u5199\u7EA6\u5B9A\uFF08\u4F8B\u5982610\uFF09</li></ul><p>\u5728\u5341\u8FDB\u5236\u7CFB\u7EDF\u4E2D\uFF0C\u5BF9\u4E8E\u6570\u5B57 103</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060639856.png" alt="img" loading="lazy"></p><p>\u5728\u4E8C\u8FDB\u5236\u7CFB\u7EDF\u4E2D\uFF0CB = 2\uFF0C\u6240\u4EE5\u6211\u4EEC\u67092\u4E2A\u7B26\u53F7\uFF1A0\u30011\uFF0C\u6211\u4EEC\u548C\u5341\u8FDB\u5236\u8FDB\u884C\u5BF9\u6BD4\uFF0C\u5BFB\u627E\u5176\u5171\u540C\u7279\u5F81\uFF0C103\u7528\u4E8C\u8FDB\u5236\u8868\u793A\u4E3A1011</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060912480.png" alt="img" loading="lazy"></p><p>\u5341\u516D\u8FDB\u5236\u4E2D\uFF0CB = 16\uFF0C16\u4E2A\u7B26\u53F7\uFF1A0\uFF0C\u2026\uFF0C9\uFF0CA\uFF0CB\uFF0CC\uFF0CD\uFF0CE\uFF0CF</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125060959240.png" alt="img" loading="lazy"></p><p>\u90A3\u4E48\uFF0C\u6839\u636E\u6211\u4EEC\u5230\u76EE\u524D\u4E3A\u6B62\u6240\u5B66\u5230\u7684\u77E5\u8BC6\uFF0C103\u7684\u542B\u4E49\u662F\u4EC0\u4E48\uFF1F\u8FD8\u4E0D\u6E05\u695A\uFF01\u6211\u4EEC\u9700\u8981\u4E00\u4E2A\u4E0B\u6807\u6765\u8868\u793A\u6211\u4EEC\u6B63\u5728\u4F7F\u7528\u7684\u6570\u5B57\u7CFB\u7EDF\uFF01\u8FD9\u53EA\u662F\u5E94\u7528\u5728\u6211\u4EEC\u4E66\u5199\u7684\u8FC7\u7A0B\u4E2D\u3002</p><h3 id="\u63A2\u7D22\u89C4\u5F8B" tabindex="-1"><a class="header-anchor" href="#\u63A2\u7D22\u89C4\u5F8B" aria-hidden="true">#</a> \u63A2\u7D22\u89C4\u5F8B</h3><p>\u6570\u5B57\u8868\u793A\uFF1A\u5BF9\u4E8E\u5177\u6709n\u4F4D\u6570\u5B57\u7684\u6574\u6570X\uFF0C\u6211\u4EEC\u5C06\u5176\u5199\u4E3A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061218318.png" alt="img" loading="lazy"></p><p>\u5176\u5341\u8FDB\u5236\u503C\u8868\u793A\u4E3A\uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061244940.png" alt="img" loading="lazy"></p><h3 id="\u5C0F\u6570\u7684\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u6570\u7684\u8868\u793A" aria-hidden="true">#</a> \u5C0F\u6570\u7684\u8868\u793A</h3><p>\u7ED9\u5B9A\u5E26\u5C0F\u6570\u7684\u5B9E\u6570\uFF0Cn\uFF1A\u6574\u6570\u4E2A\u6570\uFF0Cm\uFF1A\u5206\u6570\u4E2A\u6570\uFF0C . \u4F5C\u4E3A\u5206\u6570\u5206\u9694\u7B26 \uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061423942.png" alt="img" loading="lazy"></p><p>\u5176\u5341\u8FDB\u5236\u503C\u8868\u793A\u4E3A\uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125061500428.png" alt="img" loading="lazy"></p><h2 id="\u8F6C\u6362\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8F6C\u6362\u6CD5" aria-hidden="true">#</a> \u8F6C\u6362\u6CD5</h2><h3 id="\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236" aria-hidden="true">#</a> \u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236</h3><p>\u6BD4\u5982\uFF1A 1101101.101\uFF082\uFF09 \u8F6C\u5316\u4E3A\u5341\u8FDB\u5236</p><p>1101101.101\uFF082\uFF09 = 1<em>2^6 + 1 * 2^5 + 1</em> 2^3 +1<em>2^2 +1x 2^0 +1</em>2^(-1) +1*10^(-3) = 109.625</p><h3 id="_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236" aria-hidden="true">#</a> 10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236</h3><p>\u6BD4\u5982\uFF1A\u5C06\u5341\u8FDB\u5236\u6574\u657012\u8F6C\u6362\u4E3A\u5176\u4E8C\u8FDB\u5236\u8868\u793A\u5F62\u5F0F 1100\uFF082\uFF09</p><p>\u5BF9\u4E00\u4E2A\u4E8C\u8FDB\u5236\u7684\u6570\u5B57N\uFF0C\u53EF\u4EE5\u5199\u6210</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062208468.png" alt="img" loading="lazy"></p><p>\u5B83\u7684\u5B9E\u9645\u542B\u4E49\u662F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062710292.png" alt="img" loading="lazy"></p><p>\u5982\u679C\u6211\u4EEC\u63D0\u51FA\u4E00\u4E2A2</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125062701831.png" alt="img" loading="lazy"></p><p>a0\u5C0F\u4E8E2\uFF0C\u6545\u6211\u4EEC\u6210\u529F\u628Aa0\u5206\u79BB\u5F00</p><p>\u7EE7\u7EED\u63D0\u51FA\u4E00\u4E2A2\uFF0C\u5F97\u5230</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063005706.png" alt="img" loading="lazy"></p><p>a1\u5C0F\u4E8E2\uFF0C\u6545\u6211\u4EEC\u6210\u529F\u628Aa1\u5206\u79BB\u5F00</p><p>\u7B97\u6CD5\uFF1A\u53CD\u590D\u53D6\u5546\u5E76\u5C06\u5176\u9664\u4EE52\uFF0C\u7136\u540E\u5C06\u4F59\u6570\u4F5C\u4E3A\u8F93\u51FA\u6570\u5B57 \u4F55\u65F6\u505C\u6B62\uFF1A\u76F4\u5230\u5546\u4E3A0</p><p>\u8FD9\u4E2A\u65B9\u6CD5\u6211\u4EEC\u5728\u9AD8\u4E2D\u5B66\u8FC7\uFF0C\u5C31\u4E0D\u518D\u8BE6\u7EC6\u89E3\u91CA\uFF0C\u53EA\u662F\u4E3E\u4E2A\u4F8B\u5B50\uFF1A\u5BF9\u4E8E29\u5341\u8FDB\u5236\u8F6C\u6362\u62102\u8FDB\u5236\uFF0C\u6211\u4EEC\u8981\u5BF929\u4E0D\u505C\u5730\u9664\u4EE5\u4E8C\uFF0C\u76F4\u5230\u5546\u4E3A\u96F6\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063138883.png" alt="img" loading="lazy"></p><p>\u7136\u540E\u6211\u4EEC\u5012\u5E8F\u6536\u96C6\uFF0C\u5982\u56FE\u6240\u793A\uFF0C\u654529\uFF0810\uFF09\u4E3A11101\uFF082\uFF09</p><h3 id="\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236</h3><p>\u6211\u4EEC\u5047\u5B9A\u4E00\u4E2A\u4E8C\u8FDB\u5236\u5C0F\u6570\u4E3AF</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063435151.png" alt="img" loading="lazy"></p><p>\u5219\u6309\u7167\u4E0A\u9762\u7684\u89C4\u5219\uFF0C\u53EF\u4EE5\u8FD9\u6837\u628A\u5B83\u8F6C\u6362\u621010\u8FDB\u5236</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125063444881.png" alt="img" loading="lazy"></p><h3 id="\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236</h3><p>\u4E3E\u4E2A\u4F8B\u5B50\uFF0C\u5BF9\u4E8E0.45(10),\u8F6C\u6362\u62102\u8FDB\u5236</p><p>\u6839\u636E\u8FD9\u4E2A\u516C\u5F0F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064221102.png" alt="img" loading="lazy"></p><p>\u6211\u4EEC\u53EF\u4EE5\u8FD9\u6837</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064233639.png" alt="img" loading="lazy"></p><p>\u6211\u4EEC\u5C06\u4E0D\u505C\u5730\u91CD\u590D\u8FD9\u4E2A\u8FC7\u7A0B\u3002\u8BF7\u770B\u4E0A\u56FE</p><p>\u6700\u540E\u8FD9\u6837\u8868\u793A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064117128.png" alt="img" loading="lazy"></p><p>\u6CE8\u610F\uFF1A\u5728\u67D0\u4E9B\u60C5\u51B5\u4E0B\uFF0C\u6CA1\u6709\u786E\u5207\u7684\u8868\u793A\uFF0C\u6211\u4EEC\u53EA\u80FD\u5C06\u5C0F\u6570\u70B9\u540E\u7684\u5206\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236\u6570\uFF0C\u53EF\u4EE5\u8BBE\u7F6E\u7CBE\u5EA6\u6700\u9AD8\u4E3Ak</p><p>\u6240\u4EE5</p><h3 id="\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236" aria-hidden="true">#</a> \u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236</h3><p>\u60F3\u6CD5\u5F88\u7B80\u5355\uFF1A\u5C06\u6BCF4\u4E2A\u4E8C\u8FDB\u5236\u6570\u5B57\u8F6C\u6362\u4E3A\u4E00\u4E2A\u5341\u516D\u8FDB\u5236\u6570\u5B57</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064638624.png" alt="img" loading="lazy"></p><p>\u5341\u516D\u8FDB\u5236\u8868\u793A\u6CD5\u901A\u5E38\u7528\u4E8E\u4EE3\u66FF\u4E8C\u8FDB\u5236\u8868\u793A\u6CD5\uFF0C\u4EE5\u63D0\u9AD8\u4EBA\u4EEC\u7684\u53EF\u8BFB\u6027\u3002\uFF0C\u6240\u4EE5\u6613\u4E8E\u5728\u4E8C\u8FDB\u5236\u548C\u5341\u516D\u8FDB\u5236\u4E4B\u95F4\u8F6C\u6362\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125064716738.png" alt="img" loading="lazy"></p><h2 id="\u9644\u6CE8" tabindex="-1"><a class="header-anchor" href="#\u9644\u6CE8" aria-hidden="true">#</a> \u9644\u6CE8</h2><p>\u5728\u6570\u5B66\u4E2D\uFF0C\u5BF9\u4E8E\u4EE5B\u4E3A\u8FDB\u5236\u7684\u6570\u5B57\u7CFB\u7EDF\u4E2D\u5177\u6709n\u4F4D\u6570\u5B57\u7684\u6570\u5B57\uFF0Cn\u4F4D\u6570\u5B57\u53EF\u4EE5\u8868\u793A\u7684\u4E0D\u540C\u503C\u7684\u603B\u6570\u662F B^n</p><p>\u4F53\u9A8C\u4F7F\u7528\u8BA1\u7B97\u5668\u8FDB\u884C\u8FDB\u5236\u8F6C\u6362\uFF1Ahttps://tool.oschina.net/hexconvert</p><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>William Stallings, \u201CComputer organization and architecture: Designing for Performance\u201D, 8th Edition, 2010</li><li>Dr. Kai Zhou&#39;s PowerPoint</li><li>LYU, Mingsong &#39;s PowerPoint</li><li>https://www.zhihu.com/question/46432979</li><li>https://www.cnblogs.com/l199616j/p/10401094.html</li><li>https://blog.csdn.net/abc_xian/article/details/100131083</li><li>https://www.cnblogs.com/haotianmichael/p/8024777.html</li><li>https://blog.csdn.net/CYJ2014go/article/details/78080279</li></ul><!--]-->`);
-}
-const _sfc_setup$Q = _sfc_main$Q.setup;
-_sfc_main$Q.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/digitalSystem/digital-system1.html.vue");
-  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
-};
-var digitalSystem1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$Q]]);
+var digitalSystem1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$U]]);
 var digitalSystem1_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": digitalSystem1_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$P = {};
-function _sfc_ssrRender$P(_ctx, _push, _parent, _attrs) {
+const _sfc_main$T = {};
+function _sfc_ssrRender$T(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52" tabindex="-1"><a class="header-anchor" href="#\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52" aria-hidden="true">#</a> \u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52</h1><h2 id="\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143-alu" tabindex="-1"><a class="header-anchor" href="#\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143-alu" aria-hidden="true">#</a> \u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143\uFF08ALU\uFF09</h2><p>\u5BF9\u6570\u636E\u6267\u884C\u7B97\u672F\u548C\u903B\u8F91\u8FD0\u7B97\u7684\u8BA1\u7B97\u673A\u7684\u5B9E\u9645\u90E8\u5206 \u6240\u6709\u5176\u4ED6\u90E8\u5206\u5171\u540C\u534F\u4F5C\uFF0C\u5C06\u6570\u636E\u53D1\u9001\u5230ALU\u8FDB\u884C\u5904\u7406\uFF0C\u5E76\u53D6\u51FA\u7ED3\u679C</p><h3 id="alu\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F" tabindex="-1"><a class="header-anchor" href="#alu\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F" aria-hidden="true">#</a> ALU\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F</h3><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125065301738.png" alt="img" loading="lazy"></p><ul><li>\u63A7\u5236\u5355\u5143\uFF08Control Unit\uFF09\uFF1A\u7ED9\u51FA\u64CD\u4F5C\u8BF4\u660E</li><li>\u5DE6\u4FA7\u7684\u5BC4\u5B58\u5668\uFF08Registers\uFF09\uFF1A\u7528\u4E8E\u4FDD\u5B58\u8F93\u5165\u6570\u636E\u7684\u7F13\u51B2\u533A</li><li>\u6807\u5FD7(Flags)\uFF1A\u6307\u793A\u6307\u4EE4\u7ED3\u679C\u7684\u72B6\u6001</li><li>\u53F3\u8FB9\u7684\u5BC4\u5B58\u5668(Registers)\uFF1A\u7F13\u51B2\u533A\uFF0C\u7528\u4E8E\u4FDD\u5B58\u8F93\u51FA\u6570\u636E</li></ul><h3 id="\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F" tabindex="-1"><a class="header-anchor" href="#\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F" aria-hidden="true">#</a> \u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F</h3><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125065504883.png" alt="img" loading="lazy"></p><p>OF\u8868\u793A\u6EA2\u51FA\uFF0C\u8FD9\u91CC\u9700\u8981\u5F3A\u8C03\uFF0C\u8FD9\u91CC\u7684\u6EA2\u51FA\u4E0D\u662F\u9519\u8BEF\uFF0C\u4E0D\u4F1A\u8FDB\u5165\u5230\u4E2D\u65AD\u5468\u671F\u3002</p><h2 id="\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A" aria-hidden="true">#</a> \u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A</h2><h3 id="\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570" tabindex="-1"><a class="header-anchor" href="#\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570" aria-hidden="true">#</a> \u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570</h3><p>\u5728\u8BA1\u7B97\u673A\u7CFB\u7EDF\u4E2D\uFF0C\u53EF\u4EE5\u533A\u5206\u6B63\u8D1F\u7C7B\u578B\u7684\u6570\uFF0C\u6210\u4E3A\u201C\u6709\u7B26\u53F7\u6570\u201D\uFF08signed\uFF09\uFF1B\u65E0\u6B63\u8D1F\u7C7B\u578B\u7684\u6570(\u53EA\u6709\u6574\u6570\u7C7B\u578B)\uFF0C\u6210\u4E3A\u201C\u65E0\u7B26\u53F7\u6570\u201D\uFF08unsigned\uFF09\u3002</p><p>\u8BA1\u7B97\u673A\u5185\u5B58\u4E2D\u4EE5\u4E8C\u8FDB\u5236\u7F16\u7801\u5B58\u50A8\u6570\u5B57\uFF0C\u4F46\u662F\uFF0C\u8FD9\u4E9B\u4E8C\u8FDB\u5236\u7F16\u7801\u600E\u6837\u8F6C\u6362\u6210\u6211\u4EEC\u53EF\u4EE5\u7406\u89E3\u7684\u5341\u8FDB\u5236\u6570\u5B57\u5462\uFF1F\u5E76\u4E0D\u76F4\u63A5\u628A\u4E8C\u8FDB\u5236\u7F16\u7801\u5F53\u6210\u6570\u5B57\u8F6C\u6362\u6210\u5341\u8FDB\u5236\u6570\u5B57\uFF0C\u8FD9\u4E4B\u95F4\u6709\u8F6C\u6362\u89C4\u5219\u3002\u5E38\u89C1\u7684\u8F6C\u6362\u89C4\u5219\u6709</p><ul><li>\u6709\u7B26\u53F7\u6570\u5B57\u89C4\u5219\uFF08signed\uFF09 <ul><li>\u6709\u7B26\u53F7\u6574\u6570\u89C4\u5219</li><li>\u6709\u7B26\u53F7\u5C0F\u6570\u89C4\u5219</li></ul></li><li>\u65E0\u7B26\u53F7\u6570\u5B57\u89C4\u5219\uFF08unsigned\uFF09</li></ul><p>\u8FD9\u4E2A\u8F6C\u6362\u8FC7\u7A0B\u662F\uFF1A\u4E8C\u8FDB\u5236\u7F16\u7801 \u300B\u300B \u8F6C\u6362\u89C4\u5219 \u300B\u300B\u5341\u8FDB\u5236\u6570\u5B57 \u53CD\u8FC7\u6765\uFF0C10\u8FDB\u5236\u8F6C2\u8FDB\u5236\u4E5F\u662F\u5982\u6B64\u3002</p><p>\u8F6C\u6362\u53D1\u751F\u5728\u8BA1\u7B97\u673A\u7CFB\u7EDF\u5C42\u9762\uFF0CCPU\u5904\u7406 \u548C \u5185\u5B58\u5B58\u50A8 \u53EA\u5B58\u50A8\u4E8C\u8FDB\u5236\u7F16\u7801\u3002</p><p>\u4E0B\u56FE\u4EE54bits\u4E3A\u4F8B</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129075454275.png" width="400px"><h3 id="\u7279\u70B9" tabindex="-1"><a class="header-anchor" href="#\u7279\u70B9" aria-hidden="true">#</a> \u7279\u70B9</h3><ul><li>\u7B49\u4EF7 <ul><li>\u975E\u8D1F\u503C\u6709\u76F8\u540C\u7F16\u7801</li></ul></li><li>\u72EC\u7279\u6027 <ul><li>\u6BCF\u4E00 <em>\u4F4D\u6A21\u5F0F</em>(bit pattern) \u4EE3\u8868\u552F\u4E00\u7684\u6574\u6570\u503C</li><li>\u6BCF\u4E2A\u53EF\u8868\u793A\u7684\u6574\u6570\u90FD\u6709\u552F\u4E00\u7684 <em>\u4F4D\u7F16\u7801</em> (bit encoding)</li></ul></li><li>\u53EF\u4EE5\u53CD\u8F6C\u6620\u5C04</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204153152698.png" alt="img" loading="lazy"></p><h3 id="\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57" tabindex="-1"><a class="header-anchor" href="#\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57" aria-hidden="true">#</a> \u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57</h3><p>\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57\u3002\u8FD9\u91CC\u7684\u7F16\u7801\u8868\u793A \u8F6C\u6362\u89C4\u5219\u6216\u8005\u8868\u793A\u6CD5\uFF0C\u8FD9\u5E76\u4E0D\u662F \u901A\u8FC7\u6570\u5B66\u8BA1\u7B97\u65B9\u5F0F \u76F4\u63A5\u7531 \u4E8C\u8FDB\u5236\u6570\u5B57 \u8F6C\u6362\u4E3A \u5341\u8FDB\u5236\u6570\u5B57\uFF0C\u800C\u662F\u6709\u4E00\u4E9B\u8F6C\u6362\u89C4\u5219\u3002\u5F53\u7136\uFF0CCPU \u548C Main Memory \u5E76\u4E0D\u77E5\u9053\u6211\u4EEC\u5728\u4F7F\u7528\u4EC0\u4E48\u54EA\u4E00\u79CD\u8F6C\u6362\u65B9\u5F0F\uFF0C\u4F46\u662F\uFF0C\u65E0\u8BBA\u662F\u54EA\u4E00\u79CD\u8F6C\u6362\u65B9\u5F0F\uFF0C\u5B83\u4EEC\u5728CPU\u8FD0\u7B97\u7684\u65B9\u5F0F\u662F\u76F8\u540C\u7684\u3002</p><h2 id="_2-s-complement-representation" tabindex="-1"><a class="header-anchor" href="#_2-s-complement-representation" aria-hidden="true">#</a> 2\u2019s Complement Representation</h2><p>2\u2019s Complement Representation\uFF08\u4E8C\u8FDB\u5236\u8865\u7801\u8868\u793A\u6CD5\uFF09</p><p><strong>\u4EE5\u4E0B\u89C4\u5219\u4EE5\u6709\u7B26\u53F7\u6570\u4E3A\u4F8B</strong></p><ul><li>\u5BF9\u4E8E\u6B63\u6570\u67092 ^ (n-1\uFF09-1 \u4E2A\u8868\u793A\u5F62\u5F0F\uFF0C\u8868\u793A2 ^ (n-1\uFF09-1 \u4E2A\u4E0D\u540C\u7684\u6B63\u6570\u3002</li><li>\u5BF9\u4E8E\u8D1F\u6570\u67092 ^ (n-1\uFF09\u4E2A\u8868\u793A\u5F62\u5F0F\uFF0C\u8868\u793A2 ^ (n-1\uFF09\u4E2A\u4E0D\u540C\u7684\u8D1F\u6570\u3002</li><li>\u5BF9\u4E8E\u503C0\uFF0C\u67091\u79CD\u8868\u793A\u5F62\u5F0F\u3002</li><li>\u4E00\u5171\u6709 2 <sup>n\u4E2A\u8868\u793A\u5F62\u5F0F,\u4E00\u5171\u53EF\u4EE5\u8868\u793A2</sup>n\u4E2A\u6570\u5B57\u3002</li></ul><p>\u6BD4\u5982\uFF0C\u5BF9\u4E8E8\u4F4D\u7F16\u7801</p><ul><li>\u53EF\u4EE5\u8868\u793A-128\uFF081111 1111\uFF09 \u5230 127\uFF080111 1111\uFF09</li></ul><p>\u5728C++\u7684\u7F16\u8BD1\u5668\u4E2D\uFF0C\u53EF\u4EE5\u4F7F\u7528 \u6709\u7B26\u53F7\u6570\u5B57\u89C4\u5219(eg.int,double) \u548C \u65E0\u7B26\u53F7\u6570\u5B57\u89C4\u5219 (unsigned) \u628A \u6211\u4EEC\u8F93\u5165\u7684\u5341\u8FDB\u5236\u6570\u5B57 \u8F6C\u6362\u6210 \u8BA1\u7B97\u673A\u8BC6\u522B\u7684\u4E8C\u8FDB\u5236\u6570\u5B57\u3002</p><h3 id="\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801" tabindex="-1"><a class="header-anchor" href="#\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801" aria-hidden="true">#</a> \u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801</h3><p><strong>\u6BD4\u5982\u5982\u679C\u662F8\u4F4D\u4E8C\u8FDB\u5236:</strong></p><p><strong>\u539F\u7801</strong>\u5C31\u662F\u7B26\u53F7\u4F4D\u52A0\u4E0A\u771F\u503C\u7684\u7EDD\u5BF9\u503C, \u5373\u7528\u7B2C\u4E00\u4F4D\u8868\u793A\u7B26\u53F7, \u5176\u4F59\u4F4D\u8868\u793A\u503C. \u6709\u7B26\u53F7\u6570\u8F6C\u6362\u89C4\u5219\u5B9E\u8D28 \u91C7\u7528\u4E8C\u8FDB\u5236\u8865\u7801\u7684\u65B9\u5F0F \u8BC6\u522B\u8F6C\u6362\uFF0C\u4F46\u662F\u65E0\u7B26\u53F7\u8F6C\u6362\u89C4\u5219\u4E0D\u662F\u8FD9\u6837\u7684\u3002\u6211\u4EEC\u6700\u5E38\u7528\u6570\u503C\u7C7B\u578B\u7684\u662F\u6709\u7B26\u53F7\u6570\u3002</p><p>[+1]\u4E8C\u8FDB\u5236\u539F\u7801 = 0000 0001 [-1]\u4E8C\u8FDB\u5236\u539F\u7801 = 1000 0001</p><p><strong>\u53CD\u7801</strong></p><ul><li>\u6B63\u6570\u7684\u53CD\u7801\u662F\u5176\u672C\u8EAB</li><li>\u8D1F\u6570\u7684\u53CD\u7801\u662F\u5728\u5176\u539F\u7801\u7684\u57FA\u7840\u4E0A, \u7B26\u53F7\u4F4D\u4E0D\u53D8\uFF0C\u5176\u4F59\u5404\u4E2A\u4F4D\u53D6\u53CD.</li></ul><p>[+1] = [00000001]\u539F = [00000001]\u53CD [-1] = [10000001]\u539F = [11111110]\u53CD</p><p><strong>\u8865\u7801</strong></p><ul><li>\u6B63\u6570\u7684\u8865\u7801\u5C31\u662F\u5176\u672C\u8EAB</li><li>\u8D1F\u6570\u7684\u8865\u7801\u662F\u5728\u5176\u539F\u7801\u7684\u57FA\u7840\u4E0A, \u7B26\u53F7\u4F4D\u4E0D\u53D8, \u5176\u4F59\u5404\u4F4D\u53D6\u53CD, \u6700\u540E+1. (\u5373\u5728\u53CD\u7801\u7684\u57FA\u7840\u4E0A+1)</li><li>B\u662FA\u7684\u8865\u7801\uFF1AA + B = 2 ^ n\uFF0810000000\uFF09</li></ul><p>[+1] = [00000001]\u539F = [00000001]\u53CD = [00000001]\u8865 [-1] = [10000001]\u539F = [11111110]\u53CD = [11111111]\u8865</p><h3 id="\u8868\u793A\u6CD5\u5219" tabindex="-1"><a class="header-anchor" href="#\u8868\u793A\u6CD5\u5219" aria-hidden="true">#</a> \u8868\u793A\u6CD5\u5219</h3><p>\u5BF9\u4E8En\u4F4D\u7CFB\u7EDF</p><ul><li>\u4ECE000 \u2026 000\u52300111 \u2026 111\uFF08\u503C\u4ECE 0 \u5230 2 ^ {n-1}-1 \uFF09</li><li>\u4ECE1000 \u2026 000\u5230 1111 \u2026 111\uFF08\u503C\u4ECE -2 ^ {n-1} \u5230 -1 \uFF09</li><li>0 \u662F 0000 \u2026 0000</li><li>\u4E00\u5171\u6709 2^n\u4E2A \u4E0D\u540C\u7F16\u7801\uFF0C\u53EF\u4EE5\u8868\u793A 2^n\u4E2A\u503C</li></ul><p>\u8D1F\u6570\u8868\u793A\u4E3A\u76F8\u5E94\u6B63\u6570\u7684\u8865\u7801</p><p>\u4F8B\u5982\uFF1A+1 = 001\u2192-1 =111\u3002 \u4E3A\u4EC0\u4E48\uFF1F 001 + 111 = 1000 = 2 ^ 8</p><p><strong>\u7ED9\u5B9A\u4E8C\u8FDB\u5236\u6570n\u4F4D\uFF0C\u5982\u4F55\u83B7\u5F97\u5176\u4E8C\u8FDB\u5236\u8865\u7801\uFF1F</strong></p><p><strong>\u65B9\u6CD5\u4E00\uFF1A\u6839\u636E2\u8FDB\u5236\u8865\u7801\u7684\u5B9A\u4E49</strong></p><p>M\u4E0EN\u90FD\u662F10\u8FDB\u5236\u6570\uFF0C\u5982\u679CA + B = 2 ^ n\uFF0C\u5219 B\u7684\u4E8C\u8FDB\u5236\u7F16\u7801 \u662F A\u7684\u4E8C\u8FDB\u5236\u7F16\u7801 \u7684\u8865\u7801\u3002 256 (1 0000 0000) = 203(1100 1011) + 53(0011 0101\uFF09</p><p>\u5982\u679CA + B = 2 ^ n\uFF0C\u5219B\u662FA\u7684\u4E8C\u8FDB\u5236\u7684\u8865\u7801\u3002 \u4F8B\u5982\uFF1A1 0000 0000 = 1100 1011(A) + 0011 0101(B)</p><p><strong>\u65B9\u6CD5\u4E8C\uFF1A\u7FFB\u8F6C\u4F4D\u7136\u540E\u52A01</strong></p><p>\u7ED9\u5B9AA = 0011 0101 \u7FFB\u8F6CA\u7684\u4F4D\uFF1A1100 1010 \u52A01\uFF1A1100 1010 +1 = 1100 1011 = B \u9A8C\u8BC1\uFF1AA + B = 0011 0101 + 1100 1011 = 1 0000 0000</p><h3 id="\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5" aria-hidden="true">#</a> \u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5</h3><p><strong>A+B\u4E2D\uFF0C\u52A0\u6570\u4E2D\u5305\u542B\u5305\u542B\u4E24\u79CD\u79CD\u7B26\u53F7\u7684\u6570\u503C</strong></p><p>\u5728\u4E8C\u8FDB\u5236\u8865\u7801\u7CFB\u7EDF\u4E2D\u6DFB\u52A0\u4E24\u4E2A\u6570\u5B57\u4E0D\u9700\u8981\u4EFB\u4F55\u7B26\u53F7\u68C0\u6D4B \u8303\u4F8B\uFF1A\uFF084\u4F4D\u6570\uFF09\uFF1AA = 1101\uFF08-3\uFF09\uFF0CB = 0010\uFF082\uFF09 A + B = 1101 + 0010 = 1111 = -1\uFF0810\uFF09</p><p><strong>A+B\u4E2D\uFF0C\u52A0\u6570\u4E2D\u5305\u542B\u5305\u542B\u4E00\u79CD\u79CD\u7B26\u53F7\u7684\u6570\u503C</strong></p><p>-1 +\uFF08-2\uFF09\u600E\u4E48\u6837\uFF1F\u6709\u4EC0\u4E48\u95EE\u9898\uFF1F -1 = 1111\uFF0C-2 = 1110 -1 +\uFF08-2\uFF09= 1111 + 1110 = 1 1101 =-3 1 \u662F\u7ED3\u8F6C\u4F4D\u2013\u5FFD\u7565\u5B83</p><p>-5 +\uFF08-4\uFF09\u600E\u4E48\u6837\uFF1F\u6709\u4EC0\u4E48\u95EE\u9898\uFF1F -5 = 1011\uFF0C-4 = 1100 -5 +\uFF08-4\uFF09= 1011 + 1100 = 1 0111 = 7 \u5C06\u4E24\u4E2A\u8D1F\u6570\u76F8\u52A0\u4EE5\u83B7\u5F97\u4E00\u4E2A\u6B63\u6570\uFF0C\u6EA2\u51FA\u4E86</p><p>\u6240\u4EE5\uFF0C\u5982\u679C\u5C06\u4E24\u4E2A\u6570\u5B57\u76F8\u52A0\uFF0C\u5E76\u4E14\u4E24\u4E2A\u6570\u5B57\u5747\u4E3A\u6B63\u6216\u5747\u4E3A\u8D1F\uFF0C\u5219\u4EC5\u5F53\u7ED3\u679C\u5177\u6709\u76F8\u53CD\u7684\u7B26\u53F7\u65F6\u624D\u4F1A\u53D1\u751F\u6EA2\u51FA\u3002</p><p>\u8FD0\u7B97A \u2013 B\u53EF\u4EE5\u7531A +\uFF08-B\uFF09\u8BA1\u7B97\uFF0C\u5176\u4E2D\uFF08-B\uFF09\u662FB\u76842\u7684\u8865\u7801 0011 1100 \u2013 0010 1101 = 0011 1100 +\uFF08-0010 1101\uFF09 = 0011 1100 + 1101 0011</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204154106327.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204154204311.png" alt="img" loading="lazy"></p><p>\u65E0\u8BBA\u662F\u52A0\u6CD5\u8FD8\u662F\u4E58\u6CD5\uFF0C\u65E0\u8BBA\u6709\u65E0\u7B26\u53F7\uFF0C\u5982\u679C\u9700\u8981\u4FDD\u6301\u7CBE\u51C6\u7684\u7ED3\u679C\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4F7F\u7528\u201C\u4EFB\u610F\u7CBE\u5EA6\u201D\u7B97\u6CD5\u5305\u3002</p><h3 id="representation-of-different-number-of-bits" tabindex="-1"><a class="header-anchor" href="#representation-of-different-number-of-bits" aria-hidden="true">#</a> Representation of Different Number of Bits</h3><p>\u5BF9\u4E8E\u5341\u8FDB\u5236\u6570\u5B5718\uFF0C 8\u4F4D\u8868\u793A\uFF1A0001 0010 16\u4F4D\u8868\u793A\u5F62\u5F0F\uFF1A0000 0000 0001 0010 \u4F60\u4F1A\u53D1\u73B0\u6211\u4EEC\u4F7F\u75280\u6765\u8865\u9F50</p><p>\u5BF9\u4E8E\u5341\u8FDB\u5236\u6570\u5B57-18 8\u4F4D\u8868\u793A\uFF1A1110 1110 16\u4F4D\u8868\u793A\uFF1A1111 1111 1110 1110 \u4F60\u4F1A\u53D1\u73B0\u6211\u4EEC\u4F7F\u75281\u6765\u8865\u9F50</p><h3 id="\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236" tabindex="-1"><a class="header-anchor" href="#\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236" aria-hidden="true">#</a> \u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236</h3><p>\u8BBE\u4E8C\u8FDB\u5236\u6570\u5B57\u4E3A x1x2x3x4......xw</p><p>\u5219\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236\u7684\u6570\u5B57\u8BA1\u7B97\u516C\u5F0F\u4E3A\uFF08\u5176\u4E2Dw\u4E3A\u4F4D\u6570\uFF0CB2T(X) \u4E3A\u5341\u8FDB\u5236\u8BA1\u7B97\u7ED3\u679C\uFF09</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204150630324.png" alt="img" loading="lazy"></p><h3 id="\u4E8C\u8FDB\u5236\u4E58\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4E8C\u8FDB\u5236\u4E58\u6CD5" aria-hidden="true">#</a> \u4E8C\u8FDB\u5236\u4E58\u6CD5</h3><h4 id="\u4F7F\u7528\u7EB8\u548C\u7B14\u8BA1\u7B97\u65E0\u7B26\u53F7\u4E8C\u8FDB\u5236\u6570\u4E58\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u7EB8\u548C\u7B14\u8BA1\u7B97\u65E0\u7B26\u53F7\u4E8C\u8FDB\u5236\u6570\u4E58\u6CD5" aria-hidden="true">#</a> \u4F7F\u7528\u7EB8\u548C\u7B14\u8BA1\u7B97\u65E0\u7B26\u53F7\u4E8C\u8FDB\u5236\u6570\u4E58\u6CD5</h4><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204154835687.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125091119761.png" alt="img" loading="lazy"></p><p>\u88AB\u4E58\u6570\uFF1A1011 \u4E58\u6570\uFF1A1101 \u6211\u4EEC\u4E58\u6570\u7684\u6BCF\u4E00\u4F4D\u5F97\u5230\u4E00\u4E2A\u79EF \u7136\u540E\uFF0C\u6211\u4EEC\u5C06\u6240\u6709\u90E8\u5206\u7ED3\u679C\u52A0\u5728\u4E00\u8D77</p><h4 id="\u8BA1\u7B97\u673A\u5982\u4F55\u81EA\u52A8\u6267\u884C" tabindex="-1"><a class="header-anchor" href="#\u8BA1\u7B97\u673A\u5982\u4F55\u81EA\u52A8\u6267\u884C" aria-hidden="true">#</a> \u8BA1\u7B97\u673A\u5982\u4F55\u81EA\u52A8\u6267\u884C\uFF1F</h4><p><strong>\u65B9\u6CD5\u4E00</strong></p><ul><li>\u5BF9\u90E8\u5206\u4EA7\u54C1\u6267\u884C\u8FD0\u884C\u6DFB\u52A0 <ul><li>\u5BF9\u90E8\u5206\u6267\u884C\u8FD0\u884C\u6DFB\u52A0</li><li>\u4E0D\u9700\u8981\u7B49\u5F85\u6240\u6709\u7684\u90E8\u5206</li><li>\u5C06\u7D2F\u8BA1\u7ED3\u679C\u4E0E\u5F53\u524D\u90E8\u5206\u4E58\u79EF\u76F8\u52A0</li></ul></li><li>\u4F7F\u7528 add \u548C shift \u4E24\u4E2A\u64CD\u4F5C\u6765\u5B9E\u73B0\u52A0\u6CD5 <ul><li>\u5982\u679C\u4E58\u6570\u4E2D\u7684\u4F4D\u4E3A0\uFF1A\u53EA\u9700 shift</li><li>\u5982\u679C\u4E58\u6CD5\u5668\u4E2D\u7684\u4F4D\u4E3A1\uFF1Aadd \u540E shift</li></ul></li></ul><p><strong>\u65B9\u6CD5\u4E8C</strong></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204155820470.png" alt="img" loading="lazy"></p><p><strong>\u6211\u4EEC\u53EA\u8BA8\u8BBA\u65B9\u6CD5\u4E00</strong></p><p>\u5BC4\u5B58\u5668\u5B9A\u4E49</p><ul><li>M\uFF1A\u5B58\u50A8\u88AB\u4E58\u6570</li><li>Q\uFF1A\u5B58\u50A8\u4E58\u6570</li><li>A\uFF1A\u5B58\u50A8\u7D2F\u8BA1\u7ED3\u679C\uFF08\u6700\u521D\u8BBE\u7F6E\u4E3A0\uFF09</li><li>C\uFF1A\u53EF\u5B58\u4E00\u4F4D\uFF0C\u53E6\u5916\u5B58\u50A8\u6EA2\u51FA\u4F4D</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125091743730.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125091828251.png" alt="img" loading="lazy"></p><p>\u6211\u4EEC\u5047\u8BBE 1011 *1101 \u5728 8\u4F4D \u4E3E\u4F8B\u4E2D\uFF0C\u5219\u5219\u4F1A\u6709\u4EE5\u4E0B\u8FC7\u7A0B\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125091911181.png" alt="img" loading="lazy"></p><p>\u6CE8\uFF1A\u53F3\u9762\u7684\u64CD\u4F5C\u540E\u5F97\u5230\u5DE6\u9762\u7684\u7ED3\u679C</p><ul><li>M\uFF1A\u5B58\u50A8\u88AB\u4E58\u6570</li><li>Q\uFF1A\u5B58\u50A8\u4E58\u6570</li><li>A\uFF1A\u5B58\u50A8\u7D2F\u8BA1\u7ED3\u679C\uFF08\u6700\u521D\u8BBE\u7F6E\u4E3A0\uFF09</li><li>C\uFF1A\u53EF\u5B58\u4E00\u4F4D\uFF0C\u53E6\u5916\u5B58\u50A8\u6EA2\u51FA\u4F4D\uFF0C\u6EA2\u51FA\u540E\u5C06\u53D8\u62101</li></ul><ol><li>\u9996\u5148Q\u4E2D\u6700\u540E\u4E00\u4F4D\u662F1\uFF0C\u6545\u4F7F\u7528Add\uFF0CA\u7531 0000 \u8F6C\u53D8\u4E3A 1011.</li><li>\u4E4B\u540E\u4F7F\u7528shift\uFF08\u79FB\u4F4D\uFF09\uFF0C\u5BF9\u4E8EC A Q \u539F\u4E3A 0 - 1011 - 1101 \u7684\u6700\u540E\u4E00\u4F4D1\u629B\u5F03\uFF0C\u6574\u4E2A\u5411\u540E\u63A8\u9001\u4E00\u4E2A\u6570\u4F4D\uFF0C\u6B64\u65F6C \u53D8\u4E3A 0\uFF0CC A Q\u53D8\u4E3A 0 - 0101 - 1110\u3002\u7B2C\u4E00\u4E2A\u5468\u671F\u5B8C\u6210</li><li>\u4E4B\u540E\uFF0C\u56E0\u4E3AC A Q\u4E2D Q\u7684\u6700\u540E\u4E00\u4F4D\u4E3A0\uFF0C\u6545 \u76F4\u63A5shift\u3002\u7B2C\u4E8C\u4E2A\u5468\u671F\u5B8C\u6210\u3002</li><li>\u4E0B\u4E00\u6B65\uFF0CQ\u7684\u6700\u540E\u4E00\u4F4D\u53C8\u53D8\u6210\u4E861\uFF0C\u6B64\u65F6\uFF0C\u4EE4 A = M + A\uFF0C\u6210\u4E3A1101</li><li>.......</li><li>\u5F53shift8\u6B21\u540E\uFF0C\u5C06\u81EA\u52A8\u505C\u6B62\uFF0C\u8F93\u51FA\u7ED3\u679C</li></ol><p>\u8FD9\u4E2A\u8FC7\u7A0B\u53D1\u751F\u4E86\u6EA2\u51FA\uFF0C\u6BD5\u7ADF 11 * 13 &gt; (2^8)/2-1\u3002\u518D\u6B21\u5F3A\u8C03\uFF0C\u6EA2\u51FA\u4E0D\u4F1A\u5BFC\u81F4CPU\u8FDB\u5165 interrupt cycle\u3002CPU\u4E0D\u4F1A\u5224\u65AD\u662F\u5426\u4E3A\u7B97\u6570\u6EA2\u51FA\uFF0CCPU\u53EA\u8BA1\u7B97\u51FA\u4E8C\u8FDB\u5236\u7F16\u7801\uFF0C\u81F3\u4E8E\u7B97\u6570\u6EA2\u51FA\u7684\u5224\u65AD\u548C\u662F\u5426\u4E2D\u65AD\u7A0B\u5E8F\u7684\u6267\u884C\u8981\u770B\u8BA1\u7B97\u673A\u7CFB\u7EDF\u548C\u7A0B\u5E8F\uFF08program\uFF09</p><p>\u6709\u5173\u6EA2\u51FA\u7684\u533A\u522B\uFF0C\u8BF7\u89C1\u5176\u4ED6\u8D44\u6599\u3002</p><h4 id="\u8D1F\u6570\u4E58\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8D1F\u6570\u4E58\u6CD5" aria-hidden="true">#</a> \u8D1F\u6570\u4E58\u6CD5</h4><p>\u5728\u4E0D\u540C\u8BA1\u7B97\u673A\u7CFB\u7EDF\u4E2D\uFF0C\u5927\u591A\u4F7F\u7528\u4E00\u4E0B\u4E24\u79CD\u89E3\u51B3\u65B9\u6848</p><p><strong>\u65B9\u6848\u4E00</strong></p><p>\u4EE5\u524D\u7684\u65E0\u7B26\u53F7\u4E8C\u8FDB\u5236\u6570\u5B57\u7B97\u6CD5\u4E0D\u80FD\u76F4\u63A5\u7528\u4E8E\u4E8C\u8FDB\u5236\u7684\u8868\u793A\u5F62\u5F0F\u3002\u6240\u4EE5\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5FFD\u7565\u7B26\u53F7\uFF0C\u8BA1\u7B97\u4E58\u6CD5\uFF0C\u7136\u540E\u53D6\u7ED3\u679C\u76842\u8FDB\u5236\u8865\u7801\u3002\u8FD9\u662F\u5F88\u5E38\u7528\u7684\u3002</p><p>\u4E3E\u4F8B\uFF1A(-5) * 11</p><ol><li><p>In the first step, we have to use 2&#39;s complement for the inputs.</p><ul><li>5 -&gt; 1111 1011</li><li>11 -&gt; 0000 1011</li></ul></li><li><p>We follow the simple pencil-and-paper method to coculate</p><table><thead><tr><th>1</th><th>1</th><th>1</th><th>1</th><th>1</th><th>0</th><th>1</th><th>1</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td></td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td></td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td></tr></tbody></table></li><li><p>summing the columns show that 1100 1001</p></li><li><p>accroding to 2&#39;complement, 1100 1001 -&gt; -55</p></li></ol><p><strong>\u65B9\u6848\u4E8C</strong></p><p>\u53E6\u4E00\u79CD\u9009\u62E9\uFF1A\u57282\u7684\u8865\u7801\u8868\u793A\u5F62\u5F0F\u4E0A\u5FEB\u901F\u76F8\u4E58-\u5E03\u65AF\u7B97\u6CD5</p><h2 id="\u5176\u4ED6\u8D44\u6599-\u591A\u4EE5c\u8BED\u8A00\u4E3A\u4F8B" tabindex="-1"><a class="header-anchor" href="#\u5176\u4ED6\u8D44\u6599-\u591A\u4EE5c\u8BED\u8A00\u4E3A\u4F8B" aria-hidden="true">#</a> \u5176\u4ED6\u8D44\u6599\uFF08\u591A\u4EE5C\u8BED\u8A00\u4E3A\u4F8B\uFF09</h2><h3 id="\u6570\u503C\u5B58\u50A8\u8303\u56F4" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C\u5B58\u50A8\u8303\u56F4" aria-hidden="true">#</a> \u6570\u503C\u5B58\u50A8\u8303\u56F4</h3><p><strong>32\u4F4D\u7F16\u8BD1\u5668\u4E2D</strong></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129074107710.png" alt="img" loading="lazy"></p><p><strong>64\u4F4D</strong>\u7F16\u8BD1\u5668\u4E2D</p><p>unsigned int\uFF1A0\uFF5E4294967295\uFF080~2^32-1\uFF09 int\uFF1A-2147483648\uFF5E2147483647(-2<sup>31~2</sup>31-1) unsigned long\uFF1A0\uFF5E4294967295(0~2^32-1) long\uFF1A-2147483648\uFF5E2147483647(-2<sup>31~2</sup>31-1) long long:-9223372036854775808<sub>9223372036854775807(-2^63</sub>2^63-1) unsigned long long\uFF1A0<sub>18446744073709551615(0</sub>2^64-1)</p><h3 id="\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F" aria-hidden="true">#</a> \u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F</h3><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129082910576.png" alt="img" loading="lazy"></p><p><strong>32\u4F4D</strong>\u7F16\u8BD1\u5668\u4E2D</p><ul><li>char \uFF1A1\u4E2A\u5B57\u8282</li><li>char*\uFF08\u5373\u6307\u9488\u53D8\u91CF\uFF09: 4\u4E2A\u5B57\u8282\uFF0832\u4F4D\u7684\u5BFB\u5740\u7A7A\u95F4\u662F2^32, \u537332\u4E2Abit\uFF0C\u4E5F\u5C31\u662F4\u4E2A\u5B57\u8282\u3002\u540C\u740664\u4F4D\u7F16\u8BD1\u5668\uFF09</li><li>short int : 2\u4E2A\u5B57\u8282</li><li>int\uFF1A 4\u4E2A\u5B57\u8282</li><li>unsigned int : 4\u4E2A\u5B57\u8282</li><li>float: 4\u4E2A\u5B57\u8282</li><li>double: 8\u4E2A\u5B57\u8282</li><li>long: 4\u4E2A\u5B57\u8282</li><li>long long: 8\u4E2A\u5B57\u8282</li><li>unsigned long: 4\u4E2A\u5B57\u8282</li></ul><p><strong>64\u4F4D</strong>\u7F16\u8BD1\u5668\u4E2D</p><ul><li>char \uFF1A1\u4E2A\u5B57\u8282</li><li>char*(\u5373\u6307\u9488\u53D8\u91CF): 8\u4E2A\u5B57\u8282</li><li>short int : 2\u4E2A\u5B57\u8282</li><li>int\uFF1A 4\u4E2A\u5B57\u8282</li><li>unsigned int : 4\u4E2A\u5B57\u8282</li><li>float: 4\u4E2A\u5B57\u8282</li><li>double: 8\u4E2A\u5B57\u8282</li><li>long: 8\u4E2A\u5B57\u8282</li><li>long long: 8\u4E2A\u5B57\u8282</li><li>unsigned long: 8\u4E2A\u5B57\u8282</li></ul><p>\u603B\u7ED3\uFF1A\u5E38\u7528\u6570\u636E\u7ED3\u6784\u4E2D\uFF0C32\u4F4D\u7F16\u8BD1\u5668\u4E2D\u548C64\u4F4D\u7F16\u8BD1\u5668\u4E2D\u6240\u5360\u5B57\u8282\u6570\u4E0D\u540C\u7684\u662F\uFF1A\u6307\u9488\u53D8\u91CF\u3001long</p><h3 id="\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97" aria-hidden="true">#</a> \u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97</h3><p><strong>\u6709\u7B26\u53F7\u6570\u7684\u8F6C\u6362</strong></p><table><thead><tr><th>\u539F\u7C7B\u578B</th><th>\u76EE\u6807\u7C7B\u578B</th><th>\u8F6C\u6362\u65B9\u6CD5</th></tr></thead><tbody><tr><td>char</td><td>short</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55</td></tr><tr><td>char</td><td>long</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55</td></tr><tr><td>char</td><td>unsigned char</td><td>\u6700\u9AD8\u7B26\u53F7\u4F4D\u5931\u53BB\u4F4D\u610F\u4E49\uFF0C\u53D8\u4E3A\u6570\u636E\u4F4D</td></tr><tr><td>char</td><td>unsigned short</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230short\uFF1B\u7136\u540E\u4ECEshort\u8F6C\u5230unsigned short</td></tr><tr><td>char</td><td>unsigned long</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230unsigned long</td></tr><tr><td>char</td><td>float</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u5230float</td></tr><tr><td>char</td><td>double</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230double</td></tr><tr><td>char</td><td>long double</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230long double</td></tr><tr><td>short</td><td>char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>short</td><td>long</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55</td></tr><tr><td>short</td><td>unsigned char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>short</td><td>unsigned short</td><td>\u6700\u9AD8\u4E3A\u5931\u53BB\u610F\u4E49\uFF0C\u53D8\u4E3A\u6570\u636E\u4F4D</td></tr><tr><td>short</td><td>unsigned long</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u5230unsigned long</td></tr><tr><td>short</td><td>float</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u5230float</td></tr><tr><td>short</td><td>double</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u5230double</td></tr><tr><td>short</td><td>long double</td><td>\u7B26\u53F7\u4F4D\u6269\u5C55\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230long double</td></tr><tr><td>long</td><td>char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>long</td><td>short</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>long</td><td>unsigned char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>long</td><td>unsigned short</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>long</td><td>unsigned long</td><td>\u6700\u9AD8\u4E3A\u5931\u53BB\u610F\u4E49\uFF0C\u53D8\u4E3A\u6570\u636E\u4F4D</td></tr><tr><td>long</td><td>float</td><td>\u4F7F\u7528\u5355\u7CBE\u5EA6\u6D6E\u70B9\u6570\u8868\u793A\uFF0C\u53EF\u80FD\u5931\u53BB\u7CBE\u5EA6</td></tr><tr><td>long</td><td>double</td><td>\u4F7F\u7528\u5355\u7CBE\u5EA6\u6D6E\u70B9\u6570\u8868\u793A\uFF0C\u53EF\u80FD\u5931\u53BB\u7CBE\u5EA6</td></tr><tr><td>long</td><td>long double</td><td>\u4F7F\u7528\u5355\u7CBE\u5EA6\u6D6E\u70B9\u6570\u8868\u793A\uFF0C\u53EF\u80FD\u5931\u53BB\u7CBE\u5EA6</td></tr></tbody></table><p><strong>\u65E0\u7B26\u53F7\u6570\u8F6C\u6362</strong></p><table><thead><tr><th>\u539F\u7C7B\u578B</th><th>\u76EE\u6807\u7C7B\u578B</th><th>\u8F6C\u6362\u65B9\u6CD5</th></tr></thead><tbody><tr><td>unsigned char</td><td>char</td><td>\u6700\u9AD8\u4E3A\u4F5C\u7B26\u53F7\u4F4D</td></tr><tr><td>unsigned char</td><td>short</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned char</td><td>long</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned char</td><td>unsigned short</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned char</td><td>unsigned long</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned char</td><td>float</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230float</td></tr><tr><td>unsigned char</td><td>double</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230double</td></tr><tr><td>unsigned char</td><td>long double</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230long double</td></tr><tr><td>unsigned short</td><td>char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned short</td><td>short</td><td>\u6700\u9AD8\u4E3A\u4F5C\u7B26\u53F7\u4F4D</td></tr><tr><td>unsigned short</td><td>long</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned short</td><td>unsigned char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned short</td><td>unsigned long</td><td>0\u6269\u5C55</td></tr><tr><td>unsigned short</td><td>float</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230float</td></tr><tr><td>unsigned short</td><td>double</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230double</td></tr><tr><td>unsigned long</td><td>long double</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230long double</td></tr><tr><td>unsigned long</td><td>char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned long</td><td>short</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned long</td><td>long</td><td>\u6700\u9AD8\u4F4D\u4F5C\u7B26\u53F7\u4F4D</td></tr><tr><td>unsigned long</td><td>unsigned char</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned long</td><td>unsigned short</td><td>\u4FDD\u7559\u4F4E\u4F4D\u5B57\u8282</td></tr><tr><td>unsigned long</td><td>float</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230float</td></tr><tr><td>unsigned long</td><td>double</td><td>\u76F4\u63A5\u8F6C\u6362\u5230double</td></tr><tr><td>unsigned long</td><td>long double</td><td>\u8F6C\u6362\u5230long\uFF1B\u7136\u540E\u4ECElong\u8F6C\u6362\u5230long double</td></tr></tbody></table><p>\u5728C\u8BED\u8A00\u4E2D\uFF0C\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570\u8FDB\u884C\u8FD0\u7B97\uFF08\u5305\u62EC\u6BD4\u8F83\uFF09\u65F6\uFF0C\u7F16\u8BD1\u5668\u90FD\u4F1A\u628A\u6709\u7B26\u53F7\u6570\u8F6C\u6362\u6210\u65E0\u7B26\u53F7\u6570\u3002</p><h3 id="\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362" aria-hidden="true">#</a> \u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362</h3><p><strong>\u65E0\u7B26\u53F7\u6570 \u300B\u300B\u65E0\u7B26\u53F7\u6570\u8F6C\u6362\u89C4\u5219 \u300B\u300B \u4E8C\u8FDB\u5236\u7F16\u7801 \u300B\u300B \u6709\u7B26\u53F7\u6570\u8F6C\u6362\u89C4\u5219 \u300B\u300B\u5341\u8FDB\u5236\u6570\u5B57</strong></p><p>\u8F6C\u6362\u7684\u5904\u7406\u7531\u7F16\u8BD1\u5668\u5B8C\u6210</p><p>\u4EE5\u4E0B\u56FE4bit\u4E3A\u4F8B</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129080800266.png" alt="img" loading="lazy"></p><p><strong>\u56FE\u793A\u8BF4\u660E</strong></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129081928955.png" alt="img" loading="lazy"></p><h3 id="\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9" tabindex="-1"><a class="header-anchor" href="#\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9" aria-hidden="true">#</a> \u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9</h3><ul><li>\u5BF9\u4E8E\u6B63\u6570\u6709(2 ^ n)-1 \u4E2A\u8868\u793A\u5F62\u5F0F\uFF0C\u8868\u793A(2 ^ n)-1\u4E2A\u4E0D\u540C\u7684\u6B63\u6570\u3002</li><li>\u5BF9\u4E8E\u503C0\uFF0C\u67091\u79CD\u8868\u793A\u5F62\u5F0F\u3002</li><li>\u4E00\u5171\u6709 2 <sup>n\u4E2A\u8868\u793A\u5F62\u5F0F,\u4E00\u5171\u53EF\u4EE5\u8868\u793A2</sup>n\u4E2A\u6570\u5B57\u3002</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204153725750.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204153709364.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204154623719.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204161954532.png" alt="img" loading="lazy"></p><p>B2T\u662F\u667A\u80FD\u7684\uFF1A\u5141\u8BB8\u8BA1\u7B97\u673A\u5BF9B2U\u548CB2T\u4F7F\u7528\u76F8\u540C\u7684\u64CD\u4F5C\uFF0CB2T\u57DF\u4E2D\u7684\u503C\u4ECD\u7136\u6B63\u786E\uFF08\u5982\u679C\u6CA1\u6709\u6EA2\u51FA\uFF09</p><p>\u63D0\u793A\uFF1A\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570\u8FDB\u884C\u8FD0\u7B97\uFF0C\u8BA1\u7B97\u673A\u9996\u5148\u4F1A\u628A\u6709\u7B26\u53F7\u6570\u5BF9\u5E94\u5230\u65E0\u7B26\u53F7\u6570\u8FDB\u884C\u8FD0\u7B97\u3002</p><h3 id="overflow" tabindex="-1"><a class="header-anchor" href="#overflow" aria-hidden="true">#</a> Overflow</h3><p>Overflow\uFF08\u6EA2\u51FA\uFF09\u662F\u4EC0\u4E48\uFF1F\u8868\u9762\u4E0A\u770B\uFF0C\u6EA2\u51FA\u662F\u67D0\u4E2A\u4E1C\u897F\u8D85\u8FC7\u5BB9\u5668\u7684\u5927\u5C0F\u3002</p><p>\u5728CS\u4E2D\uFF0C\u4E3B\u8981\u8BA8\u8BBA buffer overflow \uFF08\u7F13\u51B2\u533A\u6EA2\u51FA\uFF09\u3001data overflow\uFF08\u6570\u636E\u6EA2\u51FA\uFF09 \u548C arithmetic overflow\uFF08\u7B97\u6570\u6EA2\u51FA\uFF09</p><p>\u5728\u6570\u4F4D\u7CFB\u7EDF\u548C\u7B97\u6CD5\u4E2D\uFF0C\u6211\u4EEC\u4E3B\u8981\u5173\u6CE8 data overflow\uFF08\u6570\u636E\u6EA2\u51FA\uFF09 \u548C arithmetic overflow\uFF08\u7B97\u6570\u6EA2\u51FA\uFF09</p><h4 id="arithmetic-overflow" tabindex="-1"><a class="header-anchor" href="#arithmetic-overflow" aria-hidden="true">#</a> arithmetic overflow</h4><p>arithmetic overflow\uFF08\u7B97\u6570\u6EA2\u51FA\uFF09\uFF0C\u4E00\u822C\u7684\u8BF4 overflow\uFF08\u6EA2\u51FA\uFF09\u5C31\u662F\u6307\u8FD9\u4E2A\u3002</p><p>An arithmetic overflow is the result of a calculation that exceeds the memory space designated to hold it.\uFF08\u7B97\u672F\u6EA2\u51FA\u662F\u8BA1\u7B97\u7ED3\u679C\u8D85\u51FA\u4E86\u4E3A\u5176\u6307\u5B9A\u7684\u5B58\u50A8\u7A7A\u95F4\u3002\uFF09</p><p>For example, a divide-by-zero yields a much larger result.</p><p>If 2 Two&#39;s Complement numbers are added, and they both have the same sign (both positive or both negative), then overflow occurs if and only if the result has the opposite sign. Overflow never occurs when adding operands \uFF08\u64CD\u4F5C\u6570\uFF09with different signs.</p><p>CPU\u53EA\u8BA1\u7B97\u51FA\u4E8C\u8FDB\u5236\u7F16\u7801\uFF0C\u7B97\u6570\u6EA2\u51FA\u7684\u5224\u65AD\u548C\u662F\u5426\u4E2D\u65AD\u7A0B\u5E8F\u7684\u6267\u884C\u7531\u8BA1\u7B97\u673A\u7CFB\u7EDF\u548C\u7A0B\u5E8F\uFF08program\uFF09\u51B3\u5B9A\u3002</p><p>\u5728C++\u8BED\u8A00\u4E2D\uFF0C\u5982\u679C\u5FFD\u7565\u6EA2\u51FA\uFF0C\u4E8C\u8FDB\u5236\u8F6C\u6362\u6210\u5341\u8FDB\u5236\u540E\u6709\u4EE5\u4E0B\u60C5\u51B5</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129082723785.png " width="500px"><p><strong>\u907F\u514DC++\u8BED\u8A00\u4E2D\u4E8C\u8FDB\u5236\u8865\u7801\u7B97\u6570\u6EA2\u51FA\u662F\u7A0B\u5E8F\u5458\u7684\u8D23\u4EFB\uFF08\u5728C++\u4E2D\u4E0D\u8BA4\u4E3A\u65E0\u7B26\u53F7\u6570\u5B57\u4F1A\u53D1\u751F\u6EA2\u51FA\uFF0C\u8FD9\u662F\u4EBA\u4E3A\u89C4\u5B9A\u7684\u3002\uFF09</strong></p><p>\u6709\u5173\u66F4\u591A\u7684 arithmetic overflow \u77E5\u8BC6\u8BF7\u89C1\uFF1Ahttps://www.sciencedirect.com/topics/computer-science/arithmetic-overflow</p><h4 id="data-overflow" tabindex="-1"><a class="header-anchor" href="#data-overflow" aria-hidden="true">#</a> data overflow</h4><p>In general, a data type overflow error is when the data type used to store data was not large enough to hold the data. Furthermore, some data types can only store numbers up to a certain size. An overflow error will be produced, for example, if a data type is a single byte and the data to be stored is greater than 256</p><hr><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>William Stallings, \u201CComputer organization and architecture: Designing for Performance\u201D, 8th Edition, 2010</li><li>Dr. Kai Zhou&#39;s PowerPoint</li><li>LYU, Mingsong &#39;s PowerPoint</li><li>https://www.zhihu.com/question/46432979</li><li>https://www.cnblogs.com/l199616j/p/10401094.html</li><li>https://blog.csdn.net/abc_xian/article/details/100131083</li><li>https://www.cnblogs.com/haotianmichael/p/8024777.html</li><li>https://blog.csdn.net/CYJ2014go/article/details/78080279</li><li>https://www.pcmag.com/encyclopedia/term/arithmetic-overflow</li><li>https://www.doc.ic.ac.uk/~eedwards/compsys/arithmetic/index.html</li><li>https://math.stackexchange.com/questions/1463651/binary-multiplication-for-negative-numbers</li><li>https://stackoverflow.com/questions/1976793/why-do-mips-operations-on-unsigned-numbers-give-signed-results</li></ul><!--]-->`);
 }
-const _sfc_setup$P = _sfc_main$P.setup;
-_sfc_main$P.setup = (props, ctx) => {
+const _sfc_setup$T = _sfc_main$T.setup;
+_sfc_main$T.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/digitalSystem/digital-system2.html.vue");
-  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+  return _sfc_setup$T ? _sfc_setup$T(props, ctx) : void 0;
 };
-var digitalSystem2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$P]]);
+var digitalSystem2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["ssrRender", _sfc_ssrRender$T]]);
 var digitalSystem2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": digitalSystem2_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$O = {};
-function _sfc_ssrRender$O(_ctx, _push, _parent, _attrs) {
+const _sfc_main$S = {};
+function _sfc_ssrRender$S(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53" tabindex="-1"><a class="header-anchor" href="#\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53" aria-hidden="true">#</a> \u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53</h1><h2 id="fractional-binary-numbers" tabindex="-1"><a class="header-anchor" href="#fractional-binary-numbers" aria-hidden="true">#</a> Fractional binary numbers</h2><p>Fractional binary numbers \u5206\u6570\u4E8C\u8FDB\u5236\u6570</p><ul><li><p>Fractional decimal numbers</p><ul><li>11.62510 = 1 * 101 + 1 * 100 + 6 * 10-1 + 2<em>10-2 + 5</em>10-3</li><li>Precision: 10-3</li></ul></li><li><p>Fractional binary numbers</p><ul><li>1011.1012 = 1 * 23 + 0 * 22 + 1 * 21 + 1 * 20 + 1 * 2-1 + 0 * 2-2 + 1 * 2-3</li><li>11.625 = 8 + 2 + 1 + 1/2 + 1/8</li><li>Precision: 2-3</li></ul></li></ul><p><strong>\u5BF9\u4E8E\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\uFF0C\u6709</strong></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210205044012378.png" alt="img" loading="lazy"></p><h3 id="\u8F6C\u6362\u516C\u5F0F" tabindex="-1"><a class="header-anchor" href="#\u8F6C\u6362\u516C\u5F0F" aria-hidden="true">#</a> \u8F6C\u6362\u516C\u5F0F</h3><p>\u5341\u8FDB\u5236\u6570 =</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210205044036196.png" width="100px"><h3 id="\u4E3E\u4F8B" tabindex="-1"><a class="header-anchor" href="#\u4E3E\u4F8B" aria-hidden="true">#</a> \u4E3E\u4F8B</h3><ul><li>53/4 = 101.112</li><li>27/8 = 10.1112</li><li>17/16 = 1.01112</li></ul><p><strong>\u89C2\u5BDF\u7ED3\u679C</strong></p><ul><li>\u53F3\u79FB\u9664\u4EE52\uFF08\u65E0\u7B26\u53F7\uFF09</li><li>\u5DE6\u79FB\u4E58\u4EE52</li><li>\u683C\u5F0F\u4E3A0.1111111\u20262\u7684\u6570\u5B57\u5C0F\u4E8E1.0</li></ul><h3 id="\u5C40\u9650\u6027" tabindex="-1"><a class="header-anchor" href="#\u5C40\u9650\u6027" aria-hidden="true">#</a> \u5C40\u9650\u6027</h3><h4 id="limitation-1" tabindex="-1"><a class="header-anchor" href="#limitation-1" aria-hidden="true">#</a> Limitation #1</h4><ul><li><p>Can only exactly represent numbers of the form x*(2^k)</p><ul><li>Values that cannot be exactly represented:</li><li>1/3 0.0101010101[01]\u20262 <ul><li>1/5 0.001100110011[0011]\u20262</li><li>1/10 0.0001100110011[0011]\u20262</li></ul></li></ul></li></ul><h4 id="limitation-2" tabindex="-1"><a class="header-anchor" href="#limitation-2" aria-hidden="true">#</a> Limitation #2</h4><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/db914692d2e3a.png" alt="CleanShot 2021-02-26 at 12.28.40@2x.png" title="CleanShot 2021-02-26 at 12.28.40@2x.png"><h2 id="ieee-floating-point" tabindex="-1"><a class="header-anchor" href="#ieee-floating-point" aria-hidden="true">#</a> IEEE Floating Point</h2><ul><li><p>IEEE Standard 754</p></li><li><ul><li>Many machines were having different floating point representations, then in 1985, IEEE established a uniform standard for floating point arithmetic</li><li>Nowadays, supported by all major CPUs</li></ul></li><li><p>Driven by numerical concerns</p></li><li><ul><li><p>Nice standards for rounding, overflow, underflow</p></li><li><p>Hard to make fast in hardware</p></li><li><ul><li>Numerical analysts predominated over hardware designers in defining standard</li></ul></li></ul></li></ul><h2 id="floating-point-representation" tabindex="-1"><a class="header-anchor" href="#floating-point-representation" aria-hidden="true">#</a> Floating Point Representation</h2><p>\u4E0A\u4E00\u8282\u6211\u4EEC\u5DF2\u7ECF\u8BF4\u8FC7\uFF0C\u5C0F\u6570\u7531\u4E8C\u8FDB\u5236\u8F6C\u6362\u621010\u8FDB\u5236\u53EF\u4EE5\u8FD9\u6837</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125170026209.png" alt="img" loading="lazy"></p><p>\u90A3\u4E48\uFF0C\u73B0\u5728\u6211\u4EEC\u9047\u5230\u4E86\u95EE\u9898\uFF0C\u5728\u8BA1\u7B97\u673A\u91CC\uFF0C\u8FD9\u4E2A\u5C0F\u6570\u70B9\u653E\u5230\u54EA\u91CC\uFF1F</p><p>\u5982\u679C\u5C0F\u6570\u70B9\u4F4D\u4E8E\u56FA\u5B9A\u4F4D\u7F6E\uFF0C\u5219\u6570\u636E\u8303\u56F4\u975E\u5E38\u6709\u9650\uFF08\u4E0D\u7075\u6D3B\uFF09</p><p>\u90A3\u4E48\uFF0C\u7C7B\u6BD4\u5341\u8FDB\u5236\u7684\u79D1\u5B66\u8BA1\u6570\u6CD5</p><p>976,000,000,000,000 \u2192 9.76 x 10^{14} 0.0000000000000976 \u2192 9.76 x 10^{-14}</p><p>\u6211\u4EEC\u6240\u505A\u7684\uFF1A\u52A8\u6001\u5730\u5C06\u5C0F\u6570\u70B9\u6ED1\u52A8\u5230\u4E00\u4E2A\u65B9\u4FBF\u7684\u4F4D\u7F6E\uFF0C\u5E76\u4F7F\u752810\u7684\u6307\u6570\u6765\u8DDF\u8E2A\u8BE5\u4F4D\u7F6E\uFF0C\u4F7F\u7528\u8FD9\u79CD\u76F8\u4F3C\u7684\u60F3\u6CD5\u6765\u8868\u793A\u8BA1\u7B97\u673A\u4E2D\u7684\u4E8C\u8FDB\u5236\u5C0F\u6570\u3002</p><p>\u662F\u7684\uFF0C\u8BA1\u7B97\u673A\u4E2D\u5B58\u50A8\u5C0F\u6570\u662F\u4EE5 \u79D1\u5B66\u8BA1\u6570\u6CD5\u7684\u4E8C\u8FDB\u5236\u6570\u503C \u8F6C\u6362\u6210\u4E8C\u8FDB\u5236\u7801 \u5B58\u50A8\u3002</p><h3 id="\u6D6E\u70B9-ft-\u8868\u793A" tabindex="-1"><a class="header-anchor" href="#\u6D6E\u70B9-ft-\u8868\u793A" aria-hidden="true">#</a> \u6D6E\u70B9\uFF08FT\uFF09\u8868\u793A</h3><p>\u4EE3\u8868\u76F8\u540C\u6570\u5B57\u7684\u65B9\u5F0F\u6709\u591A\u79CD\uFF0C\u5982\u4E0B\u56FE</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125170700316.png" width="150px"><p>\u4F46\u662F\uFF0C\u5BF9\u4E8E\u6D6E\u70B9\u8868\u793A\uFF0C\u6709 \u4E24\u4E2A\u60EF\u4F8B\uFF1A \uFF081\uFF09\u5C0F\u6570\u70B9\u4F4D\u4E8E\u5DE6\u4FA7\u7684\u6700\u53F3\u8FB9-\u5927\u591A\u6570\u4F4D\uFF08\u5C0F\u6570\u70B9\u7684\u5DE6\u4FA7\u53EA\u6709\u4E00\u4F4D\uFF09 \uFF082\uFF09\u5DE6\u8FB9-\u6709\u6548\u4F4D\u6570\u7684\u6700\u9AD8\u4F4D\u6570\u4E0D\u4E3A\u96F6\uFF08\u5BF9\u4E8E\u57FA\u65702\uFF0C\u59CB\u7EC8\u4E3A1\uFF09-\u5F52\u4E00\u5316 \u7ED3\u679C\uFF0C\u6807\u51C6\u5316\u7684\u975E\u96F6\u6570\u59CB\u7EC8\u5177\u6709\u4EE5\u4E0B\u5F62\u5F0F\uFF1A</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125170842540.png" width="150px"><p>\u7ED3\u679C\uFF0C\u6211\u4EEC\u4E0D\u9700\u8981\u5C06\u201C 1\u201D\u5B58\u50A8\u5728\u6709\u6548\u4F4D\u4E2D\uFF0C\u53EA\u9700\u5B58\u50A8bbbbbbbbbb\uFF0C\u6BD5\u7ADF\u53EA\u8981\u662F\u4E00\u4E2A\u8FD9\u6837\u5C0F\u6570\u901A\u8FC7\u8FD9\u6837\u7684\u65B9\u6CD5\u8868\u793A\uFF0C\u9996\u4F4D\u90FD\u662F1.</p><h3 id="\u504F\u6307\u6570e-\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B" tabindex="-1"><a class="header-anchor" href="#\u504F\u6307\u6570e-\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B" aria-hidden="true">#</a> \u504F\u6307\u6570E\uFF08\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B\uFF09</h3><p>\u5355\u7CBE\u5EA6\u6D6E\u70B9\u6570\u53EF\u4EE5\u8FD9\u6837\u5B58\u50A8</p><ul><li>\u7B2C1\u4F4D\uFF1ASign of significand\uFF0C\u957F\u5EA6\u4E3A1\uFF0C\u8BB0\u5F55\u6B63\u8D1F</li><li>\u7B2C2-9\uFF1ABiased exponent \uFF08\u504F\u6307\u6570\uFF09\uFF0C\u957F\u5EA6\u4E3A8\uFF0C\u8BB0\u5F55\u504F\u6307\u6570</li><li>\u7B2C10-32\u4F4D\uFF1ASignificand\uFF0C\uFF08\u957F\u5EA6\u4E3A23\uFF09\uFF0C\u8BB0\u5F55bbbbbbbbbb\u2026</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125171141987.png" alt="img" loading="lazy"></p><ul><li>Biased exponent \u4E2D\u5B58\u7684\u662F \u504F\u5DEE\u6307\u6570\u3002</li><li>\u504F\u5DEE\u6307\u6570(exp) = E\u7684\u5B9E\u9645\u503C + \u56FA\u5B9A\u504F\u5DEE(2^(k-1)-1)</li><li>\u56FA\u5B9A\u504F\u5DEE\uFF1A2 ^ {k-1}-1 <ul><li>k\u662F\u201C Biased exponent\u201D\u5B57\u6BB5\u7684\u4F4D\u6570\uFF0C\u8FD9\u4E2A\u6848\u4F8B\u4E2D\uFF0Ck = 8</li><li>\u4F8B\u5982\uFF1Ak = 8\uFF0C\u504F\u5DEE= 2 ^ 7-1 = 127\uFF1B</li><li>\u5982\u679CE = 10100 = 20\uFF0C\u5219 \u504F\u5DEE\u6307\u6570 = E + \u504F\u5DEE= 147 = 1001 0011(\u901A\u8FC7\u4E8C\u8FDB\u5236\u65E0\u7B26\u53F7\u89C4\u5219\u8F6C\u5316\uFF09</li></ul></li><li>\u56E0\u4E3A\u6709\u504F\u6307\u6570\u662F\u4ECE0\u5230255\uFF0C\u6240\u4EE5E\u5728-127\u5230128\u7684\u8303\u56F4\u5185</li></ul><p>\u4E3E\u4F8B\uFF1A</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125171844903.png" alt="img" loading="lazy"></p><p>\u4E3E\u4F8B\uFF1A</p><p>\u4E8C\u8FDB\u5236\uFF1A-0.001010</p><ul><li>\u6B65\u9AA41\uFF1A\u89C4\u8303\u5316\uFF1A-1.01 x 2 ^ {-3}</li><li>\u6B65\u9AA42\uFF1A\u53D6\u5F97\u6709\u504F\u6307\u6570\uFF1A <ul><li>E =-3</li><li>\u6709\u504F\u6307\u6570=-3 + 127 = 124</li><li>124 \u8F6C \u4E8C\u8FDB\u5236 0111 1100</li></ul></li><li>\u7B2C3\u6B65\u83B7\u5F97\u6709\u6548\u4F4D\u6570\uFF0823\u4F4D\uFF09\uFF1A01 0 0000 0000 0000 0000 0000</li><li>\u7ED3\u679C\uFF1A1 0111 1100 010 0000 0000 0000 0000 0000 0000</li></ul><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/8665b61a03d28.png" alt="CleanShot 2021-02-26 at 12.34.02@2x.png" title="CleanShot 2021-02-26 at 12.34.02@2x.png"><h3 id="\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B" aria-hidden="true">#</a> \u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B</h3><ul><li>\u5355\u7CBE\u5EA6\u957F32\u4F4D</li><li>\u53CC\u7CBE\u5EA6\u957F64\u4F4D</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210129043408464.png" alt="img" loading="lazy"></p><h3 id="\u5185\u5B58\u67E5\u770B" tabindex="-1"><a class="header-anchor" href="#\u5185\u5B58\u67E5\u770B" aria-hidden="true">#</a> \u5185\u5B58\u67E5\u770B</h3><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/f958f97657f52.png" alt="CleanShot 2021-02-26 at 15.11.45@2x.png" title="CleanShot 2021-02-26 at 15.11.45@2x.png"><p>\u6211\u4EEC\u53D1\u73B0\uFF0C\u6BCF8\u4E2Abit = 1\u4E2Abyte,\u6240\u4EE5\u6211\u4EEC\u770B\u5230\u7684hex\u4E3A465DB400</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
 
 <span class="token keyword">typedef</span> <span class="token keyword">unsigned</span> <span class="token keyword">char</span> <span class="token operator">*</span>pointer<span class="token punctuation">;</span>
@@ -8078,19 +8015,272 @@ function _sfc_ssrRender$O(_ctx, _push, _parent, _attrs) {
 
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>\u4F7F\u7528\u4EE5\u4E0A\u4EE3\u7801\u53EF\u4EE5\u67E5\u770B\u76F8\u5E94\u7684\u5730\u5740\u4E2D\u5B58\u50A8\u7684\u6570\u636E\u3002\u6211\u4EEC\u53EF\u4EE5\u53D1\u73B0 float\u957F32bits\u3002</p><h3 id="denormalized-values" tabindex="-1"><a class="header-anchor" href="#denormalized-values" aria-hidden="true">#</a> Denormalized values</h3><p>when exp = 00000..000</p><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/ee975dbad8932.png" alt="image.png" title="image.png"><ul><li>exp = 000\u20260, frac = 000..0 --&gt; zero value <ul><li>Note that s = 0/1, possitive/negative zero</li></ul></li><li>exp = 000\u20260, frac \u2260 000\u20260 --&gt; numbers closest to 0.0</li></ul><p>When: exp = 111\u20261</p><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/5ac8f7349b5bf.png" alt="image.png" title="image.png"><ul><li>Case: exp = 111\u20261, frac = 000\u20260 <ul><li>Represents value --&gt; (infinity)</li><li>Operation that overflows: e.g., the result of 1.0/0.0</li></ul></li><li>Case: exp = 111\u20261, frac \u2260 000\u20260 <ul><li>Not-a-Number (NaN)</li><li>Represents case when no numeric value can be determined : E.g., the result of sqrt(-1)</li></ul></li></ul><h3 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h3><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/6b8007cb12ff5.png" alt="image.png" title="image.png"><p>\u6211\u4EEC\u53D1\u73B0\u5F53s = 0\u7684\u65F6\u5019\uFF0C\u4EE5\u5B57\u7B26\u4E32\u62FC\u5408 &quot;exp&quot; + &quot;frac&quot; \u7684\u503C\u770B\u505Aunsigned\u7684\u8BDD\u603B\u662F\u5728\u968F\u7740value\u7684\u589E\u52A0\u800C\u589E\u52A0\u3002\u8FD9\u5C31\u8868\u660E\uFF0C\u8FD9\u53EF\u4EE5\u7528\u4E8E\u5FEB\u901F\u6BD4\u8F83\u4E24\u4E2Afloat\u7684\u5927\u5C0F\uFF08\u7279\u6B8A\u7684\u7F16\u7801\u9664\u5916\uFF09\u3002</p><p>\u5982\u679C\u4F4D\u6570\u8FC7\u957F\u4F1A\u53D1\u751F\u622A\u65AD\uFF0C\u8FD9\u4E2A\u65F6\u5019\u4F1A\u4F7F\u7528IEEE\u6807\u51C6\u6765\u622A\u65AD\uFF0C\u4F7F\u7528round even\u3002</p><h3 id="\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4" tabindex="-1"><a class="header-anchor" href="#\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4" aria-hidden="true">#</a> \u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4</h3><p>\u5BF9\u4E8E</p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125172622678.png" width="150px"><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125172647281.png" alt="img" loading="lazy"></p><p>\u7531\u4E0A\u56FE\u53EF\u77E5</p><p>32 bit \u7CFB\u7EDF\u4E2D\uFF0C\u80FD\u7CBE\u786E\u8868\u793A\u7684\u6B63\u5C0F\u6570\u4E3A 2^\uFF08-127\uFF09 \u5230 {2<sup>-[2</sup>(-23)]} * 128\uFF0C\u8D1F\u5C0F\u6570\u4E3A- {2<sup>-[2</sup>(-23)]} * 128 \u52302^\uFF08-127\uFF09\u3002</p><p>\u5176\u5B9E\uFF0C\u4F60\u53EF\u4EE5\u8FD9\u6837\u7406\u89E3\uFF0C\u8BA1\u7B97\u673A\u7684\u5C0F\u6570\u5B58\u50A8\u5C31\u50CF\u4E00\u628A\u7279\u6B8A\u7684\u6709\u7CBE\u5EA6\u7684\u523B\u5EA6\u5C3A\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/01/20210125173129946.png" alt="img" loading="lazy">\u5B83\u4EEC\u662F\u76F4\u7EBF\u4E0A\u7684\u79BB\u6563\u70B9</p><ul><li>\u5B83\u4EEC\u4E0D\u662F\u5747\u5300\u5206\u5E03\u7684\uFF1A\u63A5\u8FD10\u65F6\u662F\u5BC6\u96C6\u7684</li></ul><h3 id="\u603B\u7ED3" tabindex="-1"><a class="header-anchor" href="#\u603B\u7ED3" aria-hidden="true">#</a> \u603B\u7ED3</h3><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/8665b61a03d28.png" alt="CleanShot 2021-02-26 at 12.34.02@2x.png" title="CleanShot 2021-02-26 at 12.34.02@2x.png"><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/de228d29e4cb1.png" alt="CleanShot 2021-02-26 at 15.09.46@2x.png" title="CleanShot 2021-02-26 at 15.09.46@2x.png"><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/bae694700bd84.png" alt="CleanShot 2021-02-26 at 15.26.10@2x.png" title="CleanShot 2021-02-26 at 15.26.10@2x.png"><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/26/ade368a91ac2b.png" alt="CleanShot 2021-02-26 at 15.54.45@2x.png" title="CleanShot 2021-02-26 at 15.54.45@2x.png"><!--]-->`);
 }
-const _sfc_setup$O = _sfc_main$O.setup;
-_sfc_main$O.setup = (props, ctx) => {
+const _sfc_setup$S = _sfc_main$S.setup;
+_sfc_main$S.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/digitalSystem/digital-system3.html.vue");
-  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
+  return _sfc_setup$S ? _sfc_setup$S(props, ctx) : void 0;
 };
-var digitalSystem3_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$O]]);
+var digitalSystem3_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["ssrRender", _sfc_ssrRender$S]]);
 var digitalSystem3_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": digitalSystem3_html$1
 }, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$R = {};
+function _sfc_ssrRender$R(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="external-memory" tabindex="-1"><a class="header-anchor" href="#external-memory" aria-hidden="true">#</a> External Memory</h1><h2 id="magnetic-disk" tabindex="-1"><a class="header-anchor" href="#magnetic-disk" aria-hidden="true">#</a> Magnetic Disk</h2><p>The most important external memory device on almost all computer systems\u300C\u51E0\u4E4E\u6240\u6709\u8BA1\u7B97\u673A\u7CFB\u7EDF\u4E0A\u6700\u91CD\u8981\u7684\u5916\u90E8\u5B58\u50A8\u8BBE\u5907\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/4e3368955f781.png" alt="CleanShot 2021-04-19 at 11.57.37@2x.png" title="CleanShot 2021-04-19 at 11.57.37@2x.png"><h3 id="working-mechanism" tabindex="-1"><a class="header-anchor" href="#working-mechanism" aria-hidden="true">#</a> Working mechanism</h3><h4 id="how-bits-are-read-written" tabindex="-1"><a class="header-anchor" href="#how-bits-are-read-written" aria-hidden="true">#</a> How bits are read/written?</h4><p>(1) Head moves to the \u201Cright position\u201D \u300C\uFF081\uFF09\u5934\u90E8\u79FB\u81F3\u201C\u6B63\u786E\u4F4D\u7F6E\u201D\u300D (2) Platter spins\u300C\uFF082\uFF09\u76D8\u65CB\u8F6C\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/01ad230a8bac3.png" alt="image.png" title="image.png" width="300px"><h4 id="how-are-the-bits-stored-on-platter" tabindex="-1"><a class="header-anchor" href="#how-are-the-bits-stored-on-platter" aria-hidden="true">#</a> How are the Bits stored on Platter?</h4><p>Platter\u300C\u76D8\u300D</p><ul><li>Nonmagnetic material covered with magnetic \u201Ccoats\u201D\u300C\u975E\u78C1\u6027\u6750\u6599\u8986\u76D6\u6709\u78C1\u6027\u201C\u6D82\u5C42\u201D\u300D</li><li>On the magnetic surface, there are many magnetized\u300C\u78C1\u5316\u7684\u300D spots \u2013 each spot stores one bit\u300C\u5728\u78C1\u6027\u8868\u9762\u4E0A\uFF0C\u6709\u8BB8\u591A\u78C1\u5316\u6591\u70B9\u2013\u6BCF\u4E2A\u6591\u70B9\u5B58\u50A8\u4E00\u4F4D\u300D</li><li>More specifically, each magnetized spot has two polarities: S and N\u300C\u66F4\u5177\u4F53\u5730\u8BF4\uFF0C\u6BCF\u4E2A\u78C1\u5316\u70B9\u5177\u6709\u4E24\u4E2A\u6781\u6027\uFF1AS\u548CN\u300D</li><li>The orientations (S-N or N-S) are represented as 0 or 1\u300C\u65B9\u5411\uFF08S-N\u6216NS-S\uFF09\u8868\u793A\u4E3A0\u62161\u300D</li><li>Example: 120Gb hard disk drive contains over 120 billion spots!\u300C\u793A\u4F8B\uFF1A120 Gb\u786C\u76D8\u9A71\u52A8\u5668\u5305\u542B\u8D85\u8FC71200\u4EBF\u4E2A\u6591\u70B9\uFF01\u300D</li></ul><h5 id="the-interaction-between-head-and-platter" tabindex="-1"><a class="header-anchor" href="#the-interaction-between-head-and-platter" aria-hidden="true">#</a> The interaction between Head and Platter</h5><ul><li><p>The essence is the electromagnetic fields \u2013 the change of current will cause the change the magnetic fields, and vice versa\u300C\u672C\u8D28\u662F\u7535\u78C1\u573A\u2013\u7535\u6D41\u7684\u53D8\u5316\u5C06\u5F15\u8D77\u78C1\u573A\u7684\u53D8\u5316\uFF0C\u53CD\u4E4B\u4EA6\u7136\u300D</p></li><li><p>Head is covered with magnetic fields and electronic wires\u300C\u5934\u90E8\u88AB\u78C1\u573A\u548C\u7535\u7EBF\u8986\u76D6\u300D</p></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/ab7be11c4b6a3.png" alt="image.png" title="image.png"><p>Read and write essentially have the same mechanism: the direction of the current in the Head corresponds to the orientation of the magnetized spot\u300C\u8BFB\u5199\u672C\u8D28\u4E0A\u5177\u6709\u76F8\u540C\u7684\u673A\u5236\uFF1A\u78C1\u5934\u4E2D\u7535\u6D41\u7684\u65B9\u5411\u4E0E\u78C1\u5316\u70B9\u7684\u65B9\u5411\u76F8\u5BF9\u5E94\u300D</p><p>Two states of the directions of current = two states of the orientations (S-N or N-S) \u300C\u7535\u6D41\u65B9\u5411\u7684\u4E24\u4E2A\u72B6\u6001=\u65B9\u5411\u7684\u4E24\u4E2A\u72B6\u6001\uFF08S-N\u6216N-S\uFF09\u300D</p><ul><li>Read: magnetic (Platter) \u2192 current (Head)</li><li>Write: current (Head) \u2192 magnetic (Platter)</li></ul><h4 id="how-are-the-bits-organized-on-platter" tabindex="-1"><a class="header-anchor" href="#how-are-the-bits-organized-on-platter" aria-hidden="true">#</a> How are the Bits Organized on Platter</h4><p>Tracks and Sectors on Platter\u300C\u76D8\u4E0A\u7684\u8F68\u9053\u548C\u6247\u533A\u300D</p><ul><li>The patter contains a set of concentric rings, called tracks\u300C\u56FE\u6848\u5305\u542B\u4E00\u7EC4\u540C\u5FC3\u73AF\uFF0C\u79F0\u4E3A\u8F68\u9053\u300D</li><li>Each track contains a number of sectors\u300C\u6BCF\u4E2A\u8F68\u9053\u5305\u542B\u591A\u4E2A\u6247\u533A\u300D</li><li>Sector = a number of magnetized spots ( a block of data)\u300C\u6247\u533A=\u78C1\u5316\u70B9\u6570\uFF08\u6570\u636E\u5757\uFF09\u300D</li><li>The size of a sector may vary\u300C\u4E00\u4E2A\u6247\u533A\u7684\u89C4\u6A21\u53EF\u80FD\u4F1A\u6709\u6240\u4E0D\u540C\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/7869321a7b2c0.png" alt="image.png" title="image.png"><h5 id="one-issue-with-this-organization" tabindex="-1"><a class="header-anchor" href="#one-issue-with-this-organization" aria-hidden="true">#</a> One issue with this Organization</h5><p>There could be different date rates for different tracks</p><ul><li>The head is fixed while the platter is spinning\u300C\u76D8\u65CB\u8F6C\u65F6\uFF0C\u5934\u662F\u56FA\u5B9A\u7684\u300D</li><li>Inner and Outer tracks have different speed relatively to the head\u300C\u5185\u78C1\u9053\u548C\u5916\u78C1\u9053\u76F8\u5BF9\u4E8E\u78C1\u5934\u7684\u901F\u5EA6\u4E0D\u540C\u300D <ul><li>this result in different data rates when reading/writing bits stored in inner and outer tracks\u300C\u8BFB\u53D6/\u5199\u5165\u5B58\u50A8\u5728\u5185\u78C1\u9053\u548C\u5916\u78C1\u9053\u4E2D\u7684\u4F4D\u65F6\uFF0C\u8FD9\u5BFC\u81F4\u4E0D\u540C\u7684\u6570\u636E\u901F\u7387\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/6c49ef45a57a7.png" alt="image.png" title="image.png"><h6 id="arrangement-1-constant-angular-velocity-cav" tabindex="-1"><a class="header-anchor" href="#arrangement-1-constant-angular-velocity-cav" aria-hidden="true">#</a> Arrangement 1: Constant Angular Velocity (CAV)</h6><p>\u5E03\u7F6E1\uFF1A\u6052\u5B9A\u89D2\u901F\u5EA6\uFF08CAV\uFF09</p><ul><li>Ideal: rotate\u300C\u65CB\u8F6C\u300D the platter\u300C\u76D8\u300D at a constant speed, but the densities\u300C\u5BC6\u5EA6\u300D of spots (bits) on different tracks\u300C\u8F68\u9053\u300D are different\u300C\u7406\u60F3\uFF1A\u4EE5\u6052\u5B9A\u7684\u901F\u5EA6\u65CB\u8F6C\u76D8\u5B50\uFF0C\u4F46\u662F\u4E0D\u540C\u8F68\u9053\u4E0A\u7684\u6591\u70B9\uFF08\u4F4D\uFF09\u7684\u5BC6\u5EA6\u4E0D\u540C\u300D</li><li>Platter is divided into a number of pie-shaped sectors\u300C\u6247\u533A\u300D \u2013 advantage: blocks of data can be addressed by tracks and sectors\u300C\u76D8\u7247\u5206\u4E3A\u591A\u4E2A\u6247\u5F62\u6247\u533A\u2013\u4F18\u52BF\uFF1A\u6570\u636E\u5757\u53EF\u4EE5\u901A\u8FC7\u78C1\u9053\u548C\u6247\u533A\u8FDB\u884C\u5BFB\u5740\u300D</li><li>Disadvantage: amount of data can be stored on long outer tracks is only the same as what can be stored on short inner tracks (waste of space)\u300C\u7F3A\u70B9\uFF1A\u53EF\u4EE5\u5728\u957F\u7684\u5916\u90E8\u78C1\u9053\u4E0A\u5B58\u50A8\u7684\u6570\u636E\u91CF\u4E0E\u53EF\u4EE5\u5728\u77ED\u7684\u5185\u90E8\u78C1\u9053\u4E0A\u5B58\u50A8\u7684\u6570\u636E\u91CF\u76F8\u540C\uFF08\u6D6A\u8D39\u7A7A\u95F4\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/9fe9487796b45.png" alt="image.png" title="image.png" width="300px"><h6 id="arrangement-2-multiple-zone-recording" tabindex="-1"><a class="header-anchor" href="#arrangement-2-multiple-zone-recording" aria-hidden="true">#</a> Arrangement 2: Multiple Zone Recording</h6><p>Platter are organized into zones</p><ul><li>Each zone has multiple tracks\u300C\u6BCF\u4E2A\u533A\u57DF\u90FD\u6709\u591A\u4E2A\u8F68\u9053\u300D</li><li>Outer track has more sectors\u300C\u5916\u8F68\u6709\u66F4\u591A\u7684\u6247\u533A\u300D</li><li>The densities of the sectors are the same \u2013 increased capacity\u300C\u90E8\u95E8\u7684\u5BC6\u5EA6\u76F8\u540C\u2013\u589E\u52A0\u5BB9\u91CF\u300D</li><li>Various data transfer rate (for some disk designs, the rotation speed may change to achieve constant transfer rate)\u300C\u5404\u79CD\u6570\u636E\u4F20\u8F93\u901F\u7387\uFF08\u5BF9\u4E8E\u67D0\u4E9B\u78C1\u76D8\u8BBE\u8BA1\uFF0C\u8F6C\u901F\u53EF\u80FD\u4F1A\u6709\u6240\u53D8\u5316\uFF0C\u4EE5\u5B9E\u73B0\u6052\u5B9A\u7684\u4F20\u8F93\u901F\u7387\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/3131225d3da22.png" alt="image.png" title="image.png" width="240px"><h3 id="components-of-disk-drive" tabindex="-1"><a class="header-anchor" href="#components-of-disk-drive" aria-hidden="true">#</a> Components of Disk Drive</h3><p>Data organization on Disk\u300C\u78C1\u76D8\u4E0A\u7684\u6570\u636E\u7EC4\u7EC7\u300D</p><ul><li>Disk \u2013 Platters \u2013 Tracks \u2013 Sectors\u300C\u78C1\u76D8\u2013\u76D8\u2013\u8F68\u9053\u2013\u6247\u533A\u300D</li><li>Head has the same width as that of tracks (or sectors)\u300C\u78C1\u5934\u7684\u5BBD\u5EA6\u4E0E\u78C1\u9053\uFF08\u6216\u6247\u533A\uFF09\u7684\u5BBD\u5EA6\u76F8\u540C\u300D</li><li>Read/Write by sectors (one sector usually contain 512 bytes)\u300C\u6309\u6247\u533A\u8BFB/\u5199\uFF08\u4E00\u4E2A\u6247\u533A\u901A\u5E38\u5305\u542B512\u5B57\u8282\uFF09\u300D</li></ul><p>question: how to locate\u300C\u5B9A\u4F4D\u5230\u300D the desired\u300C\u6240\u9700\u300D sectors within a track?\u300C\u95EE\u9898\uFF1A\u5982\u4F55\u5728\u8F68\u9053\u4E2D\u627E\u5230\u6240\u9700\u7684\u6247\u533A\uFF1F\u300D</p><h4 id="how-to-locate-sector-positions-within-track" tabindex="-1"><a class="header-anchor" href="#how-to-locate-sector-positions-within-track" aria-hidden="true">#</a> How to Locate Sector Positions within Track</h4><img src="https://pic.hanjiaming.com.cn/2021/04/19/106a006305d32.png" alt="image.png" title="image.png"><p>Use extra control data as Marks\u300C\u4F7F\u7528\u989D\u5916\u7684\u63A7\u5236\u6570\u636E\u4F5C\u4E3A\u6807\u8BB0\u300D</p><p>Extra control data \u2013 used only by disk drive, not accessible by users Format of Disk (the organization of user data and control data)\u300C\u989D\u5916\u7684\u63A7\u5236\u6570\u636E\u2013\u4EC5\u7531\u78C1\u76D8\u9A71\u52A8\u5668\u4F7F\u7528\uFF0C\u7528\u6237\u65E0\u6CD5\u8BBF\u95EE\u300D</p><p>Example: Winchester Disk Format: each track has 30 sectors, each sector has 600 bytes (512 for data storage)\u300C\u793A\u4F8B\uFF1A\u6E29\u5F7B\u65AF\u7279\u78C1\u76D8\u683C\u5F0F\uFF1A\u6BCF\u4E2A\u8F68\u9053\u670930\u4E2A\u6247\u533A\uFF0C\u6BCF\u4E2A\u6247\u533A\u6709600\u5B57\u8282\uFF08\u6570\u636E\u5B58\u50A8\u4E3A512\uFF09\u300D</p><h4 id="how-to-locate-sector-positions-within-track-1" tabindex="-1"><a class="header-anchor" href="#how-to-locate-sector-positions-within-track-1" aria-hidden="true">#</a> How to Locate Sector Positions within Track</h4><p>field\u300C\u5B57\u6BB5\u300D</p><ul><li>Synch byte: the beginning\u300C\u540C\u6B65\u5B57\u8282\uFF1A\u5F00\u59CB\u300D</li><li>Head number: because there are multiple platters and heads\u300C\u5934\u6570\uFF1A\u56E0\u4E3A\u6709\u591A\u4E2A\u76D8\u548C\u5934\u300D</li><li>CRC: error correction code\u300CCRC\uFF1A\u7EA0\u9519\u7801\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/8c925cdac0cb9.png" alt="image.png" title="image.png"><h3 id="the-timing-of-disk-i-o-transfer" tabindex="-1"><a class="header-anchor" href="#the-timing-of-disk-i-o-transfer" aria-hidden="true">#</a> The Timing of Disk I/O Transfer</h3><p>An important performance measurement\u300C\u4E00\u4E2A\u91CD\u8981\u7684\u6027\u80FD\u6307\u6807\u300D</p><p>The time does not just depend on how fast the disk can read/write bits \u2013 many other considerations\u300C\u65F6\u95F4\u4E0D\u4EC5\u4EC5\u53D6\u51B3\u4E8E\u78C1\u76D8\u53EF\u4EE5\u8BFB\u53D6/\u5199\u5165\u4F4D\u7684\u901F\u5EA6\u2013\u8FD8\u6709\u8BB8\u591A\u5176\u4ED6\u6CE8\u610F\u4E8B\u9879\u300D</p><p>There are various queuing delays: wait for device and wait for channel\u300C\u6392\u961F\u5EF6\u8FDF\u6709\u591A\u79CD\uFF1A\u7B49\u5F85\u8BBE\u5907\u548C\u7B49\u5F85\u9891\u9053\u300D</p><ul><li>Wait for device: when process (task) issues an I/O request, it must first wait in a queue for the device to be available\u300C\u7B49\u5F85\u8BBE\u5907\uFF1A\u5F53\u8FDB\u7A0B\uFF08\u4EFB\u52A1\uFF09\u53D1\u51FAI / O\u8BF7\u6C42\u65F6\uFF0C\u5B83\u5FC5\u987B\u9996\u5148\u5728\u961F\u5217\u4E2D\u7B49\u5F85\u8BBE\u5907\u53EF\u7528\u300D</li><li>Wait for channel: multiple I/O devices may share the channel between Processor and devices \u2013 need to wait for the channel to be available\u300C\u7B49\u5F85\u901A\u9053\uFF1A\u591A\u4E2AI / O\u8BBE\u5907\u53EF\u80FD\u5728\u5904\u7406\u5668\u548C\u8BBE\u5907\u4E4B\u95F4\u5171\u4EAB\u901A\u9053\u2013\u9700\u8981\u7B49\u5F85\u901A\u9053\u53EF\u7528\u300D</li></ul><p><strong>Access time</strong></p><p>The time for the Head to get to the right position\u300C\u5934\u90E8\u5230\u8FBE\u6B63\u786E\u4F4D\u7F6E\u7684\u65F6\u95F4\u300D</p><p>It consists of two parts: seek time and rotational delay\u300C\u5B83\u7531\u4E24\u90E8\u5206\u7EC4\u6210\uFF1A\u5BFB\u9053\u65F6\u95F4\u548C\u65CB\u8F6C\u5EF6\u8FDF\u300D</p><ul><li>Seek time: the Head moves to the right track\u300C\u641C\u5BFB\u65F6\u95F4\uFF1A\u5934\u90E8\u79FB\u52A8\u5230\u6B63\u786E\u7684<strong>\u8F68\u9053</strong>\u300D</li><li>Rotational delay: the desired sector rotates to the Head\u300C\u65CB\u8F6C\u5EF6\u8FDF\uFF1A\u6240\u9700\u6247\u533A\u65CB\u8F6C\u5230<strong>\u78C1\u5934</strong>\u300D</li><li>Factors: how compact is the platter (size of platter), rotation speed\u300C\u56E0\u7D20\uFF1A\u76D8\u7247\u7684\u7D27\u51D1\u7A0B\u5EA6\uFF08\u76D8\u7247\u7684\u5927\u5C0F\uFF09\uFF0C\u65CB\u8F6C\u901F\u5EA6\u300D</li></ul><p>Common example: average seek time ~ 10 ms; average rotational delay ~ 1.5 ms\u300C\u5E38\u89C1\u793A\u4F8B\uFF1A\u5E73\u5747\u5BFB\u9053\u65F6\u95F4\uFF5E10\u6BEB\u79D2\uFF1B\u5E73\u5747\u65CB\u8F6C\u5EF6\u8FDF\uFF5E1.5\u6BEB\u79D2\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/9f86073471711.png" alt="image.png" title="image.png"><p><strong>Data transfer</strong></p><p>The actual time to read/write data as platter moves under head\u300C\u5F53\u78C1\u76D8\u5728\u78C1\u5934\u4E0B\u65B9\u79FB\u52A8\u65F6\uFF0C\u8BFB\u53D6/\u5199\u5165\u6570\u636E\u7684\u5B9E\u9645\u65F6\u95F4\u300D</p><p>Factor: the rotation speed and the number of sectors\u300C\u56E0\u7D20\uFF1A\u8F6C\u901F\u548C\u6247\u533A\u6570\u300D Typical rotation speed: 3600 \u2013 20,000 rpm (revolutions per min)\u300C\u5178\u578B\u8F6C\u901F\uFF1A3600 \u2013 20,000 rpm\uFF08\u6BCF\u5206\u949F\u8F6C\u6570\uFF09\u300D</p><h3 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/1c5a4658ef677.png" alt="image.png" title="image.png"><h2 id="redundant-array-of-independent-disks" tabindex="-1"><a class="header-anchor" href="#redundant-array-of-independent-disks" aria-hidden="true">#</a> Redundant Array of Independent Disks</h2><p>Redundant Array of Independent Disks (RAID)\u300C\u72EC\u7ACB\u78C1\u76D8\u5197\u4F59\u9635\u5217\uFF08RAID\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/c24969bc7bffc.png" alt="image.png" title="image.png"><h3 id="overview" tabindex="-1"><a class="header-anchor" href="#overview" aria-hidden="true">#</a> Overview</h3><ul><li>There are 7 levels: RAID 0 to RAID 6\u300C\u5171\u67097\u4E2A\u7EA7\u522B\uFF1ARAID 0\u81F3RAID 6\u300D</li><li>These levels are NOT hierarchical, they are different designs (disks)\u300C\u8FD9\u4E9B\u7EA7\u522B\u4E0D\u662F\u5206\u5C42\u7684\uFF0C\u5B83\u4EEC\u662F\u4E0D\u540C\u7684\u8BBE\u8BA1\uFF08\u78C1\u76D8\uFF09\u300D</li><li>Different levels have different characteristics\u300C\u4E0D\u540C\u7EA7\u522B\u5177\u6709\u4E0D\u540C\u7279\u5F81\u300D</li></ul><h4 id="common-characteristics" tabindex="-1"><a class="header-anchor" href="#common-characteristics" aria-hidden="true">#</a> Common Characteristics</h4><p>Common Characteristics\u300C\u5171\u540C\u7279\u5F81\u300D</p><ul><li>A logic disk drive to the operating system\u300C\u64CD\u4F5C\u7CFB\u7EDF\u7684\u903B\u8F91\u78C1\u76D8\u9A71\u52A8\u5668\u300D</li><li>Data striping: divide logically sequential data (file) into segments (strips) and distribute them to different physical devices\u300C\u6570\u636E\u6761\u5E26\u5316\uFF1A\u5C06\u903B\u8F91\u4E0A\u987A\u5E8F\u7684\u6570\u636E\uFF08\u6587\u4EF6\uFF09\u5212\u5206\u4E3A\u6BB5\uFF08\u6761\uFF09\u5E76\u5C06\u5176\u5206\u53D1\u5230\u4E0D\u540C\u7684\u7269\u7406\u8BBE\u5907\u300D</li><li>Redundant: will store some redundant data (except for RAID 0)\u300C\u5197\u4F59\uFF1A\u5C06\u5B58\u50A8\u4E00\u4E9B\u5197\u4F59\u6570\u636E\uFF08RAID 0\u9664\u5916\uFF09\u300D</li></ul><p>RAID wants to address two main issues of single disk\u300CRAID\u5E0C\u671B\u89E3\u51B3\u5355\u4E2A\u78C1\u76D8\u7684\u4E24\u4E2A\u4E3B\u8981\u95EE\u9898\u300D</p><ul><li>I/O speed: parallel the I/O operations across many disks\u300CI / O\u901F\u5EA6\uFF1A\u8DE8\u591A\u4E2A\u78C1\u76D8\u5E76\u884C\u6267\u884CI / O\u64CD\u4F5C\u300D</li><li>Reliability: introduce redundancy\u300C\u53EF\u9760\u6027\uFF1A\u5F15\u5165\u5197\u4F59\u300D</li></ul><h3 id="raid-0-\u2013-data-distribution-no-redundancy" tabindex="-1"><a class="header-anchor" href="#raid-0-\u2013-data-distribution-no-redundancy" aria-hidden="true">#</a> RAID 0 \u2013 Data Distribution (NO Redundancy)</h3><p>Data are segmented into strips and distributed:\u300C\u6570\u636E\u88AB\u5206\u5272\u6210\u6761\u5E26\u5E76\u5206\u53D1\uFF1A\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/0ac9de319e6af.png" alt="image.png" title="image.png"><ul><li>Data are stripped across all disks\u300C\u6570\u636E\u8DE8\u6240\u6709\u78C1\u76D8\u5265\u79BB\u300D\uFF1ARound Robin stripping\u300C\u5FAA\u73AF\u5265\u79BB\u300D</li><li>Increased speed\u300C\u63D0\u9AD8\u901F\u5EA6\u300D <ul><li>A set of data is likely to be stripped across multiple disks \u300C\u4E00\u7EC4\u6570\u636E\u53EF\u80FD\u4F1A\u8DE8\u591A\u4E2A\u78C1\u76D8\u5265\u79BB\u300D</li><li>Disks seek in parallel\u300C\u78C1\u76D8\u5E76\u884C\u67E5\u627E\u300D Failure of one disk may cause the loss of multiple files\u300C\u4E00\u4E2A\u78C1\u76D8\u53D1\u751F\u6545\u969C\u53EF\u80FD\u4F1A\u5BFC\u81F4\u591A\u4E2A\u6587\u4EF6\u4E22\u5931\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/11b168754f6a5.png" alt="image.png" title="image.png"><h3 id="raid-1-duplicated-data-mirrored-data" tabindex="-1"><a class="header-anchor" href="#raid-1-duplicated-data-mirrored-data" aria-hidden="true">#</a> Raid 1 Duplicated data (mirrored data)</h3><p>\u91CD\u590D\u6570\u636E\uFF08\u955C\u50CF\u6570\u636E\uFF09</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/75aef1e5eb8f0.png" alt="image.png" title="image.png"><p>Now, a logical disk contains two same components\u300C\u73B0\u5728\uFF0C\u903B\u8F91\u78C1\u76D8\u5305\u542B\u4E24\u4E2A\u76F8\u540C\u7684\u7EC4\u4EF6\u300D</p><h3 id="raid-2-and-raid-3-redundancy-through-error-correction-code" tabindex="-1"><a class="header-anchor" href="#raid-2-and-raid-3-redundancy-through-error-correction-code" aria-hidden="true">#</a> RAID 2 and RAID 3: Redundancy through Error Correction Code</h3><p>RAID 2\u548CRAID 3\uFF1A\u901A\u8FC7\u7EA0\u9519\u7801\u5B9E\u73B0\u5197\u4F59</p><ul><li>Parallel Access Technique\u300C\u5E76\u884C\u8BBF\u95EE\u6280\u672F\u300D</li><li>The spindles of disk drives are synchronized so that each disk head is in the same position on each disk at any given time\u300C\u78C1\u76D8\u9A71\u52A8\u5668\u7684\u4E3B\u8F74\u5DF2\u540C\u6B65\uFF0C\u56E0\u6B64\u6BCF\u4E2A\u78C1\u76D8\u5934\u5728\u4EFB\u4F55\u7ED9\u5B9A\u65F6\u95F4\u90FD\u5728\u6BCF\u4E2A\u78C1\u76D8\u4E0A\u7684\u76F8\u540C\u4F4D\u7F6E\u300D</li><li>Read the bits in the same position in parallel\u300C\u5E76\u884C\u8BFB\u53D6\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u300D</li><li>The size of each strip is very small (e.g., a single byte or word)\u300C\u5E76\u884C\u8BFB\u53D6\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u300D</li></ul><p>RAID 2 and RAID 3 differ in error correction code used\u300CRAID 2\u548CRAID 3\u4F7F\u7528\u7684\u7EA0\u9519\u7801\u4E0D\u540C\u300D</p><p><strong>RAID 2 typically uses Hamming Code</strong></p><p>Example: (7-4) Hamming Code, the bits in the same position on each data disks are encoded, the resulting parity bits are then stored in the same position on the parity disks\u300C\u793A\u4F8B\uFF1A\uFF087-4\uFF09\u6C49\u660E\u7801\uFF0C\u5BF9\u6BCF\u4E2A\u6570\u636E\u78C1\u76D8\u4E0A\u76F8\u540C\u4F4D\u7F6E\u7684\u4F4D\u8FDB\u884C\u7F16\u7801\uFF0C\u7136\u540E\u5C06\u6240\u5F97\u7684\u5947\u5076\u6821\u9A8C\u4F4D\u5B58\u50A8\u5728\u5947\u5076\u6821\u9A8C\u78C1\u76D8\u4E0A\u7684\u76F8\u540C\u4F4D\u7F6E\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/fbea71618ff6c.png" alt="image.png" title="image.png"><p>Data bits and parity bits are read/write simultaneously\u300C\u540C\u65F6\u8BFB\u53D6/\u5199\u5165\u6570\u636E\u4F4D\u548C\u5947\u5076\u6821\u9A8C\u4F4D\u300D</p><ul><li>Codes are calculated \u201Con-the-fly\u201D\u300C\u4EE3\u7801\u662F\u201C\u52A8\u6001\u201D\u8BA1\u7B97\u7684\u300D</li><li>Correct error in real time\u300C\u5B9E\u65F6\u7EA0\u6B63\u9519\u8BEF\u300D</li><li>Good for low quality disks which has frequent errors\u300C\u9002\u7528\u4E8E\u7ECF\u5E38\u51FA\u9519\u7684\u4F4E\u8D28\u91CF\u78C1\u76D8\u300D</li></ul><p>Still lots of redundancy (although better than RAID 1)\u300C\u4ECD\u7136\u6709\u5F88\u591A\u5197\u4F59\uFF08\u5C3D\u7BA1\u66F4\u597D\uFF0C\u6BD4RAID 1\uFF09\u300D</p><p>Expensive, not commonly used\u300C\u6602\u8D35\uFF0C\u4E0D\u5E38\u7528\u300D</p><p><strong>RAID 3 uses a single parity bit</strong></p><p>Add a single parity bit for the data bits (b0 \u2013 b3) in the same position (bit-interleaved parity)\u300C\u5728\u540C\u4E00\u4F4D\u7F6E\u4E3A\u6570\u636E\u4F4D\uFF08b0 \u2013 b3\uFF09\u6DFB\u52A0\u4E00\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\uFF08\u6BD4\u7279\u4EA4\u7EC7\u5947\u5076\u6821\u9A8C\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/f274b622d6288.png" alt="image.png" title="image.png"><p>Only one redundant disk, no matter how large the array\u300C\u53EA\u6709\u4E00\u4E2A\u5197\u4F59\u78C1\u76D8\uFF0C\u65E0\u8BBA\u9635\u5217\u6709\u591A\u5927\u300D</p><p>Efficient than RAID 2\u300C\u6BD4RAID 2\u66F4\u9AD8\u6548\u300D</p><h3 id="raid-4-6" tabindex="-1"><a class="header-anchor" href="#raid-4-6" aria-hidden="true">#</a> RAID 4 - 6</h3><p>Compared to RAID 3\u300C\u4E0ERAID 3\u76F8\u6BD4\u300D</p><ul><li>Disks are accessed independently (not in parallel)\u300C\u72EC\u7ACB\u8BBF\u95EE\u78C1\u76D8\uFF08\u4E0D\u662F\u5E76\u884C\u8BBF\u95EE\uFF09\u300D</li><li>Strips have much larger size (block-level), good for high I/O read request rate (since one request can handled by one disk)\u300C\u6761\u5E26\u7684\u5927\u5C0F\u8981\u5927\u5F97\u591A\uFF08\u5757\u7EA7\uFF09\uFF0C\u6709\u5229\u4E8E\u9AD8I/O\u8BFB\u53D6\u8BF7\u6C42\u7387\uFF08\u56E0\u4E3A\u4E00\u4E2A\u78C1\u76D8\u53EF\u4EE5\u5904\u7406\u4E00\u4E2A\u8BF7\u6C42\uFF09\u300D</li><li>Also compute a single bit parity for corresponding data bits (the distribution of parity bits are different in RAID 4, 5, 6\u300C\u8FD8\u8BA1\u7B97\u76F8\u5E94\u6570\u636E\u4F4D\u7684\u5355\u4F4D\u5947\u5076\u6821\u9A8C\uFF08\u5947\u5076\u6821\u9A8C\u4F4D\u5728RAID 4\u30015\u30016\u4E2D\u7684\u5206\u5E03\u4E0D\u540C\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/feb59393e7c87.png" alt="image.png" title="image.png"><p>Bottleneck for data update (there is a write penalty): suppose we want to update one file in block 0, we need to read multiple blocks to also update the parity information)\u300C\u6570\u636E\u66F4\u65B0\u74F6\u9888\uFF08\u6709\u5199\u60E9\u7F5A\uFF09\uFF1A\u5047\u8BBE\u6211\u4EEC\u8981\u66F4\u65B0\u57570\u4E2D\u7684\u4E00\u4E2A\u6587\u4EF6\uFF0C\u6211\u4EEC\u9700\u8981\u8BFB\u53D6\u591A\u4E2A\u5757\u6765\u66F4\u65B0\u5947\u5076\u6821\u9A8C\u4FE1\u606F\uFF09\u300D</p><p><strong>Raid 5</strong></p><p>Almost the same as RAID 4\u300C\u51E0\u4E4E\u4E0ERAID 4\u76F8\u540C\u300D</p><ul><li>Difference: round robin allocation for parity strips, so that parity information is striped across all disks\u300C\u533A\u522B\uFF1A\u5947\u5076\u6821\u9A8C\u6761\u5E26\u7684\u8F6E\u8BE2\u5206\u914D\uFF0C\u4ECE\u800C\u4F7F\u5947\u5076\u6821\u9A8C\u4FE1\u606F\u5728\u6240\u6709\u78C1\u76D8\u4E0A\u5206\u6761\u300D</li><li>Can avoid the bottleneck at parity disk in RAID 4\u300C\u53EF\u4EE5\u907F\u514DRAID 4\u4E2D\u5947\u5076\u6821\u9A8C\u78C1\u76D8\u7684\u74F6\u9888\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/5de45613fc708.png" alt="image.png" title="image.png"><h2 id="ssd-basics" tabindex="-1"><a class="header-anchor" href="#ssd-basics" aria-hidden="true">#</a> SSD Basics</h2><ul><li>Previous memory devices\u300C\u4EE5\u524D\u7684\u5B58\u50A8\u8BBE\u5907\u300D</li><li>RAM: fast but volatile \u300CRAM\uFF1A\u5FEB\u901F\u4F46\u6613\u5931\u300D</li><li>ROM: read only\u300CROM\uFF1A\u53EA\u8BFB\u300D</li><li>Variations of ROM (PROM, EPROM, Flash Memory, EEPROM): write at a high cost\u300CROM\u7684\u53D8\u4F53\uFF08PROM\uFF0CEPROM\uFF0C\u95EA\u5B58\uFF0CEEPROM\uFF09\uFF1A\u5199\u5165\u6210\u672C\u9AD8\u300D</li><li>Hard drive disk: mechanical parts\u300C\u786C\u76D8\u78C1\u76D8\uFF1A\u673A\u68B0\u96F6\u4EF6\u300D</li></ul><p>Two components\uFF1AController + memory component\u300C\u63A7\u5236\u5668+\u5185\u5B58\u7EC4\u4EF6\u300D</p><ul><li>Specifically, memory component uses NAND flash memory (since 1990s)\u300C\u5177\u4F53\u6765\u8BF4\uFF0C\u5B58\u50A8\u7EC4\u4EF6\u4F7F\u7528NAND\u95EA\u5B58\uFF08\u81EA20\u4E16\u7EAA90\u5E74\u4EE3\u4EE5\u6765\uFF09\u300D</li><li>Basic element: NAND flash cell that can store 1 bit\u300C\u57FA\u672C\u5143\u4EF6\uFF1A\u53EF\u5B58\u50A81\u4F4D\u7684NAND\u95EA\u5B58\u5355\u5143\u300D</li><li>Design: the organization of cells and read/write operations\u300C\u8BBE\u8BA1\uFF1A\u5355\u5143\u7684\u7EC4\u7EC7\u548C\u8BFB\u5199\u64CD\u4F5C\u300D</li></ul><h3 id="nand-flash-cell" tabindex="-1"><a class="header-anchor" href="#nand-flash-cell" aria-hidden="true">#</a> NAND Flash Cell</h3><p>Surrounding circuitry can change the states of the floating gate\u300C\u5468\u56F4\u7684\u7535\u8DEF\u53EF\u4EE5\u6539\u53D8\u6D6E\u6805\u7684\u72B6\u6001\u300D</p><p>read/write though the control gate\u300C\u901A\u8FC7\u63A7\u5236\u95E8\u8BFB/\u5199\u300D</p><p>Overall, this cell can store one bit\u300C\u603B\u7684\u6765\u8BF4\uFF0C\u8FD9\u4E2A\u5355\u5143\u53EF\u4EE5\u5B58\u50A8\u4E00\u4E2A\u4F4D\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/b0e77f321a368.png" alt="image.png" title="image.png"><h3 id="from-cells-to-pages-to-blocks" tabindex="-1"><a class="header-anchor" href="#from-cells-to-pages-to-blocks" aria-hidden="true">#</a> From Cells to Pages to Blocks</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/c67fa0c7689d6.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/19/245686c4d53ac.png" alt="image.png" title="image.png"><h3 id="ssd-architecture" tabindex="-1"><a class="header-anchor" href="#ssd-architecture" aria-hidden="true">#</a> SSD Architecture</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/e8e31ac581bcc.png" alt="image.png" title="image.png"><h3 id="read-and-write-operation" tabindex="-1"><a class="header-anchor" href="#read-and-write-operation" aria-hidden="true">#</a> Read and Write Operation</h3><p>Characteristics\u300C\u7279\u70B9\u300D</p><p>Basic unit: read \u2013 page; write \u2013 page (when the page is empty, i.e., there is no direct over-write)\u300C\u57FA\u672C\u5355\u4F4D\uFF1A\u8BFB-\u9875\uFF1B\u5199-\u9875\uFF08\u5F53\u9875\u4E3A\u7A7A\u65F6\uFF0C\u5373\u6CA1\u6709\u76F4\u63A5\u91CD\u5199\uFF09\u300D</p><p>The feature of flash memory: need to erase data before over-write (update)\u300C\u95EA\u5B58\u7684\u7279\u70B9\uFF1A\u5728\u91CD\u5199\uFF08\u66F4\u65B0\uFF09\u4E4B\u524D\u9700\u8981\u64E6\u9664\u6570\u636E\u300D</p><p>Data are erased in blocks (using high voltage, time consuming)\u300C\u6570\u636E\u5206\u5757\u64E6\u9664\uFF08\u4F7F\u7528\u9AD8\u7535\u538B\uFF0C\u8017\u65F6\uFF09\u300D</p><p>As a result, if we want to over-write some pages, we need to erase a block first, write pages\u300C\u56E0\u6B64\uFF0C\u5982\u679C\u6211\u4EEC\u60F3\u91CD\u5199\u4E00\u4E9B\u9875\u9762\uFF0C\u6211\u4EEC\u9700\u8981\u5148\u5220\u9664\u4E00\u4E2A\u5757\uFF0C\u7136\u540E\u518D\u5199\u9875\u9762\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/7fd236ffa2ac8.png" alt="image.png" title="image.png"><p>Garbage collection\u300C\u5783\u573E\u6536\u96C6\u300D:</p><ul><li>Copy \u201Cgood data\u201D E,F,G,H and A\u2019,B\u2019,C\u2019,D\u2019 into a new empty block Y\u300C\u5C06\u201C\u597D\u6570\u636E\u201D E\uFF0CF\uFF0CG\uFF0CH\u548CA\u2032\uFF0CB\u2032\uFF0CC\u2032\uFF0CD\u2032\u590D\u5236\u5230\u65B0\u7684\u7A7A\u767D\u5757Y\u4E2D\u300D</li><li>Erase block X (garbage A, B, C,D are collected \u2013 more empty pages)\u300C\u64E6\u9664\u5757X\uFF08\u6536\u96C6\u4E86\u5783\u573EA\uFF0CB\uFF0CC\uFF0CD \u2013\u66F4\u591A\u7684\u7A7A\u767D\u9875\uFF09\u300D</li><li>This is done in the background, and is controlled by the Controller component in SSD\u300C\u8FD9\u662F\u5728\u540E\u53F0\u5B8C\u6210\u7684\uFF0C\u5E76\u7531SSD\u4E2D\u7684Controller\u7EC4\u4EF6\u63A7\u5236\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/84b6bdcf56db0.png" alt="image.png" title="image.png" width="300px "><h3 id="comparison" tabindex="-1"><a class="header-anchor" href="#comparison" aria-hidden="true">#</a> Comparison</h3><img src="https://pic.hanjiaming.com.cn/2021/04/19/607f93e951dfb.png" alt="image.png" title="image.png"><!--]-->`);
+}
+const _sfc_setup$R = _sfc_main$R.setup;
+_sfc_main$R.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/External Memory.html.vue");
+  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
+};
+var External_Memory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$R]]);
+var External_Memory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": External_Memory_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$Q = {};
+function _sfc_ssrRender$Q(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="internal-memory" tabindex="-1"><a class="header-anchor" href="#internal-memory" aria-hidden="true">#</a> Internal Memory</h1><h2 id="recap" tabindex="-1"><a class="header-anchor" href="#recap" aria-hidden="true">#</a> Recap</h2><h3 id="internal-memory-cache" tabindex="-1"><a class="header-anchor" href="#internal-memory-cache" aria-hidden="true">#</a> Internal memory: Cache</h3><ul><li>why? -- locality of references: CPU tends to access clusters of data at certain time\u300C\u4E3A\u4EC0\u4E48\uFF1F -\u5F15\u7528\u7684\u4F4D\u7F6E\uFF1ACPU\u503E\u5411\u4E8E\u5728\u7279\u5B9A\u65F6\u95F4\u8BBF\u95EE\u6570\u636E\u96C6\u7FA4\u300D</li><li>the introduction of fast but small memory (Cache) between CPU and main memory\u300C\u5728CPU\u548C\u4E3B\u5185\u5B58\u4E4B\u95F4\u5F15\u5165\u5FEB\u901F\u4F46\u8F83\u5C0F\u7684\u5185\u5B58\uFF08Cache\uFF09\u300D</li><li>mechanism: dynamically copy clusters into Cache -- virtually, we are using fast and large memory\u300C\u673A\u5236\uFF1A\u5C06\u96C6\u7FA4\u52A8\u6001\u590D\u5236\u5230Cache\u4E2D-\u5B9E\u9645\u4E0A\uFF0C\u6211\u4EEC\u6B63\u5728\u4F7F\u7528\u5FEB\u901F\u4E14\u5927\u5BB9\u91CF\u7684\u5185\u5B58\u300D</li></ul><h3 id="design-elements-of-cache" tabindex="-1"><a class="header-anchor" href="#design-elements-of-cache" aria-hidden="true">#</a> Design elements of Cache</h3><ul><li>mapping function: how to map blocks to cache lines <ul><li>direct mapping vs. associative mapping</li></ul></li></ul><p>other issues: replacement algorithms, writing policy, etc.</p><h2 id="internal-memory-1" tabindex="-1"><a class="header-anchor" href="#internal-memory-1" aria-hidden="true">#</a> Internal Memory</h2><p>&quot;Internal&quot;: the CPU can have direct access</p><ul><li>main memory, registers, cache</li><li>ROM (read only memory)</li></ul><p>There are different types of internal memory, but they share some common features\u300C\u5185\u90E8\u5B58\u50A8\u5668\u7684\u7C7B\u578B\u4E0D\u540C\uFF0C\u4F46\u662F\u5B83\u4EEC\u5177\u6709\u4E00\u4E9B\u5171\u540C\u7684\u7279\u5F81\u300D</p><ul><li>implemented using semiconductor technology\u300C\u4F7F\u7528\u534A\u5BFC\u4F53\u6280\u672F\u5B9E\u73B0\u300D</li><li>random access method \u300C\u968F\u673A\u8BBF\u95EE\u65B9\u6CD5\u300D</li><li>cope with the speed of CPU\u300C\u5E94\u4ED8CPU\u7684\u901F\u5EA6\u300D</li></ul><h3 id="type" tabindex="-1"><a class="header-anchor" href="#type" aria-hidden="true">#</a> Type</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/eb2dbb3e5c0e6.png" alt="image.png" title="image.png"><p><strong>Random access memory (RAM): it is a mis-use of term. All the above memory use random aceess method; however, we usually use RAM to refer to main memory\u300C\u968F\u673A\u5B58\u53D6\u5B58\u50A8\u5668\uFF08RAM\uFF09\uFF1A\u8FD9\u662F\u672F\u8BED\u7684\u9519\u8BEF\u4F7F\u7528\u3002\u4EE5\u4E0A\u6240\u6709\u8BB0\u5FC6\u5747\u91C7\u7528\u968F\u673Aaceess\u65B9\u6CD5\uFF1B\u4F46\u662F\uFF0C\u6211\u4EEC\u901A\u5E38\u4F7F\u7528RAM\u6765\u5F15\u7528\u4E3B\u5185\u5B58\u300D</strong></p><h2 id="memory-cell" tabindex="-1"><a class="header-anchor" href="#memory-cell" aria-hidden="true">#</a> Memory Cell</h2><p>Memory Cell -- the Basic Element of Memory\u300C\u8BB0\u5FC6\u5355\u5143-\u8BB0\u5FC6\u7684\u57FA\u672C\u8981\u7D20\u300D</p><p>Despite of the memory types, all semiconductor memory cells share common properties</p><ul><li>two stable states, used to represent 0 and 1\u300C\u4E24\u4E2A\u7A33\u5B9A\u72B6\u6001\uFF0C\u5206\u522B\u4EE3\u88680\u548C1\u300D</li><li>can be written into (set the state)\u300C\u53EF\u4EE5\u5199\u5165\uFF08\u8BBE\u7F6E\u72B6\u6001\uFF09\u300D</li><li>can be read to sense the state\u300C\u53EF\u4EE5\u8BFB\u53D6\u4EE5\u611F\u6D4B\u72B6\u6001\u300D</li></ul><h3 id="abstract-model" tabindex="-1"><a class="header-anchor" href="#abstract-model" aria-hidden="true">#</a> Abstract Model</h3><p>Three &quot;terminals&quot; for one cell:\u300C\u4E00\u4E2A\u5355\u5143\u7684\u4E09\u4E2A\u201C\u7EC8\u7AEF\u201D\uFF1A\u300D</p><ul><li>Select: select the cell for read or write operations</li><li>Control: to write or to read</li><li>Data: the bit</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/7d36987c08ce8.png" alt="image.png" title="image.png"><h3 id="implementation-technologies" tabindex="-1"><a class="header-anchor" href="#implementation-technologies" aria-hidden="true">#</a> Implementation Technologies</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/b5d9b3851a851.png" alt="image.png" title="image.png"><p>Capacitors\u300C\u7535\u5BB9\u5668\u300D and Transistors\u300C\u6676\u4F53\u7BA1\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/30768ee0530c6.png" alt="image.png" title="image.png"><h3 id="dynamic-ram-cells" tabindex="-1"><a class="header-anchor" href="#dynamic-ram-cells" aria-hidden="true">#</a> Dynamic RAM Cells</h3><p>Data is stored as the charge of capacitors\u300C\u6570\u636E\u5B58\u50A8\u4E3A\u7535\u5BB9\u5668\u7684\u7535\u8377\u300D</p><ul><li>high level of charge -- 1</li><li>low level of charge -- 0</li><li>dynamic: DRAM requires periodic charge refreshing to maintain data storage (capacitors have the tendency to leak charge)\u300C\u52A8\u6001\uFF1ADRAM\u9700\u8981\u5B9A\u671F\u5237\u65B0\u7535\u8377\u4EE5\u7EF4\u6301\u6570\u636E\u5B58\u50A8\uFF08\u7535\u5BB9\u5668\u6709\u6CC4\u6F0F\u7535\u8377\u7684\u8D8B\u52BF\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/7932f84c0ff55.png" alt="image.png" title="image.png"><ul><li>Write: hight (low) voltage is applied to Bit line to charge the capacitor for 1 (0)\u300C\u5199\uFF1A\u5411\u4F4D\u7EBF\u65BD\u52A0\u9AD8\uFF08\u4F4E\uFF09\u7535\u538B\u4EE5\u5BF9\u7535\u5BB9\u5668\u5145\u75351\uFF080\uFF09\u300D</li><li>Read: charge stored in the capacitor is fed out onto the Bit line, a sense amplifier can compare the capacitor voltage to a reference value \u300C\u8BFB\u53D6\uFF1A\u7535\u5BB9\u5668\u4E2D\u5B58\u50A8\u7684\u7535\u8377\u88AB\u9988\u9001\u5230\u4F4D\u7EBF\u4E0A\uFF0C\u8BFB\u51FA\u653E\u5927\u5668\u53EF\u4EE5\u5C06\u7535\u5BB9\u5668\u7535\u538B\u4E0E\u53C2\u8003\u503C\u8FDB\u884C\u6BD4\u8F83\u300D</li></ul><h3 id="static-ram-cells" tabindex="-1"><a class="header-anchor" href="#static-ram-cells" aria-hidden="true">#</a> Static RAM Cells</h3><p>Static RAM Cells\u300C\u9759\u6001RAM\u5355\u5143\u300D</p><ul><li>binary bit is stored using flip-flop logic gates configurations -- essentially, transistors (as switches) and voltage\u300C\u4F7F\u7528\u89E6\u53D1\u5668\u903B\u8F91\u95E8\u914D\u7F6E\u5B58\u50A8\u4E8C\u8FDB\u5236\u4F4D-\u672C\u8D28\u4E0A\u662F\u6676\u4F53\u7BA1\uFF08\u4F5C\u4E3A\u5F00\u5173\uFF09\u548C\u7535\u538B\u300D</li><li>static: the cell will hold the data as long as power is supplied to it (no need to refresh)\u300C\u9759\u6001\uFF1A\u53EA\u8981\u4F9B\u7535\uFF0C\u5355\u5143\u5C06\u4FDD\u5B58\u6570\u636E\uFF08\u65E0\u9700\u5237\u65B0\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/4bce0d9a1021b.png" alt="image.png" title="image.png"><ul><li><p>Four transistors (T1, T2, T3, T4) are cross connected in an arrangement that produces stable states -- represent 1/0\u300C\u56DB\u4E2A\u6676\u4F53\u7BA1\uFF08T1\uFF0CT2\uFF0CT3\uFF0CT4\uFF09\u4EA4\u53C9\u8FDE\u63A5\uFF0C\u4EA7\u751F\u7A33\u5B9A\u72B6\u6001-\u8868\u793A1/0\u300D</p></li><li><p>Address line uses T5 and T6 to select this cell\u300C\u5730\u5740\u884C\u4F7F\u7528T5\u548CT6\u9009\u62E9\u8BE5\u5355\u5143\u683C\u300D</p></li><li><p>Read</p><ul><li>stable state 1: C1 is high, C2 is low -&gt; T1 and T4 are OFF, T2 and T3 are ON -&gt; read high voltage from Bit line B\u300C\u7A33\u5B9A\u72B6\u60011\uFF1AC1\u4E3A\u9AD8\uFF0CC2\u4E3A\u4F4E-&gt; T1\u548CT4\u622A\u6B62\uFF0CT2\u548CT3\u5BFC\u901A-&gt;\u4ECE\u4F4D\u7EBFB\u8BFB\u53D6\u9AD8\u7535\u538B\u300D</li><li>stable state 0: C1 is low, C2 is high -&gt; T1 and T4 are ON, T2 and T3 are OFF -&gt; read low voltage from Bit line B</li></ul></li><li><p>Write</p><ul><li>Apply high voltage (1) or low voltage (0) to Bit line B --&gt; force the transistors into the proper states --&gt; corresponding stable states\u300C\u7A33\u5B9A\u72B6\u60010\uFF1AC1\u4E3A\u4F4E\u7535\u5E73\uFF0CC2\u4E3A\u9AD8-&gt; T1\u548CT4\u5BFC\u901A\uFF0CT2\u548CT3\u622A\u6B62-&gt;\u4ECE\u4F4D\u7EBFB\u8BFB\u53D6\u4F4E\u7535\u538B\u300D</li></ul></li></ul><h3 id="dram-vs-sram" tabindex="-1"><a class="header-anchor" href="#dram-vs-sram" aria-hidden="true">#</a> DRAM vs. SRAM</h3><ul><li>Common <ul><li>volatile -- need continuous power\u300C\u5E38\u89C1\uFF1A\u6613\u6325\u53D1-\u9700\u8981\u6301\u7EED\u4F9B\u7535\u300D</li></ul></li><li>Difference <ul><li>DRAM cell is simpler and smaller, thus denser (more cells per unit area) and less expensive\u300CDRAM\u5355\u5143\u66F4\u7B80\u5355\uFF0C\u66F4\u5C0F\uFF0C\u56E0\u6B64\u5BC6\u5EA6\u66F4\u9AD8\uFF08\u6BCF\u5355\u4F4D\u9762\u79EF\u66F4\u591A\u7684\u5355\u5143\uFF09\u4E14\u4EF7\u683C\u66F4\u4F4E\u300D</li><li>however, DRAM requires the supporting refresh circuitry\u300C\u4F46\u662F\uFF0CDRAM\u9700\u8981\u652F\u6301\u7684\u5237\u65B0\u7535\u8DEF\u300D</li><li>DRAM tends to be favored for large memory requirement\u300CDRAM\u503E\u5411\u4E8E\u6EE1\u8DB3\u5927\u5185\u5B58\u9700\u6C42\u300D</li><li>DRAM for main memory, SRAM for cache</li></ul></li></ul><h2 id="read-only-memory-rom" tabindex="-1"><a class="header-anchor" href="#read-only-memory-rom" aria-hidden="true">#</a> Read-Only Memory (ROM)</h2><p>ROM characteristics\u300CROM\u7279\u6027\u300D</p><ul><li><p>contains permanent data that cannot be changed (cannot write) -- not exactly, depending on the types of ROM\u300C\u5305\u542B\u65E0\u6CD5\u66F4\u6539\uFF08\u65E0\u6CD5\u5199\u5165\uFF09\u7684\u6C38\u4E45\u6570\u636E-\u4E0D\u5B8C\u5168\u53D6\u51B3\u4E8EROM\u7684\u7C7B\u578B\u300D</p></li><li><p>data are burned into the chip during fabrication process -- relatively large fixed cost, and there is no room for error\u300C\u6570\u636E\u5728\u5236\u9020\u8FC7\u7A0B\u4E2D\u88AB\u70E7\u5165\u82AF\u7247-\u56FA\u5B9A\u6210\u672C\u76F8\u5BF9\u8F83\u9AD8\uFF0C\u5E76\u4E14\u6CA1\u6709\u9519\u8BEF\u4F59\u5730\u300D</p></li><li><p>nonvolatile, no need for continous power\u300C\u975E\u6613\u5931\u6027\uFF0C\u65E0\u9700\u6301\u7EED\u4F9B\u7535\u300D</p></li></ul><h2 id="special-types-of-rom" tabindex="-1"><a class="header-anchor" href="#special-types-of-rom" aria-hidden="true">#</a> Special Types of ROM</h2><h3 id="programmable-rom-prom" tabindex="-1"><a class="header-anchor" href="#programmable-rom-prom" aria-hidden="true">#</a> Programmable ROM (PROM)</h3><p>Programmable ROM (PROM)\u300C\u53EF\u7F16\u7A0BROM\uFF08PROM\uFF09\u300D</p><ul><li>like ROM, it can be written into only once (after fabrication process)</li><li>customers can use special equipment to electrically write once</li><li>idea: each bit is locked by a fuse; initially all 1&#39;s in the chip, if burn the fuse, change 1 to 0 (write once)</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/5c19bc3e8eeaf.png" alt="image.png" title="image.png"><h3 id="read-mostly-memory" tabindex="-1"><a class="header-anchor" href="#read-mostly-memory" aria-hidden="true">#</a> Read-Mostly Memory</h3><p>Read-Mostly Memory (a variation of ROM\u300CROM\u7684\u53D8\u4F53\u300D)</p><ul><li>we can re-write the memory, but at a higher cost\u300C\u6211\u4EEC\u53EF\u4EE5\u91CD\u65B0\u5199\u5165\u5185\u5B58\uFF0C\u4F46\u662F\u6210\u672C\u66F4\u9AD8\u300D</li><li>useful for applications in which read operations are far more frequent then write operations, but for which nonvolatile storage is required\u300C\u5BF9\u4E8E\u8BFB\u64CD\u4F5C\u6BD4\u5199\u64CD\u4F5C\u66F4\u9891\u7E41\u4F46\u9700\u8981\u975E\u6613\u5931\u6027\u5B58\u50A8\u7684\u5E94\u7528\u7A0B\u5E8F\u5F88\u6709\u7528\u300D</li><li>three common types: EPROM, EEPROM, flash memory\u300C\u4E09\u79CD\u5E38\u89C1\u7C7B\u578B\uFF1AEPROM\uFF0CEEPROM\uFF0C\u95EA\u5B58\u300D</li></ul><h3 id="erasable-programmable-rom-eprom" tabindex="-1"><a class="header-anchor" href="#erasable-programmable-rom-eprom" aria-hidden="true">#</a> Erasable Programmable ROM (EPROM)</h3><p>Erasable Programmable ROM (EPROM)\u300C\u53EF\u64E6\u53EF\u7F16\u7A0BROM\uFF08EPROM\uFF09\u300D</p><ul><li>before a write operation, all the storage cells must be erased to the same initial state by exposure to ultraviolet radiation\u300C\u5728\u5199\u64CD\u4F5C\u4E4B\u524D\uFF0C\u5FC5\u987B\u901A\u8FC7\u66B4\u9732\u5728\u7D2B\u5916\u7EBF\u4E0B\u5C06\u6240\u6709\u5B58\u50A8\u5355\u5143\u64E6\u9664\u5230\u76F8\u540C\u7684\u521D\u59CB\u72B6\u6001\u300D</li><li>then write electronically\u300C\u7136\u540E\u7528\u7535\u5B50\u65B9\u5F0F\u5199\u300D</li><li>read -- exposure \u2013 write\u300C\u9605\u8BFB-\u66DD\u5149-\u5199\u300D erasable: through exposure (could take 20 mins)\u300C\u53EF\u64E6\uFF1A\u901A\u8FC7\u66DD\u5149\uFF08\u53EF\u80FD\u9700\u898120\u5206\u949F\uFF09\u300D more flexible than PROM\u300C\u6BD4PROM\u66F4\u7075\u6D3B\u300D</li></ul><h3 id="electronically-erasable-programmable-rom-eeprom" tabindex="-1"><a class="header-anchor" href="#electronically-erasable-programmable-rom-eeprom" aria-hidden="true">#</a> Electronically Erasable Programmable ROM (EEPROM)</h3><p>\u7535\u5B50\u53EF\u64E6\u53EF\u7F16\u7A0BROM\uFF08EEPROM\uFF09</p><ul><li><ul><li>updates (write operations) happen at byte level (not entire chip)\u300C\u66F4\u65B0\uFF08\u5199\u64CD\u4F5C\uFF09\u53D1\u751F\u5728\u5B57\u8282\u7EA7\u522B\uFF08\u4E0D\u662F\u6574\u4E2A\u82AF\u7247\uFF09\u300D</li><li>however, write operation takes considerably longer than read (several hundred microseconds per byte)\u300C\u4F46\u662F\uFF0C\u5199\u64CD\u4F5C\u8981\u6BD4\u8BFB\u64CD\u4F5C\u82B1\u8D39\u66F4\u957F\u7684\u65F6\u95F4\uFF08\u6BCF\u5B57\u8282\u51E0\u767E\u5FAE\u79D2\uFF09\u300D</li><li>more expensive and less dence (fewer bits per chip) than EPROM\u300C\u6BD4EPROM\u66F4\u6602\u8D35\uFF0C\u66F4\u7701\u94B1\uFF08\u6BCF\u4E2A\u82AF\u7247\u4E0A\u7684\u4F4D\u6570\u66F4\u5C11\uFF09\u300D</li></ul></li></ul><h3 id="flash-memory" tabindex="-1"><a class="header-anchor" href="#flash-memory" aria-hidden="true">#</a> Flash Memory</h3><ul><li>intermediate between EPROM and EEPROM\u300CEPROM\u548CEEPROM\u4E4B\u95F4\u7684\u4E2D\u95F4\u5C42\u300D</li><li>erasure at block level (compred to byte-level and chip level)\u300C\u5757\u7EA7\u522B\u7684\u64E6\u9664\uFF08\u4E0E\u5B57\u8282\u7EA7\u522B\u548C\u82AF\u7247\u7EA7\u522B\u76F8\u6BD4\uFF09\u300D</li></ul><h3 id="summary-of-rom" tabindex="-1"><a class="header-anchor" href="#summary-of-rom" aria-hidden="true">#</a> Summary of ROM</h3><img src="https://pic.hanjiaming.com.cn/2021/04/14/622e2c21f6c0e.png" alt="image.png" title="image.png"><h2 id="chip-logic" tabindex="-1"><a class="header-anchor" href="#chip-logic" aria-hidden="true">#</a> Chip Logic</h2><p>Semiconductor memory comes in package chips\u300C\u534A\u5BFC\u4F53\u5B58\u50A8\u5668\u5305\u542B\u5728\u5C01\u88C5\u82AF\u7247\u4E2D\u300D</p><ul><li>each chip contains an array of memory cells\u300C\u6BCF\u4E2A\u82AF\u7247\u5305\u542B\u4E00\u4E2A\u5B58\u50A8\u5355\u5143\u9635\u5217\u300D</li><li>essential\u300C\u57FA\u672C\u300D task: provide address to chip, and access bits\u300C\u57FA\u672C\u4EFB\u52A1\uFF1A\u63D0\u4F9B\u82AF\u7247\u5730\u5740\u548C\u8BBF\u95EE\u4F4D\u300D</li></ul><p><strong>how to organize and wire the cells in chips to satisfy the needs for addressing\u300C\u5982\u4F55\u7EC4\u7EC7\u548C\u8FDE\u63A5\u82AF\u7247\u4E2D\u7684\u5355\u5143\u4EE5\u6EE1\u8DB3\u5BFB\u5740\u9700\u6C42\u300D</strong></p><img src="https://pic.hanjiaming.com.cn/2021/04/14/36d7de8acdc3b.png" alt="image.png" title="image.png"><p><strong>Key issue: how to group cells into a logical piece of data\u300C\u5173\u952E\u95EE\u9898\uFF1A\u5982\u4F55\u5C06\u5355\u5143\u683C\u5206\u7EC4\u4E3A\u903B\u8F91\u6570\u636E\u300D</strong></p><ul><li>how many bits to read/write at a time</li><li>one extreme: 1 bit a time\u300C\u4E00\u4E2A\u6781\u7AEF\uFF1A\u4E00\u6B211\u6BD4\u7279\u300D</li><li>the other extreme: one word a time (word: the unit for data processing in CPU)\u300C\u53E6\u4E00\u4E2A\u6781\u7AEF\uFF1A\u4E00\u6B21\u4E00\u4E2A\u5B57\uFF08\u5B57\uFF1ACPU\u4E2D\u7528\u4E8E\u6570\u636E\u5904\u7406\u7684\u5355\u4F4D\uFF09\u300D</li><li>in between: k bits for one chip, combine multiple chips to get a word (example later)\u300C\u4ECB\u4E8E\u4E24\u8005\u4E4B\u95F4\uFF1A\u4E00\u4E2A\u82AF\u7247\u7684k\u4F4D\uFF0C\u5408\u5E76\u591A\u4E2A\u82AF\u7247\u5F97\u5230\u4E00\u4E2A\u5B57\uFF08\u540E\u9762\u7684\u793A\u4F8B\uFF09\u300D</li></ul><h3 id="simple-example-of-64-cells" tabindex="-1"><a class="header-anchor" href="#simple-example-of-64-cells" aria-hidden="true">#</a> Simple Example of 64 Cells</h3><p><strong>Read/Write 1 bit a time (logical data unit = 1 bit)\u300C\u4E00\u6B21\u8BFB/\u51991\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 1\u4F4D\uFF09\u300D</strong></p><ul><li>each cell needs to have an address\u300C\u6BCF\u4E2A\u5355\u5143\u90FD\u9700\u8981\u6709\u4E00\u4E2A\u5730\u5740\u300D</li><li>64 = 2^{6}, we need 6 address lines\u300C64 = 2 ^ {6}\uFF0C\u6211\u4EEC\u9700\u89816\u6761\u5730\u5740\u7EBF\u300D</li><li>remember decoder? we can use a 6-to-64 decoder\u300C\u8FD8\u8BB0\u5F97\u89E3\u7801\u5668\u5417\uFF1F\u6211\u4EEC\u53EF\u4EE5\u4F7F\u75286\u523064\u7684\u89E3\u7801\u5668\u300D</li><li>6 input address lines, 64 output select lines -- each is connected to the select terminal of the cell\u300C6\u6761\u8F93\u5165\u5730\u5740\u7EBF\uFF0C64\u6761\u8F93\u51FA\u9009\u62E9\u7EBF-\u6BCF\u6761\u8FDE\u63A5\u5230\u5355\u5143\u7684\u9009\u62E9\u7AEF\u5B50\u300D</li><li>in the chip package, 6 address pins, 1 data pins\u300C\u5728\u82AF\u7247\u5C01\u88C5\u4E2D\uFF0C\u67096\u4E2A\u5730\u5740\u5F15\u811A\uFF0C1\u4E2A\u6570\u636E\u5F15\u811A\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/72e7437a17b73.png" alt="image.png" title="image.png" width="400px"><ul><li>we also need to consider the memory access cyles\u300C\u6211\u4EEC\u8FD8\u9700\u8981\u8003\u8651\u5185\u5B58\u8BBF\u95EE\u5468\u671F\u300D</li><li>in each cycle, we provide an address to access 1 bit\u300C\u5728\u6BCF\u4E2A\u5468\u671F\u4E2D\uFF0C\u6211\u4EEC\u63D0\u4F9B\u4E00\u4E2A\u5730\u5740\u6765\u8BBF\u95EE1\u4F4D\u300D</li><li>64 cycles to access 64 bits -- too slow\u300C64\u4E2A\u5468\u671F\u8BBF\u95EE64\u4F4D-\u592A\u6162\u300D</li></ul><p><strong>Read/Write 8 bits a time (logical data unit = 8 bits)\u300C\u4E00\u6B21\u8BFB/\u51998\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 8\u4F4D\uFF09\u300D</strong></p><ul><li>cells are organized into 8 groups, each group containing 8 cells\u300C\u5355\u5143\u683C\u5206\u4E3A8\u7EC4\uFF0C\u6BCF\u7EC4\u5305\u542B8\u4E2A\u5355\u5143\u683C\u300D</li><li>one group share the same address\u300C\u4E00\u7EC4\u5171\u4EAB\u76F8\u540C\u7684\u5730\u5740\u300D</li><li>3 address pins, 8 data pins\u300C3\u4E2A\u5730\u5740\u5F15\u811A\uFF0C8\u4E2A\u6570\u636E\u5F15\u811A\u300D <ul><li>64/8 = 8</li></ul></li><li>less memory access cycles\u300C\u66F4\u5C11\u7684\u5185\u5B58\u8BBF\u95EE\u5468\u671F\u300D</li></ul><p><strong>Read/Write 4 bits a time (logical data unit = 4 bits)\u300C\u4E00\u6B21\u8BFB/\u51994\u4F4D\uFF08\u903B\u8F91\u6570\u636E\u5355\u5143= 4\u4F4D\uFF09\u300D</strong></p><ul><li>we can use two chips A and B\u300C\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u4E24\u4E2A\u82AF\u7247A\u548CB\u300D</li><li>access 4 bits from A, and 4 bits from B using the same address\u300C\u4F7F\u7528\u76F8\u540C\u7684\u5730\u5740\u8BBF\u95EEA\u76844\u4F4D\u548CB\u76844\u4F4D\u300D</li><li>together, it is like accessing 8 bits one time\u300C\u5728\u4E00\u8D77\uFF0C\u5C31\u50CF\u4E00\u6B21\u8BBF\u95EE8\u4F4D\u300D</li><li>more flexible for different processors\u300C\u5BF9\u4E8E\u4E0D\u540C\u7684\u5904\u7406\u5668\u66F4\u52A0\u7075\u6D3B\u300D</li><li>the size of the logical data unit is a key design parameter\u300C\u903B\u8F91\u6570\u636E\u5355\u5143\u7684\u5927\u5C0F\u662F\u5173\u952E\u8BBE\u8BA1\u53C2\u6570\u300D</li></ul><h3 id="example-of-16-mbit-dram" tabindex="-1"><a class="header-anchor" href="#example-of-16-mbit-dram" aria-hidden="true">#</a> Example of 16-Mbit DRAM</h3><p>It is implemented using four 4Mbit memory components</p><p>Each 4 Mbit component is a 2048 x 2048 square of cells (2^22 bits)\u300C\u6BCF\u4E2A4 Mbit\u5206\u91CF\u662F\u4E00\u4E2A2048 x 2048\u5E73\u65B9\u7684\u5355\u5143\u683C\uFF082 ^ 22\u4F4D\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/ad8d12c9dd1b5.png" alt="image.png" title="image.png"><p><strong>Use address to locate (select) the cell\u300C\u4F7F\u7528\u5730\u5740\u67E5\u627E\uFF08\u9009\u62E9\uFF09\u5355\u5143\u683C\u300D</strong></p><ul><li>2048 x 2048 square of cells = 2^{22} cells, intuitively\u300C\u51ED\u76F4\u89C9\u300D, we need 22 address lines</li><li>however, there are only 11 address pins (A0 \u2013 A10)</li><li>solution: use an external select logic (a multiplexer), where input is the 22 address lines and output is the 11 address pins\u300C\u89E3\u51B3\u65B9\u6848\uFF1A\u4F7F\u7528\u5916\u90E8\u9009\u62E9\u903B\u8F91\uFF08\u591A\u8DEF\u590D\u7528\u5668\uFF09\uFF0C\u5176\u4E2D\u8F93\u5165\u662F22\u6761\u5730\u5740\u7EBF\uFF0C\u8F93\u51FA\u662F11\u6761\u5730\u5740\u5F15\u811A\u300D</li><li>effect: divided the 22 address lines into 2 groups, which are fed into the chip through 11 address pins separately\u300C\u6548\u679C\uFF1A\u5C0622\u6761\u5730\u5740\u7EBF\u5206\u4E3A2\u7EC4\uFF0C\u5206\u522B\u901A\u8FC711\u4E2A\u5730\u5740\u5F15\u811A\u9988\u5165\u82AF\u7247\u300D</li></ul><p><strong>Use address to locate (select) the cell\u300C\u4F7F\u7528\u5730\u5740\u67E5\u627E\uFF08\u9009\u62E9\uFF09\u5355\u5143\u683C\u300D</strong></p><ul><li>11 row address lines/11 column address lines\u300C11\u884C\u5730\u5740\u7EBF/ 11\u5217\u5730\u5740\u7EBF\u300D</li><li>use another two pins to indicate: RAS (row address select) and CAS (column address select)\u300C\u4F7F\u7528\u53E6\u5916\u4E24\u4E2A\u5F15\u811A\u6307\u793A\uFF1ARAS\uFF08\u884C\u5730\u5740\u9009\u62E9\uFF09\u548CCAS\uFF08\u5217\u5730\u5740\u9009\u62E9\uFF09\u300D</li><li>then, use can use a 11-to-2048 decoder to select the corrsponding row and column --&gt; locate a cell in one square\u300C\u7136\u540E\uFF0C\u53EF\u4EE5\u4F7F\u752811\u52302048\u89E3\u7801\u5668\u9009\u62E9\u76F8\u5E94\u7684\u884C\u548C\u5217-&gt;\u5728\u4E00\u4E2A\u6B63\u65B9\u5F62\u4E2D\u5B9A\u4F4D\u4E00\u4E2A\u5355\u5143\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/14/b44508f7dab50.png" alt="image.png" title="image.png"><h3 id="read-write-operation" tabindex="-1"><a class="header-anchor" href="#read-write-operation" aria-hidden="true">#</a> Read/Write operation</h3><ul><li>4 data lines (pins, D1 - D4), each connecting to one square\u300C4\u6761\u6570\u636E\u7EBF\uFF08\u5F15\u811AD1-D4\uFF09\uFF0C\u6BCF\u6761\u8FDE\u63A5\u5230\u4E00\u4E2A\u6B63\u65B9\u5F62\u300D</li><li>write: apply high/low voltage to the data lines to charge the capacitors\u300C\u5199\uFF1A\u5411\u6570\u636E\u7EBF\u65BD\u52A0\u9AD8/\u4F4E\u7535\u538B\u4EE5\u5BF9\u7535\u5BB9\u5668\u5145\u7535\u300D</li><li>read: use a sense amplifier to sense the voltage\u300C\u9605\u8BFB\uFF1A\u4F7F\u7528\u611F\u5E94\u653E\u5927\u5668\u611F\u5E94\u7535\u538B\u300D</li><li>two pins to control write/read: WE (write enable) and OE (output enable)\u300C\u4E24\u4E2A\u5F15\u811A\u63A7\u5236\u5199/\u8BFB\uFF1AWE\uFF08\u5199\u4F7F\u80FD\uFF09\u548COE\uFF08\u8F93\u51FA\u4F7F\u80FD\uFF09\u300D</li><li>we can use multiple Chips to read/write a word at a time depending on the processor\u300C\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u591A\u4E2A\u82AF\u7247\u4E00\u6B21\u8BFB\u53D6/\u5199\u5165\u4E00\u4E2Aword\uFF0C\u5177\u4F53\u53D6\u51B3\u4E8E\u5904\u7406\u5668\u300D</li></ul><h3 id="summary-of-chip-logic" tabindex="-1"><a class="header-anchor" href="#summary-of-chip-logic" aria-hidden="true">#</a> Summary of Chip Logic</h3><p>Current technology:</p><ul><li>we can make very large capacity in a very small area\u300C\u6211\u4EEC\u53EF\u4EE5\u5728\u5F88\u5C0F\u7684\u533A\u57DF\u5185\u5236\u9020\u5F88\u5927\u7684\u5BB9\u91CF\u300D</li><li>however, the limit is bounded by the physical space needed for pins -- careful design to save number of pins is important\u300C\u4F46\u662F\uFF0C\u8BE5\u9650\u5236\u53D7\u5F15\u811A\u6240\u9700\u7684\u7269\u7406\u7A7A\u95F4\u9650\u5236-\u8C28\u614E\u8BBE\u8BA1\u4EE5\u8282\u7701\u5F15\u811A\u6570\u5F88\u91CD\u8981\u300D</li></ul><p>Chip Logic considerations\u300C\u82AF\u7247\u903B\u8F91\u6CE8\u610F\u4E8B\u9879\uFF1A\u300D:</p><ul><li>determine the number of data pins (how many bits to read/write at a time)\u300C\u786E\u5B9A\u6570\u636E\u5F15\u811A\u7684\u6570\u91CF\uFF08\u4E00\u6B21\u8BFB\u53D6/\u5199\u5165\u591A\u5C11\u4F4D\uFF09\u300D</li><li>determine the number of address pins (need consideration of address multiplexing)\u300C\u786E\u5B9A\u5730\u5740\u5F15\u811A\u7684\u6570\u91CF\uFF08\u9700\u8981\u8003\u8651\u5730\u5740\u591A\u8DEF\u590D\u7528\uFF09\u300D</li><li>need for additional buffers and controls\u300C\u9700\u8981\u989D\u5916\u7684\u7F13\u51B2\u533A\u548C\u63A7\u4EF6\u300D</li><li>layout and wiring need to consider heat distribution (data pins are distributed on the two sides of the chip)\u300C\u5E03\u5C40\u548C\u5E03\u7EBF\u9700\u8981\u8003\u8651\u70ED\u91CF\u5206\u5E03\uFF08\u6570\u636E\u5F15\u811A\u5206\u5E03\u5728\u82AF\u7247\u7684\u4E24\u4FA7\uFF09\u300D</li></ul><h2 id="memory-errors" tabindex="-1"><a class="header-anchor" href="#memory-errors" aria-hidden="true">#</a> Memory Errors</h2><ul><li>Hard Failure <ul><li>permanent physical defect to cells\u300C\u6C38\u4E45\u7684\u786C\u4EF6\u635F\u574F\u300D</li><li>replacement\u300C\u66FF\u4EE3\u4EE5\u4FEE\u590D\u300D</li></ul></li><li>Soft Error <ul><li>content of the cell is modified, due to random, nondestructive event\u300C\u7531\u4E8E\u968F\u673A\uFF0C\u975E\u7834\u574F\u6027\u4E8B\u4EF6\uFF0C\u4FEE\u6539\u4E86\u5355\u5143\u683C\u7684\u5185\u5BB9\u300D</li><li>the function of cell is still OK\u300C\u5355\u5143\u683C\u7684\u529F\u80FD\u8FD8\u662F\u597D\u7684\u300D</li><li>example: the charging to the capacitor is not sufficient: 1 -&gt; 0\u300C\u6BD4\u5982\u7535\u5BB9\u5668\u5145\u7535\u4E0D\u8DB3\u5BFC\u81F41-&gt;0</li></ul></li><li>Error Detection <ul><li>knowing that there are errors in a block of data</li></ul></li><li>Error Correction <ul><li>detect, and recover the correct contents\u300C\u68C0\u6D4B\u5E76\u6062\u590D\u6B63\u786E\u7684\u5185\u5BB9\u300D</li><li>correction is harder than detection\u300C\u6821\u6B63\u6BD4\u68C0\u6D4B\u96BE\u300D <ul><li>example: we know there are an even numuber of 1&#39;s in the data (detection is easy); detection is hard: there could be multiple combinations of errors\u300C\u4F8B\u5982\uFF1A\u6211\u4EEC\u77E5\u9053\u6570\u636E\u4E2D\u7684\u5076\u6570\u4E3A1\uFF08\u68C0\u6D4B\u5F88\u5BB9\u6613\uFF09\uFF1B\u68C0\u6D4B\u5F88\u96BE\uFF1A\u53EF\u80FD\u6709\u591A\u79CD\u9519\u8BEF\u7EC4\u5408\u300D</li></ul></li></ul></li></ul><h3 id="coding-theory" tabindex="-1"><a class="header-anchor" href="#coding-theory" aria-hidden="true">#</a> Coding Theory</h3><p>Coding theory itself is a fruitful field of study\u300C\u7F16\u7801\u7406\u8BBA\u672C\u8EAB\u662F\u4E00\u4E2A\u5BCC\u6709\u6210\u679C\u7684\u7814\u7A76\u9886\u57DF\u300D</p><p>general idea: use redundancy to encode the conditions for which correct data should satisfy -- redundancy is a function of original data: K = f(M)\u300C\u603B\u4F53\u601D\u8DEF\uFF1A\u4F7F\u7528\u5197\u4F59\u7F16\u7801\u6B63\u786E\u6570\u636E\u5E94\u6EE1\u8DB3\u7684\u6761\u4EF6-\u5197\u4F59\u662F\u539F\u59CB\u6570\u636E\u7684\u51FD\u6570\uFF1AK = f\uFF08M\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/4b16ed0e4944b.png" alt="image.png" title="image.png"><h3 id="framework-of-error-correction" tabindex="-1"><a class="header-anchor" href="#framework-of-error-correction" aria-hidden="true">#</a> Framework of Error Correction</h3><p>Framework of Error Correction\u300C\u7EA0\u9519\u6846\u67B6\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/db242feee716a.png" alt="image.png" title="image.png"><p>Example: Hash Functions for Error Detection</p><img src="https://pic.hanjiaming.com.cn/2021/04/14/68194656bae86.png" alt="image.png" title="image.png"><h3 id="encode-for-check" tabindex="-1"><a class="header-anchor" href="#encode-for-check" aria-hidden="true">#</a> Encode for check</h3><h4 id="warm-up-single-parity-code" tabindex="-1"><a class="header-anchor" href="#warm-up-single-parity-code" aria-hidden="true">#</a> Warm-up: single parity code</h4><ul><li>original data block M has 7 bits (abuse of term, M = 7)\u300C\u539F\u59CB\u6570\u636E\u5757M\u5177\u67097\u4F4D\uFF08\u6EE5\u7528\u9879\uFF0CM = 7\uFF09\u300D</li><li>attach a single bit K to the end of block (K=1)\u300C\u5C06\u5355\u4E2AK\u9644\u52A0\u5230\u5757\u7684\u672B\u5C3E\uFF08K = 1\uFF09\u300D</li><li>the code thus has 8 bits, M|| K --- this is a simple encoding process given M, we need to decide K\u300C\u8BE5\u4EE3\u7801\u56E0\u6B64\u5177\u67098\u4F4D\uFF0CM || K-\u8FD9\u662F\u4E00\u4E2A\u7B80\u5355\u7684\u7F16\u7801\u8FC7\u7A0B\u300D</li></ul><h4 id="enconding-rule" tabindex="-1"><a class="header-anchor" href="#enconding-rule" aria-hidden="true">#</a> Enconding rule</h4><ul><li>function W(D) = number of 1&#39;s in data block D</li><li>Rule: add K such that W(M||K) is even (even parity)\u300C\u89C4\u5219\uFF1A\u52A0K\u4F7F\u5F97W\uFF08M || K\uFF09\u4E3A\u5076\u6570\uFF08\u5076\u6570\uFF09\u300D</li><li>example <ul><li>M = 000 0011, W(M) = 2 -&gt; set K = 0</li><li>M = 110 0111, W(M) = 5 -&gt; set K = 1</li></ul></li><li>we also could have odd parity\u300C\u6211\u4EEC\u4E5F\u53EF\u80FD\u6709\u5947\u5076\u6821\u9A8C\u300D</li></ul><h4 id="one-error-detection" tabindex="-1"><a class="header-anchor" href="#one-error-detection" aria-hidden="true">#</a> One Error Detection</h4><p>The single parity code is able to detect one error\u300C\u5355\u4E00\u5947\u5076\u6821\u9A8C\u7801\u80FD\u591F\u68C0\u6D4B\u5230\u4E00\u4E2A\u9519\u8BEF\u300D</p><ul><li>suppose the stored data is D, we can compute W(D)\u300C\u5047\u8BBE\u5B58\u50A8\u7684\u6570\u636E\u4E3AD\uFF0C\u6211\u4EEC\u53EF\u4EE5\u8BA1\u7B97W\uFF08D\uFF09\u300D</li><li>if W(D) is even --&gt; no error; else one error\u300C\u5982\u679CW\uFF08D\uFF09\u662F\u5076\u6570-&gt;\u6CA1\u6709\u9519\u8BEF\uFF1B\u5426\u5219\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>note that the above detection algorithm relies on one essential assumption: there is at most one error \u300C\u8BF7\u6CE8\u610F\uFF0C\u4E0A\u8FF0\u68C0\u6D4B\u7B97\u6CD5\u57FA\u4E8E\u4E00\u4E2A\u57FA\u672C\u5047\u8BBE\uFF1A\u6700\u591A\u5B58\u5728\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>also note that, we can only detect error, we do not know the position of the error (cannot correct the error)\u300C\u8FD8\u8981\u6CE8\u610F\uFF0C\u6211\u4EEC\u53EA\u80FD\u68C0\u6D4B\u9519\u8BEF\uFF0C\u6211\u4EEC\u4E0D\u77E5\u9053\u9519\u8BEF\u7684\u4F4D\u7F6E\uFF08\u65E0\u6CD5\u7EA0\u6B63\u9519\u8BEF\uFF09\u300D</li></ul><h4 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h4><ul><li>suppose M = 000 0011, W(M) = 2 --&gt; K = 0</li><li>store M||K = 000 0011 0 in the storage device</li><li>some time later, we check this data block D by computing W(D)</li><li>suppose W(D) = 3 --&gt; error: e.g., 000 0111 0 or 000 0011 1</li><li>suppose W(D) = 2 --&gt; correct; but could also be 000 0101 0 (two errors, we assume that this could not happen)</li></ul><h4 id="the-essence" tabindex="-1"><a class="header-anchor" href="#the-essence" aria-hidden="true">#</a> The Essence</h4><p>essence\u300C\u7CBE\u534E\u300D</p><p>we are using 1 redundant bit to encode two cases:</p><ul><li>case 1: no error</li><li>case 2: 1 error</li></ul><p>question: can we extend this idea to general error-correcting code?</p><h3 id="correct" tabindex="-1"><a class="header-anchor" href="#correct" aria-hidden="true">#</a> Correct</h3><h4 id="general-case" tabindex="-1"><a class="header-anchor" href="#general-case" aria-hidden="true">#</a> General Case</h4><p>Consider one error correcting code</p><ul><li>original data M bits, redundancy K bits; together N = M + K bits\u300C\u539F\u59CB\u6570\u636EM\u4F4D\uFF0C\u5197\u4F59K\u4F4D; N = M + K\u4F4D\u300D</li><li>again, we assume that there is at most one error\u300C\u518D\u4E00\u6B21\uFF0C\u6211\u4EEC\u5047\u8BBE\u6700\u591A\u6709\u4E00\u4E2A\u9519\u8BEF\u300D</li></ul><p>Our goal is to correct one error (if happens) -- in other words, know the position of the error\u300C\u6211\u4EEC\u7684\u76EE\u6807\u662F\u7EA0\u6B63\u4E00\u4E2A\u9519\u8BEF\uFF08\u5982\u679C\u53D1\u751F\uFF09-\u6362\u53E5\u8BDD\u8BF4\uFF0C\u77E5\u9053\u9519\u8BEF\u7684\u4F4D\u7F6E\u300D</p><p>there are a total of (N+1) cases. Why?\u300C\u5171\u6709\uFF08N + 1\uFF09\u4E2A\u6848\u4F8B\u3002\u4E3A\u4EC0\u4E48\uFF1F\u300D</p><p>(N+1) cases:</p><ul><li><p>case 0: no error</p></li><li><p>case 1: error at position 1</p></li><li><p>case t: error at position t</p></li><li><p>the essence of error correction code: use K bits to encode (N+1) cases\u300C\u7EA0\u9519\u7801\u7684\u672C\u8D28\uFF1A\u4F7F\u7528K\u4F4D\u7F16\u7801\uFF08N + 1\uFF09\u79CD\u60C5\u51B5\u300D</p></li><li><p>relation: 2^{K} &gt;= M + K +1\u300C\u5173\u7CFB\uFF1A2 ^ {K}&gt; = M + K +1\u300D</p></li><li><p>coding theory deals with the realization of the above encoding process using mathematical tools\u300C\u7F16\u7801\u7406\u8BBA\u4F7F\u7528\u6570\u5B66\u5DE5\u5177\u5904\u7406\u4E0A\u8FF0\u7F16\u7801\u8FC7\u7A0B\u7684\u5B9E\u73B0\u300D</p></li></ul><p>Overhead: K/M, which is the redundancy\u300C\u5197\u4F59\u300D ratio\u300C\u7387\u300D\u300C\u5F00\u9500\uFF1AK / M\uFF0C\u5373\u5197\u4F59\u7387\u300D</p><ul><li>M = 4 -&gt; K = 3 ( 2^3 = 8 &gt;= 4 + 3 +1); K/M = 3/4</li><li>M = 8 -&gt; K = 4 ( 2^4 = 16 &gt;= 8 + 4 +1); K/M = 4/8</li><li>M = 16 -&gt; K = 5 ( 2^5 = 32 &gt;= 16 + 5 +1); K/M = 5/16</li></ul><p>as M increases, the overhead decreases\u300C\u968F\u7740M\u7684\u589E\u52A0\uFF0C\u5F00\u9500\u51CF\u5C11\u300D</p><p>So, is M the larger the better?</p><ul><li>unfortunately, no</li><li>remember the fundamental assumption: at most one error\u300C\u8BB0\u4F4F\u57FA\u672C\u5047\u8BBE\uFF1A\u81F3\u591A\u4E00\u4E2A\u9519\u8BEF\u300D</li><li>as M increases, the probability of having more errors also goes up\u300C\u589E\u52A0\u300D\u300C\u968F\u7740M\u7684\u589E\u52A0\uFF0C\u51FA\u73B0\u66F4\u591A\u9519\u8BEF\u7684\u53EF\u80FD\u6027\u4E5F\u4F1A\u589E\u52A0\u300D</li></ul><h4 id="case-study-7-4-hamming-code" tabindex="-1"><a class="header-anchor" href="#case-study-7-4-hamming-code" aria-hidden="true">#</a> Case Study: (7-4) Hamming Code</h4><p>Hamming Code\u300C\u6D77\u660E\u7801\u300D\u3001parity bits\u300C\u5947\u5076\u6821\u9A8C\u4F4D\u300D</p><ul><li>the classical one-error correction code, with (7-4) the most common setting\u300C\u7ECF\u5178\u7684-\u7EA0\u9519\u7801\uFF0C\u6700\u5E38\u89C1\u7684\u8BBE\u7F6E\u662F\uFF087-4\uFF09\u300D</li><li>N = 7, M = 4 (original data), K = 3 (redundancy bits)</li><li>we will not dig into\u300C\u6DF1\u5165\u7814\u7A76\u300D the mathematical\u300C\u6570\u5B66\u7684\u300D details\u300C\u6211\u4EEC\u4E0D\u4F1A\u6DF1\u5165\u7814\u7A76\u6570\u5B66\u7EC6\u8282\u300D</li><li>similar to single parity code, however, we now use three parity bits\u300C\u4E0E\u5355\u4E2A\u5947\u5076\u6821\u9A8C\u4EE3\u7801\u76F8\u4F3C\uFF0C\u4F46\u662F\uFF0C\u6211\u4EEC\u73B0\u5728\u4F7F\u7528\u4E09\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\u300D</li><li>data bits: d1, d2, d3, d4\u300C\u6570\u636E\u4F4D\uFF1Ad1\uFF0Cd2\uFF0Cd3\uFF0Cd4\u300D</li><li>parity bits: p1, p2, p3, where each parity bit &quot;cover&quot; 3 data bits\u300C\u5947\u5076\u6821\u9A8C\u4F4D\uFF1Ap1\uFF0Cp2\uFF0Cp3\uFF0C\u5176\u4E2D\u6BCF\u4E2A\u5947\u5076\u6821\u9A8C\u4F4D\u201C\u8986\u76D6\u201D 3\u4E2A\u6570\u636E\u4F4D\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/942122c3d2e35.png" alt="image.png" title="image.png"><ul><li>p1: cover d1, d2, d4, that is, number of 1&#39;s in p1||d1||d2||d4 should be even</li><li>p2: cover d1, d3, d4</li><li>p3: cover d2, d3, d4</li></ul><h5 id="example-1" tabindex="-1"><a class="header-anchor" href="#example-1" aria-hidden="true">#</a> Example</h5><img src="https://pic.hanjiaming.com.cn/2021/04/19/221a369946373.png" alt="image.png" title="image.png"><h5 id="more" tabindex="-1"><a class="header-anchor" href="#more" aria-hidden="true">#</a> More</h5><p>Not Required</p><img src="https://pic.hanjiaming.com.cn/2021/04/19/6767bc2be229d.png" alt="image.png" title="image.png"><h5 id="the-code-words" tabindex="-1"><a class="header-anchor" href="#the-code-words" aria-hidden="true">#</a> The code words</h5><ul><li>there are a total of 16 valid code words (why? 4 &quot;free&quot; data bits)\u300C\u5171\u670916\u4E2A\u6709\u6548\u4EE3\u7801\u5B57\uFF08\u4E3A\u4EC0\u4E48\uFF1F4\u4E2A\u201C\u7A7A\u95F2\u201D\u6570\u636E\u4F4D\uFF09\u300D</li><li>the Hamming distance between every two code words is 3\u300C\u6BCF\u4E24\u4E2A\u4EE3\u7801\u5B57\u4E4B\u95F4\u7684\u6C49\u660E\u8DDD\u79BB\u4E3A3\u300D</li><li>Hamming distance: the number of different bits\u300C\u6C49\u660E\u8DDD\u79BB\uFF1A\u4E0D\u540C\u4F4D\u6570\u300D</li><li>this examples why Hamming code can correct 1 error\u300C\u8FD9\u4E2A\u4F8B\u5B50\u4E3A\u4EC0\u4E48\u6C49\u660E\u7801\u53EF\u4EE5\u7EA0\u6B631\u4E2A\u9519\u8BEF\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/19/da2f8990b0a05.png" alt="image.png" title="image.png"><p>\u6279\u6CE8\uFF1A\u4E0D\u660E\u767D\u5728\u8BF4\u4EC0\u4E48......</p><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP2421@PolyU PowerPoint</li></ul><!--]-->`);
+}
+const _sfc_setup$Q = _sfc_main$Q.setup;
+_sfc_main$Q.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/Internal Memory.html.vue");
+  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
+};
+var Internal_Memory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$Q]]);
+var Internal_Memory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": Internal_Memory_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$P = {};
+function _sfc_ssrRender$P(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="introduction-to-computer-memory-and-cache-memory" tabindex="-1"><a class="header-anchor" href="#introduction-to-computer-memory-and-cache-memory" aria-hidden="true">#</a> Introduction to Computer Memory and Cache Memory</h1><h2 id="computer-components-revisited" tabindex="-1"><a class="header-anchor" href="#computer-components-revisited" aria-hidden="true">#</a> Computer components revisited</h2><img src="https://pic.hanjiaming.com.cn/2021/04/07/b306fada01c11.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/70b7fd8eb1e55.png" alt="image.png" title="image.png"><h2 id="computer-memory" tabindex="-1"><a class="header-anchor" href="#computer-memory" aria-hidden="true">#</a> Computer Memory</h2><p>Computer memory refers to any physical device capable of storing information\u300C\u8BA1\u7B97\u673A\u5185\u5B58\u662F\u6307\u80FD\u591F\u5B58\u50A8\u4FE1\u606F\u7684\u4EFB\u4F55\u7269\u7406\u8BBE\u5907\u300D</p><p>a wide range of type, technology, performance, cost, etc. --- Characteristics of Memory\u300C\u7C7B\u578B\uFF0C\u6280\u672F\uFF0C\u6027\u80FD\uFF0C\u6210\u672C\u7B49\u5E7F\u6CDB\u7684\u8303\u56F4-\u5185\u5B58\u7684\u7279\u5F81\u300D</p><p>Memory organization: select the right memory, and put it to the right place</p><h3 id="motivation" tabindex="-1"><a class="header-anchor" href="#motivation" aria-hidden="true">#</a> Motivation</h3><p>Choosing the right memory (physical device) is just like buying the right desk\u300C\u9009\u62E9\u5408\u9002\u7684\u5185\u5B58\uFF08\u7269\u7406\u8BBE\u5907\uFF09\u5C31\u50CF\u8D2D\u4E70\u5408\u9002\u7684\u529E\u516C\u684C\u300D</p><p>Underlying\u300C\u57FA\u672C\u7684\u300D learning goals:</p><ul><li>trade-off between performance and cost</li><li>design philosophies\u300C\u54F2\u7406\u300D/techniques to use constrained cost to achieve better performance\u300C\u8BBE\u8BA1\u54F2\u5B66/\u6280\u672F\u4EE5\u4F7F\u7528\u6709\u9650\u7684\u6210\u672C\u6765\u83B7\u5F97\u66F4\u597D\u7684\u6027\u80FD\u300D</li></ul><h3 id="characteristics-of-memory" tabindex="-1"><a class="header-anchor" href="#characteristics-of-memory" aria-hidden="true">#</a> <strong>Characteristics</strong> of Memory</h3><p>Memory can be categorized\u300C\u5206\u7C7B\u300D from many aspects\u300C\u65B9\u9762\u300D</p><ul><li>the technology it uses</li><li>the physical media</li><li>the cost</li><li>the access speed</li><li>the location (where it is in the computer)</li></ul><h4 id="location" tabindex="-1"><a class="header-anchor" href="#location" aria-hidden="true">#</a> Location</h4><ul><li>internal memory or external memory? <ul><li>internal: registers in processor, main memory, cache, etc.</li><li>external: the peripheral storage devices, such as disk and tape -- they are accessible to the processor via I/O controllers</li></ul></li></ul><p>\u6CE8\u610F\uFF1A\u4E00\u822C\u5728\u6301\u4E45\u5728\u4E3B\u677F\u4E0A\u63D2\u7740\u7684 Memory \u7B97 internal memory</p><h4 id="access-method" tabindex="-1"><a class="header-anchor" href="#access-method" aria-hidden="true">#</a> Access method</h4><h5 id="sequential-access" tabindex="-1"><a class="header-anchor" href="#sequential-access" aria-hidden="true">#</a> Sequential Access</h5><p>\u300C\u987A\u5E8F\u8BBF\u95EE\u300D</p><ul><li>memory is organized into units of data (records)\u300C\u5185\u5B58\u4EE5\u6570\u636E\uFF08\u8BB0\u5F55\uFF09\u4E3A\u5355\u4F4D\u8FDB\u884C\u7EC4\u7EC7\uFF1B\u300D;</li><li>access each records in sequence: move from a current location to the desired location sequentially\u300C\u4F9D\u6B21\u8BBF\u95EE\u6BCF\u4E2A\u8BB0\u5F55\uFF1A\u4ECE\u5F53\u524D\u4F4D\u7F6E\u987A\u5E8F\u79FB\u52A8\u5230\u6240\u9700\u4F4D\u7F6E\u300D</li><li>as a result, the time to access an arbitrary record is highly variable\u300C\u975E\u5E38\u53EF\u53D8\u7684\u300D</li></ul><p>example: tape\u300C\u78C1\u5E26\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/3d59e9efb4597.png" alt="image.png" title="image.png"><h5 id="direct-access-random-access" tabindex="-1"><a class="header-anchor" href="#direct-access-random-access" aria-hidden="true">#</a> Direct Access/Random Access</h5><ul><li>each location in the memory has a unique address\u300C\u5185\u5B58\u4E2D\u7684\u6BCF\u4E2A\u4F4D\u7F6E\u90FD\u6709\u4E00\u4E2A\u552F\u4E00\u7684\u5730\u5740\u300D</li><li>direct access often refers to secondary devices such as disks (access the block of data, may plus sequential search)\u300C\u76F4\u63A5\u8BBF\u95EE\u901A\u5E38\u662F\u6307\u8BF8\u5982\u78C1\u76D8\u4E4B\u7C7B\u7684\u8F85\u52A9\u8BBE\u5907\uFF08\u8BBF\u95EE\u6570\u636E\u5757\uFF0C\u53EF\u80FD\u8FD8\u9700\u8981\u987A\u5E8F\u641C\u7D22\uFF09\u300D</li><li>random access often refers to main memory or cache\u300C\u968F\u673A\u8BBF\u95EE\u901A\u5E38\u662F\u6307\u4E3B\u5185\u5B58\u6216\u7F13\u5B58\u300D</li><li>the time to access a given location is typically independent of the sequence of prior accesses and is often constant\u300C\u8BBF\u95EE\u7ED9\u5B9A\u4F4D\u7F6E\u7684\u65F6\u95F4\u901A\u5E38\u4E0E\u5148\u524D\u8BBF\u95EE\u7684\u987A\u5E8F\u65E0\u5173\uFF0C\u5E76\u4E14\u901A\u5E38\u662F\u6052\u5B9A\u7684\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/a0bd5e5c66dbb.png" alt="image.png" title="image.png"><h4 id="access-time-latency" tabindex="-1"><a class="header-anchor" href="#access-time-latency" aria-hidden="true">#</a> Access Time (latency)</h4><ul><li>Measures of Performance -- Access Time (latency)\u300C\u6027\u80FD\u6307\u6807-\u8BBF\u95EE\u65F6\u95F4\uFF08\u5EF6\u8FDF\uFF09\u300D</li><li>for random access, the time it takes to perform a read or write operation, i.e., from the time when an address is presented to memory to the time when data have been stored or become available\u300C\u5BF9\u4E8E\u968F\u673A\u8BBF\u95EE\uFF0C\u6267\u884C\u8BFB\u6216\u5199\u64CD\u4F5C\u6240\u82B1\u8D39\u7684\u65F6\u95F4\uFF0C\u5373 <strong>\u4ECE\u5C06\u5730\u5740\u7ED9\u5185\u5B58\u7684\u65F6\u95F4 \u5230 \u6570\u636E\u5DF2\u5B58\u50A8\u6216\u53EF\u7528 \u7684\u65F6\u95F4</strong>\u300D</li><li>for non-random access, from the time the instruction is issued to the time the data position is located for read/write operation\u300C\u5BF9\u4E8E\u975E\u968F\u673A\u8BBF\u95EE\uFF0C\u4ECE <strong>\u53D1\u51FA\u6307\u4EE4\u7684\u65F6\u95F4\u5230\u4E3A\u8BFB/\u5199\u64CD\u4F5C\u5B9A\u4F4D\u6570\u636E\u4F4D\u7F6E</strong> \u7684\u65F6\u95F4\u300D</li></ul><h4 id="memory-cycle-time" tabindex="-1"><a class="header-anchor" href="#memory-cycle-time" aria-hidden="true">#</a> Memory Cycle Time</h4><p>Measures of Performance -- Memory Cycle Time</p><p>Primarily\u300C\u4E3B\u8981\u300D applied to random access memory\u300C\u4E3B\u8981\u5E94\u7528\u4E8E\u968F\u673A\u5B58\u53D6\u5B58\u50A8\u5668\u300D\uFF1Ait consists of the access time plus any additional time required before a second access can be made (cycle)\u300C\u5B83\u7531 \u8BBF\u95EE\u65F6\u95F4\u52A0\u4E0A \u4EFB\u4F55\u989D\u5916\u7684\u65F6\u95F4 \u5728\u7B2C\u4E8C\u6B21\u8BBF\u95EE\u53EF\u88AB\u6267\u884C\u524D\u300D</p><p>Example: in computer games, skills (QWER) + cool down\u300C\u5728\u7535\u8111\u6E38\u620F\u4E2D\uFF0C\u6280\u80FD\uFF08QWER\uFF09+\u51B7\u9759\u4E0B\u6765\u300D</p><p>it is concerned with the system bus\u300C\u5B83\u4E0E\u7CFB\u7EDF\u603B\u7EBF\u6709\u5173\u300D</p><p><strong>An associated concept is transfer rate = 1/memory cycle time</strong><br> \u9891\u7387\u4E00\u822C\u662F\u8FD9\u6837\u8BA1\u7B97\u51FA\u6765\u7684</p><h4 id="physical-materials-technologies" tabindex="-1"><a class="header-anchor" href="#physical-materials-technologies" aria-hidden="true">#</a> Physical materials/technologies</h4><ul><li>semiconductor: RAM, Cache\u300C\u9AD8\u901F\u7F13\u5B58\u300D</li><li>magnetic: hard-drive</li><li>solid-state devices (a kind of semiconductor technology); replace hard-drive\u300C\u56FA\u6001\u8BBE\u5907\uFF08\u4E00\u79CD\u534A\u5BFC\u4F53\u6280\u672F\uFF09\uFF1B\u66FF\u4EE3\u786C\u76D8\u300D</li><li>optical: CD\u300C\u5149\u5B66\u7684\uFF1ACD\u300D</li></ul><h4 id="volatile-vs-non-volatile" tabindex="-1"><a class="header-anchor" href="#volatile-vs-non-volatile" aria-hidden="true">#</a> Volatile vs. Non-volatile</h4><p>Physical features\u300C\u7269\u7406\u7279\u6027\u300D -- Volatile vs. Non-volatile</p><ul><li>Volatile memory: need power to maintain the stored information (memory is lost when power is off), e.g., registers, RAM\u300C\u6613\u5931\u6027\u5185\u5B58\uFF1A\u9700\u8981\u7535\u6E90\u6765\u7EF4\u62A4\u5B58\u50A8\u7684\u4FE1\u606F\uFF08\u7535\u6E90\u5173\u95ED\u65F6\u5185\u5B58\u4E22\u5931\uFF09\uFF0C\u4F8B\u5982\u5BC4\u5B58\u5668\uFF0CRAM\u300D</li><li>non-volatile memory: no need to be charged all the time, e.g., hard drive\u300C\u975E\u6613\u5931\u6027\u5B58\u50A8\u5668\uFF1A\u65E0\u9700\u4E00\u76F4\u5145\u7535\uFF0C\u4F8B\u5982\u786C\u76D8\u9A71\u52A8\u5668\u300D</li></ul><h4 id="erasable-vs-non-erasable" tabindex="-1"><a class="header-anchor" href="#erasable-vs-non-erasable" aria-hidden="true">#</a> Erasable vs. Non-erasable</h4><p>Physical features -- Erasable vs. Non-erasable</p><ul><li>erasable: can be deleted or rewritten with new data, e.g., registers, hard drive</li><li>non-earsable: cannot be delelted/rewritten, e.g., ROM (Read Only Memory), CD</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/e2098839ffa27.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/04b38cc8be69f.png" alt="image.png" title="image.png"><h2 id="memory-hierarchy" tabindex="-1"><a class="header-anchor" href="#memory-hierarchy" aria-hidden="true">#</a> Memory Hierarchy</h2><p>Memory Hierarchy\u300C\u5185\u5B58\u5C42\u6B21\u7ED3\u6784\u300D</p><p>In the hierarchy</p><ul><li>closer to the processor: we have faster but lower-capacity, more expensive memory\u300C\u8DDD\u79BB\u5904\u7406\u5668\u66F4\u8FD1\uFF1A\u6211\u4EEC\u62E5\u6709\u66F4\u5FEB\u4F46\u5BB9\u91CF\u66F4\u4F4E\uFF0C\u5185\u5B58\u66F4\u6602\u8D35\u7684\u5185\u5B58\u300D</li><li>further to the processor: we have slower but higher-capacity, less expensive memory\u300C\u8DDD\u79BB\u5904\u7406\u5668\u66F4\u8FDC\uFF1A\u6211\u4EEC\u7684\u5185\u5B58\u901F\u5EA6\u8F83\u6162\u4F46\u5BB9\u91CF\u8F83\u9AD8\uFF0C\u5185\u5B58\u4EF7\u683C\u8F83\u4FBF\u5B9C\u300D</li><li>the essential design question: can we &quot;alloate&quot; the information such that frequently accessed information is stored in faster memory\u300C\u8BBE\u8BA1\u7684\u57FA\u672C\u95EE\u9898\uFF1A\u6211\u4EEC\u80FD\u5426\u201C\u5206\u914D\u201D\u4FE1\u606F\uFF0C\u4EE5\u4FBF\u5C06\u7ECF\u5E38\u8BBF\u95EE\u7684\u4FE1\u606F\u5B58\u50A8\u5728\u66F4\u5FEB\u7684\u5185\u5B58\u4E2D\u300D</li></ul><p>example: Program Counter register</p><h3 id="access-latency" tabindex="-1"><a class="header-anchor" href="#access-latency" aria-hidden="true">#</a> Access latency</h3><p>Access latency\u300C\u5B58\u53D6\u5EF6\u8FDF\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/4b4054871af47.png" alt="image.png" title="image.png"><ul><li>Time used by CPU to execute one instruction <ul><li>1 cycle for most instructions (1GHz CPU, 1 cycle = 10-9s)</li></ul></li><li>Time used to fetch a word from main memory <ul><li>10 ~ 100 cycles</li></ul></li><li>Time used to fetch a block of data from disks <ul><li>10,000 ~ 1,000,000 cycles</li></ul></li></ul><p>The gap\u300C\u95F4\u9699\u300D between CPU, main memory and disks</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/68881ede4ffdd.png" alt="image.png" title="image.png"><p>Solve the problem: a fast CPU is wasted by waiting for slow memory?</p><p>The processor has access to two levels of memory</p><ul><li>Level-1: capacity C1 = 100 words, access time T1 = 0.1s</li><li>Level-2: capacity C2 = 1000 words, access time T2 = 1s</li></ul><p>access mechanism: if some data is in Level-1, directly access the data; \u300C\u8BBF\u95EE\u673A\u5236\uFF1A\u5982\u679C\u67D0\u4E9B\u6570\u636E\u5904\u4E8E\u7EA7\u522B1\uFF0C\u5219\u76F4\u63A5\u8BBF\u95EE\u6570\u636E\uFF1B\u300Dotherwise, move the data from Level-2 to Level-1 first, and then access the data from Level-1\u300C\u5426\u5219\uFF0C\u9996\u5148\u5C06\u6570\u636E\u4ECELevel-2\u79FB\u5230Level-1\uFF0C\u7136\u540E\u4ECELevel-1\u8BBF\u95EE\u6570\u636E\u300D</p><p>T1 vs. (T1 + T2)</p><h3 id="locality" tabindex="-1"><a class="header-anchor" href="#locality" aria-hidden="true">#</a> Locality</h3><h4 id="clustering-effect" tabindex="-1"><a class="header-anchor" href="#clustering-effect" aria-hidden="true">#</a> Clustering effect</h4><p>\u5728\u5185\u5B58\u4E2D\uFF0Cbit\u7EC4\u6210byte\uFF0C\u591A\u884Cbyte\u7EC4\u6210word\uFF0C\u591A\u4E2Aword\u7EC4\u6210block\u3002</p><p>Basic idea: during program execution, memory accesses (for instructions and data) by processor tend to cluster\u300C\u57FA\u672C\u601D\u60F3\uFF1A\u5728\u7A0B\u5E8F\u6267\u884C\u8FC7\u7A0B\u4E2D\uFF0C\u5904\u7406\u5668\u5BF9\u5185\u5B58\u7684\u8BBF\u95EE\uFF08\u7528\u4E8E\u6307\u4EE4\u548C\u6570\u636E\uFF09\u503E\u5411\u4E8E\u805A\u96C6\u300D</p><p>Reasons: programs typically contain loops/subroutines -- repeatedly access a small set of instructions; also, for data, operations on tables and arrays involve access to a clustered set of data\u300C\u539F\u56E0\uFF1A\u7A0B\u5E8F\u901A\u5E38\u5305\u542B\u5FAA\u73AF/\u5B50\u4F8B\u7A0B-\u91CD\u590D\u8BBF\u95EE\u4E00\u5C0F\u7EC4\u6307\u4EE4;\u540C\u6837\uFF0C\u5BF9\u4E8E\u6570\u636E\uFF0C\u5BF9\u8868\u548C\u6570\u7EC4\u7684\u64CD\u4F5C\u6D89\u53CA\u5BF9\u96C6\u7FA4\u6570\u636E\u96C6\u7684\u8BBF\u95EE\u300D</p><p>During some specific time period, processor wants to access a portion of main memory (one cluster)\u300C\u5728\u67D0\u4E2A\u7279\u5B9A\u65F6\u95F4\u6BB5\u5185\uFF0C\u5904\u7406\u5668\u5E0C\u671B\u8BBF\u95EE\u4E3B\u5185\u5B58\u7684\u4E00\u90E8\u5206\uFF08\u4E00\u4E2A\u96C6\u7FA4\uFF09\u300D</p><p>Over time, processor accesses different clusters\u300C\u968F\u7740\u65F6\u95F4\u7684\u6D41\u901D\uFF0C\u5904\u7406\u5668\u8BBF\u95EE\u4E0D\u540C\u7684\u96C6\u7FA4\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/1ad834c46e638.png" alt="image.png" title="image.png"><h4 id="concept" tabindex="-1"><a class="header-anchor" href="#concept" aria-hidden="true">#</a> Concept</h4><ul><li>Principle of locality: Programs tend to use data and instructions with addresses near or equal to those they have used recently\u300C\u672C\u5730\u6027\u539F\u5219\uFF1A\u7A0B\u5E8F\u503E\u5411\u4E8E\u4F7F\u7528\u5730\u5740\u6216\u5730\u5740\u4E0E\u5B83\u4EEC\u6700\u8FD1\u4F7F\u7528\u7684\u5730\u5740\u63A5\u8FD1\u6216\u76F8\u7B49\u7684\u6570\u636E\u548C\u6307\u4EE4\u3002\u300D</li><li>Temporal\u300C\u65F6\u95F4\u300D locality: recently referenced items (data, instructions) are likely to be referenced again in the near future\u300C\u65F6\u95F4\u4F4D\u7F6E\uFF1A\u8FD1\u671F\u5F15\u7528\u7684\u9879\u76EE\uFF08\u6570\u636E\uFF0C\u8BF4\u660E\uFF09\u53EF\u80FD\u4F1A\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u518D\u6B21\u5F15\u7528\u300D</li><li>Spatial\u300C\u7A7A\u95F4\u300D locality: items (data, instructions) with nearby addresses tend to be referenced close together in time\u300C\u7A7A\u95F4\u4F4D\u7F6E\uFF1A\u5177\u6709\u9644\u8FD1\u5730\u5740\u7684\u9879\u76EE\uFF08\u6570\u636E\uFF0C\u6307\u4EE4\uFF09\u5F80\u5F80\u5728\u65F6\u95F4\u4E0A\u9760\u8FD1\u5728\u4E00\u8D77\u5F15\u7528\u300D</li></ul><p>THINK: WHY LOCALITY EXISTS?</p><h4 id="example-two-level-memory" tabindex="-1"><a class="header-anchor" href="#example-two-level-memory" aria-hidden="true">#</a> Example: Two-Level Memory</h4><p>Hit Ratio: the fraction of accesses involving only Level-1</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7c3301409c48a.png" alt="image.png" title="image.png"><p>Conclusion-- increase the hit ratio</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/3044bb32a2838.png" alt="image.png" title="image.png"><h4 id="examples-of-locality" tabindex="-1"><a class="header-anchor" href="#examples-of-locality" aria-hidden="true">#</a> Examples of locality</h4><p>To compute the sum of all elements in an 2-D array</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/be300de3c3488.png" alt="image.png" title="image.png"><p>\u540C\u65F6\u6211\u4EEC\u53D1\u73B0\u6570\u7EC4\u662F\u6309x-y-z\u7684\u7EF4\u5EA6\u5B58\u50A8\u7684\u3002\u6240\u4EE5\uFF0C\u5F53\u6211\u4EEC\u4F7F\u7528\u4E0B\u9762\u7684\u7B97\u6CD5\u65F6</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/cb956aaadce82.png" alt="image.png" title="image.png" width="240px"><p>\u5C31\u662F BAD LOCALITY</p><h4 id="examples-of-temporal-locality" tabindex="-1"><a class="header-anchor" href="#examples-of-temporal-locality" aria-hidden="true">#</a> Examples of temporal locality</h4><ul><li><p>Data references</p></li><li><ul><li>The access to \u201Csum\u201D in the inner loop</li><li>Once accesses, will be accessed again in the near future\u300C\u4E00\u65E6\u6267\u884C\uFF0C\u5C06\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u518D\u6B21\u6267\u884C\u300D</li></ul></li><li><p>Instruction references</p></li><li><ul><li>The instructions to do \u201Csum += a[][]\u201D</li><li>Once executed, will be executed again in the near future</li></ul></li></ul><p>To understand locality for \u201Cdata\u201D and \u201Cinstructions\u201D:<br> They are essentially the same, as instructions are special data stored in memory</p><h4 id="to-measure-locality" tabindex="-1"><a class="header-anchor" href="#to-measure-locality" aria-hidden="true">#</a> To measure locality</h4><p>\u5982\u4F55\u8BC4\u4EF7\u4E00\u4E2Alocality\u7684\u597D\u574F\u5462\uFF1F</p><ul><li>Stride: The distance of two adjacent data accesses in memory location, in the unit of 1 data element\u300C\u6B65\u5E45\uFF1A\u5185\u5B58\u4F4D\u7F6E\u4E2D\u4E24\u4E2A\u76F8\u90BB\u6570\u636E\u8BBF\u95EE\u7684\u8DDD\u79BB\uFF0C\u4EE51\u4E2A\u6570\u636E\u5143\u7D20\u7684\u957F\u5EA6\u4E3A\u76F8\u540C\u5355\u4F4D\u300D <ul><li>Stride-1 reference pattern: access the data one by one according to their memory addresses, such as the good locality example\u300C\u6839\u636E\u6570\u636E\u7684\u5B58\u50A8\u5730\u5740\u4E00\u4E00\u8BBF\u95EE\u6570\u636E\uFF0C\u4F8B\u5982\u826F\u597D\u7684locality\u793A\u4F8B\u300D</li><li>Stride-k reference pattern: for example, the bad locality example generally has a stride-4 reference pattern\u300C\u4F8B\u5982\uFF0C\u4E0D\u826Flocality\u793A\u4F8B\u901A\u5E38\u5177\u6709 a stride-4 reference pattern\u300D</li></ul></li><li>The smaller the stride, the better the locality\u300C\u6B65\u5E45\u8D8A\u5C0F\uFF0Clocality \u8D8A\u597D\u300D</li></ul><h3 id="cache-memory" tabindex="-1"><a class="header-anchor" href="#cache-memory" aria-hidden="true">#</a> Cache Memory</h3><img src="https://pic.hanjiaming.com.cn/2021/04/07/5cecb7a84188e.png" alt="image.png" title="image.png"><p>\u8FD9\u91CC\u51B0\u7BB1\u5C31\u76F8\u5F53\u4E8E Cache Memory</p><p>Caching idea\uFF1AAdding a small but fast memory inside the CPU</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/0f77d2ce106a8.png" alt="image.png" title="image.png"><p>cache\u662F\u4E00\u884C\u4E00\u884C\u7684\u3002\u6211\u4EEC\u8BA4\u4E3A cache \u6BCF\u884C\u957F\u5EA6 = \u5185\u5B58\u6BCF\u4E2Ablock\u5927\u5C0F\u3002</p><h4 id="concept-1" tabindex="-1"><a class="header-anchor" href="#concept-1" aria-hidden="true">#</a> Concept</h4><img src="https://pic.hanjiaming.com.cn/2021/04/07/e9c84f5447c5a.png" alt="image.png" title="image.png"><p>Cache is fast but has relatively small capacity.\u300C\u7F13\u5B58\u901F\u5EA6\u5FEB\uFF0C\u4F46\u5BB9\u91CF\u76F8\u5BF9\u8F83\u5C0F\u3002\u300D</p><p>Basic mechanism: cache contains the copy of portions of main memory (blocks). \u300C\u57FA\u672C\u673A\u5236\uFF1A\u9AD8\u901F\u7F13\u5B58\u5305\u542B\u4E3B\u5185\u5B58\u90E8\u5206\uFF08\u5757\uFF09\u7684\u526F\u672C\u3002\u300D</p><ul><li>when CPU wants to read a word: <ul><li>if the word is in cache, access the word</li><li>else a block of main memory (containing that word) is read into cache</li></ul></li><li>thenthe word is delivered to CPU\u300C\u5426\u5219\u5C06\u4E00\u5757\u4E3B\u5B58\u50A8\u5668\uFF08\u5305\u542B\u8BE5\u5355\u8BCD\uFF09\u8BFB\u5165\u7F13\u5B58\uFF0C\u7136\u540E\u8FD9\u4E2A\u8BCD\u88AB\u4EA4\u4ED8\u7ED9CPU\u300D</li></ul><p>Due to locality of reference, the hit ratio is high (words can be found in cache with high chance)\u300CDue to locality of reference \u547D\u4E2D\u7387\u5F88\u9AD8\uFF08\u53EF\u4EE5\u5728\u9AD8\u901F\u7F13\u5B58\u4E2D\u627E\u5230\u5355\u8BCD\uFF09\u300D</p><p>As a result, as if there is memory with large capacity and fast access speed\u300C\u7ED3\u679C\uFF0C\u597D\u50CF\u6709\u5927\u5BB9\u91CF\u4E14\u8BBF\u95EE\u901F\u5EA6\u5FEB\u7684\u5185\u5B58\u300D</p><h4 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h4><p>Assume When a program executes, it generates 20 memory accesses<br> ABCDCCCDDDEGHGHGHGHB</p><p>The unit of data loading is \u201Cone block\u201D\uFF1AOne block contains two data variables</p><ul><li>Cache size = 2 blocks</li><li>Data access time <ul><li>Cache hit: 1 cycle\u300C\u7F13\u5B58\u547D\u4E2D\uFF1A1\u4E2A\u5468\u671F\u300D</li><li>\u300C\u7F13\u5B58\u672A\u547D\u4E2D\uFF1A200\u4E2A\u5468\u671F\u300D</li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/a3d302d2fa796.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/07/3292afeed1f5b.png" alt="image.png" title="image.png"><p>Performance with cache\uFF1AAccess time = 1 * 15 + 5 * 200 = 1015 cycles Performance without cache\uFF1AAccess time = 200 * 20 = 4000 cycles</p><p>\u6CE8\uFF1A\u5047\u8BBE\u5224\u65AD\u4E0D\u9700\u8981\u65F6\u95F4\u3002\u4ECE\u5185\u5B58\u63D0\u53D6\u6570\u636E\u7684\u95F4\u9699\u662F 200c \uFF0C\u4ECE cash \u63D0\u53D6\u6570\u636E\u95F4\u9699\u662F 15c</p><p>Multiple-Level Cache Organization \u56FE\u793A</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7f000345e3c0a.png" alt="image.png" title="image.png"><h4 id="application" tabindex="-1"><a class="header-anchor" href="#application" aria-hidden="true">#</a> Application</h4><img src="https://pic.hanjiaming.com.cn/2021/04/27/c5fa8774ea8cc.png" alt="CleanShot 2021-04-27 at 12.31.42@2x.png" title="CleanShot 2021-04-27 at 12.31.42@2x.png" width="300px"><h3 id="structure-of-a-cache-main-memory-system" tabindex="-1"><a class="header-anchor" href="#structure-of-a-cache-main-memory-system" aria-hidden="true">#</a> Structure of a Cache/Main-Memory System</h3><img src="https://pic.hanjiaming.com.cn/2021/04/07/305fa65e5042d.png" alt="image.png" title="image.png"><p>The Cache consists of m <strong>lines,</strong> where each line has a length of K words (the size of one block in memory)\u300Ccache \u7531m\u884C\u7EC4\u6210\uFF0C\u5176\u4E2D\u6BCF\u884C\u7684\u957F\u5EA6\u4E3AK\u4E2A\u5B57\uFF08\u5185\u5B58\u4E2D\u4E00\u4E2A\u5757\u7684\u5927\u5C0F\uFF09\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7ff4348d3fede.png" alt="image.png" title="image.png" width="350px"><p><strong>m lines</strong> in Cache vs. <strong>M blocks</strong> in Memory <strong>(m &lt;&lt;M)</strong></p><p>access mechanism: when we want to access a word in the memory, the whole block containing that word is copied into one line of cache\u300C\u8BBF\u95EE\u673A\u5236\uFF1A\u5F53\u6211\u4EEC\u8981\u8BBF\u95EE\u5185\u5B58\u4E2D\u7684\u4E00\u4E2Aword\u65F6\uFF0C\u5305\u542B\u8BE5word\u7684\u6574\u4E2A\u5757\u88AB\u590D\u5236\u5230\u7F13\u5B58\u7684\u4E00\u884C\u4E2D</p><p>One cache line cannot be permanently allocated to one memory block -- use the tag to indicate which block is stored in cache (more on this later)\u300C\u4E00\u6761\u9AD8\u901F\u7F13\u5B58\u884C\u4E0D\u80FD\u6C38\u4E45\u5206\u914D\u7ED9\u4E00\u4E2A\u5185\u5B58\u5757-\u4F7F\u7528\u6807\u7B7E\u6307\u793A\u54EA\u4E2A\u5757\u5B58\u50A8\u5728\u9AD8\u901F\u7F13\u5B58\u4E2D\uFF08\u7A0D\u540E\u4F1A\u8BE6\u7EC6\u4ECB\u7ECD\uFF09\u300D</p><p>Illustration of Cache Read Operation \u5982\u4E0B</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/b886280cea662.png" alt="image.png" title="image.png"><p>Typical Cache Organization \u5982\u4E0B\u56FE</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/fbde1110fca38.png" alt="image.png" title="image.png"><p>Mapping Function\u2014\u2014Basic Elements of Cache Design</p><h4 id="mapping-function" tabindex="-1"><a class="header-anchor" href="#mapping-function" aria-hidden="true">#</a> Mapping Function</h4><p>The essential problem we want to address: map M memory blocks to m cache lines (m &lt;&lt; M)\u2014\u2014mapping function\u300C\u6211\u4EEC\u8981\u89E3\u51B3\u7684\u57FA\u672C\u95EE\u9898\uFF1A\u5C06M\u4E2A\u5185\u5B58\u5757\u6620\u5C04\u5230m\u4E2A\u7F13\u5B58\u884C\uFF08m &lt;&lt; M\uFF09-\u6620\u5C04\u529F\u80FD\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/5836c70fcf801.png" alt="image.png" title="image.png"><p>A mapping function defines where the needed blocks in memory are loaded to Cache (M blocks, m positions)\u300C\u6620\u5C04\u529F\u80FD\u5B9A\u4E49\u5C06\u5185\u5B58\u4E2D\u6240\u9700\u7684\u5757\u52A0\u8F7D\u5230\u9AD8\u901F\u7F13\u5B58\u7684\u4F4D\u7F6E\uFF08M\u4E2A\u5757\uFF0Cm\u4E2A\u4F4D\u7F6E\uFF09\u300D</p><ul><li>direct mapping: a kind of fixed mapping, i.e., blocks in memory are allocated to fixed cache lines <ul><li>Q = M/m, Q blocks are mapped to one single cache line; Q to 1 mapping\u300CQ = M / m\uFF0CQ\u4E2A\u5757\u88AB \u6620\u5C04 \u5230\u4E00\u6761 cache line\uFF1B Q\u5BF91\u6620\u5C04\u300D</li></ul></li><li>associative mapping: any block can go to any cache line\u300C\u5173\u8054\u6620\u5C04\uFF1A\u4EFB\u4F55\u5757 \u90FD\u53EF\u4EE5\u5230 \u4EFB\u4F55 cache line\u300D</li></ul><h5 id="direct-mapping" tabindex="-1"><a class="header-anchor" href="#direct-mapping" aria-hidden="true">#</a> Direct mapping</h5><h6 id="direct-mapping-example" tabindex="-1"><a class="header-anchor" href="#direct-mapping-example" aria-hidden="true">#</a> Direct mapping Example</h6><p>Map all students to 10 seats using direct mapping</p><ul><li>suppose SID has 8 digits, split SID into 2 parts: first 7 digits and the last digit\u300C\u5047\u8BBESID\u67098\u4F4D\u6570\u5B57\uFF0C\u5219\u5C06SID\u5206\u4E3A2\u90E8\u5206\uFF1A\u524D7\u4F4D\u548C\u540E1\u4F4D\u300D</li><li>use your last digit as your seat number -- all students are divided into 10 groups, it is a fixed mapping\u300C\u7528\u60A8\u7684\u6700\u540E\u4E00\u4F4D\u6570\u5B57\u4F5C\u4E3A\u5EA7\u4F4D\u53F7-\u6240\u6709\u5B66\u751F\u5206\u4E3A10\u7EC4\uFF0C\u8FD9\u662F\u4E00\u4E2A\u56FA\u5B9A\u7684\u6620\u5C04\u300D</li></ul><p>How can we know who is currently sitting in seat i (i 0 to 9)?\u300C\u6211\u4EEC\u5982\u4F55\u77E5\u9053\u8C01\u73B0\u5728\u5750\u5728\u5EA7\u4F4Di\uFF08i 0\u52309\uFF09\u4E2D\uFF1F\u300D</p><p>a student can use the first 7 digits as a tag -- the tag is unique for that particular student\u300C\u4E00\u4E2A\u5B66\u751F\u53EF\u4EE5\u4F7F\u7528\u524D7\u4F4D\u6570\u5B57\u4F5C\u4E3A\u6807\u7B7E-\u8BE5\u6807\u7B7E\u5BF9\u4E8E\u8BE5\u7279\u5B9A\u5B66\u751F\u662F\u552F\u4E00\u7684\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/7d57e6b79307c.png" alt="image.png" title="image.png"><p>SID = memory address (tag in cache is a portion of memory address)\u300CSID =\u5185\u5B58\u5730\u5740\uFF08\u7F13\u5B58\u4E2D\u7684\u6807\u7B7E\u662F\u5185\u5B58\u5730\u5740\u7684\u4E00\u90E8\u5206\uFF09\u300D</p><h6 id="implementation" tabindex="-1"><a class="header-anchor" href="#implementation" aria-hidden="true">#</a> Implementation</h6><ul><li>Use main memory address to implement direct mapping\u300C\u4F7F\u7528 main memory address \u5B9E\u73B0\u76F4\u63A5\u6620\u5C04\u300D</li><li>bear in mind that Cache line = Memory Block (they contain the same number of words)\u300C\u8BF7\u8BB0\u4F4F\uFF0C\u7F13\u5B58\u884C=\u5185\u5B58\u5757\uFF08\u5B83\u4EEC\u5305\u542B\u76F8\u540C\u6570\u91CF\u7684\u5B57\uFF09\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/08/e95e52739c8a3.png" alt="image.png" title="image.png"><p>\u6CE8\u610F\uFF1A\u8FD9\u5E76\u4E0D\u8FDD\u80CC\u5730\u5740\u7F16\u53F7\u7684\u76F8\u5173\u77E5\u8BC6\u3002\u539F\u56E0\u662Fs+w\u5E76\u4E0D\u4F1A\u5360\u6EE1\u6240\u6709\u7684\u6BD4\u7279\u4F4D\u3002</p><h6 id="cache-interpret" tabindex="-1"><a class="header-anchor" href="#cache-interpret" aria-hidden="true">#</a> Cache interpret</h6><p>How would the cache interpret\u300C\u89E3\u91CA\u300D main memory address?</p><img src="https://pic.hanjiaming.com.cn/2021/04/08/a3495e9188da5.png" alt="image.png" title="image.png"><p>Example\uFF1As = 4 bits, r = 2 bits</p><ul><li><p>01 11 \u2014 11 determines which line you should go to</p></li><li><p>00 11, 01 11, 10 11, 11 11: the four blocks ending with 11 will go to the same line; they are differentiated by the tag (first two bits)</p></li><li><p>01 11 mod 4 = 3 \u2014 the line with line number 3</p></li></ul><h6 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h6><p>Summary of Mapping Function:</p><ul><li>given a memory address ( s + w) bits\uFF0Cwe know which block it is through the s bits\u300C\u6211\u4EEC\u901A\u8FC7s\u4F4D\u77E5\u9053\u5B83\u662F\u54EA\u4E2A\u5757\u300D <ul><li>among the s bits, there are r bits, which tell us the line number in Cache that stores this block\u300C\u5728s\u4F4D\u4E2D\uFF0C\u6709r\u4F4D\uFF0C\u5B83\u4EEC\u544A\u8BC9\u6211\u4EEC\u5B58\u50A8\u6B64\u5757\u7684Cache\u4E2D\u7684\u884C\u53F7\u300D</li><li>As there are more blocks than lines (s &gt; r), the remaining (s - r) bits serve as a tag for the Cache line, telling us which block this line is currently storing</li></ul></li></ul><p>Multiple Blocks to One Line\uFF1Aaddress s + w bits</p><ul><li>cache will interprete it as three fields: tag (s-r), line (r), word (w) <ul><li>line (r) determines which line in cache the block will map to</li><li>tag (s-r) determines the current block that line is storing CPU can directly check that line, and compare the tag field\u300C\u6BD4\u8F83\u6807\u7B7E\u5B57\u6BB5\u300D to determine whether the block is now in the cache</li></ul></li></ul><p>\u6CE8\uFF1Atag\u4E0D\u662F\u81EA\u5E26\u7684\uFF0C\u662F\u53EF\u4EE5\u88AB\u5199\u5165\u7684\u3002</p><p>How does CPU access a word?</p><ol><li>Given an address (s+w) bits</li><li>Use r bits to locate the line in Cache</li><li>Compare the (s-r) bits with the tag: <ul><li>if (s-r) match, the line stores the desired block; use w bits to identify the desired word</li><li>if (s-r) no match, access the memory, copy the block to the line</li></ul></li></ol><img src="https://pic.hanjiaming.com.cn/2021/04/08/3b73fd74b3948.png" alt="image.png" title="image.png"><h6 id="example-1" tabindex="-1"><a class="header-anchor" href="#example-1" aria-hidden="true">#</a> Example</h6><p>Settings\uFF1A</p><ul><li>word = one byte, block = 4 words (4 bytes)</li><li>main memory has 16 Mbytes (note: 1 MB = 1024 KB; 1 KB = 1024B); <ul><li>that is, 2^{24} bytes -&gt; 24 bits for the address</li><li>we have 2^{22} blocks -&gt; s = 22 bits, w = 2 bits</li></ul></li><li>cache has 64 KB = 2^{16} bytes</li></ul><p><strong>R = 14 bits,How many lines are there in the Cache?</strong></p><p>The number of lines are determined by the number of address.</p><p>2^{14} lines -&gt; among the 22 bits, r = 14 bits, 8 bits for the tag</p><h6 id="pros-and-cons" tabindex="-1"><a class="header-anchor" href="#pros-and-cons" aria-hidden="true">#</a> Pros and Cons</h6><ul><li>simple and inexpensive to implement</li><li>main disadvantage: muliptle blocks in memory are mapped to a fixed Cache line <ul><li>if a program happends to access words repeatedly from two different blocks that map into the same line</li><li>the two blocks will be continually swapped in the cache -- low hit ratio</li></ul></li></ul><h5 id="associative-mapping" tabindex="-1"><a class="header-anchor" href="#associative-mapping" aria-hidden="true">#</a> Associative Mapping</h5><p>Key difference from direct mapping:</p><ul><li>a block in memory can be mapped to any line in cache\u300C\u5185\u5B58\u4E2D\u7684\u4E00\u4E2A\u5757\u53EF\u4EE5\u6620\u5C04\u5230\u7F13\u5B58\u4E2D\u7684\u4EFB\u4F55\u884C\u300D</li><li>cache will interpret the address as two fields Tag and Word\u300C\u7F13\u5B58\u4F1A\u5C06\u5730\u5740\u89E3\u91CA\u4E3ATag\u548CWord\u4E24\u4E2A\u5B57\u6BB5\u300D <ul><li>address = s + w bits; 2^s blocks in memory</li><li>s serves as the tag, and it is stored together with the data\u300Cs\u4F5C\u4E3A\u6807\u7B7E\uFF0C\u5B83\u4E0E\u6570\u636E\u4E00\u8D77\u5B58\u50A8\u300D</li></ul></li><li>note: there is no field to determine the line number\u300C\u6CE8\u610F\uFF1A\u6CA1\u6709\u7528\u4E8E\u786E\u5B9A\u884C\u53F7\u7684\u5B57\u6BB5\u300D</li></ul><h6 id="associative-mapping-example" tabindex="-1"><a class="header-anchor" href="#associative-mapping-example" aria-hidden="true">#</a> Associative Mapping Example</h6><p>Settings:</p><ul><li>memory has 2^{22} blocks, each block has 4 bytes (data = 32 bits)</li><li>address is 24 bits = 22 bits (s) + 2 bits (w)</li><li>Tag: 22 bits</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/08/36cf701400133.png" alt="image.png" title="image.png"><h6 id="implementation-1" tabindex="-1"><a class="header-anchor" href="#implementation-1" aria-hidden="true">#</a> Implementation</h6><img src="https://pic.hanjiaming.com.cn/2021/04/08/33bb201d268c5.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/08/15af32c54ea74.png" alt="image.png" title="image.png"><p>A block can be mapped to any line in cache! What if the cache is full?</p><ul><li>For direct mapping, there is no choice.</li><li>For associative mapping, we need to decide which block should be replaced --- replacement algorithms</li></ul><p>The main disadvantage of associative mapping is the complex circuitry required to examine the tags of all cache lines in parallel\u300Cassociative mapping \u7684\u4E3B\u8981\u7F3A\u70B9\u662F\u9700\u8981 \u5E76\u884C\u68C0\u67E5 \u6240\u6709 cache \u884C\u7684\u6807\u7B7E\u7684 \u590D\u6742\u7535\u8DEF\u300D</p><h6 id="replacement-algorithms" tabindex="-1"><a class="header-anchor" href="#replacement-algorithms" aria-hidden="true">#</a> Replacement Algorithms</h6><p><strong>Least Recently Used (LRU)\u2014\u2014Most popular replacement algorithm</strong></p><ul><li>replace the block that has been in the cache longest with no reference to it</li><li>there requires some extra index to record the time when a line is referenced \u2013 the price need to pay</li><li>Simple for two-way set-associative mapping: use a single bit USE to indicate the most recently used line in the set</li></ul><p><strong>Other common replacement algorithms</strong></p><p>First-in-first-out (FIFO): replace that block in the set that has been in the cache longest (what&#39;s the difference from LRU)</p><p>Least Frequently Used (LFU): associate a counter to each line</p><p>Random (not based on usage): randomly pick one to replace \u2013 some papers show that Random is only slightly worse than previous usage-based algorithms</p><h5 id="set-associative-mapping" tabindex="-1"><a class="header-anchor" href="#set-associative-mapping" aria-hidden="true">#</a> Set-Associative Mapping</h5><p>not required</p><h3 id="write-policy" tabindex="-1"><a class="header-anchor" href="#write-policy" aria-hidden="true">#</a> Write Policy</h3><p>Why does inconsistency happen?</p><ul><li>multiple CPUs\u300C\u6BD4\u5982\u5728\u670D\u52A1\u5668\u4E2D\u300D: each CPU has its own cache, which may store the same block in memory</li><li>I/O can directly access main memory</li></ul><p>we need a policy to deal with such inconsistency\u300C\u6211\u4EEC\u9700\u8981\u4E00\u9879\u653F\u7B56\u6765\u5E94\u5BF9\u8FD9\u79CD\u77DB\u76FE\u300D</p><h4 id="write-policy-i-write-through" tabindex="-1"><a class="header-anchor" href="#write-policy-i-write-through" aria-hidden="true">#</a> Write Policy I - Write Through</h4><p>All writes go to cache as well as main memory</p><ul><li>multiple CPUs need to monitor main memory traffic to keep local (with respect to CPU) cache up to date</li><li>lots of traffic</li><li>slows down writes</li></ul><h4 id="write-policy-ii-write-back" tabindex="-1"><a class="header-anchor" href="#write-policy-ii-write-back" aria-hidden="true">#</a> Write Policy II - Write Back</h4><ul><li>Updates initially made in cache only, then memory</li><li>use an extra bit along with each cache line to indicate whether there&#39;s update in this line (set the bit if there&#39;s update)</li><li>when this cache line needs to be replaced, check this bit, write back to memory if the bit is set (such that updates are not lost)</li></ul><p>requirement: I/O has to access cache, not main memory directly</p><h3 id="exploiting-locality" tabindex="-1"><a class="header-anchor" href="#exploiting-locality" aria-hidden="true">#</a> Exploiting locality</h3><h4 id="hints-to-software-developers" tabindex="-1"><a class="header-anchor" href="#hints-to-software-developers" aria-hidden="true">#</a> Hints to software developers</h4><ul><li>Caching leverages locality, good locality make good use of cache\u300C\u7F13\u5B58\u5229\u7528\u4E86\u5C40\u90E8\u6027\uFF0C\u826F\u597D\u7684\u5C40\u90E8\u6027\u5145\u5206\u5229\u7528\u4E86\u9AD8\u901F\u7F13\u5B58\u300D</li><li>General principles to write programs with good locality\u300C\u7F16\u5199\u5177\u6709\u826F\u597D\u672C\u5730\u6027\u7684\u7A0B\u5E8F\u7684\u4E00\u822C\u539F\u5219\u300D <ul><li>Focus your attention on inner loops, where the CPU spends most of the time\u300C\u5C06\u6CE8\u610F\u529B\u96C6\u4E2D\u5728CPU\u5927\u90E8\u5206\u65F6\u95F4\u90FD\u5728\u5176\u4E2D\u7684\u5185\u5FAA\u73AF\u4E0A\u300D</li><li>Try to maximize the spatial locality by reading data objects sequentially, with stride 1, in the order they are stored in memory\u300C\u5C1D\u8BD5\u901A\u8FC7\u8DE8\u6B65\u8BFB\u53D6\u6570\u636E\u5BF9\u8C61\uFF08\u6B65\u957F\u4E3A1\uFF09\uFF0C\u4EE5\u5C06\u5B83\u4EEC\u5B58\u50A8\u5728\u5185\u5B58\u4E2D\u7684\u987A\u5E8F\u6765\u6700\u5927\u5316\u7A7A\u95F4\u5C40\u90E8\u6027</li><li>Try to maximize the temporal locality by using a data object as often as possible once it has been read from memory\u300C\u4ECE\u5185\u5B58\u4E2D\u8BFB\u53D6\u6570\u636E\u5BF9\u8C61\u540E\uFF0C\u5E94\u5C3D\u53EF\u80FD\u9891\u7E41\u5730\u4F7F\u7528\u5B83\u6765\u5C1D\u8BD5\u6700\u5927\u5316\u65F6\u95F4\u5C40\u90E8\u6027\u300D</li></ul></li></ul><h3 id="managing-caches" tabindex="-1"><a class="header-anchor" href="#managing-caches" aria-hidden="true">#</a> Managing caches</h3><p>Design considerations of caches</p><ul><li>Block size <ul><li>Bigger block size exploits spatial locality\u300C\u66F4\u5927\u7684\u5757\u5927\u5C0F\u5229\u7528\u7A7A\u95F4\u5C40\u90E8\u6027\u300D</li><li>Too big, bringing in many data that will not be used, waste of space and time\u300C\u592A\u5927\u4E86\uFF0C\u5E26\u6765\u4E86\u5F88\u591A\u65E0\u6CD5\u4F7F\u7528\u7684\u6570\u636E\uFF0C\u6D6A\u8D39\u4E86\u7A7A\u95F4\u548C\u65F6\u95F4\u300D</li></ul></li><li>Who is in, who is out? <ul><li>Replacement policy: if cache is full, new data going in, evict which data?\u300C\u66FF\u6362\u7B56\u7565\uFF1A\u5982\u679C\u7F13\u5B58\u5DF2\u6EE1\uFF0C\u5219\u6709\u65B0\u6570\u636E\u8FDB\u5165\uFF0C\u9010\u51FA\u54EA\u4E9B\u6570\u636E\uFF1F\u300D <ul><li>Intuition\u300C\u76F4\u89C9\u300D: keep the data being used in the near future in cache\u300C\u76F4\u89C9\uFF1A\u5C06\u6570\u636E\u5728\u4E0D\u4E45\u7684\u5C06\u6765\u4FDD\u5B58\u5728\u7F13\u5B58\u4E2D\u300DBut, how do we know which data will be used in the near future?\u300C\u4F46\u662F\uFF0C\u6211\u4EEC\u5982\u4F55\u77E5\u9053\u4E0D\u4E45\u7684\u5C06\u6765\u5C06\u4F7F\u7528\u54EA\u4E9B\u6570\u636E\uFF1F\u300D</li></ul></li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/64de54be53967.png" alt="image.png" title="image.png" width="240px"><ul><li>To efficiently find a data item in the cache <ul><li>Find 1 data in 1000 candidates? Takes too long!</li><li>Partition the cache into groups, map different data into different groups</li><li>To find a data item in a smaller group can be efficient, but space may not be fully utilized</li></ul></li></ul><h4 id="impacts-to-hw-design" tabindex="-1"><a class="header-anchor" href="#impacts-to-hw-design" aria-hidden="true">#</a> Impacts to HW design</h4><p>\u5BF9\u786C\u4EF6\u8BBE\u8BA1\u7684\u5F71\u54CD\u2013\u5B58\u50A8\u5C42\u6B21\u7ED3\u6784</p><img src="https://pic.hanjiaming.com.cn/2021/04/07/28b3ee018d930.png" alt="image.png" title="image.png"><ul><li>Conceptually\u300C\u4ECE\u6982\u5FF5\u4E0A\u8BB2\u300D, level K can be viewed as a cache of level K+1, storing a subset of K&#39;data in level K+1</li><li>If caching policies are smartly designed, most of the time, cache accesses will be hit</li><li>Pretty much like we have a memory system that works at a speed of the highest level, but have the storage space of the lowest level, with reasonably low price\u300C\u4ECE\u6982\u5FF5\u4E0A\u8BB2\uFF0C\u53EF\u4EE5\u5C06\u7EA7\u522BK\u89C6\u4E3A\u7EA7\u522BK + 1\u7684\u7F13\u5B58\uFF0C\u5C06\u6570\u636E\u7684\u5B50\u96C6\u5B58\u50A8\u5728\u7EA7\u522BK + 1\u4E2D \u5982\u679C\u5BF9\u7F13\u5B58\u7B56\u7565\u8FDB\u884C\u4E86\u7CBE\u5FC3\u8BBE\u8BA1\uFF0C\u90A3\u4E48\u5728\u5927\u591A\u6570\u60C5\u51B5\u4E0B\uFF0C\u7F13\u5B58\u8BBF\u95EE\u5C06\u53D7\u5230\u5F71\u54CD \u5C31\u50CF\u6211\u4EEC\u6709\u4E00\u4E2A\u5185\u5B58\u7CFB\u7EDF\u53EF\u4EE5\u4EE5\u6700\u9AD8\u7EA7\u522B\u7684\u901F\u5EA6\u5DE5\u4F5C\uFF0C\u4F46\u62E5\u6709\u6700\u4F4E\u7EA7\u522B\u7684\u5B58\u50A8\u7A7A\u95F4\u5E76\u4E14\u4EF7\u683C\u5374\u76F8\u5F53\u4F4E\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/07/00e40e65b1134.png" alt="image.png" title="image.png"><h2 id="replacement-policy" tabindex="-1"><a class="header-anchor" href="#replacement-policy" aria-hidden="true">#</a> Replacement Policy</h2><h3 id="lru-replacement" tabindex="-1"><a class="header-anchor" href="#lru-replacement" aria-hidden="true">#</a> LRU Replacement</h3><p>\u6700\u8FD1\u6700\u5C11\u4F7F\u7528</p><p>In the Least Recently Used (LRU) page replacement policy, the page that is used least recently will be replaced. Implementation: Add a register to every page frame - contain the last time that the page in that frame was accessed. Use a &quot;logical clock&quot; that advance by 1 tick each time a memory reference is made.\u300C\u5728\u6700\u8FD1\u6700\u5C11\u4F7F\u7528\uFF08LRU\uFF09\u9875\u9762\u66FF\u6362\u7B56\u7565\u4E2D\uFF0C\u6700\u8FD1\u6700\u5C11\u4F7F\u7528\u7684\u9875\u9762\u5C06\u88AB\u66FF\u6362\u3002\u5B9E\u73B0\uFF1A\u5728\u6BCF\u4E2A\u9875\u9762\u6846\u67B6\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u5BC4\u5B58\u5668-\u5305\u542B\u6700\u540E\u4E00\u6B21\u8BBF\u95EE\u8BE5\u6846\u67B6\u4E2D\u7684\u9875\u9762\u7684\u65F6\u95F4\u3002\u6BCF\u6B21\u4F7F\u7528\u5185\u5B58\u5F15\u7528\u65F6\uFF0C\u8BF7\u4F7F\u7528\u63D0\u524D1\u6EF4\u7B54\u7684\u201C\u903B\u8F91\u65F6\u949F\u201D\u3002\u300D</p><h3 id="fifo-replacement" tabindex="-1"><a class="header-anchor" href="#fifo-replacement" aria-hidden="true">#</a> FIFO Replacement</h3><p>\u5148\u8FDB\u5148\u51FA\uFF08FIFO\uFF09</p><p>The cache is managed with the FIFO replacement policy: when all the 3 cache blocks are used up and a new data block will be loaded into cache, one data block out of the 3 blocks will be replaced out of the cache. The data block that was earliest loaded into the cache will be replaced. We assume that at the very beginning, the cache is empty.\u300C\u9AD8\u901F\u7F13\u5B58\u901A\u8FC7FIFO\u66FF\u6362\u7B56\u7565\u8FDB\u884C\u7BA1\u7406\uFF1A\u5F533\u4E2A\u9AD8\u901F\u7F13\u5B58\u5757\u5168\u90E8\u7528\u5B8C\u5E76\u4E14\u65B0\u6570\u636E\u5757\u5C06\u88AB\u52A0\u8F7D\u5230\u9AD8\u901F\u7F13\u5B58\u4E2D\u65F6\uFF0C\u8FD93\u4E2A\u5757\u4E2D\u7684\u4E00\u4E2A\u6570\u636E\u5757\u5C06\u4ECE\u9AD8\u901F\u7F13\u5B58\u4E2D\u66FF\u6362\u3002\u6700\u65E9\u52A0\u8F7D\u5230\u7F13\u5B58\u4E2D\u7684\u6570\u636E\u5757\u5C06\u88AB\u66FF\u6362\u3002\u6211\u4EEC\u5047\u8BBE\u4E00\u5F00\u59CB\u7F13\u5B58\u5C31\u4E3A\u7A7A\u3002\u300D</p><p>\u4F7F\u7528\u6B64\u7B97\u6CD5\uFF0C\u9AD8\u901F\u7F13\u5B58\u6309\u6DFB\u52A0\u5757\u7684\u987A\u5E8F\u9010\u51FA\u8BE5\u5757\uFF0C\u800C\u65E0\u9700\u8003\u8651\u5B83\u4EEC\u4E4B\u524D\u88AB\u8BBF\u95EE\u8FC7\u7684\u9891\u7387\u6216\u6B21\u6570\u3002</p><h3 id="lifo-replacement" tabindex="-1"><a class="header-anchor" href="#lifo-replacement" aria-hidden="true">#</a> LIFO Replacement</h3><p>\u540E\u8FDB\u5148\u51FA\uFF08LIFO\uFF09</p><p>\u4F7F\u7528\u6B64\u7B97\u6CD5\uFF0C\u4E0EFIFO\u961F\u5217\u7684\u884C\u4E3A\u6070\u597D\u76F8\u53CD\u3002\u9AD8\u901F\u7F13\u5B58\u9010\u51FA\u6700\u5148\u6DFB\u52A0\u7684\u5757\uFF0C\u800C\u4E0E\u4E4B\u524D\u8BBF\u95EE\u5B83\u7684\u9891\u7387\u6216\u6B21\u6570\u65E0\u5173\u3002</p><!--]-->`);
+}
+const _sfc_setup$P = _sfc_main$P.setup;
+_sfc_main$P.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory.html.vue");
+  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+};
+var IntroductionToComputerMemoryAndCacheMemory_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$P]]);
+var IntroductionToComputerMemoryAndCacheMemory_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": IntroductionToComputerMemoryAndCacheMemory_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$O = {};
+function _sfc_ssrRender$O(_ctx, _push, _parent, _attrs) {
+  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
+    id: "memory",
+    tabindex: "-1"
+  }, _attrs))}><a class="header-anchor" href="#memory" aria-hidden="true">#</a> Memory</h1>`);
+}
+const _sfc_setup$O = _sfc_main$O.setup;
+_sfc_main$O.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/co/Memory/index.html.vue");
+  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
+};
+var index_html$1I = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$O]]);
+var index_html$1J = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": index_html$1I
+}, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$N = {};
 function _sfc_ssrRender$N(_ctx, _push, _parent, _attrs) {
+  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
+    id: "getting-started-guide",
+    tabindex: "-1"
+  }, _attrs))}><a class="header-anchor" href="#getting-started-guide" aria-hidden="true">#</a> Getting Started Guide</h1>`);
+}
+const _sfc_setup$N = _sfc_main$N.setup;
+_sfc_main$N.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/index.html.vue");
+  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
+};
+var index_html$1G = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$N]]);
+var index_html$1H = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": index_html$1G
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$M = {};
+function _sfc_ssrRender$M(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E81" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E81" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E81</h1><h2 id="c-\u7B80\u4ECB" tabindex="-1"><a class="header-anchor" href="#c-\u7B80\u4ECB" aria-hidden="true">#</a> C++ \u7B80\u4ECB</h2><h3 id="\u7279\u70B9" tabindex="-1"><a class="header-anchor" href="#\u7279\u70B9" aria-hidden="true">#</a> <strong>\u7279\u70B9</strong></h3><ul><li>\u4E00\u95E8\u9AD8\u7EA7\u8BED\u8A00</li><li>\u5B66\u4E60\u4F7F\u7528C ++\u5B66\u4E60\u7ED3\u6784\u5316\u7F16\u7A0B <ul><li>\u4E00\u79CD\u7EAA\u5F8B\u6027\u7684\u7F16\u5199\u7A0B\u5E8F\u7684\u65B9\u6CD5</li></ul></li><li>\u81EA\u4E0A\u800C\u4E0B\u7684\u8BBE\u8BA1\u6A21\u578B <ul><li>\u5927\u95EE\u9898\u5206\u4E3A\u5C0F\u95EE\u9898</li><li>\u6BCF\u4E2A\u5C0F\u95EE\u9898\u90FD\u6309\u4EE3\u7801\u6BB5/\u529F\u80FD\u5206\u5F00\u89E3\u51B3</li><li>\u5C06\u8F83\u5C0F\u7684\u95EE\u9898\u7684\u89E3\u51B3\u65B9\u6848\u96C6\u6210\u5728\u4E00\u8D77\uFF0C\u4EE5\u5F62\u6210\u6700\u7EC8\u7A0B\u5E8F</li><li>\u7A0B\u5E8F\u5458\u66F4\u597D\u5730\u7406\u89E3\u5E76\u4E14\u6613\u4E8E\u7EF4\u62A4</li></ul></li><li>C\u7684\u6269\u5C55 <ul><li>1980\u5E74\u4EE3\u521D\u671F\uFF1ABjarne Stroustrup\uFF08\u8D1D\u5C14\u5B9E\u9A8C\u5BA4\uFF09</li><li>\u201C\u52A0\u5FEB\u53D1\u5C55\u201D C</li><li>\u63D0\u4F9B\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u7684\u529F\u80FD\uFF08OOP\uFF09</li></ul></li><li>\u6DF7\u5408\u8BED\u8A00 <ul><li>C\u98CE\u683C</li><li>\u9762\u5411\u5BF9\u8C61\u7684\u98CE\u683C</li><li>\u4E24\u8005\u6DF7\u5408</li></ul></li></ul><h3 id="\u5F00\u53D1\u73AF\u5883" tabindex="-1"><a class="header-anchor" href="#\u5F00\u53D1\u73AF\u5883" aria-hidden="true">#</a> \u5F00\u53D1\u73AF\u5883</h3><p>\u4E09\u4E2A\u4E3B\u8981\u7EC4\u6210\u90E8\u5206 1.\u7A0B\u5E8F\u5F00\u53D1\u73AF\u5883 2.\u8BED\u8A00\uFF08\u8BED\u6CD5\uFF09 3.C ++\u6807\u51C6\u5E93</p><p>\u5B89\u88C5\u8BF7\u89C1\uFF1Ahttps://www.hanjiaming.com.cn/archives/1892</p><p>\u5373 \u7528\u4E8E\u7F16\u5199\u7A0B\u5E8F\u7684\u7B26\u53F7\u548C\u89C4\u5219\u7CFB\u7EDF</p><p><strong>\u5F62\u6210C ++\u7A0B\u5E8F\u7684\u516D\u4E2A\u9636\u6BB5</strong></p><ol><li>\u7F16\u8F91\uFF08edit\uFF09 <ul><li>\u7A0B\u5E8F\u662F\u5728\u57FA\u4E8E\u6587\u672C\u7684\u7F16\u8F91\u5668\u4E2D\u521B\u5EFA\u7684\uFF0C\u5E76\u5B58\u50A8\u5728\u78C1\u76D8\u4E0A</li></ul></li><li>\u9884\u5904\u7406\uFF08preprocess\uFF09 <ul><li>\u540D\u4E3A\u9884\u5904\u7406\u7A0B\u5E8F\u7684\u7A0B\u5E8F\u5904\u7406\u4EE3\u7801</li><li>\u4F8B\u5982\uFF0C\u5C06\u67D0\u4E9B\u6807\u8BB0\u66FF\u6362\u4E3A\u5B57\u7B26\u4E32\uFF08\u6587\u672C\uFF09\u6216\u6570\u503C</li></ul></li><li>\u7F16\u8BD1\uFF08compile\uFF09 <ul><li>\u7F16\u8BD1\u5668\u521B\u5EFA\u76EE\u6807\u4EE3\u7801\u5E76\u5C06\u5176\u5B58\u50A8\u5728\u78C1\u76D8\u4E0A</li></ul></li><li>\u94FE\u63A5\uFF08link\uFF09 <ul><li>\u7ED3\u5408\u5E93/\u5176\u4ED6\u529F\u80FD\u5F62\u6210\u53EF\u6267\u884C\u7A0B\u5E8F</li></ul></li></ol><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033747641.png" alt="img" loading="lazy"><strong>\u8FD0\u884C C++ \u5F62\u6210\u7684\u53EF\u6267\u884C\u6587\u4EF6</strong></p><ol><li>\u52A0\u8F7D\uFF08load\uFF09 <ul><li>\u52A0\u8F7D\u7A0B\u5E8F\u5C06\u7A0B\u5E8F\u653E\u5165\u5185\u5B58</li></ul></li><li>\u6267\u884C\uFF08execute\uFF09 <ul><li>CPU\u63A5\u53D7\u5E76\u6267\u884C\u6BCF\u6761\u6307\u4EE4\uFF0C\u53EF\u80FD\u4F1A\u5B58\u50A8\u65B0\u7684\u6570\u636E\u503C</li></ul></li></ol><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033801808.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033712317.png" alt="img" loading="lazy"></p><h2 id="\u9884\u5907\u77E5\u8BC6" tabindex="-1"><a class="header-anchor" href="#\u9884\u5907\u77E5\u8BC6" aria-hidden="true">#</a> \u9884\u5907\u77E5\u8BC6</h2><h3 id="\u8F6C\u4E49\u7B26" tabindex="-1"><a class="header-anchor" href="#\u8F6C\u4E49\u7B26" aria-hidden="true">#</a> \u8F6C\u4E49\u7B26</h3><p>\u6240\u6709\u7684ASCII\u7801\u90FD\u53EF\u4EE5\u7528\u201C\\\u201D\u52A0\u6570\u5B57\uFF08\u4E00\u822C\u662F8\u8FDB\u5236\u6570\u5B57\uFF09\u6765\u8868\u793A\u3002\u800CC\u4E2D\u5B9A\u4E49\u4E86\u4E00\u4E9B\u5B57\u6BCD\u524D\u52A0\\\u6765\u8868\u793A\u5E38\u89C1\u7684\u90A3\u4E9B\u4E0D\u80FD\u663E\u793A\u7684ASCII\u5B57\u7B26\uFF0C\u5982\\0,\\t,\\n\u7B49\uFF0C\u5C31\u79F0\u4E3A\u8F6C\u4E49\u5B57\u7B26\uFF0C\u56E0\u4E3A\u540E\u9762\u7684\u5B57\u7B26\uFF0C\u90FD\u4E0D\u662F\u5B83\u672C\u6765\u7684ASCII\u5B57\u7B26\u610F\u601D\u4E86\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203040950670.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203040621658.png" alt="img" loading="lazy"></p><h2 id="\u6CE8\u610F\u4E8B\u9879" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u610F\u4E8B\u9879" aria-hidden="true">#</a> \u6CE8\u610F\u4E8B\u9879</h2><ul><li>\u6587\u4EF6\u5355\u4F4D\u662FProject\uFF08\u5DE5\u7A0B\uFF09\u3002\u4E00\u4E2A\u5DE5\u7A0B\u5BF9\u5E94\u4E00\u4E2A\u6587\u4EF6\u5939\u3002\u4E00\u4E2A\u5DE5\u7A0B\u4E2D\u6709\u5F88\u591Acpp\u6216h\u6587\u4EF6\u3002</li><li>\u6587\u4EF6\u540D\u79F0\u548C\u8DEF\u5F84\u4E0D\u80FD\u5305\u542B\u4E2D\u6587\u3002</li><li><strong>\u5199\u4EE3\u7801\u65F6,\u52A1\u5FC5\u5207\u6362\u5230\u82F1\u6587\u8F93\u5165\u6CD5\u3002</strong></li><li>\u4EE3\u7801\u4E2D\u4E0D\u80FD\u5305\u542B\u4E2D\u6587\u548C\u4E2D\u6587\u7B26\u53F7</li></ul><h2 id="\u7B2C\u4E00\u4E2Ac-\u7A0B\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u7B2C\u4E00\u4E2Ac-\u7A0B\u5E8F" aria-hidden="true">#</a> \u7B2C\u4E00\u4E2AC++\u7A0B\u5E8F</h2><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">// Your first program in C++</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+using namespace std<span class="token punctuation">;</span>
+
+<span class="token comment">// function main begins program execution</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> Welcome to C<span class="token operator">++</span><span class="token operator">!</span>\\n<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// indicate that program ended successfully</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>\u8FD0\u884C\u7ED3\u679C\uFF1A<code>Welcome to C++!</code></p><h3 id="\u4EE3\u7801\u89E3\u91CA" tabindex="-1"><a class="header-anchor" href="#\u4EE3\u7801\u89E3\u91CA" aria-hidden="true">#</a> \u4EE3\u7801\u89E3\u91CA</h3><ul><li><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>// Your first program in C++
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul><li>Comments start with: // <ul><li>Comments are ignored by compiler</li></ul></li><li>Traditional comments (in C):<code>/* \u2026 */</code></li><li>Improve program readability</li></ul></li></ul><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">/* This is a traditional
+comment. It can be 
+split over multiple lines */</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li><p><code>#include &lt;iostreams&gt;</code></p></li><li><p>Preprocessing directive</p><ul><li><p>Tells the preprocessor to perform a specific action</p></li><li><p>Format: a line begins with <code>#</code></p></li><li><p>Where to put a directive?</p><ul><li><p>Anywhere in a source file, with effect from that point onwards</p></li><li><p><code>#include &lt;filename&gt;</code> means:</p></li></ul></li></ul></li><li><p>To add the contents of the library file \u2013 filename to the source program during preprocessing</p></li><li><p><code>&lt; &gt;</code> means to find the library file in the default location</p></li><li><p>Blank lines, spaces, and tabs are white-space characters</p><ul><li>Ignored by compiler</li></ul></li><li><p><code>using namespace std;</code></p><ul><li>Namespace</li><li>a set of names in which all names are unique</li><li>to prevent ambiguity(\u53CC\u5173) of names <ul><li>E.g., cout is defined in the namespace of std in iostream</li></ul></li><li>if this line is not written explicitly, we can write like this <ul><li><code>std::cout</code></li></ul></li></ul></li><li><p>int main() {</p><ul><li>C++ programs begin executing at <code>main</code></li><li>Parenthesis <code>()</code>indicates <code>main</code> is a function</li><li>C++ programs contain one or more functions</li></ul></li><li><p>Functions can perform tasks and return information</p><ul><li><code>int</code> means <code>main</code> returns an integer when the <code>main</code> function finishes execution(more on this later)</li></ul></li><li><p>Left brace <code>{</code>begins body of function declaration. Ended by right brace <code>}</code></p></li><li><p><code>cout &lt;&lt; Welcome to C++!\\n;</code></p><ul><li><p>A program statement</p></li><li><p>instructs the computer to perform a task</p></li><li><p>must be ended with semicolon <code>;</code></p></li><li><p>Standard output stream object</p><ul><li>cout - Connected to screen</li><li><code>&lt;&lt;</code><ul><li>Stream insertion operator</li></ul></li></ul></li><li><p>Value on the right-hand side (right operand) inserted into output stream</p></li><li><p>Escape characters</p></li></ul></li><li><p><code>\\</code> Indicates \u201Cspecial\u201D character output</p></li></ul><p>\u8BF7\u8BB0\u4F4F\uFF0C\u53F3\u8FDB\u5DE6\u51FA\u3002</p><ul><li><p>Input/output</p><ul><li>cout <ul><li>Standard output stream to \u201CThe computer screen\u201D</li></ul></li><li>cin <ul><li>Standard input stream</li><li>Normally from the keyboard</li></ul></li></ul></li><li><p><code>return 0; // indicate that program ended successfully</code></p><ul><li>End of the main function</li><li>Return an integer</li></ul></li><li><p><code>0</code> : indicates that program ended successfully</p></li><li><p><code>}</code> : A right brace</p></li><li><p>Signifies the end of the <code>main</code> function</p></li></ul><h2 id="introduction-to-variables" tabindex="-1"><a class="header-anchor" href="#introduction-to-variables" aria-hidden="true">#</a> Introduction to Variables</h2><ul><li>Remember one aim of programming is to perform mathematical calculations</li><li>Some calculations may require intermediate steps and therefore there are intermediate values for subsequent calculations</li><li>How do we store these intermediate values in programming? <ul><li>Variables</li></ul></li></ul><h3 id="variables" tabindex="-1"><a class="header-anchor" href="#variables" aria-hidden="true">#</a> Variables</h3><ul><li><p>Areas in memory where values can be stored</p><ul><li>Informal thought: A box that can be stored a value</li></ul></li><li><p>Common data types</p><ul><li>int \u2013 integer numbers (e.g., -3, 0, 8)</li><li>char \u2013 character or symbol (e.g., H, d, ?, %)</li></ul></li><li><p>double \u2013 floating point numbers (e.g., 3.14, 1.618)</p><ul><li>Declare variables with name and data type before use (Imagine as creating a box before putting something into it)</li></ul></li><li><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> integer1<span class="token punctuation">;</span> <span class="token keyword">int</span> integer2<span class="token punctuation">;</span> <span class="token keyword">int</span> sum<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul><li>Can declare several variables of the same type in one declaration Comma-separated list</li></ul></li><li><p><code>int integer1, integer2, sum;</code></p></li></ul><h3 id="variable-names" tabindex="-1"><a class="header-anchor" href="#variable-names" aria-hidden="true">#</a> Variable names</h3><p>Variable names ( also known as identifier\u300C\u6807\u8BC6\u7B26\u300D)</p><ul><li><p>Rules of naming a variable</p><ul><li>Series of characters</li></ul></li><li><p>letters, digits, underscores ( _ )</p></li><li><p>No space in-between</p><ul><li>E.g., <code>thickness_of_wall, baseArea, flat_widthRatio</code> are ok</li></ul></li><li><p>Cannot begin with digit</p><ul><li><code>7button</code> is invalid</li></ul></li><li><p>Case sensitive</p><ul><li>a1 and A1 are two different variables</li><li>As a norm, variable names begin with lowercase letters</li></ul></li></ul><p><strong>Cannot be used as identifiers (variable names)</strong> ![CleanShot 2021-02-19 at 21.43.19@2x](/Users/hanjiaming/Library/Application Support/CleanShot/media/media_34WboypUoO/CleanShot 2021-02-19 at 21.43.19@2x.png)</p><h2 id="common-operators" tabindex="-1"><a class="header-anchor" href="#common-operators" aria-hidden="true">#</a> common operators</h2><ul><li><p><code>&gt;&gt;</code> stream extraction operator</p><ul><li>Used with cin <ul><li>Also in the namespace std</li></ul></li></ul></li><li><p>Waits for user to input value, then press Enter key</p><ul><li>Stores value in variable to right of operator</li></ul></li><li><p>E.g., <code>cin &gt;&gt; radius</code></p></li><li><p><code>=</code>(assignment operator)</p><ul><li>Assigns value to variable (from right to left)</li><li>Binary operator (two operands)</li></ul></li><li><p>E.g.,</p></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203043204589.png" alt="img" loading="lazy"></p><p><strong>\u793A\u4F8B\u4EE3\u7801</strong></p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">// A program for summing two input number.</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+
+using namespace std<span class="token punctuation">;</span>
+
+<span class="token comment">// function main begins program execution</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">int</span> integer1<span class="token punctuation">;</span>    
+    <span class="token comment">// </span>
+first number to be input by user
+    <span class="token keyword">int</span> integer2<span class="token punctuation">;</span>
+    <span class="token comment">// second number to be input by user</span>
+    <span class="token keyword">int</span>    sum<span class="token punctuation">;</span>
+    <span class="token comment">// variable in which sum will be stored</span>
+
+    cout <span class="token operator">&lt;&lt;</span> Enter first integer\\n<span class="token punctuation">;</span>        
+    cin <span class="token operator">&gt;&gt;</span> integer1<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> Enter second integer\\n<span class="token punctuation">;</span> 
+    cin <span class="token operator">&gt;&gt;</span> integer2<span class="token punctuation">;</span>
+    sum <span class="token operator">=</span> integer1 <span class="token operator">+</span> integer2<span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> Sum is  <span class="token operator">&lt;&lt;</span> sum <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
+
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>    
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><p>\u8FD0\u884C\u7ED3\u679C</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Enter first integer
+45
+Enter second integer
+72
+
+Sum is 117
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="other-arithmetic-operators" tabindex="-1"><a class="header-anchor" href="#other-arithmetic-operators" aria-hidden="true">#</a> Other Arithmetic Operators</h3><ul><li><ul><li>Multiplication</li></ul></li><li>/Division <ul><li>Integer division truncates the decimal value <ul><li>7 / 5 evaluates to 1</li></ul></li></ul></li><li>%\uFF1AModulus operator returns remainder <ul><li>7 % 5 evaluates to 2</li></ul></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203054424421.png" alt="img" loading="lazy"></p><h2 id="variable-and-memory" tabindex="-1"><a class="header-anchor" href="#variable-and-memory" aria-hidden="true">#</a> Variable and Memory</h2><ul><li>Variable names <ul><li>Correspond to actual locations in computer&#39;s memory</li><li>Every variable has <strong>name, type, size and value</strong></li></ul></li><li>When new value placed into variable, overwrites previous value</li><li>Reading variables from memory non-destructive</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203052751555.png" alt="img" loading="lazy"></p><p>integer1, integer2 and sum are created in the program and memory spaces are allocated to them (even they are not used yet)</p><p>In most C++ environment, variables are not initialized to default values (e.g., 0, NULL)</p><p>Try\uFF1A <code>int integer1;cout &lt;&lt; integer1 &lt;&lt; endl;</code></p><p>outcome\uFF1A\u4E00\u4E2A\u957F9\u4F4D\u7684\u968F\u673A\u6570</p><p>E.g., number1 + number2 * (number3 % number4 - number5)</p><p>How to evaluate above?</p><ul><li>Rules: Operators in parentheses evaluated first</li><li>Nested/embedded parentheses: Operators in innermost pair first Multiplication, division, modulus applied next</li><li>Operators applied from left to right</li><li>Addition, subtraction applied last</li><li>Operators applied from left to right</li></ul><p>\u6240\u4EE5\uFF0C\u6211\u4EEC\u5DF2\u7ECF\u4E86\u89E3\u5982\u4F55\u7F16\u5199\u4E00\u4E2A\u7B80\u5355\u7684C++\u7A0B\u5E8F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203054807266.png" alt="img" loading="lazy"></p><h2 id="pseudocode-\u4F2A\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#pseudocode-\u4F2A\u4EE3\u7801" aria-hidden="true">#</a> Pseudocode(\u4F2A\u4EE3\u7801\uFF09</h2><p>Artificial, informal language used to develop algorithms</p><p>\u6211\u4EEC\u5199\u4EE3\u7801\u4E4B\u524D\u8981\u5148\u5199\u4F2A\u4EE3\u7801\uFF0C\u4E4B\u540E\u6211\u4EEC\u628A\u4F2A\u4EE3\u7801\u8F6C\u5199\u4E3AC++\u4EE3\u7801\u3002\u8FD9\u5BF9\u6211\u4EEC\u5199\u4EE3\u7801\u6709\u5E2E\u52A9\u3002</p><ul><li>Similar to everyday English</li><li>Not executed on computers <ul><li>Used to think out the logic of program before coding <ul><li>Easy to convert into C++ syntax</li></ul></li><li>Only executable statements <ul><li>No need to declare variables</li></ul></li></ul></li><li>More or less like a real computer program: assignment statements, arithmetic expressions, control structures (if, if/else, while, for, etc.), and so on</li><li>no strict rules for the syntax</li><li>OK as long as it is clear, readable and understandable</li><li>Enables you to concentrate on the algorithm instead of details of syntax</li></ul><p>\u4F8B\u5982\uFF0C\u7F16\u5199\u4E00\u4E2A\u63A5\u53D7\u4E24\u4E2A\u6574\u6570\u7684\u7A0B\u5E8F\uFF0C\u8BA1\u7B97\u5E76\u663E\u793A\u603B\u548C\u3002</p><ul><li><code>Prompt the user to input integer1</code></li><li><code>Prompt the user to input integer2</code></li><li><code>Calculate sum = integer1 + integer2</code></li><li><code>Print sum to the screen</code></li></ul><p>\u4F8B\u5982\uFF1A\u7F16\u5199\u7A0B\u5E8F\u4EE5\u8BA1\u7B97\u4E09\u4E2A\u5B66\u751F\u7684\u8003\u8BD5\u5E73\u5747\u5206\u6570</p><ul><li><code>Prompt the user to input score1</code></li><li><code>Prompt the user to input score2</code></li><li><code>Prompt the user to input score3</code></li><li><code>Calculate sum = score1 + score2 + score3</code></li><li><code>Calculate average = sum / 3</code></li><li><code>Print average to the screen</code></li></ul><h3 id="\u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7" tabindex="-1"><a class="header-anchor" href="#\u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7" aria-hidden="true">#</a> \u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7</h3><ul><li>\u203A Always think about the sequence\uFF1AInput \u21E8 Processing \u21E8 Output</li><li>Input <ul><li>What data does the user need to provide to the program?</li><li>E.g., an integer value? student\u2019s scores?</li></ul></li><li>Processing <ul><li>What does the program calculate?</li><li>E.g., calculating the sum? calculating the average?</li></ul></li><li>Output <ul><li>What does the program display to the user?</li><li>E.g., calculation result? sum? average?</li></ul></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081951815.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203082008543.png" alt="img" loading="lazy"></p><h2 id="introduction-to-control-structures" tabindex="-1"><a class="header-anchor" href="#introduction-to-control-structures" aria-hidden="true">#</a> Introduction to Control Structures</h2><p>Introduction to Control Structures\uFF08\u63A7\u5236\u7ED3\u6784\u4ECB\u7ECD\uFF09</p><ul><li>By default, statements in a program are executed in sequential order\uFF08\u6309\u987A\u5E8F\uFF09 <ul><li>All programs studied so far behave in this way</li></ul></li><li>C++ provides control structures to achieve transfer of control <ul><li>Next statement executed not necessarily next one in sequence</li></ul></li><li>2 kinds of control structures <ul><li>Selection structures\uFF1A<code>if, if/else, switch</code></li></ul></li><li>Repetition structures\uFF1A<code>while, do-while, for</code></li><li>Indenting makes programs/pseudocode easier to read <ul><li>Note: C++ ignores whitespace characters (tabs, spaces, etc.)</li></ul></li></ul><p>Let&#39;s see an example.</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+using namespace std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">int</span> x<span class="token punctuation">,</span> y<span class="token punctuation">;</span>
+  
+	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Please enter x and y: &quot;</span><span class="token punctuation">;</span>
+	cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
+
+ 	<span class="token comment">// if selection structure</span>
+  
+<span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x is greater.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+  
+<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x is smaller.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+  
+<span class="token keyword">else</span> <span class="token punctuation">{</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x and y are equal.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Please enter x and y: 10 20
+x is smaller.
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="if-selection-structure" tabindex="-1"><a class="header-anchor" href="#if-selection-structure" aria-hidden="true">#</a> if Selection Structure</h3><ul><li><p>Choose among alternative courses of action.</p></li><li><p>Pseudocode example</p><ul><li><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>If student\u2019s grade is greater than or equal to 60
+Print \u201CPassed\u201D
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>Translate to C++\uFF1A<code>if (grade &gt;= 60) cout &lt;&lt; Passed;</code></li><li>If the condition is true\uFF1APrint statement executed, program continues to next statement</li><li>If the condition is false\uFF1APrint statement ignored, program continues</li></ul></li></ul></li><li><p>Indenting makes programs/pseudocode easier to read</p><ul><li>Note: C++ ignores whitespace characters (tabs, spaces, etc.)</li></ul></li><li><p>General Structure</p><ul><li><code>if () statement</code></li></ul></li><li><p>A condition is one that, after evaluation, it must be either <em>true or false</em></p><ul><li>E.g., x&lt;=y (ls x less than or equal to y? \uFF09</li><li>E.g., m!=n (is m not equal to n?)</li></ul></li></ul><h3 id="equality-and-relational-operators" tabindex="-1"><a class="header-anchor" href="#equality-and-relational-operators" aria-hidden="true">#</a> Equality and Relational Operators</h3><ul><li>Used to compare the relation of two data items <ul><li>Result in either <strong>true or false</strong></li></ul></li><li>Equality operators<code>==, !=</code></li><li>Relational operators <code>&lt;, &gt;=, &lt;=</code></li></ul><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/e0669e83bdb87.png" alt="CleanShot 2021-02-19 at 21.51.28@2x.png" title="CleanShot 2021-02-19 at 21.51.28@2x.png"><h3 id="if-else-selection-structure" tabindex="-1"><a class="header-anchor" href="#if-else-selection-structure" aria-hidden="true">#</a> if/else Selection Structure</h3><p>If grade is 54, what will the output be?</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Passed&quot;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>grade &gt;= 60 will be evaluated to false and Passed will not be printed.</p><p>Different actions if conditions <strong>true</strong> or <strong>false</strong></p><p>Pseudocode</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if student\u2019s grade is greater than or equal to 60
+Print \u201CPassed\u201D
+else
+Print \u201CFailed\u201D
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>C++ code</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Passed&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Failed&quot;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="general-structure" tabindex="-1"><a class="header-anchor" href="#general-structure" aria-hidden="true">#</a> General Structure</h4><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if (&lt;condition&gt;)
+	statement
+else
+	statement
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>No condition after the \u201Celse\u201D keyword, \u201Celse\u201D means \u201Cotherwise\u201D.</p><h3 id="nested-if-else-structures" tabindex="-1"><a class="header-anchor" href="#nested-if-else-structures" aria-hidden="true">#</a> Nested if/else Structures</h3><p>In most scenarios, there are more than two possible actions to be performed.</p><p>By extending the if/else structures, another if/else structure is included in the \u201Celse\u201D segment.</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if (&lt;condition&gt;)
+	statement for the 1st case
+else
+	if (&lt;condition&gt;)
+		statement for the 2nd case
+	else 
+		statement otherwise
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>The following example illustrates how to determine the grade of a given numeric score:</p><p>Pseudocode</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if student\u2019s grade is greater than or equal to 90
+	Print \u201CA\u201D
+else if student\u2019s grade is greater than or equal to 80
+	Print \u201CB\u201D
+else if student\u2019s grade is greater than or equal to 70
+	Print \u201CC\u201D
+else if student\u2019s grade is greater than or equal to 60
+	Print \u201CD\u201D
+else
+	Print \u201CF\u201D
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>c++ code</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">90</span><span class="token punctuation">)</span> <span class="token comment">// 90 and above</span>
+	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;A&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token comment">// 80-89</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;B&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token comment">// 70-79</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;C&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token comment">// 60-69</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;D&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> <span class="token comment">// less than 60</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;F&quot;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>or</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">90</span><span class="token punctuation">)</span> <span class="token comment">// 90 and above</span>
+	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;A&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> 
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token comment">// 80-89</span>
+		cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;B&quot;</span><span class="token punctuation">;</span>
+	<span class="token keyword">else</span> 
+  	<span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token comment">// 70-79</span>
+			cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;C&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">else</span> 
+  		<span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token comment">// 60-69</span>
+				cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;D&quot;</span><span class="token punctuation">;</span>
+			<span class="token keyword">else</span> <span class="token comment">// less than 60</span>
+				cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;F&quot;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/eaa96fe1b7c15.png" alt="CleanShot 2021-02-19 at 22.22.50@2x.png" title="CleanShot 2021-02-19 at 22.22.50@2x.png"><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/15ce914456a66.png" alt="image.png" title="image.png"><h2 id="ternary-conditional-operator" tabindex="-1"><a class="header-anchor" href="#ternary-conditional-operator" aria-hidden="true">#</a> Ternary conditional operator</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080335222.png" alt="img" loading="lazy"></p><h2 id="assignment-operators" tabindex="-1"><a class="header-anchor" href="#assignment-operators" aria-hidden="true">#</a> Assignment Operators</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080405644.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080418125.png" alt="img" loading="lazy"></p><h2 id="logical-operators" tabindex="-1"><a class="header-anchor" href="#logical-operators" aria-hidden="true">#</a> Logical Operators</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203111833636.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203111916856.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080148423.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080159626.png" alt="img" loading="lazy"></p><h2 id="increment-and-decrement-operators" tabindex="-1"><a class="header-anchor" href="#increment-and-decrement-operators" aria-hidden="true">#</a> Increment and Decrement Operators</h2><ul><li>\u76F8\u540C\u70B9 <ul><li>\u53EF\u4EE5\u4F7F\u7528\u589E\u91CF\u8FD0\u7B97\u7B26c++\u4EE3\u66FFc + = 1</li><li>\u53EF\u4EE5\u4F7F\u7528\u51CF\u91CF\u8FD0\u7B97\u7B26c\u2013\u4EE3\u66FFc-= 1</li></ul></li><li>\u4E0D\u540C\u70B9 <ul><li>variable++ \u548C ++variable \u90FD\u53EF\u4EE5\u770B\u505A\u4E00\u4E2A\u53EF\u4EE5\u88AB\u8C03\u7528\u7684\u503C\uFF0C\u800C\u4E0D\u4EC5\u4EC5\u662F\u4E00\u4E2Ainstruction\u3002</li><li>\u4F46\u662Fvariable \u4EC5\u4EC5\u662F\u4E00\u4E2Ainstruction\uFF0C\u4E0D\u53EF\u4EE5\u76F4\u63A5\u88AB\u8C03\u7528\u3002</li></ul></li><li>\u9884\u589E\u91CF\uFF1A\u5C06\u8FD0\u7B97\u7B26\u653E\u5728\u53D8\u91CF\uFF08++ c\u6216\u2013c\uFF09\u4E4B\u524D\uFF0C\u8BE5\u53D8\u91CF\u503C\u5148\u88AB\u66F4\u6539\uFF0C\u7136\u540E\u5BF9\u6574\u4E2A\u8868\u8FBE\u5F0F\u6C42\u503C\u3002</li><li>\u540E\u9012\u589E\uFF1A\u5C06\u8FD0\u7B97\u7B26\u653E\u5728\u53D8\u91CF\uFF08c ++\u6216c\u2013\uFF09\u4E4B\u540E\u65F6\uFF0C\u5C06\u8BA1\u7B97\u6574\u4E2A\u8868\u8FBE\u5F0F\uFF0C\u7136\u540E\u66F4\u6539\u53D8\u91CF\u503C\u3002</li></ul><p>\u5728\u6211\u770B\u6765\uFF0Cc++\u8868\u793A\u540E\u8BA1\u7B97\uFF0C\u5148\u8C03\u7528\uFF1B++c\u8868\u793A\u5148\u8BA1\u7B97\uFF0C\u518D\u8C03\u7528\u3002</p><p>\u6240\u4EE5\uFF0C\u5728for \u7684\uFF08\uFF09\u4E2D\uFF0Ci++\u548C++i \u7684\u6267\u884C\u6548\u679C\u4E00\u6837\uFF0C\u8BA9i\u5728\u6267\u884C\u5B8Cfor\u7ED3\u6784\u7684\u8BED\u53E5\u540E\u589E\u52A0i\u7684\u81EA\u8EAB\u503C\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081831782.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081751134.png" alt="img" loading="lazy"></p><h2 id="switch-selection-structure" tabindex="-1"><a class="header-anchor" href="#switch-selection-structure" aria-hidden="true">#</a> Switch Selection Structure</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203112252891.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203112311757.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113320626.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113339233.png" alt="img" loading="lazy"></p><h2 id="\u8865\u5145\u8BF4\u660E" tabindex="-1"><a class="header-anchor" href="#\u8865\u5145\u8BF4\u660E" aria-hidden="true">#</a> \u8865\u5145\u8BF4\u660E</h2><h3 id="a" tabindex="-1"><a class="header-anchor" href="#a" aria-hidden="true">#</a> A</h3><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113441197.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113455574.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113640741.png" alt="img" loading="lazy"></p><h3 id="char-use-single-quotation-mark" tabindex="-1"><a class="header-anchor" href="#char-use-single-quotation-mark" aria-hidden="true">#</a> Char use single quotation mark</h3><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li><a href="https://baike.baidu.com/item/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/86397?fr=aladdin" target="_blank" rel="noopener noreferrer">https://baike.baidu.com/item/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/86397?fr=aladdin`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></li><li>COMP1011@Polyu&#39;s Teaching PowerPointhttp://c.biancheng.net/view/1360.html</li></ul><!--]-->`);
+}
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std1.html.vue");
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+};
+var cppStd1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$M]]);
+var cppStd1_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": cppStd1_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$L = {};
+function _sfc_ssrRender$L(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E82" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E82" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E82</h1><h2 id="repetition-structures" tabindex="-1"><a class="header-anchor" href="#repetition-structures" aria-hidden="true">#</a> Repetition Structures</h2><p>\u203A Suppose we want to display 1 to 100 on the screen</p><p>\u203A Tedious to write 100 <strong>cout</strong> statements (even you perform copy-and-paste)</p><p>\u203A Repetition structures help simplify the code</p><p>\u203A Action repeated while some condition remains <strong>true</strong></p><p>\u203A Three kinds of structures: <strong>while</strong>, <strong>do-while</strong> and <strong>for</strong></p><h3 id="while-repetition-structure" tabindex="-1"><a class="header-anchor" href="#while-repetition-structure" aria-hidden="true">#</a> while Repetition Structure</h3><h4 id="code-example" tabindex="-1"><a class="header-anchor" href="#code-example" aria-hidden="true">#</a> Code Example</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/74083e91e2a76.png" alt="CleanShot 2021-02-19 at 22.33.07@2x.png" title="CleanShot 2021-02-19 at 22.33.07@2x.png"><h4 id="general-format" tabindex="-1"><a class="header-anchor" href="#general-format" aria-hidden="true">#</a> General format</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/1fc1f5eb80c2e.png" alt="CleanShot 2021-02-19 at 22.35.12@2x.png" title="CleanShot 2021-02-19 at 22.35.12@2x.png"><h3 id="constructing-repetition-structures" tabindex="-1"><a class="header-anchor" href="#constructing-repetition-structures" aria-hidden="true">#</a> Constructing Repetition Structures</h3><p>Formulating Algorithms - Constructing Repetition Structures</p><p>\u4E86\u89E3for\u548Cwhile\u7684\u8BED\u6CD5\u5E76\u4E0D\u96BE\uFF0C\u4F46\u662F\u5728\u9047\u5230\u95EE\u9898\u65F6\u5982\u4F55\u4F7F\u7528\u7ED3\u6784\u6765\u8868\u8FBE\u7B97\u6CD5\u5462\uFF1F</p><ul><li>Counter-controlled repetition: Loop repeated until counter reaches certain value</li><li>Definite repetition: Number of repetitions known</li></ul><p>Example Question: \u4E00\u73ED10\u540D\u5B66\u751F\u53C2\u52A0\u4E86\u6D4B\u9A8C\u3002\u60A8\u53EF\u4EE5\u4F7F\u7528\u6B64\u6D4B\u9A8C\u7684\u5206\u6570\uFF080\u5230100\u4E4B\u95F4\u7684\u6574\u6570\uFF09\u786E\u5B9A\u6D4B\u9A8C\u7684\u5168\u73ED\u5E73\u5747\u6C34\u5E73\u3002</p><img src="https://pic.hanjiaming.com.cn/2021/02/19/48c8abdd12a59.png" alt="CleanShot 2021-02-19 at 22.38.44@2x.png" title="CleanShot 2021-02-19 at 22.38.44@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/896a80027d2d1.png" alt="CleanShot 2021-02-19 at 22.42.42@2x.png" title="CleanShot 2021-02-19 at 22.42.42@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/f680fbf206f2b.png" alt="CleanShot 2021-02-19 at 22.43.20@2x.png" title="CleanShot 2021-02-19 at 22.43.20@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/c6c3a20e4091e.png" alt="CleanShot 2021-02-19 at 22.44.03@2x.png" title="CleanShot 2021-02-19 at 22.44.03@2x.png"><h4 id="exercise" tabindex="-1"><a class="header-anchor" href="#exercise" aria-hidden="true">#</a> Exercise</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/83ac70020859f.png" alt="CleanShot 2021-02-19 at 22.44.47@2x.png" title="CleanShot 2021-02-19 at 22.44.47@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/bfa08aa20eb22.png" alt="CleanShot 2021-02-19 at 22.47.06@2x.png" title="CleanShot 2021-02-19 at 22.47.06@2x.png"><h3 id="sentinel-controlled-repetition" tabindex="-1"><a class="header-anchor" href="#sentinel-controlled-repetition" aria-hidden="true">#</a> Sentinel-Controlled Repetition</h3><p>Sentinel-Controlled Repetition Formulating Algorithms</p><img src="https://pic.hanjiaming.com.cn/2021/02/20/b6a90a46583f8.png" alt="CleanShot 2021-02-20 at 14.56.46@2x.png" title="CleanShot 2021-02-20 at 14.56.46@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/9e723eb30e166.png" alt="CleanShot 2021-02-20 at 14.58.04@2x.png" title="CleanShot 2021-02-20 at 14.58.04@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/b116008bd9fe1.png" alt="CleanShot 2021-02-20 at 14.58.24@2x.png" title="CleanShot 2021-02-20 at 14.58.24@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/56ccb094e556a.png" alt="CleanShot 2021-02-20 at 14.59.33@2x.png" title="CleanShot 2021-02-20 at 14.59.33@2x.png"><h2 id="constants" tabindex="-1"><a class="header-anchor" href="#constants" aria-hidden="true">#</a> Constants</h2><img src="https://pic.hanjiaming.com.cn/2021/02/20/6e46f66a25efe.png" alt="CleanShot 2021-02-20 at 15.00.55@2x.png" title="CleanShot 2021-02-20 at 15.00.55@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/33ba77d523891.png" alt="CleanShot 2021-02-20 at 15.01.37@2x.png" title="CleanShot 2021-02-20 at 15.01.37@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/8c4bdef639228.png" alt="CleanShot 2021-02-20 at 15.02.06@2x.png" title="CleanShot 2021-02-20 at 15.02.06@2x.png"><h2 id="nested-control-structures" tabindex="-1"><a class="header-anchor" href="#nested-control-structures" aria-hidden="true">#</a> Nested Control Structures</h2><img src="https://pic.hanjiaming.com.cn/2021/02/20/d297226625a91.png" alt="CleanShot 2021-02-20 at 15.03.19@2x.png" title="CleanShot 2021-02-20 at 15.03.19@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/76702cf47f608.png" alt="CleanShot 2021-02-20 at 15.03.25@2x.png" title="CleanShot 2021-02-20 at 15.03.25@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/cb0d21640e3bb.png" alt="CleanShot 2021-02-20 at 15.03.30@2x.png" title="CleanShot 2021-02-20 at 15.03.30@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/370dbaf1b8794.png" alt="CleanShot 2021-02-20 at 15.03.33@2x.png" title="CleanShot 2021-02-20 at 15.03.33@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/1581662659af9.png" alt="CleanShot 2021-02-20 at 15.03.46@2x.png" title="CleanShot 2021-02-20 at 15.03.46@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/2abe3ea82ba37.png" width="100%"><!--]-->`);
+}
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std2.html.vue");
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+};
+var cppStd2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$L]]);
+var cppStd2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": cppStd2_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$K = {};
+function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E83" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E83" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E83</h1><h2 id="byte-word-oriented-memory-organization" tabindex="-1"><a class="header-anchor" href="#byte-word-oriented-memory-organization" aria-hidden="true">#</a> Byte/Word-oriented memory organization</h2><h3 id="byte\u5B57\u8282" tabindex="-1"><a class="header-anchor" href="#byte\u5B57\u8282" aria-hidden="true">#</a> Byte\u5B57\u8282</h3><ul><li>\u7A0B\u5E8F\u6309\u5730\u5740\u5F15\u7528\u6570\u636E <ul><li>\u4ECE\u6982\u5FF5\u4E0A\u8BB2\uFF0C\u6211\u4EEC\u5C06\u5176\u89C6\u4E3A\u975E\u5E38\u5927\u7684\u5B57\u8282\u6570\u7EC4</li><li>\u5730\u5740\u5C31\u50CF\u662F\u8BE5\u6570\u7EC4\u7684\u7D22\u5F15</li><li>\u5E76\u4E14\uFF0C\u4E00\u4E2A\u6307\u9488\u53D8\u91CF\u5B58\u50A8\u4E00\u4E2A\u5730\u5740</li></ul></li></ul><p>\u5B58\u50A8\u5668\u4E2D\u7684\u57FA\u672C\u201C\u5355\u4F4D\uFF08units\uFF09\u201D\u662F\u5B57\u8282byte\uFF088 \u4F4D\u300Cbits\u6BD4\u7279\u300D\uFF09</p><ul><li>bit\u6BD4\u7279\u503C \u53EF\u4E3A0\u62161</li><li>\u5B57\u8282\u503C \u53EF\u4E3A\u4E00\u4E2A\u5B57\u8282</li><li>8\u6BD4\u7279bit = 1\u5B57\u8282byte\uFF0C\u662F\u56E0\u4E3A8\u4E2Abit\u53EF\u4EE5\u8868\u793A\u4E00\u4E2Abyte</li></ul><h3 id="word\u5B57" tabindex="-1"><a class="header-anchor" href="#word\u5B57" aria-hidden="true">#</a> Word\u5B57</h3><ul><li><p>Word size: understood as the number of bits to represent addresses</p></li><li><p>Word size determines the <em>addressable memory range</em>\uFF08\u53EF\u5BFB\u5740\u7684\u5185\u5B58\u8303\u56F4\uFF09</p><ul><li>32-bit, can address 4GB address space</li><li>64-bit, can address 264 bytes, \u2248 18.4 X 1018 bytes \u2248 16 million 1TB Hard Disk</li></ul></li><li><p>\u5185\u5B58\u901A\u5E38\u4EE5\u8FDE\u7EED\u5B57\u8282\uFF08\u4E00\u7EC4\u5B57\u8282\uFF09\u8FDB\u884C\u8BBF\u95EE</p></li><li><p>one byte = 8 bits</p></li><li><p>one word = 4 bytes = 32 bits</p></li><li><p>double word = 8 bytes = 64 bits</p></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204163743709.png" alt="" loading="lazy"></p><h3 id="bit\u6BD4\u7279" tabindex="-1"><a class="header-anchor" href="#bit\u6BD4\u7279" aria-hidden="true">#</a> Bit\u6BD4\u7279</h3><p>32\u4F4D=4\u5B57\u8282\uFF0C\u53EF\u8868\u793A4^16 = 2 ^32\u4E2A\u4E0D\u540C\u7684\u5730\u5740 \u3002\u6545\u5730\u5740\u662F32\u4F4D\u957F\u3002 \u6240\u4EE532\u4F4D\u5904\u7406\u5668\u4E5F\u4EE3\u8868\u6BCF\u4E2A\u5730\u5740\u957F\u5EA6\u4E3A32\u6BD4\u7279\uFF0C64\u4F4D\u5904\u7406\u5668\u4E5F\u4EE3\u8868\u6BCF\u4E2A\u5730\u5740\u957F\u5EA6\u4E3A64\u6BD4\u7279\u3002\u7531\u6B64\u63A8\u65AD32bit\u5904\u7406\u5668\u6700\u5927\u652F\u6301 2^32byte = 4GByte\u5185\u5B58\uFF0C64\u4F4D\u5904\u7406\u5668\u6700\u5927\u652F\u6301 2^64 = 2147483648GByte\u5185\u5B58\u3002</p><p>\u4EE5\u4E0B\u4E3A32\u4F4D\u53EF\u5BFB\u5740\u5185\u5B58\u56FE</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210202091158498.png" alt="" loading="lazy"></p><p>\u8FD9\u91CC\u600E\u4E48\u7406\u89E3\u5462\uFF1F\u7B80\u5355\u7684\u8BF4\uFF0C\u5185\u5B58\u7684\u57FA\u672C\u6784\u6210\u5355\u4F4D\u4E3Abyte\u3002\u65E9\u4E9B\u65F6\u5019\uFF0C\u53D7Bus\u4F20\u8F93\u548CCPU\u9650\u5236\uFF0C\u5904\u7406\u4F4D\u6570\u4E3A32bit\uFF0C\u800C32bit\u957F\u65E2\u8981\u53EF\u4EE5\u7D22\u5F15\u5230\u6BCF\u4E2A\u5730\u5740\uFF0C\u8FD9\u9650\u5B9A\u4E86\u5185\u5B58\u7684\u5730\u5740\u6570\u91CF\uFF0C\u6240\u4EE5\uFF1B\u53C8\u8981\u80FD\u653E\u4E0B\u6BCF\u4E2Aword\uFF0C\u6240\u4EE5\u6BCF\u4E2A32bit\u9650\u5B9A\u4E86one word = 4 bytes = 32 bits\u3002\u90A3\u4E48\u5347\u7EA7\u4E3A64\u4F4D\u540E\uFF0C\u5185\u5B58\u7D22\u5F15\u6570\u91CF\u589E\u52A0\uFF0Cdouble word = 8 bytes = 64 bits\u3002</p><p>\u6211\u4EEC\u9700\u8981\u6CE8\u610F\uFF0C\u5730\u5740\u5E76\u6CA1\u6709\u5728\u5185\u5B58\u6761\u5185\u90E8\u6807\u7740\uFF0C\u800C\u662F\u4EBA\u4E3A\u6307\u5B9A\u7684\uFF0C\u8BBF\u95EE\u5730\u5740\u7531\u5904\u7406\u5668\u63A7\u5236\u3002\u56E0\u4E3A\u5185\u5B58\u6761\u662F\u901A\u7528\u7684\uFF0C\u65E2\u53EF\u4EE5\u7528\u4E8E32bits\u5904\u7406\u5668\uFF0C\u53C8\u53EF\u4EE5\u7528\u4E8E64bits\u5904\u7406\u5668\u3002</p><h2 id="data-representations-in-c" tabindex="-1"><a class="header-anchor" href="#data-representations-in-c" aria-hidden="true">#</a> Data representations in C</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204163958956.png" alt="" loading="lazy"></p><h2 id="representing-strings" tabindex="-1"><a class="header-anchor" href="#representing-strings" aria-hidden="true">#</a> Representing strings</h2><p>\u6BCF\u4E00\u4E2AASCII\u7801\u5360\u75281\u5B57\u8282\uFF0C\u4E00\u5171\u662F2^8 = 256\u4E2A \u8BF7\u89C1\uFF1A<a href="https://tool.ip138.com/ascii_code/" target="_blank" rel="noopener noreferrer">https://tool.ip138.com/ascii_code/`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204165909178.png" alt="" loading="lazy"></p><h2 id="c-\u53D6\u6574\u89C4\u5219" tabindex="-1"><a class="header-anchor" href="#c-\u53D6\u6574\u89C4\u5219" aria-hidden="true">#</a> c++\u53D6\u6574\u89C4\u5219</h2><ul><li>int\uFF1A\u76F4\u63A5\u4E22\u5F03\u5C0F\u6570\u90E8\u5206</li><li>floor(x)\uFF1A\u8FD4\u56DE\u7684\u662F\u5C0F\u4E8E\u6216\u7B49\u4E8Ex\u7684\u6700\u5927\u6574\u6570</li><li>ceil(x)\uFF1A\u8FD4\u56DE\u7684\u662F\u5927\u4E8Ex\u7684\u6700\u5C0F\u6574\u6570</li></ul><p>\u5F15\u7528</p><ul><li>COMP1411@polyu&#39;s Teaching PowerPoint</li><li>COMP2421@polyu&#39;s Teaching PowerPoint</li></ul><!--]-->`);
+}
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std3.html.vue");
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+};
+var cppStd3_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$K]]);
+var cppStd3_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": cppStd3_html$1
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$J = {};
+function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="block-collection" tabindex="-1"><a class="header-anchor" href="#block-collection" aria-hidden="true">#</a> Block Collection</h1><h2 id="\u5B9A\u4E49-\u58F0\u660E-\u548C-\u8D4B\u503C\u53D8\u91CF" tabindex="-1"><a class="header-anchor" href="#\u5B9A\u4E49-\u58F0\u660E-\u548C-\u8D4B\u503C\u53D8\u91CF" aria-hidden="true">#</a> \u5B9A\u4E49(\u58F0\u660E) \u548C \u8D4B\u503C\u53D8\u91CF</h2><table><thead><tr><th></th><th>\u5BF9\u6216\u8005\u9519\uFF0C\u9519\u8BEF\u539F\u56E0</th></tr></thead><tbody><tr><td>int 3;</td><td>cannot start with digit int a=3;</td></tr><tr><td>double;</td><td>double b;</td></tr><tr><td>int = 19;</td><td>int c=19;</td></tr><tr><td>float myten = 10.23;</td><td>\u6B63\u786E</td></tr><tr><td>double_sum = 2.2;</td><td>double sum = 2.2;</td></tr><tr><td>int that_value 212;</td><td>int that_value = 212;</td></tr></tbody></table><table><thead><tr><th>Invalid variable naming</th><th>Valid variable naming</th><th>Description</th></tr></thead><tbody><tr><td>int monthly income</td><td>int monthly_income</td><td>Monthly income of integer type</td></tr><tr><td>---</td><td>int counter**;**</td><td>Counter of integer type</td></tr><tr><td>double %scale</td><td>double scale**;**</td><td>Scale of double type</td></tr><tr><td>---</td><td>double bike_sales**;**</td><td>Sales of bike of double type</td></tr></tbody></table><table><thead><tr><th>Program Segment</th><th>User input</th><th>Answer</th></tr></thead><tbody><tr><td>int first, second, third;cin &gt;&gt; first &gt;&gt; second &gt;&gt; third;</td><td>24 25 26</td><td>\u6B63\u786E</td></tr><tr><td>double fourth, fifth, sixth;cin &gt;&gt; fourth &gt;&gt; fifth &gt;&gt; sixth;</td><td>24.4 25.5 26</td><td>\u6B63\u786E</td></tr><tr><td>int seventh, eighth, ninth;cin &gt;&gt; seventh &gt;&gt; eighth &gt;&gt; ninth;</td><td>24.4 25.5 26.6</td><td>\xD7</td></tr><tr><td>double tenth, eleventh, twelfth;cin &gt;&gt; tenth &gt;&gt; eleventh &gt;&gt; twelfth;</td><td>23.4 24.5</td><td>\xD7</td></tr></tbody></table><p>\u63D0\u793A\uFF1A\u957F\u4F4D\u5411\u6BB5\u4F4D\u517C\u5BB9</p><table><thead><tr><th>Program Segment</th><th>Answer</th></tr></thead><tbody><tr><td>int d = 4;</td><td>\u221A</td></tr><tr><td>double a; int d = d * (6 + d);</td><td>\xD7</td></tr><tr><td>double d = &quot;3&quot;;</td><td>\xD7</td></tr></tbody></table><h2 id="\u8BA1\u7B97\u8BED\u53E5" tabindex="-1"><a class="header-anchor" href="#\u8BA1\u7B97\u8BED\u53E5" aria-hidden="true">#</a> \u8BA1\u7B97\u8BED\u53E5</h2><table><thead><tr><th>Program Segment</th><th>Answer</th></tr></thead><tbody><tr><td>int z = 9 + 2;</td><td>11</td></tr><tr><td>int z = 9 - 2;</td><td>7</td></tr><tr><td>int z = 5 * 2;</td><td>10</td></tr><tr><td>int z = 8 / 4;</td><td>2</td></tr><tr><td>int z = 9 / 4;</td><td><strong>2</strong></td></tr><tr><td>double z = 9 / 4;</td><td><strong>2</strong></td></tr><tr><td>int z = 222 / 300;</td><td>0</td></tr><tr><td>double z = 222.0 / 300.0;</td><td>0.74</td></tr><tr><td>int z = 222 / 300.00;</td><td>0</td></tr><tr><td>double z = pow(3, 6);</td><td><strong>729</strong></td></tr></tbody></table><h3 id="\u5E38\u7528\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u4EE3\u7801" aria-hidden="true">#</a> \u5E38\u7528\u4EE3\u7801</h3><h4 id="\u6570\u7EC4\u4ECE\u5927\u5230\u5C0F\u6392\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u6570\u7EC4\u4ECE\u5927\u5230\u5C0F\u6392\u5E8F" aria-hidden="true">#</a> \u6570\u7EC4\u4ECE\u5927\u5230\u5C0F\u6392\u5E8F</h4><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span> </span>
 <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iomanip&gt;</span></span>
 using namespace std<span class="token punctuation">;</span> 
@@ -8211,37 +8401,37 @@ using namespace std<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u7ED3\u679C\uFF08\u5355\u4F4D\u4E3Abyte\uFF09</p><blockquote><p>Size of char : 1 Size of short : 2 Size of int : 4 Size of long : 8 Size of float : 4 Size of double : 8 Size of long double : 16 Size of bool : 1</p></blockquote><p>sizeof() \u4E0D\u9700\u8981\u7528\u5230\u5176\u4ED6\u4EFB\u4F55\u5E93</p><!--]-->`);
 }
-const _sfc_setup$N = _sfc_main$N.setup;
-_sfc_main$N.setup = (props, ctx) => {
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/Block-Collection-std.html.vue");
-  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
 };
-var BlockCollectionStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$N]]);
+var BlockCollectionStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$J]]);
 var BlockCollectionStd_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": BlockCollectionStd_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$M = {};
-function _sfc_ssrRender$M(_ctx, _push, _parent, _attrs) {
+const _sfc_main$I = {};
+function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
   _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
     id: "related-knowledge-guide",
     tabindex: "-1"
   }, _attrs))}><a class="header-anchor" href="#related-knowledge-guide" aria-hidden="true">#</a> Related Knowledge Guide</h1>`);
 }
-const _sfc_setup$M = _sfc_main$M.setup;
-_sfc_main$M.setup = (props, ctx) => {
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/index.html.vue");
-  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
 };
-var index_html$1G = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$M]]);
-var index_html$1H = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var index_html$1E = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$I]]);
+var index_html$1F = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": index_html$1G
+  "default": index_html$1E
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$L = {};
-function _sfc_ssrRender$L(_ctx, _push, _parent, _attrs) {
+const _sfc_main$H = {};
+function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="searching-algorithms" tabindex="-1"><a class="header-anchor" href="#searching-algorithms" aria-hidden="true">#</a> Searching Algorithms</h1><h2 id="goal" tabindex="-1"><a class="header-anchor" href="#goal" aria-hidden="true">#</a> Goal</h2><p>Given an array A of n numbers (in ascending order)</p><ul><li>Find the position of a key k from the array A</li><li>return \u20131 if not found</li></ul><p>A: | 1 | 3 | 8 | 12 | 17 | 23 | 35</p><h2 id="algorithm-1-linear-search" tabindex="-1"><a class="header-anchor" href="#algorithm-1-linear-search" aria-hidden="true">#</a> Algorithm 1: Linear search</h2><p>Assume k appears at most once in the array. Once k is found, the algorithm stops.</p><ul><li>Best Case: K is in the first element</li><li>Worse Case: K is in the last element; element not found</li><li>Average case: Half of the array is searched</li></ul><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
   <span class="token keyword">if</span><span class="token punctuation">(</span>A<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">==</span>target<span class="token punctuation">)</span><span class="token punctuation">{</span>
     returni<span class="token punctuation">;</span>
@@ -8297,19 +8487,19 @@ using namespace std<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br></div></div><h3 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h3><img src="https://pic.hanjiaming.com.cn/2021/05/13/cd8b27066aa84.png" alt="1620891910294.png" title="1620891910294.png"><img src="https://pic.hanjiaming.com.cn/2021/05/13/3d9e44365568c.png" alt="1620891946016.png" title="1620891946016.png"><h3 id="time-complexity-of-binary-search" tabindex="-1"><a class="header-anchor" href="#time-complexity-of-binary-search" aria-hidden="true">#</a> Time complexity of binary search</h3><ul><li>Basic operation: The number of times the search key is compared with an element of the array\u300C\u641C\u7D22\u952E\u4E0E\u6570\u7EC4\u5143\u7D20\u8FDB\u884C\u6BD4\u8F83\u7684\u6B21\u6570\u300D</li><li>Assume three-way comparison: after one comparison of K with A[m], the algorithm can determine whether K is smaller, equal to, or larger than A[m]\u300C\u5728\u5C06K\u4E0EA [m]\u8FDB\u884C\u4E00\u6B21\u6BD4\u8F83\u4E4B\u540E\uFF0C\u8BE5\u7B97\u6CD5\u53EF\u4EE5\u786E\u5B9AK\u662F\u5C0F\u4E8E\uFF0C\u7B49\u4E8E\u8FD8\u662F\u5927\u4E8EA [m]\u300D</li><li>Worse case: The key is not in the array\u300C\u5BC6\u94A5\u4E0D\u5728\u6570\u7EC4\u4E2D\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/05/13/bf5395c442ba5.png" alt="1620892133875.png" title="1620892133875.png"><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP1011 @ PolyU&#39;s PowerPoint</li></ul><!--]-->`);
 }
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/Searching-Algorithms.html.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
 };
-var SearchingAlgorithms_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$L]]);
+var SearchingAlgorithms_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$H]]);
 var SearchingAlgorithms_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": SearchingAlgorithms_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$K = {};
-function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
+const _sfc_main$G = {};
+function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u521D\u8BC6-c-\u4E2D\u7684-argc\u4E0Eargv" tabindex="-1"><a class="header-anchor" href="#\u521D\u8BC6-c-\u4E2D\u7684-argc\u4E0Eargv" aria-hidden="true">#</a> \u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv</h1><h2 id="\u524D\u8A00" tabindex="-1"><a class="header-anchor" href="#\u524D\u8A00" aria-hidden="true">#</a> \u524D\u8A00</h2><p>\u5728\u8BB8\u591AC ++ IDE\u548C\u7F16\u8BD1\u5668\u4E2D\uFF0C\u5F53\u5B83\u4E3A\u60A8\u751F\u6210main\u51FD\u6570\u65F6\uFF0C\u5B83\u770B\u8D77\u6765\u50CF\u8FD9\u6837\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>\u6216\u8005</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span><span class="token operator">*</span>argv<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>\u800C\u4E0D\u662F</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -8346,19 +8536,19 @@ b2
 c3
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="\u4ED6\u8A00" tabindex="-1"><a class="header-anchor" href="#\u4ED6\u8A00" aria-hidden="true">#</a> \u4ED6\u8A00</h2><p>Python \u4E5F\u6709\u7C7B\u4F3C\u7684\u529F\u80FD</p><img src="https://pic.hanjiaming.com.cn/2021/04/26/180110370b64d.png" alt="CleanShot 2021-04-26 at 23.07.22@2x.png" title="CleanShot 2021-04-26 at 23.07.22@2x.png"><p>\u5F15\u7528</p><ul><li>https://blog.csdn.net/xyw_blog/article/details/15686961</li><li>https://my.oschina.net/u/3797416/blog/3160121</li><li>https://www.runoob.com/python/python-command-line-arguments.html</li><li>https://blog.csdn.net/K346K346/article/details/49331965</li></ul><!--]-->`);
 }
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/argc-argv.html.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
 };
-var argcArgv_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$K]]);
+var argcArgv_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$G]]);
 var argcArgv_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": argcArgv_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$J = {};
-function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
+const _sfc_main$F = {};
+function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3" tabindex="-1"><a class="header-anchor" href="#char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3" aria-hidden="true">#</a> char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3</h1><h2 id="\u8BC1\u660E-\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027" tabindex="-1"><a class="header-anchor" href="#\u8BC1\u660E-\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027" aria-hidden="true">#</a> \u8BC1\u660E\uFF1A\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027</h2><p>\u6570\u7EC4\u7684\u540D\u79F0 \u5C31\u662F\u6307\u9488\uFF0C\u4ED6\u4EEC\u5728\u5185\u5B58\u7ED3\u6784\u4E0A\u5341\u5206\u76F8\u4F3C\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
 using namespace std<span class="token punctuation">;</span>
 
@@ -8420,34 +8610,34 @@ using namespace std<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>COMP1011</li></ul><!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$F = _sfc_main$F.setup;
+_sfc_main$F.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/char-array-pointer.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
 };
-var charArrayPointer_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$J]]);
+var charArrayPointer_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$F]]);
 var charArrayPointer_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": charArrayPointer_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$I = {};
-function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
+const _sfc_main$E = {};
+function _sfc_ssrRender$E(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="const-\u548C-static-\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#const-\u548C-static-\u7684\u533A\u522B" aria-hidden="true">#</a> const \u548C static \u7684\u533A\u522B</h1><ul><li>const\u5C31\u662F\u53EA\u8BFB\u7684\u610F\u601D,\u53EA\u5728\u58F0\u660E\u4E2D\u4F7F\u7528;</li><li>static\u4E00\u822C\u67092\u4E2A\u4F5C\u7528,\u89C4\u5B9A\u4F5C\u7528\u57DF\u548C\u5B58\u50A8\u65B9\u5F0F. <ul><li>\u5BF9\u4E8E\u5C40\u90E8\u53D8\u91CF, static\u89C4\u5B9A\u5176\u4E3A\u9759\u6001\u5B58\u50A8\u65B9\u5F0F,\u6BCF\u6B21\u8C03\u7528\u7684\u521D\u59CB\u503C\u4E3A\u4E0A\u4E00\u6B21\u8C03\u7528\u7684\u503C,\u8C03\u7528\u7ED3\u675F\u540E\u5B58\u50A8\u7A7A\u95F4\u4E0D\u91CA\u653E;</li><li>\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF, \u5982\u679C\u4EE5\u6587\u4EF6\u5212\u5206\u4F5C\u7528\u57DF\u7684\u8BDD,\u6B64\u53D8\u91CF\u53EA\u5728\u5F53\u524D\u6587\u4EF6\u53EF\u89C1</li><li>\u5BF9\u4E8Estatic\u51FD\u6570\u4E5F\u662F\u5728\u5F53\u524D\u6A21\u5757\u5185\u51FD\u6570\u53EF\u89C1.</li></ul></li><li>static const \u5E94\u8BE5\u5C31\u662F\u4E0A\u9762\u4E24\u8005\u7684\u5408\u96C6.</li></ul><h2 id="\u5206\u7C7B\u5BF9\u6BD4" tabindex="-1"><a class="header-anchor" href="#\u5206\u7C7B\u5BF9\u6BD4" aria-hidden="true">#</a> \u5206\u7C7B\u5BF9\u6BD4</h2><h3 id="\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF" tabindex="-1"><a class="header-anchor" href="#\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF" aria-hidden="true">#</a> \u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF</h3><ul><li>const,\u53EA\u8BFB\u7684\u5168\u5C40\u53D8\u91CF,\u5176\u503C\u4E0D\u53EF\u4FEE\u6539.</li><li>static,\u89C4\u5B9A\u6B64\u5168\u5C40\u53D8\u91CF\u53EA\u5728\u5F53\u524D\u6A21\u5757(\u6587\u4EF6)\u4E2D\u53EF\u89C1.</li><li>static const,\u65E2\u662F\u53EA\u8BFB\u7684,\u53C8\u662F\u53EA\u5728\u5F53\u524D\u6A21\u5757\u4E2D\u53EF\u89C1\u7684.</li></ul><h3 id="\u5BF9\u4E8E\u6587\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u5BF9\u4E8E\u6587\u4EF6" aria-hidden="true">#</a> \u5BF9\u4E8E\u6587\u4EF6</h3><ul><li>\u6587\u4EF6\u6307\u9488\u53EF\u5F53\u4F5C\u4E00\u4E2A\u53D8\u91CF\u6765\u770B,\u4E0E\u4E0A\u9762\u6240\u8BF4\u7C7B\u4F3C.</li></ul><h3 id="\u5BF9\u4E8E\u51FD\u6570" tabindex="-1"><a class="header-anchor" href="#\u5BF9\u4E8E\u51FD\u6570" aria-hidden="true">#</a> \u5BF9\u4E8E\u51FD\u6570</h3><ul><li>const,\u8FD4\u56DE\u53EA\u8BFB\u53D8\u91CF\u7684\u51FD\u6570.</li><li>static,\u89C4\u5B9A\u6B64\u51FD\u6570\u53EA\u5728\u5F53\u524D\u6A21\u5757\u53EF\u89C1.</li></ul><h2 id="const" tabindex="-1"><a class="header-anchor" href="#const" aria-hidden="true">#</a> const</h2><p>\u5982\u679C\u628Aconst\u653E\u5728\u53D8\u91CF\u7C7B\u578B\u540D\u524D\uFF0C\u8BF4\u660E\u8FD9\u4E2A\u53D8\u91CF\u7684\u503C\u662F\u4FDD\u6301\u4E0D\u53D8\u7684\uFF0C\u8BE5\u53D8\u91CF\u5FC5\u987B\u5728\u5B9A\u4E49\u65F6\u521D\u59CB\u5316\uFF0C\u521D\u59CB\u5316\u540E\u5BF9\u5B83\u8FDB\u884C\u7684\u4EFB\u4F55\u8D4B\u503C\u90FD\u662F\u975E\u6CD5\u7684\u3002</p><p>C++\u63D0\u4F9Bconst\u5173\u952E\u5B57\uFF0C\u4E0D\u662F\u4E3A\u4E86\u4FDD\u8BC1\u4E00\u4E2A\u53D8\u91CF\u4E0D\u88AB\u4FEE\u6539\uFF0C\u800C\u662F\u4E3A\u4E86\u65B9\u4FBF\u7F16\u8BD1\u7A0B\u5E8F\u548C\u7EF4\u62A4\u4EBA\u5458\u5F04\u6E05\u695A\u4E00\u4E2A\u5B9E\u4F53\u5728\u7A0B\u5E8F\u4E2D\u662F\u5426\u88AB\u4FEE\u6539\u4E86\u3002\u5982\u679C\u51FD\u6570\u63A5\u53E3\u4E2D\u58F0\u660E\u53C2\u6570\u4E3Aconst\uFF0C\u6211\u4EEC\u5C31\u8BA4\u4E3A\u8FD9\u4E2A\u53C2\u6570\u4E0D\u4F1A\u6539\u53D8\uFF0C\u5982\u679C\u6CA1\u6709\u58F0\u660E\u4E3Aconst\uFF0C\u5C31\u8BA4\u4E3A\u8FD9\u4E2A\u53C2\u6570\u4E00\u5B9A\u88AB\u6539\u53D8\u4E86\uFF0C\u800C\u4E0D\u7BA1\u51FD\u6570\u5230\u5E95\u6709\u6CA1\u6709\u6539\u53D8\u8FD9\u4E2A\u53C2\u6570\u3002</p><h3 id="const-int-\u548C-int-const" tabindex="-1"><a class="header-anchor" href="#const-int-\u548C-int-const" aria-hidden="true">#</a> const int* \u548C int* const</h3><ul><li>const int* \u662F\u6307 \u6307\u9488\u6307\u5411\u7684\u5185\u5BB9\u662F\u5E38\u91CF</li><li>int* const \u662F\u6307 \u6307\u9488\u672C\u8EAB\u662F\u5E38\u91CF</li></ul><p>\u5FC5\u987B\u5728\u7C7B\u578B\u540D\u524D\u4F7F\u7528const\u6807\u8BC6\u8FD9\u4E2A\u6307\u9488\u6216\u8005\u5F15\u7528\u6307\u5411\u7684\u201C\u53D8\u91CF\u201D\u4E3A\u5E38\u91CF\uFF0C\u6CA1\u6709\u7684\u8BDD\u5C31\u662F\u8BED\u6CD5\u9519\u8BEF\u3002\u5982: <code>const int x = 5; const int* px = &amp;x; const int&amp; rx = x;</code></p><p>\u8FD9\u6837\u4E00\u6765\uFF0C\u76F4\u63A5\u4FEE\u6539x\u662F\u4E0D\u53EF\u80FD\u7684\uFF0C\u901A\u8FC7<code>*px</code>\u6216\u8005<code>rx</code>\u4FEE\u6539x\u4E5F\u662F\u4E0D\u53EF\u80FD\u7684\u3002\u5F53\u7136\uFF0C\u8FD9\u4E2A\u6307\u9488\u8FD8\u80FD\u6307\u5411\u5176\u4ED6\u7684\u5730\u65B9\uFF0C\u56E0\u4E3A\u6307\u9488\u672C\u8EAB\u5E76\u6CA1\u6709\u88AB\u6807\u8BC6\u4E3Aconst\u7684\u3002\u6BD4\u5982\uFF0C<code>px = &amp;y;</code></p><p>\u5047\u5982\u53D8\u91CF\u662F\u4E00\u4E2A \u975E\u5E38\u91CF\u53D8\u91CF \uFF0C\u800C\u6307\u9488\u6216\u8005\u5F15\u7528\u7684\u7C7B\u578B\u540D\u524D\u4F7F\u7528\u4E86const\uFF0C\u90A3\u4E48\uFF0C\u53EF\u4EE5\u76F4\u63A5\u4FEE\u6539\u53D8\u91CF\uFF0C\u4E0D\u80FD\u901A\u8FC7\u6307\u9488\u6216\u8005\u5F15\u7528\u4FEE\u6539\u53D8\u91CF\u3002</p><p>\u5982\u679C\u60F3\u8BA9\u4E00\u4E2A\u6307\u9488\u672C\u8EAB\u6210\u4E3Aconst\u7684\uFF0C\u5C31\u8981\u5728<em>\u540E\u52A0const\uFF0C\u5373int</em> const p = &amp;x;\u8FD9\u4E2A\u65F6\u5019\uFF0Cp\u5C31\u4E0D\u80FD\u518D\u6307\u5411\u5176\u4ED6\u53D8\u91CF\u3002\u5047\u5982x\u662F\u975E\u5E38\u91CF\u7684\uFF0C\u90A3\u5B83\u53EF\u4EE5\u901A\u8FC7\u6307\u9488\u8FDB\u884C\u4FEE\u6539\uFF0C\u56E0\u4E3Ax\u5E76\u6CA1\u6709\u6807\u8BC6\u4E3Aconst\u3002</p><h2 id="static" tabindex="-1"><a class="header-anchor" href="#static" aria-hidden="true">#</a> static</h2><p>\u5982\u679C\u5C06static\u7528\u4E8E\u4E00\u4E2A\u5168\u5C40\u53D8\u91CF\uFF0C\u662F\u8BF4\u660E\u8BE5\u5168\u5C40\u53D8\u91CF\u53EA\u5BF9\u5B9A\u4E49\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\u7684\u51FD\u6570\u53EF\u89C1\u3002\u5373\u4F7F\u5728\u53E6\u4E00\u4E2A\u6587\u4EF6\u4E2D\u4F7F\u7528\u4E86extern\uFF0C\u53E6\u4E00\u4E2A\u6587\u4EF6\u4E2D\u7684\u51FD\u6570\u4E5F\u4E0D\u80FD\u8BBF\u95EE\u8FD9\u4E2A\u5168\u5C40\u53D8\u91CF\u3002</p><p>\u5982\u679Cstatic\u7528\u4E8E\u51FD\u6570\u7684\u5C40\u90E8\u53D8\u91CF\u3002\u5B83\u8868\u660E\u8BE5\u53D8\u91CF\u7684\u503C\u4E0D\u4F1A\u56E0\u4E3A\u51FD\u6570\u7EC8\u6B62\u800C\u6D88\u5931\uFF0C\u5B83\u4F1A\u88AB\u4FDD\u5B58\u4E0B\u6765\u3002\u518D\u6B21\u8C03\u7528\u8BE5\u51FD\u6570\u65F6\uFF0C\u8FD9\u4E2A\u4FDD\u5B58\u4E0B\u6765\u7684\u503C\u4F1A\u7528\u6765\u521D\u59CB\u5316\u8BE5\u53D8\u91CF\u3002</p><p>\u5982\u679Cstatic\u7528\u4E8E\u4E00\u4E2A\u51FD\u6570\u524D\uFF0C\u8BF4\u660E\u8BE5\u51FD\u6570\u53EA\u80FD\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\u8C03\u7528\u3002</p><p>\u5982\u679Cstatic\u7528\u4E8E\u7C7B\u7684\u6210\u5458\u53D8\u91CF\u3002\u5B83\u8868\u660E\u5BF9\u7C7B\u7684\u6240\u6709\u5BF9\u8C61\uFF0C\u8FD9\u4E2A\u6570\u636E\u6210\u5458\u90FD\u53EA\u6709\u4E00\u4E2A\u5B9E\u4F8B\u3002<strong>\u8FD9\u4E2A\u5B9E\u4F8B\u88AB\u6240\u6709\u5BF9\u8C61\u5171\u6709</strong>\u3002static\u7684\u6210\u5458\u53D8\u91CF\u53EF\u4EE5\u662Fprivate\u3001public\u3001protected\u7684\u3002\u5B9A\u4E49\u548C\u8BBF\u95EE\u7684\u8BED\u6CD5\u4E5F\u548C\u5176\u4ED6\u6570\u636E\u6210\u5458\u4E00\u6837\u3002</p><p>\u5F15\u7528</p><ul><li>https://blog.csdn.net/wangfei8348/article/details/51261327</li></ul><!--]-->`);
 }
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/const-and-static-const.html.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
-var constAndStaticConst_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$I]]);
+var constAndStaticConst_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$E]]);
 var constAndStaticConst_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": constAndStaticConst_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$H = {};
-function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
+const _sfc_main$D = {};
+function _sfc_ssrRender$D(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="cpp\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#cpp\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8" aria-hidden="true">#</a> CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8</h1><h2 id="structure" tabindex="-1"><a class="header-anchor" href="#structure" aria-hidden="true">#</a> Structure</h2><p>Allow programmers to create a container for a collection of data items (variables) which can be different types.\u300C\u5141\u8BB8\u7A0B\u5E8F\u5458\u4E3A\u53EF\u80FD\u662F\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u9879\uFF08\u53D8\u91CF\uFF09\u7684\u96C6\u5408\u521B\u5EFA\u4E00\u4E2A\u5BB9\u5668\u3002\u300D</p><p>Such container is regarded as a new data type.\u300C\u8FD9\u6837\u7684\u5BB9\u5668\u88AB\u89C6\u4E3A\u4E00\u79CD\u65B0\u7684\u6570\u636E\u7C7B\u578B\u3002\u300D</p><p>The definition of a structure is a blueprint\u300C\u84DD\u56FE\u300D of what variables the structure should contain.\u300C\u7ED3\u6784\u7684\u5B9A\u4E49\u662F\u8BE5\u7ED3\u6784\u5E94\u5305\u542B\u54EA\u4E9B\u53D8\u91CF\u7684\u84DD\u56FE\u3002\u300D</p><p><strong>Struct \u7684\u5B9E\u8D28\u662F\u201C\u5BB9\u5668\u201D\u3002\u53EF\u4EE5\u770B\u505A\u4E00\u4E2A\u7C7B\u578B\u3002\u6BCF\u4E2A\u8FD9\u79CD\u7C7B\u578B\u7684\u201C\u76D2\u5B50\u201D\u91CC\u9762\u53EF\u4EE5\u5305\u542B\u5F88\u591A\u53D8\u91CF\u3002</strong></p><h3 id="defined" tabindex="-1"><a class="header-anchor" href="#defined" aria-hidden="true">#</a> Defined</h3><p>To define a structure</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">struct</span> <span class="token class-name">structure_name</span> <span class="token punctuation">{</span>
 	data_type variable1<span class="token punctuation">;</span>
 	data_type variable2<span class="token punctuation">;</span>
@@ -8752,19 +8942,19 @@ using namespace std<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div><p>\u8FD0\u884C\u7ED3\u679C\u5982\u4E0B</p><blockquote><p>The initial universal time is 00:00:00</p><p>The initial standard time is 12:00:00 AM</p><p>Universal time after setTime is 13:27:06</p><p>Standard time after setTime is 1:27:06 PM</p><p>After attempting invalid settings:</p><p>Universal time: 00:00:00</p><p>Standard time: 12:00:00 AM</p></blockquote><h2 id="\u5F15\u7528\u8D44\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u8D44\u6599" aria-hidden="true">#</a> \u5F15\u7528\u8D44\u6599</h2><ul><li>zhidao.baidu.com/question/748004411503788052.html</li><li>https://blog.csdn.net/gatieme/article/details/50640424</li><li>https://blog.csdn.net/fanyun_01/article/details/78145431</li></ul><!--]-->`);
 }
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/cpp-oop-std.html.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
 };
-var cppOopStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$H]]);
+var cppOopStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$D]]);
 var cppOopStd_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": cppOopStd_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$G = {};
-function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
+const _sfc_main$C = {};
+function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u5BF9c-\u6307\u9488\u7684\u989D\u5916\u601D\u8003" tabindex="-1"><a class="header-anchor" href="#\u5BF9c-\u6307\u9488\u7684\u989D\u5916\u601D\u8003" aria-hidden="true">#</a> \u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003</h1><h3 id="\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528" tabindex="-1"><a class="header-anchor" href="#\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528" aria-hidden="true">#</a> \u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528</h3><p><strong>\u6307\u9488\u7684\u5B9E\u8D28\uFF1A\u53D8\u91CF</strong></p><p>\u6545\u6211\u4EEC\u53EF\u5C06\u6307\u9488\u79F0\u4E3A\u6307\u9488\u53D8\u91CF</p><ul><li>\u6307\u5411\u4F5C\u7528\uFF1A\u7528\u4E8E\u6307\u5411\u4E00\u4E2A\u53D8\u91CF\uFF0C\u6307\u9488\u5B58\u50A8\u7740\u53D8\u91CF\u7684\u5730\u5740\u3002<strong>\u591A\u79F0\u4F5C\u6307\u9488</strong></li><li>\u5B58\u50A8\u4F5C\u7528\uFF1A\u5B58\u50A8\u7740\u4E00\u4E2A<strong>\u5185\u5B58\u5730\u5740</strong>\uFF0C\u4EE5\u5907\u7528\u3002<strong>\u591A\u79F0\u4F5C\u6307\u9488\u53D8\u91CF</strong></li></ul><p><strong>* \u8FD9\u4E2A\u7B26\u53F7\u662F\u8FDE\u63A5\u8FD9\u4E24\u4E2A\u4F5C\u7528\u7684\u6865\u6881\uFF0C\u56E0\u4E3A * \u80FD\u67E5\u770B \u4E00\u4E2A\u6307\u9488\u53D8\u91CF\u4E2D\u5B58\u7684\u5730\u5740 \u5BF9\u5E94\u7684\u5185\u5B58\u4E2D\u7684\u503C</strong></p><h3 id="\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF" tabindex="-1"><a class="header-anchor" href="#\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF" aria-hidden="true">#</a> \u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF</h3><p>\u6211\u4EEC\u5E94\u8BE5\u628A\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u770B\u505A\u6307\u9488\u53D8\u91CF\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> <span class="token function">func</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> ptr<span class="token punctuation">,</span><span class="token keyword">int</span> x<span class="token punctuation">)</span><span class="token punctuation">{</span>
   <span class="token comment">// \u4F20\u5165\u7684\u7B2C\u4E00\u4E2A\u53C2\u6570\u5E94\u8BE5\u662F\u4E00\u4E2A\u5730\u5740\uFF1B</span>
 <span class="token punctuation">}</span>
@@ -8781,19 +8971,19 @@ function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
 <span class="token function">func</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>address<span class="token punctuation">,</span>number<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/cpp-pointer-thinking.html.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
-var cppPointerThinking_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$G]]);
+var cppPointerThinking_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$C]]);
 var cppPointerThinking_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": cppPointerThinking_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$F = {};
-function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u9012\u5F52\u5B9E\u8DF5" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52\u5B9E\u8DF5" aria-hidden="true">#</a> \u9012\u5F52\u5B9E\u8DF5</h1><p>\u9012\u5F52\u5206\u4E3A\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52\uFF0C\u6211\u4EEC\u65E5\u5E38\u8BF4\u7684\u9012\u5F52\u662F\u53CC\u5411\u9012\u5F52\u3002</p><h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h2><h3 id="\u9012\u5F52\u7684\u5B9A\u4E49" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52\u7684\u5B9A\u4E49" aria-hidden="true">#</a> \u9012\u5F52\u7684\u5B9A\u4E49</h3><p>\u7F16\u7A0B\u8BED\u8A00\u4E2D\uFF0C\u51FD\u6570 Func(Type a,\u2026\u2026)\u76F4\u63A5\u6216\u95F4\u63A5\u8C03\u7528\u51FD\u6570\u672C\u8EAB\uFF0C\u5219\u8BE5\u51FD\u6570\u79F0\u4E3A\u300C\u9012\u5F52\u51FD\u6570\u300D\u3002</p><p>\u5728\u5B9E\u73B0\u9012\u5F52\u51FD\u6570\u4E4B\u524D\uFF0C\u6709\u4E24\u4EF6\u91CD\u8981\u7684\u4E8B\u60C5\u9700\u8981\u5F04\u6E05\u695A:</p><ul><li>\u9012\u63A8\u5173\u7CFB\uFF1A\u4E00\u4E2A\u95EE\u9898\u7684\u7ED3\u679C\u4E0E\u5176\u5B50\u95EE\u9898\u7684\u7ED3\u679C\u4E4B\u95F4\u7684\u5173\u7CFB\u3002</li><li>\u57FA\u672C\u60C5\u51B5\uFF08base case\uFF09\uFF1A\u4E0D\u9700\u8981\u8FDB\u4E00\u6B65\u7684\u9012\u5F52\u8C03\u7528\u5C31\u53EF\u4EE5\u76F4\u63A5\u8BA1\u7B97\u7B54\u6848\u7684\u60C5\u51B5\u3002\u53EF\u7406\u89E3\u4E3A\u9012\u5F52\u8DF3\u51FA\u6761\u4EF6\u3002</li></ul><p>\u4E00\u65E6\u6211\u4EEC\u8BA1\u7B97\u51FA\u4EE5\u4E0A\u4E24\u4E2A\u5143\u7D20\uFF0C\u518D\u60F3\u8981\u5B9E\u73B0\u4E00\u4E2A\u9012\u5F52\u51FD\u6570\uFF0C\u5C31\u53EA\u9700\u8981\u6839\u636E\u9012\u63A8\u5173\u7CFB\u8C03\u7528\u51FD\u6570\u672C\u8EAB\uFF0C\u76F4\u5230\u5176\u62B5\u8FBE\u57FA\u672C\u60C5\u51B5\u3002</p><p>\u5B9E\u9645\u4E0A\uFF0C\u9012\u5F52\u5C31\u662F\u6570\u5B66\u5F52\u7EB3\u6CD5\u3002</p><h2 id="\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9" aria-hidden="true">#</a> \u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9</h2><h3 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h3><img src="https://pic.hanjiaming.com.cn/2021/05/03/7a6f62a5c7933.png" alt="image.png" title="image.png"><ul><li>\u6709\u4E24\u79CDcase\uFF1Abase case \u548C general case <ul><li>general case \u4E00\u822C\u7684\u60C5\u51B5</li><li>base case\uFF1A\u7B2C\u4E00\u6B21\u5230\u7EC8\u70B9</li></ul></li><li>general case \u7684 return \u9700\u8981\u8C03\u7528\u81EA\u5DF1\uFF0Cbase return \u4E0D\u9700\u8981\u8C03\u7528\u81EA\u5DF1</li></ul><p><strong>\u4E00\u8A00\u4EE5\u853D\u4E4B\uFF1A\u6211\u8C03\u7528\u6211\u81EA\u5DF1</strong></p><h3 id="\u56FE\u89E3" tabindex="-1"><a class="header-anchor" href="#\u56FE\u89E3" aria-hidden="true">#</a> \u56FE\u89E3</h3><p>\u4E00\u4E0B\u56FE\u89E3\u4E3A\u53CC\u5411\u9012\u5F52\uFF1B</p><img src="https://pic.hanjiaming.com.cn/2021/05/03/8414929e19b03.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/05/03/cb87524eada53.png" alt="image.png" title="image.png"><h2 id="\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570" tabindex="-1"><a class="header-anchor" href="#\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570" aria-hidden="true">#</a> \u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570</h2><h3 id="\u8303\u5F0F-\u7531\u4E0B\u5230\u4E0A" tabindex="-1"><a class="header-anchor" href="#\u8303\u5F0F-\u7531\u4E0B\u5230\u4E0A" aria-hidden="true">#</a> \u8303\u5F0F\uFF1A\u7531\u4E0B\u5230\u4E0A</h3><ul><li>\u5BFB\u627E\u9012\u5F52\u9012\u63A8\u5173\u7CFB</li><li>\u5BFB\u627E\u9012\u5F52\u57FA\u672C\u60C5\u51B5\uFF0C\u8DF3\u51FA\u65F6\u8FD4\u56DE\u57FA\u672C\u60C5\u51B5\u7684\u7ED3\u679C</li><li>\u4FEE\u6539\u9012\u5F52\u51FD\u6570\u7684\u53C2\u6570</li><li>\u9012\u5F52\u8C03\u7528\u5E76\u8FD4\u56DE\u4E2D\u95F4\u53D8\u91CF</li><li>\u4F7F\u7528\u9012\u5F52\u51FD\u6570\u7684\u8FD4\u56DE\u503C\u4E0E\u5F53\u524D\u53C2\u6570\u8FDB\u884C\u8BA1\u7B97\uFF0C\u5E76\u8FD4\u56DE\u6700\u7EC8\u7ED3\u679C</li></ul><p><strong>\u5B9E\u4F8B: \u7D2F\u52A0</strong>\u2014\u2014\u4E0B\u9762\u6211\u4EEC\u4EE5\u7D2F\u52A0\u7684\u793A\u4F8B\u8BF4\u660E\u5199\u9012\u5F52\u7684\u601D\u8DEF</p><p>1+2+3+4+...+<em>n</em> \uFF0C\u51FD\u6570\u8868\u8FBE\u5F0F\u4E3A f(n) = f(n-1) + n</p><h3 id="\u5BFB\u627E\u57FA\u672C\u60C5\u51B5" tabindex="-1"><a class="header-anchor" href="#\u5BFB\u627E\u57FA\u672C\u60C5\u51B5" aria-hidden="true">#</a> \u5BFB\u627E\u57FA\u672C\u60C5\u51B5</h3><p>\u7D2F\u52A0\u793A\u4F8B\u4E2D\uFF0C\u57FA\u672C\u60C5\u51B5\u4E3A n = 1 \u65F6\uFF0Cf(1) = 1\u3002</p><h3 id="\u5BFB\u627E\u9012\u63A8\u5173\u7CFB-\u96BE\u70B9" tabindex="-1"><a class="header-anchor" href="#\u5BFB\u627E\u9012\u63A8\u5173\u7CFB-\u96BE\u70B9" aria-hidden="true">#</a> \u5BFB\u627E\u9012\u63A8\u5173\u7CFB\uFF08\u96BE\u70B9\uFF09</h3><p>\u7D2F\u52A0\u793A\u4F8B\u4E2D\uFF0C\u9012\u63A8\u5173\u7CFB\u4E3A f(n) = f(n-1) + n\uFF0Cf(n) \u6BCF\u6B21\u6267\u884C\u65F6\u4F9D\u8D56 f(n-1) \u7684\u7ED3\u679C\uFF0C\u6240\u4EE5\u6211\u4EEC\u628A <strong>f(n-1) \u7684\u7ED3\u679C</strong>\u770B\u4F5C\u662F<strong>\u4E2D\u95F4\u53D8\u91CF</strong>\u3002</p><p><strong>\u4E2D\u95F4\u53D8\u91CF\u5176\u5B9E\u5C31\u662F\u8054\u7CFB\u9012\u5F52\u51FD\u6570\u7684\u7EBD\u5E26\uFF0C\u5206\u6790\u51FA\u4E2D\u95F4\u53D8\u91CF\u9012\u5F52\u51FD\u6570\u4E5F\u5C31\u5B9E\u73B0\u4E86 80%\u3002</strong></p><p>\u5927\u767D\u8BDD\uFF1A\u5F53\u524D\u7ED3\u679C\u5FC5\u987B\u501F\u52A9\u524D\u4E00\u4E2A\u7ED3\u679C\uFF0C\u524D\u4E00\u4E2A\u501F\u52A9\u524D\u524D\u4E00\u4E2A... \u4E00\u76F4\u5230\u65F6\u6211\u4EEC\u627E\u5230\u4E86\u300C\u57FA\u672C\u60C5\u51B5\u300D\u3002</p><p>\u7136\u540E\u62FF\u5230\u300C\u57FA\u672C\u60C5\u51B5\u300D\u5F00\u59CB\u5F80\u56DE\u8BA1\u7B97\u3002\u8FD9\u4E2A\u8FC7\u7A0B\u6211\u4EEC\u7B80\u79F0\u4E3A\u300C\u7531\u4E0B\u5230\u4E0A\u300D\u3002</p><p>\u4E0B\u9762\u6211\u4EEC\u7528 f(5) = 1 + 2 + 3 + 4 + 5 = 15 \u8FD9\u4E2A\u8FC7\u7A0B\u8FDB\u884C\u5206\u6790\u3002</p><h3 id="\u7531\u4E0B\u5230\u4E0A" tabindex="-1"><a class="header-anchor" href="#\u7531\u4E0B\u5230\u4E0A" aria-hidden="true">#</a> \u7531\u4E0B\u5230\u4E0A</h3><p>\u5728\u6BCF\u4E2A\u9012\u5F52\u5C42\u6B21\u4E0A\uFF0C\u6211\u4EEC\u9996\u5148\u9012\u5F52\u5730\u8C03\u7528\u81EA\u8EAB\uFF0C\u7136\u540E\u6839\u636E\u8FD4\u56DE\u503C\u8FDB\u884C\u8BA1\u7B97\u3002\uFF08\u4F9D\u8D56\u8FD4\u56DE\u503C\uFF09</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">/** 
  * \u6A21\u62DF\u7A0B\u5E8F\u6267\u884C\u8FC7\u7A0B\uFF1A
  * 5 + sum(4)
@@ -8870,206 +9060,16 @@ using namespace std<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u5F15\u7528</p><ul><li>https://leetcode-cn.com/circle/article/koSrVI/</li><li>COMP1011\u2019s PowerPoint</li></ul><!--]-->`);
 }
-const _sfc_setup$F = _sfc_main$F.setup;
-_sfc_main$F.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/recursion-practice.html.vue");
-  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
-};
-var recursionPractice_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$F]]);
-var recursionPractice_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": recursionPractice_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$E = {};
-function _sfc_ssrRender$E(_ctx, _push, _parent, _attrs) {
-  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "getting-started-guide",
-    tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#getting-started-guide" aria-hidden="true">#</a> Getting Started Guide</h1>`);
-}
-const _sfc_setup$E = _sfc_main$E.setup;
-_sfc_main$E.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/index.html.vue");
-  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
-};
-var index_html$1E = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$E]]);
-var index_html$1F = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": index_html$1E
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$D = {};
-function _sfc_ssrRender$D(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E81" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E81" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E81</h1><h2 id="c-\u7B80\u4ECB" tabindex="-1"><a class="header-anchor" href="#c-\u7B80\u4ECB" aria-hidden="true">#</a> C++ \u7B80\u4ECB</h2><h3 id="\u7279\u70B9" tabindex="-1"><a class="header-anchor" href="#\u7279\u70B9" aria-hidden="true">#</a> <strong>\u7279\u70B9</strong></h3><ul><li>\u4E00\u95E8\u9AD8\u7EA7\u8BED\u8A00</li><li>\u5B66\u4E60\u4F7F\u7528C ++\u5B66\u4E60\u7ED3\u6784\u5316\u7F16\u7A0B <ul><li>\u4E00\u79CD\u7EAA\u5F8B\u6027\u7684\u7F16\u5199\u7A0B\u5E8F\u7684\u65B9\u6CD5</li></ul></li><li>\u81EA\u4E0A\u800C\u4E0B\u7684\u8BBE\u8BA1\u6A21\u578B <ul><li>\u5927\u95EE\u9898\u5206\u4E3A\u5C0F\u95EE\u9898</li><li>\u6BCF\u4E2A\u5C0F\u95EE\u9898\u90FD\u6309\u4EE3\u7801\u6BB5/\u529F\u80FD\u5206\u5F00\u89E3\u51B3</li><li>\u5C06\u8F83\u5C0F\u7684\u95EE\u9898\u7684\u89E3\u51B3\u65B9\u6848\u96C6\u6210\u5728\u4E00\u8D77\uFF0C\u4EE5\u5F62\u6210\u6700\u7EC8\u7A0B\u5E8F</li><li>\u7A0B\u5E8F\u5458\u66F4\u597D\u5730\u7406\u89E3\u5E76\u4E14\u6613\u4E8E\u7EF4\u62A4</li></ul></li><li>C\u7684\u6269\u5C55 <ul><li>1980\u5E74\u4EE3\u521D\u671F\uFF1ABjarne Stroustrup\uFF08\u8D1D\u5C14\u5B9E\u9A8C\u5BA4\uFF09</li><li>\u201C\u52A0\u5FEB\u53D1\u5C55\u201D C</li><li>\u63D0\u4F9B\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u7684\u529F\u80FD\uFF08OOP\uFF09</li></ul></li><li>\u6DF7\u5408\u8BED\u8A00 <ul><li>C\u98CE\u683C</li><li>\u9762\u5411\u5BF9\u8C61\u7684\u98CE\u683C</li><li>\u4E24\u8005\u6DF7\u5408</li></ul></li></ul><h3 id="\u5F00\u53D1\u73AF\u5883" tabindex="-1"><a class="header-anchor" href="#\u5F00\u53D1\u73AF\u5883" aria-hidden="true">#</a> \u5F00\u53D1\u73AF\u5883</h3><p>\u4E09\u4E2A\u4E3B\u8981\u7EC4\u6210\u90E8\u5206 1.\u7A0B\u5E8F\u5F00\u53D1\u73AF\u5883 2.\u8BED\u8A00\uFF08\u8BED\u6CD5\uFF09 3.C ++\u6807\u51C6\u5E93</p><p>\u5B89\u88C5\u8BF7\u89C1\uFF1Ahttps://www.hanjiaming.com.cn/archives/1892</p><p>\u5373 \u7528\u4E8E\u7F16\u5199\u7A0B\u5E8F\u7684\u7B26\u53F7\u548C\u89C4\u5219\u7CFB\u7EDF</p><p><strong>\u5F62\u6210C ++\u7A0B\u5E8F\u7684\u516D\u4E2A\u9636\u6BB5</strong></p><ol><li>\u7F16\u8F91\uFF08edit\uFF09 <ul><li>\u7A0B\u5E8F\u662F\u5728\u57FA\u4E8E\u6587\u672C\u7684\u7F16\u8F91\u5668\u4E2D\u521B\u5EFA\u7684\uFF0C\u5E76\u5B58\u50A8\u5728\u78C1\u76D8\u4E0A</li></ul></li><li>\u9884\u5904\u7406\uFF08preprocess\uFF09 <ul><li>\u540D\u4E3A\u9884\u5904\u7406\u7A0B\u5E8F\u7684\u7A0B\u5E8F\u5904\u7406\u4EE3\u7801</li><li>\u4F8B\u5982\uFF0C\u5C06\u67D0\u4E9B\u6807\u8BB0\u66FF\u6362\u4E3A\u5B57\u7B26\u4E32\uFF08\u6587\u672C\uFF09\u6216\u6570\u503C</li></ul></li><li>\u7F16\u8BD1\uFF08compile\uFF09 <ul><li>\u7F16\u8BD1\u5668\u521B\u5EFA\u76EE\u6807\u4EE3\u7801\u5E76\u5C06\u5176\u5B58\u50A8\u5728\u78C1\u76D8\u4E0A</li></ul></li><li>\u94FE\u63A5\uFF08link\uFF09 <ul><li>\u7ED3\u5408\u5E93/\u5176\u4ED6\u529F\u80FD\u5F62\u6210\u53EF\u6267\u884C\u7A0B\u5E8F</li></ul></li></ol><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033747641.png" alt="img" loading="lazy"><strong>\u8FD0\u884C C++ \u5F62\u6210\u7684\u53EF\u6267\u884C\u6587\u4EF6</strong></p><ol><li>\u52A0\u8F7D\uFF08load\uFF09 <ul><li>\u52A0\u8F7D\u7A0B\u5E8F\u5C06\u7A0B\u5E8F\u653E\u5165\u5185\u5B58</li></ul></li><li>\u6267\u884C\uFF08execute\uFF09 <ul><li>CPU\u63A5\u53D7\u5E76\u6267\u884C\u6BCF\u6761\u6307\u4EE4\uFF0C\u53EF\u80FD\u4F1A\u5B58\u50A8\u65B0\u7684\u6570\u636E\u503C</li></ul></li></ol><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033801808.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203033712317.png" alt="img" loading="lazy"></p><h2 id="\u9884\u5907\u77E5\u8BC6" tabindex="-1"><a class="header-anchor" href="#\u9884\u5907\u77E5\u8BC6" aria-hidden="true">#</a> \u9884\u5907\u77E5\u8BC6</h2><h3 id="\u8F6C\u4E49\u7B26" tabindex="-1"><a class="header-anchor" href="#\u8F6C\u4E49\u7B26" aria-hidden="true">#</a> \u8F6C\u4E49\u7B26</h3><p>\u6240\u6709\u7684ASCII\u7801\u90FD\u53EF\u4EE5\u7528\u201C\\\u201D\u52A0\u6570\u5B57\uFF08\u4E00\u822C\u662F8\u8FDB\u5236\u6570\u5B57\uFF09\u6765\u8868\u793A\u3002\u800CC\u4E2D\u5B9A\u4E49\u4E86\u4E00\u4E9B\u5B57\u6BCD\u524D\u52A0\\\u6765\u8868\u793A\u5E38\u89C1\u7684\u90A3\u4E9B\u4E0D\u80FD\u663E\u793A\u7684ASCII\u5B57\u7B26\uFF0C\u5982\\0,\\t,\\n\u7B49\uFF0C\u5C31\u79F0\u4E3A\u8F6C\u4E49\u5B57\u7B26\uFF0C\u56E0\u4E3A\u540E\u9762\u7684\u5B57\u7B26\uFF0C\u90FD\u4E0D\u662F\u5B83\u672C\u6765\u7684ASCII\u5B57\u7B26\u610F\u601D\u4E86\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203040950670.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203040621658.png" alt="img" loading="lazy"></p><h2 id="\u6CE8\u610F\u4E8B\u9879" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u610F\u4E8B\u9879" aria-hidden="true">#</a> \u6CE8\u610F\u4E8B\u9879</h2><ul><li>\u6587\u4EF6\u5355\u4F4D\u662FProject\uFF08\u5DE5\u7A0B\uFF09\u3002\u4E00\u4E2A\u5DE5\u7A0B\u5BF9\u5E94\u4E00\u4E2A\u6587\u4EF6\u5939\u3002\u4E00\u4E2A\u5DE5\u7A0B\u4E2D\u6709\u5F88\u591Acpp\u6216h\u6587\u4EF6\u3002</li><li>\u6587\u4EF6\u540D\u79F0\u548C\u8DEF\u5F84\u4E0D\u80FD\u5305\u542B\u4E2D\u6587\u3002</li><li><strong>\u5199\u4EE3\u7801\u65F6,\u52A1\u5FC5\u5207\u6362\u5230\u82F1\u6587\u8F93\u5165\u6CD5\u3002</strong></li><li>\u4EE3\u7801\u4E2D\u4E0D\u80FD\u5305\u542B\u4E2D\u6587\u548C\u4E2D\u6587\u7B26\u53F7</li></ul><h2 id="\u7B2C\u4E00\u4E2Ac-\u7A0B\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u7B2C\u4E00\u4E2Ac-\u7A0B\u5E8F" aria-hidden="true">#</a> \u7B2C\u4E00\u4E2AC++\u7A0B\u5E8F</h2><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">// Your first program in C++</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
-using namespace std<span class="token punctuation">;</span>
-
-<span class="token comment">// function main begins program execution</span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    cout <span class="token operator">&lt;&lt;</span> Welcome to C<span class="token operator">++</span><span class="token operator">!</span>\\n<span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// indicate that program ended successfully</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>\u8FD0\u884C\u7ED3\u679C\uFF1A<code>Welcome to C++!</code></p><h3 id="\u4EE3\u7801\u89E3\u91CA" tabindex="-1"><a class="header-anchor" href="#\u4EE3\u7801\u89E3\u91CA" aria-hidden="true">#</a> \u4EE3\u7801\u89E3\u91CA</h3><ul><li><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>// Your first program in C++
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul><li>Comments start with: // <ul><li>Comments are ignored by compiler</li></ul></li><li>Traditional comments (in C):<code>/* \u2026 */</code></li><li>Improve program readability</li></ul></li></ul><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">/* This is a traditional
-comment. It can be 
-split over multiple lines */</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li><p><code>#include &lt;iostreams&gt;</code></p></li><li><p>Preprocessing directive</p><ul><li><p>Tells the preprocessor to perform a specific action</p></li><li><p>Format: a line begins with <code>#</code></p></li><li><p>Where to put a directive?</p><ul><li><p>Anywhere in a source file, with effect from that point onwards</p></li><li><p><code>#include &lt;filename&gt;</code> means:</p></li></ul></li></ul></li><li><p>To add the contents of the library file \u2013 filename to the source program during preprocessing</p></li><li><p><code>&lt; &gt;</code> means to find the library file in the default location</p></li><li><p>Blank lines, spaces, and tabs are white-space characters</p><ul><li>Ignored by compiler</li></ul></li><li><p><code>using namespace std;</code></p><ul><li>Namespace</li><li>a set of names in which all names are unique</li><li>to prevent ambiguity(\u53CC\u5173) of names <ul><li>E.g., cout is defined in the namespace of std in iostream</li></ul></li><li>if this line is not written explicitly, we can write like this <ul><li><code>std::cout</code></li></ul></li></ul></li><li><p>int main() {</p><ul><li>C++ programs begin executing at <code>main</code></li><li>Parenthesis <code>()</code>indicates <code>main</code> is a function</li><li>C++ programs contain one or more functions</li></ul></li><li><p>Functions can perform tasks and return information</p><ul><li><code>int</code> means <code>main</code> returns an integer when the <code>main</code> function finishes execution(more on this later)</li></ul></li><li><p>Left brace <code>{</code>begins body of function declaration. Ended by right brace <code>}</code></p></li><li><p><code>cout &lt;&lt; Welcome to C++!\\n;</code></p><ul><li><p>A program statement</p></li><li><p>instructs the computer to perform a task</p></li><li><p>must be ended with semicolon <code>;</code></p></li><li><p>Standard output stream object</p><ul><li>cout - Connected to screen</li><li><code>&lt;&lt;</code><ul><li>Stream insertion operator</li></ul></li></ul></li><li><p>Value on the right-hand side (right operand) inserted into output stream</p></li><li><p>Escape characters</p></li></ul></li><li><p><code>\\</code> Indicates \u201Cspecial\u201D character output</p></li></ul><p>\u8BF7\u8BB0\u4F4F\uFF0C\u53F3\u8FDB\u5DE6\u51FA\u3002</p><ul><li><p>Input/output</p><ul><li>cout <ul><li>Standard output stream to \u201CThe computer screen\u201D</li></ul></li><li>cin <ul><li>Standard input stream</li><li>Normally from the keyboard</li></ul></li></ul></li><li><p><code>return 0; // indicate that program ended successfully</code></p><ul><li>End of the main function</li><li>Return an integer</li></ul></li><li><p><code>0</code> : indicates that program ended successfully</p></li><li><p><code>}</code> : A right brace</p></li><li><p>Signifies the end of the <code>main</code> function</p></li></ul><h2 id="introduction-to-variables" tabindex="-1"><a class="header-anchor" href="#introduction-to-variables" aria-hidden="true">#</a> Introduction to Variables</h2><ul><li>Remember one aim of programming is to perform mathematical calculations</li><li>Some calculations may require intermediate steps and therefore there are intermediate values for subsequent calculations</li><li>How do we store these intermediate values in programming? <ul><li>Variables</li></ul></li></ul><h3 id="variables" tabindex="-1"><a class="header-anchor" href="#variables" aria-hidden="true">#</a> Variables</h3><ul><li><p>Areas in memory where values can be stored</p><ul><li>Informal thought: A box that can be stored a value</li></ul></li><li><p>Common data types</p><ul><li>int \u2013 integer numbers (e.g., -3, 0, 8)</li><li>char \u2013 character or symbol (e.g., H, d, ?, %)</li></ul></li><li><p>double \u2013 floating point numbers (e.g., 3.14, 1.618)</p><ul><li>Declare variables with name and data type before use (Imagine as creating a box before putting something into it)</li></ul></li><li><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">int</span> integer1<span class="token punctuation">;</span> <span class="token keyword">int</span> integer2<span class="token punctuation">;</span> <span class="token keyword">int</span> sum<span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul><li>Can declare several variables of the same type in one declaration Comma-separated list</li></ul></li><li><p><code>int integer1, integer2, sum;</code></p></li></ul><h3 id="variable-names" tabindex="-1"><a class="header-anchor" href="#variable-names" aria-hidden="true">#</a> Variable names</h3><p>Variable names ( also known as identifier\u300C\u6807\u8BC6\u7B26\u300D)</p><ul><li><p>Rules of naming a variable</p><ul><li>Series of characters</li></ul></li><li><p>letters, digits, underscores ( _ )</p></li><li><p>No space in-between</p><ul><li>E.g., <code>thickness_of_wall, baseArea, flat_widthRatio</code> are ok</li></ul></li><li><p>Cannot begin with digit</p><ul><li><code>7button</code> is invalid</li></ul></li><li><p>Case sensitive</p><ul><li>a1 and A1 are two different variables</li><li>As a norm, variable names begin with lowercase letters</li></ul></li></ul><p><strong>Cannot be used as identifiers (variable names)</strong> ![CleanShot 2021-02-19 at 21.43.19@2x](/Users/hanjiaming/Library/Application Support/CleanShot/media/media_34WboypUoO/CleanShot 2021-02-19 at 21.43.19@2x.png)</p><h2 id="common-operators" tabindex="-1"><a class="header-anchor" href="#common-operators" aria-hidden="true">#</a> common operators</h2><ul><li><p><code>&gt;&gt;</code> stream extraction operator</p><ul><li>Used with cin <ul><li>Also in the namespace std</li></ul></li></ul></li><li><p>Waits for user to input value, then press Enter key</p><ul><li>Stores value in variable to right of operator</li></ul></li><li><p>E.g., <code>cin &gt;&gt; radius</code></p></li><li><p><code>=</code>(assignment operator)</p><ul><li>Assigns value to variable (from right to left)</li><li>Binary operator (two operands)</li></ul></li><li><p>E.g.,</p></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203043204589.png" alt="img" loading="lazy"></p><p><strong>\u793A\u4F8B\u4EE3\u7801</strong></p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">// A program for summing two input number.</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
-
-using namespace std<span class="token punctuation">;</span>
-
-<span class="token comment">// function main begins program execution</span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">int</span> integer1<span class="token punctuation">;</span>    
-    <span class="token comment">// </span>
-first number to be input by user
-    <span class="token keyword">int</span> integer2<span class="token punctuation">;</span>
-    <span class="token comment">// second number to be input by user</span>
-    <span class="token keyword">int</span>    sum<span class="token punctuation">;</span>
-    <span class="token comment">// variable in which sum will be stored</span>
-
-    cout <span class="token operator">&lt;&lt;</span> Enter first integer\\n<span class="token punctuation">;</span>        
-    cin <span class="token operator">&gt;&gt;</span> integer1<span class="token punctuation">;</span>
-    cout <span class="token operator">&lt;&lt;</span> Enter second integer\\n<span class="token punctuation">;</span> 
-    cin <span class="token operator">&gt;&gt;</span> integer2<span class="token punctuation">;</span>
-    sum <span class="token operator">=</span> integer1 <span class="token operator">+</span> integer2<span class="token punctuation">;</span>
-    cout <span class="token operator">&lt;&lt;</span> Sum is  <span class="token operator">&lt;&lt;</span> sum <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> 
-
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>    
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><p>\u8FD0\u884C\u7ED3\u679C</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Enter first integer
-45
-Enter second integer
-72
-
-Sum is 117
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="other-arithmetic-operators" tabindex="-1"><a class="header-anchor" href="#other-arithmetic-operators" aria-hidden="true">#</a> Other Arithmetic Operators</h3><ul><li><ul><li>Multiplication</li></ul></li><li>/Division <ul><li>Integer division truncates the decimal value <ul><li>7 / 5 evaluates to 1</li></ul></li></ul></li><li>%\uFF1AModulus operator returns remainder <ul><li>7 % 5 evaluates to 2</li></ul></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203054424421.png" alt="img" loading="lazy"></p><h2 id="variable-and-memory" tabindex="-1"><a class="header-anchor" href="#variable-and-memory" aria-hidden="true">#</a> Variable and Memory</h2><ul><li>Variable names <ul><li>Correspond to actual locations in computer&#39;s memory</li><li>Every variable has <strong>name, type, size and value</strong></li></ul></li><li>When new value placed into variable, overwrites previous value</li><li>Reading variables from memory non-destructive</li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203052751555.png" alt="img" loading="lazy"></p><p>integer1, integer2 and sum are created in the program and memory spaces are allocated to them (even they are not used yet)</p><p>In most C++ environment, variables are not initialized to default values (e.g., 0, NULL)</p><p>Try\uFF1A <code>int integer1;cout &lt;&lt; integer1 &lt;&lt; endl;</code></p><p>outcome\uFF1A\u4E00\u4E2A\u957F9\u4F4D\u7684\u968F\u673A\u6570</p><p>E.g., number1 + number2 * (number3 % number4 - number5)</p><p>How to evaluate above?</p><ul><li>Rules: Operators in parentheses evaluated first</li><li>Nested/embedded parentheses: Operators in innermost pair first Multiplication, division, modulus applied next</li><li>Operators applied from left to right</li><li>Addition, subtraction applied last</li><li>Operators applied from left to right</li></ul><p>\u6240\u4EE5\uFF0C\u6211\u4EEC\u5DF2\u7ECF\u4E86\u89E3\u5982\u4F55\u7F16\u5199\u4E00\u4E2A\u7B80\u5355\u7684C++\u7A0B\u5E8F</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203054807266.png" alt="img" loading="lazy"></p><h2 id="pseudocode-\u4F2A\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#pseudocode-\u4F2A\u4EE3\u7801" aria-hidden="true">#</a> Pseudocode(\u4F2A\u4EE3\u7801\uFF09</h2><p>Artificial, informal language used to develop algorithms</p><p>\u6211\u4EEC\u5199\u4EE3\u7801\u4E4B\u524D\u8981\u5148\u5199\u4F2A\u4EE3\u7801\uFF0C\u4E4B\u540E\u6211\u4EEC\u628A\u4F2A\u4EE3\u7801\u8F6C\u5199\u4E3AC++\u4EE3\u7801\u3002\u8FD9\u5BF9\u6211\u4EEC\u5199\u4EE3\u7801\u6709\u5E2E\u52A9\u3002</p><ul><li>Similar to everyday English</li><li>Not executed on computers <ul><li>Used to think out the logic of program before coding <ul><li>Easy to convert into C++ syntax</li></ul></li><li>Only executable statements <ul><li>No need to declare variables</li></ul></li></ul></li><li>More or less like a real computer program: assignment statements, arithmetic expressions, control structures (if, if/else, while, for, etc.), and so on</li><li>no strict rules for the syntax</li><li>OK as long as it is clear, readable and understandable</li><li>Enables you to concentrate on the algorithm instead of details of syntax</li></ul><p>\u4F8B\u5982\uFF0C\u7F16\u5199\u4E00\u4E2A\u63A5\u53D7\u4E24\u4E2A\u6574\u6570\u7684\u7A0B\u5E8F\uFF0C\u8BA1\u7B97\u5E76\u663E\u793A\u603B\u548C\u3002</p><ul><li><code>Prompt the user to input integer1</code></li><li><code>Prompt the user to input integer2</code></li><li><code>Calculate sum = integer1 + integer2</code></li><li><code>Print sum to the screen</code></li></ul><p>\u4F8B\u5982\uFF1A\u7F16\u5199\u7A0B\u5E8F\u4EE5\u8BA1\u7B97\u4E09\u4E2A\u5B66\u751F\u7684\u8003\u8BD5\u5E73\u5747\u5206\u6570</p><ul><li><code>Prompt the user to input score1</code></li><li><code>Prompt the user to input score2</code></li><li><code>Prompt the user to input score3</code></li><li><code>Calculate sum = score1 + score2 + score3</code></li><li><code>Calculate average = sum / 3</code></li><li><code>Print average to the screen</code></li></ul><h3 id="\u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7" tabindex="-1"><a class="header-anchor" href="#\u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7" aria-hidden="true">#</a> \u4F2A\u4EE3\u7801\u7684\u5199\u4F5C\u6280\u5DE7</h3><ul><li>\u203A Always think about the sequence\uFF1AInput \u21E8 Processing \u21E8 Output</li><li>Input <ul><li>What data does the user need to provide to the program?</li><li>E.g., an integer value? student\u2019s scores?</li></ul></li><li>Processing <ul><li>What does the program calculate?</li><li>E.g., calculating the sum? calculating the average?</li></ul></li><li>Output <ul><li>What does the program display to the user?</li><li>E.g., calculation result? sum? average?</li></ul></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081951815.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203082008543.png" alt="img" loading="lazy"></p><h2 id="introduction-to-control-structures" tabindex="-1"><a class="header-anchor" href="#introduction-to-control-structures" aria-hidden="true">#</a> Introduction to Control Structures</h2><p>Introduction to Control Structures\uFF08\u63A7\u5236\u7ED3\u6784\u4ECB\u7ECD\uFF09</p><ul><li>By default, statements in a program are executed in sequential order\uFF08\u6309\u987A\u5E8F\uFF09 <ul><li>All programs studied so far behave in this way</li></ul></li><li>C++ provides control structures to achieve transfer of control <ul><li>Next statement executed not necessarily next one in sequence</li></ul></li><li>2 kinds of control structures <ul><li>Selection structures\uFF1A<code>if, if/else, switch</code></li></ul></li><li>Repetition structures\uFF1A<code>while, do-while, for</code></li><li>Indenting makes programs/pseudocode easier to read <ul><li>Note: C++ ignores whitespace characters (tabs, spaces, etc.)</li></ul></li></ul><p>Let&#39;s see an example.</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
-using namespace std<span class="token punctuation">;</span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	<span class="token keyword">int</span> x<span class="token punctuation">,</span> y<span class="token punctuation">;</span>
-  
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Please enter x and y: &quot;</span><span class="token punctuation">;</span>
-	cin <span class="token operator">&gt;&gt;</span> x <span class="token operator">&gt;&gt;</span> y<span class="token punctuation">;</span>
-
- 	<span class="token comment">// if selection structure</span>
-  
-<span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x is greater.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-  
-<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x is smaller.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-  
-<span class="token keyword">else</span> <span class="token punctuation">{</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;x and y are equal.&quot;</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token punctuation">}</span> 
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Please enter x and y: 10 20
-x is smaller.
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="if-selection-structure" tabindex="-1"><a class="header-anchor" href="#if-selection-structure" aria-hidden="true">#</a> if Selection Structure</h3><ul><li><p>Choose among alternative courses of action.</p></li><li><p>Pseudocode example</p><ul><li><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>If student\u2019s grade is greater than or equal to 60
-Print \u201CPassed\u201D
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>Translate to C++\uFF1A<code>if (grade &gt;= 60) cout &lt;&lt; Passed;</code></li><li>If the condition is true\uFF1APrint statement executed, program continues to next statement</li><li>If the condition is false\uFF1APrint statement ignored, program continues</li></ul></li></ul></li><li><p>Indenting makes programs/pseudocode easier to read</p><ul><li>Note: C++ ignores whitespace characters (tabs, spaces, etc.)</li></ul></li><li><p>General Structure</p><ul><li><code>if () statement</code></li></ul></li><li><p>A condition is one that, after evaluation, it must be either <em>true or false</em></p><ul><li>E.g., x&lt;=y (ls x less than or equal to y? \uFF09</li><li>E.g., m!=n (is m not equal to n?)</li></ul></li></ul><h3 id="equality-and-relational-operators" tabindex="-1"><a class="header-anchor" href="#equality-and-relational-operators" aria-hidden="true">#</a> Equality and Relational Operators</h3><ul><li>Used to compare the relation of two data items <ul><li>Result in either <strong>true or false</strong></li></ul></li><li>Equality operators<code>==, !=</code></li><li>Relational operators <code>&lt;, &gt;=, &lt;=</code></li></ul><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/e0669e83bdb87.png" alt="CleanShot 2021-02-19 at 21.51.28@2x.png" title="CleanShot 2021-02-19 at 21.51.28@2x.png"><h3 id="if-else-selection-structure" tabindex="-1"><a class="header-anchor" href="#if-else-selection-structure" aria-hidden="true">#</a> if/else Selection Structure</h3><p>If grade is 54, what will the output be?</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Passed&quot;</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>grade &gt;= 60 will be evaluated to false and Passed will not be printed.</p><p>Different actions if conditions <strong>true</strong> or <strong>false</strong></p><p>Pseudocode</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if student\u2019s grade is greater than or equal to 60
-Print \u201CPassed\u201D
-else
-Print \u201CFailed\u201D
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>C++ code</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Passed&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;Failed&quot;</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="general-structure" tabindex="-1"><a class="header-anchor" href="#general-structure" aria-hidden="true">#</a> General Structure</h4><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if (&lt;condition&gt;)
-	statement
-else
-	statement
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>No condition after the \u201Celse\u201D keyword, \u201Celse\u201D means \u201Cotherwise\u201D.</p><h3 id="nested-if-else-structures" tabindex="-1"><a class="header-anchor" href="#nested-if-else-structures" aria-hidden="true">#</a> Nested if/else Structures</h3><p>In most scenarios, there are more than two possible actions to be performed.</p><p>By extending the if/else structures, another if/else structure is included in the \u201Celse\u201D segment.</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if (&lt;condition&gt;)
-	statement for the 1st case
-else
-	if (&lt;condition&gt;)
-		statement for the 2nd case
-	else 
-		statement otherwise
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>The following example illustrates how to determine the grade of a given numeric score:</p><p>Pseudocode</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>if student\u2019s grade is greater than or equal to 90
-	Print \u201CA\u201D
-else if student\u2019s grade is greater than or equal to 80
-	Print \u201CB\u201D
-else if student\u2019s grade is greater than or equal to 70
-	Print \u201CC\u201D
-else if student\u2019s grade is greater than or equal to 60
-	Print \u201CD\u201D
-else
-	Print \u201CF\u201D
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>c++ code</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">90</span><span class="token punctuation">)</span> <span class="token comment">// 90 and above</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;A&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token comment">// 80-89</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;B&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token comment">// 70-79</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;C&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token comment">// 60-69</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;D&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span> <span class="token comment">// less than 60</span>
-cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;F&quot;</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>or</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">90</span><span class="token punctuation">)</span> <span class="token comment">// 90 and above</span>
-	cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;A&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">else</span> 
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token comment">// 80-89</span>
-		cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;B&quot;</span><span class="token punctuation">;</span>
-	<span class="token keyword">else</span> 
-  	<span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token comment">// 70-79</span>
-			cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;C&quot;</span><span class="token punctuation">;</span>
-		<span class="token keyword">else</span> 
-  		<span class="token keyword">if</span> <span class="token punctuation">(</span>grade <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token comment">// 60-69</span>
-				cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;D&quot;</span><span class="token punctuation">;</span>
-			<span class="token keyword">else</span> <span class="token comment">// less than 60</span>
-				cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;F&quot;</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/eaa96fe1b7c15.png" alt="CleanShot 2021-02-19 at 22.22.50@2x.png" title="CleanShot 2021-02-19 at 22.22.50@2x.png"><img src="https://hongshupic.oss-cn-zhangjiakou.aliyuncs.com/2021/02/19/15ce914456a66.png" alt="image.png" title="image.png"><h2 id="ternary-conditional-operator" tabindex="-1"><a class="header-anchor" href="#ternary-conditional-operator" aria-hidden="true">#</a> Ternary conditional operator</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080335222.png" alt="img" loading="lazy"></p><h2 id="assignment-operators" tabindex="-1"><a class="header-anchor" href="#assignment-operators" aria-hidden="true">#</a> Assignment Operators</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080405644.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080418125.png" alt="img" loading="lazy"></p><h2 id="logical-operators" tabindex="-1"><a class="header-anchor" href="#logical-operators" aria-hidden="true">#</a> Logical Operators</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203111833636.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203111916856.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080148423.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203080159626.png" alt="img" loading="lazy"></p><h2 id="increment-and-decrement-operators" tabindex="-1"><a class="header-anchor" href="#increment-and-decrement-operators" aria-hidden="true">#</a> Increment and Decrement Operators</h2><ul><li>\u76F8\u540C\u70B9 <ul><li>\u53EF\u4EE5\u4F7F\u7528\u589E\u91CF\u8FD0\u7B97\u7B26c++\u4EE3\u66FFc + = 1</li><li>\u53EF\u4EE5\u4F7F\u7528\u51CF\u91CF\u8FD0\u7B97\u7B26c\u2013\u4EE3\u66FFc-= 1</li></ul></li><li>\u4E0D\u540C\u70B9 <ul><li>variable++ \u548C ++variable \u90FD\u53EF\u4EE5\u770B\u505A\u4E00\u4E2A\u53EF\u4EE5\u88AB\u8C03\u7528\u7684\u503C\uFF0C\u800C\u4E0D\u4EC5\u4EC5\u662F\u4E00\u4E2Ainstruction\u3002</li><li>\u4F46\u662Fvariable \u4EC5\u4EC5\u662F\u4E00\u4E2Ainstruction\uFF0C\u4E0D\u53EF\u4EE5\u76F4\u63A5\u88AB\u8C03\u7528\u3002</li></ul></li><li>\u9884\u589E\u91CF\uFF1A\u5C06\u8FD0\u7B97\u7B26\u653E\u5728\u53D8\u91CF\uFF08++ c\u6216\u2013c\uFF09\u4E4B\u524D\uFF0C\u8BE5\u53D8\u91CF\u503C\u5148\u88AB\u66F4\u6539\uFF0C\u7136\u540E\u5BF9\u6574\u4E2A\u8868\u8FBE\u5F0F\u6C42\u503C\u3002</li><li>\u540E\u9012\u589E\uFF1A\u5C06\u8FD0\u7B97\u7B26\u653E\u5728\u53D8\u91CF\uFF08c ++\u6216c\u2013\uFF09\u4E4B\u540E\u65F6\uFF0C\u5C06\u8BA1\u7B97\u6574\u4E2A\u8868\u8FBE\u5F0F\uFF0C\u7136\u540E\u66F4\u6539\u53D8\u91CF\u503C\u3002</li></ul><p>\u5728\u6211\u770B\u6765\uFF0Cc++\u8868\u793A\u540E\u8BA1\u7B97\uFF0C\u5148\u8C03\u7528\uFF1B++c\u8868\u793A\u5148\u8BA1\u7B97\uFF0C\u518D\u8C03\u7528\u3002</p><p>\u6240\u4EE5\uFF0C\u5728for \u7684\uFF08\uFF09\u4E2D\uFF0Ci++\u548C++i \u7684\u6267\u884C\u6548\u679C\u4E00\u6837\uFF0C\u8BA9i\u5728\u6267\u884C\u5B8Cfor\u7ED3\u6784\u7684\u8BED\u53E5\u540E\u589E\u52A0i\u7684\u81EA\u8EAB\u503C\u3002</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081831782.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203081751134.png" alt="img" loading="lazy"></p><h2 id="switch-selection-structure" tabindex="-1"><a class="header-anchor" href="#switch-selection-structure" aria-hidden="true">#</a> Switch Selection Structure</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203112252891.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203112311757.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113320626.png" alt="img" loading="lazy"></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113339233.png" alt="img" loading="lazy"></p><h2 id="\u8865\u5145\u8BF4\u660E" tabindex="-1"><a class="header-anchor" href="#\u8865\u5145\u8BF4\u660E" aria-hidden="true">#</a> \u8865\u5145\u8BF4\u660E</h2><h3 id="a" tabindex="-1"><a class="header-anchor" href="#a" aria-hidden="true">#</a> A</h3><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113441197.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113455574.png" alt="img" loading="lazy"><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210203113640741.png" alt="img" loading="lazy"></p><h3 id="char-use-single-quotation-mark" tabindex="-1"><a class="header-anchor" href="#char-use-single-quotation-mark" aria-hidden="true">#</a> Char use single quotation mark</h3><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li><a href="https://baike.baidu.com/item/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/86397?fr=aladdin" target="_blank" rel="noopener noreferrer">https://baike.baidu.com/item/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/86397?fr=aladdin`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></li><li>COMP1011@Polyu&#39;s Teaching PowerPointhttp://c.biancheng.net/view/1360.html</li></ul><!--]-->`);
-}
-const _sfc_setup$D = _sfc_main$D.setup;
-_sfc_main$D.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std1.html.vue");
-  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
-};
-var cppStd1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$D]]);
-var cppStd1_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": cppStd1_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$C = {};
-function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E82" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E82" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E82</h1><h2 id="repetition-structures" tabindex="-1"><a class="header-anchor" href="#repetition-structures" aria-hidden="true">#</a> Repetition Structures</h2><p>\u203A Suppose we want to display 1 to 100 on the screen</p><p>\u203A Tedious to write 100 <strong>cout</strong> statements (even you perform copy-and-paste)</p><p>\u203A Repetition structures help simplify the code</p><p>\u203A Action repeated while some condition remains <strong>true</strong></p><p>\u203A Three kinds of structures: <strong>while</strong>, <strong>do-while</strong> and <strong>for</strong></p><h3 id="while-repetition-structure" tabindex="-1"><a class="header-anchor" href="#while-repetition-structure" aria-hidden="true">#</a> while Repetition Structure</h3><h4 id="code-example" tabindex="-1"><a class="header-anchor" href="#code-example" aria-hidden="true">#</a> Code Example</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/74083e91e2a76.png" alt="CleanShot 2021-02-19 at 22.33.07@2x.png" title="CleanShot 2021-02-19 at 22.33.07@2x.png"><h4 id="general-format" tabindex="-1"><a class="header-anchor" href="#general-format" aria-hidden="true">#</a> General format</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/1fc1f5eb80c2e.png" alt="CleanShot 2021-02-19 at 22.35.12@2x.png" title="CleanShot 2021-02-19 at 22.35.12@2x.png"><h3 id="constructing-repetition-structures" tabindex="-1"><a class="header-anchor" href="#constructing-repetition-structures" aria-hidden="true">#</a> Constructing Repetition Structures</h3><p>Formulating Algorithms - Constructing Repetition Structures</p><p>\u4E86\u89E3for\u548Cwhile\u7684\u8BED\u6CD5\u5E76\u4E0D\u96BE\uFF0C\u4F46\u662F\u5728\u9047\u5230\u95EE\u9898\u65F6\u5982\u4F55\u4F7F\u7528\u7ED3\u6784\u6765\u8868\u8FBE\u7B97\u6CD5\u5462\uFF1F</p><ul><li>Counter-controlled repetition: Loop repeated until counter reaches certain value</li><li>Definite repetition: Number of repetitions known</li></ul><p>Example Question: \u4E00\u73ED10\u540D\u5B66\u751F\u53C2\u52A0\u4E86\u6D4B\u9A8C\u3002\u60A8\u53EF\u4EE5\u4F7F\u7528\u6B64\u6D4B\u9A8C\u7684\u5206\u6570\uFF080\u5230100\u4E4B\u95F4\u7684\u6574\u6570\uFF09\u786E\u5B9A\u6D4B\u9A8C\u7684\u5168\u73ED\u5E73\u5747\u6C34\u5E73\u3002</p><img src="https://pic.hanjiaming.com.cn/2021/02/19/48c8abdd12a59.png" alt="CleanShot 2021-02-19 at 22.38.44@2x.png" title="CleanShot 2021-02-19 at 22.38.44@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/896a80027d2d1.png" alt="CleanShot 2021-02-19 at 22.42.42@2x.png" title="CleanShot 2021-02-19 at 22.42.42@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/f680fbf206f2b.png" alt="CleanShot 2021-02-19 at 22.43.20@2x.png" title="CleanShot 2021-02-19 at 22.43.20@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/c6c3a20e4091e.png" alt="CleanShot 2021-02-19 at 22.44.03@2x.png" title="CleanShot 2021-02-19 at 22.44.03@2x.png"><h4 id="exercise" tabindex="-1"><a class="header-anchor" href="#exercise" aria-hidden="true">#</a> Exercise</h4><img src="https://pic.hanjiaming.com.cn/2021/02/19/83ac70020859f.png" alt="CleanShot 2021-02-19 at 22.44.47@2x.png" title="CleanShot 2021-02-19 at 22.44.47@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/19/bfa08aa20eb22.png" alt="CleanShot 2021-02-19 at 22.47.06@2x.png" title="CleanShot 2021-02-19 at 22.47.06@2x.png"><h3 id="sentinel-controlled-repetition" tabindex="-1"><a class="header-anchor" href="#sentinel-controlled-repetition" aria-hidden="true">#</a> Sentinel-Controlled Repetition</h3><p>Sentinel-Controlled Repetition Formulating Algorithms</p><img src="https://pic.hanjiaming.com.cn/2021/02/20/b6a90a46583f8.png" alt="CleanShot 2021-02-20 at 14.56.46@2x.png" title="CleanShot 2021-02-20 at 14.56.46@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/9e723eb30e166.png" alt="CleanShot 2021-02-20 at 14.58.04@2x.png" title="CleanShot 2021-02-20 at 14.58.04@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/b116008bd9fe1.png" alt="CleanShot 2021-02-20 at 14.58.24@2x.png" title="CleanShot 2021-02-20 at 14.58.24@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/56ccb094e556a.png" alt="CleanShot 2021-02-20 at 14.59.33@2x.png" title="CleanShot 2021-02-20 at 14.59.33@2x.png"><h2 id="constants" tabindex="-1"><a class="header-anchor" href="#constants" aria-hidden="true">#</a> Constants</h2><img src="https://pic.hanjiaming.com.cn/2021/02/20/6e46f66a25efe.png" alt="CleanShot 2021-02-20 at 15.00.55@2x.png" title="CleanShot 2021-02-20 at 15.00.55@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/33ba77d523891.png" alt="CleanShot 2021-02-20 at 15.01.37@2x.png" title="CleanShot 2021-02-20 at 15.01.37@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/8c4bdef639228.png" alt="CleanShot 2021-02-20 at 15.02.06@2x.png" title="CleanShot 2021-02-20 at 15.02.06@2x.png"><h2 id="nested-control-structures" tabindex="-1"><a class="header-anchor" href="#nested-control-structures" aria-hidden="true">#</a> Nested Control Structures</h2><img src="https://pic.hanjiaming.com.cn/2021/02/20/d297226625a91.png" alt="CleanShot 2021-02-20 at 15.03.19@2x.png" title="CleanShot 2021-02-20 at 15.03.19@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/76702cf47f608.png" alt="CleanShot 2021-02-20 at 15.03.25@2x.png" title="CleanShot 2021-02-20 at 15.03.25@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/cb0d21640e3bb.png" alt="CleanShot 2021-02-20 at 15.03.30@2x.png" title="CleanShot 2021-02-20 at 15.03.30@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/370dbaf1b8794.png" alt="CleanShot 2021-02-20 at 15.03.33@2x.png" title="CleanShot 2021-02-20 at 15.03.33@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/1581662659af9.png" alt="CleanShot 2021-02-20 at 15.03.46@2x.png" title="CleanShot 2021-02-20 at 15.03.46@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/02/20/2abe3ea82ba37.png" width="100%"><!--]-->`);
-}
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std2.html.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
-};
-var cppStd2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$C]]);
-var cppStd2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": cppStd2_html$1
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$B = {};
-function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E83" tabindex="-1"><a class="header-anchor" href="#c-\u4F53\u7CFB\u7B80\u6613\u5165\u95E83" aria-hidden="true">#</a> C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E83</h1><h2 id="byte-word-oriented-memory-organization" tabindex="-1"><a class="header-anchor" href="#byte-word-oriented-memory-organization" aria-hidden="true">#</a> Byte/Word-oriented memory organization</h2><h3 id="byte\u5B57\u8282" tabindex="-1"><a class="header-anchor" href="#byte\u5B57\u8282" aria-hidden="true">#</a> Byte\u5B57\u8282</h3><ul><li>\u7A0B\u5E8F\u6309\u5730\u5740\u5F15\u7528\u6570\u636E <ul><li>\u4ECE\u6982\u5FF5\u4E0A\u8BB2\uFF0C\u6211\u4EEC\u5C06\u5176\u89C6\u4E3A\u975E\u5E38\u5927\u7684\u5B57\u8282\u6570\u7EC4</li><li>\u5730\u5740\u5C31\u50CF\u662F\u8BE5\u6570\u7EC4\u7684\u7D22\u5F15</li><li>\u5E76\u4E14\uFF0C\u4E00\u4E2A\u6307\u9488\u53D8\u91CF\u5B58\u50A8\u4E00\u4E2A\u5730\u5740</li></ul></li></ul><p>\u5B58\u50A8\u5668\u4E2D\u7684\u57FA\u672C\u201C\u5355\u4F4D\uFF08units\uFF09\u201D\u662F\u5B57\u8282byte\uFF088 \u4F4D\u300Cbits\u6BD4\u7279\u300D\uFF09</p><ul><li>bit\u6BD4\u7279\u503C \u53EF\u4E3A0\u62161</li><li>\u5B57\u8282\u503C \u53EF\u4E3A\u4E00\u4E2A\u5B57\u8282</li><li>8\u6BD4\u7279bit = 1\u5B57\u8282byte\uFF0C\u662F\u56E0\u4E3A8\u4E2Abit\u53EF\u4EE5\u8868\u793A\u4E00\u4E2Abyte</li></ul><h3 id="word\u5B57" tabindex="-1"><a class="header-anchor" href="#word\u5B57" aria-hidden="true">#</a> Word\u5B57</h3><ul><li><p>Word size: understood as the number of bits to represent addresses</p></li><li><p>Word size determines the <em>addressable memory range</em>\uFF08\u53EF\u5BFB\u5740\u7684\u5185\u5B58\u8303\u56F4\uFF09</p><ul><li>32-bit, can address 4GB address space</li><li>64-bit, can address 264 bytes, \u2248 18.4 X 1018 bytes \u2248 16 million 1TB Hard Disk</li></ul></li><li><p>\u5185\u5B58\u901A\u5E38\u4EE5\u8FDE\u7EED\u5B57\u8282\uFF08\u4E00\u7EC4\u5B57\u8282\uFF09\u8FDB\u884C\u8BBF\u95EE</p></li><li><p>one byte = 8 bits</p></li><li><p>one word = 4 bytes = 32 bits</p></li><li><p>double word = 8 bytes = 64 bits</p></li></ul><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204163743709.png" alt="" loading="lazy"></p><h3 id="bit\u6BD4\u7279" tabindex="-1"><a class="header-anchor" href="#bit\u6BD4\u7279" aria-hidden="true">#</a> Bit\u6BD4\u7279</h3><p>32\u4F4D=4\u5B57\u8282\uFF0C\u53EF\u8868\u793A4^16 = 2 ^32\u4E2A\u4E0D\u540C\u7684\u5730\u5740 \u3002\u6545\u5730\u5740\u662F32\u4F4D\u957F\u3002 \u6240\u4EE532\u4F4D\u5904\u7406\u5668\u4E5F\u4EE3\u8868\u6BCF\u4E2A\u5730\u5740\u957F\u5EA6\u4E3A32\u6BD4\u7279\uFF0C64\u4F4D\u5904\u7406\u5668\u4E5F\u4EE3\u8868\u6BCF\u4E2A\u5730\u5740\u957F\u5EA6\u4E3A64\u6BD4\u7279\u3002\u7531\u6B64\u63A8\u65AD32bit\u5904\u7406\u5668\u6700\u5927\u652F\u6301 2^32byte = 4GByte\u5185\u5B58\uFF0C64\u4F4D\u5904\u7406\u5668\u6700\u5927\u652F\u6301 2^64 = 2147483648GByte\u5185\u5B58\u3002</p><p>\u4EE5\u4E0B\u4E3A32\u4F4D\u53EF\u5BFB\u5740\u5185\u5B58\u56FE</p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210202091158498.png" alt="" loading="lazy"></p><p>\u8FD9\u91CC\u600E\u4E48\u7406\u89E3\u5462\uFF1F\u7B80\u5355\u7684\u8BF4\uFF0C\u5185\u5B58\u7684\u57FA\u672C\u6784\u6210\u5355\u4F4D\u4E3Abyte\u3002\u65E9\u4E9B\u65F6\u5019\uFF0C\u53D7Bus\u4F20\u8F93\u548CCPU\u9650\u5236\uFF0C\u5904\u7406\u4F4D\u6570\u4E3A32bit\uFF0C\u800C32bit\u957F\u65E2\u8981\u53EF\u4EE5\u7D22\u5F15\u5230\u6BCF\u4E2A\u5730\u5740\uFF0C\u8FD9\u9650\u5B9A\u4E86\u5185\u5B58\u7684\u5730\u5740\u6570\u91CF\uFF0C\u6240\u4EE5\uFF1B\u53C8\u8981\u80FD\u653E\u4E0B\u6BCF\u4E2Aword\uFF0C\u6240\u4EE5\u6BCF\u4E2A32bit\u9650\u5B9A\u4E86one word = 4 bytes = 32 bits\u3002\u90A3\u4E48\u5347\u7EA7\u4E3A64\u4F4D\u540E\uFF0C\u5185\u5B58\u7D22\u5F15\u6570\u91CF\u589E\u52A0\uFF0Cdouble word = 8 bytes = 64 bits\u3002</p><p>\u6211\u4EEC\u9700\u8981\u6CE8\u610F\uFF0C\u5730\u5740\u5E76\u6CA1\u6709\u5728\u5185\u5B58\u6761\u5185\u90E8\u6807\u7740\uFF0C\u800C\u662F\u4EBA\u4E3A\u6307\u5B9A\u7684\uFF0C\u8BBF\u95EE\u5730\u5740\u7531\u5904\u7406\u5668\u63A7\u5236\u3002\u56E0\u4E3A\u5185\u5B58\u6761\u662F\u901A\u7528\u7684\uFF0C\u65E2\u53EF\u4EE5\u7528\u4E8E32bits\u5904\u7406\u5668\uFF0C\u53C8\u53EF\u4EE5\u7528\u4E8E64bits\u5904\u7406\u5668\u3002</p><h2 id="data-representations-in-c" tabindex="-1"><a class="header-anchor" href="#data-representations-in-c" aria-hidden="true">#</a> Data representations in C</h2><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204163958956.png" alt="" loading="lazy"></p><h2 id="representing-strings" tabindex="-1"><a class="header-anchor" href="#representing-strings" aria-hidden="true">#</a> Representing strings</h2><p>\u6BCF\u4E00\u4E2AASCII\u7801\u5360\u75281\u5B57\u8282\uFF0C\u4E00\u5171\u662F2^8 = 256\u4E2A \u8BF7\u89C1\uFF1A<a href="https://tool.ip138.com/ascii_code/" target="_blank" rel="noopener noreferrer">https://tool.ip138.com/ascii_code/`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><p><img src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210204165909178.png" alt="" loading="lazy"></p><h2 id="c-\u53D6\u6574\u89C4\u5219" tabindex="-1"><a class="header-anchor" href="#c-\u53D6\u6574\u89C4\u5219" aria-hidden="true">#</a> c++\u53D6\u6574\u89C4\u5219</h2><ul><li>int\uFF1A\u76F4\u63A5\u4E22\u5F03\u5C0F\u6570\u90E8\u5206</li><li>floor(x)\uFF1A\u8FD4\u56DE\u7684\u662F\u5C0F\u4E8E\u6216\u7B49\u4E8Ex\u7684\u6700\u5927\u6574\u6570</li><li>ceil(x)\uFF1A\u8FD4\u56DE\u7684\u662F\u5927\u4E8Ex\u7684\u6700\u5C0F\u6574\u6570</li></ul><p>\u5F15\u7528</p><ul><li>COMP1411@polyu&#39;s Teaching PowerPoint</li><li>COMP2421@polyu&#39;s Teaching PowerPoint</li></ul><!--]-->`);
-}
 const _sfc_setup$B = _sfc_main$B.setup;
 _sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/start/cpp-std3.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/cpp/related/recursion-practice.html.vue");
   return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var cppStd3_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$B]]);
-var cppStd3_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var recursionPractice_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$B]]);
+var recursionPractice_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": cppStd3_html$1
+  "default": recursionPractice_html$1
 }, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$A = {};
 function _sfc_ssrRender$A(_ctx, _push, _parent, _attrs) {
@@ -9812,9 +9812,15 @@ const data$2k = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.13,
@@ -9963,9 +9969,15 @@ const data$2j = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.73,
@@ -10176,9 +10188,15 @@ const data$2i = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.23,
@@ -10317,9 +10335,15 @@ const data$2h = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.03,
@@ -10422,9 +10446,15 @@ const data$2g = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.06,
@@ -10517,9 +10547,15 @@ const data$2f = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.04,
@@ -10635,9 +10671,15 @@ const data$2e = {
   "excerpt": "<p>You can disable some functions on the page by setting the Frontmatter of the page.</p>\n",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -10739,9 +10781,15 @@ const data$2d = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.28,
@@ -10956,9 +11004,15 @@ const data$2c = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.21,
@@ -11101,9 +11155,15 @@ const data$2b = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.39,
@@ -11206,9 +11266,15 @@ const data$2a = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.06,
@@ -11306,9 +11372,15 @@ const data$29 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -11450,9 +11522,15 @@ const data$28 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.7,
@@ -11564,9 +11642,15 @@ const data$27 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 8.66,
@@ -11671,9 +11755,15 @@ const data$26 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -11779,9 +11869,15 @@ const data$25 = {
   "excerpt": '<h1 id="_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" tabindex="-1"><a class="header-anchor" href="#_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" aria-hidden="true">#</a> 3\u67088\u65E5\uFF0C\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005\uFF01</h1>\n<p>\u8138\u4E0A\u6DF1\u6DF1\u7684\u52D2\u75D5\u8BA9\u4EBA\u5FC3\u75BC\uFF0C*\u4F46\u4F60\u5374\u8BF4\u8FD9\u662F\u201C\u5929\u4F7F\u5370\u8BB0\u201D</p>\n<p><strong>\u662F\u9006\u884C\u8005\u6700\u7279\u522B\u7684\u201C\u6218\u75AB\u5986\u201D\uFF0C</strong> <strong>\u81F4\u656C\uFF0C\u6700\u7F8E\u7684\u4EBA\uFF01</strong></p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.41,
@@ -11886,9 +11982,15 @@ const data$24 = {
   "excerpt": '<h1 id="_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" aria-hidden="true">#</a> 2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848</h1>\n<p>\u73B0\u4EE3\u6587\u9605\u8BFB\u7740\u91CD\u8003\u67E5\u5C0F\u7EB8\u6761\u4EEC\u7B5B\u9009\u548C\u63D0\u53D6\u4FE1\u606F\u7684\u80FD\u529B\uFF0C\u7406\u89E3\u548C\u5206\u6790\u7684\u80FD\u529B\uFF0C\u9274\u8D4F\u548C\u8BC4\u4EF7\u7684\u80FD\u529B\u3002\u5728\u6700\u540E\u7684100\u5929\u4E2D\uFF0C\u5C0F\u7EB8\u6761\u4EEC\u53EF\u4EE5\u5206\u522B\u5BF9\u8BBA\u8FF0\u7C7B\u3001\u6587\u5B66\u7C7B\u3001\u5B9E\u7528\u7C7B\u6587\u672C\u7684\u4E0D\u540C\u9898\u578B\u8FDB\u884C\u603B\u7ED3\u548C\u8BAD\u7EC3\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 6.89,
@@ -12067,9 +12169,15 @@ const data$23 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 11.43,
@@ -12174,9 +12282,15 @@ const data$22 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.16,
@@ -12281,9 +12395,15 @@ const data$21 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -12388,9 +12508,15 @@ const data$20 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.17,
@@ -12495,9 +12621,15 @@ const data$1$ = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.13,
@@ -12602,9 +12734,15 @@ const data$1_ = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -12709,9 +12847,15 @@ const data$1Z = {
   "excerpt": '<h1 id="\u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91" tabindex="-1"><a class="header-anchor" href="#\u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91" aria-hidden="true">#</a> \u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.44,
@@ -12815,9 +12959,15 @@ const data$1Y = {
   "excerpt": '<h1 id="\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B-\u56E0\u4E3A-\u6211\u8981\u5B88\u62A4\u8FD9\u91CC" tabindex="-1"><a class="header-anchor" href="#\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B-\u56E0\u4E3A-\u6211\u8981\u5B88\u62A4\u8FD9\u91CC" aria-hidden="true">#</a> \u300A\u5F02\u56FD\u5927\u8425\u6551\u300B:\u56E0\u4E3A\uFF0C\u6211\u8981\u5B88\u62A4\u8FD9\u91CC</h1>\n<p>\u4E00\u8F6C\u773C\n\u5947\u732B\u56FD\u4E4B\u65C5\u63A5\u8FD1\u5C3E\u58F0\u5566~\n\u7F8A\u6751\u5B88\u62A4\u8005\u4EEC\u627E\u51FA\u4E86\u85CF\u5728\u9ED1\u6697\u91CC\n\u6F5C\u4F0F\u5728\u8EAB\u8FB9\u7684\u5927boss\n\u5B64 \u5FC3 \u72FC\n\u4E00\u573A\u7EC8\u6781\u8425\u6551\u5927\u6218\u5373\u5C06\u62C9\u5F00...</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.14,
@@ -12922,9 +13072,15 @@ const data$1X = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.16,
@@ -13029,9 +13185,15 @@ const data$1W = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.23,
@@ -13135,9 +13297,15 @@ const data$1V = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -13317,9 +13485,15 @@ const data$1U = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 7.14,
@@ -13424,9 +13598,15 @@ const data$1T = {
   "excerpt": '<h1 id="\u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B" tabindex="-1"><a class="header-anchor" href="#\u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B" aria-hidden="true">#</a> \u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B</h1>\n<p>2020\u5E747\u6708\uFF0C\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u63A8\u51FA\u6700\u65B0\u4E00\u5B63\u7684\u52A8\u753B\uFF0C\u5728\u559C\u7F8A\u7F8A\u6700\u65B0\u7CFB\u5217\u52A8\u753B\u6536\u89C6\u7387\u8FBE\u5230\u9876\u5CF0\uFF0C\u65E0\u8BBAbilibili\u8FD8\u662F\u7231\u5947\u827A\u8FD8\u662F\u4F18\u9177\uFF0C\u52A8\u753B\u70ED\u5EA6\u90FD\u662F\u7B2C\u4E00\u540D\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.79,
@@ -13531,9 +13711,15 @@ const data$1S = {
   "excerpt": '<h1 id="\u4E07\u91CC\u98CE\u534E-\u53EA\u4E89\u671D\u5915" tabindex="-1"><a class="header-anchor" href="#\u4E07\u91CC\u98CE\u534E-\u53EA\u4E89\u671D\u5915" aria-hidden="true">#</a> \u4E07\u91CC\u98CE\u534E  \u53EA\u4E89\u671D\u5915</h1>\n<p>\u8DDD\u79BB\u9AD8\u8003\u8FD8\u6709100\u5929\u3002</p>\n<p>2020\u5E74\u7684\u516D\u6708\uFF0C\u5F53\u7A97\u5916\u7EFF\u6811\u6210\u836B\u7684\uFF0C\u5C31\u662F\u4F60\u4EEC\u9AD8\u8003\u7684\u65F6\u5019\u3002 \u6211\u4E5F\u4E0D\u77E5\u9053\u8BE5\u8DDF\u4F60\u4EEC\u8BF4\u4E9B\u4EC0\u4E48\uFF0C\u9AD8\u4E09\u7684\u8270\u8F9B\u6211\u96BE\u4EE5\u60F3\u8C61\uFF0C\u80FD\u505A\u7684\u4E5F\u53EA\u6709\u53E3\u5934\u4E0A\u7684\u9F13\u52B1\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.03,
@@ -13764,9 +13950,15 @@ const data$1R = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 4.27,
@@ -13871,9 +14063,15 @@ const data$1Q = {
   "excerpt": '<h1 id="the-sound-of-china" tabindex="-1"><a class="header-anchor" href="#the-sound-of-china" aria-hidden="true">#</a> The sound of China</h1>\n<p>After Processed by Orchanger Cloud. Created by Cee-Roo</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.11,
@@ -14003,9 +14201,15 @@ const data$1P = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.25,
@@ -14111,9 +14315,15 @@ const data$1O = {
   "excerpt": '<h1 id="\u6559\u5E08\u8282-25\u51CF20\u7B49\u4E8E\u591A\u5C11-\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898" tabindex="-1"><a class="header-anchor" href="#\u6559\u5E08\u8282-25\u51CF20\u7B49\u4E8E\u591A\u5C11-\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898" aria-hidden="true">#</a> \u6559\u5E08\u8282\uFF1A25\u51CF20\u7B49\u4E8E\u591A\u5C11\uFF1F\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898\uFF01</h1>\n<p>\u4E09\u5C3A\u8BB2\u53F0\uFF0C\u4E24\u8896\u6E05\u98CE, \u6625\u6656\u56DB\u65B9\uFF0C\u6843\u674E\u5929\u4E0B\u3002\n\u795D\u8001\u5E08\u4EEC\u6559\u5E08\u8282\u5FEB\u4E50!</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.33,
@@ -14218,9 +14428,15 @@ const data$1N = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.86,
@@ -14326,9 +14542,15 @@ const data$1M = {
   "excerpt": '<h1 id="\u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F-\u957F\u5927" tabindex="-1"><a class="header-anchor" href="#\u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F-\u957F\u5927" aria-hidden="true">#</a> \u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F \u957F\u5927</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 3.12,
@@ -14433,9 +14655,15 @@ const data$1L = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.14,
@@ -14540,9 +14768,15 @@ const data$1K = {
   "excerpt": '<h1 id="\u4E00\u8DEF\u76F8\u4F34-\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74-\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69" tabindex="-1"><a class="header-anchor" href="#\u4E00\u8DEF\u76F8\u4F34-\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74-\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69" aria-hidden="true">#</a> \u4E00\u8DEF\u76F8\u4F34\uFF01\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74\uFF0C\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69\uFF01</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.21,
@@ -14672,9 +14906,15 @@ const data$1J = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 15.59,
@@ -14779,9 +15019,15 @@ const data$1I = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -14886,9 +15132,15 @@ const data$1H = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -14993,9 +15245,15 @@ const data$1G = {
   "excerpt": '<h1 id="\u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2-\u767E\u65E5\u78E8\u5251\u663E\u950B\u8292" tabindex="-1"><a class="header-anchor" href="#\u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2-\u767E\u65E5\u78E8\u5251\u663E\u950B\u8292" aria-hidden="true">#</a> \u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2 \u767E\u65E5\u78E8\u5251\u663E\u950B\u8292</h1>\n<p>\u5929\u738B\u76D6\u5730\u864E\uFF0C\u51B2\u523A985\uFF1B\u5B9D\u5854\u9547\u6CB3\u5996\uFF0C\u8003\u4E0A211\uFF01</p>\n<p>\u5E9A\u5B50\u9F20\u5E74\uFF0C\u662F\u4E0D\u5E73\u51E1\u7684\u4E00\u5E74\u3002\u4E0D\u5C11\u7F51\u53CB\u8868\u793A\uFF0C2020\u5C4A\u9AD8\u8003\u7684\u5B69\u5B50\u6700\u4F20\u5947\uFF0C\u751F\u4E8E\u201C\u975E\u5178\u201D\uFF0C\u8003\u4E8E\u201C\u80BA\u708E\u201D\u3002\u7531\u4E8E\u75AB\u60C5\uFF0C\u9AD8\u4E09\u7684\u5C0F\u7EB8\u6761\u4EEC\u5EF6\u671F\u5F00\u5B66\uFF0C\u5728\u6821\u590D\u4E60\u65F6\u95F4\u88AB\u5927\u5E45\u538B\u7F29\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.11,
@@ -15100,9 +15358,15 @@ const data$1F = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -15207,9 +15471,15 @@ const data$1E = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.47,
@@ -15351,9 +15621,15 @@ const data$1D = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.7,
@@ -15465,9 +15741,15 @@ const data$1C = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 8.66,
@@ -15572,9 +15854,15 @@ const data$1B = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -15679,9 +15967,15 @@ const data$1A = {
   "excerpt": '<h1 id="_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" tabindex="-1"><a class="header-anchor" href="#_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" aria-hidden="true">#</a> 3\u67088\u65E5\uFF0C\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005\uFF01</h1>\n<p>\u8138\u4E0A\u6DF1\u6DF1\u7684\u52D2\u75D5\u8BA9\u4EBA\u5FC3\u75BC\uFF0C*\u4F46\u4F60\u5374\u8BF4\u8FD9\u662F\u201C\u5929\u4F7F\u5370\u8BB0\u201D</p>\n<p><strong>\u662F\u9006\u884C\u8005\u6700\u7279\u522B\u7684\u201C\u6218\u75AB\u5986\u201D\uFF0C</strong> <strong>\u81F4\u656C\uFF0C\u6700\u7F8E\u7684\u4EBA\uFF01</strong></p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.41,
@@ -15786,9 +16080,15 @@ const data$1z = {
   "excerpt": '<h1 id="_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" aria-hidden="true">#</a> 2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848</h1>\n<p>\u73B0\u4EE3\u6587\u9605\u8BFB\u7740\u91CD\u8003\u67E5\u5C0F\u7EB8\u6761\u4EEC\u7B5B\u9009\u548C\u63D0\u53D6\u4FE1\u606F\u7684\u80FD\u529B\uFF0C\u7406\u89E3\u548C\u5206\u6790\u7684\u80FD\u529B\uFF0C\u9274\u8D4F\u548C\u8BC4\u4EF7\u7684\u80FD\u529B\u3002\u5728\u6700\u540E\u7684100\u5929\u4E2D\uFF0C\u5C0F\u7EB8\u6761\u4EEC\u53EF\u4EE5\u5206\u522B\u5BF9\u8BBA\u8FF0\u7C7B\u3001\u6587\u5B66\u7C7B\u3001\u5B9E\u7528\u7C7B\u6587\u672C\u7684\u4E0D\u540C\u9898\u578B\u8FDB\u884C\u603B\u7ED3\u548C\u8BAD\u7EC3\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 6.89,
@@ -15967,9 +16267,15 @@ const data$1y = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 11.43,
@@ -16074,9 +16380,15 @@ const data$1x = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.16,
@@ -16181,9 +16493,15 @@ const data$1w = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -16288,9 +16606,15 @@ const data$1v = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.17,
@@ -16395,9 +16719,15 @@ const data$1u = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.13,
@@ -16502,9 +16832,15 @@ const data$1t = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -16609,9 +16945,15 @@ const data$1s = {
   "excerpt": '<h1 id="\u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91" tabindex="-1"><a class="header-anchor" href="#\u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91" aria-hidden="true">#</a> \u539F\u521B\u52A8\u529B\u559C\u7F8A\u7F8A\u7F51\u8BFE\u4E13\u8F91</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.44,
@@ -16715,9 +17057,15 @@ const data$1r = {
   "excerpt": '<h1 id="\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B-\u56E0\u4E3A-\u6211\u8981\u5B88\u62A4\u8FD9\u91CC" tabindex="-1"><a class="header-anchor" href="#\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B-\u56E0\u4E3A-\u6211\u8981\u5B88\u62A4\u8FD9\u91CC" aria-hidden="true">#</a> \u300A\u5F02\u56FD\u5927\u8425\u6551\u300B:\u56E0\u4E3A\uFF0C\u6211\u8981\u5B88\u62A4\u8FD9\u91CC</h1>\n<p>\u4E00\u8F6C\u773C\n\u5947\u732B\u56FD\u4E4B\u65C5\u63A5\u8FD1\u5C3E\u58F0\u5566~\n\u7F8A\u6751\u5B88\u62A4\u8005\u4EEC\u627E\u51FA\u4E86\u85CF\u5728\u9ED1\u6697\u91CC\n\u6F5C\u4F0F\u5728\u8EAB\u8FB9\u7684\u5927boss\n\u5B64 \u5FC3 \u72FC\n\u4E00\u573A\u7EC8\u6781\u8425\u6551\u5927\u6218\u5373\u5C06\u62C9\u5F00...</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.14,
@@ -16822,9 +17170,15 @@ const data$1q = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.16,
@@ -16928,9 +17282,15 @@ const data$1p = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -17035,9 +17395,15 @@ const data$1o = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.23,
@@ -17217,9 +17583,15 @@ const data$1n = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 7.14,
@@ -17324,9 +17696,15 @@ const data$1m = {
   "excerpt": '<h1 id="\u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B" tabindex="-1"><a class="header-anchor" href="#\u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B" aria-hidden="true">#</a> \u6DF1\u5165\u7406\u89E3\u300A\u5F02\u56FD\u5927\u8425\u6551\u300B</h1>\n<p>2020\u5E747\u6708\uFF0C\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u63A8\u51FA\u6700\u65B0\u4E00\u5B63\u7684\u52A8\u753B\uFF0C\u5728\u559C\u7F8A\u7F8A\u6700\u65B0\u7CFB\u5217\u52A8\u753B\u6536\u89C6\u7387\u8FBE\u5230\u9876\u5CF0\uFF0C\u65E0\u8BBAbilibili\u8FD8\u662F\u7231\u5947\u827A\u8FD8\u662F\u4F18\u9177\uFF0C\u52A8\u753B\u70ED\u5EA6\u90FD\u662F\u7B2C\u4E00\u540D\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.79,
@@ -17431,9 +17809,15 @@ const data$1l = {
   "excerpt": '<h1 id="\u4E07\u91CC\u98CE\u534E-\u53EA\u4E89\u671D\u5915" tabindex="-1"><a class="header-anchor" href="#\u4E07\u91CC\u98CE\u534E-\u53EA\u4E89\u671D\u5915" aria-hidden="true">#</a> \u4E07\u91CC\u98CE\u534E  \u53EA\u4E89\u671D\u5915</h1>\n<p>\u8DDD\u79BB\u9AD8\u8003\u8FD8\u6709100\u5929\u3002</p>\n<p>2020\u5E74\u7684\u516D\u6708\uFF0C\u5F53\u7A97\u5916\u7EFF\u6811\u6210\u836B\u7684\uFF0C\u5C31\u662F\u4F60\u4EEC\u9AD8\u8003\u7684\u65F6\u5019\u3002 \u6211\u4E5F\u4E0D\u77E5\u9053\u8BE5\u8DDF\u4F60\u4EEC\u8BF4\u4E9B\u4EC0\u4E48\uFF0C\u9AD8\u4E09\u7684\u8270\u8F9B\u6211\u96BE\u4EE5\u60F3\u8C61\uFF0C\u80FD\u505A\u7684\u4E5F\u53EA\u6709\u53E3\u5934\u4E0A\u7684\u9F13\u52B1\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.03,
@@ -17538,9 +17922,15 @@ const data$1k = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -17645,9 +18035,15 @@ const data$1j = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.15,
@@ -17878,9 +18274,15 @@ const data$1i = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 4.27,
@@ -17985,9 +18387,15 @@ const data$1h = {
   "excerpt": '<h1 id="the-sound-of-china" tabindex="-1"><a class="header-anchor" href="#the-sound-of-china" aria-hidden="true">#</a> The sound of China</h1>\n<p>After Processed by Orchanger Cloud. Created by Cee-Roo</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.11,
@@ -18117,9 +18525,15 @@ const data$1g = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.25,
@@ -18225,9 +18639,15 @@ const data$1f = {
   "excerpt": '<h1 id="\u6559\u5E08\u8282-25\u51CF20\u7B49\u4E8E\u591A\u5C11-\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898" tabindex="-1"><a class="header-anchor" href="#\u6559\u5E08\u8282-25\u51CF20\u7B49\u4E8E\u591A\u5C11-\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898" aria-hidden="true">#</a> \u6559\u5E08\u8282\uFF1A25\u51CF20\u7B49\u4E8E\u591A\u5C11\uFF1F\u8FD9\u662F\u4E00\u9053\u9001\u5206\u9898\uFF01</h1>\n<p>\u4E09\u5C3A\u8BB2\u53F0\uFF0C\u4E24\u8896\u6E05\u98CE, \u6625\u6656\u56DB\u65B9\uFF0C\u6843\u674E\u5929\u4E0B\u3002\n\u795D\u8001\u5E08\u4EEC\u6559\u5E08\u8282\u5FEB\u4E50!</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.33,
@@ -18332,9 +18752,15 @@ const data$1e = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.86,
@@ -18440,9 +18866,15 @@ const data$1d = {
   "excerpt": '<h1 id="\u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F-\u957F\u5927" tabindex="-1"><a class="header-anchor" href="#\u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F-\u957F\u5927" aria-hidden="true">#</a> \u6700\u300C\u7B80\u5355\u7684\u5E78\u798F\u300D\u770B\u5B8C\u8C01\u8FD8\u613F\u610F \u957F\u5927</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 3.12,
@@ -18547,9 +18979,15 @@ const data$1c = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.14,
@@ -18654,9 +19092,15 @@ const data$1b = {
   "excerpt": '<h1 id="\u4E00\u8DEF\u76F8\u4F34-\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74-\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69" tabindex="-1"><a class="header-anchor" href="#\u4E00\u8DEF\u76F8\u4F34-\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74-\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69" aria-hidden="true">#</a> \u4E00\u8DEF\u76F8\u4F34\uFF01\u559C\u7F8A\u7F8A\u4E0E\u7070\u592A\u72FC\u5341\u4E94\u5468\u5E74\uFF0C\u56E0\u6211\u4EEC\u800C\u7CBE\u5F69\uFF01</h1>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.21,
@@ -18786,9 +19230,15 @@ const data$1a = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 15.59,
@@ -18893,9 +19343,15 @@ const data$19 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.14,
@@ -19000,9 +19456,15 @@ const data$18 = {
   "excerpt": '<h1 id="\u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2-\u767E\u65E5\u78E8\u5251\u663E\u950B\u8292" tabindex="-1"><a class="header-anchor" href="#\u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2-\u767E\u65E5\u78E8\u5251\u663E\u950B\u8292" aria-hidden="true">#</a> \u5C11\u5E74\u81EA\u6709\u5C11\u5E74\u72C2 \u767E\u65E5\u78E8\u5251\u663E\u950B\u8292</h1>\n<p>\u5929\u738B\u76D6\u5730\u864E\uFF0C\u51B2\u523A985\uFF1B\u5B9D\u5854\u9547\u6CB3\u5996\uFF0C\u8003\u4E0A211\uFF01</p>\n<p>\u5E9A\u5B50\u9F20\u5E74\uFF0C\u662F\u4E0D\u5E73\u51E1\u7684\u4E00\u5E74\u3002\u4E0D\u5C11\u7F51\u53CB\u8868\u793A\uFF0C2020\u5C4A\u9AD8\u8003\u7684\u5B69\u5B50\u6700\u4F20\u5947\uFF0C\u751F\u4E8E\u201C\u975E\u5178\u201D\uFF0C\u8003\u4E8E\u201C\u80BA\u708E\u201D\u3002\u7531\u4E8E\u75AB\u60C5\uFF0C\u9AD8\u4E09\u7684\u5C0F\u7EB8\u6761\u4EEC\u5EF6\u671F\u5F00\u5B66\uFF0C\u5728\u6821\u590D\u4E60\u65F6\u95F4\u88AB\u5927\u5E45\u538B\u7F29\u3002</p>\n',
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.11,
@@ -19107,9 +19569,15 @@ const data$17 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.47,
@@ -19206,9 +19674,15 @@ const data$16 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -19488,9 +19962,15 @@ const data$15 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 17.95,
@@ -19588,9 +20068,15 @@ const data$14 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -19687,9 +20173,15 @@ const data$13 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -19888,9 +20380,15 @@ const data$12 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 4.31,
@@ -20161,9 +20659,15 @@ const data$11 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 16.41,
@@ -20348,9 +20852,15 @@ const data$10 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 6.04,
@@ -20492,9 +21002,15 @@ const data$$ = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 4.28,
@@ -20648,9 +21164,15 @@ const data$_ = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 11.88,
@@ -20816,9 +21338,15 @@ const data$Z = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 8.18,
@@ -21039,9 +21567,15 @@ const data$Y = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 12.3,
@@ -21282,9 +21816,15 @@ const data$X = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 5.72,
@@ -21494,9 +22034,15 @@ const data$W = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 6.68,
@@ -21594,9 +22140,15 @@ const data$V = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0,
@@ -21609,6 +22161,620 @@ var index_html$y = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   data: data$V
 }, Symbol.toStringTag, { value: "Module" }));
 const data$U = {
+  "key": "v-3ffb3bbc",
+  "path": "/note/cs/co/digitalSystem/digital-system1.html",
+  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51 \u5199\u8FC7\u8BA1\u7B97\u673A\u4EE3\u7801\u7684\u540C\u5B66\u5927\u90FD\u77E5\u9053\uFF0C\u8BA1\u7B97\u673A\u4E2D\u7684\u5C0F\u6570\u65E0\u6CD5\u8FDB\u884C\u7CBE\u786E\u8BA1\u7B97\uFF0C\u8FD9\u662F\u4E3A\u4EC0\u4E48\u5462\uFF1F\u8FD9\u662F\u56E0\u4E3A\u4E0D\u540C\u8FDB\u5236\u7684\u5C0F\u6570\u4E0D\u80FD\u7CBE\u786E\u7684\u8F6C\u6362\u3002\u6211\u4EEC\u8FD9\u7BC7\u6587\u7AE0\u5C06\u63A2\u7A76\u8FD9\u4E2A\u95EE\u9898\u3002 \u9605\u8BFB\u8FD9\u7BC7\u6587\u7AE0\u524D\uFF0C\u4F60\u53EF\u80FD\u9700\u8981\u9605\u8BFB \u8BA1\u7B97\u673A\u7EC4\u7EC7\u7B80\u4ECB Number Systems \u7684 \u6982\u8FF0 \u6574\u6570\u7684\u8868\u793A \u4EBA\u8BA1\u6570\u4EE510\u4E3A\u8FDB\u5236 610\uFF0C\u4E00\u4E2A\u7B80\u5355\u7684\u5341\u8FDB\u5236\u7684\u6570\u5B57\u3002 \u89C2\u5BDF\u6211\u4EEC\u53EF\u4EE5\u53D1\u73B0\uFF0C\u4E00\u4E2A\u6570\u5B57\u6709\u8FD9\u6837\u7684\u7279\u70B9 ",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system1.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Number Systems \u7684 \u6982\u8FF0",
+      "slug": "number-systems-\u7684-\u6982\u8FF0",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u6574\u6570\u7684\u8868\u793A",
+          "slug": "\u6574\u6570\u7684\u8868\u793A",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u63A2\u7D22\u89C4\u5F8B",
+          "slug": "\u63A2\u7D22\u89C4\u5F8B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5C0F\u6570\u7684\u8868\u793A",
+          "slug": "\u5C0F\u6570\u7684\u8868\u793A",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u8F6C\u6362\u6CD5",
+      "slug": "\u8F6C\u6362\u6CD5",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236",
+          "slug": "\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236",
+          "slug": "_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236",
+          "slug": "\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236",
+          "slug": "\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236",
+          "slug": "\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u9644\u6CE8",
+      "slug": "\u9644\u6CE8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5F15\u7528\u6750\u6599",
+      "slug": "\u5F15\u7528\u6750\u6599",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 4.08,
+    "words": 1224
+  },
+  "filePathRelative": "note/cs/co/digitalSystem/digital-system1.md"
+};
+var digitalSystem1_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$U
+}, Symbol.toStringTag, { value: "Module" }));
+const data$T = {
+  "key": "v-41b0145b",
+  "path": "/note/cs/co/digitalSystem/digital-system2.html",
+  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52 \u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143\uFF08ALU\uFF09 \u5BF9\u6570\u636E\u6267\u884C\u7B97\u672F\u548C\u903B\u8F91\u8FD0\u7B97\u7684\u8BA1\u7B97\u673A\u7684\u5B9E\u9645\u90E8\u5206 \u6240\u6709\u5176\u4ED6\u90E8\u5206\u5171\u540C\u534F\u4F5C\uFF0C\u5C06\u6570\u636E\u53D1\u9001\u5230ALU\u8FDB\u884C\u5904\u7406\uFF0C\u5E76\u53D6\u51FA\u7ED3\u679C ALU\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F \u63A7\u5236\u5355\u5143\uFF08Control Unit\uFF09\uFF1A\u7ED9\u51FA\u64CD\u4F5C\u8BF4\u660E; \u5DE6\u4FA7\u7684\u5BC4\u5B58\u5668\uFF08Registers\uFF09\uFF1A\u7528\u4E8E\u4FDD\u5B58\u8F93\u5165\u6570\u636E\u7684\u7F13\u51B2\u533A; \u6807\u5FD7(Flags)\uFF1A\u6307\u793A\u6307\u4EE4\u7ED3\u679C\u7684\u72B6\u6001; \u53F3\u8FB9\u7684\u5BC4\u5B58\u5668(Regi",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system2.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143\uFF08ALU\uFF09",
+      "slug": "\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143-alu",
+      "children": [
+        {
+          "level": 3,
+          "title": "ALU\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F",
+          "slug": "alu\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F",
+          "slug": "\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A",
+      "slug": "\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570",
+          "slug": "\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7279\u70B9",
+          "slug": "\u7279\u70B9",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57",
+          "slug": "\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "2\u2019s Complement Representation",
+      "slug": "_2-s-complement-representation",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801",
+          "slug": "\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u8868\u793A\u6CD5\u5219",
+          "slug": "\u8868\u793A\u6CD5\u5219",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5",
+          "slug": "\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Representation of Different Number of Bits",
+          "slug": "representation-of-different-number-of-bits",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236",
+          "slug": "\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4E8C\u8FDB\u5236\u4E58\u6CD5",
+          "slug": "\u4E8C\u8FDB\u5236\u4E58\u6CD5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5176\u4ED6\u8D44\u6599\uFF08\u591A\u4EE5C\u8BED\u8A00\u4E3A\u4F8B\uFF09",
+      "slug": "\u5176\u4ED6\u8D44\u6599-\u591A\u4EE5c\u8BED\u8A00\u4E3A\u4F8B",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u6570\u503C\u5B58\u50A8\u8303\u56F4",
+          "slug": "\u6570\u503C\u5B58\u50A8\u8303\u56F4",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F",
+          "slug": "\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97",
+          "slug": "\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362",
+          "slug": "\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9",
+          "slug": "\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Overflow",
+          "slug": "overflow",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5F15\u7528\u6750\u6599",
+      "slug": "\u5F15\u7528\u6750\u6599",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 14.17,
+    "words": 4252
+  },
+  "filePathRelative": "note/cs/co/digitalSystem/digital-system2.md"
+};
+var digitalSystem2_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$T
+}, Symbol.toStringTag, { value: "Module" }));
+const data$S = {
+  "key": "v-4364ecfa",
+  "path": "/note/cs/co/digitalSystem/digital-system3.html",
+  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53 Fractional binary numbers Fractional binary numbers \u5206\u6570\u4E8C\u8FDB\u5236\u6570 Fractional decimal numbers; 11.62510 = 1 101 + 1 100 + 6 10-1 + 210-2 + 5*10-3; Precision: 10-3; Fractional bi",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system3.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Fractional binary numbers",
+      "slug": "fractional-binary-numbers",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u8F6C\u6362\u516C\u5F0F",
+          "slug": "\u8F6C\u6362\u516C\u5F0F",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4E3E\u4F8B",
+          "slug": "\u4E3E\u4F8B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5C40\u9650\u6027",
+          "slug": "\u5C40\u9650\u6027",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "IEEE Floating Point",
+      "slug": "ieee-floating-point",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Floating Point Representation",
+      "slug": "floating-point-representation",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u6D6E\u70B9\uFF08FT\uFF09\u8868\u793A",
+          "slug": "\u6D6E\u70B9-ft-\u8868\u793A",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u504F\u6307\u6570E\uFF08\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B\uFF09",
+          "slug": "\u504F\u6307\u6570e-\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B",
+          "slug": "\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5185\u5B58\u67E5\u770B",
+          "slug": "\u5185\u5B58\u67E5\u770B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Denormalized values",
+          "slug": "denormalized-values",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Example",
+          "slug": "example",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4",
+          "slug": "\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u603B\u7ED3",
+          "slug": "\u603B\u7ED3",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 5.21,
+    "words": 1563
+  },
+  "filePathRelative": "note/cs/co/digitalSystem/digital-system3.md"
+};
+var digitalSystem3_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$S
+}, Symbol.toStringTag, { value: "Module" }));
+const data$R = {
   "key": "v-66087266",
   "path": "/note/cs/co/Memory/External%20Memory.html",
   "title": "External Memory",
@@ -21800,9 +22966,15 @@ const data$U = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 11.93,
@@ -21812,9 +22984,9 @@ const data$U = {
 };
 var External_Memory_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$U
+  data: data$R
 }, Symbol.toStringTag, { value: "Module" }));
-const data$T = {
+const data$Q = {
   "key": "v-0225c5d8",
   "path": "/note/cs/co/Memory/Internal%20Memory.html",
   "title": "Internal Memory",
@@ -22087,9 +23259,15 @@ const data$T = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 15.61,
@@ -22099,9 +23277,9 @@ const data$T = {
 };
 var Internal_Memory_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$T
+  data: data$Q
 }, Symbol.toStringTag, { value: "Module" }));
-const data$S = {
+const data$P = {
   "key": "v-00f03e50",
   "path": "/note/cs/co/Memory/Introduction-to-Computer-Memory-and-Cache-Memory.html",
   "title": "Introduction to Computer Memory and Cache Memory",
@@ -22287,9 +23465,15 @@ const data$S = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 18.4,
@@ -22299,9 +23483,9 @@ const data$S = {
 };
 var IntroductionToComputerMemoryAndCacheMemory_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$S
+  data: data$P
 }, Symbol.toStringTag, { value: "Module" }));
-const data$R = {
+const data$O = {
   "key": "v-b19eba34",
   "path": "/note/cs/co/Memory/",
   "title": "Memory",
@@ -22387,9 +23571,15 @@ const data$R = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0,
@@ -22399,1995 +23589,9 @@ const data$R = {
 };
 var index_html$x = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$R
-}, Symbol.toStringTag, { value: "Module" }));
-const data$Q = {
-  "key": "v-3ffb3bbc",
-  "path": "/note/cs/co/digitalSystem/digital-system1.html",
-  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51 \u5199\u8FC7\u8BA1\u7B97\u673A\u4EE3\u7801\u7684\u540C\u5B66\u5927\u90FD\u77E5\u9053\uFF0C\u8BA1\u7B97\u673A\u4E2D\u7684\u5C0F\u6570\u65E0\u6CD5\u8FDB\u884C\u7CBE\u786E\u8BA1\u7B97\uFF0C\u8FD9\u662F\u4E3A\u4EC0\u4E48\u5462\uFF1F\u8FD9\u662F\u56E0\u4E3A\u4E0D\u540C\u8FDB\u5236\u7684\u5C0F\u6570\u4E0D\u80FD\u7CBE\u786E\u7684\u8F6C\u6362\u3002\u6211\u4EEC\u8FD9\u7BC7\u6587\u7AE0\u5C06\u63A2\u7A76\u8FD9\u4E2A\u95EE\u9898\u3002 \u9605\u8BFB\u8FD9\u7BC7\u6587\u7AE0\u524D\uFF0C\u4F60\u53EF\u80FD\u9700\u8981\u9605\u8BFB \u8BA1\u7B97\u673A\u7EC4\u7EC7\u7B80\u4ECB Number Systems \u7684 \u6982\u8FF0 \u6574\u6570\u7684\u8868\u793A \u4EBA\u8BA1\u6570\u4EE510\u4E3A\u8FDB\u5236 610\uFF0C\u4E00\u4E2A\u7B80\u5355\u7684\u5341\u8FDB\u5236\u7684\u6570\u5B57\u3002 \u89C2\u5BDF\u6211\u4EEC\u53EF\u4EE5\u53D1\u73B0\uFF0C\u4E00\u4E2A\u6570\u5B57\u6709\u8FD9\u6837\u7684\u7279\u70B9 ",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system1.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Number Systems \u7684 \u6982\u8FF0",
-      "slug": "number-systems-\u7684-\u6982\u8FF0",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u6574\u6570\u7684\u8868\u793A",
-          "slug": "\u6574\u6570\u7684\u8868\u793A",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u63A2\u7D22\u89C4\u5F8B",
-          "slug": "\u63A2\u7D22\u89C4\u5F8B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5C0F\u6570\u7684\u8868\u793A",
-          "slug": "\u5C0F\u6570\u7684\u8868\u793A",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u8F6C\u6362\u6CD5",
-      "slug": "\u8F6C\u6362\u6CD5",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236",
-          "slug": "\u5176\u4ED6\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u621010\u8FDB\u5236",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236",
-          "slug": "_10\u8FDB\u5236\u6574\u6570\u8F6C\u6362\u6210\u5176\u4ED6\u8FDB\u5236",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236",
-          "slug": "\u5C06\u4E8C\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u5341\u8FDB\u5236",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236",
-          "slug": "\u5C06\u5341\u8FDB\u5236\u5C0F\u6570\u8F6C\u6362\u4E3A\u4E8C\u8FDB\u5236",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236",
-          "slug": "\u5C06\u4E8C\u8FDB\u5236\u8F6C\u6362\u4E3A\u5341\u516D\u8FDB\u5236",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u9644\u6CE8",
-      "slug": "\u9644\u6CE8",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5F15\u7528\u6750\u6599",
-      "slug": "\u5F15\u7528\u6750\u6599",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 4.08,
-    "words": 1224
-  },
-  "filePathRelative": "note/cs/co/digitalSystem/digital-system1.md"
-};
-var digitalSystem1_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$Q
-}, Symbol.toStringTag, { value: "Module" }));
-const data$P = {
-  "key": "v-41b0145b",
-  "path": "/note/cs/co/digitalSystem/digital-system2.html",
-  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52 \u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143\uFF08ALU\uFF09 \u5BF9\u6570\u636E\u6267\u884C\u7B97\u672F\u548C\u903B\u8F91\u8FD0\u7B97\u7684\u8BA1\u7B97\u673A\u7684\u5B9E\u9645\u90E8\u5206 \u6240\u6709\u5176\u4ED6\u90E8\u5206\u5171\u540C\u534F\u4F5C\uFF0C\u5C06\u6570\u636E\u53D1\u9001\u5230ALU\u8FDB\u884C\u5904\u7406\uFF0C\u5E76\u53D6\u51FA\u7ED3\u679C ALU\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F \u63A7\u5236\u5355\u5143\uFF08Control Unit\uFF09\uFF1A\u7ED9\u51FA\u64CD\u4F5C\u8BF4\u660E; \u5DE6\u4FA7\u7684\u5BC4\u5B58\u5668\uFF08Registers\uFF09\uFF1A\u7528\u4E8E\u4FDD\u5B58\u8F93\u5165\u6570\u636E\u7684\u7F13\u51B2\u533A; \u6807\u5FD7(Flags)\uFF1A\u6307\u793A\u6307\u4EE4\u7ED3\u679C\u7684\u72B6\u6001; \u53F3\u8FB9\u7684\u5BC4\u5B58\u5668(Regi",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system2.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143\uFF08ALU\uFF09",
-      "slug": "\u7B97\u672F\u4E0E\u903B\u8F91\u5355\u5143-alu",
-      "children": [
-        {
-          "level": 3,
-          "title": "ALU\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F",
-          "slug": "alu\u7684\u8F93\u5165\u548C\u8F93\u51FA\u793A\u610F",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F",
-          "slug": "\u7B80\u5355\u7684\u52A0\u6CD5\u5668\u793A\u610F",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A",
-      "slug": "\u8BA1\u7B97\u673A\u4E2D\u7684\u6570\u5B57\u8868\u793A",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570",
-          "slug": "\u6709\u7B26\u53F7\u6570\u548C\u65E0\u7B26\u53F7\u6570",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u7279\u70B9",
-          "slug": "\u7279\u70B9",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57",
-          "slug": "\u8BA1\u7B97\u673A\u8F6F\u4EF6\u4F7F\u7528\u4E8C\u8FDB\u5236\u7F16\u7801\u8868\u793A\u6570\u5B57",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "2\u2019s Complement Representation",
-      "slug": "_2-s-complement-representation",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801",
-          "slug": "\u4E8C\u8FDB\u5236\u7684\u539F\u7801\u3001\u8865\u7801\u548C\u53CD\u7801",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u8868\u793A\u6CD5\u5219",
-          "slug": "\u8868\u793A\u6CD5\u5219",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5",
-          "slug": "\u4E8C\u8FDB\u5236\u8865\u7801\u52A0\u6CD5",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Representation of Different Number of Bits",
-          "slug": "representation-of-different-number-of-bits",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236",
-          "slug": "\u5E26\u6709\u8865\u7801\u7684\u4E8C\u8FDB\u5236\u8F6C\u5341\u8FDB\u5236",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4E8C\u8FDB\u5236\u4E58\u6CD5",
-          "slug": "\u4E8C\u8FDB\u5236\u4E58\u6CD5",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5176\u4ED6\u8D44\u6599\uFF08\u591A\u4EE5C\u8BED\u8A00\u4E3A\u4F8B\uFF09",
-      "slug": "\u5176\u4ED6\u8D44\u6599-\u591A\u4EE5c\u8BED\u8A00\u4E3A\u4F8B",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u6570\u503C\u5B58\u50A8\u8303\u56F4",
-          "slug": "\u6570\u503C\u5B58\u50A8\u8303\u56F4",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F",
-          "slug": "\u6570\u503C\u5728\u5185\u5B58\u4E2D\u7684\u5927\u5C0F",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97",
-          "slug": "\u6570\u503C\u7C7B\u578B\u8F6C\u6362\u548C\u8FD0\u7B97",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362",
-          "slug": "\u6709\u65E0\u7B26\u53F7\u6570\u7684\u8F6C\u6362",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9",
-          "slug": "\u65E0\u7B26\u53F7\u6570\u7684\u7279\u70B9",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Overflow",
-          "slug": "overflow",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5F15\u7528\u6750\u6599",
-      "slug": "\u5F15\u7528\u6750\u6599",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 14.17,
-    "words": 4252
-  },
-  "filePathRelative": "note/cs/co/digitalSystem/digital-system2.md"
-};
-var digitalSystem2_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$P
-}, Symbol.toStringTag, { value: "Module" }));
-const data$O = {
-  "key": "v-4364ecfa",
-  "path": "/note/cs/co/digitalSystem/digital-system3.html",
-  "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53 Fractional binary numbers Fractional binary numbers \u5206\u6570\u4E8C\u8FDB\u5236\u6570 Fractional decimal numbers; 11.62510 = 1 101 + 1 100 + 6 10-1 + 210-2 + 5*10-3; Precision: 10-3; Fractional bi",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/co/digitalSystem/digital-system3.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Fractional binary numbers",
-      "slug": "fractional-binary-numbers",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u8F6C\u6362\u516C\u5F0F",
-          "slug": "\u8F6C\u6362\u516C\u5F0F",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4E3E\u4F8B",
-          "slug": "\u4E3E\u4F8B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5C40\u9650\u6027",
-          "slug": "\u5C40\u9650\u6027",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "IEEE Floating Point",
-      "slug": "ieee-floating-point",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Floating Point Representation",
-      "slug": "floating-point-representation",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u6D6E\u70B9\uFF08FT\uFF09\u8868\u793A",
-          "slug": "\u6D6E\u70B9-ft-\u8868\u793A",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u504F\u6307\u6570E\uFF08\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B\uFF09",
-          "slug": "\u504F\u6307\u6570e-\u4EE5\u5355\u7CBE\u5EA6\u4E3E\u4F8B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B",
-          "slug": "\u5355\u7CBE\u5EA6\u53D8\u91CF\u548C\u53CC\u7CBE\u5EA6\u53D8\u91CF\u7684\u533A\u522B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5185\u5B58\u67E5\u770B",
-          "slug": "\u5185\u5B58\u67E5\u770B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Denormalized values",
-          "slug": "denormalized-values",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Example",
-          "slug": "example",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4",
-          "slug": "\u4E8C\u8FDB\u5236\u6D6E\u70B9\u6570\u7684\u8303\u56F4",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u603B\u7ED3",
-          "slug": "\u603B\u7ED3",
-          "children": []
-        }
-      ]
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 5.21,
-    "words": 1563
-  },
-  "filePathRelative": "note/cs/co/digitalSystem/digital-system3.md"
-};
-var digitalSystem3_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
   data: data$O
 }, Symbol.toStringTag, { value: "Module" }));
 const data$N = {
-  "key": "v-95cb104c",
-  "path": "/note/cs/cpp/related/Block-Collection-std.html",
-  "title": "Block Collection",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "Block Collection \u5B9A\u4E49(\u58F0\u660E) \u548C \u8D4B\u503C\u53D8\u91CF \u5BF9\u6216\u8005\u9519\uFF0C\u9519\u8BEF\u539F\u56E0 -------------------- ----------------------------------- int 3; cannot start with digit	int a=3; double; double b; int = 19; int c=19; floa",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/Block-Collection-std.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "Block Collection"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5B9A\u4E49(\u58F0\u660E) \u548C \u8D4B\u503C\u53D8\u91CF",
-      "slug": "\u5B9A\u4E49-\u58F0\u660E-\u548C-\u8D4B\u503C\u53D8\u91CF",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BA1\u7B97\u8BED\u53E5",
-      "slug": "\u8BA1\u7B97\u8BED\u53E5",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u5E38\u7528\u4EE3\u7801",
-          "slug": "\u5E38\u7528\u4EE3\u7801",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4E09\u76EE\u8FD0\u7B97",
-          "slug": "\u4E09\u76EE\u8FD0\u7B97",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Call by Pointer",
-      "slug": "call-by-pointer",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "size of()",
-      "slug": "size-of",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 2.27,
-    "words": 680
-  },
-  "filePathRelative": "note/cs/cpp/related/Block-Collection-std.md"
-};
-var BlockCollectionStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$N
-}, Symbol.toStringTag, { value: "Module" }));
-const data$M = {
-  "key": "v-7246cfeb",
-  "path": "/note/cs/cpp/related/",
-  "title": "Related Knowledge Guide",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "index": false,
-    "summary": "Related Knowledge Guide",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "Related Knowledge Guide"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 0.01,
-    "words": 3
-  },
-  "filePathRelative": "note/cs/cpp/related/README.md"
-};
-var index_html$w = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$M
-}, Symbol.toStringTag, { value: "Module" }));
-const data$L = {
-  "key": "v-848fadd2",
-  "path": "/note/cs/cpp/related/Searching-Algorithms.html",
-  "title": "Searching Algorithms",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "Searching Algorithms Goal Given an array A of n numbers (in ascending order) Find the position of a key k from the array A; return \u20131 if not found; A: 1 3 8 12 17 23 | 35 Algorithm",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/Searching-Algorithms.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "Searching Algorithms"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Goal",
-      "slug": "goal",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Algorithm 1: Linear search",
-      "slug": "algorithm-1-linear-search",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Algorithm 2: Binary search",
-      "slug": "algorithm-2-binary-search",
-      "children": [
-        {
-          "level": 3,
-          "title": "Code",
-          "slug": "code",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Example",
-          "slug": "example",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Time complexity of binary search",
-          "slug": "time-complexity-of-binary-search",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5F15\u7528",
-      "slug": "\u5F15\u7528",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 2.22,
-    "words": 667
-  },
-  "filePathRelative": "note/cs/cpp/related/Searching-Algorithms.md"
-};
-var SearchingAlgorithms_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$L
-}, Symbol.toStringTag, { value: "Module" }));
-const data$K = {
-  "key": "v-558828b8",
-  "path": "/note/cs/cpp/related/argc-argv.html",
-  "title": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv \u524D\u8A00 \u5728\u8BB8\u591AC ++ IDE\u548C\u7F16\u8BD1\u5668\u4E2D\uFF0C\u5F53\u5B83\u4E3A\u60A8\u751F\u6210main\u51FD\u6570\u65F6\uFF0C\u5B83\u770B\u8D77\u6765\u50CF\u8FD9\u6837\uFF1A \u6216\u8005 \u800C\u4E0D\u662F main \u51FD\u6570\u7279\u70B9 main() \u51FD\u6570\u662F C++ \u7A0B\u5E8F\u7684\u5165\u53E3\u51FD\u6570\uFF0CC++ \u6807\u51C6\u89C4\u5B9A main() \u51FD\u6570\u7684\u8FD4\u56DE\u503C\u7C7B\u578B\u4E3A int\uFF0C\u8FD4\u56DE\u503C\u7528\u4E8E\u8868\u793A\u7A0B\u5E8F\u7684\u9000\u51FA\u72B6\u6001\uFF0C\u8FD4\u56DE 0 \u8868\u793A\u7A0B\u5E8F\u6B63\u5E38\u9000\u51FA\uFF0C\u8FD4\u56DE\u975E 0\uFF0C\u8868\u793A\u51FA\u73B0\u5F02\u5E38\u3002C++ \u6807",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/argc-argv.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u524D\u8A00",
-      "slug": "\u524D\u8A00",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "main \u51FD\u6570\u7279\u70B9",
-      "slug": "main-\u51FD\u6570\u7279\u70B9",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Introduction",
-      "slug": "introduction",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u6848\u4F8B",
-      "slug": "\u6848\u4F8B",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u7B2C\u4E00\u6848\u4F8B\uFF1A\u63A2\u7D22argv[0]",
-          "slug": "\u7B2C\u4E00\u6848\u4F8B-\u63A2\u7D22argv-0",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u7B2C\u4E8C\u6848\u4F8B\uFF1A\u4ECE\u5916\u754C\u4F20\u5165\u53C2\u6570",
-          "slug": "\u7B2C\u4E8C\u6848\u4F8B-\u4ECE\u5916\u754C\u4F20\u5165\u53C2\u6570",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u4ED6\u8A00",
-      "slug": "\u4ED6\u8A00",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 3.13,
-    "words": 939
-  },
-  "filePathRelative": "note/cs/cpp/related/argc-argv.md"
-};
-var argcArgv_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$K
-}, Symbol.toStringTag, { value: "Module" }));
-const data$J = {
-  "key": "v-fe5ab988",
-  "path": "/note/cs/cpp/related/char-array-pointer.html",
-  "title": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3 \u8BC1\u660E\uFF1A\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027 \u6570\u7EC4\u7684\u540D\u79F0 \u5C31\u662F\u6307\u9488\uFF0C\u4ED6\u4EEC\u5728\u5185\u5B58\u7ED3\u6784\u4E0A\u5341\u5206\u76F8\u4F3C\u3002 cout << arr << endl; ; arr \u662F\u6570\u7EC4\u7684\u540D\u79F0\uFF1B\u4F46\u662F\uFF0C\u6839\u636E\u6211\u4EEC\u7684\u6784\u60F3\uFF0C\u6570\u7EC4\u5C31\u662F\u6307\u9488\uFF1B; \u6240\u4EE5\u8FD9\u91CC\u4F1A\u8F93\u51FA\u6570\u7EC4\u5730\u5740\uFF1B; \u6839\u636E\u6211\u4EEC\u6240\u5B66\u7684\u77E5\u8BC6\uFF0C\u6570\u7EC4\u7684\u5730\u5740\u5C31\u662F\u6570\u7EC4\u7684\u9996\u4E2A\u5143\u7D20\u7684\u5730\u5740\uFF0C\u5373 arr[0] \u7684\u5730\u5740\u3002; \u8FD9\u91CC\u4F53\u73B0\u4E86 arr[0] \u7684\u672C",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/char-array-pointer.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u8BC1\u660E\uFF1A\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027",
-      "slug": "\u8BC1\u660E-\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BC1\u660E\uFF1Achar array\u8F6C\u6362\u673A\u5236",
-      "slug": "\u8BC1\u660E-char-array\u8F6C\u6362\u673A\u5236",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u8F6C\u6362\u673A\u5236/C++\u7684\u91CD\u8F7D\u7279\u6027",
-          "slug": "\u8F6C\u6362\u673A\u5236-c-\u7684\u91CD\u8F7D\u7279\u6027",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "char \u7684 \u8F6C\u6362\u673A\u5236",
-          "slug": "char-\u7684-\u8F6C\u6362\u673A\u5236",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5F15\u7528\u6750\u6599",
-      "slug": "\u5F15\u7528\u6750\u6599",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 2.83,
-    "words": 848
-  },
-  "filePathRelative": "note/cs/cpp/related/char-array-pointer.md"
-};
-var charArrayPointer_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$J
-}, Symbol.toStringTag, { value: "Module" }));
-const data$I = {
-  "key": "v-d1bc682c",
-  "path": "/note/cs/cpp/related/const-and-static-const.html",
-  "title": "const \u548C static \u7684\u533A\u522B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "const \u548C static \u7684\u533A\u522B const\u5C31\u662F\u53EA\u8BFB\u7684\u610F\u601D,\u53EA\u5728\u58F0\u660E\u4E2D\u4F7F\u7528;; static\u4E00\u822C\u67092\u4E2A\u4F5C\u7528,\u89C4\u5B9A\u4F5C\u7528\u57DF\u548C\u5B58\u50A8\u65B9\u5F0F.; \u5BF9\u4E8E\u5C40\u90E8\u53D8\u91CF, static\u89C4\u5B9A\u5176\u4E3A\u9759\u6001\u5B58\u50A8\u65B9\u5F0F,\u6BCF\u6B21\u8C03\u7528\u7684\u521D\u59CB\u503C\u4E3A\u4E0A\u4E00\u6B21\u8C03\u7528\u7684\u503C,\u8C03\u7528\u7ED3\u675F\u540E\u5B58\u50A8\u7A7A\u95F4\u4E0D\u91CA\u653E;; \u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF, \u5982\u679C\u4EE5\u6587\u4EF6\u5212\u5206\u4F5C\u7528\u57DF\u7684\u8BDD,\u6B64\u53D8\u91CF\u53EA\u5728\u5F53\u524D\u6587\u4EF6\u53EF\u89C1; \u5BF9\u4E8Estatic\u51FD\u6570\u4E5F\u662F\u5728\u5F53\u524D\u6A21\u5757\u5185\u51FD\u6570",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/const-and-static-const.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "const \u548C static \u7684\u533A\u522B"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5206\u7C7B\u5BF9\u6BD4",
-      "slug": "\u5206\u7C7B\u5BF9\u6BD4",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF",
-          "slug": "\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5BF9\u4E8E\u6587\u4EF6",
-          "slug": "\u5BF9\u4E8E\u6587\u4EF6",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5BF9\u4E8E\u51FD\u6570",
-          "slug": "\u5BF9\u4E8E\u51FD\u6570",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "const",
-      "slug": "const",
-      "children": [
-        {
-          "level": 3,
-          "title": "const int* \u548C int* const",
-          "slug": "const-int-\u548C-int-const",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "static",
-      "slug": "static",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 3.19,
-    "words": 958
-  },
-  "filePathRelative": "note/cs/cpp/related/const-and-static-const.md"
-};
-var constAndStaticConst_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$I
-}, Symbol.toStringTag, { value: "Module" }));
-const data$H = {
-  "key": "v-093f55f0",
-  "path": "/note/cs/cpp/related/cpp-oop-std.html",
-  "title": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8 Structure Allow programmers to create a container for a collection of data items (variables) which can be different types.\u300C\u5141\u8BB8\u7A0B\u5E8F\u5458\u4E3A\u53EF\u80FD\u662F\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u9879\uFF08\u53D8\u91CF\uFF09\u7684\u96C6\u5408\u521B\u5EFA\u4E00\u4E2A\u5BB9\u5668\u3002\u300D Such contain",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/cpp-oop-std.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Structure",
-      "slug": "structure",
-      "children": [
-        {
-          "level": 3,
-          "title": "Defined",
-          "slug": "defined",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Example",
-          "slug": "example",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Comparison (relational operators)",
-          "slug": "comparison-relational-operators",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Array Structure",
-          "slug": "array-structure",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Call",
-          "slug": "call",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Object-oriented Programming",
-      "slug": "object-oriented-programming",
-      "children": [
-        {
-          "level": 3,
-          "title": "Class",
-          "slug": "class",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Object",
-          "slug": "object",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Understand",
-          "slug": "understand",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Invocation",
-          "slug": "invocation",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Access Specifiers",
-          "slug": "access-specifiers",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Controlling Access to Members",
-          "slug": "controlling-access-to-members",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Scope",
-          "slug": "scope",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Advantages",
-          "slug": "advantages",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u6CE8\u610F",
-          "slug": "\u6CE8\u610F",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Struct \u548C Class \u7684\u5BF9\u6BD4",
-      "slug": "struct-\u548C-class-\u7684\u5BF9\u6BD4",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u542B\u4E49\u4E0A",
-          "slug": "\u542B\u4E49\u4E0A",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u529F\u80FD\u4E0A",
-          "slug": "\u529F\u80FD\u4E0A",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Header file",
-      "slug": "header-file",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u58F0\u660E\u3001\u5B9A\u4E49\u548C\u521D\u59CB\u5316",
-      "slug": "\u58F0\u660E\u3001\u5B9A\u4E49\u548C\u521D\u59CB\u5316",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Public\u3001Protected\u548CPrivate",
-      "slug": "public\u3001protected\u548Cprivate",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "C++\u7C7B\u5BF9\u8C61\u5171\u4EAB\u6570\u636E\u7684\u5B9E\u73B0",
-      "slug": "c-\u7C7B\u5BF9\u8C61\u5171\u4EAB\u6570\u636E\u7684\u5B9E\u73B0",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u4F7F\u7528\u5C40\u90E8\u53D8\u91CF\u548C\u5168\u5C40\u53D8\u91CF\u5171\u4EAB\u6570\u636E",
-          "slug": "\u4F7F\u7528\u5C40\u90E8\u53D8\u91CF\u548C\u5168\u5C40\u53D8\u91CF\u5171\u4EAB\u6570\u636E",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u901A\u8FC7\u7C7B\u7684\u6570\u636E\u6210\u5458\u5171\u4EAB\u6570\u636E",
-          "slug": "\u901A\u8FC7\u7C7B\u7684\u6570\u636E\u6210\u5458\u5171\u4EAB\u6570\u636E",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u901A\u8FC7\u7C7B\u7684\u9759\u6001\u6210\u5458\u5B9E\u73B0\u6570\u636E\u5171\u4EAB",
-          "slug": "\u901A\u8FC7\u7C7B\u7684\u9759\u6001\u6210\u5458\u5B9E\u73B0\u6570\u636E\u5171\u4EAB",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Source-code files",
-      "slug": "source-code-files",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u9644\u52A0\u6750\u6599",
-      "slug": "\u9644\u52A0\u6750\u6599",
-      "children": [
-        {
-          "level": 3,
-          "title": "time.h",
-          "slug": "time-h",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5F15\u7528\u8D44\u6599",
-      "slug": "\u5F15\u7528\u8D44\u6599",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 14.1,
-    "words": 4230
-  },
-  "filePathRelative": "note/cs/cpp/related/cpp-oop-std.md"
-};
-var cppOopStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$H
-}, Symbol.toStringTag, { value: "Module" }));
-const data$G = {
-  "key": "v-96348938",
-  "path": "/note/cs/cpp/related/cpp-pointer-thinking.html",
-  "title": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003 \u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528 \u6307\u9488\u7684\u5B9E\u8D28\uFF1A\u53D8\u91CF \u6545\u6211\u4EEC\u53EF\u5C06\u6307\u9488\u79F0\u4E3A\u6307\u9488\u53D8\u91CF \u6307\u5411\u4F5C\u7528\uFF1A\u7528\u4E8E\u6307\u5411\u4E00\u4E2A\u53D8\u91CF\uFF0C\u6307\u9488\u5B58\u50A8\u7740\u53D8\u91CF\u7684\u5730\u5740\u3002\u591A\u79F0\u4F5C\u6307\u9488; \u5B58\u50A8\u4F5C\u7528\uFF1A\u5B58\u50A8\u7740\u4E00\u4E2A\u5185\u5B58\u5730\u5740\uFF0C\u4EE5\u5907\u7528\u3002\u591A\u79F0\u4F5C\u6307\u9488\u53D8\u91CF; \\* \u8FD9\u4E2A\u7B26\u53F7\u662F\u8FDE\u63A5\u8FD9\u4E24\u4E2A\u4F5C\u7528\u7684\u6865\u6881\uFF0C\u56E0\u4E3A \\* \u80FD\u67E5\u770B \u4E00\u4E2A\u6307\u9488\u53D8\u91CF\u4E2D\u5B58\u7684\u5730\u5740 \u5BF9\u5E94\u7684\u5185\u5B58\u4E2D\u7684\u503C \u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF \u6211\u4EEC\u5E94\u8BE5\u628A\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u770B\u505A\u6307",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/cpp-pointer-thinking.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 3,
-      "title": "\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528",
-      "slug": "\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF",
-      "slug": "\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 1.24,
-    "words": 373
-  },
-  "filePathRelative": "note/cs/cpp/related/cpp-pointer-thinking.md"
-};
-var cppPointerThinking_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$G
-}, Symbol.toStringTag, { value: "Module" }));
-const data$F = {
-  "key": "v-7f730508",
-  "path": "/note/cs/cpp/related/recursion-practice.html",
-  "title": "\u9012\u5F52\u5B9E\u8DF5",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "summary": "\u9012\u5F52\u5B9E\u8DF5 \u9012\u5F52\u5206\u4E3A\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52\uFF0C\u6211\u4EEC\u65E5\u5E38\u8BF4\u7684\u9012\u5F52\u662F\u53CC\u5411\u9012\u5F52\u3002 Introduction \u9012\u5F52\u7684\u5B9A\u4E49 \u7F16\u7A0B\u8BED\u8A00\u4E2D\uFF0C\u51FD\u6570 Func(Type a,\u2026\u2026)\u76F4\u63A5\u6216\u95F4\u63A5\u8C03\u7528\u51FD\u6570\u672C\u8EAB\uFF0C\u5219\u8BE5\u51FD\u6570\u79F0\u4E3A\u300C\u9012\u5F52\u51FD\u6570\u300D\u3002 \u5728\u5B9E\u73B0\u9012\u5F52\u51FD\u6570\u4E4B\u524D\uFF0C\u6709\u4E24\u4EF6\u91CD\u8981\u7684\u4E8B\u60C5\u9700\u8981\u5F04\u6E05\u695A: \u9012\u63A8\u5173\u7CFB\uFF1A\u4E00\u4E2A\u95EE\u9898\u7684\u7ED3\u679C\u4E0E\u5176\u5B50\u95EE\u9898\u7684\u7ED3\u679C\u4E4B\u95F4\u7684\u5173\u7CFB\u3002; \u57FA\u672C\u60C5\u51B5\uFF08base case\uFF09\uFF1A\u4E0D\u9700\u8981\u8FDB\u4E00\u6B65\u7684\u9012",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/recursion-practice.html"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "\u9012\u5F52\u5B9E\u8DF5"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Introduction",
-      "slug": "introduction",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u9012\u5F52\u7684\u5B9A\u4E49",
-          "slug": "\u9012\u5F52\u7684\u5B9A\u4E49",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9",
-      "slug": "\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9",
-      "children": [
-        {
-          "level": 3,
-          "title": "Example",
-          "slug": "example",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u56FE\u89E3",
-          "slug": "\u56FE\u89E3",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570",
-      "slug": "\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u8303\u5F0F\uFF1A\u7531\u4E0B\u5230\u4E0A",
-          "slug": "\u8303\u5F0F-\u7531\u4E0B\u5230\u4E0A",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5BFB\u627E\u57FA\u672C\u60C5\u51B5",
-          "slug": "\u5BFB\u627E\u57FA\u672C\u60C5\u51B5",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5BFB\u627E\u9012\u63A8\u5173\u7CFB\uFF08\u96BE\u70B9\uFF09",
-          "slug": "\u5BFB\u627E\u9012\u63A8\u5173\u7CFB-\u96BE\u70B9",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u7531\u4E0B\u5230\u4E0A",
-          "slug": "\u7531\u4E0B\u5230\u4E0A",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5B9E\u4F8B: \u5E15\u65AF\u5361\u4E09\u89D2",
-      "slug": "\u5B9E\u4F8B-\u5E15\u65AF\u5361\u4E09\u89D2",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u9012\u63A8\u5173\u7CFB",
-          "slug": "\u9012\u63A8\u5173\u7CFB",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52",
-      "slug": "\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u5355\u5411\u9012\u5F52",
-          "slug": "\u5355\u5411\u9012\u5F52",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u53CC\u5411\u9012\u5F52",
-          "slug": "\u53CC\u5411\u9012\u5F52",
-          "children": []
-        }
-      ]
-    }
-  ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
-  "readingTime": {
-    "minutes": 4.65,
-    "words": 1394
-  },
-  "filePathRelative": "note/cs/cpp/related/recursion-practice.md"
-};
-var recursionPractice_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$F
-}, Symbol.toStringTag, { value: "Module" }));
-const data$E = {
   "key": "v-fe32b758",
   "path": "/note/cs/cpp/start/",
   "title": "Getting Started Guide",
@@ -24473,9 +23677,15 @@ const data$E = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -24483,11 +23693,11 @@ const data$E = {
   },
   "filePathRelative": "note/cs/cpp/start/README.md"
 };
-var index_html$v = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var index_html$w = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$E
+  data: data$N
 }, Symbol.toStringTag, { value: "Module" }));
-const data$D = {
+const data$M = {
   "key": "v-333107ad",
   "path": "/note/cs/cpp/start/cpp-std1.html",
   "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E81",
@@ -24761,9 +23971,15 @@ const data$D = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.66,
@@ -24773,9 +23989,9 @@ const data$D = {
 };
 var cppStd1_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$D
+  data: data$M
 }, Symbol.toStringTag, { value: "Module" }));
-const data$C = {
+const data$L = {
   "key": "v-34e5e04c",
   "path": "/note/cs/cpp/start/cpp-std2.html",
   "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E82",
@@ -24898,9 +24114,15 @@ const data$C = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.21,
@@ -24910,9 +24132,9 @@ const data$C = {
 };
 var cppStd2_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$C
+  data: data$L
 }, Symbol.toStringTag, { value: "Module" }));
-const data$B = {
+const data$K = {
   "key": "v-369ab8eb",
   "path": "/note/cs/cpp/start/cpp-std3.html",
   "title": "C++ \u4F53\u7CFB\u7B80\u6613\u5165\u95E83",
@@ -25041,9 +24263,15 @@ const data$B = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.05,
@@ -25052,6 +24280,1450 @@ const data$B = {
   "filePathRelative": "note/cs/cpp/start/cpp-std3.md"
 };
 var cppStd3_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$K
+}, Symbol.toStringTag, { value: "Module" }));
+const data$J = {
+  "key": "v-95cb104c",
+  "path": "/note/cs/cpp/related/Block-Collection-std.html",
+  "title": "Block Collection",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "Block Collection \u5B9A\u4E49(\u58F0\u660E) \u548C \u8D4B\u503C\u53D8\u91CF \u5BF9\u6216\u8005\u9519\uFF0C\u9519\u8BEF\u539F\u56E0 -------------------- ----------------------------------- int 3; cannot start with digit	int a=3; double; double b; int = 19; int c=19; floa",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/Block-Collection-std.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Block Collection"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5B9A\u4E49(\u58F0\u660E) \u548C \u8D4B\u503C\u53D8\u91CF",
+      "slug": "\u5B9A\u4E49-\u58F0\u660E-\u548C-\u8D4B\u503C\u53D8\u91CF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BA1\u7B97\u8BED\u53E5",
+      "slug": "\u8BA1\u7B97\u8BED\u53E5",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5E38\u7528\u4EE3\u7801",
+          "slug": "\u5E38\u7528\u4EE3\u7801",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4E09\u76EE\u8FD0\u7B97",
+          "slug": "\u4E09\u76EE\u8FD0\u7B97",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Call by Pointer",
+      "slug": "call-by-pointer",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "size of()",
+      "slug": "size-of",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 2.27,
+    "words": 680
+  },
+  "filePathRelative": "note/cs/cpp/related/Block-Collection-std.md"
+};
+var BlockCollectionStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$J
+}, Symbol.toStringTag, { value: "Module" }));
+const data$I = {
+  "key": "v-7246cfeb",
+  "path": "/note/cs/cpp/related/",
+  "title": "Related Knowledge Guide",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "index": false,
+    "summary": "Related Knowledge Guide",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Related Knowledge Guide"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 0.01,
+    "words": 3
+  },
+  "filePathRelative": "note/cs/cpp/related/README.md"
+};
+var index_html$v = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$I
+}, Symbol.toStringTag, { value: "Module" }));
+const data$H = {
+  "key": "v-848fadd2",
+  "path": "/note/cs/cpp/related/Searching-Algorithms.html",
+  "title": "Searching Algorithms",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "Searching Algorithms Goal Given an array A of n numbers (in ascending order) Find the position of a key k from the array A; return \u20131 if not found; A: 1 3 8 12 17 23 | 35 Algorithm",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/Searching-Algorithms.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Searching Algorithms"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Goal",
+      "slug": "goal",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Algorithm 1: Linear search",
+      "slug": "algorithm-1-linear-search",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Algorithm 2: Binary search",
+      "slug": "algorithm-2-binary-search",
+      "children": [
+        {
+          "level": 3,
+          "title": "Code",
+          "slug": "code",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Example",
+          "slug": "example",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Time complexity of binary search",
+          "slug": "time-complexity-of-binary-search",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5F15\u7528",
+      "slug": "\u5F15\u7528",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 2.22,
+    "words": 667
+  },
+  "filePathRelative": "note/cs/cpp/related/Searching-Algorithms.md"
+};
+var SearchingAlgorithms_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$H
+}, Symbol.toStringTag, { value: "Module" }));
+const data$G = {
+  "key": "v-558828b8",
+  "path": "/note/cs/cpp/related/argc-argv.html",
+  "title": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv \u524D\u8A00 \u5728\u8BB8\u591AC ++ IDE\u548C\u7F16\u8BD1\u5668\u4E2D\uFF0C\u5F53\u5B83\u4E3A\u60A8\u751F\u6210main\u51FD\u6570\u65F6\uFF0C\u5B83\u770B\u8D77\u6765\u50CF\u8FD9\u6837\uFF1A \u6216\u8005 \u800C\u4E0D\u662F main \u51FD\u6570\u7279\u70B9 main() \u51FD\u6570\u662F C++ \u7A0B\u5E8F\u7684\u5165\u53E3\u51FD\u6570\uFF0CC++ \u6807\u51C6\u89C4\u5B9A main() \u51FD\u6570\u7684\u8FD4\u56DE\u503C\u7C7B\u578B\u4E3A int\uFF0C\u8FD4\u56DE\u503C\u7528\u4E8E\u8868\u793A\u7A0B\u5E8F\u7684\u9000\u51FA\u72B6\u6001\uFF0C\u8FD4\u56DE 0 \u8868\u793A\u7A0B\u5E8F\u6B63\u5E38\u9000\u51FA\uFF0C\u8FD4\u56DE\u975E 0\uFF0C\u8868\u793A\u51FA\u73B0\u5F02\u5E38\u3002C++ \u6807",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/argc-argv.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u521D\u8BC6 c++ \u4E2D\u7684 argc\u4E0Eargv"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u524D\u8A00",
+      "slug": "\u524D\u8A00",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "main \u51FD\u6570\u7279\u70B9",
+      "slug": "main-\u51FD\u6570\u7279\u70B9",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Introduction",
+      "slug": "introduction",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6848\u4F8B",
+      "slug": "\u6848\u4F8B",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u7B2C\u4E00\u6848\u4F8B\uFF1A\u63A2\u7D22argv[0]",
+          "slug": "\u7B2C\u4E00\u6848\u4F8B-\u63A2\u7D22argv-0",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7B2C\u4E8C\u6848\u4F8B\uFF1A\u4ECE\u5916\u754C\u4F20\u5165\u53C2\u6570",
+          "slug": "\u7B2C\u4E8C\u6848\u4F8B-\u4ECE\u5916\u754C\u4F20\u5165\u53C2\u6570",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u4ED6\u8A00",
+      "slug": "\u4ED6\u8A00",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 3.13,
+    "words": 939
+  },
+  "filePathRelative": "note/cs/cpp/related/argc-argv.md"
+};
+var argcArgv_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$G
+}, Symbol.toStringTag, { value: "Module" }));
+const data$F = {
+  "key": "v-fe5ab988",
+  "path": "/note/cs/cpp/related/char-array-pointer.html",
+  "title": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3 \u8BC1\u660E\uFF1A\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027 \u6570\u7EC4\u7684\u540D\u79F0 \u5C31\u662F\u6307\u9488\uFF0C\u4ED6\u4EEC\u5728\u5185\u5B58\u7ED3\u6784\u4E0A\u5341\u5206\u76F8\u4F3C\u3002 cout << arr << endl; ; arr \u662F\u6570\u7EC4\u7684\u540D\u79F0\uFF1B\u4F46\u662F\uFF0C\u6839\u636E\u6211\u4EEC\u7684\u6784\u60F3\uFF0C\u6570\u7EC4\u5C31\u662F\u6307\u9488\uFF1B; \u6240\u4EE5\u8FD9\u91CC\u4F1A\u8F93\u51FA\u6570\u7EC4\u5730\u5740\uFF1B; \u6839\u636E\u6211\u4EEC\u6240\u5B66\u7684\u77E5\u8BC6\uFF0C\u6570\u7EC4\u7684\u5730\u5740\u5C31\u662F\u6570\u7EC4\u7684\u9996\u4E2A\u5143\u7D20\u7684\u5730\u5740\uFF0C\u5373 arr[0] \u7684\u5730\u5740\u3002; \u8FD9\u91CC\u4F53\u73B0\u4E86 arr[0] \u7684\u672C",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/char-array-pointer.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "char\u3001\u6570\u7EC4\u548C\u6307\u9488\u7684\u5173\u7CFB\u6784\u60F3"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u8BC1\u660E\uFF1A\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027",
+      "slug": "\u8BC1\u660E-\u6570\u7EC4\u548C\u6307\u9488\u7684\u76F8\u4F3C\u6027",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BC1\u660E\uFF1Achar array\u8F6C\u6362\u673A\u5236",
+      "slug": "\u8BC1\u660E-char-array\u8F6C\u6362\u673A\u5236",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u8F6C\u6362\u673A\u5236/C++\u7684\u91CD\u8F7D\u7279\u6027",
+          "slug": "\u8F6C\u6362\u673A\u5236-c-\u7684\u91CD\u8F7D\u7279\u6027",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "char \u7684 \u8F6C\u6362\u673A\u5236",
+          "slug": "char-\u7684-\u8F6C\u6362\u673A\u5236",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5F15\u7528\u6750\u6599",
+      "slug": "\u5F15\u7528\u6750\u6599",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 2.83,
+    "words": 848
+  },
+  "filePathRelative": "note/cs/cpp/related/char-array-pointer.md"
+};
+var charArrayPointer_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$F
+}, Symbol.toStringTag, { value: "Module" }));
+const data$E = {
+  "key": "v-d1bc682c",
+  "path": "/note/cs/cpp/related/const-and-static-const.html",
+  "title": "const \u548C static \u7684\u533A\u522B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "const \u548C static \u7684\u533A\u522B const\u5C31\u662F\u53EA\u8BFB\u7684\u610F\u601D,\u53EA\u5728\u58F0\u660E\u4E2D\u4F7F\u7528;; static\u4E00\u822C\u67092\u4E2A\u4F5C\u7528,\u89C4\u5B9A\u4F5C\u7528\u57DF\u548C\u5B58\u50A8\u65B9\u5F0F.; \u5BF9\u4E8E\u5C40\u90E8\u53D8\u91CF, static\u89C4\u5B9A\u5176\u4E3A\u9759\u6001\u5B58\u50A8\u65B9\u5F0F,\u6BCF\u6B21\u8C03\u7528\u7684\u521D\u59CB\u503C\u4E3A\u4E0A\u4E00\u6B21\u8C03\u7528\u7684\u503C,\u8C03\u7528\u7ED3\u675F\u540E\u5B58\u50A8\u7A7A\u95F4\u4E0D\u91CA\u653E;; \u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF, \u5982\u679C\u4EE5\u6587\u4EF6\u5212\u5206\u4F5C\u7528\u57DF\u7684\u8BDD,\u6B64\u53D8\u91CF\u53EA\u5728\u5F53\u524D\u6587\u4EF6\u53EF\u89C1; \u5BF9\u4E8Estatic\u51FD\u6570\u4E5F\u662F\u5728\u5F53\u524D\u6A21\u5757\u5185\u51FD\u6570",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/const-and-static-const.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "const \u548C static \u7684\u533A\u522B"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5206\u7C7B\u5BF9\u6BD4",
+      "slug": "\u5206\u7C7B\u5BF9\u6BD4",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF",
+          "slug": "\u5BF9\u4E8E\u5168\u5C40\u53D8\u91CF",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5BF9\u4E8E\u6587\u4EF6",
+          "slug": "\u5BF9\u4E8E\u6587\u4EF6",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5BF9\u4E8E\u51FD\u6570",
+          "slug": "\u5BF9\u4E8E\u51FD\u6570",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "const",
+      "slug": "const",
+      "children": [
+        {
+          "level": 3,
+          "title": "const int* \u548C int* const",
+          "slug": "const-int-\u548C-int-const",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "static",
+      "slug": "static",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 3.19,
+    "words": 958
+  },
+  "filePathRelative": "note/cs/cpp/related/const-and-static-const.md"
+};
+var constAndStaticConst_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$E
+}, Symbol.toStringTag, { value: "Module" }));
+const data$D = {
+  "key": "v-093f55f0",
+  "path": "/note/cs/cpp/related/cpp-oop-std.html",
+  "title": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8 Structure Allow programmers to create a container for a collection of data items (variables) which can be different types.\u300C\u5141\u8BB8\u7A0B\u5E8F\u5458\u4E3A\u53EF\u80FD\u662F\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u9879\uFF08\u53D8\u91CF\uFF09\u7684\u96C6\u5408\u521B\u5EFA\u4E00\u4E2A\u5BB9\u5668\u3002\u300D Such contain",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/cpp-oop-std.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "CPP\u9762\u5411\u5BF9\u8C61\u7F16\u7A0B\u5165\u95E8"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Structure",
+      "slug": "structure",
+      "children": [
+        {
+          "level": 3,
+          "title": "Defined",
+          "slug": "defined",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Example",
+          "slug": "example",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Comparison (relational operators)",
+          "slug": "comparison-relational-operators",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Array Structure",
+          "slug": "array-structure",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Call",
+          "slug": "call",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Object-oriented Programming",
+      "slug": "object-oriented-programming",
+      "children": [
+        {
+          "level": 3,
+          "title": "Class",
+          "slug": "class",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object",
+          "slug": "object",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Understand",
+          "slug": "understand",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Invocation",
+          "slug": "invocation",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Access Specifiers",
+          "slug": "access-specifiers",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Controlling Access to Members",
+          "slug": "controlling-access-to-members",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Scope",
+          "slug": "scope",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Advantages",
+          "slug": "advantages",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6CE8\u610F",
+          "slug": "\u6CE8\u610F",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Struct \u548C Class \u7684\u5BF9\u6BD4",
+      "slug": "struct-\u548C-class-\u7684\u5BF9\u6BD4",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u542B\u4E49\u4E0A",
+          "slug": "\u542B\u4E49\u4E0A",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u529F\u80FD\u4E0A",
+          "slug": "\u529F\u80FD\u4E0A",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Header file",
+      "slug": "header-file",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u58F0\u660E\u3001\u5B9A\u4E49\u548C\u521D\u59CB\u5316",
+      "slug": "\u58F0\u660E\u3001\u5B9A\u4E49\u548C\u521D\u59CB\u5316",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Public\u3001Protected\u548CPrivate",
+      "slug": "public\u3001protected\u548Cprivate",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "C++\u7C7B\u5BF9\u8C61\u5171\u4EAB\u6570\u636E\u7684\u5B9E\u73B0",
+      "slug": "c-\u7C7B\u5BF9\u8C61\u5171\u4EAB\u6570\u636E\u7684\u5B9E\u73B0",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u4F7F\u7528\u5C40\u90E8\u53D8\u91CF\u548C\u5168\u5C40\u53D8\u91CF\u5171\u4EAB\u6570\u636E",
+          "slug": "\u4F7F\u7528\u5C40\u90E8\u53D8\u91CF\u548C\u5168\u5C40\u53D8\u91CF\u5171\u4EAB\u6570\u636E",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u901A\u8FC7\u7C7B\u7684\u6570\u636E\u6210\u5458\u5171\u4EAB\u6570\u636E",
+          "slug": "\u901A\u8FC7\u7C7B\u7684\u6570\u636E\u6210\u5458\u5171\u4EAB\u6570\u636E",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u901A\u8FC7\u7C7B\u7684\u9759\u6001\u6210\u5458\u5B9E\u73B0\u6570\u636E\u5171\u4EAB",
+          "slug": "\u901A\u8FC7\u7C7B\u7684\u9759\u6001\u6210\u5458\u5B9E\u73B0\u6570\u636E\u5171\u4EAB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Source-code files",
+      "slug": "source-code-files",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u9644\u52A0\u6750\u6599",
+      "slug": "\u9644\u52A0\u6750\u6599",
+      "children": [
+        {
+          "level": 3,
+          "title": "time.h",
+          "slug": "time-h",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5F15\u7528\u8D44\u6599",
+      "slug": "\u5F15\u7528\u8D44\u6599",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 14.1,
+    "words": 4230
+  },
+  "filePathRelative": "note/cs/cpp/related/cpp-oop-std.md"
+};
+var cppOopStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$D
+}, Symbol.toStringTag, { value: "Module" }));
+const data$C = {
+  "key": "v-96348938",
+  "path": "/note/cs/cpp/related/cpp-pointer-thinking.html",
+  "title": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003 \u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528 \u6307\u9488\u7684\u5B9E\u8D28\uFF1A\u53D8\u91CF \u6545\u6211\u4EEC\u53EF\u5C06\u6307\u9488\u79F0\u4E3A\u6307\u9488\u53D8\u91CF \u6307\u5411\u4F5C\u7528\uFF1A\u7528\u4E8E\u6307\u5411\u4E00\u4E2A\u53D8\u91CF\uFF0C\u6307\u9488\u5B58\u50A8\u7740\u53D8\u91CF\u7684\u5730\u5740\u3002\u591A\u79F0\u4F5C\u6307\u9488; \u5B58\u50A8\u4F5C\u7528\uFF1A\u5B58\u50A8\u7740\u4E00\u4E2A\u5185\u5B58\u5730\u5740\uFF0C\u4EE5\u5907\u7528\u3002\u591A\u79F0\u4F5C\u6307\u9488\u53D8\u91CF; \\* \u8FD9\u4E2A\u7B26\u53F7\u662F\u8FDE\u63A5\u8FD9\u4E24\u4E2A\u4F5C\u7528\u7684\u6865\u6881\uFF0C\u56E0\u4E3A \\* \u80FD\u67E5\u770B \u4E00\u4E2A\u6307\u9488\u53D8\u91CF\u4E2D\u5B58\u7684\u5730\u5740 \u5BF9\u5E94\u7684\u5185\u5B58\u4E2D\u7684\u503C \u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF \u6211\u4EEC\u5E94\u8BE5\u628A\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u770B\u505A\u6307",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/cpp-pointer-thinking.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u5BF9c++\u6307\u9488\u7684\u989D\u5916\u601D\u8003"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 3,
+      "title": "\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528",
+      "slug": "\u6307\u9488\u7684\u4E24\u4E2A\u4F5C\u7528",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF",
+      "slug": "\u51FD\u6570\u5F62\u53C2\u4E2D\u7684\u6307\u9488\u53D8\u91CF",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 1.24,
+    "words": 373
+  },
+  "filePathRelative": "note/cs/cpp/related/cpp-pointer-thinking.md"
+};
+var cppPointerThinking_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$C
+}, Symbol.toStringTag, { value: "Module" }));
+const data$B = {
+  "key": "v-7f730508",
+  "path": "/note/cs/cpp/related/recursion-practice.html",
+  "title": "\u9012\u5F52\u5B9E\u8DF5",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "summary": "\u9012\u5F52\u5B9E\u8DF5 \u9012\u5F52\u5206\u4E3A\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52\uFF0C\u6211\u4EEC\u65E5\u5E38\u8BF4\u7684\u9012\u5F52\u662F\u53CC\u5411\u9012\u5F52\u3002 Introduction \u9012\u5F52\u7684\u5B9A\u4E49 \u7F16\u7A0B\u8BED\u8A00\u4E2D\uFF0C\u51FD\u6570 Func(Type a,\u2026\u2026)\u76F4\u63A5\u6216\u95F4\u63A5\u8C03\u7528\u51FD\u6570\u672C\u8EAB\uFF0C\u5219\u8BE5\u51FD\u6570\u79F0\u4E3A\u300C\u9012\u5F52\u51FD\u6570\u300D\u3002 \u5728\u5B9E\u73B0\u9012\u5F52\u51FD\u6570\u4E4B\u524D\uFF0C\u6709\u4E24\u4EF6\u91CD\u8981\u7684\u4E8B\u60C5\u9700\u8981\u5F04\u6E05\u695A: \u9012\u63A8\u5173\u7CFB\uFF1A\u4E00\u4E2A\u95EE\u9898\u7684\u7ED3\u679C\u4E0E\u5176\u5B50\u95EE\u9898\u7684\u7ED3\u679C\u4E4B\u95F4\u7684\u5173\u7CFB\u3002; \u57FA\u672C\u60C5\u51B5\uFF08base case\uFF09\uFF1A\u4E0D\u9700\u8981\u8FDB\u4E00\u6B65\u7684\u9012",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/cpp/related/recursion-practice.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "\u9012\u5F52\u5B9E\u8DF5"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Introduction",
+      "slug": "introduction",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u9012\u5F52\u7684\u5B9A\u4E49",
+          "slug": "\u9012\u5F52\u7684\u5B9A\u4E49",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9",
+      "slug": "\u9012\u5F52\u51FD\u6570\u7684\u7279\u70B9",
+      "children": [
+        {
+          "level": 3,
+          "title": "Example",
+          "slug": "example",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u56FE\u89E3",
+          "slug": "\u56FE\u89E3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570",
+      "slug": "\u5982\u4F55\u5199\u51FA\u4E00\u4E2A\u9012\u5F52\u51FD\u6570",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u8303\u5F0F\uFF1A\u7531\u4E0B\u5230\u4E0A",
+          "slug": "\u8303\u5F0F-\u7531\u4E0B\u5230\u4E0A",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5BFB\u627E\u57FA\u672C\u60C5\u51B5",
+          "slug": "\u5BFB\u627E\u57FA\u672C\u60C5\u51B5",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5BFB\u627E\u9012\u63A8\u5173\u7CFB\uFF08\u96BE\u70B9\uFF09",
+          "slug": "\u5BFB\u627E\u9012\u63A8\u5173\u7CFB-\u96BE\u70B9",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7531\u4E0B\u5230\u4E0A",
+          "slug": "\u7531\u4E0B\u5230\u4E0A",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5B9E\u4F8B: \u5E15\u65AF\u5361\u4E09\u89D2",
+      "slug": "\u5B9E\u4F8B-\u5E15\u65AF\u5361\u4E09\u89D2",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u9012\u63A8\u5173\u7CFB",
+          "slug": "\u9012\u63A8\u5173\u7CFB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52",
+      "slug": "\u5355\u5411\u9012\u5F52\u548C\u53CC\u5411\u9012\u5F52",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5355\u5411\u9012\u5F52",
+          "slug": "\u5355\u5411\u9012\u5F52",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u53CC\u5411\u9012\u5F52",
+          "slug": "\u53CC\u5411\u9012\u5F52",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 4.65,
+    "words": 1394
+  },
+  "filePathRelative": "note/cs/cpp/related/recursion-practice.md"
+};
+var recursionPractice_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   data: data$B
 }, Symbol.toStringTag, { value: "Module" }));
@@ -25141,9 +25813,15 @@ const data$A = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.01,
@@ -25353,9 +26031,15 @@ const data$z = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.29,
@@ -25540,9 +26224,15 @@ const data$y = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 8.58,
@@ -25677,9 +26367,15 @@ const data$x = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.53,
@@ -25902,9 +26598,15 @@ const data$w = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 2.89,
@@ -26108,9 +26810,15 @@ const data$v = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1647230773e3,
+    "updatedTime": 1647230773e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 3.16,
