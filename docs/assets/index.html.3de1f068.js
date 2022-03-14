@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as s,d as a,b as o}from"./app.2395f22e.js";const c={},r={id:"mips",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#mips","aria-hidden":"true"},"#",-1),n=o(" MIPS"),d=[_,n];function i(h,f){return t(),s("h1",r,d)}var l=e(c,[["render",i]]);export{l as default};
