@@ -1,1 +1,0 @@
-import{_ as e,o as t,a as s,d as a,b as o}from"./app.3e173cff.js";const r={},n={id:"operating-system",tabindex:"-1"},c=a("a",{class:"header-anchor",href:"#operating-system","aria-hidden":"true"},"#",-1),_=o(" Operating System"),d=[c,_];function i(h,m){return t(),s("h1",n,d)}var p=e(r,[["render",i]]);export{p as default};
