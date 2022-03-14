@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as o,d as a,b as r}from"./app.3e173cff.js";const n={},c={id:"computer-organization",tabindex:"-1"},s=a("a",{class:"header-anchor",href:"#computer-organization","aria-hidden":"true"},"#",-1),i=r(" Computer Organization"),_=[s,i];function d(h,m){return t(),o("h1",c,_)}var p=e(n,[["render",d]]);export{p as default};

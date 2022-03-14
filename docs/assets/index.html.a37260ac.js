@@ -1,1 +1,0 @@
-import{_ as e,o as a,a as r,d as o,b as t}from"./app.471ea2ca.js";const c={},s={id:"c-programming",tabindex:"-1"},n=o("a",{class:"header-anchor",href:"#c-programming","aria-hidden":"true"},"#",-1),_=t(" C++ Programming"),d=[n,_];function i(h,m){return a(),r("h1",s,d)}var g=e(c,[["render",i]]);export{g as default};

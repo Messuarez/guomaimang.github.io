@@ -90,10 +90,10 @@ export default defineThemeConfig({
 
     comment: {
       type: "giscus",
-      repo: "Hongshu-Share/homepage-comment",
-      repoId: "R_kgDOG_oMRA",
+      repo: "guomaimang/guomaimang.github.io",
+      repoId: "MDEwOlJlcG9zaXRvcnkzMjU5Njk1MzQ=",
       category: "Ideas",
-      categoryId: "DIC_kwDOG_oMRM4COFAo",
+      categoryId: "DIC_kwDOE23mfs4COFlp",
     },
 
     mdEnhance: {
