@@ -2,7 +2,7 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export const zh = defineNavbarConfig([
   "/",
-  { text: "Research", icon: "creative", link: "https://guomaimang.github.io/research" },
+  { text: "Research", icon: "creative", link: "https://hongshu.zxg.red" },
   { text: "关于我", icon: "profile", link: "/myself/" },
   {
     text: "学习笔记",

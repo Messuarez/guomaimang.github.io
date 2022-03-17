@@ -1955,7 +1955,7 @@ const themeData$1 = {
         {
           "text": "Research",
           "icon": "creative",
-          "link": "https://guomaimang.github.io/research"
+          "link": "https://hongshu.zxg.red"
         },
         {
           "text": "\u5173\u4E8E\u6211",
@@ -2159,7 +2159,7 @@ const themeData$1 = {
         {
           "text": "Research",
           "icon": "creative",
-          "link": "https://guomaimang.github.io/research"
+          "link": "https://hongshu.zxg.red"
         },
         {
           "text": "About me",
@@ -2346,10 +2346,10 @@ const themeData$1 = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$TsXo.wrakEhi0tSaee34puAltGhnSgaboP1OLjgqjR5JZWOOtPAma"
+        "$2a$10$910P2jYANG7LT9vA2bBz2e.EzzllJacuKQXxcftIAaurXKlFZ04YW"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$b3xxgtdyqxP/qaUiDpSfNO4Hbu6Y8tKtpvwImmvC6Gy2l8oBz1GSO"
+        "$2a$10$h/XAtkuCE.fJddJ//umwburcD0zc8Mi0eXhT5u/NM9S9/x7vje.Cq"
       ]
     },
     "global": false
@@ -20235,13 +20235,13 @@ const data$18 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": 1647280116e3,
-    "updatedTime": 1647281117e3,
+    "createdTime": 1647281462e3,
+    "updatedTime": 1647281462e3,
     "contributors": [
       {
         "name": "hanjiaming",
         "email": "47519540+guomaimang@users.noreply.github.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
