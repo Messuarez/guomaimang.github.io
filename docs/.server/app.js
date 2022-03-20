@@ -116,6 +116,9 @@ const pagesComponents = {
   "v-19e6422d": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _105t_html$5;
   })),
+  "v-4a0d9aac": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _318Bytedance_html$2;
+  })),
   "v-5b1bac34": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _38_html$5;
   })),
@@ -377,11 +380,8 @@ const pagesComponents = {
   "v-4364ecfa": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return digitalSystem3_html$2;
   })),
-  "v-1bfdd376": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$1M;
-  })),
   "v-9b2e9c38": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$1K;
+    return index_html$1M;
   })),
   "v-2af9f9dd": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return Y8664ProcesserArch_html$2;
@@ -397,6 +397,9 @@ const pagesComponents = {
   })),
   "v-7bbd7494": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return x86_64AsmStd2_html$2;
+  })),
+  "v-1bfdd376": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$1K;
   })),
   "v-fe5e886a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return BlockCollectionStd_html$2;
@@ -488,13 +491,13 @@ const pagesComponents = {
   "v-c6edb6ae": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$1a;
   })),
-  "v-3ab30614": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-58c02741": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$18;
   })),
   "v-0017792c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$16;
   })),
-  "v-58c02741": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-3ab30614": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$14;
   })),
   "v-6f7bfa04": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
@@ -576,6 +579,9 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-19e6422d": () => Promise.resolve().then(function() {
     return _105t_html$1;
+  }).then(({ data: data2 }) => data2),
+  "v-4a0d9aac": () => Promise.resolve().then(function() {
+    return _318Bytedance_html;
   }).then(({ data: data2 }) => data2),
   "v-5b1bac34": () => Promise.resolve().then(function() {
     return _38_html$1;
@@ -838,11 +844,8 @@ const pagesData$1 = {
   "v-4364ecfa": () => Promise.resolve().then(function() {
     return digitalSystem3_html;
   }).then(({ data: data2 }) => data2),
-  "v-1bfdd376": () => Promise.resolve().then(function() {
-    return index_html$x;
-  }).then(({ data: data2 }) => data2),
   "v-9b2e9c38": () => Promise.resolve().then(function() {
-    return index_html$w;
+    return index_html$x;
   }).then(({ data: data2 }) => data2),
   "v-2af9f9dd": () => Promise.resolve().then(function() {
     return Y8664ProcesserArch_html;
@@ -858,6 +861,9 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-7bbd7494": () => Promise.resolve().then(function() {
     return x86_64AsmStd2_html;
+  }).then(({ data: data2 }) => data2),
+  "v-1bfdd376": () => Promise.resolve().then(function() {
+    return index_html$w;
   }).then(({ data: data2 }) => data2),
   "v-fe5e886a": () => Promise.resolve().then(function() {
     return BlockCollectionStd_html;
@@ -949,13 +955,13 @@ const pagesData$1 = {
   "v-c6edb6ae": () => Promise.resolve().then(function() {
     return index_html$e;
   }).then(({ data: data2 }) => data2),
-  "v-3ab30614": () => Promise.resolve().then(function() {
+  "v-58c02741": () => Promise.resolve().then(function() {
     return index_html$d;
   }).then(({ data: data2 }) => data2),
   "v-0017792c": () => Promise.resolve().then(function() {
     return index_html$c;
   }).then(({ data: data2 }) => data2),
-  "v-58c02741": () => Promise.resolve().then(function() {
+  "v-3ab30614": () => Promise.resolve().then(function() {
     return index_html$b;
   }).then(({ data: data2 }) => data2),
   "v-6f7bfa04": () => Promise.resolve().then(function() {
@@ -2346,10 +2352,10 @@ const themeData$1 = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$910P2jYANG7LT9vA2bBz2e.EzzllJacuKQXxcftIAaurXKlFZ04YW"
+        "$2a$10$u6JD5m07o4FSs7ic7vkHeurI5SEvCxhPBeyzNnXVjX9jz5Wy6D1vW"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$h/XAtkuCE.fJddJ//umwburcD0zc8Mi0eXhT5u/NM9S9/x7vje.Cq"
+        "$2a$10$ejU1QvrxZ6HFWc5i6F.Ai.xqE0.KWP5oyUnRg1PRNXvqia9NYDuoK"
       ]
     },
     "global": false
@@ -3274,7 +3280,7 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$2q = vue.defineComponent({
+const _sfc_main$2r = vue.defineComponent({
   name: "DropTransition",
   components: {
     Transition: vue.Transition,
@@ -3301,7 +3307,7 @@ const _sfc_main$2q = vue.defineComponent({
     };
   }
 });
-function _sfc_ssrRender$2q(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender$2r(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<!--[-->`);
   if (_ctx.type === "single") {
     serverRenderer.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
@@ -3317,13 +3323,13 @@ function _sfc_ssrRender$2q(_ctx, _push, _parent, _attrs, $props, $setup, $data, 
   }
   _push(`<!--]-->`);
 }
-const _sfc_setup$2q = _sfc_main$2q.setup;
-_sfc_main$2q.setup = (props, ctx) => {
+const _sfc_setup$2r = _sfc_main$2r.setup;
+_sfc_main$2r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../../node_modules/vuepress-theme-hope/lib/client/components/transitions/DropTransition.vue");
-  return _sfc_setup$2q ? _sfc_setup$2q(props, ctx) : void 0;
+  return _sfc_setup$2r ? _sfc_setup$2r(props, ctx) : void 0;
 };
-var DropTransition = /* @__PURE__ */ _export_sfc(_sfc_main$2q, [["ssrRender", _sfc_ssrRender$2q]]);
+var DropTransition = /* @__PURE__ */ _export_sfc(_sfc_main$2r, [["ssrRender", _sfc_ssrRender$2r]]);
 var fadeSlideY = "";
 var FadeSlideY = vue.defineComponent({
   name: "FadeSlideY",
@@ -3474,10 +3480,10 @@ const EditIcon = () => vue.h(T$2, { name: "edit" }, () => [
   })
 ]);
 EditIcon.displayName = "EditIcon";
-const _sfc_main$2p = vue.defineComponent({
+const _sfc_main$2q = vue.defineComponent({
   name: "Page404Icon"
 });
-function _sfc_ssrRender$2p(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender$2q(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<svg${serverRenderer.ssrRenderAttrs(vue.mergeProps({
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
@@ -3485,13 +3491,13 @@ function _sfc_ssrRender$2p(_ctx, _push, _parent, _attrs, $props, $setup, $data, 
     viewBox: "0 0 178 130"
   }, _attrs))}><defs><linearGradient id="b" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#e9e9e9"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="c" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#dcdcdc"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="d" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f1f1f1"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="e" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#dedede"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="f" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#e8e8e8"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="g" x1=".213" y1="1.265" x2=".846" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#fff"></stop><stop offset="1" stop-color="#f5f5f5"></stop></linearGradient><linearGradient id="h" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#c5c5c5"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="i" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#acacac"></stop><stop offset="1" stop-color="#f2f2f2" stop-opacity=".388"></stop></linearGradient><clipPath id="a"><path transform="translate(744 1111)" fill="none" d="M0 0h178v130H0z"></path></clipPath></defs><g transform="translate(-744 -1111)" clip-path="url(#a)"><g><path d="M0 10.795 36.6 0v93.779L0 104.574z" transform="translate(772.466 1122.142)" fill="url(#b)"></path><path d="M-8.492 10.642-26.361-.469v93.78l17.868 11.111z" transform="translate(780.958 1122.293)" fill="url(#c)"></path><path d="M-8.5 5.55 28.106-5.3 10.228-16.437l-36.6 10.845z" transform="translate(780.963 1127.438)" fill="url(#d)"></path><path d="M0 10.539 35.741 0v91.56L0 102.1z" transform="translate(870.158 1123.617)" fill="url(#d)"></path><path d="M-8.913 10.38-26.361-.469v91.562l17.448 10.848z" transform="translate(879.071 1123.775)" fill="url(#e)"></path><path d="m-8.918 5.032 35.741-10.59L9.366-16.437-26.375-5.848z" transform="translate(879.076 1129.175)" fill="url(#d)"></path><path d="M0 9.137 30.839 0v79.381L0 88.519z" transform="translate(799.678 1151.579)" fill="url(#f)"></path><path d="m-11.306 8.936-15.054-9.4v79.377l15.054 9.4z" transform="translate(810.985 1151.78)" fill="url(#c)"></path><path d="M-11.313 2.087 19.526-7.05 4.464-16.437-26.375-7.3z" transform="translate(810.991 1158.63)" fill="url(#g)"></path><path d="M178 53H0a51.361 51.361 0 0 1 10.453-20.952 74.532 74.532 0 0 1 19.742-16.811A103.3 103.3 0 0 1 57.089 4.058a127.515 127.515 0 0 1 63.823 0 103.3 103.3 0 0 1 26.894 11.179 74.532 74.532 0 0 1 19.741 16.811A51.363 51.363 0 0 1 178 53z" transform="translate(744 1187.549)" fill="url(#h)"></path><path d="m814.529 1199.586-1.272 1.212h2.3l1.2-1.212z" fill="#cbcbcb"></path><path d="m816.725 1194.909-1.272 1.212h2.3l1.263-1.212z" fill="#cbcbcb"></path><path d="m863.284 1199.585-1.272 1.212h2.3l1.2-1.212z" fill="#cbcbcb"></path><path d="m865.519 1194.9-1.272 1.212h2.3l1.263-1.212z" fill="#cbcbcb"></path><path d="m799.527 1191.21 10.182-21.97h4.381l-9.931 21.719h14.876v3.941h-19.508zm13.081-9.493h4.152v17.859h-4.152zm20.728 18.151q-4.256 0-6.457-2.274a8.74 8.74 0 0 1-2.2-6.343v-13.791a8.708 8.708 0 0 1 2.21-6.353q2.212-2.264 6.447-2.264 4.256 0 6.457 2.253a8.726 8.726 0 0 1 2.2 6.363v13.792a8.708 8.708 0 0 1-2.21 6.349q-2.211 2.268-6.447 2.268zm0-4.048a4.29 4.29 0 0 0 3.328-1.178 4.862 4.862 0 0 0 1.074-3.39v-13.792a4.893 4.893 0 0 0-1.064-3.39 4.285 4.285 0 0 0-3.338-1.179 4.285 4.285 0 0 0-3.338 1.179 4.893 4.893 0 0 0-1.064 3.39v13.791a4.862 4.862 0 0 0 1.075 3.391 4.29 4.29 0 0 0 3.327 1.178zm14.928-4.61 10.181-21.97h4.381l-9.931 21.719h14.876v3.941h-19.507zm13.081-9.493h4.152v17.859h-4.152z" fill="#c6c6c6"></path><path d="m798.306 1192.431 10.182-21.97h4.381l-9.931 21.719h14.876v3.941h-19.508zm13.081-9.493h4.152v17.859h-4.152zm20.728 18.151q-4.256 0-6.457-2.274a8.74 8.74 0 0 1-2.2-6.343v-13.791a8.708 8.708 0 0 1 2.21-6.353q2.212-2.264 6.447-2.264 4.256 0 6.457 2.253a8.726 8.726 0 0 1 2.2 6.363v13.792a8.708 8.708 0 0 1-2.21 6.349q-2.211 2.268-6.447 2.268zm0-4.048a4.29 4.29 0 0 0 3.328-1.178 4.862 4.862 0 0 0 1.074-3.39v-13.792a4.893 4.893 0 0 0-1.064-3.39 4.285 4.285 0 0 0-3.338-1.179 4.285 4.285 0 0 0-3.338 1.179 4.893 4.893 0 0 0-1.064 3.39v13.791a4.862 4.862 0 0 0 1.075 3.391 4.29 4.29 0 0 0 3.327 1.178zm14.928-4.61 10.181-21.97h4.381l-9.931 21.719h14.876v3.941h-19.507zm13.081-9.493h4.152v17.859h-4.152z" fill="#b2b2b2"></path><path d="m-27.694-19.435 10.182 14.517h4.381l-9.931-14.352h14.876v-2.606h-19.508zm13.081 6.273h4.152v-11.8h-4.152zM6.115-25.156q-4.256 0-6.457 1.5a4.8 4.8 0 0 0-2.2 4.191v9.113a4.784 4.784 0 0 0 2.212 4.2 11.511 11.511 0 0 0 6.447 1.5q4.256 0 6.457-1.489a4.786 4.786 0 0 0 2.2-4.2v-9.113a4.784 4.784 0 0 0-2.212-4.2 11.511 11.511 0 0 0-6.447-1.502zm0 2.675a5.705 5.705 0 0 1 3.328.779 2.6 2.6 0 0 1 1.074 2.24v9.113a2.607 2.607 0 0 1-1.064 2.24 5.7 5.7 0 0 1-3.338.779 5.7 5.7 0 0 1-3.338-.779 2.607 2.607 0 0 1-1.064-2.24v-9.113A2.6 2.6 0 0 1 2.788-21.7a5.705 5.705 0 0 1 3.327-.782zm14.927 3.047L31.224-4.918h4.381l-9.931-14.351H40.55v-2.606H21.043zm13.081 6.273h4.152v-11.8h-4.151z" transform="translate(826 1226.245)" opacity=".32" fill="url(#i)"></path><g fill="#e6e6e6"><path d="m858.428 1169.23-1.2 1.259h4.388l1.178-1.259z"></path><path d="m802.944 1192.187 1.288-1.375h7.143v1.375zm8.415-9.25 1.273-1.234h4.15l-1.235 1.234zm-2.855-12.469 1.198-1.259h4.367l-1.178 1.259z"></path><path d="m861.362 1181.678-1.27 1.3h4.188l1.236-1.3z"></path><path d="m865.519 1190.9-1.27 1.3h2.3l1.162-1.3z"></path><path d="m852.838 1190.791-1.207 1.508h8.447v-1.508z"></path></g></g></g></svg>`);
 }
-const _sfc_setup$2p = _sfc_main$2p.setup;
-_sfc_main$2p.setup = (props, ctx) => {
+const _sfc_setup$2q = _sfc_main$2q.setup;
+_sfc_main$2q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../../../../node_modules/vuepress-theme-hope/lib/client/components/icons/Page404.vue");
-  return _sfc_setup$2p ? _sfc_setup$2p(props, ctx) : void 0;
+  return _sfc_setup$2q ? _sfc_setup$2q(props, ctx) : void 0;
 };
-var Page404Icon = /* @__PURE__ */ _export_sfc(_sfc_main$2p, [["ssrRender", _sfc_ssrRender$2p]]);
+var Page404Icon = /* @__PURE__ */ _export_sfc(_sfc_main$2q, [["ssrRender", _sfc_ssrRender$2q]]);
 var pageMeta = "";
 var PageMeta = vue.defineComponent({
   name: "PageMeta",
@@ -4618,14 +4624,14 @@ const EmptyIcon = vue.defineComponent({
     });
   }
 });
-const categoryMap = { "category": { "/": { "path": "/category/", "map": { "Campus": { "path": "/category/campus/", "keys": ["v-44222a2b", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194"] }, "Plansantgoat": { "path": "/category/plansantgoat/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2"] }, "Others": { "path": "/category/others/", "keys": ["v-d77b10a8", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-5b1bac34", "v-5ee9fede"] }, "Tech": { "path": "/category/tech/", "keys": ["v-35f4823e"] }, "Readnote": { "path": "/category/readnote/", "keys": ["v-43aebe0d", "v-6788e968"] } } }, "/en/": { "path": "/en/category/", "map": { "Guide": { "path": "/en/category/guide/", "keys": ["v-3e9371aa", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a"] }, "Campus": { "path": "/en/category/campus/", "keys": ["v-11f40fb0", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee"] }, "Plansantgoat": { "path": "/en/category/plansantgoat/", "keys": ["v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-3d2de22e"] }, "Others": { "path": "/en/category/others/", "keys": ["v-6be65cc0", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-bb6cab5c", "v-7ccd43de"] }, "Tech": { "path": "/en/category/tech/", "keys": ["v-7b37039c"] }, "Readnote": { "path": "/en/category/readnote/", "keys": ["v-09190221", "v-5d7f5108"] } } } }, "tag": { "/": { "path": "/tag/", "map": {} }, "/en/": { "path": "/en/tag/", "map": { "disable": { "path": "/en/tag/disable/", "keys": ["v-45af1cf1"] }, "encryption": { "path": "/en/tag/encryption/", "keys": ["v-0c393394"] }, "markdown": { "path": "/en/tag/markdown/", "keys": ["v-0d98534a"] }, "Page config": { "path": "/en/tag/page-config/", "keys": ["v-3e9371aa"] }, "Guide": { "path": "/en/tag/guide/", "keys": ["v-3e9371aa"] } } } } };
+const categoryMap = { "category": { "/": { "path": "/category/", "map": { "Campus": { "path": "/category/campus/", "keys": ["v-44222a2b", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194"] }, "Plansantgoat": { "path": "/category/plansantgoat/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2"] }, "Tech": { "path": "/category/tech/", "keys": ["v-4a0d9aac", "v-35f4823e"] }, "Others": { "path": "/category/others/", "keys": ["v-d77b10a8", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-5b1bac34", "v-5ee9fede"] }, "Readnote": { "path": "/category/readnote/", "keys": ["v-43aebe0d", "v-6788e968"] } } }, "/en/": { "path": "/en/category/", "map": { "Guide": { "path": "/en/category/guide/", "keys": ["v-3e9371aa", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a"] }, "Campus": { "path": "/en/category/campus/", "keys": ["v-11f40fb0", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee"] }, "Plansantgoat": { "path": "/en/category/plansantgoat/", "keys": ["v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-3d2de22e"] }, "Others": { "path": "/en/category/others/", "keys": ["v-6be65cc0", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-bb6cab5c", "v-7ccd43de"] }, "Tech": { "path": "/en/category/tech/", "keys": ["v-7b37039c"] }, "Readnote": { "path": "/en/category/readnote/", "keys": ["v-09190221", "v-5d7f5108"] } } } }, "tag": { "/": { "path": "/tag/", "map": {} }, "/en/": { "path": "/en/tag/", "map": { "disable": { "path": "/en/tag/disable/", "keys": ["v-45af1cf1"] }, "encryption": { "path": "/en/tag/encryption/", "keys": ["v-0c393394"] }, "markdown": { "path": "/en/tag/markdown/", "keys": ["v-0d98534a"] }, "Page config": { "path": "/en/tag/page-config/", "keys": ["v-3e9371aa"] }, "Guide": { "path": "/en/tag/guide/", "keys": ["v-3e9371aa"] } } } } };
 if (void 0) {
   (void 0).accept();
   if (__VUE_HMR_RUNTIME__.updateBlogCategory) {
     __VUE_HMR_RUNTIME__.updateBlogCategory(categoryMap);
   }
 }
-const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-3e9371aa", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-3e9371aa", "v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540", "v-3e9371aa"] } } };
+const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-3e9371aa", "v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-3e9371aa", "v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-e6412400", "v-45af1cf1", "v-0c393394", "v-0d98534a", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540", "v-3e9371aa"] } } };
 if (void 0) {
   (void 0).accept();
   if (__VUE_HMR_RUNTIME__.updateBlogType) {
@@ -5666,6 +5672,7 @@ const routeItems = [
   ["v-6980d3aa", "/posts/article/100-days-For-Exam.html", { "title": "2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A", "icon": null, "type": "article", "readingTime": { "minutes": 9.7, "words": 2910 }, "excerpt": '<h1 id="_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A" aria-hidden="true">#</a> 2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A</h1>\n<p>\u524D\u8A00\uFF1A\u6625\u98CE\u548C\u7166\uFF0C\u5E26\u6765\u4E07\u7269\u590D\u82CF\u7684\u6C14\u8C61\uFF1B\u75AB\u60C5\u6DF7\u4E71\uFF0C\u5374\u4E0D\u80FD\u52A8\u6447\u6211\u4EEC\u7684\u5185\u5FC3\u3002\u5341\u4F59\u8F7D\u5149\u9634\u98DE\u8D8A\uFF0C\u767E\u65E5\u540E\u4E7E\u5764\u5C06\u5B9A\u3002\u5FD0\u5FD1\u4E0E\u671F\u5F85\uFF0C\u8FF7\u832B\u4E0E\u575A\u6301\uFF0C\u65E0\u8BBA\u524D\u65B9\u8346\u68D8\u4FBF\u9014\u8FD8\u662F\u5D07\u5C71\u6025\u6C34\uFF0C\u4E0D\u9000\u7F29\u624D\u8BE5\u662F\u6211\u4EEC\u5E94\u6709\u7684\u6001\u5EA6\u3002</p>\n', "author": "\u4F5C\u6587\u7EB8\u6761,\u5F18\u6811", "date": "2020-02-27T00:00:00.000Z", "category": ["Campus"], "tag": [], "star": null }, ["/posts/article/100-days-For-Exam", "/posts/article/100-days-For-Exam.md"]],
   ["v-6b935194", "/posts/article/100-days-For-Exam2.html", { "title": "2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A", "icon": null, "type": "article", "readingTime": { "minutes": 8.66, "words": 2597 }, "excerpt": '<h1 id="_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A" aria-hidden="true">#</a> 2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A</h1>\n<p>\u8DE8\u8D8A\u5C71\u6D77\uFF0C\u89C1\u8BC1\u7406\u60F3</p>\n', "author": "\u4F5C\u6587\u7EB8\u6761,\u5F18\u6811", "date": "2020-02-27T00:00:00.000Z", "category": ["Campus"], "tag": [], "star": null }, ["/posts/article/100-days-For-Exam2", "/posts/article/100-days-For-Exam2.md"]],
   ["v-19e6422d", "/posts/article/105t.html", { "title": "\u3010\u51B3\u6218\u6B21\u65F6\u4EE3\u3011\u26A1\u70ED\u7231105\xB0C\u7684\u559C\u7F8A\u7F8A\u26A1\u26A1", "icon": null, "type": "article", "readingTime": { "minutes": 0.14, "words": 43 }, "excerpt": "", "author": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811", "date": "2021-07-11T00:00:00.000Z", "category": ["Plansantgoat"], "tag": [], "star": null }, ["/posts/article/105t", "/posts/article/105t.md"]],
+  ["v-4a0d9aac", "/posts/article/3-18-bytedance.html", { "title": "3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55", "icon": null, "type": "article", "readingTime": { "minutes": 1.46, "words": 439 }, "excerpt": "", "author": "\u5F18\u6811", "date": "2022-03-20T00:00:00.000Z", "category": ["Tech"], "tag": [], "star": null }, ["/posts/article/3-18-bytedance", "/posts/article/3-18-bytedance.md"]],
   ["v-5b1bac34", "/posts/article/38.html", { "title": "3\u67088\u65E5\uFF0C\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005\uFF01", "icon": null, "type": "article", "readingTime": { "minutes": 1.41, "words": 423 }, "excerpt": '<h1 id="_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" tabindex="-1"><a class="header-anchor" href="#_3\u67088\u65E5-\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005" aria-hidden="true">#</a> 3\u67088\u65E5\uFF0C\u81F4\u656C\u6700\u7F8E\u9006\u884C\u8005\uFF01</h1>\n<p>\u8138\u4E0A\u6DF1\u6DF1\u7684\u52D2\u75D5\u8BA9\u4EBA\u5FC3\u75BC\uFF0C*\u4F46\u4F60\u5374\u8BF4\u8FD9\u662F\u201C\u5929\u4F7F\u5370\u8BB0\u201D</p>\n<p><strong>\u662F\u9006\u884C\u8005\u6700\u7279\u522B\u7684\u201C\u6218\u75AB\u5986\u201D\uFF0C</strong> <strong>\u81F4\u656C\uFF0C\u6700\u7F8E\u7684\u4EBA\uFF01</strong></p>\n', "author": "\u592E\u89C6\u65B0\u95FB", "date": "2020-03-08T00:00:00.000Z", "category": ["Others"], "tag": [], "star": null }, ["/posts/article/38", "/posts/article/38.md"]],
   ["v-0209a562", "/posts/article/Exam-Preparation.html", { "title": "2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848", "icon": null, "type": "article", "readingTime": { "minutes": 6.89, "words": 2067 }, "excerpt": '<h1 id="_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848" aria-hidden="true">#</a> 2020\u9AD8\u8003\u8BED\u6587\u5907\u8003\u65B9\u6848</h1>\n<p>\u73B0\u4EE3\u6587\u9605\u8BFB\u7740\u91CD\u8003\u67E5\u5C0F\u7EB8\u6761\u4EEC\u7B5B\u9009\u548C\u63D0\u53D6\u4FE1\u606F\u7684\u80FD\u529B\uFF0C\u7406\u89E3\u548C\u5206\u6790\u7684\u80FD\u529B\uFF0C\u9274\u8D4F\u548C\u8BC4\u4EF7\u7684\u80FD\u529B\u3002\u5728\u6700\u540E\u7684100\u5929\u4E2D\uFF0C\u5C0F\u7EB8\u6761\u4EEC\u53EF\u4EE5\u5206\u522B\u5BF9\u8BBA\u8FF0\u7C7B\u3001\u6587\u5B66\u7C7B\u3001\u5B9E\u7528\u7C7B\u6587\u672C\u7684\u4E0D\u540C\u9898\u578B\u8FDB\u884C\u603B\u7ED3\u548C\u8BAD\u7EC3\u3002</p>\n', "author": "\u4F5C\u6587\u7EB8\u6761", "date": "2020-02-29T00:00:00.000Z", "category": ["Campus"], "tag": [], "star": null }, ["/posts/article/Exam-Preparation", "/posts/article/Exam-Preparation.md"]],
   ["v-67c84b92", "/posts/article/National-Great-Projects.html", { "title": "\u56FD\u5BB6\u91CD\u5927\u79D1\u5B66\u5DE5\u7A0B\uFF1A\u8D21\u732E\u6211\u4EEC\u7684\u4E00\u4EFD\u529B\uFF0C\u98CE\u534E\u6B63\u5F53\u65F6\uFF01", "icon": null, "type": "article", "readingTime": { "minutes": 11.43, "words": 3428 }, "excerpt": "", "author": null, "date": "2020-08-22T00:00:00.000Z", "category": ["Others"], "tag": [], "star": null }, ["/posts/article/National-Great-Projects", "/posts/article/National-Great-Projects.md"]],
@@ -5753,13 +5760,13 @@ const routeItems = [
   ["v-3ffb3bbc", "/note/cs/co/digitalSystem/digital-system1.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD51", "type": "page", "readingTime": { "minutes": 4.08, "words": 1224 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system1", "/note/cs/co/digitalSystem/digital-system1.md"]],
   ["v-41b0145b", "/note/cs/co/digitalSystem/digital-system2.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD52", "type": "page", "readingTime": { "minutes": 14.17, "words": 4252 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system2", "/note/cs/co/digitalSystem/digital-system2.md"]],
   ["v-4364ecfa", "/note/cs/co/digitalSystem/digital-system3.html", { "title": "\u6570\u4F4D\u7CFB\u7EDF\u4EE5\u53CA\u5176\u7B97\u6CD53", "type": "page", "readingTime": { "minutes": 5.21, "words": 1563 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/co/digitalSystem/digital-system3", "/note/cs/co/digitalSystem/digital-system3.md"]],
-  ["v-1bfdd376", "/note/cs/coding/cpp/", { "title": "C++ Programming", "type": "page", "readingTime": { "minutes": 0.01, "words": 2 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/coding/cpp/index.html", "/note/cs/coding/cpp/README.md"]],
   ["v-9b2e9c38", "/note/cs/os/asm/", { "title": "Assembly language", "type": "page", "readingTime": { "minutes": 0.01, "words": 2 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/index.html", "/note/cs/os/asm/README.md"]],
   ["v-2af9f9dd", "/note/cs/os/asm/Y86-64-processer-arch.html", { "title": "Y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB", "type": "page", "readingTime": { "minutes": 9.29, "words": 2786 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/Y86-64-processer-arch", "/note/cs/os/asm/Y86-64-processer-arch.md"]],
   ["v-514ca1be", "/note/cs/os/asm/gnu-gdb-std.html", { "title": "GNU\u5BB6\u65CF\u7B80\u4ECB\u53CAGDB\u6C47\u7F16\u73A9\u6CD5", "type": "page", "readingTime": { "minutes": 8.58, "words": 2575 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/gnu-gdb-std", "/note/cs/os/asm/gnu-gdb-std.md"]],
   ["v-496413f0", "/note/cs/os/asm/llvm-std.html", { "title": "LLVM\u7F16\u8BD1\u5668\u7CFB\u5217\u7B80\u4ECB", "type": "page", "readingTime": { "minutes": 2.53, "words": 760 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/llvm-std", "/note/cs/os/asm/llvm-std.md"]],
   ["v-7f2725d2", "/note/cs/os/asm/x86_64-asm-std1.html", { "title": "x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78401", "type": "page", "readingTime": { "minutes": 2.89, "words": 868 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/x86_64-asm-std1", "/note/cs/os/asm/x86_64-asm-std1.md"]],
   ["v-7bbd7494", "/note/cs/os/asm/x86_64-asm-std2.html", { "title": "x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402", "type": "page", "readingTime": { "minutes": 3.16, "words": 948 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/os/asm/x86_64-asm-std2", "/note/cs/os/asm/x86_64-asm-std2.md"]],
+  ["v-1bfdd376", "/note/cs/coding/cpp/", { "title": "C++ Programming", "type": "page", "readingTime": { "minutes": 0.01, "words": 2 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/coding/cpp/index.html", "/note/cs/coding/cpp/README.md"]],
   ["v-fe5e886a", "/note/cs/coding/cpp/related/Block-Collection-std.html", { "title": "Block Collection", "type": "page", "readingTime": { "minutes": 2.27, "words": 680 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/coding/cpp/related/Block-Collection-std", "/note/cs/coding/cpp/related/Block-Collection-std.md"]],
   ["v-6cf9e6da", "/note/cs/coding/cpp/related/", { "title": "Related Knowledge Guide", "type": "page", "readingTime": { "minutes": 0.01, "words": 3 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/coding/cpp/related/index.html", "/note/cs/coding/cpp/related/README.md"]],
   ["v-ed2325f0", "/note/cs/coding/cpp/related/Searching-Algorithms.html", { "title": "Searching Algorithms", "type": "page", "readingTime": { "minutes": 2.22, "words": 667 }, "excerpt": "", "date": "2021-05-01T00:00:00.000Z" }, ["/note/cs/coding/cpp/related/Searching-Algorithms", "/note/cs/coding/cpp/related/Searching-Algorithms.md"]],
@@ -5790,9 +5797,9 @@ const routeItems = [
   ["v-0379cba1", "/en/timeline/", { "title": "Timeline", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/timeline/index.html"]],
   ["v-07f2fb82", "/category/plansantgoat/", { "title": "Plansantgoat \u5206\u7C7B", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/category/plansantgoat/index.html"]],
   ["v-c6edb6ae", "/en/tag/disable/", { "title": "disable Tags", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/tag/disable/index.html"]],
-  ["v-3ab30614", "/category/others/", { "title": "Others \u5206\u7C7B", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/category/others/index.html"]],
-  ["v-0017792c", "/en/tag/encryption/", { "title": "encryption Tags", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/tag/encryption/index.html"]],
   ["v-58c02741", "/category/tech/", { "title": "Tech \u5206\u7C7B", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/category/tech/index.html"]],
+  ["v-0017792c", "/en/tag/encryption/", { "title": "encryption Tags", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/tag/encryption/index.html"]],
+  ["v-3ab30614", "/category/others/", { "title": "Others \u5206\u7C7B", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/category/others/index.html"]],
   ["v-6f7bfa04", "/en/tag/markdown/", { "title": "markdown Tags", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/tag/markdown/index.html"]],
   ["v-e72834e2", "/category/readnote/", { "title": "Readnote \u5206\u7C7B", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/category/readnote/index.html"]],
   ["v-7e751551", "/en/tag/page-config/", { "title": "Page config Tags", "type": "page", "readingTime": { "minutes": 0, "words": 0 }, "excerpt": "" }, ["/en/tag/page-config/index.html"]],
@@ -5926,23 +5933,23 @@ const createVueApp = async () => {
     router
   };
 };
-const _sfc_main$2o = {};
-function _sfc_ssrRender$2o(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2p = {};
+function _sfc_ssrRender$2p(_ctx, _push, _parent, _attrs) {
   _push(`<h6${serverRenderer.ssrRenderAttrs(vue.mergeProps({ style: { "text-align": "center" } }, _attrs))}> \u6851\u4E18\uFF0C\u8BA9\u4ED6\u4EEC\u7BA1\u6211\u53EB\u75AF\u5B50\u5427\uFF0C\u6211\u8FD8\u75AF\u5F97\u4E0D\u591F\uFF0C\u6240\u4EE5\u5F97\u4E0D\u5230\u4ED6\u4EEC\u7684\u8D5E\u8BB8\u3002 <br> \u5802\u5409\u8BC3\u5FB7 </h6>`);
 }
-const _sfc_setup$2o = _sfc_main$2o.setup;
-_sfc_main$2o.setup = (props, ctx) => {
+const _sfc_setup$2p = _sfc_main$2p.setup;
+_sfc_main$2p.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/index.html.vue");
-  return _sfc_setup$2o ? _sfc_setup$2o(props, ctx) : void 0;
+  return _sfc_setup$2p ? _sfc_setup$2p(props, ctx) : void 0;
 };
-var index_html$25 = /* @__PURE__ */ _export_sfc(_sfc_main$2o, [["ssrRender", _sfc_ssrRender$2o]]);
+var index_html$25 = /* @__PURE__ */ _export_sfc(_sfc_main$2p, [["ssrRender", _sfc_ssrRender$2p]]);
 var index_html$26 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index_html$25
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2n = {};
-function _sfc_ssrRender$2n(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2o = {};
+function _sfc_ssrRender$2o(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="han-jiaming-\u97E9\u4F73\u660E" tabindex="-1"><a class="header-anchor" href="#han-jiaming-\u97E9\u4F73\u660E" aria-hidden="true">#</a> Han Jiaming (\u97E9\u4F73\u660E)</h1><br><div align="center"><img src="https://pic.hanjiaming.com.cn/2022/03/12/70e08a813f0e2.png" alt="avatar.png" style="${serverRenderer.ssrRenderStyle({ "zoom": "50%" })}"></div><br><ul><li><a href="https://hongshu.zxg.red/" target="_blank" rel="noopener noreferrer">See my Research and Project Website`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5962,67 +5969,67 @@ function _sfc_ssrRender$2n(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>.</p><!--]-->`);
 }
-const _sfc_setup$2n = _sfc_main$2n.setup;
-_sfc_main$2n.setup = (props, ctx) => {
+const _sfc_setup$2o = _sfc_main$2o.setup;
+_sfc_main$2o.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/myself.html.vue");
-  return _sfc_setup$2n ? _sfc_setup$2n(props, ctx) : void 0;
+  return _sfc_setup$2o ? _sfc_setup$2o(props, ctx) : void 0;
 };
-var myself_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2n, [["ssrRender", _sfc_ssrRender$2n]]);
+var myself_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2o, [["ssrRender", _sfc_ssrRender$2o]]);
 var myself_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": myself_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2m = {};
-function _sfc_ssrRender$2m(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2n = {};
+function _sfc_ssrRender$2n(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><p>\u8FD9\u662F\u666E\u901A\u4E3B\u9875\u7684\u6848\u4F8B\u3002\u4F60\u53EF\u4EE5\u5728\u8FD9\u91CC\u653E\u7F6E\u4F60\u7684\u4E3B\u4F53\u5185\u5BB9\u3002</p><p>\u60F3\u8981\u4F7F\u7528\u6B64\u5E03\u5C40\uFF0C\u4F60\u9700\u8981\u5728\u9875\u9762 front matter \u4E2D\u8BBE\u7F6E <code>home: true</code>\u3002</p><p>\u914D\u7F6E\u9879\u7684\u76F8\u5173\u8BF4\u660E\u8BE6\u89C1 <a href="https://vuepress-theme-hope.github.io/v2/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">\u9879\u76EE\u4E3B\u9875\u914D\u7F6E`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>\u3002</p><!--]-->`);
 }
-const _sfc_setup$2m = _sfc_main$2m.setup;
-_sfc_main$2m.setup = (props, ctx) => {
+const _sfc_setup$2n = _sfc_main$2n.setup;
+_sfc_main$2n.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/research.html.vue");
-  return _sfc_setup$2m ? _sfc_setup$2m(props, ctx) : void 0;
+  return _sfc_setup$2n ? _sfc_setup$2n(props, ctx) : void 0;
 };
-var research_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2m, [["ssrRender", _sfc_ssrRender$2m]]);
+var research_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2n, [["ssrRender", _sfc_ssrRender$2n]]);
 var research_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": research_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2l = {};
-function _sfc_ssrRender$2l(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2m = {};
+function _sfc_ssrRender$2m(_ctx, _push, _parent, _attrs) {
   _push(`<h6${serverRenderer.ssrRenderAttrs(vue.mergeProps({ style: { "text-align": "center" } }, _attrs))}> Legends never die. </h6>`);
 }
-const _sfc_setup$2l = _sfc_main$2l.setup;
-_sfc_main$2l.setup = (props, ctx) => {
+const _sfc_setup$2m = _sfc_main$2m.setup;
+_sfc_main$2m.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/index.html.vue");
-  return _sfc_setup$2l ? _sfc_setup$2l(props, ctx) : void 0;
+  return _sfc_setup$2m ? _sfc_setup$2m(props, ctx) : void 0;
 };
-var index_html$23 = /* @__PURE__ */ _export_sfc(_sfc_main$2l, [["ssrRender", _sfc_ssrRender$2l]]);
+var index_html$23 = /* @__PURE__ */ _export_sfc(_sfc_main$2m, [["ssrRender", _sfc_ssrRender$2m]]);
 var index_html$24 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index_html$23
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2k = {};
-function _sfc_ssrRender$2k(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2l = {};
+function _sfc_ssrRender$2l(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B" tabindex="-1"><a class="header-anchor" href="#\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B" aria-hidden="true">#</a> \u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!</h1><p>\u8FD9\u662F\u6211\u7B2C6\u6B21\u642C\u8FC1....</p><!--]-->`);
 }
-const _sfc_setup$2k = _sfc_main$2k.setup;
-_sfc_main$2k.setup = (props, ctx) => {
+const _sfc_setup$2l = _sfc_main$2l.setup;
+_sfc_main$2l.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/welcome.html.vue");
-  return _sfc_setup$2k ? _sfc_setup$2k(props, ctx) : void 0;
+  return _sfc_setup$2l ? _sfc_setup$2l(props, ctx) : void 0;
 };
-var welcome_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$2k, [["ssrRender", _sfc_ssrRender$2k]]);
+var welcome_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$2l, [["ssrRender", _sfc_ssrRender$2l]]);
 var welcome_html$5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": welcome_html$4
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2j = {};
-function _sfc_ssrRender$2j(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2k = {};
+function _sfc_ssrRender$2k(_ctx, _push, _parent, _attrs) {
   const _component_RouterLink = vue.resolveComponent("RouterLink");
   _push(`<!--[--><h1 id="guides" tabindex="-1"><a class="header-anchor" href="#guides" aria-hidden="true">#</a> Guides</h1><ul><li><p>`);
   _push(serverRenderer.ssrRenderComponent(_component_RouterLink, { to: "/en/guide/page.html" }, {
@@ -6078,49 +6085,49 @@ function _sfc_ssrRender$2j(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`</p></li></ul><!--]-->`);
 }
-const _sfc_setup$2j = _sfc_main$2j.setup;
-_sfc_main$2j.setup = (props, ctx) => {
+const _sfc_setup$2k = _sfc_main$2k.setup;
+_sfc_main$2k.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/guide/index.html.vue");
-  return _sfc_setup$2j ? _sfc_setup$2j(props, ctx) : void 0;
+  return _sfc_setup$2k ? _sfc_setup$2k(props, ctx) : void 0;
 };
-var index_html$21 = /* @__PURE__ */ _export_sfc(_sfc_main$2j, [["ssrRender", _sfc_ssrRender$2j]]);
+var index_html$21 = /* @__PURE__ */ _export_sfc(_sfc_main$2k, [["ssrRender", _sfc_ssrRender$2k]]);
 var index_html$22 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index_html$21
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2i = {};
-function _sfc_ssrRender$2i(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2j = {};
+function _sfc_ssrRender$2j(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><p>You can disable some functions on the page by setting the Frontmatter of the page.</p><p>These should be disabled on this page:</p><ul><li>Navbar</li><li>Sidebar</li><li>Breadcrumb</li><li>Page information</li><li>Contributors</li><li>Edit link</li><li>Update time</li><li>Prev/Next link</li><li>Comment</li><li>Footer</li><li>Back to top button</li></ul><!--]-->`);
 }
-const _sfc_setup$2i = _sfc_main$2i.setup;
-_sfc_main$2i.setup = (props, ctx) => {
+const _sfc_setup$2j = _sfc_main$2j.setup;
+_sfc_main$2j.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/guide/disable.html.vue");
-  return _sfc_setup$2i ? _sfc_setup$2i(props, ctx) : void 0;
+  return _sfc_setup$2j ? _sfc_setup$2j(props, ctx) : void 0;
 };
-var disable_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2i, [["ssrRender", _sfc_ssrRender$2i]]);
+var disable_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2j, [["ssrRender", _sfc_ssrRender$2j]]);
 var disable_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": disable_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2h = {};
-function _sfc_ssrRender$2h(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2i = {};
+function _sfc_ssrRender$2i(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="encryption-article" tabindex="-1"><a class="header-anchor" href="#encryption-article" aria-hidden="true">#</a> Encryption article</h1><p>The actual article content.</p><p>Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text.</p><p>Paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text.</p><!--]-->`);
 }
-const _sfc_setup$2h = _sfc_main$2h.setup;
-_sfc_main$2h.setup = (props, ctx) => {
+const _sfc_setup$2i = _sfc_main$2i.setup;
+_sfc_main$2i.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/guide/encrypt.html.vue");
-  return _sfc_setup$2h ? _sfc_setup$2h(props, ctx) : void 0;
+  return _sfc_setup$2i ? _sfc_setup$2i(props, ctx) : void 0;
 };
-var encrypt_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2h, [["ssrRender", _sfc_ssrRender$2h]]);
+var encrypt_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2i, [["ssrRender", _sfc_ssrRender$2i]]);
 var encrypt_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": encrypt_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2g = {};
-function _sfc_ssrRender$2g(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2h = {};
+function _sfc_ssrRender$2h(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
@@ -6592,19 +6599,19 @@ A custom details container
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></li></ul><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="footnote1" class="footnote-item"><p>This is footnote content <a href="#footnote-ref1" class="footnote-backref">\u21A9\uFE0E</a></p></li></ol></section><!--]-->`);
 }
-const _sfc_setup$2g = _sfc_main$2g.setup;
-_sfc_main$2g.setup = (props, ctx) => {
+const _sfc_setup$2h = _sfc_main$2h.setup;
+_sfc_main$2h.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/guide/markdown.html.vue");
-  return _sfc_setup$2g ? _sfc_setup$2g(props, ctx) : void 0;
+  return _sfc_setup$2h ? _sfc_setup$2h(props, ctx) : void 0;
 };
-var markdown_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2g, [["ssrRender", _sfc_ssrRender$2g]]);
+var markdown_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2h, [["ssrRender", _sfc_ssrRender$2h]]);
 var markdown_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": markdown_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2f = {};
-function _sfc_ssrRender$2f(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2g = {};
+function _sfc_ssrRender$2g(_ctx, _push, _parent, _attrs) {
   const _component_Badge = vue.resolveComponent("Badge");
   _push(`<!--[--><p>Content before <code>more</code> comment is regarded as page excerpt.</p><h2 id="page-information" tabindex="-1"><a class="header-anchor" href="#page-information" aria-hidden="true">#</a> Page information</h2><p>You can set page information in Markdown\u2019s Frontmatter.</p><ul><li><p>The author is set to Ms.Hope.</p></li><li><p>The writing time should be January 1, 2020</p></li><li><p>Category is &quot;Guide&quot;</p></li><li><p>Tags are &quot;Page Config&quot; and &quot;Guide&quot;</p></li></ul><h2 id="page-content" tabindex="-1"><a class="header-anchor" href="#page-content" aria-hidden="true">#</a> Page content</h2><p>You are free to write your Markdown here.</p><div class="custom-container tip"><p class="custom-container-title">Tips</p><ul><li><p>Please use the relative link <code>./</code> for pictures in the Markdown folder.</p></li><li><p>For pictures in <code>.vuepress/public</code> folder, please use absolute link <code>/</code> for reference</p></li></ul></div><p>The theme contains a custom badge:</p><blockquote><p>A dark blue badge text badge at the end of line. `);
   _push(serverRenderer.ssrRenderComponent(_component_Badge, {
@@ -6613,46 +6620,46 @@ function _sfc_ssrRender$2f(_ctx, _push, _parent, _attrs) {
   }, null, _parent));
   _push(`</p></blockquote><h2 id="page-structure" tabindex="-1"><a class="header-anchor" href="#page-structure" aria-hidden="true">#</a> Page structure</h2><p>This page should contain:</p><ul><li>Back to top button</li><li>Route navigation</li><li>Comments</li><li>Footer</li></ul><!--]-->`);
 }
-const _sfc_setup$2f = _sfc_main$2f.setup;
-_sfc_main$2f.setup = (props, ctx) => {
+const _sfc_setup$2g = _sfc_main$2g.setup;
+_sfc_main$2g.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/guide/page.html.vue");
-  return _sfc_setup$2f ? _sfc_setup$2f(props, ctx) : void 0;
+  return _sfc_setup$2g ? _sfc_setup$2g(props, ctx) : void 0;
 };
-var page_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2f, [["ssrRender", _sfc_ssrRender$2f]]);
+var page_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2g, [["ssrRender", _sfc_ssrRender$2g]]);
 var page_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": page_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2e = {};
-function _sfc_ssrRender$2e(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2f = {};
+function _sfc_ssrRender$2f(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B" tabindex="-1"><a class="header-anchor" href="#\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B" aria-hidden="true">#</a> \u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!</h1><p>\u8FD9\u662F\u6211\u7B2C6\u6B21\u642C\u8FC1....</p><!--]-->`);
 }
-const _sfc_setup$2e = _sfc_main$2e.setup;
-_sfc_main$2e.setup = (props, ctx) => {
+const _sfc_setup$2f = _sfc_main$2f.setup;
+_sfc_main$2f.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/en/posts/welcome.html.vue");
-  return _sfc_setup$2e ? _sfc_setup$2e(props, ctx) : void 0;
+  return _sfc_setup$2f ? _sfc_setup$2f(props, ctx) : void 0;
 };
-var welcome_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$2e, [["ssrRender", _sfc_ssrRender$2e]]);
+var welcome_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$2f, [["ssrRender", _sfc_ssrRender$2f]]);
 var welcome_html$3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": welcome_html$2
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2d = {};
-function _sfc_ssrRender$2d(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2e = {};
+function _sfc_ssrRender$2e(_ctx, _push, _parent, _attrs) {
   _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
     id: "computer-science",
     tabindex: "-1"
   }, _attrs))}><a class="header-anchor" href="#computer-science" aria-hidden="true">#</a> Computer Science</h1>`);
 }
-const _sfc_setup$2d = _sfc_main$2d.setup;
-_sfc_main$2d.setup = (props, ctx) => {
+const _sfc_setup$2e = _sfc_main$2e.setup;
+_sfc_main$2e.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/index.html.vue");
-  return _sfc_setup$2d ? _sfc_setup$2d(props, ctx) : void 0;
+  return _sfc_setup$2e ? _sfc_setup$2e(props, ctx) : void 0;
 };
-var index_html$1$ = /* @__PURE__ */ _export_sfc(_sfc_main$2d, [["ssrRender", _sfc_ssrRender$2d]]);
+var index_html$1$ = /* @__PURE__ */ _export_sfc(_sfc_main$2e, [["ssrRender", _sfc_ssrRender$2e]]);
 var index_html$20 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index_html$1$
@@ -6671,17 +6678,17 @@ function getRTime$3() {
   document.getElementById("t_s").innerHTML = s2 + " \u79D2";
 }
 setInterval(getRTime$3, 1e3);
-const _sfc_main$2c = {};
-function _sfc_ssrRender$2c(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+const _sfc_main$2d = {};
+function _sfc_ssrRender$2d(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<!--[--><h1 id="_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A" aria-hidden="true">#</a> 2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A</h1><p>\u524D\u8A00\uFF1A\u6625\u98CE\u548C\u7166\uFF0C\u5E26\u6765\u4E07\u7269\u590D\u82CF\u7684\u6C14\u8C61\uFF1B\u75AB\u60C5\u6DF7\u4E71\uFF0C\u5374\u4E0D\u80FD\u52A8\u6447\u6211\u4EEC\u7684\u5185\u5FC3\u3002\u5341\u4F59\u8F7D\u5149\u9634\u98DE\u8D8A\uFF0C\u767E\u65E5\u540E\u4E7E\u5764\u5C06\u5B9A\u3002\u5FD0\u5FD1\u4E0E\u671F\u5F85\uFF0C\u8FF7\u832B\u4E0E\u575A\u6301\uFF0C\u65E0\u8BBA\u524D\u65B9\u8346\u68D8\u4FBF\u9014\u8FD8\u662F\u5D07\u5C71\u6025\u6C34\uFF0C\u4E0D\u9000\u7F29\u624D\u8BE5\u662F\u6211\u4EEC\u5E94\u6709\u7684\u6001\u5EA6\u3002</p><div class="timeActive"><h4>\u76EE\u524D\u8DDD\u79BB2020\u5E74\u9AD8\u8003\u5DF2\u7ECF\u8FC7\u53BB\u4E86</h4><div id="CountMsg" class="HotDate"><span id="t_d"> 00 \u5929 </span><span id="t_h">00 \u65F6</span><span id="t_m">00 \u5206</span><span id="t_s">00 \u79D2</span></div></div><p>\u4F60\u5FD8\u4E86\u5417\uFF0C\u4F60\u5DF2\u7ECF\u6BD5\u4E1A\u4E86......</p><p>\u65F6\u95F4\u7A0D\u7EB5\u5373\u901D\uFF0C\u604D\u60DA\u4E4B\u95F4\u6211\u4EEC\u5DF2\u4E34\u767E\u65E5\u8A93\u5E08\u4E4B\u65F6\uFF0C\u51FA\u5F81\u53F7\u5DF2\u7136\u64C2\u54CD\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u8981\u8EAB\u4E34\u6218\u573A\uFF0C\u9C9C\u7EA2\u7684\u7EC8\u70B9\u5728\u524D\u65B9\u771F\u771F\u5207\u5207\uFF0C\u6210\u529F\u4ECE\u6765\u6CA1\u6709\u5982\u6B64\u8D34\u8FD1\u6211\u4EEC\u5E74\u8F7B\u7684\u751F\u547D\uFF0C\u5728\u672A\u6765\u7684\u4E00\u767E\u5929\u91CC\uFF0C\u53D7\u592A\u9633\u4E4B\u5149\u534E\uFF0C\u4E58\u6625\u98CE\u4E4B\u5FEB\u3002</p><p>\u767E\u65E5\u5DF2\u81F3\uFF0C\u6211\u8981\u5B66\u4F1A\u4E3B\u52A8\u51FA\u51FB\uFF0C\u96C6\u4E2D\u4E00\u70B9\u767B\u5CF0\u9020\u6781\uFF0C\u800C\u4E0D\u518D\u88AB\u52A8\u63A5\u53D7\u547D\u8FD0\u7684\u620F\u5F04\u3002</p><p>\u767E\u65E5\u5DF2\u81F3\uFF0C\u6211\u8981\u505A\u5230\u514B\u5DF1\u6F5C\u6C89\uFF0C\u4EE5\u7EDD\u5BF9\u7684\u5B9A\u529B\u53BB\u67E5\u6F0F\u8865\u7F3A\uFF0C\u9759\u5019\u9AD8\u8003\u4E34\u573A\u7684\u6781\u81F4\u7EFD\u653E\u3002</p><p>\u6A58\u5B50\u6D32\u5934\uFF0C\u5DF2\u7136\u4E00\u756A\u767E\u8238\u4E89\u6D41\uFF0C\u6562\u95EE\u8861\u4E2D\u7684\u6218\u53CB\u4EEC\uFF1A\u53EF\u6562\u5230\u4E2D\u6D41\u51FB\u6C34\uFF0C\u6D6A\u904F\u98DE\u821F\uFF1F</p><p>\u6307\u70B9\u6C5F\u5C71\uFF0C\u6FC0\u626C\u6587\u5B57\u3002\u6211\u4EEC\u6000\u7740\u5BF9\u672A\u6765\u7684\u7F8E\u597D\u61A7\u61AC\uFF0C\u8F7D\u7740\u5BB6\u4EBA\u4E0E\u8001\u5E08\u7684\u6BB7\u6BB7\u671F\u76FC\uFF0C\u575A\u5B9A\u5730\u8FC8\u5411\u9AD8\u8003\u7684\u5F81\u9014\uFF1B</p><p>\u4ECA\u5929\u6211\u4EEC\u5728\u8FD9\u91CC\uFF0C\u90D1\u91CD\u5730\u63A5\u4E0B\u9AD8\u8003\u8D6B\u7136\u9192\u76EE\u7684\u6218\u4E66\uFF0C\u51C6\u5907\u5954\u8D74\u6C99\u573A\uFF1B\u4ECA\u5929\u6211\u4EEC\u5728\u8FD9\u91CC\uFF0C\u5439\u54CD\u4E00\u767E\u5929\u51B3\u6218\u51B2\u950B\u7684\u53F7\u89D2\u3002\u6211\u4EEC\u575A\u4FE1\uFF0C\u6B63\u662F\u5728\u8FD9\u91CC\uFF0C\u65B0\u7684\u8F89\u714C\u5C06\u5F20\u5F00\u817E\u98DE\u7684\u7FC5\u8180\u3002</p><p>\u84E6\u7136\u56DE\u9996\uFF0C\u5341\u4E8C\u5E74\u5BD2\u7A97\u82E6\u8BFB\uFF0C\u56DB\u5343\u4E09\u767E\u591A\u4E2A\u65E5\u65E5\u591C\u591C\uFF0C\u94F8\u5C31\u4E86\u6211\u4EEC\u5FC5\u80DC\u7684\u4FE1\u5FF5\u4E0E\u575A\u4E0D\u53EF\u6467\u7684\u610F\u5FD7\u3002\u4E66\u6D77\u7684\u6C89\u6D6E\u5DF2\u4E0D\u518D\u8BA9\u6211\u4EEC\u52A8\u5BB9\uFF0C\u98CE\u96E8\u7684\u78E8\u783A\u53EA\u4F1A\u8BA9\u6211\u4EEC\u6108\u632B\u6108\u52C7\uFF0C\u6211\u4EEC\u7684\u76EE\u5149\u4ECE\u6765\u6CA1\u6709\u50CF\u4ECA\u5929\u8FD9\u822C\u575A\u5B9A\u6267\u7740\uFF0C\u6211\u4EEC\u7684\u601D\u60F3\u4ECE\u6765\u6CA1\u6709\u50CF\u73B0\u5728\u8FD9\u822C\u6210\u719F\u9971\u6EE1\uFF0C\u6211\u4EEC\u7684\u5FC3\u7075\u4ECE\u6765\u6CA1\u6709\u5982\u6B64\u6FC0\u8361\u71C3\u70E7\u3002</p><p>100\u5929\u6539\u53D8\u4E00\u751F\u7684\u547D\u8FD0\uFF0C100\u5929\u4E8B\u5173\u4E00\u751F\u7684\u5E78\u798F\uFF0C100\u5929\u8BA9\u751F\u547D\u4E0D\u518D\u5E73\u51E1\u3002\u4EB2\u7231\u7684\u540C\u5B66\u4EEC\uFF0C\u6211\u4EEC\u4E00\u751F\u4E2D\u6709\u51E0\u4E2A100\u5929\u80FD\u6709\u5982\u6B64\u5DE8\u5927\u7684\u4EF7\u503C\u548C\u6DF1\u8FDC\u7684\u610F\u4E49\u5462\uFF1F\u6211\u4EEC\u7684\u52AA\u529B\u5C31\u662F\u6211\u4EEC\u7684\u5E0C\u671B\uFF0C\u6211\u4EEC\u7684\u52E4\u594B\u5C31\u662F\u6211\u4EEC\u7684\u8D44\u672C\uFF0C\u6211\u4EEC\u7684\u660E\u5929\u5C31\u53EB\u505A\u6210\u529F\uFF01</p><p>\u540C\u5FD7\u4EEC\uFF0C\u51B2\u950B\u7684\u53F7\u89D2\u5728\u8033\u8FB9\u54CD\u5F7B\uFF0C\u6CE2\u6F9C\u58EE\u9614\u7684\u753B\u5377\u5DF2\u7ECF\u5C3D\u60C5\u94FA\u5C55\u3002\u6C38\u4E0D\u8A00\u8D25\u7684\u4FE1\u5FF5\uFF0C\u53EF\u4EE5\u8BA9\u811A\u6B65\u66F4\u52A0\u575A\u5B9A\uFF1B\u8E0F\u5B9E\u52E4\u594B\u7684\u5B66\u4E60\uFF0C\u53EF\u4EE5\u8BA9\u8FDB\u6B65\u66F4\u52A0\u663E\u8457\uFF1B\u52A1\u5B9E\u4E25\u8C28\u7684\u4F5C\u98CE\uFF0C\u53EF\u4EE5\u8BA9\u9053\u8DEF\u5728\u811A\u4E0B\u5EF6\u4F38\u3002\u594B\u6597\u4E00\u767E\u5929\uFF0C\u667A\u6167\u4E0E\u68A6\u60F3\u5C31\u80FD\u5728\u516D\u6708\u5C3D\u60C5\u7EFD\u653E\uFF1B\u594B\u6597\u4E00\u767E\u5929\uFF0C\u6C57\u6C34\u4E0E\u6CEA\u6C34\u5C31\u80FD\u5728\u516D\u6708\u7ED3\u6676\u95EA\u5149\u3002</p><h2 id="_1-\u76EE\u6807\u4E0E\u884C\u52A8\u5171\u5B58" tabindex="-1"><a class="header-anchor" href="#_1-\u76EE\u6807\u4E0E\u884C\u52A8\u5171\u5B58" aria-hidden="true">#</a> 1.\u76EE\u6807\u4E0E\u884C\u52A8\u5171\u5B58</h2><p>\u4F60\u60F3\u4EF0\u671B\u661F\u7A7A\uFF0C\u5177\u5907\u201C\u9E70\u96BC\u8BD5\u7FFC\uFF0C\u98CE\u5C18\u5438\u5F20\u201D\u822C\u7684\u58EE\u9614\uFF0C\u5FC5\u987B\u62E5\u6709\u201C\u9532\u800C\u4E0D\u820D\uFF0C\u91D1\u77F3\u53EF\u9542\u201D\u7684\u5883\u754C\u3002\u4F60\u8981\u77E5\u9053\u4F60\u60F3\u8981\u4EC0\u4E48\uFF0C\u4FDD\u6301\u7740\u767E\u5206\u767E\u7684\u4E13\u6CE8\uFF0C\u7B03\u5B9A\u4F60\u76F8\u4FE1\u7684\uFF0C\u4ED8\u8BF8\u4F60\u7684\u884C\u52A8\uFF0C\u7AD6\u8D77\u4F60\u7684\u65D7\u5E1C\uFF0C\u52C7\u6562\u5730\u8D70\u5411\u5C5E\u4E8E\u4F60\u81EA\u5DF1\u7684\u8FDC\u65B9\u3002</p><h2 id="_2-\u52C7\u6562\u5730\u9762\u5BF9\u81EA\u5DF1\u524D\u65B9\u7684\u8DEF" tabindex="-1"><a class="header-anchor" href="#_2-\u52C7\u6562\u5730\u9762\u5BF9\u81EA\u5DF1\u524D\u65B9\u7684\u8DEF" aria-hidden="true">#</a> 2.\u52C7\u6562\u5730\u9762\u5BF9\u81EA\u5DF1\u524D\u65B9\u7684\u8DEF</h2><p>\u80C6\u602F\u7684\u4EBA\u5F53\u4E0D\u4E86\u547D\u8FD0\u7684\u6355\u624B\u3002\u9AD8\u4E09\u8FD9\u6BB5\u5F81\u7A0B\u4E0A\u6211\u4EEC\u9047\u5230\u8FC7\u8BB8\u591A\u56F0\u96BE\uFF0C\u524D\u65B9\u4E5F\u80AF\u5B9A\u4E0D\u5C11\u632B\u6298\uFF0C\u4F46\u662F\u771F\u6B63\u7684\u52C7\u6562\u8005\u624D\u80FD\u8FBE\u5230\u6700\u540E\u7684\u7EC8\u70B9\uFF0C\u4E66\u5199\u51FA\u6700\u7CBE\u5F69\u7684\u9AD8\u4E09\u4EBA\u7684\u6545\u4E8B\u3002\u8BB0\u4F4F\uFF0C\u53EA\u6709\u61E6\u5F31\u7684\u4EBA\uFF0C\u624D\u662F\u7EDD\u5BF9\u7684\u5931\u8D25\u8005\u3002</p><h2 id="_3-\u575A\u6301\u5230\u81EA\u5DF1\u65E0\u80FD\u4E3A\u529B" tabindex="-1"><a class="header-anchor" href="#_3-\u575A\u6301\u5230\u81EA\u5DF1\u65E0\u80FD\u4E3A\u529B" aria-hidden="true">#</a> 3.\u575A\u6301\u5230\u81EA\u5DF1\u65E0\u80FD\u4E3A\u529B</h2><p>\u4F0F\u5C14\u6CF0\u66FE\u8A00\uFF0C\u4F1F\u5927\u7684\u4E8B\u4E1A\u9700\u8981\u59CB\u7EC8\u4E0D\u6E1D\u7684\u7CBE\u795E\u3002\u6216\u8BB8\uFF0C\u4F60\u4F1A\u56E0\u4E3A\u6BCF\u65E5\u6210\u5806\u7684\u5377\u5B50\u800C\u611F\u5230\u67AF\u71E5\u65E0\u5473\uFF0C\u6216\u8BB8\uFF0C\u4F60\u4F1A\u56E0\u4E3A\u6210\u7EE9\u7684\u4F4E\u8FF7\u800C\u8FF7\u832B\u65E0\u63AA\u3002\u4F46\u8BF7\u4F60\u76F8\u4FE1\uFF0C\u4E0D\u5230\u6700\u540E\u4E00\u5207\u4E0D\u6210\u5B9A\u5C40\uFF0C\u575A\u6301\u53BB\u505A\u81EA\u5DF1\u5E94\u5F53\u505A\u7684\uFF0C\u7ED9\u81EA\u5DF1\u7684\u68A6\u60F3\u4E00\u4E2A\u673A\u4F1A\uFF0C\u54EA\u6015\u6700\u540E\u904D\u4F53\u9CDE\u4F24\uFF0C\u90A3\u6BB5\u575A\u6301\u7684\u5C81\u6708\u4ECD\u7136\u662F\u81EA\u5DF1\u751F\u547D\u4E2D\u8000\u773C\u7684\u661F\u5149\u3002</p><h2 id="_4-\u505A\u81EA\u5F8B\u7684\u8861\u4E2D\u4EBA" tabindex="-1"><a class="header-anchor" href="#_4-\u505A\u81EA\u5F8B\u7684\u8861\u4E2D\u4EBA" aria-hidden="true">#</a> 4.\u505A\u81EA\u5F8B\u7684\u8861\u4E2D\u4EBA</h2><p>\u5BB6\u4E2D\u7684\u751F\u6D3B\u6216\u8BB8\u5E26\u6765\u4E86\u5B89\u9038\uFF0C\u8D85\u957F\u75AB\u671F\u53EF\u80FD\u7ED9\u4F60\u5E26\u6765\u4E86\u7075\u9B42\u7684\u840E\u9761\uFF0C\u4F46\u662F\u77E5\u9053\uFF0C\u6211\u4EEC\u662F\u9AD8\u4E09\u4EBA\uFF0C\u4E0D\u5E94\u5728\u6700\u597D\u7684\u5E74\u534E\u9009\u62E9\u5B89\u9038\u3002\u4F46\u662F\uFF0C\u4EC0\u4E48\u65F6\u5019\u6539\u53D8\u90FD\u4ECE\u6765\u4E0D\u665A\uFF0C\u4ECE\u73B0\u5728\u505A\u8D77\uFF0C\u7528\u81EA\u5DF1\u7684\u610F\u5FD7\u7EA6\u675F\u81EA\u5DF1\u7684\u884C\u52A8\uFF0C\u7528\u81EA\u5DF1\u7684\u81EA\u5F8B\u6210\u5C31\u81EA\u5DF1\u7684\u524D\u65B9\u7684\u9053\u8DEF\u3002</p><h2 id="_5-\u884C\u52A8\u6210\u5C31\u9752\u6625-\u594B\u6597\u6210\u5C31\u672A\u6765" tabindex="-1"><a class="header-anchor" href="#_5-\u884C\u52A8\u6210\u5C31\u9752\u6625-\u594B\u6597\u6210\u5C31\u672A\u6765" aria-hidden="true">#</a> 5.\u884C\u52A8\u6210\u5C31\u9752\u6625\uFF0C\u594B\u6597\u6210\u5C31\u672A\u6765</h2><p>\u4ECE\u8FD9\u91CC\u5F00\u59CB\uFF0C\u8FD9\u91CC\u662F\u6211\u4EEC\u8D77\u98DE\u7684\u5730\u65B9\uFF1B\u4ECE\u4ECA\u5929\u5F00\u59CB\uFF0C\u4ECA\u5929\u6211\u662F\u4E0D\u4E00\u6837\u7684\u81EA\u5DF1\uFF1B\u4ECE\u8FD9\u4E00\u523B\u5F00\u59CB\uFF0C\u7528\u81EA\u5DF1\u7684\u70ED\u8840\u53BB\u8FFD\u9010\u81EA\u5DF1\u7684\u68A6\u60F3\uFF0C\u7528\u884C\u52A8\u6210\u5C31\u81EA\u5DF1\u7684\u9752\u6625\uFF0C\u7528\u594B\u6597\u53BB\u8FCE\u63A5\u81EA\u5DF1\u6700\u7F8E\u597D\u7684\u672A\u6765\uFF01</p><p>\u6709\u5FD7\u8005\uFF0C\u4E8B\u7ADF\u6210\uFF0C\u7834\u91DC\u6C89\u821F\uFF0C\u767E\u4E8C\u79E6\u5173\u7EC8\u5C5E\u695A\uFF1B\u82E6\u5FC3\u4EBA\uFF0C\u5929\u4E0D\u8D1F\uFF0C\u5367\u85AA\u5C1D\u80C6\uFF0C\u4E09\u5343\u8D8A\u7532\u53EF\u541E\u5434\u3002\u8BA9\u6211\u4EEC\u4ECE\u8FD9\u91CC\u5F00\u59CB\uFF0C\u4E3A\u68A6\u60F3\u53D1\u8D77\u6700\u540E\u7684\u51B2\u523A\u3002\u4E8C\u96F6\u9AD8\u8003\uFF0C\u8861\u4E2D\u5FC5\u80DC\uFF01\u4E8C\u96F6\u9AD8\u8003\uFF0C\u6211\u4EEC\u5FC5\u80DC\uFF01</p><p>\u540C\u5B66\u4EEC\uFF1A\u5341\u5E74\u4E00\u5251\uFF0C\u5927\u6218\u5728\u5373\u3002\u5BD2\u7A97\u6570\u8F7D\uFF0C\u53EA\u5728\u671D\u5915\u3002\u8398\u8398\u5B66\u5B50\uFF0C\u4EFB\u91CD\u9053\u8FDC\u3002\u767E\u65E5\u5728\u5373\uFF0C\u96BE\u9053\u8FD8\u8981\u7EE7\u7EED\u6545\u4F5C\u6F47\u6D12\u6765\u63A9\u9970\u4F60\u6B63\u5728\u865A\u8017\u4EBA\u751F\u4E48\uFF1F\u4E0D\uFF0C\u65F6\u95F4\u7D27\u8FEB\uFF0C\u5DF2\u7ECF\u6CA1\u6709\u4EC0\u4E48\u53EF\u4EE5\u8BA9\u6211\u4EEC\u7EE7\u7EED\u6325\u970D\u4E86\u3002\u5BF9\u6B64\uFF0C\u6211\u53D1\u51FA\u4EE5\u4E0B\u5021\u8BAE\u3002</p><p>\u7B2C\u4E00\uFF1A\u8DDD\u79BB\u9AD8\u8003\u767E\u5929\u6CE8\u610F\u5065\u5EB7\u95EE\u9898\uFF0C\u75AB\u75C5\u65F6\u671F\u505A\u597D\u9632\u62A4\uFF0C\u8EAB\u4F53\u662F\u9769\u547D\u7684\u672C\u94B1\u3002</p><p>\u7B2C\u4E8C\uFF1A\u6709\u575A\u5B9A\u7684\u76EE\u6807\uFF0C\u6709\u5B9E\u9645\u7684\u884C\u52A8\u3002\u9AD8\u8003\u662F\u4E00\u573A\u516C\u5E73\u65E0\u58F0\u7684\u6218\u5F79\uFF0C\u767E\u5929\u91CC\u7684\u575A\u5B9A\u4FE1\u5FF5\u4E0E\u5B9E\u9645\u884C\u52A8\u90FD\u4F1A\u4E3A\u9AD8\u8003\u5960\u57FA\u3002\u8BA9\u575A\u5B9A\u7684\u4FE1\u5FF5\u6765\u70B9\u4EAE\u6BCF\u4E00\u5929\uFF0C\u8BA9\u5B9E\u9645\u7684\u884C\u52A8\u6765\u79EF\u6DC0\u6BCF\u4E00\u5929\u3002</p><p>\u7B2C\u4E09\uFF1A\u6709\u9762\u5BF9\u632B\u6298\u7684\u52C7\u6562\uFF0C\u6709\u6C38\u4E0D\u8A00\u5F03\u7684\u575A\u6301\u3002\u9AD8\u8003\u662F\u8270\u82E6\u7684\u4E00\u6218\uFF0C\u6211\u4EEC\u5341\u5E74\u7684\u5BD2\u7A97\u82E6\u8BFB\uFF0C\u6211\u4EEC\u4E00\u767E\u5929\u7684\u7AED\u529B\u51B2\u523A\u3002\u5373\u4F7F\u5904\u5883\u600E\u6837\u6076\u52A3\uFF0C\u6211\u4EEC\u90FD\u4E0D\u80FD\u8F7B\u8A00\u653E\u5F03\u3002\u9762\u5BF9\u9AD8\u8003\uFF0C\u6211\u4EEC\u5E94\u8BE5\u59CB\u7EC8\u62B1\u6709\u5E0C\u671B\uFF0C\u6C38\u8FDC\u594B\u6218\u5230\u9AD8\u8003\u7ED3\u675F\u7684\u6700\u540E\u4E00\u523B\u3002\u4E5F\u8BB8\u4F60\u4F1A\u56E0\u4E3A\u5B66\u4E60\u800C\u8EAB\u5FC3\u4FF1\u75B2\u4F46\u662F\u4E0D\u8981\u653E\u5F03\uFF0C\u4E0D\u8981\u6577\u884D\uFF0C\u6C38\u4E0D\u8A00\u5F03\uFF0C\u7011\u5E03\u4FBF\u662F\u6CB3\u6D41\u7EDD\u5883\u4E2D\u7684\u7206\u53D1\u3002</p><p>\u7B2C\u56DB\uFF1A\u7528\u4E25\u660E\u7684\u89C4\u8303\u4FDD\u6301\u6210\u529F\u4E4B\u8DEF\u7684\u5E73\u5766\u3002\u6218\u6597\u529B\u518D\u5F3A\u7684\u519B\u961F\uFF0C\u5982\u679C\u4E71\u4F5C\u4E00\u56E2\uFF0C\u90A3\u4E48\u4ED6\u4E5F\u4F1A\u96BE\u9003\u88AB\u6B7C\u706D\u7684\u7ED3\u5C40\u3002\u6BCF\u4E2A\u4EBA\u90FD\u5E94\u6210\u4E3A\u4FDD\u6301\u79E9\u5E8F\u7684\u8DF5\u884C\u8005\u3002\u4E3A\u81EA\u5DF1\uFF0C\u4E3A\u4ED6\u4EBA\u521B\u9020\u8003\u524D\u6700\u4F73\u73AF\u5883\u3002</p><p>\u6700\u540E\uFF0C\u7528\u4E00\u53E5\u6B4C\u8BCD\u6765\u5171\u52C9\uFF1A\u6211\u4E0D\u6015\u5343\u4E07\u4EBA\u963B\u6321\uFF0C\u53EA\u6015\u81EA\u5DF1\u6295\u964D\u3002\u6211\u548C\u6211\u6700\u540E\u7684\u5014\u5F3A\uFF0C\u63E1\u7D27\u53CC\u624B\u7EDD\u4E0D\u9000\u8BA9\uFF0C\u5C31\u8FD9\u4E00\u6B21\uFF0C\u4E3A\u81EA\u5DF1\u75AF\u72C2\u3002</p><p>\u767E\u5929\u7684\u53F7\u89D2\u5DF2\u7ECF\u5439\u54CD\uFF0C\u51B3\u6218\u5DF2\u7ECF\u8DDD\u79BB\u6211\u4EEC\u8D8A\u6765\u8D8A\u8FD1\uFF0C\u5DF2\u662F\u67AA\u70AE\u4E0A\u819B\uFF0C\u7BAD\u5728\u5F26\u4E0A\uFF0C\u6211\u4EEC\u5FC5\u987B\u767B\u573A\u3002\u9AD8\u8003\u6CA1\u6709\u9000\u8DEF\uFF0C\u6709\u9000\u8DEF\uFF0C\u662F\u7EDD\u8DEF\u3002\u4E8C\u96F6\u5E74\uFF0C\u5BF9\u4E8E\u56FD\u5BB6\u548C\u4E2A\u4EBA\u90FD\u662F\u7279\u6B8A\u7684\u4E00\u5E74\uFF0C\u56FD\u5BB6\u9762\u4E34\u7740\u6218\u201C\u75AB\u201D\u7684\u8003\u9A8C\uFF1B\u800C\u6211\u4EEC\uFF0C\u5219\u9762\u5BF9\u771F\u6B63\u4E0D\u80FD\u91CD\u6765\u7684\u9AD8\u8003\uFF0C\u56E0\u6B64\uFF0C\u4E0D\u80FD\u9000\u7F29\uFF0C\u53EA\u6709\u4E00\u9F13\u4F5C\u6C14\uFF0C\u76F4\u6363\u9EC4\u9F99\uFF01</p><p>\u9762\u5BF9\u6700\u540E\u7684\u767E\u5929\uFF0C\u6211\u53D1\u51FA\u5982\u4E0B\u5021\u8BAE\uFF1A</p><p>\u4E0D\u754F\u60E7\u9AD8\u8003\uFF0C\u4E0D\u80FD\u5DE6\u987E\u53F3\u76FC\u3001\u77BB\u524D\u987E\u540E\u3001\u754F\u9996\u754F\u5C3E\uFF0C\u800C\u8981\u76F4\u9762\u96BE\u9898\u7684\u6311\u6218\uFF0C\u5C11\u4E00\u9053\u96BE\u9898\uFF0C\u5C31\u591A\u4E00\u5206\u53EF\u80FD\uFF1B\u4E0D\u6B3A\u9A97\u81EA\u5DF1\uFF0C\u4E0D\u4F1A\u5C31\u662F\u4E0D\u4F1A\uFF0C\u9AD8\u8003\u524D\u518D\u5927\u7684\u8F89\u714C\u90FD\u662F\u5C18\u57C3\uFF1B\u4E0D\u81EA\u60ED\u5F62\u79FD\uFF0C\u5FAE\u5149\u867D\u5F31\uFF0C\u4ECD\u80FD\u5149\u4EAE\u9ED1\u6697\uFF0C\u8981\u76F8\u4FE1\u81EA\u5DF1\uFF0C\u9AD8\u8003\u94C3\u54CD\u4E4B\u524D\uFF0C\u4E00\u5207\u4E0D\u6210\u5B9A\u5C40\u3002\u8981\u514B\u670D\u56F0\u96BE\uFF0C\u5386\u7ECF\u70C8\u706B\u6DEC\u70BC\uFF0C\u65B9\u89C1\u81EA\u6211\u4E4B\u575A\u6BC5\uFF1B\u8981\u5BF9\u80DC\u5229\u5145\u6EE1\u6E34\u671B\uFF0C\u5373\u4F7F\u53EA\u6709\u4E00\u7EBF\u5E0C\u671B\uFF0C\u4E5F\u8981\u7262\u7262\u6293\u4F4F\u3002</p><p>\u5404\u4F4D\u6218\u53CB\uFF0C\u6211\u4EEC\u867D\u53EA\u6709\u767E\u5929\u5149\u9634\u53EF\u5E76\u80A9\uFF0C\u7136\u800C\u673A\u4F1A\u65E0\u9650\uFF0C\u53EF\u80FD\u65E0\u9650\u3002\u68A6\u60F3\u8FD8\u672A\u5B9E\u73B0\uFF0C\u5C31\u8981\u67AF\u840E\u4E86\u5417\uFF1F\u70ED\u8840\u8FD8\u672A\u71C3\u70E7\uFF0C\u5C31\u8981\u51B0\u51B7\u4E86\u5417\uFF1F\u5C11\u5E74\u8FD8\u672A\u8F89\u714C\uFF0C\u5C31\u8981\u66AE\u5E74\u4E86\u5417\uFF1F\u4E0D\uFF01\u6211\u4EEC\u5728\u8FD9\u65B9\u5706\u4E4B\u95F4\uFF0C\u5341\u4E8C\u5E74\u82E6\u8BFB\u672A\u66FE\u653E\u5F03\uFF1B\u6211\u4EEC\u5728\u90A3\u4E91\u6D77\u4E4B\u4E0B\uFF0C\u5341\u4E8C\u5E74\u51B7\u591C\u4EF0\u671B\u5E0C\u671B\uFF0C\u53EF\u4E0D\u662F\u4E3A\u4E86\u5931\u8D25\u3002\u6211\u4EEC\u98CE\u96E8\u517C\u7A0B\uFF0C\u9014\u7ECF\u65E5\u66AE\u4E0D\u8D4F\uFF0C\u5C31\u662F\u4E3A\u4E86\u90A3\u5929\u5F97\u6765\u51EF\u65CB\u3002\u6218\u53CB\u4EEC\uFF0C\u5F18\u626C\u8861\u4E2D\u5353\u8D8A\u7CBE\u795E\uFF0C\u5C55\u73B0\u8861\u4E2D\u4E00\u6D41\u6597\u5FD7\uFF0C\u52A0\u6CB9\u5427\uFF0C\u81F3\u5C11\u5230\u8001\u4ECD\u6709\u9752\u6625\u53EF\u4EE5\u56DE\u5FC6\uFF0C\u81F3\u5C11\u591A\u5E74\u4E4B\u540E\uFF0C\u6211\u4EEC\u4ECD\u7136\u6709\u70ED\u6CEA\u76C8\u7736\u7684\u80FD\u529B\u3002</p><h2 id="\u5BA3\u8A93" tabindex="-1"><a class="header-anchor" href="#\u5BA3\u8A93" aria-hidden="true">#</a> \u5BA3\u8A93</h2><p>\u65E5\u6708\u4EA4\u66FF\u4E09\u5E74\u6765</p><p>\u8C01\u8FD8\u8BB0\u5F97\u6821\u56ED\u4E2D</p><p>\u64CD\u573A\u4E0A\u7559\u4E0B\u6211\u4EEC\u591A\u5C11\u62FC\u640F\u7684\u6C57\u6C34</p><p>\u5019\u64CD\u65F6\u591A\u5C11\u4E2A\u4E66\u58F0\u7405\u7405\u7684\u51CC\u6668</p><p>\u6559\u5BA4\u91CC\u591A\u5C11\u4E2A\u594B\u7B14\u75BE\u4E66\u7684\u591C\u665A</p><p>\u8003\u7838\u65F6\u53C8\u6709\u591A\u5C11\u4E2A\u5FC3\u75DB\u843D\u6CEA\u7684\u77AC\u95F4</p><p>\u5927\u6218\u5373\u5C06\u6765\u5230</p><p>\u4ECA\u592920\u5E742\u670828\u65E5</p><p>\u8DDD\u79BB\u9AD8\u8003\u6700\u540E100\u5929</p><p>\u6216\u8BB8\u6211\u4EEC\u4F1A\u7126\u8651\u3001\u5BB3\u6015\u3001\u8FF7\u60D8\u2026\u2026</p><p>\u4F46\u662F\u8BF7\u76F8\u4FE1</p><p>\u6211\u4EEC\u4F1A\u62B1\u56E2\u53D6\u6696\u62FC\u5C3D\u5168\u529B\u594B\u52C7\u5411\u524D</p><p>\u6211\u4EEC\u8981\u4E3A\u9752\u6625\u7559\u4E0B\u4E00\u6BB5\u7F8E\u597D\u7684\u56DE\u5FC6\uFF0C\u4E0D\u7559\u9057\u61BE\u3002\u5728\u6B64\uFF0C\u6211\u5021\u8BAE\uFF1A</p><p>\u4E00\u3001\u575A\u6301\u5230\u5E95\uFF0C\u6C38\u4E0D\u8A00\u5F03</p><p>\u901A\u5F80\u68A6\u60F3\u5927\u5B66\u7684\u8DEF\u662F\u7528\u6211\u4EEC\u7684\u811A\u6B65\u4E00\u6B65\u6B65\u4E08\u91CF\u51FA\u6765\u7684\uFF0C\u662F\u7528\u6211\u4EEC\u7684\u6C57\u6C34\u4E00\u6EF4\u6EF4\u6D47\u704C\u51FA\u6765\u7684\uFF0C\u662F\u7528\u6211\u4EEC\u7684\u8BD5\u5377\u4E00\u5F20\u7EB8\u5806\u79EF\u51FA\u6765\u7684\uFF0C\u662F\u7528\u6211\u4EEC\u7684\u610F\u5FD7\u4E00\u70B9\u70B9\u62FC\u640F\u51FA\u6765\u7684\uFF0C\u6700\u540E100\u5929\uFF0C\u6211\u4EEC\u6C38\u4E0D\u8A00\u5F03\u3002</p><p>\u4E8C\u3001\u575A\u5B9A\u4FE1\u5FC3\uFF0C\u6C38\u4E0D\u8A00\u8D25</p><p>\u594B\u6218\u9AD8\u8003\uFF0C\u9752\u6625\u65E0\u6094\uFF0C\u5341\u5E74\u78E8\u4E00\u5251\uFF0C\u5B9E\u529B\u4ECA\u671D\u73B0\uFF0C\u65E0\u8BBA\u7ECF\u5386\u591A\u5C11\u78E8\u783A\uFF0C\u591A\u5C11\u632B\u6298\uFF0C\u6211\u4EEC\u59CB\u7EC8\u4FE1\u5FC3\u5341\u8DB3\uFF0C\u6597\u5FD7\u6602\u626C\uFF0C\u62AB\u8346\u65A9\u68D8\uFF0C\u594B\u52C7\u524D\u884C\uFF0C\u6C38\u4E0D\u8A00\u8D25\u3002</p><p>\u4E09\u3001\u6C38\u5B58\u611F\u6069\u3001\u611F\u8C22\u3001\u611F\u6FC0\u7684\u5FC3</p><p>\u7956\u56FD\u4E0A\u4E0B\uFF0C\u4E07\u4F17\u4E00\u5FC3\uFF0C\u6297\u51FB\u65B0\u51A0\uFF0C\u590D\u5DE5\u589E\u4EA7\uFF1B\u767D\u8863\u5929\u4F7F\uFF0C\u4E0D\u5FD8\u521D\u5FC3\uFF0C\u524D\u7EBF\u640F\u51FB\uFF0C\u6551\u6B7B\u6276\u4F24\u3002\u6211\u4EEC\u5B66\u6821\u63D0\u4F9B\u4E0D\u6389\u7EBF\u7684\u8BFE\u5802\uFF0C\u6211\u4EEC\u7684\u8001\u5E08\u5B5C\u5B5C\u4E0D\u5026\uFF0C\u6211\u4EEC\u7684\u7236\u6BCD\u542B\u8F9B\u8339\u82E6\uFF0C\u6211\u4EEC\u7684\u5BF9\u624B\u5728\u594B\u52C7\u76F4\u8FFD\uFF0C\u6211\u4EEC\u81EA\u5DF1\u4E5F\u5728\u62AB\u661F\u6234\u6708\u3002\u611F\u6069\u3001\u611F\u8C22\uFF0C\u8BA9\u6211\u4EEC\u544A\u8BC9\u8001\u5E08\u3001\u7238\u5988\uFF0C\u6211\u4EEC\u4F1A\u7528\u6211\u4EEC\u7684\u884C\u52A8\u56DE\u62A5\u60A8\u4EEC\u3002</p><p>\u52C7\u58EB\u4EEC\uFF0C\u7528\u6211\u4EEC\u624B\u4E2D\u7684\u7B14\uFF0C\u5FC3\u4E2D\u7684\u68A6\uFF0C\u5316\u4F5C\u5229\u5251\uFF0C\u5316\u4F5C\u52C7\u6C14\uFF0C\u65A9\u65AD\u4E00\u5207\u524D\u8FDB\u9053\u8DEF\u4E0A\u7684\u8346\u68D8\uFF0C\u5F00\u8F9F\u5C5E\u4E8E\u6211\u4EEC\u7684\u5929\u5730\u300220\u9AD8\u8003\uFF0C\u8861\u4E2D\u5FC5\u80DC\uFF0C\u6211\u4EEC\u5FC5\u80DC\u3002</p><p>\u6625\u96F7\u9686\u9686\uFF0C\u4E07\u7269\u65B0\u751F\u3002\u8398\u8398\u5B66\u5B50\uFF0C\u58EE\u5FD7\u8C6A\u60C5\u3002</p><p>\u5341\u5E74\u5BD2\u7A97\uFF0C\u767E\u65E5\u5F81\u7A0B\u3002\u65F6\u4E0D\u5F85\u6211\uFF0C\u5206\u79D2\u5FC5\u4E89\u3002</p><p>\u5FC3\u9A70\u5317\u6D77\uFF0C\u5FD7\u5B58\u534E\u5BAB\u3002\u4E66\u5C71\u7B51\u8DEF\uFF0C\u9E70\u96BC\u7FD4\u7A7A\u3002</p><p>\u4EFB\u91CD\u9053\u8FDC\uFF0C\u8346\u68D8\u4E1B\u751F\u3002\u8FCE\u96BE\u800C\u4E0A\uFF0C\u640F\u6D6A\u957F\u98CE\u3002</p><p>\u543E\u62F3\u7D27\u63E1\uFF0C\u8A93\u5728\u5FC5\u8D62\u3002\u543E\u8F88\u82F1\u96C4\uFF0C\u8A00\u51FA\u5FC5\u884C\u3002</p><p>\u6587\u6B66\u82F1\u624D\uFF0C\u594B\u53D1\u4E3A\u96C4\u3002\u4E8C\u96F6\u9AD8\u8003\uFF0C\u6211\u5FC5\u6210\u529F\u3002</p><p>\u6210\u8D25\u662F\u975E\u672C\u65E0\u5B9A\uFF0C\u738B\u4FAF\u5C06\u76F8\u5B81\u6709\u79CD\u3002\u5367\u85AA\u5C1D\u80C6\u640F\u767E\u65E5\uFF0C\u50B2\u89C6\u7FA4\u82F1\u6211\u79F0\u96C4\u3002</p><p><audio controls src="http://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2020/02/Tommee-Profitt-_-Jung-Youth-_-Fleurie-In-the-End.mp3" autoplay loop></audio></p><!--]-->`);
 }
-const _sfc_setup$2c = _sfc_main$2c.setup;
-_sfc_main$2c.setup = (props, ctx) => {
+const _sfc_setup$2d = _sfc_main$2d.setup;
+_sfc_main$2d.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/article/100-days-For-Exam.html.vue");
-  return _sfc_setup$2c ? _sfc_setup$2c(props, ctx) : void 0;
+  return _sfc_setup$2d ? _sfc_setup$2d(props, ctx) : void 0;
 };
-var _100DaysForExam_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2c, [["ssrRender", _sfc_ssrRender$2c]]);
+var _100DaysForExam_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2d, [["ssrRender", _sfc_ssrRender$2d]]);
 var _100DaysForExam_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": _100DaysForExam_html$1
@@ -6700,36 +6707,51 @@ function getRTime$2() {
   document.getElementById("t_s").innerHTML = s2 + " \u79D2";
 }
 setInterval(getRTime$2, 1e3);
-const _sfc_main$2b = {};
-function _sfc_ssrRender$2b(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+const _sfc_main$2c = {};
+function _sfc_ssrRender$2c(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<!--[--><h1 id="_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A" tabindex="-1"><a class="header-anchor" href="#_2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A" aria-hidden="true">#</a> 2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A</h1><p>\u8DE8\u8D8A\u5C71\u6D77\uFF0C\u89C1\u8BC1\u7406\u60F3</p><div class="timeActive"><h4>\u76EE\u524D\u8DDD\u79BB2020\u5E74\u9AD8\u8003\u5DF2\u7ECF\u8FC7\u53BB\u4E86</h4><div id="CountMsg" class="HotDate"><span id="t_d"> 00 \u5929 </span><span id="t_h">00 \u65F6</span><span id="t_m">00 \u5206</span><span id="t_s">00 \u79D2</span></div></div> \u4E3B\u529E\u5355\u4F4D\uFF1A\u4E2D\u5B66\u9986\u5B66\u751F\u8054\u76DF\uFF0C \u5E7F\u5DDE\u542F\u5408\u79D1\u6280\uFF0C\u5168\u56FD\u767E\u6821\u8054\u76DF <p><audio controls="" src="http://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2020/02/brss.mp3" autoplay="autoplay"></audio></p><p>\u5C0A\u656C\u7684\u8001\u5E08\uFF0C\u4EB2\u7231\u7684\u5BB6\u957F\uFF0C\u53EF\u7231\u7684\u540C\u5B66\u4EEC\uFF1A</p><p>\u5927\u5BB6\u597D\uFF01</p><p>\u6211\u5F88\u8363\u5E78\uFF0C\u6211\u80FD\u4F5C\u4E3A2020\u5E74\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u7684\u4E3B\u793C\u4EBA\u4E0E\u4F60\u4EEC\u76F8\u805A\uFF0C\u8DE8\u8D8A\u5C71\u6D77\uFF0C\u89C1\u8BC1\u7406\u60F3\u30022020\u5E742\u670828\u65E5\u662F\u4E2A\u91CD\u8981\u7684\u65E5\u5B50\uFF0C\u5B83\u662F<strong>2020\u5C4A\u9AD8\u4E09\u5B66\u5B50\u5411\u9AD8\u8003\u53D1\u8D77\u767E\u65E5\u51B2\u523A\u7684\u53F7\u89D2</strong>\uFF0C\u5B83\u662F\u6211\u4EEC\u4E3A\u68A6\u60F3\u5BA3\u8A93\u7684\u65E5\u5B50\u3002</p><p><strong>\u751F\u4E8E\u975E\u5178\uFF0C\u8003\u4E8E\u65B0\u51A0\uFF0C2020\u5C4A\u8003\u751F\u6CE8\u5B9A\u4E0D\u5E73\u51E1\u3002</strong></p><p>\u5168\u56FD\u9AD8\u4E09\u5F00\u5B66\u65F6\u95F4\u5EF6\u8FDF\u4E00\u6708\uFF0C\u5317\u4EAC\u5168\u5E02\u65B0\u9AD8\u8003\u201C\u6A21\u62DF\u8003\u201D\u63A8\u8FDF\u4E00\u5468\u3002\u6211\u4EEC\u5F00\u542F\u4E86\u5C45\u5BB6\u5B66\u4E60\u6A21\u5F0F\uFF0C\u628A\u6253\u5361\u5F53\u65E5\u5E38\uFF0C\u628A\u7EBF\u4E0A\u5B66\u4E60\u5E73\u53F0\u5F53\u4F19\u4F34\uFF0C\u6211\u4EEC\u7684\u8001\u5E08\u53D8\u8EAB\u7F51\u7EDC\u4E3B\u64AD\uFF0C\u62FF\u5927\u8471\u5F53\u6559\u97AD\uFF0C\u62FF\u5395\u6240\u95E8\u5F53\u9ED1\u677F\u3002\u8270\u8F9B\u66F4\u78E8\u783A\u610F\u5FD7\uFF0C\u9006\u98CE\u66F4\u9002\u5408\u98DE\u7FD4\uFF0C\u5728\u5171\u540C\u6218\u201C\u75AB\u201D\u7684\u65F6\u4EE3\u5E55\u5E03\u4E0B\uFF0C\u6211\u4EEC\u5C06\u4E66\u5199\u51B3\u80DC\u9AD8\u8003\u7684\u6CE8\u811A\u3002</p><p><strong>\u5B66\u6D77\u4E66\u5C71\uFF0C\u7EB8\u53D6\u4E00\u74E2\uFF0C2020\u5907\u8003\u5FC5\u5C06\u4E0D\u8D1F\u97F6\u534E\u3002</strong></p><p>\u6211\u4EEC\u4E00\u540C\u8D70\u8FC7\u6625\u590F\u79CB\u51AC\u7684\u5B66\u4E60\u5C81\u6708\u3002\u4E5F\u8BB8\u4F60\u4F1A\u5FC6\u8D77\u6625\u5BD2\u6599\u5CED\u65F6\u201C\u543E\u5C06\u4E0A\u4E0B\u800C\u6C42\u7D22\u201D\u7684\u5BA3\u8A00\uFF0C\u5FC6\u8D77\u590F\u9633\u9177\u6691\u4E2D\u201C\u8BFB\u4E66\u987B\u5C3D\u82E6\u529F\u592B\u201D\u7684\u575A\u6301\uFF0C\u5FC6\u8D77\u79CB\u96E8\u7EF5\u7EF5\u65E5 \u201C\u4E66\u5377\u591A\u60C5\u4F3C\u6545\u4EBA\u201D\u7684\u60C5\u6000\uFF0C\u5FC6\u8D77\u51AC\u96EA\u7EB7\u98DE\u91CC \u201C\u6885\u82B1\u9999\u81EA\u82E6\u5BD2\u6765\u201D\u7684\u4FE1\u5FF5\u2026\u2026\u6700\u540E\u4E00\u767E\u5929\uFF0C\u8001\u5E08\u5C06\u51DD\u7EC3\u6700\u7CBE\u6E5B\u7684\u7D20\u6750\uFF0C\u5316\u7B14\u58A8\u4E3A\u7CBE\u94A2\uFF0C\u5251\u6307\u516D\u6708\uFF0C\u548C\u4F60\u4EEC\u4E00\u8D77\uFF0C\u640F\u5F97\u9752\u6625\u65E0\u6094\u3002</p><p><img src="http://zt-cdn.zuowenzhitiao.com/article-cover/2020-02-27/26d1662754074cfb84c4877c6ed5be5e.png" alt="img" loading="lazy"></p><p>\u4E0B\u9762\uFF0C\u8BF7\u9AD8\u4E09\u5B66\u751F\u4EE3\u8868\u53D1\u8A00\uFF0C\u6709\u8BF7@\u9752\u5DDD\uFF1A</p><blockquote><p>\u9AD8\u4E09\u5B66\u5B50\u9752\u5DDD\u524D\u6765\u62A5\u9053 \u75AB\u60C5\u5F53\u5934\uFF0C\u6321\u4F4F\u4E86\u6211\u4EEC\u7684\u6B65\u4F10\uFF0C\u5374\u78E8\u706D\u4E0D\u4E86\u6211\u4EEC\u7684\u6597\u5FD7\u3002\u4F60\u8003\u8FD8\u662F\u4E0D\u8003\uFF0C\u9AD8\u8003\u5C31\u5728\u539F\u5730\uFF1B\u4F60\u6015\u8FD8\u662F\u4E0D\u6015\uFF0C\u9AD8\u8003\u8FD8\u5728\u539F\u5730\uFF1B\u4F60\u62FC\u8FD8\u662F\u4E0D\u62FC\uFF0C\u9AD8\u8003\u4F9D\u65E7\u5728\u539F\u5730\u3002 \u610F\u6C14\u98CE\u53D1\u65F6\u5149\u5982\u68AD\u770B\u6211\u9752\u5E74\u5B66\u5B50\u516D\u6708\u5706\u68A6\uFF0C\u98CE\u534E\u6B63\u8302\u4E91\u5E06\u76F4\u6302\u4EE4\u90A3\u8F89\u714C\u4EBA\u751F\u660E\u671D\u94F8\u5C31\u3002 \u516D\u6708\uFF0C\u795D\u4F60\u4E5F\u795D\u6211\u3002</p></blockquote><p>\u4E0B\u9762\u6709\u8BF7\u9AD8\u4E09\u5B66\u5B50\u96C6\u4F53\u5BA3\u8A93\uFF0C\u8BF7\u4E3E\u8D77\u4F60\u4EEC\u7684\u53F3\u624B\uFF0C\u5E84\u4E25\u5BA3\u8A93\uFF1A</p><blockquote><p>\u6211\u5BA3\u8A93 \u4E0D\u8D1F\u7236\u6BCD\u7684\u671F\u76FC \u4E0D\u8D1F\u6069\u5E08\u7684\u539A\u671B \u4E0D\u8D1F\u5929\u8D50\u7684\u667A\u6167 \u4E0D\u8D1F\u9752\u6625\u7684\u7406\u60F3 \u6211\u627F\u8BFA \u4E0D\u4F5C\u61E6\u5F31\u7684\u9000\u7F29 \u4E0D\u4F5C\u65E0\u76CA\u7684\u5F77\u5FA8 \u6211\u5C06\u5E26\u7740\u4ECE\u5BB9\u7684\u5FAE\u7B11 \u53BB\u8D62\u5F97\u6211\u5FD7\u5728\u5FC5\u5F97\u7684\u8F89\u714C \u4E00\u5E74\u62FC\u640F\uFF0C\u4E00\u671D\u5706\u68A6 \u594B\u6597\u4E00\u767E\u5929\uFF0C\u8BA9\u96C4\u5FC3\u4E0E\u667A\u6167\u5728\u516D\u6708\u95EA\u5149</p></blockquote><p>\u594B\u6597\u4E00\u767E\u5929\uFF0C\u5FC3\u65E0\u65C1\u9A9B\uFF0C\u9006\u98CE\u4E89\u6E21</p><p>\u594B\u6597\u4E00\u767E\u5929\uFF0C\u4E0D\u8D1F\u97F6\u534E\uFF0C\u53EA\u4E89\u671D\u5915</p><p>\u594B\u6597\u4E00\u767E\u5929\uFF0C\u58EE\u5FD7\u51CC\u4E91\uFF0C\u9E4F\u7A0B\u4E07\u91CC</p><p><img src="http://zt-cdn.zuowenzhitiao.com/article-cover/2020-02-27/31597c38b7b8455ba08b1df0f3dd27d4.jpg" alt="img" loading="lazy"></p><p>\u63A5\u4E0B\u6765\uFF0C\u8BF7\u5B66\u5F1F\u5B66\u59B9\u4EEC\u7684\u4EE3\u8868\u9001\u4E0A\u795D\u798F\uFF0C\u6709\u8BF7@\u98A6\u513F\uFF1A</p><blockquote><p>\u5341\u5E74\u94F8\u5251\uFF0C\u53EA\u4E3A\u7089\u706B\u7EAF\u9752\uFF0C\u4E00\u671D\u51FA\u9798\uFF0C\u5B9A\u5F53\u501A\u5929\u957F\u9E23\u3002 \u8DDD\u79BB2020\u5E74\u9AD8\u8003\u8FD8\u6709100\u5929\u7684\u65F6\u95F4\uFF0C 100\u5929\uFF0C\u8DB3\u4EE5\u8BA9\u9ED1\u9A6C\u5D1B\u8D77\uFF0C100\u5929\uFF0C\u8DB3\u4EE5\u521B\u9020\u5947\u8FF9\u3002 \u6211\u76F8\u4FE1\uFF0C\u661F\u5149\u4E0D\u95EE\u8D76\u8DEF\u4EBA\uFF0C\u65F6\u5149\u4E0D\u8D1F\u6709\u5FC3\u4EBA\u3002 100\u5929\u7684\u6C57\u6C34\u4F1A\u8BA9\u4F60\u62FC\u51FA\u672A\u6765\u7684\u4E00\u65B9\u5929\u5730\u3002 \u767E\u5929\u4E00\u640F\u516D\u6708\u68A6\uFF0C\u8D62\u5F97\u5BD2\u7A97\u9526\u7EE3\u7A0B \u6211\u662F\u98A6\u513F\uFF0C\u6211\u5728\u7EB8\u6761\u795D\u9AD8\u4E09\u7684\u5404\u4F4D\u5B66\u957F\u5B66\u59D0\u4EEC\uFF0C \u58EE\u5FD7\u51CC\u4E91\u5F81\u8003\u573A\uFF0C\u516D\u6708\u8749\u9E23\u65F6\uFF0C\u5B9A\u662F\u91D1\u699C\u9898\u540D\uFF0C\u524D\u7A0B\u4F3C\u9526\u3002</p></blockquote><p>\u8C22\u8C22@\u98A6\u513F\u3002\u5341\u5E74\u5BD2\u7A97\uFF0C\u767E\u65E5\u5F81\u7A0B\uFF0C\u87FE\u5BAB\u6298\u6842\uFF0C\u9752\u6625\u65E0\u6094\u3002\u4E0B\u9762\u6709\u5B66\u957F\u5B66\u59D0\u4EE3\u8868\uFF0C\u73B0\u5C31\u8BFB\u4E8E\u5317\u4EAC\u5927\u5B66\u7684@Ria\u9001\u4E0A\u795D\u798F\uFF1A</p><blockquote><p>\u540C\u5B66\u4EEC\u5927\u5BB6\u597D\u5440\uFF0C\u6211\u73B0\u5728\u6211\u5C31\u8BFB\u4E8E\u5317\u4EAC\u5927\u5B66\u3002\u5728\u8FD9\u91CC\uFF0C\u6211\u4E5F\u60F3\u5411\u5927\u5BB6\u9001\u4E0A\u6211\u81EA\u5DF1\u7ED9\u5927\u5BB6\u7684\u4E00\u4EFD\u795D\u798F\uFF0C\u8FD9\u4EFD\u795D\u798F\u5C31\u662F\uFF1A\u672A\u540D\u535A\u96C5\uFF0C\u6E56\u5149\u5854\u5F71\uFF0C\u6211\uFF0C\u5728\u8FD9\u91CC\u7B49\u4F60\u3002</p></blockquote><p>\u8C22\u8C22\u672A\u540D\u6E56\u7554\u7684@Ria\u3002\u8C22\u8C22\u6240\u6709\u53C2\u4E0E\u5230\u5168\u56FD\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u52A8\u5458\u5927\u4F1A\u7684\u5C0F\u53EF\u7231\u3002\u56E0\u4E3A\u76F8\u4FE1\uFF0C\u6240\u4EE5\u594B\u529B\u4E00\u640F\uFF0C\u56E0\u4E3A\u770B\u89C1\uFF0C\u6240\u4EE5\u62FC\u5C3D\u5168\u529B\u3002\u4E3A\u9AD8\u8003\u767E\u65E5\u594B\u6218\uFF0C\u4ECE\u7EB8\u6761\u5F00\u542F\uFF0C\u4E3A\u7406\u60F3\u4E00\u8DEF\u8FFD\u5BFB\uFF0C\u7531\u7EB8\u6761\u5370\u8BC1\u52AA\u529B\u3002</p><p>2020\u5168\u56FD\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u52A8\u5458\u5927\u4F1A\u5230\u6B64\u7ED3\u675F\uFF0C\u6700\u540E\uFF0C\u795D\u798F\u6240\u6709\u4EBA\uFF1A</p><p><strong>\u4EBA\u5C71\u4EBA\u6D77\uFF0C\u4E0D\u8D1F\u6240\u7231\u3002</strong></p><p><img src="http://zt-cdn.zuowenzhitiao.com/article-cover/2020-02-27/227f6c77950e459c9f9b934e02f2c2b0.png" alt="img" loading="lazy"></p><p>\u4F60\u5728\u4F60\u5BB6\uFF0C\u6211\u5728\u6211\u5BB6\uFF0C\u767E\u65E5\u8A93\u5E08\u4E91\u540C\u6B65\uFF0C\u51B3\u6218\u9AD8\u8003\u6B63\u5F53\u65F6\u3002\u6B63\u503C\u9AD8\u4E09\u7684\u4F60\uFF0C\u53EF\u4EE5**\u5199\u4E0B\u4F60\u7684\u767E\u65E5\u8A93\u8A00\u548C\u594B\u6597\u76EE\u6807\uFF0C<strong>\u6211\u4EEC\u4E00\u540C\u6000\u62B1\u6700\u575A\u5B9A\u7684\u613F\u666F\uFF0C\u51B3\u80DC\u9AD8\u8003\uFF01\u5176\u4ED6\u5C0F\u53EF\u7231\u4EEC\uFF0C\u5B66\u5F1F\u5B66\u59B9\uFF0C\u5B66\u957F\u5B66\u59D0\u4EEC\uFF0C\u90FD\u53EF\u4EE5</strong>\u5199\u4E0B\u4F60\u6700\u771F\u5207\u7684\u795D\u798F\uFF0C**\u6211\u4EEC\u4E00\u540C\u5B88\u62A4\u6700\u8D64\u8BDA\u7684\u671F\u76FC\uFF0C\u4E3A\u9752\u6625\u68A6\u60F3\u52A0\u6CB9\uFF01</p><p>\u975E\u5E38\u611F\u8C22\u4E3A\u672C\u6B21\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u52A8\u5458\u5927\u4F1A\u8D21\u732E\u529B\u91CF\u7684\u4F60\u4EEC\uFF1A\uFF08\u6392\u540D\u4E0D\u5206\u5148\u540E\uFF09</p><blockquote><p>@\u6070\u6070\u9999\u74DC\u5B50\u3001@\u62A2\u82B1\u751F\u7684\u5C71\u7B19\u3001@CroCo.\u2601\u3001@\u963F\u963F\u865E\u3001@\u9752\u5DDD\u3001@\u98A6\u513F\u3001@Ria\u3001@\u5317\u5802\u58A8\u67D3\u3001@\u695A\u73BC\u516E\u3001@\u5927\u732B\u3001@\u6D31\u6D77\u98DE\u98DE\u3001@\u53D1\u53D1\u3001@\u7E41\u661F\u843D\u57CE\u3001@\u7EA2\u9017\u3002\u3001@\u6816\u6C32\u3001@\u7A0B\u9042\u7136</p></blockquote><h2 id="\u8BC4\u8BBA\u7CBE\u9009" tabindex="-1"><a class="header-anchor" href="#\u8BC4\u8BBA\u7CBE\u9009" aria-hidden="true">#</a> \u8BC4\u8BBA\u7CBE\u9009</h2><p>\u201C\u65E2\u7136\u6574\u5929\u4E0D\u601D\u8FDB\u53D6\uFF0C\u6CA1\u6709\u534A\u70B9\u76EE\u6807\u53EF\u8A00\uFF0C\u5C31\u4E0D\u8981\u505A\u4EC0\u4E48\u82F1\u96C4\u5F0F\u7684\u68A6\uFF0C\u597D\u597D\u5730\u7518\u4E8E\u5E73\u5EB8\u3002\u201D \u5E0C\u671B\u9752\u6625\u7684\u4F60\u4EEC\u7528\u7684\u6EE1\u8154\u70ED\u8840\u71C3\u70E7\u4F60\u4EEC\u7684\u82F1\u96C4\u68A6\u3002 \u653E\u624B\u53BB\uFF0C\u4E0D\u8981\u56DE\u5934\uFF0C\u660E\u5929\u5373\u662F\u5E0C\u671B\uFF0C\u524D\u65B9\u5373\u662F\u672A\u6765! \u6D41\u91D1\u516D\u6708\uFF0C\u4F60\u4EEC\u53EF\u4EE5!!! @ \u9189\u6E05\u68A6</p><p>\u9AD8\u4E09\u5B66\u54E5\u5B66\u59D0\u4EEC: \u5176\u5B9E\u771F\u6B63\u7684\u4F60\u8FDC\u6BD4\u73B0\u5728\u8981\u597D\uFF0C \u4E0D\u8BD5\u4E00\u8BD5\u600E\u4E48\u77E5\u9053? \u73B0\u5728\u7684\u4F60\u4E00\u5B9A\u5F88\u5FD9\uFF0C \u5FD9\u7740\u70B9\u4EAE\u68A6\u60F3\uFF0C \u8FD9\u4E00\u523B\uFF0C\u6CA1\u4EBA\u80FD\u5C06\u4F60\u963B\u6321\u3002 \u613F\u4F60\u4EEC\u4E0D\u56F0\u4E8E\u4E95\u9685\uFF0C\u5FC3\u5411\u8FDC\u65B9\u3002 \u613F\u4F60\u4EEC\u4E0D\u9A70\u4E8E\u7A7A\u60F3\uFF0C\u4E0E\u98CE\u98DE\u7FD4\u3002 \u613F\u4F60\u4EEC\u653E\u677E\u5FC3\u60C5\uFF0C\u4E0D\u8981\u7D27\u5F20\u3002 \u613F\u4F60\u4EEC\u4F9D\u65E7\u52C7\u6562\uFF0C\u4F9D\u65E7\u575A\u5F3A\u3002 \u613F\u4F60\u4EEC\u5145\u6EE1\u5E0C\u671B\uFF0C\u5145\u6EE1\u4FE1\u4EF0\u3002 \u613F\u4F60\u4EEC\u80CC\u4E0A\u4E66\u56CA\uFF0C\u5F81\u6218\u56DB\u65B9\u3002 \u613F\u4F60\u4EEC\u5728\u5FC3\u5E95\u6D12\u4E00\u4E9B\u9633\u5149\u3002 \u613F\u4F60\u4EEC\u5C06\u9752\u6625\u6D82\u6EE1\u6591\u6593\u8272\u5F69\uFF0C\u8BA9\u6210\u957F\u7684\u9634\u973E\u88AB\u5F7B\u5E95\u626B\u8361\u3002 \u613F\u4F60\u4EEC\u5C55\u96C4\u7FC5\uFF0C\u6325\u94C1\u81C2\uFF0C\u4E0D\u6539\u58EE\u5FD7\u5FC3\uFF0C\u5450\u558A\u58F0\u5639\u4EAE\u3002 \u613F\u4F60\u4EEC\u5728\u672A\u6765\u7684\u4E00\u767E\u5929\uFF0C\u62FC\u5C3D\u5168\u529B\uFF0C\u4E0D\u8F9C\u8D1F\u68A6\u60F3\uFF0C\u594B\u529B\u4E00\u640F\uFF0C\u521B\u9020\u8F89\u714C\u3002 \u613F\u4F60\u4EEC\u4E0D\u8D1F\u5341\u5E74\u5BD2\u7A97\u82E6\uFF0C\u65E0\u58F0\u573A\u4E0A\u8BD5\u950B\u8292\u3002 \u8BF7\u76F8\u4FE1\uFF0C \u4F60\u5FC3\u4EEA\u7684\u5927\u5B66\uFF0C \u4F60\u60F3\u53BB\u7684\u5730\u65B9\uFF0C \u4F60\u5411\u5F80\u7684\u4E00\u5207\uFF0C \u90FD\u5728\u4E0D\u8FDC\u5904\u5411\u4F60\u6325\u624B\uFF0C \u96BE\u5C31\u96BE\u5728\uFF0C \u4F60\u662F\u5426\u4E5F\u6709\u4FE1\u5FC3\u4F38\u51FA\u624B\u638C\u3002 \u8BF7\u4F60\u4EEC\uFF0C\u518D\u52A0\u628A\u52B2\u513F\uFF0C\u518D\u8BD5\u4E00\u8BD5\uFF0C \u6CA1\u6709\u4EC0\u4E48\u4E0D\u53EF\u80FD\uFF0C \u4F60\u7684\u52AA\u529B\u90FD\u4F1A\u5F97\u5230\u56DE\u62A5\uFF0C \u518D\u575A\u6301\u4E00\u4E0B\uFF0C\u518D\u52AA\u529B\u4E00\u4E0B\uFF0C \u4E0A\u5929\u5728\u5077\u5077\u7231\u7740\u4F60\uFF0C \u7231\u7740\u90A3\u4E48\u52AA\u529B\u90A3\u4E48\u8F9B\u82E6\u7684\u4F60\uFF0C \u52A0\u6CB9\uFF0C\u4F60\u80FD\u884C\uFF01 \u5929\u5FEB\u4EAE\u4E86\u3002 \u5929\u5C31\u5FEB\u4EAE\u4E86\u3002 \u4F60\u770B\u5230\u4E86\u5417\uFF0C\u518D\u575A\u6301\u4E00\u4E0B\uFF0C\u5929\u5C31\u5FEB\u4EAE\u4E86\u3002 \u5929\u4EAE\u4E86\u3002 @ \u591C\u8BED\u5B64\u706F\u2661</p><p>\u897F\u98CE\u51E0\u65F6\u6765\uFF0C\u6D41\u5E74\u6697\u4E2D\u6362\u3002\u51AC\u53BB\u6625\u6765\uFF0C\u53C8\u662F\u4E00\u5E74\u9AD8\u8003\u5B63 \u4ECA\u5929\u672C\u8BE5\u662F\u5E08\u751F\u9F50\u805A\u4E00\u5802\uFF0C\u5B66\u751F\u6FC0\u60C5\u6F8E\u6E43\u5730\u558A\u51FA\u5BF9\u9AD8\u8003\u7684\u671F\u671B\uFF0C\u558A\u51FA\u81EA\u5DF1\u7684\u68A6\u60F3\uFF0C\u5374\u56E0\u75AB\u60C5\u88AB\u56F0\u5BB6\u4E2D\uFF0C\u65E0\u6CD5\u4E3E\u884C\u9AD8\u4E09\u767E\u65E5\u8A93\u5E08\u5927\u4F1A\u3002\u4F46\u5B66\u6821\u7684\u8001\u5E08\u4EEC\u5728\u4ECA\u5929\u505A\u4E86\u4E00\u4E2A\u7279\u6B8A\u7684\u4E3E\u52A8 \uFF0C\u6821\u957F\u548C\u5E74\u7EA7\u90E8\u7684\u8001\u5E08\u4E00\u8D77\u5728b\u7AD9\u4E0A\u76F4\u64AD\uFF0C\u4E3A2020\u5C4A\u9AD8\u4E09\u5B66\u751F\u5450\u558A\u52A9\u5A01\u3002\u8001\u5E08\u4EEC\u8BED\u91CD\u5FC3\u957F\u7684\u8BDD\u8BED\uFF0C\u5BF9\u6211\u4EEC\u7684\u7F8E\u597D\u671F\u671B\uFF0C\u65E0\u4E00\u4E0D\u8BA9\u4EBA\u4E3A\u4E4B\u89E6\u52A8\u3002\u6700\u540E\u8001\u5E08\u4EEC\u4E00\u8D77\u5408\u5531\u4E86\u4E00\u9996\u300A\u771F\u5FC3\u82F1\u96C4\u300B\uFF0C\u613F\u9AD8\u4E09\u7684\u6BCF\u4E00\u4F4D\u5B66\u751F\u90FD\u80FD\u505A\u81EA\u5DF1\u7684\u771F\u5FC3\u82F1\u96C4\uFF0C\u5F85\u52306\u67087\u65E5\u80F8\u6709\u6210\u7AF9\u5730\u8D70\u8FDB\u8003\u573A\uFF0C\u516B\u6708\u6536\u5230\u81EA\u5DF1\u68A6\u60F3\u5927\u5B66\u7684\u901A\u77E5\u4E66\uFF0C\u4E5D\u6708\u6EE1\u6000\u5E0C\u671B\u7684\u5F00\u59CB\u81EA\u5DF1\u65B0\u7684\u751F\u6D3B\u3002 \u9010\u6E10\u773C\u6CEA\u5728\u6B4C\u58F0\u4E2D\u51B3\u5824\uFF0C\u4E00\u6EF4\u6EF4\u6ED1\u843D\uFF0C\u6700\u540E\u8086\u610F\u653E\u58F0\u5927\u54ED\u2026\u2026 \u54ED\u4EC0\u4E48\uFF1F\u54ED\u81EA\u5DF1\u5BF9\u4E4B\u524D\u65F6\u5149\u7684\u4E0D\u73CD\u60DC\uFF0C\u54ED\u8F9C\u8D1F\u4E86\u8001\u5E08\u4EEC\u7684\u6BB7\u5207\u5E0C\u671B\uFF0C\u54ED\u7236\u6BCD\u53CC\u9B13\u7684\u767D\u53D1\uFF0C\u8138\u4E0A\u7684\u76B1\u7EB9\uFF0C\u54ED\u81EA\u5DF1\u7684\u68A6\u60F3\u2026\u2026 \u53EA\u6709100\u5929\u4E86\uFF0C\u8FD8\u6709\u7528\u5417\uFF1F\u5F53\u7136\uFF0C\u4E3A\u68A6\u60F3\u8D77\u8DD1\uFF0C\u591A\u4E45\u90FD\u4E0D\u665A\u3002100\u5929\u80FD\u505A\u7684\u4E8B\u8FD8\u6709\u5F88\u591A\u5F88\u591A\uFF0C\u4E00\u5929\u4E00\u5929\u8FDB\u6B65\uFF0C\u4E00\u5929\u5F04\u61C2\u4E00\u4E24\u4E2A\u77E5\u8BC6\u70B9\uFF0C6\u67087\u65E5\u7684\u4F60\u90FD\u4F1A\u591A\u4E00\u5206\u81EA\u4FE1\uFF0C\u591A\u4E00\u5206\u5766\u8361\uFF0C\u4E03\u6708\u7684\u4F60\u4E5F\u4F1A\u591A\u4E00\u4E2A\u9009\u62E9\uFF0C\u591A\u4E00\u4E2A\u673A\u4F1A \u6211\u4E0D\u613F\u770B\u5230\u4E4B\u540E\u7684\u4F60\u4E3A\u73B0\u5728\u7684\u884C\u4E3A\u540E\u6094\u548C\u57CB\u6028\uFF0C\u4E0D\u613F\u770B\u5230\u4F60\u56DE\u9996\u8FD9\u6BB5\u9752\u6625\u5C81\u6708\u65F6\u53EA\u6709\u65E0\u5C3D\u7684\u54C0\u53F9\u4E0E\u60CB\u60DC\uFF0C\u4E0D\u613F\u516D\u6708\u7684\u4F60\u6574\u65E5\u4EE5\u6CEA\u6D17\u9762\uFF0C\u88AB\u8BA8\u538C\u7684\u4EBA\u5632\u7B11\uFF0C\u4E0D\u613F\u770B\u5230\u4E5D\u6708\u7684\u4F60\u773C\u7741\u7741\u770B\u7740\u597D\u53CB\u8D70\u8FDB\u68A6\u60F3\u7684\u9662\u6821\uFF0C\u800C\u4F60\u5374\u4E0D\u77E5\u4F55\u53BB\u4F55\u4ECE\u2026\u2026 \u6CA1\u6709\u4EBA\u80FD\u591F\u901A\u8FC7\u7948\u7977\u548C\u7A7A\u60F3\u6765\u6539\u53D8\u4EBA\u751F\uFF0C\u5B9E\u73B0\u68A6\u60F3\u3002\u6211\u4E0D\u8981\u542C\u5230\u4F60\u5634\u91CC\u558A\u7684\u79EF\u6781\u53E3\u53F7\uFF0C\u6211\u53EA\u76F8\u4FE1\u770B\u8FC7\u7684\u4E66\uFF0C\u5237\u8FC7\u7684\u9898\uFF0C\u80CC\u8FC7\u7684\u77E5\u8BC6\u70B9 \u4ECE\u73B0\u5728\u5F00\u59CB\u884C\u52A8\u8D77\u6765\uFF0C100\u5929\u6211\u4EEC\u5B9A\u53EF\u4EE5\u521B\u9020\u5947\u8FF9 2020\u5C4A\u9AD8\u4E09\u5B66\u5B50 \u9AD8\u8003\u52A0\u6CB9\uFF01 \u6211\u4EEC\u4E00\u5B9A\u4F1A\u8003\u4E0A\u7684 \u4ECA\u5E74\u516D\u6708\u795D\u4F60\u4E5F\u795D\u6211 \u53EA\u8981\u4F60\u6B63\u5728\u5411\u524D\u51B2\uFF0C\u4E16\u754C\u5C31\u4F1A\u52A9\u4F60\u7EE7\u7EED\u5954\u8DD1 2020.02.27 @ \u503E\u66E6. \u8FF9</p><p>\u6211\u613F\u4E58\u98CE\u7834\u6D6A \u6276\u5F97\u9752\u4E91\u76F4\u4E0A \u6211\u613F\u96C6\u8292\u6210\u9633 \u6563\u653E\u4E07\u4E08\u971E\u5149 \u6211\u613F\u7B14\u89E6\u5F20\u72C2\u6709\u808C\u7406 \u6211\u613F\u65E9\u971E\u70ED\u70C8\u4E0D\u4E56\u5F20 \u6211\u613F\u67D3\u4E00\u8EAB\u661F\u8FB0\u7684\u5E7D\u9999 \u6795\u4E00\u7247\u767D\u663C\u7684\u6CE2\u6D6A \u6211\u613F\u6458\u661F\u7EED\u822A \u7B49\u8FF7\u96FE\u8017\u5C3D \u633A\u7ACB\u5728\u521D\u590F\u7684\u6218\u573A \uFE4F\uFE4F \u6401\u7B14\uFF0C\u4E0D\u591A\u5199\u4E86\uFF0C\u8FD8\u6709\u8BA1\u5212 \u8FD9\u91CC2020\u9AD8\u8003\u7406\u79D1\u5168\u56FD\u2160\u5377\u9009\u624B\u5C0F\u67F3 \u76EE\u6807 \u570B\u7ACB\u6B66\u6F22\u5927\u5B78 \u6B22\u8FCE\u6218\u53CB\u5171\u52C9 \u5F00\u59CB\u884C\u52A8\u5427 \u9759\u5019\u4F73\u97F3 @\u4E94\u4E5D\u516D\u4E5D\u62AC\u5934\u671B\u67F3</p><!--]-->`);
 }
-const _sfc_setup$2b = _sfc_main$2b.setup;
-_sfc_main$2b.setup = (props, ctx) => {
+const _sfc_setup$2c = _sfc_main$2c.setup;
+_sfc_main$2c.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/article/100-days-For-Exam2.html.vue");
-  return _sfc_setup$2b ? _sfc_setup$2b(props, ctx) : void 0;
+  return _sfc_setup$2c ? _sfc_setup$2c(props, ctx) : void 0;
 };
-var _100DaysForExam2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2b, [["ssrRender", _sfc_ssrRender$2b]]);
+var _100DaysForExam2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2c, [["ssrRender", _sfc_ssrRender$2c]]);
 var _100DaysForExam2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": _100DaysForExam2_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$2a = {};
-function _sfc_ssrRender$2a(_ctx, _push, _parent, _attrs) {
+const _sfc_main$2b = {};
+function _sfc_ssrRender$2b(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u3010\u51B3\u6218\u6B21\u65F6\u4EE3\u3011\u26A1\u70ED\u7231105\xB0c\u7684\u559C\u7F8A\u7F8A\u26A1\u26A1" tabindex="-1"><a class="header-anchor" href="#\u3010\u51B3\u6218\u6B21\u65F6\u4EE3\u3011\u26A1\u70ED\u7231105\xB0c\u7684\u559C\u7F8A\u7F8A\u26A1\u26A1" aria-hidden="true">#</a> \u3010\u51B3\u6218\u6B21\u65F6\u4EE3\u3011\u26A1\u70ED\u7231105\xB0C\u7684\u559C\u7F8A\u7F8A\u26A1\u26A1</h1><iframe src="//player.bilibili.com/player.html?aid=804014904&amp;cid=367798748&amp;page=1&amp;danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts">
 </iframe><!--]-->`);
+}
+const _sfc_setup$2b = _sfc_main$2b.setup;
+_sfc_main$2b.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/article/105t.html.vue");
+  return _sfc_setup$2b ? _sfc_setup$2b(props, ctx) : void 0;
+};
+var _105t_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$2b, [["ssrRender", _sfc_ssrRender$2b]]);
+var _105t_html$5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": _105t_html$4
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$2a = {};
+function _sfc_ssrRender$2a(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="_3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55" tabindex="-1"><a class="header-anchor" href="#_3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55" aria-hidden="true">#</a> 3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55</h1><p>\u7B2C\u4E00\u6B21\u53C2\u52A0\u5B57\u8282\u8DF3\u52A8\u7684\u9762\u8BD5\uFF0C\u975E\u5E38\u7D27\u5F20</p><p>\u8FDE\u7EBF\u65B9\u5F0F\uFF1A\u98DE\u4E66</p><h2 id="\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u81EA\u6211\u4ECB\u7ECD</h2><p>\u6211\u662Fxxxxxx\uFF0C\u76EE\u524D\u5C31\u8BFB\u4E8Exxxxxx\uFF0C\u505A\u8FC7xxxxxx\uFF0C\u70ED\u7231xxxxxx</p><p>\u5176\u5B9E\u8FD9\u4E00\u70B9\u6CA1\u6709\u505A\u5145\u5206\u7684\u51C6\u5907\uFF0C\u4E00\u76F4\u4EE5\u4E3A\u7EAF\u6280\u672F\u9762\u8BD5</p><h2 id="\u53E3\u7B54\u95EE\u9898\u73AF\u8282" tabindex="-1"><a class="header-anchor" href="#\u53E3\u7B54\u95EE\u9898\u73AF\u8282" aria-hidden="true">#</a> \u53E3\u7B54\u95EE\u9898\u73AF\u8282</h2><h3 id="\u63CF\u8FF0java-map\u7684\u590D\u6742\u5EA6" tabindex="-1"><a class="header-anchor" href="#\u63CF\u8FF0java-map\u7684\u590D\u6742\u5EA6" aria-hidden="true">#</a> \u63CF\u8FF0Java map\u7684\u590D\u6742\u5EA6</h3><p>\u6211\u8111\u5B50\u91CC\u4E00\u70B9\u5370\u8C61\u90FD\u6CA1\u6709\u3002map\u662F\u4E2A\u63A5\u53E3\uFF0C\u5E94\u8BE5\u662F\u81EA\u5DF1\u5B9E\u73B0\u7684\u3002</p><p>\u6211\u7684\u56DE\u7B54\u662F\u7528hash\u5B9E\u73B0\u7684\u8BDD\uFF0C\u662FO1</p><h3 id="\u63CF\u8FF0hash\u78B0\u649E\u4E4B\u540E\u6709\u54EA\u4E9B\u89E3\u51B3\u65B9\u6848" tabindex="-1"><a class="header-anchor" href="#\u63CF\u8FF0hash\u78B0\u649E\u4E4B\u540E\u6709\u54EA\u4E9B\u89E3\u51B3\u65B9\u6848" aria-hidden="true">#</a> \u63CF\u8FF0hash\u78B0\u649E\u4E4B\u540E\u6709\u54EA\u4E9B\u89E3\u51B3\u65B9\u6848</h3><p>\u6211\u7B54\u94FE\u8868\u6CD5 \u6216\u8005 \u6C42\u4E0B\u4E00\u4E2A\u4E34\u63A5\u7A7A\u4F4D</p><p><strong>\u611F\u8C22Pf caoyixin</strong></p><h3 id="\u63CF\u8FF0\u4E8C\u53C9\u6811\u904D\u5386\u7684\u65B9\u5F0F" tabindex="-1"><a class="header-anchor" href="#\u63CF\u8FF0\u4E8C\u53C9\u6811\u904D\u5386\u7684\u65B9\u5F0F" aria-hidden="true">#</a> \u63CF\u8FF0\u4E8C\u53C9\u6811\u904D\u5386\u7684\u65B9\u5F0F</h3><p>\u6DF1\u5EA6\u904D\u5386 \u6709\u4E09\u79CD\uFF1A\u5DE6\u4E2D\u53F3 \u5DE6\u53F3\u4E2D \u4E2D\u5DE6\u53F3</p><p>\u5E7F\u5EA6\u904D\u5386 \u6709\u4E00\u79CD</p><h2 id="\u53E3\u7B54\u6570\u5B66\u9898" tabindex="-1"><a class="header-anchor" href="#\u53E3\u7B54\u6570\u5B66\u9898" aria-hidden="true">#</a> \u53E3\u7B54\u6570\u5B66\u9898</h2><p>100\u5757\u77F3\u5934 A\u548CB\u8F6E\u6D41\u642C\u77F3\u5934 \u6BCF\u4E2A\u4EBA\u6BCF\u6B21\u53EF\u4EE5\u642C\u4EFB\u610F1-3\u5757 \u8C01\u6700\u540E\u642C\u5230\u6700\u540E\u4E00\u5757\u8C01\u5C31\u8D62</p><p>\u5047\u5982A\u548CB\u7ADE\u4E89\uFF0C\u8C01\u4F1A\u8D62\uFF1F</p><p>\u6211\u5B9E\u5728\u662F\u6CA1\u6709\u4EFB\u4F55\u601D\u8DEF \u5C31\u7ED9\u9762\u8BD5\u5B98\u8BF4\u4E86\u4E00\u4E0B\u6211\u7684\u7B97\u6CD5\u5B9E\u73B0\u3002</p><p>\u9762\u8BD5\u5B98\u544A\u8BC9\u6211\u80FD\u4E0D\u80FD\u63A8\u5BFC\u89C4\u5F8B\uFF0C\u6211\u60F3\u4E86\u534A\u5929 \u8BF4\u6CA1\u6709\u601D\u8DEF</p><p>\u9762\u8BD5\u5B98\u63D0\u793A\u62114\u5757\u7684\u8BDD\u8C01\u4F1A\u8D62\uFF0C\u6211\u8BF4B\u4F1A\u8D62\uFF0C\u4F46\u662F\u6CA1\u6709\u8BF4\u51FA\u6765\u5177\u4F53\u539F\u56E0</p><p>\u9762\u8BD5\u5B98\u518D\u95EE\u62115\u5757\u8C01\u4F1A\u8D62\uFF0C\u6211\u8BF4A\u4F1A\u8D62\uFF0C\u4F46\u662F\u89E3\u91CA\u4E0D\u51FA\u6765</p><p>\u6211\u611F\u89C9\u592A\u7D27\u5F20\u4E86</p><h2 id="\u7B14\u8BD5\u9898" tabindex="-1"><a class="header-anchor" href="#\u7B14\u8BD5\u9898" aria-hidden="true">#</a> \u7B14\u8BD5\u9898</h2><p>\u8FD9\u6BB5\u771F\u7684\u592A\u614C\u4E86</p><p>\u9762\u8BD5\u5B98\u8BA9\u6211\u5199\u4E00\u904D\u5E7F\u5EA6\u904D\u5386 \u5947\u6570\u884C\u662F\u4ECE\u5DE6\u5230\u53F3 \u5076\u6570\u884C\u662F\u4ECE\u53F3\u5230\u5DE6</p><p>\u6211\u4E0D\u77E5\u9053\u5199\u4E86\u51E0\u4E2Abug \u90FD\u662F\u9762\u8BD5\u5B98\u7ED9\u6211\u4E00\u70B9\u4E00\u70B9\u7EA0\u6B63\u7684</p><h2 id="\u7ED3\u675F\u9762\u8BD5\u540E\u7684\u53CD\u601D" tabindex="-1"><a class="header-anchor" href="#\u7ED3\u675F\u9762\u8BD5\u540E\u7684\u53CD\u601D" aria-hidden="true">#</a> \u7ED3\u675F\u9762\u8BD5\u540E\u7684\u53CD\u601D</h2><ul><li>\u592A\u7D27\u5F20</li><li>\u7B97\u6CD5\u8981\u80CC\u8FC7\uFF0C\u4E0D\u8981\u624B\u6296</li><li>\u51B7\u9759</li></ul><!--]-->`);
 }
 const _sfc_setup$2a = _sfc_main$2a.setup;
 _sfc_main$2a.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/article/105t.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/posts/article/3-18-bytedance.html.vue");
   return _sfc_setup$2a ? _sfc_setup$2a(props, ctx) : void 0;
 };
-var _105t_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$2a, [["ssrRender", _sfc_ssrRender$2a]]);
-var _105t_html$5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var _318Bytedance_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2a, [["ssrRender", _sfc_ssrRender$2a]]);
+var _318Bytedance_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _105t_html$4
+  "default": _318Bytedance_html$1
 }, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$29 = {};
 function _sfc_ssrRender$29(_ctx, _push, _parent, _attrs) {
@@ -8241,14 +8263,14 @@ var digitalSystem3_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object
 const _sfc_main$O = {};
 function _sfc_ssrRender$O(_ctx, _push, _parent, _attrs) {
   _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "c-programming",
+    id: "assembly-language",
     tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#c-programming" aria-hidden="true">#</a> C++ Programming</h1>`);
+  }, _attrs))}><a class="header-anchor" href="#assembly-language" aria-hidden="true">#</a> Assembly language</h1>`);
 }
 const _sfc_setup$O = _sfc_main$O.setup;
 _sfc_main$O.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/coding/cpp/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/index.html.vue");
   return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
 };
 var index_html$1L = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$O]]);
@@ -8258,24 +8280,6 @@ var index_html$1M = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineP
 }, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$N = {};
 function _sfc_ssrRender$N(_ctx, _push, _parent, _attrs) {
-  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "assembly-language",
-    tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#assembly-language" aria-hidden="true">#</a> Assembly language</h1>`);
-}
-const _sfc_setup$N = _sfc_main$N.setup;
-_sfc_main$N.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/index.html.vue");
-  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
-};
-var index_html$1J = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$N]]);
-var index_html$1K = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": index_html$1J
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$M = {};
-function _sfc_ssrRender$M(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB" tabindex="-1"><a class="header-anchor" href="#y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB" aria-hidden="true">#</a> Y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB</h1><img src="https://pic.hanjiaming.com.cn/2021/04/06/d920281841490.png" alt="image.png" title="image.png"><h2 id="isa-\u6307\u4EE4\u96C6\u67B6\u6784" tabindex="-1"><a class="header-anchor" href="#isa-\u6307\u4EE4\u96C6\u67B6\u6784" aria-hidden="true">#</a> ISA(\u6307\u4EE4\u96C6\u67B6\u6784)</h2><blockquote><p><strong>\u6307\u4EE4\u96C6\u67B6\u6784</strong>\uFF08\u82F1\u8BED\uFF1AInstruction Set Architecture\uFF0C\u7F29\u5199\u4E3AISA\uFF09\uFF0C\u53C8\u79F0<strong>\u6307\u4EE4\u96C6</strong>\u6216<strong>\u6307\u4EE4\u96C6\u4F53\u7CFB</strong>\uFF0C\u662F<a href="https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84" target="_blank" rel="noopener noreferrer">\u8BA1\u7B97\u673A\u4F53\u7CFB\u7ED3\u6784`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -8325,19 +8329,19 @@ function _sfc_ssrRender$M(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>\u6307\u4EE4\u96C6\u4F53\u7CFB\uFF0C\u4F46\u662F\u4E24\u8005\u5728\u5185\u90E8\u8BBE\u8BA1\u4E0A\u6709\u672C\u8D28\u7684\u533A\u522B\u3002</p><p>\u7EF4\u57FA\u767E\u79D1</p></blockquote><h3 id="designing-an-isa" tabindex="-1"><a class="header-anchor" href="#designing-an-isa" aria-hidden="true">#</a> Designing an ISA</h3><ul><li>Designing processor states visible to programmers\u300C\u8BBE\u8BA1\u5BF9\u7A0B\u5E8F\u5458\u53EF\u89C1\u7684\u5904\u7406\u5668\u72B6\u6001\u300D</li><li>Designing a set of instructions\u300C\u8BBE\u8BA1\u4E00\u5957\u6307\u4EE4\u300D</li><li>Encoding the instructions\u300C\u5BF9\u6307\u4EE4\u7F16\u7801\u300D</li></ul><p>All the above designs will be exemplified by the Y86-64 ISA --- a much simpler X86 ISA enough to demonstrate the key concepts\u300C\u4EE5\u4E0A\u6240\u6709\u8BBE\u8BA1\u90FD\u5C06\u4EE5Y86-64 ISA\u4E3A\u4F8B-\u4E00\u79CD\u66F4\u7B80\u5355\u7684X86 ISA\uFF0C\u8DB3\u4EE5\u6F14\u793A\u5173\u952E\u6982\u5FF5\u300D</p><h2 id="circuits" tabindex="-1"><a class="header-anchor" href="#circuits" aria-hidden="true">#</a> Circuits</h2><img src="https://pic.hanjiaming.com.cn/2021/04/06/0f104d60eef46.png" alt="image.png" title="image.png"><h3 id="digital-circuits" tabindex="-1"><a class="header-anchor" href="#digital-circuits" aria-hidden="true">#</a> Digital circuits</h3><h4 id="logic-gates" tabindex="-1"><a class="header-anchor" href="#logic-gates" aria-hidden="true">#</a> Logic gates</h4><p>Logic gates\uFF1ABasic computing electronic circuit elements\u300CBasic computing electronic circuit elements\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/8a4d6b082289a.png" alt="image.png" title="image.png"><ul><li>Logic gates are always active, is some input to a gate changes, then within some small amount of time, the output will change accordingly\u300C\u903B\u8F91\u95E8\u59CB\u7EC8\u5904\u4E8E\u6D3B\u52A8\u72B6\u6001\uFF0C\u67D0\u4E2A\u95E8\u7684\u67D0\u4E9B\u8F93\u5165\u4F1A\u53D1\u751F\u53D8\u5316\uFF0C\u7136\u540E\u5728\u77ED\u65F6\u95F4\u5185\uFF0C\u8F93\u51FA\u5C06\u76F8\u5E94\u5730\u53D1\u751F\u53D8\u5316\u300D</li><li>Can be represented by hardware control language (HCL)\u300C\u53EF\u4EE5\u7528\u786C\u4EF6\u63A7\u5236\u8BED\u8A00\uFF08HCL\uFF09\u8868\u793A\u300D <ul><li>\u6BD4\u5982\uFF1Aout = a &amp;&amp; b; out = a || b \u2026</li></ul></li></ul><h3 id="combinational-circuits" tabindex="-1"><a class="header-anchor" href="#combinational-circuits" aria-hidden="true">#</a> Combinational circuits</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/3ab61659e1f5e.png" alt="image.png" title="image.png"><h4 id="example-1" tabindex="-1"><a class="header-anchor" href="#example-1" aria-hidden="true">#</a> Example 1</h4><p>if a and b are equal, output 1; otherwise, output 0With <strong>and</strong>, <strong>or</strong> and <strong>not</strong> gates</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/1bff53702ecca.png" alt="image.png" title="image.png"><h4 id="example-2" tabindex="-1"><a class="header-anchor" href="#example-2" aria-hidden="true">#</a> Example 2</h4><p>selecting a or b according to s</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/115ad8e71b87a.png" alt="image.png" title="image.png"><h4 id="example-3" tabindex="-1"><a class="header-anchor" href="#example-3" aria-hidden="true">#</a> Example 3</h4><p>From a single bit to multiple bits (word)</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/054f5031eabdd.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/4fc3c0a80d5b1.png" alt="image.png" title="image.png"><h4 id="arithmetic-logic-unit-alu" tabindex="-1"><a class="header-anchor" href="#arithmetic-logic-unit-alu" aria-hidden="true">#</a> Arithmetic Logic Unit (ALU)</h4><img src="https://pic.hanjiaming.com.cn/2021/04/06/28c1935a003ca.png" alt="image.png" title="image.png"><ul><li>Using and, or, not gates to implement arithmetic logic\u300CUsing and, or, not gates to implement arithmetic logic\u300D</li><li>Compute the result, and set the conditional codes\u300CCompute the result, and set the conditional codes\u300D</li><li>Inputs and outputs are multi-bit word\u300CInputs and outputs are multi-bit word\u300D</li></ul><h3 id="storage-elements" tabindex="-1"><a class="header-anchor" href="#storage-elements" aria-hidden="true">#</a> Storage elements</h3><p>Storage elements are special electronic circuits that can retain data values\u300C\u5B58\u50A8\u5143\u4EF6\u662F\u53EF\u4EE5\u4FDD\u7559\u6570\u636E\u503C\u7684\u7279\u6B8A\u7535\u5B50\u7535\u8DEF\u300D</p><ul><li>Storage elements can be read or written</li><li>Storage elements can be addressed</li><li>Storage elements rely on clocks to retain data values\u300C\u5B58\u50A8\u5143\u4EF6\u4F9D\u9760\u65F6\u949F\u6765\u4FDD\u7559\u6570\u636E\u503C\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/0957074806422.png" alt="image.png" title="image.png"><h2 id="y86-64-processor" tabindex="-1"><a class="header-anchor" href="#y86-64-processor" aria-hidden="true">#</a> Y86-64 processor</h2><h3 id="state" tabindex="-1"><a class="header-anchor" href="#state" aria-hidden="true">#</a> state</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/2bd639cb02fff.png" alt="image.png" title="image.png"><ul><li>15 64-bit general purpose registers</li><li>Conditional codes <ul><li>ZF: zero;</li><li>SF: negative;</li><li>OF: overflow</li></ul></li><li>Program Counter\uFF1AIndicates address of next instruction</li><li>Memory <ul><li>Byte-addressable storage array\u300C\u5B57\u8282-\u53EF\u5BFB\u5740\u5B58\u50A8\u9635\u5217\u300D</li><li>Words stored in little-endian byte order\u300C\u4EE5little-endian\u5B57\u8282\u987A\u5E8F\u5B58\u50A8\u7684\u5355\u8BCD\u300D</li></ul></li></ul><h4 id="little-endian" tabindex="-1"><a class="header-anchor" href="#little-endian" aria-hidden="true">#</a> little-endian</h4><p>\u5176\u5B9E<em>big endian</em>\u662F\u6307\u4F4E\u5730\u5740\u5B58\u653E\u6700\u9AD8\u6709\u6548\u5B57\u8282\uFF08<em>MSB</em>\uFF09\uFF0C\u800C<em>little endian</em>\u5219\u662F\u4F4E\u5730\u5740\u5B58\u653E\u6700\u4F4E\u6709\u6548\u5B57\u8282\uFF08<em>LSB</em>\uFF09\u3002</p><p>\u7528\u6587\u5B57\u8BF4\u660E\u53EF\u80FD\u6BD4\u8F83\u62BD\u8C61\uFF0C\u4E0B\u9762\u7528\u56FE\u50CF\u52A0\u4EE5\u8BF4\u660E\u3002\u6BD4\u5982\u6570\u5B57<em>0x12345678</em>\u5728\u4E24\u79CD\u4E0D\u540C\u5B57\u8282\u5E8F<em>CPU</em>\u4E2D\u7684\u5B58\u50A8\u987A\u5E8F\u5982\u4E0B\u6240\u793A\uFF1A</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/953f738b410d7.png" alt="image.png" title="image.png"><p>\u4ECE\u4E0A\u9762\u4E24\u56FE\u53EF\u4EE5\u770B\u51FA\uFF0C\u91C7\u7528<em>big endian</em>\u65B9\u5F0F\u5B58\u50A8\u6570\u636E\u662F\u7B26\u5408\u6211\u4EEC\u4EBA\u7C7B\u7684\u601D\u7EF4\u4E60\u60EF\u7684\u3002</p><h3 id="instruction-set" tabindex="-1"><a class="header-anchor" href="#instruction-set" aria-hidden="true">#</a> Instruction set</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/aeb49c2d6fe40.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/56d0691aa2d6f.png" alt="image.png" title="image.png"><h3 id="encoding-registers" tabindex="-1"><a class="header-anchor" href="#encoding-registers" aria-hidden="true">#</a> Encoding registers</h3><p>\u7ED9\u5BC4\u5B58\u5668\u7F16\u7801</p><p>Each register is uniquely specified by a 4-bit ID\u300C\u6BCF\u4E2A\u5BC4\u5B58\u5668\u7531\u4E00\u4E2A4\u4F4DID\u552F\u4E00\u5730\u6307\u5B9A\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/a49025d5218d5.png" alt="image.png" title="image.png"><p>ID 15 (0xF) indicates \u201Cno register\u201D\u300CID 15\uFF080x F\uFF09\u8868\u793A\u201C\u65E0\u5BC4\u5B58\u5668\u201D\u300D</p><h3 id="instruction-examples" tabindex="-1"><a class="header-anchor" href="#instruction-examples" aria-hidden="true">#</a> Instruction examples</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/91a28ca36c197.png" alt="image.png" title="image.png"><p><strong>Uniqueness (requirement on designing an ISA)\u300C\u552F\u4E00\u6027\uFF08\u8BBE\u8BA1ISA\u7684\u8981\u6C42\uFF09\u300D</strong></p><ul><li>The encodings must have a unique interpretation\u300C\u7F16\u7801\u5FC5\u987B\u5177\u6709\u552F\u4E00\u7684\u89E3\u91CA\u300D</li><li>Given a sequence of bytes (machine code), it can be interpreted into only one valid sequence of instructions\u300C\u7ED9\u5B9A\u4E00\u4E2A\u5B57\u8282\u5E8F\u5217\uFF08\u673A\u5668\u4EE3\u7801\uFF09\uFF0C\u5B83\u53EA\u80FD\u89E3\u91CA\u4E3A\u4E00\u4E2A\u6709\u6548\u7684\u6307\u4EE4\u5E8F\u5217\u300D</li><li>From the first instruction, always being able to find the start byte of the next instruction\u300C\u4ECE\u7B2C\u4E00\u6761\u6307\u4EE4\u5F00\u59CB\uFF0C\u603B\u662F\u80FD\u591F\u627E\u5230\u4E0B\u4E00\u6761\u6307\u4EE4\u7684\u8D77\u59CB\u5B57\u8282</li></ul><h3 id="standard-stages-to-execute-one-instruction" tabindex="-1"><a class="header-anchor" href="#standard-stages-to-execute-one-instruction" aria-hidden="true">#</a> Standard stages to execute one instruction</h3><ul><li>We have \u2026\u2026 <ul><li>Hardware building blocks that can do arithmetic computation</li><li>Hardware storage elements to store data</li><li>Machine instructions defined</li></ul></li><li>We want to put all these things together to build a CPU <ul><li>That can read and understand a program in machine instructions</li><li>That can perform the functions specified by the machine instructions <ul><li>By operating the computation and storage elements of the CPU</li></ul></li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/d8d400734d87c.png" alt="image.png" title="image.png"><ul><li>As there are so many instructions, it will be not wise to design a specific hardware circuit for each instruction\u300C\u7531\u4E8E\u6307\u4EE4\u592A\u591A\uFF0C\u4E3A\u6BCF\u4E2A\u6307\u4EE4\u8BBE\u8BA1\u7279\u5B9A\u7684\u786C\u4EF6\u7535\u8DEF\u662F\u4E0D\u660E\u667A\u7684\u3002\u300D</li><li>The execution of instructions is standardized, i.e., all instructions follow the same steps, an in each step share the same hardware\u300C\u6307\u4EE4\u7684\u6267\u884C\u662F\u6807\u51C6\u5316\u7684\uFF0C\u5373\u6240\u6709\u6307\u4EE4\u90FD\u9075\u5FAA\u76F8\u540C\u7684\u6B65\u9AA4\uFF0C\u5E76\u4E14\u6BCF\u4E00\u6B65\u90FD\u5171\u4EAB\u76F8\u540C\u7684\u786C\u4EF6\u300D</li></ul><table><thead><tr><th><strong>Stages/Steps</strong></th><th><strong>Functions</strong></th></tr></thead><tbody><tr><td>Fetch</td><td>Read an instruction from the memory\u300C\u4ECE\u5185\u5B58\u4E2D\u8BFB\u53D6\u6307\u4EE4\u300D</td></tr><tr><td>Decode</td><td>Read operands\u300C\u64CD\u4F5C\u6570\u300D from registers\u300C\u4ECE\u5BC4\u5B58\u5668\u8BFB\u53D6\u64CD\u4F5C\u6570\u300D</td></tr><tr><td>Execute</td><td>Compute value or address\u300C\u6570\u5B66\u8BA1\u7B97\u300D</td></tr><tr><td>Memory access</td><td>Read or write data from/to memory\u300C\u4ECE\u5185\u5B58\u8BFB\u53D6\u6570\u636E\u6216\u5411\u5185\u5B58\u5199\u5165\u6570\u636E\u300D</td></tr><tr><td>Write back</td><td>Write results to registers\u300C\u5C06\u7ED3\u679C\u5199\u5165\u5BC4\u5B58\u5668\u300D</td></tr><tr><td>PC update</td><td>Update PC, get ready for the next instruction\u300C\u66F4\u65B0PC\uFF0C\u51C6\u5907\u4E0B\u4E00\u6761\u6307\u4EE4\u300D</td></tr></tbody></table><img src="https://pic.hanjiaming.com.cn/2021/04/06/7da880ef9f9e4.png" alt="image.png" title="image.png"><h4 id="computed-values" tabindex="-1"><a class="header-anchor" href="#computed-values" aria-hidden="true">#</a> Computed values</h4><p>Stored in CPU on hardware lines/pins</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/fcd00f369cbe0.png" alt="image.png" title="image.png"><h4 id="run-the-machine-codes" tabindex="-1"><a class="header-anchor" href="#run-the-machine-codes" aria-hidden="true">#</a> Run the machine codes</h4><p>Use an example program to show how the CPU run a program in the machine code form\u300C\u4F7F\u7528\u793A\u4F8B\u7A0B\u5E8F\u6765\u663E\u793ACPU\u5982\u4F55\u4EE5\u673A\u5668\u4EE3\u7801\u5F62\u5F0F\u8FD0\u884C\u7A0B\u5E8F\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/f8e7c1dcc5d1f.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/cd2a72a3bce61.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/2adaee0b7cf78.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/f098f6890120f.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/06/c01a577b8fe0c.png" alt="image.png" title="image.png"><img src="https://pic.hanjiaming.com.cn/2021/04/16/17e1736f22460.png" alt="image.png" title="image.png"><h4 id="pipeline" tabindex="-1"><a class="header-anchor" href="#pipeline" aria-hidden="true">#</a> Pipeline</h4><img src="https://pic.hanjiaming.com.cn/2021/04/06/04f3b2593ea6d.png" alt="image.png" title="image.png"><ul><li>The whole production process is composed of multiple stages\u300C\u6574\u4E2A\u751F\u4EA7\u8FC7\u7A0B\u7531\u591A\u4E2A\u9636\u6BB5\u7EC4\u6210\u300D</li><li>Worker on each stage do only ONE thing\u300C\u6BCF\u4E2A\u9636\u6BB5\u7684\u5DE5\u4EBA\u53EA\u80FD\u505A\u4E00\u4EF6\u4E8B\u60C5\u300D</li><li>Products line up on the pipeline, each goes through all stages\u300C\u4EA7\u54C1\u5728\u6D41\u6C34\u7EBF\u4E2D\u6392\u5217\uFF0C\u6BCF\u4E2A\u9636\u6BB5\u90FD\u7ECF\u8FC7\u5404\u4E2A\u9636\u6BB5\u300D</li></ul><p>Rethinking the sequential machine</p><p>Every instruction goes through six stages\u300C\u6BCF\u6761\u6307\u4EE4\u90FD\u7ECF\u8FC7\u516D\u4E2A\u9636\u6BB5\u300D</p><p>In the sequential implementation, when the instruction is in one stage, e.g., execute, all the hardware components in other stages are idle\u300C\u5728\u987A\u5E8F\u5B9E\u73B0\u4E2D\uFF0C\u5F53\u6307\u4EE4\u5904\u4E8E\u4E00\u4E2A\u9636\u6BB5\uFF0C\u4F8B\u5982\u6267\u884C\u65F6\uFF0C\u5176\u4ED6\u9636\u6BB5\u7684\u6240\u6709\u786C\u4EF6\u7EC4\u4EF6\u90FD\u5904\u4E8E\u7A7A\u95F2\u72B6\u6001\u300D</p><p>This is under-utilization of the processor hardware\u300C\u8FD9\u662F\u5728-\u5904\u7406\u5668\u786C\u4EF6\u7684\u5229\u7528\u7387\u4E0D\u8DB3\u300D</p><h5 id="understanding-the-performance-of-pipeline" tabindex="-1"><a class="header-anchor" href="#understanding-the-performance-of-pipeline" aria-hidden="true">#</a> Understanding the performance of pipeline</h5><p>Executing an instruction consumes 300ps (1ps = 10-12s)</p><p>How many instructions can we execute in 1s? (throughput, IPS)<br> 1/(300 * 10-12) = 3.33 X 109 instructions\uFF08<strong>\u5728\u65E0\u540C\u65F6\u6267\u884C\u7684\u60C5\u51B5\u4E0B</strong>\uFF09</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/2deff4a398e41.png" alt="image.png" title="image.png"><p>Decompose the execution of each instruction into 3 stages, each stage takes 100ps to execute\u300C\u5C06\u6BCF\u4E2A\u6307\u4EE4\u7684\u6267\u884C\u5206\u89E3\u4E3A3\u4E2A\u9636\u6BB5\uFF0C\u6BCF\u4E2A\u9636\u6BB5\u9700\u8981100ps\u7684\u6267\u884C\u65F6\u95F4\u300D</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/315916204a29a.png" alt="image.png" title="image.png"><p>How many instructions can we execute in 1s? (throughput, IPS)\u300C\u6211\u4EEC\u53EF\u4EE5\u5728\u4E00\u79D2\u5185\u6267\u884C\u591A\u5C11\u6761\u6307\u4EE4\uFF1F \uFF08\u541E\u5410\u91CF\uFF0CIPS\uFF09\u300D</p><ul><li><p>1/(100 * 10-12) = 1010</p></li><li><p>3 times faster than the execution above</p></li><li><p>Adding registers between two consecutive pipeline stages\u300C\u5728\u4E24\u4E2A\u8FDE\u7EED\u7684\u6D41\u6C34\u7EBF\u9636\u6BB5\u4E4B\u95F4\u6DFB\u52A0\u5BC4\u5B58\u5668\u300D</p></li><li><p>Each time a clock signal arrives, the result of stage-x will be written to the register between stage-x and stage-(x+1)\u300C\u6BCF\u6B21\u65F6\u949F\u4FE1\u53F7\u5230\u8FBE\u65F6\uFF0Cstage-x \u7684\u7ED3\u679C\u5C06\u88AB\u5199\u5165stage-x\u548C stage-\uFF08x + 1\uFF09\u4E4B\u95F4\u7684\u5BC4\u5B58\u5668\u4E2D\u300D</p></li><li><p><strong>Once the result of stage-x is written, the next stage can start execution with the result as its input\u300C\u5199\u5165stage-x\u7684\u7ED3\u679C\u540E\uFF0C\u4E0B\u4E00\u4E2Astage\u53EF\u4EE5\u5F00\u59CB\u6267\u884C\uFF0C\u5E76\u5C06\u7ED3\u679C\u4F5C\u4E3A\u8F93\u5165\u300D</strong></p></li><li><p>Accessing registers introduces extra time delay; the end-to-end latency of finishing a single instruction is increased\u300C\u8BBF\u95EE\u5BC4\u5B58\u5668\u4F1A\u5E26\u6765\u989D\u5916\u7684\u65F6\u95F4\u5EF6\u8FDF\uFF1B\u5B8C\u6210\u4E00\u6761\u6307\u4EE4\u7684\u7AEF\u5230\u7AEF\u5EF6\u8FDF\u589E\u52A0\u4E86\u300D</p></li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/54c468a9e7c77.png" alt="image.png" title="image.png"><h5 id="redesign-the-cpu-with-pipeline" tabindex="-1"><a class="header-anchor" href="#redesign-the-cpu-with-pipeline" aria-hidden="true">#</a> Redesign the CPU with pipeline</h5><img src="https://pic.hanjiaming.com.cn/2021/04/06/a6c6c55580000.png" alt="image.png" title="image.png"><h5 id="bad-pipeline-design" tabindex="-1"><a class="header-anchor" href="#bad-pipeline-design" aria-hidden="true">#</a> Bad pipeline design</h5><p>Nonuniform partitioning\u300C\u5206\u533A\u4E0D\u5747\u5300\u300D<br><strong>Latency is determined by the longest stage\u300C\u5EF6\u8FDF\u7531\u6700\u957F\u7684\u9636\u6BB5\u51B3\u5B9A\u300D</strong></p><img src="https://pic.hanjiaming.com.cn/2021/04/06/6780b3fb4bee8.png" alt="image.png" title="image.png"><h6 id="make-the-pipeline-stages-uniform" tabindex="-1"><a class="header-anchor" href="#make-the-pipeline-stages-uniform" aria-hidden="true">#</a> Make the pipeline stages uniform</h6><img src="https://pic.hanjiaming.com.cn/2021/04/06/906da6b8887b9.png" alt="image.png" title="image.png"><ul><li>More stages: deep pipeline</li><li>More stage registers -&gt; more time overhead</li><li>Sometimes, a stage cannot be decomposed\u300C\u5206\u89E3\u7684\u300D</li></ul><h5 id="data-hazard-in-pipelines" tabindex="-1"><a class="header-anchor" href="#data-hazard-in-pipelines" aria-hidden="true">#</a> Data hazard in pipelines</h5><p>Data hazard in pipelines\u300C\u7BA1\u9053\u4E2D\u7684\u6570\u636E\u5371\u5BB3\u300D</p><ul><li>Data dependencies: the results computed by one instruction are used as the data for a following instruction\u300C\u6570\u636E\u4F9D\u5B58\u5173\u7CFB\uFF1A\u4E00\u6761\u6307\u4EE4\u8BA1\u7B97\u7684\u7ED3\u679C\u7528\u4F5C\u4E0B\u4E00\u6761\u6307\u4EE4\u7684\u6570\u636E\u300D</li><li>Data hazard: data dependencies have the potential to cause an erroneous computation by the pipeline\u300C\u6570\u636E\u5371\u5BB3\uFF1A\u6570\u636E\u4F9D\u8D56\u6027\u53EF\u80FD\u4F1A\u5BFC\u81F4\u7BA1\u9053\u8BA1\u7B97\u9519\u8BEF\u300D</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/db1bcd3177182.png" alt="image.png" title="image.png"><h6 id="solution-stalling" tabindex="-1"><a class="header-anchor" href="#solution-stalling" aria-hidden="true">#</a> Solution: Stalling</h6><img src="https://pic.hanjiaming.com.cn/2021/04/06/6cbdf7ace4050.png" alt="image.png" title="image.png"><h5 id="other-problems" tabindex="-1"><a class="header-anchor" href="#other-problems" aria-hidden="true">#</a> Other Problems</h5><ul><li>Stalling a pipeline reduces performance\u300C\u505C\u6EDE\u7BA1\u9053\u4F1A\u964D\u4F4E\u6027\u80FD\u300D</li><li>There are other ways to remove the data hazards\u300C\u8FD8\u6709\u5176\u4ED6\u65B9\u6CD5\u53EF\u4EE5\u6D88\u9664\u6570\u636E\u5371\u5BB3\u300D</li><li>There are control hazards, and of course solutions\u300C\u6709\u63A7\u5236\u5371\u9669\uFF0C\u5F53\u7136\u4E5F\u6709\u89E3\u51B3\u529E\u6CD5\u300D</li><li>There are out-of-order pipelines (instruction execution sequence are changed), multi-issue pipelines\u300C\u6709\u4E71\u5E8F\u7BA1\u9053\uFF08\u6307\u4EE4\u6267\u884C\u987A\u5E8F\u5DF2\u66F4\u6539\uFF09\uFF0C\u591A\u53D1\u5E03\u7BA1\u9053\u300D</li><li>\u2026\u2026</li></ul><p>Pipelines are a very important feature to the performance of contemporary powerful CPUs, very complex designs exist\u300C\u7BA1\u9053\u662F\u5F53\u4EE3\u529F\u80FD\u5F3A\u5927\u7684CPUs\u6027\u80FD\u7684\u975E\u5E38\u91CD\u8981\u7684\u7279\u5F81\uFF0C\u5B58\u5728\u975E\u5E38\u590D\u6742\u7684\u8BBE\u8BA1\u300D</p><hr><h2 id="\u8865\u5145\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u8865\u5145\u6750\u6599" aria-hidden="true">#</a> \u8865\u5145\u6750\u6599</h2><h3 id="y86-64-instruction-set" tabindex="-1"><a class="header-anchor" href="#y86-64-instruction-set" aria-hidden="true">#</a> Y86-64 instruction set</h3><img src="https://pic.hanjiaming.com.cn/2021/05/13/dfabed4fb112d.png" alt="1620889874072.png" title="1620889874072.png"><h3 id="\u8865\u5145\u4E00\u4E9B\u6307\u4EE4\u7684stage" tabindex="-1"><a class="header-anchor" href="#\u8865\u5145\u4E00\u4E9B\u6307\u4EE4\u7684stage" aria-hidden="true">#</a> \u8865\u5145\u4E00\u4E9B\u6307\u4EE4\u7684stage</h3><h4 id="mrmovq" tabindex="-1"><a class="header-anchor" href="#mrmovq" aria-hidden="true">#</a> mrmovq</h4><img src="https://pic.hanjiaming.com.cn/2021/05/13/64dbe34aa455e.png" alt="1620890018309.png" title="1620890018309.png"><h4 id="jg" tabindex="-1"><a class="header-anchor" href="#jg" aria-hidden="true">#</a> jg</h4><img src="https://pic.hanjiaming.com.cn/2021/05/13/40ea4c2492224.png" alt="1620890069997.png" title="1620890069997.png"><h4 id="cmovle" tabindex="-1"><a class="header-anchor" href="#cmovle" aria-hidden="true">#</a> cmovle</h4><img src="https://pic.hanjiaming.com.cn/2021/05/13/5192d957a02b8.png" alt="1620890163626.png" title="1620890163626.png"><h3 id="x86-x64-\u6307\u4EE4\u957F\u5EA6" tabindex="-1"><a class="header-anchor" href="#x86-x64-\u6307\u4EE4\u957F\u5EA6" aria-hidden="true">#</a> x86/x64 \u6307\u4EE4\u957F\u5EA6</h3><p>AMD manual Vol3 \u7B2C 1.1 Instruction Byte Brder \u8282\u4E2D\u660E\u786E\u5730\u8BF4\uFF1AAn instruction can be between one and 15 bytes in length.</p><h3 id="\u505A\u9898\u7B14\u8BB0" tabindex="-1"><a class="header-anchor" href="#\u505A\u9898\u7B14\u8BB0" aria-hidden="true">#</a> \u505A\u9898\u7B14\u8BB0</h3><ol><li>\u5BF9\u4E8E\u6BCF\u4E2A\u6307\u4EE4\uFF0C\u90FD\u6709\u6267\u884CDecode\u3001Write back\u3001Memory \u8FD9\u51E0\u4E2A\u8FC7\u7A0B\u3002le xxx \u6307\u4EE4\u53EA\u6709\u8FD9\u4E09\u4E2A\u8FC7\u7A0B</li></ol><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>https://zh.wikipedia.org/wiki/%E6%8C%87%E4%BB%A4%E9%9B%86%E6%9E%B6%E6%A7%8B</li><li>https://blog.csdn.net/sunshine1314/article/details/2309655</li><li>AMD manual Vol3</li><li>COMP1411 @ PolyU&#39;s PowerPoint</li></ul><!--]-->`);
 }
-const _sfc_setup$M = _sfc_main$M.setup;
-_sfc_main$M.setup = (props, ctx) => {
+const _sfc_setup$N = _sfc_main$N.setup;
+_sfc_main$N.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/Y86-64-processer-arch.html.vue");
-  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
 };
-var Y8664ProcesserArch_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$M]]);
+var Y8664ProcesserArch_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$N]]);
 var Y8664ProcesserArch_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": Y8664ProcesserArch_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$L = {};
-function _sfc_ssrRender$L(_ctx, _push, _parent, _attrs) {
+const _sfc_main$M = {};
+function _sfc_ssrRender$M(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="gnu\u5BB6\u65CF\u7B80\u4ECB\u53CAgdb\u6C47\u7F16\u73A9\u6CD5" tabindex="-1"><a class="header-anchor" href="#gnu\u5BB6\u65CF\u7B80\u4ECB\u53CAgdb\u6C47\u7F16\u73A9\u6CD5" aria-hidden="true">#</a> GNU\u5BB6\u65CF\u7B80\u4ECB\u53CAGDB\u6C47\u7F16\u73A9\u6CD5</h1><h2 id="gnu" tabindex="-1"><a class="header-anchor" href="#gnu" aria-hidden="true">#</a> GNU</h2><h3 id="gnu\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#gnu\u662F\u4EC0\u4E48" aria-hidden="true">#</a> GNU\u662F\u4EC0\u4E48\uFF1F</h3><p>GNU\u662F\u4E00\u4E2A<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank" rel="noopener noreferrer">\u81EA\u7531\u8F6F\u4EF6`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -8367,19 +8371,19 @@ function _sfc_ssrRender$L(_ctx, _push, _parent, _attrs) {
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div></li></ul><h4 id="get-start-with-a-program" tabindex="-1"><a class="header-anchor" href="#get-start-with-a-program" aria-hidden="true">#</a> Get start with a program</h4><p>\u5982\u679C\u4F60\u60F3\u76F4\u63A5\u7F16\u8BD1program\u800C\u4E0Ddebug\uFF0C\u4F7F\u7528 <code>gcc example.c \u2013o filename</code></p><p>\u6B64\u65F6\u6211\u5C06filename \u6539\u4E3A examp</p><p>\u5982\u679C\u540E\u7EED\u4F60\u60F3\u8981\u4F7F\u7528gdb \u5BF9 program \u8FDB\u884Cdebug, \u4F7F\u7528 <code>gcc -g example.c \u2013o filename</code></p><p>\u6B64\u65F6\u6211\u5C06filename \u6539\u4E3A example</p><p>\u4F7F\u7528 <code>ls-al</code> \u67E5\u770B\u5F53\u524D\u6587\u4EF6\u5939\u4E0B\u7684\u60C5\u51B5</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/f2d0a56dd78b8.png" alt="image.png" title="image.png"><p>\u53EF\u4EE5\u53D1\u73B0 \u5E26\u6709 -g \u53C2\u6570\u7684 \u751F\u6210\u7684\u53EF\u6267\u884C\u7A0B\u5E8F\u5927\u5C0F \u5927\u4E8E \u4E0D\u5E26 -g \u53C2\u6570\u7684\u3002</p><h4 id="\u67E5\u770B\u6C47\u7F16\u64CD\u4F5C" tabindex="-1"><a class="header-anchor" href="#\u67E5\u770B\u6C47\u7F16\u64CD\u4F5C" aria-hidden="true">#</a> \u67E5\u770B\u6C47\u7F16\u64CD\u4F5C</h4><ol><li><p>\u4F7F\u7528<code>gdb</code>\u8FDB\u5165\u8C03\u8BD5\u9875\u9762,\u4F7F\u7528<code>quit</code>\u9000\u51FA\u3002</p></li><li><p>\u4F7F\u7528 <code>gdb example </code>\u8FDB\u5165\u5BF9 example \u7684\u8C03\u8BD5\u9875\u9762</p></li><li><p>\u8FDB\u5165\u540E \u4F7F\u7528 <code>list</code> \u663E\u793A \u6E90\u4EE3\u7801</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/fa7faacd9415d.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 <code>contral + L</code>\u6E05\u5C4F\u8FDB\u5165\u65B0\u9875\u9762</p></li><li><p>\u4F7F\u7528 disassemble functionName \u6216 disas functionName \u67E5\u770B\u6307\u5B9A\u51FD\u6570\u5BF9\u5E94\u7684\u6C47\u7F16\u4EE3\u7801\uFF1B</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/49a44f64bc2cf.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 disas /m functionName \u67E5\u770B\u4E00\u4E00\u5BF9\u5E94\u7248\u672C</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/2c9b7638f8f33.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 dis /r functionName</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/6bedf838f3cc7.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 layout split</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/42b8dbed6798a.png" alt="image.png" title="image.png"><p>\u4F7F\u7528 focus asm \u548C focus src \u6765\u5207\u6362\u805A\u7126</p></li></ol><h4 id="\u8C03\u8BD5\u64CD\u4F5C" tabindex="-1"><a class="header-anchor" href="#\u8C03\u8BD5\u64CD\u4F5C" aria-hidden="true">#</a> \u8C03\u8BD5\u64CD\u4F5C</h4><ol><li><p>\u4F7F\u7528 start \u5F00\u59CB debug</p><img src="https://pic.hanjiaming.com.cn/2021/04/05/d8e5dc1db54ee.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 next \u67E5\u770B\u4E0B\u4E00\u6BB5</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/606c365e68609.png" alt="image.png" title="image.png"></li><li><p>\u4F7F\u7528 disas main \u53EF\u67E5\u770B\u505C\u5728\u4E86\u54EA\u91CC</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/7bae01a31eec5.png" alt="image.png" title="image.png"></li><li><p>nexti <img src="https://pic.hanjiaming.com.cn/2021/04/06/74cea3fca9bc6.png" alt="image.png" title="image.png"></p></li><li><p>\u4F7F\u7528 info register \u6216 info reg\u67E5\u770B\u5F53\u524D\u5BC4\u5B58\u5668\u4E2D\u7684\u503C <img src="https://pic.hanjiaming.com.cn/2021/04/06/c274117cb4819.png" alt="image.png" title="image.png"></p></li><li><p>\u4F7F\u7528 info all-register \u53EF\u67E5\u770B CPU\u6240\u6709\u5BC4\u5B58\u5668\u7684\u5F53\u524D\u503C</p></li><li><p>\u4F7F\u7528 info b \u53EF\u67E5\u770B \u5F53\u524D\u7A0B\u5E8F\u8BBE\u5B9A\u7684\u65AD\u70B9\u300Cbreakpoint\u300D</p></li><li><p>\u4F7F\u7528 b main \uFF0C\u5728main\u51FD\u6570\u5934\u5904\u6253\u65AD\u70B9\uFF08\u5373\u8BBE\u5B9A\u7B2C\u4E00\u6B21\u505C\u6B62\u7684\u5730\u65B9\uFF0C\u6B64\u540E\u6BCF\u8FD0\u884C\u4E00\u4E2A\u8BED\u53E5\u90FD\u4F1A\u505C\u6B62\u3002\uFF09</p></li><li><p>\u4F7F\u7528 run \u5F00\u59CB debug</p></li><li><p>\u4F7F\u7528print variableName \u67E5\u770B\u76F8\u5E94\u53D8\u91CF\u7684\u5F53\u524D\u7684\u503C</p></li></ol><img src="https://pic.hanjiaming.com.cn/2021/04/06/c274117cb4819.png" alt="image.png" title="image.png"><ol start="11"><li><img src="https://pic.hanjiaming.com.cn/2021/04/06/22573de80ecfc.png" alt="image.png" title="image.png"></li></ol><h2 id="\u5F15\u7528\u6750\u6599" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6750\u6599" aria-hidden="true">#</a> \u5F15\u7528\u6750\u6599</h2><ul><li>www.gnu.org/software/gdb</li><li>http://www.gnu.org/</li><li>COMP1411@PolyU lec6 PowerPoint</li></ul><!--]-->`);
 }
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/gnu-gdb-std.html.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
 };
-var gnuGdbStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$L]]);
+var gnuGdbStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$M]]);
 var gnuGdbStd_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": gnuGdbStd_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$K = {};
-function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
+const _sfc_main$L = {};
+function _sfc_ssrRender$L(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="llvm\u7F16\u8BD1\u5668\u7CFB\u5217\u7B80\u4ECB" tabindex="-1"><a class="header-anchor" href="#llvm\u7F16\u8BD1\u5668\u7CFB\u5217\u7B80\u4ECB" aria-hidden="true">#</a> LLVM\u7F16\u8BD1\u5668\u7CFB\u5217\u7B80\u4ECB</h1><h2 id="llvm" tabindex="-1"><a class="header-anchor" href="#llvm" aria-hidden="true">#</a> LLVM</h2><p>LLVM\u9879\u76EE\u662F\u6A21\u5757\u5316\u548C\u53EF\u91CD\u7528\u7684\u7F16\u8BD1\u5668\u53CA\u5DE5\u5177\u94FE\u6280\u672F\u7684\u96C6\u5408\u3002\u5C3D\u7BA1\u540D\u79F0\u5982\u6B64\uFF0CLLVM\u4E0E\u4F20\u7EDF\u865A\u62DF\u673A\u5173\u7CFB\u4E0D\u5927\u3002\u540D\u79F0\u201C LLVM\u201D\u672C\u8EAB\u4E0D\u662F\u7F29\u5199\u3002\u5B83\u662F\u9879\u76EE\u7684\u5168\u540D\u3002</p><p>LLVM Core\u5E93\u63D0\u4F9B\u4E86\u73B0\u4EE3\u7684\uFF0C\u72EC\u7ACB\u4E8E\u6E90\u548C\u76EE\u6807\u7684\u4F18\u5316\u5668\uFF0C\u5E76\u4E3A\u8BB8\u591A\u6D41\u884C\u7684CP Us\uFF08\u4EE5\u53CA\u4E00\u4E9B\u4E0D\u5E38\u89C1\u7684CP Us\uFF09\u63D0\u4F9B\u4E86\u4EE3\u7801\u751F\u6210\u652F\u6301\u3002\u8FD9\u4E9B\u5E93\u662F\u56F4\u7ED5\u4E00\u79CD\u79F0\u4E3ALLVM\u4E2D\u95F4\u4EF6\u7684\u660E\u786E\u6307\u5B9A\u7684\u4EE3\u7801\u8868\u793A\u6784\u5EFA\u7684\u8868\u793A\u5F62\u5F0F\uFF08\u201C LLVM IR\u201D\uFF09\u3002 LLVM\u6838\u5FC3\u5E93\u6709\u5145\u5206\u7684\u6587\u6863\u8BB0\u5F55\uFF0C\u7279\u522B\u5BB9\u6613\u53D1\u660E\u81EA\u5DF1\u7684\u8BED\u8A00\uFF08\u6216\u79FB\u690D\u73B0\u6709\u7684\u7F16\u8BD1\u5668\uFF09\u4EE5\u5C06LLVM\u7528\u4F5C\u4F18\u5316\u5668\u548C\u4EE3\u7801\u751F\u6210\u5668\u3002</p><p>Clang\u662F\u201C LLVM\u672C\u673A\u201D C / C ++ / Objective-C\u7F16\u8BD1\u5668\uFF0C\u65E8\u5728\u63D0\u4F9B\u60CA\u4EBA\u7684\u5FEB\u901F\u7F16\u8BD1\uFF0C\u6781\u5176\u6709\u7528\u7684\u9519\u8BEF\u548C\u8B66\u544A\u6D88\u606F\uFF0C\u5E76\u4E3A\u6784\u5EFA\u51FA\u8272\u7684\u6E90\u4EE3\u7801\u7EA7\u5DE5\u5177\u63D0\u4F9B\u5E73\u53F0\u3002 Clang\u9759\u6001\u5206\u6790\u5668 \u548C clang -tidy\u662F\u53EF\u81EA\u52A8\u5728\u4EE3\u7801\u4E2D\u67E5\u627E\u9519\u8BEF\u7684\u5DE5\u5177\uFF0C\u5E76\u4E14\u662F\u53EF\u4EE5\u4F7F\u7528Clang\u524D\u7AEF\u4F5C\u4E3A\u5E93\u6765\u89E3\u6790C / C ++\u4EE3\u7801\u7684\u5DE5\u5177\u7684\u5F88\u597D\u7684\u793A\u4F8B\u3002</p><h2 id="clang" tabindex="-1"><a class="header-anchor" href="#clang" aria-hidden="true">#</a> Clang</h2><p>clang \u662F LLVM\u7684C\u8BED\u8A00\u5BB6\u65CF\u524D\u7AEF</p><p>Clang\u9879\u76EE\u4E3A<a href="https://www.llvm.org/" target="_blank" rel="noopener noreferrer">LLVM`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -8395,46 +8399,64 @@ function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></strong>\uFF1A</p><ul><li>\u771F\u5B9E\u7684\uFF0C\u751F\u4EA7\u8D28\u91CF\u7684\u7F16\u8BD1\u5668</li><li>\u4E00\u4E2A\u7B80\u5355\u6613\u5B66\u7684\u4EE3\u7801\u5E93</li><li>\u9002\u7528\u4E8EC\uFF0CObjective C\uFF0CC ++\u548CObjective C ++\u7684\u5355\u4E2A\u7EDF\u4E00\u89E3\u6790\u5668</li><li>\u7B26\u5408C / C ++ / ObjC\u53CA\u5176\u53D8\u4F53</li></ul><h3 id="\u4E3A\u4EC0\u4E48\u9009clang" tabindex="-1"><a class="header-anchor" href="#\u4E3A\u4EC0\u4E48\u9009clang" aria-hidden="true">#</a> \u4E3A\u4EC0\u4E48\u9009Clang</h3><p>\u65B0\u524D\u7AEF\u7684\u5F00\u53D1\u662F\u4ECE\u5BF9\u7F16\u8BD1\u5668\u7684\u9700\u6C42\u5F00\u59CB\u7684\uFF0C\u8BE5\u7F16\u8BD1\u5668\u9700\u8981\u66F4\u597D\u7684\u8BCA\u65AD\uFF0C\u4E0EIDE\u7684\u66F4\u597D\u96C6\u6210\uFF0C\u4E0E\u5546\u4E1A\u4EA7\u54C1\u517C\u5BB9\u7684\u8BB8\u53EF\u8BC1\u4EE5\u53CA\u6613\u4E8E\u5F00\u53D1\u548C\u7EF4\u62A4\u7684\u7075\u6D3B\u7F16\u8BD1\u5668\u3002\u6240\u6709\u8FD9\u4E9B\u90FD\u662F\u5728\u53EF\u4EE5\u6EE1\u8DB3\u8FD9\u4E9B\u9700\u6C42\u7684\u65B0\u524D\u7AEF\u4E0A\u5F00\u5C55\u5DE5\u4F5C\u7684\u52A8\u673A\u3002</p><h2 id="lldb" tabindex="-1"><a class="header-anchor" href="#lldb" aria-hidden="true">#</a> LLDB</h2><p>LLDB\u662F\u4E0B\u4E00\u4EE3\u9AD8\u6027\u80FD\u8C03\u8BD5\u5668\u3002\u5B83\u662F\u4F5C\u4E3A\u4E00\u7EC4\u53EF\u91CD\u7528\u7684\u7EC4\u4EF6\u6784\u5EFA\u7684\uFF0C\u8FD9\u4E9B\u7EC4\u4EF6\u9AD8\u5EA6\u5229\u7528\u4E86\u8F83\u5927\u7684LLVM Project\u4E2D\u7684\u73B0\u6709\u5E93\uFF0C\u4F8B\u5982Clang\u8868\u8FBE\u5F0F\u89E3\u6790\u5668\u548CLLVM\u53CD\u6C47\u7F16\u7A0B\u5E8F\u3002</p><p>LLDB\u662FmacOS\u4E0AXcode\u4E2D\u7684\u9ED8\u8BA4\u8C03\u8BD5\u5668\uFF0C\u5E76\u652F\u6301\u5728\u53F0\u5F0F\u673A\uFF0CiOS\u8BBE\u5907\u548C\u6A21\u62DF\u5668\u4E0A\u8C03\u8BD5C\uFF0CObjective-C\u548CC ++\u3002</p><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>https://clang.llvm.org/</li><li>https://llvm.org/</li></ul><!--]-->`);
 }
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/llvm-std.html.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
 };
-var llvmStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$K]]);
+var llvmStd_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$L]]);
 var llvmStd_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": llvmStd_html$1
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$J = {};
-function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
+const _sfc_main$K = {};
+function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78401" tabindex="-1"><a class="header-anchor" href="#x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78401" aria-hidden="true">#</a> x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78401</h1><h2 id="why-learning-machine-code" tabindex="-1"><a class="header-anchor" href="#why-learning-machine-code" aria-hidden="true">#</a> Why learning machine code?</h2><ul><li>Many years ago, people write programs with machine code</li><li>Nowadays, people write programs with high-level languages mainly for productivity and portability reasons</li><li>To write a program that runs is easy</li><li>To write a program that <strong>runs well (reliable and efficient),</strong> you need to understand how the machine execute programs</li></ul><h2 id="\u76F8\u5173\u5B9A\u4E49" tabindex="-1"><a class="header-anchor" href="#\u76F8\u5173\u5B9A\u4E49" aria-hidden="true">#</a> \u76F8\u5173\u5B9A\u4E49</h2><ul><li><p>Architecture (instruction set architecture - ISA)\u300C\u4F53\u7CFB\u7ED3\u6784\uFF08\u6307\u4EE4\u96C6\u4F53\u7CFB\u7ED3\u6784-ISA\uFF09\u300D: The parts of a processor design that one needs to understand to write assembly code</p></li><li><ul><li>Examples: instruction set specification, registers\u300C\u6307\u4EE4\u96C6\u89C4\u8303\uFF0C\u5BC4\u5B58\u5668\u300D</li><li>We will mainly focus on the x86-64 architecture there</li></ul></li><li><p>Microarchitecture\u300C\u5FAE\u4F53\u7CFB\u7ED3\u6784\u300D: Implementation of the architecture</p></li><li><ul><li>Examples: cache sizes and core frequency\u300C\u4F53\u7CFB\u7ED3\u6784\u7684\u5B9E\u73B0\u300D</li></ul></li><li><p>Code Forms</p></li><li><ul><li>Machine Code\u300C\u673A\u5668\u7801\u300D: The byte-level programs that a processor executes\u300C\u5904\u7406\u5668\u6267\u884C\u7684\u5B57\u8282\u7EA7\u7A0B\u5E8F\u300D</li><li>Assembly Code\u300C\u6C47\u7F16\u8BED\u8A00\u300D: A text representation of machine code\u300C\u673A\u5668\u4EE3\u7801\u7684\u6587\u672C\u8868\u793A\u300D</li></ul></li></ul><h2 id="from-high-level-language-to-assembly" tabindex="-1"><a class="header-anchor" href="#from-high-level-language-to-assembly" aria-hidden="true">#</a> From high-level language to assembly</h2><img src="https://pic.hanjiaming.com.cn/2021/03/25/04cf656a84795.png" alt="CleanShot 2021-03-25 at 12.58.57@2x.png" title="CleanShot 2021-03-25 at 12.58.57@2x.png"><h2 id="assembly-programmer-s-view" tabindex="-1"><a class="header-anchor" href="#assembly-programmer-s-view" aria-hidden="true">#</a> Assembly programmer\u2019s view</h2><h3 id="programmer-visible-state" tabindex="-1"><a class="header-anchor" href="#programmer-visible-state" aria-hidden="true">#</a> Programmer-Visible State</h3><ul><li>PC: Program counter <ul><li><p>Address of next instruction</p><ul><li>Called \u201CEIP\u201D (IA32) or \u201CRIP\u201D (x86-64)</li></ul></li><li><p>Register file</p><ul><li>Memory inside the CPU</li><li>Used for instruction execution\u300C\u7528\u4E8E\u6307\u4EE4\u6267\u884C\u300D</li></ul></li><li><p>Condition codes</p><ul><li>Store status information about most recent arithmetic operation\u300C\u5B58\u50A8\u6709\u5173\u6700\u65B0\u7B97\u672F\u8FD0\u7B97\u7684\u72B6\u6001\u4FE1\u606F\u300D</li><li>Used for conditional branching\u300CUsed for conditional branching\u300D</li></ul></li></ul></li></ul><h3 id="memory" tabindex="-1"><a class="header-anchor" href="#memory" aria-hidden="true">#</a> Memory</h3><ul><li>Byte addressable array</li><li>Code, user data, (some) OS data</li><li>Includes stack used to support procedures</li></ul><h2 id="machine-instruction-example" tabindex="-1"><a class="header-anchor" href="#machine-instruction-example" aria-hidden="true">#</a> Machine instruction example</h2><img src="https://pic.hanjiaming.com.cn/2021/03/25/214984684622a.png" alt="image.png" title="image.png"><h2 id="data-types" tabindex="-1"><a class="header-anchor" href="#data-types" aria-hidden="true">#</a> Data types</h2><h3 id="word-in-x86-64-isa" tabindex="-1"><a class="header-anchor" href="#word-in-x86-64-isa" aria-hidden="true">#</a> \u201Cword\u201D in x86-64 ISA</h3><ul><li><p>Word: 16 bits, 2 bytes</p></li><li><p>Double words: 32 bits, 4 bytes</p></li><li><p>Quad words: 64 bits, 8 bytes</p><table><thead><tr><th><strong>C declaration</strong></th><th><strong>Intel data type</strong></th><th><strong>Assembly code</strong> <strong>suffix</strong></th><th><strong>Size (bytes)</strong></th></tr></thead><tbody><tr><td>char</td><td>Byte</td><td>b</td><td>1</td></tr><tr><td>short</td><td>Word</td><td>w</td><td>2</td></tr><tr><td>int</td><td>Double word</td><td>l</td><td>4</td></tr><tr><td>long</td><td>Quad word</td><td>q</td><td>8</td></tr><tr><td>char *</td><td>Quad word</td><td>q</td><td>8</td></tr><tr><td>float</td><td>Single precision</td><td>s</td><td>4</td></tr><tr><td>double</td><td>Double precision</td><td>l</td><td>8</td></tr></tbody></table></li></ul><p>\u6CE8\u660E\uFF1A\u5728\u4E0D\u540C\u7684ISA\u67B6\u6784\u4E2D\uFF0Cword\u7684\u957F\u5EA6\u4E0D\u540C</p><h3 id="word-in-mips-x64-isa" tabindex="-1"><a class="header-anchor" href="#word-in-mips-x64-isa" aria-hidden="true">#</a> \u201Cword\u201D in MiPS-x64 ISA</h3><ul><li>Word: 32 bits, 4 bytes</li><li>Double words: 64 bits, 8 bytes</li></ul><h2 id="x86-64-registers" tabindex="-1"><a class="header-anchor" href="#x86-64-registers" aria-hidden="true">#</a> X86-64 registers</h2><h3 id="\u5BC4\u5B58\u5668\u56FE\u793A" tabindex="-1"><a class="header-anchor" href="#\u5BC4\u5B58\u5668\u56FE\u793A" aria-hidden="true">#</a> \u5BC4\u5B58\u5668\u56FE\u793A</h3><img src="https://pic.hanjiaming.com.cn/2021/03/25/1872bf430d78c.png" alt="CleanShot 2021-03-25 at 13.09.25@2x.png" title="CleanShot 2021-03-25 at 13.09.25@2x.png"><img src="https://pic.hanjiaming.com.cn/2021/03/25/8ed7a273e1d82.png" alt="CleanShot 2021-03-25 at 13.10.15@2x.png" title="CleanShot 2021-03-25 at 13.10.15@2x.png"><h3 id="\u5BC4\u5B58\u5668\u7684\u517C\u5BB9\u5B9E\u73B0" tabindex="-1"><a class="header-anchor" href="#\u5BC4\u5B58\u5668\u7684\u517C\u5BB9\u5B9E\u73B0" aria-hidden="true">#</a> \u5BC4\u5B58\u5668\u7684\u517C\u5BB9\u5B9E\u73B0</h3><p>64\u4F4D\u7CFB\u7EDF\u5411\u4E0B\u517C\u5BB9\u7684\u539F\u56E0</p><img src="https://pic.hanjiaming.com.cn/2021/03/25/a466ad1044f57.png" alt="image.png" title="image.png"><h2 id="instruction" tabindex="-1"><a class="header-anchor" href="#instruction" aria-hidden="true">#</a> Instruction</h2><h3 id="moving-data" tabindex="-1"><a class="header-anchor" href="#moving-data" aria-hidden="true">#</a> Moving data</h3><h4 id="movq-source-dest" tabindex="-1"><a class="header-anchor" href="#movq-source-dest" aria-hidden="true">#</a> movq,Source, Dest</h4><ul><li>Source values can be constants, from registers or from memory\u300C\u6E90\u503C\u53EF\u4EE5\u662F\u5E38\u91CF\uFF0C\u53EF\u4EE5\u662F\u5BC4\u5B58\u5668\u4E2D\u7684\u503C\uFF0C\u4E5F\u53EF\u4EE5\u662F\u5B58\u50A8\u5668\u4E2D\u7684\u503C\u300D</li><li>Results can be stored in either registers or memory\u300C\u7ED3\u679C\u53EF\u4EE5\u5B58\u50A8\u5728\u5BC4\u5B58\u5668\u6216\u5B58\u50A8\u5668\u4E2D\u300C\u7ED3\u679C\u53EF\u4EE5\u5B58\u50A8\u5728\u5BC4\u5B58\u5668\u6216\u5B58\u50A8\u5668\u4E2D\u300D</li><li>Moving different data sizes: movq, movl, movw, movb\uFF08\u4F9D\u7167\u6765\u6E90\u548C\u76EE\u7684\u5730\u7684\u6700\u5927\u957F\u5EA6\uFF0C\u4F7F\u7528\u76F8\u5E94\u7684\u6307\u4EE4\u300D</li></ul><h4 id="operand-types" tabindex="-1"><a class="header-anchor" href="#operand-types" aria-hidden="true">#</a> Operand Types</h4><p>Operand Types (basically, where data are stored)</p><ul><li><p><strong>Immediate</strong>: Constant integer data</p><ul><li>Example: $ 0x400\uFF0C$-533</li><li>Like C constant, prefixed with <code>$</code> in the assembly code \u50CFC\u5E38\u91CF\u4E00\u6837\uFF0C\u5728\u6C47\u7F16\u4EE3\u7801\u4E2D\u4EE5$\u5F00\u5934</li></ul></li><li><p><strong>Register</strong>: One of 16 integer registers</p><ul><li><p>Example: %rax, %r13</p></li><li><p>But %rsp reserved for special use</p><ul><li>Others have special uses for particular instructions</li></ul></li><li><p><strong>Memory</strong>: 8 consecutive bytes of memory at address given by register</p></li><li><p>Simplest example: (%rax) - Various other \u201Caddress modes\u201D - \u5B9E\u73B0\u539F\u7406\uFF1A\u6307\u9488</p></li></ul></li></ul><img src="https://pic.hanjiaming.com.cn/2021/03/25/6cd4e45feb41e.png" alt="image.png" title="image.png"><p><strong>Cannot do memory-memory transfer with a single instruction!</strong></p><h3 id="some-arithmetic-operations" tabindex="-1"><a class="header-anchor" href="#some-arithmetic-operations" aria-hidden="true">#</a> Some arithmetic operations</h3><p>Two Operand Instructions</p><p>Format Computation addq Src,Dest Dest = Dest + Src subq Src,Dest Dest = Dest \u2212 Src imulq Src,Dest Dest = Dest * Src salq Src,Dest Dest = Dest &lt;&lt; Src <strong>Also called shlq</strong> sarq Src,Dest Dest = Dest &gt;&gt; Src <strong>Arithmetic</strong> shrq Src,Dest Dest = Dest &gt;&gt; Src <strong>Logical</strong> xorq Src,Dest Dest = Dest ^ Src andq Src,Dest Dest = Dest &amp; Src orq Src,Dest Dest = Dest | Src</p><p>Watch out for argument order! No distinction between signed and unsigned int</p><img src="https://pic.hanjiaming.com.cn/2021/03/25/0e5da5ac90015.png" alt="image.png" title="image.png"><h3 id="leaq" tabindex="-1"><a class="header-anchor" href="#leaq" aria-hidden="true">#</a> Leaq</h3><img src="https://pic.hanjiaming.com.cn/2021/03/25/1f7cc711cdb16.png" alt="image.png" title="image.png"><h2 id="memory-addressing" tabindex="-1"><a class="header-anchor" href="#memory-addressing" aria-hidden="true">#</a> Memory addressing</h2><h3 id="simple-modes" tabindex="-1"><a class="header-anchor" href="#simple-modes" aria-hidden="true">#</a> simple modes</h3><img src="https://pic.hanjiaming.com.cn/2021/03/25/66402b3e17e2f.png" alt="image.png" title="image.png"><h4 id="complete-memory-addressing-modes" tabindex="-1"><a class="header-anchor" href="#complete-memory-addressing-modes" aria-hidden="true">#</a> Complete memory addressing modes</h4><img src="https://pic.hanjiaming.com.cn/2021/03/25/f56035d621009.png" alt="CleanShot 2021-03-25 at 15.16.52@2x.png" title="CleanShot 2021-03-25 at 15.16.52@2x.png"><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP1411@Polyu PowerPoint</li></ul><!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/x86_64-asm-std1.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
 };
-var x86_64AsmStd1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$J]]);
+var x86_64AsmStd1_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$K]]);
 var x86_64AsmStd1_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": x86_64AsmStd1_html$1
 }, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$J = {};
+function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402" tabindex="-1"><a class="header-anchor" href="#x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402" aria-hidden="true">#</a> x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402</h1><h2 id="processor-states-x86-64-partial" tabindex="-1"><a class="header-anchor" href="#processor-states-x86-64-partial" aria-hidden="true">#</a> Processor states (x86-64, partial)</h2><p>Information about currently executing program\u300C\u6709\u5173\u5F53\u524D\u6267\u884C\u7A0B\u5E8F\u7684\u4FE1\u606F\u300D</p><ul><li>Temporary data\uFF1A( %rax, \u2026 )</li><li>Location of runtime stack\uFF1A( %rsp )</li><li>Location of current code control point\u300CLocation of current code control point\u300D\uFF1A( %rip, \u2026 )</li><li>Status of recent tests\u300CStatus of recent tests\u300D\uFF1A( CF, ZF, SF, OF )</li></ul><p>\u8FD9\u4E9B\u4FE1\u606F\u653E\u5728\u5BC4\u5B58\u5668\u5185</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/fb773836663b0.png" alt="image.png" title="image.png"><h2 id="condition-codes" tabindex="-1"><a class="header-anchor" href="#condition-codes" aria-hidden="true">#</a> Condition codes</h2><h3 id="single-bit-registers" tabindex="-1"><a class="header-anchor" href="#single-bit-registers" aria-hidden="true">#</a> Single bit registers</h3><p>\u6761\u4EF6\u7801\u957F 1bit\uFF0C\u7F6E\u653E\u5728\u4E09\u4E2A\u5BC4\u5B58\u5668\u4E2D\u3002</p><ul><li>CF Carry Flag (for unsigned)</li><li>SF Sign Flag (for signed)</li><li>ZF Zero Flag</li><li>OF Overflow Flag (for signed)</li></ul><h3 id="implicitly-set-as-side-effect-by-arithmetic-operations" tabindex="-1"><a class="header-anchor" href="#implicitly-set-as-side-effect-by-arithmetic-operations" aria-hidden="true">#</a> Implicitly set (as side effect) by arithmetic operations</h3><p>\u300C\u901A\u8FC7\u7B97\u672F\u8FD0\u7B97\u9690\u5F0F\u8BBE\u7F6E\uFF08\u4F5C\u4E3A\u526F\u4F5C\u7528\uFF09\u300D</p><p>Example: addq Src,Dest \u2194 t = a+b</p><ul><li>CF set if carry out from most significant bit (unsigned overflow)</li><li>ZF set if t == 0</li><li>SF set if t &lt; 0 (as signed)</li><li>OF set if two\u2019s-complement (signed) overflow <ul><li>a&gt;0 &amp;&amp; b&gt;0 &amp;&amp; t&lt;0) || (a&lt;0 &amp;&amp; b&lt;0 &amp;&amp; t&gt;=0)</li></ul></li></ul><p>Note: leaq does not alter any condition codes</p><p>\u6CE8\uFF1A\u50CFadd\u3001sub\u3001xor\u8FD9\u6837\u7684\u7B97\u6570\u6307\u4EE4\u6216\u8005\u4E8C\u8FDB\u5236\u8BA1\u7B97\u6307\u4EE4\u90FD\u4F1A\u901A\u8FC7\u9690\u5F0F\u8BBE\u7F6E\u6539\u53D8condition code</p><h3 id="explicit-setting-by-compare-instruction" tabindex="-1"><a class="header-anchor" href="#explicit-setting-by-compare-instruction" aria-hidden="true">#</a> Explicit Setting by Compare Instruction</h3><p>cmpl/cmpq Src, Dest</p><p>cmpl b,a like computing a-b without setting destination, but no actual subtraction is really conducted, i.e., the value of dest is not changed</p><ul><li>CF set if carry out from most significant bit (unsigned overflow)</li><li>ZF set if t == 0</li><li>SF set if t &lt; 0 (as signed)</li><li>OF set if two\u2019s-complement (signed) overflow <ul><li>a&gt;0 &amp;&amp; b&gt;0 &amp;&amp; t&lt;0) || (a&lt;0 &amp;&amp; b&lt;0 &amp;&amp; t&gt;=0)</li></ul></li></ul><h3 id="explicit-setting-by-test-instruction" tabindex="-1"><a class="header-anchor" href="#explicit-setting-by-test-instruction" aria-hidden="true">#</a> Explicit Setting by Test instruction</h3><p>testl/testq Src, Dest</p><p>testl b,a like computing a&amp;b without setting Dest with the computing result</p><ul><li><p>Sets condition codes based on value of Src &amp; Dest</p></li><li><p>Useful to have one of the operands be a mask\u300C\u63A9\u7801\u300D</p></li><li><p>ZF set when a&amp;b == 0</p></li><li><p>SF set when a&amp;b &lt; 0</p></li></ul><h3 id="reading-condition-codes" tabindex="-1"><a class="header-anchor" href="#reading-condition-codes" aria-hidden="true">#</a> Reading condition codes</h3><h4 id="setx-instructions" tabindex="-1"><a class="header-anchor" href="#setx-instructions" aria-hidden="true">#</a> SetX Instructions</h4><p>Set single byte based on combinations of condition codes</p><table><thead><tr><th>SetX</th><th>Condition</th><th>Description</th></tr></thead><tbody><tr><td>sete</td><td>ZF</td><td>Equal / Zero</td></tr><tr><td>setne</td><td>~ZF</td><td>Not Equal / Not Zero</td></tr><tr><td>sets</td><td>SF</td><td>Negative</td></tr><tr><td>setns</td><td>~SF</td><td>Nonnegative</td></tr><tr><td>setg</td><td><sub>(SF^OF)&amp;</sub>ZF</td><td>Greater (Signed)</td></tr><tr><td>setge</td><td>~(SF^OF)</td><td>Greater or Equal (Signed)</td></tr><tr><td>setl</td><td>(SF^OF)</td><td>Less (Signed)</td></tr><tr><td>setle</td><td>(SF^OF)|ZF</td><td>Less or Equal (Signed)</td></tr><tr><td>seta</td><td><sub>CF&amp;</sub>ZF</td><td>Above (unsigned)</td></tr><tr><td>setb</td><td>CF</td><td>Below (unsigned)</td></tr></tbody></table><p>\u6279\u6CE8\uFF1A\u4E00\u822C\u4E3A setX reg;\u5982\u679Ccondition\u6210\u7ACB\uFF0Creg\u5C06\u53D8\u62101\uFF0C\u53CD\u4E4B\u5219\u4E3A0\uFF1B</p><p>SetX Instructions: Set single byte to (0 or 1) based on combination of condition codes\u300C\u6839\u636E\u6761\u4EF6\u4EE3\u7801\u7684\u7EC4\u5408\u5C06\u5355\u5B57\u8282\u8BBE\u7F6E\u4E3A\uFF080\u62161\uFF09\u300D</p><p>addressable byte registers or memory\u300C\u53EF\u5BFB\u5740\u5B57\u8282\u5BC4\u5B58\u5668\u6216\u5B58\u50A8\u5668\u300D</p><ul><li>Does not alter remaining 3 bytes</li><li>Typically use movzbl to finish job</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/e6653cab0b018.png" alt="image.png" title="image.png"><h2 id="conditional-branches" tabindex="-1"><a class="header-anchor" href="#conditional-branches" aria-hidden="true">#</a> Conditional branches</h2><h3 id="jump-instructions" tabindex="-1"><a class="header-anchor" href="#jump-instructions" aria-hidden="true">#</a> Jump instructions</h3><p>Jump instructions \u2013 change the control flow</p><h4 id="jx-instructions" tabindex="-1"><a class="header-anchor" href="#jx-instructions" aria-hidden="true">#</a> jX instructions</h4><ul><li>Change the instruction sequence by jumping to a target address either specified by absolution address or by a value in some register or memory</li><li>Unconditional (jmp) and conditional (jX other than jmp)</li></ul><table><thead><tr><th>jX</th><th>Condition</th><th>Description</th><th>cmp a, b</th></tr></thead><tbody><tr><td>jmp</td><td>1</td><td>Unconditional</td><td>---</td></tr><tr><td>je</td><td>ZF</td><td>Equal / Zero</td><td>b == a</td></tr><tr><td>jne</td><td>~ZF</td><td>Not Equal / Not Zero</td><td>b != a</td></tr><tr><td>js</td><td>SF</td><td>Negative</td><td>b &lt; a</td></tr><tr><td>jns</td><td>~SF</td><td>Nonnegative</td><td>b &gt;= a</td></tr><tr><td>jg</td><td><sub>(SF^OF)&amp;</sub>ZF</td><td>Greater (Signed)</td><td>b &gt; a</td></tr><tr><td>jge</td><td>~(SF^OF)</td><td>Greater or Equal (Signed)</td><td>b &gt;= a</td></tr><tr><td>jl</td><td>(SF^OF)</td><td>Less (Signed)</td><td>b &lt; a</td></tr><tr><td>jle</td><td>(SF^OF)|ZF</td><td>Less or Equal (Signed)</td><td>b &lt;= a</td></tr><tr><td>ja</td><td><sub>CF&amp;</sub>ZF</td><td>Above (unsigned)</td><td>b &gt; a</td></tr><tr><td>jb</td><td>CF</td><td>Below (unsigned)</td><td>b &lt; a</td></tr></tbody></table><p>\u6CE8\uFF1A\u5373condition\u6210\u7ACB\u7684\u65F6\u5019\uFF0C\u5C06\u4F1A\u6267\u884C\u8DF3\u8F6C\uFF0C\u5426\u5219\u5C06\u4E0D\u6267\u884C\u3002</p><h4 id="implementing" tabindex="-1"><a class="header-anchor" href="#implementing" aria-hidden="true">#</a> Implementing</h4><p>Implementing conditional branches with jX</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/7c97bcd7db07b.png" alt="image.png" title="image.png"><h4 id="goto" tabindex="-1"><a class="header-anchor" href="#goto" aria-hidden="true">#</a> goto</h4><ul><li>We use the C goto statement to illustrate the control flow of jump in a more readable way</li><li>Try to avoid using goto when you are doing C programming</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/188662bcd7dcc.png" alt="image.png" title="image.png"><h5 id="general-form-of-expressing-if-then-else" tabindex="-1"><a class="header-anchor" href="#general-form-of-expressing-if-then-else" aria-hidden="true">#</a> General form of expressing if-then-else</h5><img src="https://pic.hanjiaming.com.cn/2021/04/06/0ed20c682dfba.png" alt="image.png" title="image.png" width="240px"><h2 id="conditional-moves" tabindex="-1"><a class="header-anchor" href="#conditional-moves" aria-hidden="true">#</a> Conditional moves</h2><img src="https://pic.hanjiaming.com.cn/2021/04/06/eb331ce2afde3.png" alt="image.png" title="image.png"><p>Why using conditional moves?</p><p>Modern processors use pipelines to execute a sequence of instructions\u300C\u73B0\u4EE3\u5904\u7406\u5668\u4F7F\u7528\u6D41\u6C34\u7EBF\u6267\u884C\u4E00\u7CFB\u5217\u6307\u4EE4\u300D</p><p>Branching operation may cause the pipeline to stall\u300CBranching operation \u53EF\u80FD\u4F1A\u5BFC\u81F4\u7BA1\u9053\u505C\u987F\u300D</p><p>As a result, executing both branches will be faster then \u201Ctest and jump\u201D</p><h3 id="conditional-branches-by-conditional-moves" tabindex="-1"><a class="header-anchor" href="#conditional-branches-by-conditional-moves" aria-hidden="true">#</a> Conditional branches by conditional moves</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/8687f4ff69e98.png" alt="image.png" title="image.png"><h2 id="implementation-of-some-statements" tabindex="-1"><a class="header-anchor" href="#implementation-of-some-statements" aria-hidden="true">#</a> Implementation of some statements</h2><h3 id="do-while-loop" tabindex="-1"><a class="header-anchor" href="#do-while-loop" aria-hidden="true">#</a> do-while loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/39f7c5eeb5632.png" alt="image.png" title="image.png"><h3 id="while-loop" tabindex="-1"><a class="header-anchor" href="#while-loop" aria-hidden="true">#</a> while loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/9d7a8d8c1e5e5.png" alt="image.png" title="image.png"><h3 id="for-loop" tabindex="-1"><a class="header-anchor" href="#for-loop" aria-hidden="true">#</a> for loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/f8e82c5b5bd6d.png" alt="image.png" title="image.png"><h3 id="switch-statement" tabindex="-1"><a class="header-anchor" href="#switch-statement" aria-hidden="true">#</a> switch statement</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/8ce3ba0b8a808.png" alt="image.png" title="image.png"><p>*8 \u7684\u539F\u56E0\u662F \u6807\u7B7E \u662F 64bit \u957F \u7684\u5730\u5740\uFF0C\u800C\u4E14\u6807\u7B7E\u662F\u76F8\u90BB\u7684\u3002</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/0314eac9cd251.png" alt="image.png" title="image.png"><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP1411@Polyu PowerPoint</li></ul><!--]-->`);
+}
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/x86_64-asm-std2.html.vue");
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+};
+var x86_64AsmStd2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$J]]);
+var x86_64AsmStd2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": x86_64AsmStd2_html$1
+}, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$I = {};
 function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402" tabindex="-1"><a class="header-anchor" href="#x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402" aria-hidden="true">#</a> x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402</h1><h2 id="processor-states-x86-64-partial" tabindex="-1"><a class="header-anchor" href="#processor-states-x86-64-partial" aria-hidden="true">#</a> Processor states (x86-64, partial)</h2><p>Information about currently executing program\u300C\u6709\u5173\u5F53\u524D\u6267\u884C\u7A0B\u5E8F\u7684\u4FE1\u606F\u300D</p><ul><li>Temporary data\uFF1A( %rax, \u2026 )</li><li>Location of runtime stack\uFF1A( %rsp )</li><li>Location of current code control point\u300CLocation of current code control point\u300D\uFF1A( %rip, \u2026 )</li><li>Status of recent tests\u300CStatus of recent tests\u300D\uFF1A( CF, ZF, SF, OF )</li></ul><p>\u8FD9\u4E9B\u4FE1\u606F\u653E\u5728\u5BC4\u5B58\u5668\u5185</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/fb773836663b0.png" alt="image.png" title="image.png"><h2 id="condition-codes" tabindex="-1"><a class="header-anchor" href="#condition-codes" aria-hidden="true">#</a> Condition codes</h2><h3 id="single-bit-registers" tabindex="-1"><a class="header-anchor" href="#single-bit-registers" aria-hidden="true">#</a> Single bit registers</h3><p>\u6761\u4EF6\u7801\u957F 1bit\uFF0C\u7F6E\u653E\u5728\u4E09\u4E2A\u5BC4\u5B58\u5668\u4E2D\u3002</p><ul><li>CF Carry Flag (for unsigned)</li><li>SF Sign Flag (for signed)</li><li>ZF Zero Flag</li><li>OF Overflow Flag (for signed)</li></ul><h3 id="implicitly-set-as-side-effect-by-arithmetic-operations" tabindex="-1"><a class="header-anchor" href="#implicitly-set-as-side-effect-by-arithmetic-operations" aria-hidden="true">#</a> Implicitly set (as side effect) by arithmetic operations</h3><p>\u300C\u901A\u8FC7\u7B97\u672F\u8FD0\u7B97\u9690\u5F0F\u8BBE\u7F6E\uFF08\u4F5C\u4E3A\u526F\u4F5C\u7528\uFF09\u300D</p><p>Example: addq Src,Dest \u2194 t = a+b</p><ul><li>CF set if carry out from most significant bit (unsigned overflow)</li><li>ZF set if t == 0</li><li>SF set if t &lt; 0 (as signed)</li><li>OF set if two\u2019s-complement (signed) overflow <ul><li>a&gt;0 &amp;&amp; b&gt;0 &amp;&amp; t&lt;0) || (a&lt;0 &amp;&amp; b&lt;0 &amp;&amp; t&gt;=0)</li></ul></li></ul><p>Note: leaq does not alter any condition codes</p><p>\u6CE8\uFF1A\u50CFadd\u3001sub\u3001xor\u8FD9\u6837\u7684\u7B97\u6570\u6307\u4EE4\u6216\u8005\u4E8C\u8FDB\u5236\u8BA1\u7B97\u6307\u4EE4\u90FD\u4F1A\u901A\u8FC7\u9690\u5F0F\u8BBE\u7F6E\u6539\u53D8condition code</p><h3 id="explicit-setting-by-compare-instruction" tabindex="-1"><a class="header-anchor" href="#explicit-setting-by-compare-instruction" aria-hidden="true">#</a> Explicit Setting by Compare Instruction</h3><p>cmpl/cmpq Src, Dest</p><p>cmpl b,a like computing a-b without setting destination, but no actual subtraction is really conducted, i.e., the value of dest is not changed</p><ul><li>CF set if carry out from most significant bit (unsigned overflow)</li><li>ZF set if t == 0</li><li>SF set if t &lt; 0 (as signed)</li><li>OF set if two\u2019s-complement (signed) overflow <ul><li>a&gt;0 &amp;&amp; b&gt;0 &amp;&amp; t&lt;0) || (a&lt;0 &amp;&amp; b&lt;0 &amp;&amp; t&gt;=0)</li></ul></li></ul><h3 id="explicit-setting-by-test-instruction" tabindex="-1"><a class="header-anchor" href="#explicit-setting-by-test-instruction" aria-hidden="true">#</a> Explicit Setting by Test instruction</h3><p>testl/testq Src, Dest</p><p>testl b,a like computing a&amp;b without setting Dest with the computing result</p><ul><li><p>Sets condition codes based on value of Src &amp; Dest</p></li><li><p>Useful to have one of the operands be a mask\u300C\u63A9\u7801\u300D</p></li><li><p>ZF set when a&amp;b == 0</p></li><li><p>SF set when a&amp;b &lt; 0</p></li></ul><h3 id="reading-condition-codes" tabindex="-1"><a class="header-anchor" href="#reading-condition-codes" aria-hidden="true">#</a> Reading condition codes</h3><h4 id="setx-instructions" tabindex="-1"><a class="header-anchor" href="#setx-instructions" aria-hidden="true">#</a> SetX Instructions</h4><p>Set single byte based on combinations of condition codes</p><table><thead><tr><th>SetX</th><th>Condition</th><th>Description</th></tr></thead><tbody><tr><td>sete</td><td>ZF</td><td>Equal / Zero</td></tr><tr><td>setne</td><td>~ZF</td><td>Not Equal / Not Zero</td></tr><tr><td>sets</td><td>SF</td><td>Negative</td></tr><tr><td>setns</td><td>~SF</td><td>Nonnegative</td></tr><tr><td>setg</td><td><sub>(SF^OF)&amp;</sub>ZF</td><td>Greater (Signed)</td></tr><tr><td>setge</td><td>~(SF^OF)</td><td>Greater or Equal (Signed)</td></tr><tr><td>setl</td><td>(SF^OF)</td><td>Less (Signed)</td></tr><tr><td>setle</td><td>(SF^OF)|ZF</td><td>Less or Equal (Signed)</td></tr><tr><td>seta</td><td><sub>CF&amp;</sub>ZF</td><td>Above (unsigned)</td></tr><tr><td>setb</td><td>CF</td><td>Below (unsigned)</td></tr></tbody></table><p>\u6279\u6CE8\uFF1A\u4E00\u822C\u4E3A setX reg;\u5982\u679Ccondition\u6210\u7ACB\uFF0Creg\u5C06\u53D8\u62101\uFF0C\u53CD\u4E4B\u5219\u4E3A0\uFF1B</p><p>SetX Instructions: Set single byte to (0 or 1) based on combination of condition codes\u300C\u6839\u636E\u6761\u4EF6\u4EE3\u7801\u7684\u7EC4\u5408\u5C06\u5355\u5B57\u8282\u8BBE\u7F6E\u4E3A\uFF080\u62161\uFF09\u300D</p><p>addressable byte registers or memory\u300C\u53EF\u5BFB\u5740\u5B57\u8282\u5BC4\u5B58\u5668\u6216\u5B58\u50A8\u5668\u300D</p><ul><li>Does not alter remaining 3 bytes</li><li>Typically use movzbl to finish job</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/e6653cab0b018.png" alt="image.png" title="image.png"><h2 id="conditional-branches" tabindex="-1"><a class="header-anchor" href="#conditional-branches" aria-hidden="true">#</a> Conditional branches</h2><h3 id="jump-instructions" tabindex="-1"><a class="header-anchor" href="#jump-instructions" aria-hidden="true">#</a> Jump instructions</h3><p>Jump instructions \u2013 change the control flow</p><h4 id="jx-instructions" tabindex="-1"><a class="header-anchor" href="#jx-instructions" aria-hidden="true">#</a> jX instructions</h4><ul><li>Change the instruction sequence by jumping to a target address either specified by absolution address or by a value in some register or memory</li><li>Unconditional (jmp) and conditional (jX other than jmp)</li></ul><table><thead><tr><th>jX</th><th>Condition</th><th>Description</th><th>cmp a, b</th></tr></thead><tbody><tr><td>jmp</td><td>1</td><td>Unconditional</td><td>---</td></tr><tr><td>je</td><td>ZF</td><td>Equal / Zero</td><td>b == a</td></tr><tr><td>jne</td><td>~ZF</td><td>Not Equal / Not Zero</td><td>b != a</td></tr><tr><td>js</td><td>SF</td><td>Negative</td><td>b &lt; a</td></tr><tr><td>jns</td><td>~SF</td><td>Nonnegative</td><td>b &gt;= a</td></tr><tr><td>jg</td><td><sub>(SF^OF)&amp;</sub>ZF</td><td>Greater (Signed)</td><td>b &gt; a</td></tr><tr><td>jge</td><td>~(SF^OF)</td><td>Greater or Equal (Signed)</td><td>b &gt;= a</td></tr><tr><td>jl</td><td>(SF^OF)</td><td>Less (Signed)</td><td>b &lt; a</td></tr><tr><td>jle</td><td>(SF^OF)|ZF</td><td>Less or Equal (Signed)</td><td>b &lt;= a</td></tr><tr><td>ja</td><td><sub>CF&amp;</sub>ZF</td><td>Above (unsigned)</td><td>b &gt; a</td></tr><tr><td>jb</td><td>CF</td><td>Below (unsigned)</td><td>b &lt; a</td></tr></tbody></table><p>\u6CE8\uFF1A\u5373condition\u6210\u7ACB\u7684\u65F6\u5019\uFF0C\u5C06\u4F1A\u6267\u884C\u8DF3\u8F6C\uFF0C\u5426\u5219\u5C06\u4E0D\u6267\u884C\u3002</p><h4 id="implementing" tabindex="-1"><a class="header-anchor" href="#implementing" aria-hidden="true">#</a> Implementing</h4><p>Implementing conditional branches with jX</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/7c97bcd7db07b.png" alt="image.png" title="image.png"><h4 id="goto" tabindex="-1"><a class="header-anchor" href="#goto" aria-hidden="true">#</a> goto</h4><ul><li>We use the C goto statement to illustrate the control flow of jump in a more readable way</li><li>Try to avoid using goto when you are doing C programming</li></ul><img src="https://pic.hanjiaming.com.cn/2021/04/06/188662bcd7dcc.png" alt="image.png" title="image.png"><h5 id="general-form-of-expressing-if-then-else" tabindex="-1"><a class="header-anchor" href="#general-form-of-expressing-if-then-else" aria-hidden="true">#</a> General form of expressing if-then-else</h5><img src="https://pic.hanjiaming.com.cn/2021/04/06/0ed20c682dfba.png" alt="image.png" title="image.png" width="240px"><h2 id="conditional-moves" tabindex="-1"><a class="header-anchor" href="#conditional-moves" aria-hidden="true">#</a> Conditional moves</h2><img src="https://pic.hanjiaming.com.cn/2021/04/06/eb331ce2afde3.png" alt="image.png" title="image.png"><p>Why using conditional moves?</p><p>Modern processors use pipelines to execute a sequence of instructions\u300C\u73B0\u4EE3\u5904\u7406\u5668\u4F7F\u7528\u6D41\u6C34\u7EBF\u6267\u884C\u4E00\u7CFB\u5217\u6307\u4EE4\u300D</p><p>Branching operation may cause the pipeline to stall\u300CBranching operation \u53EF\u80FD\u4F1A\u5BFC\u81F4\u7BA1\u9053\u505C\u987F\u300D</p><p>As a result, executing both branches will be faster then \u201Ctest and jump\u201D</p><h3 id="conditional-branches-by-conditional-moves" tabindex="-1"><a class="header-anchor" href="#conditional-branches-by-conditional-moves" aria-hidden="true">#</a> Conditional branches by conditional moves</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/8687f4ff69e98.png" alt="image.png" title="image.png"><h2 id="implementation-of-some-statements" tabindex="-1"><a class="header-anchor" href="#implementation-of-some-statements" aria-hidden="true">#</a> Implementation of some statements</h2><h3 id="do-while-loop" tabindex="-1"><a class="header-anchor" href="#do-while-loop" aria-hidden="true">#</a> do-while loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/39f7c5eeb5632.png" alt="image.png" title="image.png"><h3 id="while-loop" tabindex="-1"><a class="header-anchor" href="#while-loop" aria-hidden="true">#</a> while loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/9d7a8d8c1e5e5.png" alt="image.png" title="image.png"><h3 id="for-loop" tabindex="-1"><a class="header-anchor" href="#for-loop" aria-hidden="true">#</a> for loop</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/f8e82c5b5bd6d.png" alt="image.png" title="image.png"><h3 id="switch-statement" tabindex="-1"><a class="header-anchor" href="#switch-statement" aria-hidden="true">#</a> switch statement</h3><img src="https://pic.hanjiaming.com.cn/2021/04/06/8ce3ba0b8a808.png" alt="image.png" title="image.png"><p>*8 \u7684\u539F\u56E0\u662F \u6807\u7B7E \u662F 64bit \u957F \u7684\u5730\u5740\uFF0C\u800C\u4E14\u6807\u7B7E\u662F\u76F8\u90BB\u7684\u3002</p><img src="https://pic.hanjiaming.com.cn/2021/04/06/0314eac9cd251.png" alt="image.png" title="image.png"><h2 id="\u5F15\u7528" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528" aria-hidden="true">#</a> \u5F15\u7528</h2><ul><li>COMP1411@Polyu PowerPoint</li></ul><!--]-->`);
+  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
+    id: "c-programming",
+    tabindex: "-1"
+  }, _attrs))}><a class="header-anchor" href="#c-programming" aria-hidden="true">#</a> C++ Programming</h1>`);
 }
 const _sfc_setup$I = _sfc_main$I.setup;
 _sfc_main$I.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/os/asm/x86_64-asm-std2.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/note/cs/coding/cpp/index.html.vue");
   return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
 };
-var x86_64AsmStd2_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$I]]);
-var x86_64AsmStd2_html$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var index_html$1J = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$I]]);
+var index_html$1K = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": x86_64AsmStd2_html$1
+  "default": index_html$1J
 }, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$H = {};
 function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
@@ -9662,7 +9684,7 @@ function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
 const _sfc_setup$d = _sfc_main$d.setup;
 _sfc_main$d.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/category/others/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/category/tech/index.html.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
 var index_html$17 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$d]]);
@@ -9690,7 +9712,7 @@ function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
 const _sfc_setup$b = _sfc_main$b.setup;
 _sfc_main$b.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/category/tech/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../pages/category/others/index.html.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
 var index_html$13 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["ssrRender", _sfc_ssrRender$b]]);
@@ -9852,7 +9874,7 @@ var index_html$K = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   __proto__: null,
   "default": index_html$J
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2o = {
+const data$2p = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "\u535A\u5BA2\u4E3B\u9875",
@@ -9997,9 +10019,9 @@ const data$2o = {
 };
 var index_html$I = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2o
+  data: data$2p
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2n = {
+const data$2o = {
   "key": "v-b1714770",
   "path": "/myself.html",
   "title": "Han Jiaming (\u97E9\u4F73\u660E)",
@@ -10154,9 +10176,9 @@ const data$2n = {
 };
 var myself_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2n
+  data: data$2o
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2m = {
+const data$2n = {
   "key": "v-70fab1c5",
   "path": "/research.html",
   "title": "Research",
@@ -10373,9 +10395,9 @@ const data$2m = {
 };
 var research_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2m
+  data: data$2n
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2l = {
+const data$2m = {
   "key": "v-2d0a870d",
   "path": "/en/",
   "title": "Blog",
@@ -10520,9 +10542,9 @@ const data$2l = {
 };
 var index_html$H = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2l
+  data: data$2m
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2k = {
+const data$2l = {
   "key": "v-4a3483a8",
   "path": "/posts/welcome.html",
   "title": "\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!",
@@ -10631,9 +10653,9 @@ const data$2k = {
 };
 var welcome_html$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2k
+  data: data$2l
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2j = {
+const data$2k = {
   "key": "v-e6412400",
   "path": "/en/guide/",
   "title": "Guides",
@@ -10732,9 +10754,9 @@ const data$2j = {
 };
 var index_html$G = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2j
+  data: data$2k
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2i = {
+const data$2j = {
   "key": "v-45af1cf1",
   "path": "/en/guide/disable.html",
   "title": "Component disabled",
@@ -10856,9 +10878,9 @@ const data$2i = {
 };
 var disable_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2i
+  data: data$2j
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2h = {
+const data$2i = {
   "key": "v-0c393394",
   "path": "/en/guide/encrypt.html",
   "title": "Encryption article",
@@ -10966,9 +10988,9 @@ const data$2h = {
 };
 var encrypt_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2h
+  data: data$2i
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2g = {
+const data$2h = {
   "key": "v-0d98534a",
   "path": "/en/guide/markdown.html",
   "title": "Markdown Enhance",
@@ -11189,9 +11211,9 @@ const data$2g = {
 };
 var markdown_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2g
+  data: data$2h
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2f = {
+const data$2g = {
   "key": "v-3e9371aa",
   "path": "/en/guide/page.html",
   "title": "page config",
@@ -11340,9 +11362,9 @@ const data$2f = {
 };
 var page_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2f
+  data: data$2g
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2e = {
+const data$2f = {
   "key": "v-46d7f540",
   "path": "/en/posts/welcome.html",
   "title": "\u6B22\u8FCE\u8BBF\u95EE\u5F18\u6811\u7684\u5C0F\u5C4B!",
@@ -11451,9 +11473,9 @@ const data$2e = {
 };
 var welcome_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2e
+  data: data$2f
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2d = {
+const data$2e = {
   "key": "v-34d6301b",
   "path": "/note/cs/",
   "title": "Computer Science",
@@ -11557,9 +11579,9 @@ const data$2d = {
 };
 var index_html$F = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2d
+  data: data$2e
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2c = {
+const data$2d = {
   "key": "v-6980d3aa",
   "path": "/posts/article/100-days-For-Exam.html",
   "title": "2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u8861\u6C34\u4E2D\u5B66\u5206\u4F1A\u573A",
@@ -11707,9 +11729,9 @@ const data$2c = {
 };
 var _100DaysForExam_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2c
+  data: data$2d
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2b = {
+const data$2c = {
   "key": "v-6b935194",
   "path": "/posts/article/100-days-For-Exam2.html",
   "title": "2020\u9AD8\u8003\u767E\u65E5\u8A93\u5E08\u5168\u56FD\u4F1A\u573A",
@@ -11827,9 +11849,9 @@ const data$2b = {
 };
 var _100DaysForExam2_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$2b
+  data: data$2c
 }, Symbol.toStringTag, { value: "Module" }));
-const data$2a = {
+const data$2b = {
   "key": "v-19e6422d",
   "path": "/posts/article/105t.html",
   "title": "\u3010\u51B3\u6218\u6B21\u65F6\u4EE3\u3011\u26A1\u70ED\u7231105\xB0C\u7684\u559C\u7F8A\u7F8A\u26A1\u26A1",
@@ -11939,6 +11961,170 @@ const data$2a = {
   "filePathRelative": "posts/article/105t.md"
 };
 var _105t_html$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$2b
+}, Symbol.toStringTag, { value: "Module" }));
+const data$2a = {
+  "key": "v-4a0d9aac",
+  "path": "/posts/article/3-18-bytedance.html",
+  "title": "3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": true,
+    "date": "2022-03-20T00:00:00.000Z",
+    "comment": true,
+    "author": "\u5F18\u6811",
+    "sidebar": false,
+    "icon": null,
+    "category": [
+      "Tech"
+    ],
+    "tag": [],
+    "star": null,
+    "summary": "3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55 \u7B2C\u4E00\u6B21\u53C2\u52A0\u5B57\u8282\u8DF3\u52A8\u7684\u9762\u8BD5\uFF0C\u975E\u5E38\u7D27\u5F20 \u8FDE\u7EBF\u65B9\u5F0F\uFF1A\u98DE\u4E66 \u81EA\u6211\u4ECB\u7ECD \u6211\u662Fxxxxxx\uFF0C\u76EE\u524D\u5C31\u8BFB\u4E8Exxxxxx\uFF0C\u505A\u8FC7xxxxxx\uFF0C\u70ED\u7231xxxxxx \u5176\u5B9E\u8FD9\u4E00\u70B9\u6CA1\u6709\u505A\u5145\u5206\u7684\u51C6\u5907\uFF0C\u4E00\u76F4\u4EE5\u4E3A\u7EAF\u6280\u672F\u9762\u8BD5 \u53E3\u7B54\u95EE\u9898\u73AF\u8282 \u63CF\u8FF0Java map\u7684\u590D\u6742\u5EA6 \u6211\u8111\u5B50\u91CC\u4E00\u70B9\u5370\u8C61\u90FD\u6CA1\u6709\u3002map\u662F\u4E2A\u63A5\u53E3\uFF0C\u5E94\u8BE5\u662F\u81EA\u5DF1\u5B9E\u73B0\u7684\u3002 \u6211\u7684\u56DE\u7B54\u662F\u7528hash\u5B9E\u73B0\u7684\u8BDD\uFF0C",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/article/3-18-bytedance.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "3\u670818\u65E5\u5B57\u8282\u8DF3\u52A8\u6570\u636E\u7B97\u6CD5\u5C97\u4E00\u9762\u8BB0\u5F55"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2022-03-20T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u81EA\u6211\u4ECB\u7ECD",
+      "slug": "\u81EA\u6211\u4ECB\u7ECD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u53E3\u7B54\u95EE\u9898\u73AF\u8282",
+      "slug": "\u53E3\u7B54\u95EE\u9898\u73AF\u8282",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u63CF\u8FF0Java map\u7684\u590D\u6742\u5EA6",
+          "slug": "\u63CF\u8FF0java-map\u7684\u590D\u6742\u5EA6",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u63CF\u8FF0hash\u78B0\u649E\u4E4B\u540E\u6709\u54EA\u4E9B\u89E3\u51B3\u65B9\u6848",
+          "slug": "\u63CF\u8FF0hash\u78B0\u649E\u4E4B\u540E\u6709\u54EA\u4E9B\u89E3\u51B3\u65B9\u6848",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u63CF\u8FF0\u4E8C\u53C9\u6811\u904D\u5386\u7684\u65B9\u5F0F",
+          "slug": "\u63CF\u8FF0\u4E8C\u53C9\u6811\u904D\u5386\u7684\u65B9\u5F0F",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u53E3\u7B54\u6570\u5B66\u9898",
+      "slug": "\u53E3\u7B54\u6570\u5B66\u9898",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7B14\u8BD5\u9898",
+      "slug": "\u7B14\u8BD5\u9898",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7ED3\u675F\u9762\u8BD5\u540E\u7684\u53CD\u601D",
+      "slug": "\u7ED3\u675F\u9762\u8BD5\u540E\u7684\u53CD\u601D",
+      "children": []
+    }
+  ],
+  "git": {
+    "createdTime": 1647777765e3,
+    "updatedTime": 1647777765e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 1.46,
+    "words": 439
+  },
+  "filePathRelative": "posts/article/3-18-bytedance.md"
+};
+var _318Bytedance_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   data: data$2a
 }, Symbol.toStringTag, { value: "Module" }));
@@ -24108,112 +24294,6 @@ var digitalSystem3_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.d
   data: data$P
 }, Symbol.toStringTag, { value: "Module" }));
 const data$O = {
-  "key": "v-1bfdd376",
-  "path": "/note/cs/coding/cpp/",
-  "title": "C++ Programming",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "article": false,
-    "date": "2021-05-01T00:00:00.000Z",
-    "index": false,
-    "summary": "C++ Programming",
-    "head": [
-      [
-        "meta",
-        {
-          "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/coding/cpp/"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:site_name",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:title",
-          "content": "C++ Programming"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:type",
-          "content": "article"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale",
-          "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "og:locale:alternate",
-          "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2021-05-01T00:00:00.000Z"
-        }
-      ]
-    ]
-  },
-  "excerpt": "",
-  "headers": [],
-  "git": {
-    "createdTime": 1647280116e3,
-    "updatedTime": 1647280116e3,
-    "contributors": [
-      {
-        "name": "hanjiaming",
-        "email": "47519540+guomaimang@users.noreply.github.com",
-        "commits": 1
-      }
-    ]
-  },
-  "readingTime": {
-    "minutes": 0.01,
-    "words": 2
-  },
-  "filePathRelative": "note/cs/coding/cpp/README.md"
-};
-var index_html$x = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  data: data$O
-}, Symbol.toStringTag, { value: "Module" }));
-const data$N = {
   "key": "v-9b2e9c38",
   "path": "/note/cs/os/asm/",
   "title": "Assembly language",
@@ -24315,11 +24395,11 @@ const data$N = {
   },
   "filePathRelative": "note/cs/os/asm/README.md"
 };
-var index_html$w = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var index_html$x = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$N
+  data: data$O
 }, Symbol.toStringTag, { value: "Module" }));
-const data$M = {
+const data$N = {
   "key": "v-2af9f9dd",
   "path": "/note/cs/os/asm/Y86-64-processer-arch.html",
   "title": "Y86-64\u5904\u7406\u5668\u67B6\u6784\u7B80\u4ECB",
@@ -24535,9 +24615,9 @@ const data$M = {
 };
 var Y8664ProcesserArch_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$M
+  data: data$N
 }, Symbol.toStringTag, { value: "Module" }));
-const data$L = {
+const data$M = {
   "key": "v-514ca1be",
   "path": "/note/cs/os/asm/gnu-gdb-std.html",
   "title": "GNU\u5BB6\u65CF\u7B80\u4ECB\u53CAGDB\u6C47\u7F16\u73A9\u6CD5",
@@ -24728,9 +24808,9 @@ const data$L = {
 };
 var gnuGdbStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$L
+  data: data$M
 }, Symbol.toStringTag, { value: "Module" }));
-const data$K = {
+const data$L = {
   "key": "v-496413f0",
   "path": "/note/cs/os/asm/llvm-std.html",
   "title": "LLVM\u7F16\u8BD1\u5668\u7CFB\u5217\u7B80\u4ECB",
@@ -24871,9 +24951,9 @@ const data$K = {
 };
 var llvmStd_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$K
+  data: data$L
 }, Symbol.toStringTag, { value: "Module" }));
-const data$J = {
+const data$K = {
   "key": "v-7f2725d2",
   "path": "/note/cs/os/asm/x86_64-asm-std1.html",
   "title": "x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78401",
@@ -25102,9 +25182,9 @@ const data$J = {
 };
 var x86_64AsmStd1_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  data: data$J
+  data: data$K
 }, Symbol.toStringTag, { value: "Module" }));
-const data$I = {
+const data$J = {
   "key": "v-7bbd7494",
   "path": "/note/cs/os/asm/x86_64-asm-std2.html",
   "title": "x86\u6C47\u7F16\u8BED\u8A00\u57FA\u78402",
@@ -25313,6 +25393,112 @@ const data$I = {
   "filePathRelative": "note/cs/os/asm/x86_64-asm-std2.md"
 };
 var x86_64AsmStd2_html = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  data: data$J
+}, Symbol.toStringTag, { value: "Module" }));
+const data$I = {
+  "key": "v-1bfdd376",
+  "path": "/note/cs/coding/cpp/",
+  "title": "C++ Programming",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "article": false,
+    "date": "2021-05-01T00:00:00.000Z",
+    "index": false,
+    "summary": "C++ Programming",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "og:url",
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/note/cs/coding/cpp/"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:site_name",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "C++ Programming"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:type",
+          "content": "article"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale",
+          "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:locale:alternate",
+          "content": "en-US"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      [
+        "meta",
+        {
+          "name": "twitter:image:alt",
+          "content": "\u5F18\u6811"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "HongShu"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2021-05-01T00:00:00.000Z"
+        }
+      ]
+    ]
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "createdTime": 1647280116e3,
+    "updatedTime": 1647280116e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
+  },
+  "readingTime": {
+    "minutes": 0.01,
+    "words": 2
+  },
+  "filePathRelative": "note/cs/coding/cpp/README.md"
+};
+var index_html$w = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   data: data$I
 }, Symbol.toStringTag, { value: "Module" }));
@@ -29008,15 +29194,15 @@ var index_html$e = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   data: data$e
 }, Symbol.toStringTag, { value: "Module" }));
 const data$d = {
-  "key": "v-3ab30614",
-  "path": "/category/others/",
-  "title": "Others \u5206\u7C7B",
+  "key": "v-58c02741",
+  "path": "/category/tech/",
+  "title": "Tech \u5206\u7C7B",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "Others \u5206\u7C7B",
+    "title": "Tech \u5206\u7C7B",
     "blog": {
       "type": "category",
-      "name": "Others",
+      "name": "Tech",
       "key": "category"
     },
     "layout": "Blog",
@@ -29026,7 +29212,7 @@ const data$d = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/category/others/"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/category/tech/"
         }
       ],
       [
@@ -29040,7 +29226,7 @@ const data$d = {
         "meta",
         {
           "property": "og:title",
-          "content": "Others \u5206\u7C7B"
+          "content": "Tech \u5206\u7C7B"
         }
       ],
       [
@@ -29194,15 +29380,15 @@ var index_html$c = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   data: data$c
 }, Symbol.toStringTag, { value: "Module" }));
 const data$b = {
-  "key": "v-58c02741",
-  "path": "/category/tech/",
-  "title": "Tech \u5206\u7C7B",
+  "key": "v-3ab30614",
+  "path": "/category/others/",
+  "title": "Others \u5206\u7C7B",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "Tech \u5206\u7C7B",
+    "title": "Others \u5206\u7C7B",
     "blog": {
       "type": "category",
-      "name": "Tech",
+      "name": "Others",
       "key": "category"
     },
     "layout": "Blog",
@@ -29212,7 +29398,7 @@ const data$b = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/category/tech/"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/category/others/"
         }
       ],
       [
@@ -29226,7 +29412,7 @@ const data$b = {
         "meta",
         {
           "property": "og:title",
-          "content": "Tech \u5206\u7C7B"
+          "content": "Others \u5206\u7C7B"
         }
       ],
       [
