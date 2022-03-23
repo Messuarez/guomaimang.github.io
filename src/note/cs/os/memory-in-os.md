@@ -1,7 +1,7 @@
 ---
 article: false
 date: 2022-03-14
-
+index: 10
 ---
 
 # Memory in OS
