@@ -7,3 +7,5 @@ index: false
 ---
 
 # Combinational Logic
+
+本章主要介绍组合电路逻辑的基础内容。
