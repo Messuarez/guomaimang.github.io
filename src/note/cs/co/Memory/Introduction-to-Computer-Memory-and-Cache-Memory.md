@@ -6,7 +6,7 @@ index: 1
 
 ---
 
-# Introduction to Computer Memory and Cache Memory
+# Computer and Cache Memory
 
 ## Computer components revisited
 

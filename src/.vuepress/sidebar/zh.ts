@@ -6,8 +6,7 @@ export const zh = defineSidebarConfig({
 
     "/note/cs/os/": "structure",
 
-    "/note/cs/coding/": "structure",
-        "/note/cs/coding/cpp/": "structure",
+    "/note/cs/coding/cpp/": "structure",
 
     "/note/ds/": "structure",
 

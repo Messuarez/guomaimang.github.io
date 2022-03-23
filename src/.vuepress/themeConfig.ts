@@ -30,6 +30,8 @@ export default defineThemeConfig({
     avatar: "/avatar.png",
   },
 
+  headingDepth: 0,
+
 
   locales: {
     "/en/": {
