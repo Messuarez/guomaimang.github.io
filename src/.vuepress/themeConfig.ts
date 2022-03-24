@@ -4,7 +4,7 @@ import * as sidebar from "./sidebar";
 
 
 export default defineThemeConfig({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://guomaimang.github.io",
 
   author: {
     name: "HongShu",
@@ -37,6 +37,8 @@ export default defineThemeConfig({
     "/en/": {
       // navbar
       navbar: navbar.en,
+
+      sidebar: sidebar.en,
 
       footer: "Legends never die.",
 

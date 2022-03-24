@@ -1,7 +1,7 @@
 import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export const en = defineNavbarConfig([
-  { text: "Blog", icon: "home", link: "/" },
+  { text: "Blog", icon: "home", link: "/en" },
   { text: "Research", icon: "creative", link: "https://hongshu.zxg.red" },
   { text: "About me", icon: "profile", link: "/myself/" },
   {
@@ -35,7 +35,13 @@ export const en = defineNavbarConfig([
         text: "Data Science",
         icon: "emmet",
         prefix: "ds/",
-        children:[],
+        children:[
+          {
+            text: "Data Analysis",
+            icon: "rank",
+            link: "da/",
+          },
+        ],
       },
       {
         text: "IT Management",

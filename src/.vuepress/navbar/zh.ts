@@ -36,7 +36,13 @@ export const zh = defineNavbarConfig([
         text: "Data Science",
         icon: "emmet",
         prefix: "ds/",
-        children:[],
+        children:[
+          {
+            text: "Data Analysis",
+            icon: "rank",
+            link: "da/",
+          },
+        ],
       },
       {
         text: "IT Management",
