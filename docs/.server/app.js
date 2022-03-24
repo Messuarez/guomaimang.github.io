@@ -1200,7 +1200,7 @@ const resolvers = vue.reactive({
 });
 var message = "";
 const s$3 = (t2) => `${t2.charAt(0).toUpperCase()}${t2.slice(1)}`;
-var a$5, c$7 = function() {
+var a$4, c$7 = function() {
   var t2 = 1e3, e = 6e4, n2 = 36e5, r2 = "millisecond", i2 = "second", s2 = "minute", o2 = "hour", a2 = "day", u2 = "week", c2 = "month", f2 = "quarter", d2 = "year", l2 = "date", h2 = "Invalid Date", m2 = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/, $2 = /\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g, v2 = { name: "en", weekdays: "Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split("_"), months: "January_February_March_April_May_June_July_August_September_October_November_December".split("_") }, p2 = function(t3, e2, n3) {
     var r3 = String(t3);
     return !r3 || r3.length >= e2 ? t3 : "" + Array(e2 + 1 - r3.length).join(n3) + t3;
@@ -1222,17 +1222,21 @@ var a$5, c$7 = function() {
   M2[g2] = v2;
   var D2 = function(t3) {
     return t3 instanceof w2;
-  }, _2 = function(t3, e2, n3) {
-    var r3;
-    if (!t3)
+  }, _2 = function t3(e2, n3, r3) {
+    var i3;
+    if (!e2)
       return g2;
-    if (typeof t3 == "string")
-      M2[t3] && (r3 = t3), e2 && (M2[t3] = e2, r3 = t3);
-    else {
-      var i3 = t3.name;
-      M2[i3] = t3, r3 = i3;
+    if (typeof e2 == "string") {
+      var s3 = e2.toLowerCase();
+      M2[s3] && (i3 = s3), n3 && (M2[s3] = n3, i3 = s3);
+      var o3 = e2.split("-");
+      if (!i3 && o3.length > 1)
+        return t3(o3[0]);
+    } else {
+      var a3 = e2.name;
+      M2[a3] = e2, i3 = a3;
     }
-    return !n3 && r3 && (g2 = r3), r3 || !n3 && g2;
+    return !r3 && i3 && (g2 = i3), i3 || !r3 && g2;
   }, Y = function(t3, e2) {
     if (D2(t3))
       return t3.clone();
@@ -1395,14 +1399,14 @@ var a$5, c$7 = function() {
   }, Y.locale = _2, Y.isDayjs = D2, Y.unix = function(t3) {
     return Y(1e3 * t3);
   }, Y.en = M2[g2], Y.Ls = M2, Y.p = {}, Y;
-}(), d$5 = (a$5 = { LTS: "h:mm:ss A", LT: "h:mm A", L: "MM/DD/YYYY", LL: "MMMM D, YYYY", LLL: "MMMM D, YYYY h:mm A", LLLL: "dddd, MMMM D, YYYY h:mm A" }, function(t2, e, n2) {
+}(), d$5 = (a$4 = { LTS: "h:mm:ss A", LT: "h:mm A", L: "MM/DD/YYYY", LL: "MMMM D, YYYY", LLL: "MMMM D, YYYY h:mm A", LLLL: "dddd, MMMM D, YYYY h:mm A" }, function(t2, e, n2) {
   var r2 = e.prototype, i2 = r2.format;
-  n2.en.formats = a$5, r2.format = function(t3) {
+  n2.en.formats = a$4, r2.format = function(t3) {
     t3 === void 0 && (t3 = "YYYY-MM-DDTHH:mm:ssZ");
     var e2 = this.$locale().formats, n3 = function(t4, e3) {
       return t4.replace(/(\[[^\]]+])|(LTS?|l{1,4}|L{1,4})/g, function(t5, n4, r3) {
         var i3 = r3 && r3.toUpperCase();
-        return n4 || e3[r3] || a$5[r3] || e3[i3].replace(/(\[[^\]]+])|(MMMM|MM|DD|dddd)/g, function(t6, e4, n5) {
+        return n4 || e3[r3] || a$4[r3] || e3[i3].replace(/(\[[^\]]+])|(MMMM|MM|DD|dddd)/g, function(t6, e4, n5) {
           return e4 || n5.slice(1);
         });
       });
@@ -1503,7 +1507,7 @@ var a$5, c$7 = function() {
       s2 = t3;
     };
   };
-}(), p$7 = function() {
+}(), p$6 = function() {
   var t2 = "minute", e = /[+-]\d\d(?::?\d\d)?/g, n2 = /([+-]|\d\d)/g;
   return function(r2, i2, s2) {
     var o2 = i2.prototype;
@@ -1578,7 +1582,7 @@ var a$5, c$7 = function() {
     };
   };
 }();
-c$7.extend(d$5), c$7.extend(h$3), c$7.extend(p$7), c$7.extend($);
+c$7.extend(d$5), c$7.extend(h$3), c$7.extend(p$6), c$7.extend($);
 const y$4 = { name: "zh-cn", weekdays: "\u661F\u671F\u65E5_\u661F\u671F\u4E00_\u661F\u671F\u4E8C_\u661F\u671F\u4E09_\u661F\u671F\u56DB_\u661F\u671F\u4E94_\u661F\u671F\u516D".split("_"), weekdaysShort: "\u5468\u65E5_\u5468\u4E00_\u5468\u4E8C_\u5468\u4E09_\u5468\u56DB_\u5468\u4E94_\u5468\u516D".split("_"), weekdaysMin: "\u65E5_\u4E00_\u4E8C_\u4E09_\u56DB_\u4E94_\u516D".split("_"), months: "\u4E00\u6708_\u4E8C\u6708_\u4E09\u6708_\u56DB\u6708_\u4E94\u6708_\u516D\u6708_\u4E03\u6708_\u516B\u6708_\u4E5D\u6708_\u5341\u6708_\u5341\u4E00\u6708_\u5341\u4E8C\u6708".split("_"), monthsShort: "1\u6708_2\u6708_3\u6708_4\u6708_5\u6708_6\u6708_7\u6708_8\u6708_9\u6708_10\u6708_11\u6708_12\u6708".split("_"), ordinal: (t2, e) => e === "W" ? `${t2}\u5468` : `${t2}\u65E5`, weekStart: 1, yearStart: 4, formats: { LT: "HH:mm", LTS: "HH:mm:ss", L: "YYYY/MM/DD", LL: "YYYY\u5E74M\u6708D\u65E5", LLL: "YYYY\u5E74M\u6708D\u65E5Ah\u70B9mm\u5206", LLLL: "YYYY\u5E74M\u6708D\u65E5ddddAh\u70B9mm\u5206", l: "YYYY/M/D", ll: "YYYY\u5E74M\u6708D\u65E5", lll: "YYYY\u5E74M\u6708D\u65E5 HH:mm", llll: "YYYY\u5E74M\u6708D\u65E5dddd HH:mm" }, relativeTime: { future: "%s\u5185", past: "%s\u524D", s: "\u51E0\u79D2", m: "1 \u5206\u949F", mm: "%d \u5206\u949F", h: "1 \u5C0F\u65F6", hh: "%d \u5C0F\u65F6", d: "1 \u5929", dd: "%d \u5929", M: "1 \u4E2A\u6708", MM: "%d \u4E2A\u6708", y: "1 \u5E74", yy: "%d \u5E74" }, meridiem: (t2, e) => {
   const n2 = 100 * t2 + e;
   return n2 < 600 ? "\u51CC\u6668" : n2 < 900 ? "\u65E9\u4E0A" : n2 < 1100 ? "\u4E0A\u5348" : n2 < 1300 ? "\u4E2D\u5348" : n2 < 1800 ? "\u4E0B\u5348" : "\u665A\u4E0A";
@@ -1636,10 +1640,10 @@ const U = (t2, e) => {
   for (let e2 = 0; e2 < t2.length; e2++)
     n2 += t2.charCodeAt(e2), n2 += n2 << 10, n2 ^= n2 >> 6;
   return n2 += n2 << 3, n2 ^= n2 >> 11, n2 % e;
-}, N = /#.*$/u, I$2 = (t2) => {
-  const e = N.exec(t2);
+}, N$1 = /#.*$/u, I$2 = (t2) => {
+  const e = N$1.exec(t2);
   return e ? e[0] : "";
-}, k$1 = (t2) => decodeURI(t2).replace(N, "").replace(/(index)?\.(md|html)$/, ""), W$1 = (t2, e) => {
+}, k$1 = (t2) => decodeURI(t2).replace(N$1, "").replace(/(index)?\.(md|html)$/, ""), W$1 = (t2, e) => {
   if (e === void 0)
     return false;
   const n2 = k$1(t2.path), r2 = k$1(e), i2 = I$2(e);
@@ -1683,14 +1687,14 @@ const y$3 = () => vue.h(T$2, { name: "category" }, () => vue.h("path", { d: "M14
 y$3.displayName = "CategoryIcon";
 const h$2 = () => vue.h(T$2, { name: "eye" }, () => vue.h("path", { d: "M992 512.096c0-5.76-.992-10.592-1.28-11.136-.192-2.88-1.152-8.064-2.08-10.816-.256-.672-.544-1.376-.832-2.08-.48-1.568-1.024-3.104-1.6-4.32C897.664 290.112 707.104 160 512 160c-195.072 0-385.632 130.016-473.76 322.592-1.056 2.112-1.792 4.096-2.272 5.856a55.512 55.512 0 00-.64 1.6c-1.76 5.088-1.792 8.64-1.632 7.744-.832 3.744-1.568 11.168-1.568 11.168-.224 2.272-.224 4.032.032 6.304 0 0 .736 6.464 1.088 7.808.128 1.824.576 4.512 1.12 6.976h-.032c.448 2.08 1.12 4.096 1.984 6.08.48 1.536.992 2.976 1.472 4.032C126.432 733.856 316.992 864 512 864c195.136 0 385.696-130.048 473.216-321.696 1.376-2.496 2.24-4.832 2.848-6.912.256-.608.48-1.184.672-1.728 1.536-4.48 1.856-8.32 1.728-8.32l-.032.032c.608-3.104 1.568-7.744 1.568-13.28zM512 672c-88.224 0-160-71.776-160-160s71.776-160 160-160 160 71.776 160 160-71.776 160-160 160z" }));
 h$2.displayName = "EyeIcon";
-const f$4 = () => vue.h(T$2, { name: "fire" }, () => vue.h("path", { d: "M726.4 201.6c-12.8-9.6-28.8-6.4-38.4 0-9.6 9.6-16 25.6-9.6 38.4 6.4 12.8 9.6 28.8 12.8 44.8C604.8 83.2 460.8 38.4 454.4 35.2c-9.6-3.2-22.4 0-28.8 6.4-9.6 6.4-12.8 19.2-9.6 28.8 12.8 86.4-25.6 188.8-115.2 310.4-6.4-25.6-16-51.2-32-80-9.6-9.6-22.4-16-35.2-12.8-16 3.2-25.6 12.8-25.6 28.8-3.2 48-25.6 92.8-51.2 140.8C134.4 499.2 112 544 102.4 592c-32 150.4 99.2 329.6 233.6 380.8 9.6 3.2 19.2 6.4 32 9.6-25.6-19.2-41.6-51.2-48-96C294.4 691.2 505.6 640 515.2 460.8c153.6 105.6 224 336 137.6 505.6 3.2 0 6.4-3.2 9.6-3.2 0 0 3.2 0 3.2-3.2 163.2-89.6 252.8-208 259.2-345.6 16-211.2-163.2-390.4-198.4-412.8z" }));
-f$4.displayName = "FireIcon";
+const f$3 = () => vue.h(T$2, { name: "fire" }, () => vue.h("path", { d: "M726.4 201.6c-12.8-9.6-28.8-6.4-38.4 0-9.6 9.6-16 25.6-9.6 38.4 6.4 12.8 9.6 28.8 12.8 44.8C604.8 83.2 460.8 38.4 454.4 35.2c-9.6-3.2-22.4 0-28.8 6.4-9.6 6.4-12.8 19.2-9.6 28.8 12.8 86.4-25.6 188.8-115.2 310.4-6.4-25.6-16-51.2-32-80-9.6-9.6-22.4-16-35.2-12.8-16 3.2-25.6 12.8-25.6 28.8-3.2 48-25.6 92.8-51.2 140.8C134.4 499.2 112 544 102.4 592c-32 150.4 99.2 329.6 233.6 380.8 9.6 3.2 19.2 6.4 32 9.6-25.6-19.2-41.6-51.2-48-96C294.4 691.2 505.6 640 515.2 460.8c153.6 105.6 224 336 137.6 505.6 3.2 0 6.4-3.2 9.6-3.2 0 0 3.2 0 3.2-3.2 163.2-89.6 252.8-208 259.2-345.6 16-211.2-163.2-390.4-198.4-412.8z" }));
+f$3.displayName = "FireIcon";
 const v$2 = () => vue.h(T$2, { name: "tag" }, () => vue.h("path", { d: "M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z" }));
 v$2.displayName = "TagIcon";
 const I$1 = () => vue.h(T$2, { name: "timer" }, () => vue.h("path", { d: "M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z" }));
 I$1.displayName = "TimerIcon";
-const b$2 = () => vue.h(T$2, { name: "word" }, () => [vue.h("path", { d: "M518.217 432.64V73.143A73.143 73.143 0 01603.43 1.097a512 512 0 01419.474 419.474 73.143 73.143 0 01-72.046 85.212H591.36a73.143 73.143 0 01-73.143-73.143z" }), vue.h("path", { d: "M493.714 566.857h340.297a73.143 73.143 0 0173.143 85.577A457.143 457.143 0 11371.566 117.76a73.143 73.143 0 0185.577 73.143v339.383a36.571 36.571 0 0036.571 36.571z" })]);
-b$2.displayName = "WordIcon";
+const b$1 = () => vue.h(T$2, { name: "word" }, () => [vue.h("path", { d: "M518.217 432.64V73.143A73.143 73.143 0 01603.43 1.097a512 512 0 01419.474 419.474 73.143 73.143 0 01-72.046 85.212H591.36a73.143 73.143 0 01-73.143-73.143z" }), vue.h("path", { d: "M493.714 566.857h340.297a73.143 73.143 0 0173.143 85.577A457.143 457.143 0 11371.566 117.76a73.143 73.143 0 0185.577 73.143v339.383a36.571 36.571 0 0036.571 36.571z" })]);
+b$1.displayName = "WordIcon";
 const w$1 = { "/": { "author": "\u4F5C\u8005\u{1F58A}", "date": "\u5199\u4F5C\u65E5\u671F\u{1F4C5}", "origin": "\u539F\u521B\u{1F4A1}", "views": "\u8BBF\u95EE\u91CF\u{1F522}", "category": "\u5206\u7C7B\u{1F308}", "tag": "\u6807\u7B7E\u{1F3F7}", "readingTime": "\u9605\u8BFB\u65F6\u95F4\u231B", "words": "\u5B57\u6570\u{1F520}" }, "/en/": { "author": "Author\u{1F58A}", "date": "Writing Date\u{1F4C5}", "origin": "Original\u{1F4A1}", "views": "Page views\u{1F522}", "category": "Category\u{1F308}", "tag": "Tags\u{1F3F7}", "readingTime": "Reading Time\u231B", "words": "Words\u{1F520}" } }, T$1 = { "/": { "word": "\u7EA6 $word \u5B57", "less1Minute": "\u5C0F\u4E8E 1 \u5206\u949F", "time": "\u5927\u7EA6 $time \u5206\u949F" }, "/en/": { "word": "About $word words", "less1Minute": "Less than 1 minute", "time": "About $time min" } };
 var M = vue.defineComponent({ name: "AuthorInfo", props: { author: { type: Array, required: true }, hint: { type: Boolean, default: true } }, setup(e) {
   const t2 = x$1(w$1);
@@ -1718,7 +1722,7 @@ var M = vue.defineComponent({ name: "AuthorInfo", props: { author: { type: Array
     setTimeout(c2, 1500);
   }), vue.watch(() => l2.path, (a2, e2) => {
     a2 !== e2 && setTimeout(c2, 500);
-  }), () => e.pageview ? vue.h("span", __spreadValues({ class: "visitor-info", ariaLabel: r2.value.views }, e.hint !== false ? { "data-balloon-pos": "down" } : {}), [vue.h(i2.value < 1e3 ? h$2 : f$4), vue.h("span", { class: "waline-visitor-count", id: typeof e.pageview == "string" ? e.pageview : withBase(l2.path) }, "...")]) : null;
+  }), () => e.pageview ? vue.h("span", __spreadValues({ class: "visitor-info", ariaLabel: r2.value.views }, e.hint !== false ? { "data-balloon-pos": "down" } : {}), [vue.h(i2.value < 1e3 ? h$2 : f$3), vue.h("span", { class: "waline-visitor-count", id: typeof e.pageview == "string" ? e.pageview : withBase(l2.path) }, "...")]) : null;
 } }), B = vue.defineComponent({ name: "ReadingTimeInfo", props: { readingTime: { type: Object, default: () => null }, hint: { type: Boolean, default: true } }, setup(e) {
   const t2 = x$1(w$1), o2 = x$1(T$1), n2 = vue.computed(() => {
     if (!e.readingTime)
@@ -1732,16 +1736,16 @@ var M = vue.defineComponent({ name: "AuthorInfo", props: { author: { type: Array
   return () => e.tag.length ? vue.h("span", __spreadValues({ ariaLabel: n2.value.tag }, e.hint ? { "data-balloon-pos": "down" } : {}), [vue.h(v$2), vue.h("ul", { class: "tags-wrapper" }, e.tag.map(({ name: n3, path: l2 }) => vue.h("li", { class: ["tag", { [`tag${U(n3, 9)}`]: e.color, clickable: l2 }], role: l2 ? "navigation" : "", onClick: () => ((a2 = "") => {
     a2 && o2.path !== a2 && t2.push(a2);
   })(l2) }, n3))), vue.h("meta", { property: "keywords", content: e.tag.map(({ name: a2 }) => a2).join(",") })]) : null;
-} }), V = vue.defineComponent({ name: "OriginalMark", props: { isOriginal: { type: Boolean, default: false } }, setup(e) {
+} }), H = vue.defineComponent({ name: "OriginalMark", props: { isOriginal: { type: Boolean, default: false } }, setup(e) {
   const t2 = x$1(w$1);
   return () => e.isOriginal ? vue.h("span", { class: "origin" }, t2.value.origin) : null;
-} }), H = vue.defineComponent({ name: "ReadTimeInfo", props: { readingTime: { type: Object, default: () => null }, hint: { type: Boolean, default: true } }, setup(e) {
+} }), L = vue.defineComponent({ name: "ReadTimeInfo", props: { readingTime: { type: Object, default: () => null }, hint: { type: Boolean, default: true } }, setup(e) {
   const t2 = x$1(w$1), o2 = x$1(T$1), n2 = vue.computed(() => {
     var a2;
     return (a2 = e.readingTime) === null || a2 === void 0 ? void 0 : a2.words.toString();
   }), r2 = vue.computed(() => o2.value.word.replace("$word", n2.value || ""));
-  return () => n2.value ? vue.h("span", __spreadValues({ class: "words-info", ariaLabel: t2.value.words }, e.hint !== false ? { "data-balloon-pos": "down" } : {}), [vue.h(b$2), vue.h("span", r2.value), vue.h("meta", { property: "wordCount", content: n2.value })]) : null;
-} }), L$1 = vue.defineComponent({ name: "ArticleInfo", components: { AuthorInfo: M, CategoryInfo: A, DateInfo: z, OriginalInfo: V, PageViewInfo: C$1, ReadingTimeInfo: B, TagInfo: O$1, WordInfo: H }, props: { config: { type: [Array, Boolean], default: () => ["Author", "Original", "PageView", "Date", "Category", "Tag", "ReadingTime"] }, hint: { type: Boolean, default: true }, author: { type: Array, default: () => [] }, category: { type: Array, default: () => [] }, tag: { type: Array, default: () => [] }, date: { type: Object, default: null }, isOriginal: { type: Boolean, default: false }, pageview: { type: [Boolean, String], default: false }, readingTime: { type: Object, default: () => null }, color: { type: Boolean, default: true } }, setup: (e) => () => e.config ? vue.h("div", { class: "article-info" }, e.config.map((t2) => vue.h(vue.resolveComponent(`${t2}Info`), e))) : null });
+  return () => n2.value ? vue.h("span", __spreadValues({ class: "words-info", ariaLabel: t2.value.words }, e.hint !== false ? { "data-balloon-pos": "down" } : {}), [vue.h(b$1), vue.h("span", r2.value), vue.h("meta", { property: "wordCount", content: n2.value })]) : null;
+} }), N = vue.defineComponent({ name: "ArticleInfo", components: { AuthorInfo: M, CategoryInfo: A, DateInfo: z, OriginalInfo: H, PageViewInfo: C$1, ReadingTimeInfo: B, TagInfo: O$1, WordInfo: L }, props: { config: { type: [Array, Boolean], default: () => ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"] }, hint: { type: Boolean, default: true }, author: { type: Array, default: () => [] }, category: { type: Array, default: () => [] }, tag: { type: Array, default: () => [] }, date: { type: Object, default: null }, isOriginal: { type: Boolean, default: false }, pageview: { type: [Boolean, String], default: false }, readingTime: { type: Object, default: () => null }, color: { type: Boolean, default: true } }, setup: (e) => () => e.config ? vue.h("div", { class: "article-info" }, e.config.map((t2) => vue.h(vue.resolveComponent(`${t2}Info`), e))) : null });
 var badge = "";
 var r$3 = vue.defineComponent({ name: "Badge", props: { type: { type: String, default: "tip" }, text: { type: String, default: "" }, vertical: { type: String, default: "top" }, color: { type: String, default: "" } }, setup(t2, { slots: r2 }) {
   const a2 = vue.computed(() => {
@@ -1754,7 +1758,7 @@ var r$3 = vue.defineComponent({ name: "Badge", props: { type: { type: String, de
   };
 } });
 var breadcrumb = "";
-var f$3 = vue.defineComponent({ name: "BreadCrumb", props: { enable: { type: Boolean, default: true }, icon: { type: Boolean, default: true }, iconPrefix: { type: String, default: "" } }, setup(r2) {
+var f$2 = vue.defineComponent({ name: "BreadCrumb", props: { enable: { type: Boolean, default: true }, icon: { type: Boolean, default: true }, iconPrefix: { type: String, default: "" } }, setup(r2) {
   const f2 = vueRouter.useRouter(), h2 = vueRouter.useRoute(), v2 = useRouteLocale(), b2 = vue.ref([]), d2 = vue.computed(() => r2.enable && b2.value.length > 1), y2 = () => {
     const t2 = f2.getRoutes(), r3 = ((e, t3) => {
       const r4 = e.path.replace(t3, "/").split("/"), o2 = [];
@@ -1783,27 +1787,27 @@ var f$3 = vue.defineComponent({ name: "BreadCrumb", props: { enable: { type: Boo
 var fullScreen$1 = "";
 const r$2 = () => vue.h(T$2, { name: "enter-fullscreen" }, () => vue.h("path", { d: "M762.773 90.24h-497.28c-96.106 0-174.4 78.293-174.4 174.4v497.28c0 96.107 78.294 174.4 174.4 174.4h497.28c96.107 0 175.04-78.293 174.4-174.4V264.64c0-96.213-78.186-174.4-174.4-174.4zm-387.2 761.173H215.04c-21.867 0-40.427-17.92-41.067-41.066V649.92c0-22.507 17.92-40.427 40.427-40.427 11.307 0 21.227 4.694 28.48 11.947 7.253 7.253 11.947 17.92 11.947 28.48v62.293l145.28-145.28c15.893-15.893 41.813-15.893 57.706 0 15.894 15.894 15.894 41.814 0 57.707l-145.28 145.28h62.294c22.506 0 40.426 17.92 40.426 40.427s-17.173 41.066-39.68 41.066zM650.24 165.76h160.427c21.866 0 40.426 17.92 41.066 41.067v160.426c0 22.507-17.92 40.427-40.426 40.427-11.307 0-21.227-4.693-28.48-11.947-7.254-7.253-11.947-17.92-11.947-28.48v-62.186L625.6 450.347c-15.893 15.893-41.813 15.893-57.707 0-15.893-15.894-15.893-41.814 0-57.707l145.28-145.28H650.88c-22.507 0-40.427-17.92-40.427-40.427s17.174-41.173 39.787-41.173z" }));
 r$2.displayName = "EnterFullScreenIcon";
-const n$3 = () => vue.h(T$2, { name: "cancel-fullscreen" }, () => vue.h("path", { d: "M778.468 78.62H247.922c-102.514 0-186.027 83.513-186.027 186.027V795.08c0 102.514 83.513 186.027 186.027 186.027h530.432c102.514 0 186.71-83.513 186.026-186.027V264.647C964.494 162.02 880.981 78.62 778.468 78.62zM250.88 574.35h171.122c23.324 0 43.122 19.115 43.804 43.805v171.121c0 24.008-19.114 43.122-43.122 43.122-12.06 0-22.641-5.006-30.378-12.743s-12.743-19.115-12.743-30.379V722.83L224.597 877.91c-16.953 16.952-44.6 16.952-61.553 0-16.953-16.954-16.953-44.602 0-61.554L318.009 661.39h-66.446c-24.007 0-43.122-19.114-43.122-43.122 0-24.12 18.432-43.918 42.439-43.918zm521.899-98.873H601.657c-23.325 0-43.122-19.114-43.805-43.804V260.55c0-24.007 19.115-43.122 43.122-43.122 12.06 0 22.642 5.007 30.379 12.743s12.743 19.115 12.743 30.38v66.445l154.965-154.965c16.953-16.953 44.601-16.953 61.554 0 16.953 16.953 16.953 44.6 0 61.554L705.536 388.55h66.446c24.007 0 43.122 19.115 43.122 43.122.114 24.007-18.318 43.804-42.325 43.804z" }));
-n$3.displayName = "CancelFullScreenIcon";
-var a$4 = vue.defineComponent({ name: "FullScreen", props: { enable: { type: Boolean, default: true } }, setup(c2) {
+const n$4 = () => vue.h(T$2, { name: "cancel-fullscreen" }, () => vue.h("path", { d: "M778.468 78.62H247.922c-102.514 0-186.027 83.513-186.027 186.027V795.08c0 102.514 83.513 186.027 186.027 186.027h530.432c102.514 0 186.71-83.513 186.026-186.027V264.647C964.494 162.02 880.981 78.62 778.468 78.62zM250.88 574.35h171.122c23.324 0 43.122 19.115 43.804 43.805v171.121c0 24.008-19.114 43.122-43.122 43.122-12.06 0-22.641-5.006-30.378-12.743s-12.743-19.115-12.743-30.379V722.83L224.597 877.91c-16.953 16.952-44.6 16.952-61.553 0-16.953-16.954-16.953-44.602 0-61.554L318.009 661.39h-66.446c-24.007 0-43.122-19.114-43.122-43.122 0-24.12 18.432-43.918 42.439-43.918zm521.899-98.873H601.657c-23.325 0-43.122-19.114-43.805-43.804V260.55c0-24.007 19.115-43.122 43.122-43.122 12.06 0 22.642 5.007 30.379 12.743s12.743 19.115 12.743 30.38v66.445l154.965-154.965c16.953-16.953 44.601-16.953 61.554 0 16.953 16.953 16.953 44.6 0 61.554L705.536 388.55h66.446c24.007 0 43.122 19.115 43.122 43.122.114 24.007-18.318 43.804-42.325 43.804z" }));
+n$4.displayName = "CancelFullScreenIcon";
+var a$3 = vue.defineComponent({ name: "FullScreen", props: { enable: { type: Boolean, default: true } }, setup(c2) {
   const { isSupported: s2, isFullscreen: a2, toggle: t2 } = core.useFullscreen();
-  return () => s2 && c2.enable ? vue.h("button", { class: "full-screen", ariaPressed: a2.value, onClick: () => t2() }, a2.value ? vue.h(n$3) : vue.h(r$2)) : null;
+  return () => s2 && c2.enable ? vue.h("button", { class: "full-screen", ariaPressed: a2.value, onClick: () => t2() }, a2.value ? vue.h(n$4) : vue.h(r$2)) : null;
 } });
 var pagination = "";
 var u$6 = vue.defineComponent({ name: "Pagination", props: { total: { type: Number, default: 10 }, perPage: { type: Number, default: 10 }, currentPage: { type: Number, default: 1 } }, emits: ["updateCurrentPage"], setup(a2, { emit: u2 }) {
   const r2 = x$1({ "/": { "prev": "\u4E0A\u4E00\u9875", "next": "\u4E0B\u4E00\u9875", "navigate": "\u8DF3\u8F6C\u5230", "button": "\u524D\u5F80", "errorText": "\u8BF7\u8F93\u5165 1 \u5230 $page \u4E4B\u524D\u7684\u9875\u7801\uFF01" }, "/en/": { "prev": "Prev", "next": "Next", "navigate": "Jump to", "button": "Go", "errorText": "Please enter a number between 1 and $page !" } }), i2 = vue.ref(""), v2 = vue.computed(() => Math.ceil(a2.total / a2.perPage)), o2 = vue.computed(() => Boolean(v2.value) && v2.value !== 1), s2 = vue.computed(() => !(v2.value < 7) && a2.currentPage > 4), c2 = vue.computed(() => !(v2.value < 7) && a2.currentPage < v2.value - 3), p2 = vue.computed(() => {
     const { currentPage: e } = a2;
-    let t2 = 1, l2 = v2.value;
+    let l2 = 1, t2 = v2.value;
     const n2 = [];
-    v2.value >= 7 && (e <= 4 && e < v2.value - 3 ? (t2 = 1, l2 = 5) : e > 4 && e >= v2.value - 3 ? (l2 = v2.value, t2 = v2.value - 4) : v2.value > 7 && (t2 = e - 2, l2 = e + 2));
-    for (let e2 = t2; e2 <= l2; e2++)
+    v2.value >= 7 && (e <= 4 && e < v2.value - 3 ? (l2 = 1, t2 = 5) : e > 4 && e >= v2.value - 3 ? (t2 = v2.value, l2 = v2.value - 4) : v2.value > 7 && (l2 = e - 2, t2 = e + 2));
+    for (let e2 = l2; e2 <= t2; e2++)
       n2.push(e2);
     return n2;
   }), g2 = (e) => u2("updateCurrentPage", e), d2 = (e) => {
     const a3 = parseInt(e);
     a3 <= v2.value && a3 > 0 ? g2(a3) : alert(r2.value.errorText.replace(/\$page/g, v2.value.toString()));
   };
-  return () => vue.h("div", { class: "pagination-wrapper" }, o2.value ? vue.h("div", { class: "pagination-list" }, [vue.h("div", { class: "btn-group" }, [a2.currentPage > 1 ? vue.h("div", { class: "prev", role: "navigation", unselectable: "on", onClick: () => g2(a2.currentPage - 1) }, r2.value.prev) : null, ...s2.value ? [vue.h("div", { role: "navigation", onClick: () => g2(1) }, 1), vue.h("div", { class: "ellipsis" }, "...")] : [], ...p2.value.map((e) => vue.h("div", { key: e, class: { active: a2.currentPage === e }, role: "navigation", onClick: () => g2(e) }, e)), ...c2.value ? [vue.h("div", { class: "ellipsis" }, "..."), vue.h("div", { role: "navigation", onClick: () => g2(v2.value) }, v2.value)] : [], a2.currentPage < v2.value ? vue.h("div", { class: "next", role: "navigation", unselectable: "on", onClick: () => g2(a2.currentPage + 1) }, r2.value.next) : null]), vue.h("div", { class: "navigate-wrapper" }, [vue.h("label", { for: "navigation-text" }, `${r2.value.navigate}: `), vue.h("input", { id: "navigation-text", value: i2.value, onInput: ({ target: e }) => {
+  return () => vue.h("div", { class: "pagination-wrapper" }, o2.value ? vue.h("div", { class: "pagination-list" }, [vue.h("div", { class: "page-number" }, [a2.currentPage > 1 ? vue.h("div", { class: "prev", role: "navigation", unselectable: "on", onClick: () => g2(a2.currentPage - 1) }, r2.value.prev) : null, ...s2.value ? [vue.h("div", { role: "navigation", onClick: () => g2(1) }, 1), vue.h("div", { class: "ellipsis" }, "...")] : [], ...p2.value.map((e) => vue.h("div", { key: e, class: { active: a2.currentPage === e }, role: "navigation", onClick: () => g2(e) }, e)), ...c2.value ? [vue.h("div", { class: "ellipsis" }, "..."), vue.h("div", { role: "navigation", onClick: () => g2(v2.value) }, v2.value)] : [], a2.currentPage < v2.value ? vue.h("div", { class: "next", role: "navigation", unselectable: "on", onClick: () => g2(a2.currentPage + 1) }, r2.value.next) : null]), vue.h("div", { class: "navigate-wrapper" }, [vue.h("label", { for: "navigation-text" }, `${r2.value.navigate}: `), vue.h("input", { id: "navigation-text", value: i2.value, onInput: ({ target: e }) => {
     i2.value = e.value;
   }, onKeydown: (e) => {
     e.key === "Enter" && (e.preventDefault(), d2(i2.value));
@@ -1814,15 +1818,15 @@ const o$3 = ({ title: e, level: t2, slug: s2 }) => vue.h(vueRouter.RouterLink, {
   const l2 = vueRouter.useRoute();
   return e.length && s2 > 0 ? vue.h("ul", { class: "toc-list" }, e.map((e2) => [vue.h("li", { class: ["toc-item", { active: W$1(l2, `#${e2.slug}`) }] }, [o$3(e2)]), c$6(e2.children, s2 - 1)])) : null;
 };
-var p$6 = vue.defineComponent({ name: "TOC", props: { items: { type: Array, default: () => [] }, headingDepth: { type: Number, default: 2 } }, setup(t2) {
+var p$5 = vue.defineComponent({ name: "TOC", props: { items: { type: Array, default: () => [] }, headingDepth: { type: Number, default: 2 } }, setup(t2) {
   const l2 = usePageData(), a2 = x$1({ "/": { "header": "\u6B64\u9875\u5185\u5BB9" }, "/en/": { "header": "On This Page" } });
   return () => {
     const e = t2.items.length ? c$6(t2.items, t2.headingDepth) : l2.value.headers ? c$6(l2.value.headers, t2.headingDepth) : null;
     return vue.h("div", { class: "toc-place-holder" }, [vue.h("aside", { id: "toc-list" }, e ? [vue.h("div", { class: "toc-header" }, a2.value.header), vue.h("div", { class: "toc-wrapper" }, [e])] : [])]);
   };
 } });
-var p$5 = defineClientAppEnhance(({ app: o2 }) => {
-  L$1.name && o2.component("ArticleInfo", L$1), r$3.name && o2.component("Badge", r$3), f$3.name && o2.component("BreadCrumb", f$3), a$4.name && o2.component("FullScreen", a$4), p$6.name && o2.component("TOC", p$6), u$6.name && o2.component("Pagination", u$6);
+var p$4 = defineClientAppEnhance(({ app: o2 }) => {
+  N.name && o2.component("ArticleInfo", N), r$3.name && o2.component("Badge", r$3), f$2.name && o2.component("BreadCrumb", f$2), a$3.name && o2.component("FullScreen", a$3), p$5.name && o2.component("TOC", p$5), u$6.name && o2.component("Pagination", u$6);
 });
 var vars$1 = "";
 var externalLinkIcon = "";
@@ -1876,15 +1880,6 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
   app.component("ExternalLinkIcon", vue.h(ExternalLinkIcon, { locales }));
 });
 const themeData$1 = {
-  "hostname": "https://vuepress-theme-hope-v2-demo.mrhope.site",
-  "author": {
-    "name": "HongShu",
-    "url": "/"
-  },
-  "iconPrefix": "iconfont icon-",
-  "logo": "/logo.svg",
-  "repo": "https://github.com/guomaimang/guomaimang.github.io",
-  "docsDir": "src",
   "blog": {
     "medias": {
       "Email": "mailto:hanjiaming@zhongxueguan.cn",
@@ -1894,21 +1889,58 @@ const themeData$1 = {
       "QQ": "tencent://message/?uin=1374921316",
       "Weibo": "https://weibo.com/3833646158/profile?topnav=1&wvr=6&is_all=1"
     },
-    "avatar": "/avatar.png",
-    "articleInfo": [
-      "Author",
-      "Original",
-      "Date",
-      "Category",
-      "Tag",
-      "ReadingTime"
-    ],
-    "articlePerPage": 10,
-    "sidebarDisplay": "mobile"
+    "avatar": "/avatar.png"
   },
-  "headingDepth": 0,
+  "encrypt": {
+    "config": {
+      "/guide/encrypt.html": [
+        "$2a$10$YAILHEOvyhH55hZ522.xvuGLa3561c3LO.zfA3MTFdd0iTGQWjikm"
+      ],
+      "/zh/guide/encrypt.html": [
+        "$2a$10$sMiDWO.GrKtXhHZ7jRU36Oc2EyxVCg0j3/KEMsPXLAU1Au9x2NPue"
+      ]
+    }
+  },
+  "pure": false,
+  "iconPrefix": "iconfont icon-",
+  "darkmode": "auto-switch",
+  "themeColor": {
+    "red": "#e74c3c",
+    "blue": "#3498db",
+    "green": "#3eaf7c",
+    "orange": "#f39c12",
+    "purple": "#8e44ad"
+  },
+  "fullscreen": true,
   "locales": {
     "/": {
+      "blog": {
+        "description": "\u9999\u6E2F\u7406\u5DE5\u5927\u5B66\u8BA1\u7B97\u673A\u79D1\u5B66\u5728\u8BFB\u672C\u79D1 </br> \u7814\u7A76\u6570\u636E\u79D1\u5B66,\u4F01\u4E1A\u4FE1\u606F\u7BA1\u7406,\u4E91\u8BA1\u7B97\u67B6\u6784",
+        "intro": "/myself.html"
+      },
+      "repoDisplay": true,
+      "navbarIcon": true,
+      "navbarAutoHide": "mobile",
+      "hideSiteNameonMobile": true,
+      "sidebar": {
+        "/": [],
+        "/note/cs/co/": "structure",
+        "/note/cs/os/": "structure",
+        "/note/cs/coding/cpp/": "structure",
+        "/note/ds/": "structure",
+        "/note/it/": "structure",
+        "/note/fork/": "structure",
+        "/note/app/": "structure"
+      },
+      "sidebarIcon": true,
+      "headingDepth": 0,
+      "author": {
+        "name": "HongShu",
+        "url": "/"
+      },
+      "logo": "/logo.svg",
+      "repo": "https://github.com/guomaimang/guomaimang.github.io",
+      "docsDir": "src",
       "navbar": [
         "/",
         {
@@ -2045,22 +2077,8 @@ const themeData$1 = {
           ]
         }
       ],
-      "sidebar": {
-        "/": [],
-        "/note/cs/co/": "structure",
-        "/note/cs/os/": "structure",
-        "/note/cs/coding/cpp/": "structure",
-        "/note/ds/": "structure",
-        "/note/it/": "structure",
-        "/note/fork/": "structure",
-        "/note/app/": "structure"
-      },
       "footer": "Legends never die.",
       "displayFooter": true,
-      "blog": {
-        "description": "\u9999\u6E2F\u7406\u5DE5\u5927\u5B66\u8BA1\u7B97\u673A\u79D1\u5B66\u5728\u8BFB\u672C\u79D1 </br> \u7814\u7A76\u6570\u636E\u79D1\u5B66,\u4F01\u4E1A\u4FE1\u606F\u7BA1\u7406,\u4E91\u8BA1\u7B97\u67B6\u6784",
-        "intro": "/myself.html"
-      },
       "metaLocales": {
         "editLink": "\u7F16\u8F91\u6B64\u9875",
         "prev": "\u4E0A\u4E00\u9875",
@@ -2108,6 +2126,24 @@ const themeData$1 = {
       }
     },
     "/en/": {
+      "blog": {
+        "description": "Computer Science students of </br> Hong Kong Polytechnic University <br> Research in data science, </br> enterprise information management, </br> cloud computing architecture.",
+        "intro": "/myself.html"
+      },
+      "repoDisplay": true,
+      "navbarIcon": true,
+      "navbarAutoHide": "mobile",
+      "hideSiteNameonMobile": true,
+      "sidebar": "structure",
+      "sidebarIcon": true,
+      "headingDepth": 0,
+      "author": {
+        "name": "HongShu",
+        "url": "/"
+      },
+      "logo": "/logo.svg",
+      "repo": "https://github.com/guomaimang/guomaimang.github.io",
+      "docsDir": "src",
       "navbar": [
         {
           "text": "Blog",
@@ -2250,10 +2286,6 @@ const themeData$1 = {
       ],
       "footer": "Legends never die.",
       "displayFooter": true,
-      "blog": {
-        "description": "Computer Science students of </br> Hong Kong Polytechnic University <br> Research in data science, </br> enterprise information management, </br> cloud computing architecture.",
-        "intro": "/myself.html"
-      },
       "metaLocales": {
         "editLink": "Edit this page",
         "prev": "Prev",
@@ -2300,34 +2332,7 @@ const themeData$1 = {
         "home": "Take me home"
       }
     }
-  },
-  "encrypt": {
-    "config": {
-      "/guide/encrypt.html": [
-        "$2a$10$H4oEYfRsLNjuAfHCe5lL2um8BPKWpzLUhVFtrtUfVjdvdX2dniv2O"
-      ],
-      "/zh/guide/encrypt.html": [
-        "$2a$10$1uhlDjL8Q1ks0P1i6xprHO.68uEASCVlv2SWhm8J706jj0nEKw9Le"
-      ]
-    },
-    "global": false
-  },
-  "repoDisplay": true,
-  "navbarIcon": true,
-  "navbarAutoHide": "mobile",
-  "hideSiteNameonMobile": true,
-  "sidebar": "structure",
-  "sidebarIcon": true,
-  "pure": false,
-  "darkmode": "auto-switch",
-  "themeColor": {
-    "red": "#e74c3c",
-    "blue": "#3498db",
-    "green": "#3eaf7c",
-    "orange": "#f39c12",
-    "purple": "#8e44ad"
-  },
-  "fullScreen": true
+  }
 };
 const themeData = vue.ref(themeData$1);
 const useThemeData$1 = () => themeData;
@@ -2367,36 +2372,36 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app }) => {
   });
 });
 var giscus = "";
-const i$5 = { "type": "giscus", "repo": "guomaimang/guomaimang.github.io", "repoId": "MDEwOlJlcG9zaXRvcnkzMjU5Njk1MzQ=", "category": "Ideas", "categoryId": "DIC_kwDOE23mfs4COFlp" }, p$4 = i$5, c$5 = Boolean(p$4 && p$4.type === "giscus" && p$4.repo && p$4.repoId && p$4.category && p$4.categoryId), l$3 = i$5;
-Boolean(l$3 && l$3.type === "twikoo" && l$3.envId);
-const u$5 = i$5;
-Boolean(u$5 && u$5.type === "waline" && u$5.serverURL);
+const i$6 = { "type": "giscus", "repo": "guomaimang/guomaimang.github.io", "repoId": "MDEwOlJlcG9zaXRvcnkzMjU5Njk1MzQ=", "category": "Ideas", "categoryId": "DIC_kwDOE23mfs4COFlp" }, p$3 = i$6, c$5 = Boolean(p$3 && p$3.type === "giscus" && p$3.repo && p$3.repoId && p$3.category && p$3.categoryId), u$5 = i$6;
+Boolean(u$5 && u$5.type === "twikoo" && u$5.envId);
+const l$2 = i$6;
+Boolean(l$2 && l$2.type === "waline" && l$2.serverURL);
 const d$4 = ["de", "gsw", "en", "es", "fr", "id", "it", "ja", "ko", "pl", "ro", "ru", "vi", "zh-CN", "zh-TW"];
-var m$2 = vue.defineComponent({ name: "GiscusComment", props: { darkmode: { type: Boolean, default: false } }, setup(s2) {
-  const i2 = usePageFrontmatter(), l2 = vue.computed(() => {
+var m$2 = vue.defineComponent({ name: "GiscusComment", props: { darkmode: { type: Boolean, default: false } }, setup(r2) {
+  const i2 = usePageFrontmatter(), u2 = vue.computed(() => {
     const e = usePageLang().value;
     if (d$4.includes(e))
       return e;
     const o2 = e.split("-")[0];
     return d$4.includes(o2) ? o2 : "en";
-  }), u2 = vue.computed(() => {
+  }), l2 = vue.computed(() => {
     if (!c$5)
       return false;
-    const e = p$4.comment !== false, o2 = i2.value.comment;
+    const e = p$3.comment !== false, o2 = i2.value.comment;
     return Boolean(o2) || e !== false && o2 !== false;
-  });
-  return () => vue.h("div", { class: "giscus-wrapper", style: { display: u2.value ? "block" : "none" } }, vue.h(ClientOnly, () => vue.h(vue$1.Giscus, { repo: p$4.repo, repoId: p$4.repoId, category: p$4.category, categoryId: p$4.categoryId, lang: l2.value, theme: s2.darkmode ? "dark" : "light", mapping: p$4.mapping || "pathname", inputPosition: p$4.inputPosition || "top", reactionsEnabled: p$4.reactionsEnabled !== false ? "1" : "0", emitMetadata: "0" })));
+  }), m2 = { repo: p$3.repo, repoId: p$3.repoId, category: p$3.category, categoryId: p$3.categoryId, lang: u2.value, theme: r2.darkmode ? "dark" : "light", mapping: p$3.mapping || "pathname", inputPosition: p$3.inputPosition || "top", reactionsEnabled: p$3.reactionsEnabled !== false ? "1" : "0", emitMetadata: "0" };
+  return () => vue.h("div", { class: ["giscus-wrapper", { "input-top": p$3.inputPosition !== "bottom" }], style: { display: l2.value ? "block" : "none" } }, vue.h(ClientOnly, () => vue.h(vue$1.Giscus, m2)));
 } });
 var o$2 = vue.defineComponent({ name: "NoopModule", setup: () => () => null });
-const p$3 = { "type": "giscus", "repo": "guomaimang/guomaimang.github.io", "repoId": "MDEwOlJlcG9zaXRvcnkzMjU5Njk1MzQ=", "category": "Ideas", "categoryId": "DIC_kwDOE23mfs4COFlp" }, s$2 = p$3;
+const p$2 = { "type": "giscus", "repo": "guomaimang/guomaimang.github.io", "repoId": "MDEwOlJlcG9zaXRvcnkzMjU5Njk1MzQ=", "category": "Ideas", "categoryId": "DIC_kwDOE23mfs4COFlp" }, s$2 = p$2;
 Boolean(s$2 && s$2.type === "giscus" && s$2.repo && s$2.repoId && s$2.category && s$2.categoryId);
-const i$4 = p$3;
-Boolean(i$4 && i$4.type === "twikoo" && i$4.envId);
-const c$4 = p$3;
+const i$5 = p$2;
+Boolean(i$5 && i$5.type === "twikoo" && i$5.envId);
+const c$4 = p$2;
 Boolean(c$4 && c$4.type === "waline" && c$4.serverURL);
 var u$4 = vue.defineComponent({ name: "CommentService", props: { darkmode: { type: Boolean, default: false } }, setup(o2) {
-  const t2 = usePageFrontmatter(), s2 = vue.computed(() => t2.value.comment || p$3.comment !== false && t2.value.comment !== false);
-  return () => p$3.type === "waline" ? vue.h(o$2, { style: { display: s2.value ? "block" : "none" } }) : p$3.type === "giscus" ? vue.h(m$2, { darkmode: o2.darkmode, style: { display: s2.value ? "block" : "none" } }) : p$3.type === "twikoo" ? vue.h(o$2, { style: { display: s2.value ? "block" : "none" } }) : null;
+  const t2 = usePageFrontmatter(), s2 = vue.computed(() => t2.value.comment || p$2.comment !== false && t2.value.comment !== false);
+  return () => p$2.type === "waline" ? vue.h(o$2, { style: { display: s2.value ? "block" : "none" } }) : p$2.type === "giscus" ? vue.h(m$2, { darkmode: o2.darkmode, style: { display: s2.value ? "block" : "none" } }) : p$2.type === "twikoo" ? vue.h(o$2, { style: { display: s2.value ? "block" : "none" } }) : null;
 } }), y$2 = defineClientAppEnhance(({ app: e }) => {
   e.component("CommentService", u$4);
 });
@@ -2425,9 +2430,106 @@ var t = vue.defineComponent({ name: "CodeGroup", setup(e, { slots: t2 }) {
     })), a2]));
   };
 } });
-var a$3 = vue.defineComponent({ name: "CodeGroupItem", props: { title: { type: String, required: true }, active: { type: Boolean, required: false, default: false } }, setup: (e, { slots: a2 }) => () => {
+var a$2 = vue.defineComponent({ name: "CodeGroupItem", props: { title: { type: String, required: true }, active: { type: Boolean, default: false } }, setup: (e, { slots: a2 }) => () => {
   var r2;
   return vue.h("div", { class: ["code-group-item", { active: e.active }], ariaSelected: e.active }, (r2 = a2.default) === null || r2 === void 0 ? void 0 : r2.call(a2));
+} });
+var codeDemo = "";
+const n$3 = { "useBabel": false, "jsLib": [], "cssLib": [], "codepenLayout": "left", "codepenEditors": "101", "babel": "https://unpkg.com/@babel/standalone/babel.min.js", "vue": "https://unpkg.com/vue/dist/vue.global.prod.js", "react": "https://unpkg.com/react/umd/react.production.min.js", "reactDOM": "https://unpkg.com/react-dom/umd/react-dom.production.min.js" }, i$4 = { html: { types: ["html", "slim", "haml", "md", "markdown", "vue"], map: { html: "none", vue: "none", md: "markdown" } }, js: { types: ["js", "javascript", "coffee", "coffeescript", "ts", "typescript", "ls", "livescript"], map: { js: "none", javascript: "none", coffee: "coffeescript", ls: "livescript", ts: "typescript" } }, css: { types: ["css", "less", "sass", "scss", "stylus", "styl"], map: { css: "none", styl: "stylus" } } }, r$1 = (e) => __spreadProps(__spreadValues(__spreadValues({}, n$3), e), { jsLib: Array.from(/* @__PURE__ */ new Set([...n$3.jsLib || [], ...e.jsLib || []])), cssLib: Array.from(/* @__PURE__ */ new Set([...n$3.cssLib || [], ...e.cssLib || []])) }), o$1 = (e, t2) => {
+  if (e[t2] !== void 0)
+    return e[t2];
+  const s2 = new Promise((e2) => {
+    var s3;
+    const a2 = document.createElement("script");
+    a2.src = t2, (s3 = document.querySelector("body")) === null || s3 === void 0 || s3.appendChild(a2), a2.onload = () => {
+      e2();
+    };
+  });
+  return e[t2] = s2, s2;
+}, c$3 = (e, t2) => {
+  if (t2.css && Array.from(e.childNodes).every((e2) => e2.nodeName !== "STYLE")) {
+    const s2 = ((e2, t3, s3) => {
+      const a2 = document.createElement(e2);
+      return t3 && Object.keys(t3).forEach((e3) => {
+        if (e3.indexOf("data"))
+          a2[e3] = t3[e3];
+        else {
+          const s4 = e3.replace("data", "");
+          a2.dataset[s4] = t3[e3];
+        }
+      }), s3 && s3.forEach((e3) => {
+        a2.appendChild(e3);
+      }), a2;
+    })("style", { innerHTML: t2.css });
+    e.appendChild(s2);
+  }
+}, p$1 = (e) => e.replace(/<br \/>/g, "<br>").replace(/<((\S+)[^<]*?)\s+\/>/g, "<$1></$2>"), d$3 = (e) => `<div id="app">
+${p$1(e)}
+</div>`, u$3 = (e) => `${e.replace("export default ", "const $reactApp = ").replace(/App\.__style__(\s*)=(\s*)`([\s\S]*)?`/, "")};
+ReactDOM.render(React.createElement($reactApp), document.getElementById("app"))`, m$1 = (e) => e.replace(/export\s+default\s*\{(\n*[\s\S]*)\n*\}\s*;?$/u, "Vue.createApp({$1}).mount('#app')").replace(/export\s+default\s*define(Async)?Component\s*\(\s*\{(\n*[\s\S]*)\n*\}\s*\)\s*;?$/u, "Vue.createApp({$1}).mount('#app')").trim(), v$1 = (e) => `(function(exports){var module={};module.exports=exports;${e};return module.exports.__esModule?module.exports.default:module.exports;})({})`, h$1 = {};
+var y$1 = vue.defineComponent({ name: "CodeDemo", props: { id: { type: String, required: true }, type: { type: String, default: "normal" }, title: { type: String, default: "" }, config: { type: String, default: "" }, code: { type: String, required: true } }, setup(e, { slots: n2 }) {
+  const y2 = vue.ref(false), f2 = vue.ref(null), g2 = vue.ref(null), b2 = vue.ref("0px"), w2 = vue.ref(false), L2 = vue.computed(() => JSON.parse(decodeURIComponent(e.config || "{}"))), j2 = vue.computed(() => ((e2) => {
+    const t2 = Object.keys(e2), s2 = { html: [], js: [], css: [], isLegal: false };
+    return ["html", "js", "css"].forEach((a2) => {
+      const l2 = t2.filter((e3) => i$4[a2].types.includes(e3));
+      if (l2.length) {
+        const t3 = l2[0];
+        s2[a2] = [e2[t3].replace(/^\n|\n$/g, ""), i$4[a2].map[t3] || t3];
+      }
+    }), s2.isLegal = !(s2.html.length && s2.html[1] !== "none" || s2.js.length && s2.js[1] !== "none" || s2.css.length && s2.css[1] !== "none"), s2;
+  })(JSON.parse(decodeURIComponent(e.code || "{}")))), S2 = vue.computed(() => e.type === "react" ? ((e2, t2) => {
+    const s2 = r$1(t2);
+    return __spreadProps(__spreadValues({}, s2), { html: d$3(""), js: u$3(e2.js[0] || ""), css: e2.css[0] || (e2.js[0] ? e2.js[0].replace(/App\.__style__(?:\s*)=(?:\s*)`([\s\S]*)?`/, "$1").trim() : ""), isLegal: e2.isLegal, jsLib: [s2.react, s2.reactDOM, ...s2.jsLib], jsx: true, getScript: () => {
+      var t3, s3;
+      const a2 = ((s3 = (t3 = window.Babel) === null || t3 === void 0 ? void 0 : t3.transform(e2.js[0] || "", { presets: ["es2015", "react"] })) === null || s3 === void 0 ? void 0 : s3.code) || "";
+      return `window.ReactDOM.render(window.React.createElement(${v$1(a2)}), document.firstElementChild)`;
+    } });
+  })(j2.value, L2.value) : e.type === "vue" ? ((e2, t2) => {
+    const s2 = r$1(t2), a2 = e2.html[0] || "", l2 = /<template>([\s\S]+)<\/template>/u.exec(a2), n3 = /<script(\s*lang=(['"])(.*?)\2)?>([\s\S]+)<\/script>/u.exec(a2), i2 = /<style(\s*lang=(['"])(.*?)\2)?\s*(?:scoped)?>([\s\S]+)<\/style>/u.exec(a2), o2 = l2 ? l2[1].replace(/^\n|\n$/g, "") : "", [c2 = "", p2 = ""] = n3 ? [n3[4].replace(/^\n|\n$/g, ""), n3[3]] : [], [u2 = "", h2 = ""] = i2 ? [i2[4].replace(/^\n|\n$/g, ""), i2[3]] : [], y3 = p2 === "" && (h2 === "" || h2 === "css");
+    return __spreadProps(__spreadValues({}, s2), { html: d$3(o2), js: m$1(c2), css: u2, isLegal: y3, jsLib: [s2.vue, ...s2.jsLib], getScript: () => {
+      var e3, s3;
+      const a3 = t2.useBabel ? ((s3 = (e3 = window.Babel) === null || e3 === void 0 ? void 0 : e3.transform(c2, { presets: ["es2015"] })) === null || s3 === void 0 ? void 0 : s3.code) || "" : c2.replace(/export\s+default/u, "return");
+      return `const app=window.document.createElement('div');document.firstElementChild.appendChild(app);const appOptions=${v$1(a3)};appOptions.template=\`${o2.replace("`", '\\`"')}\`;window.Vue.createApp(appOptions).mount(app);`;
+    } });
+  })(j2.value, L2.value) : ((e2, t2) => {
+    const s2 = r$1(t2), a2 = e2.js[0] || "";
+    return __spreadProps(__spreadValues({}, s2), { html: p$1(e2.html[0] || ""), js: a2, css: e2.css[0] || "", isLegal: e2.isLegal, getScript: () => {
+      var e3;
+      return s2.useBabel ? ((e3 = window.Babel.transform(a2, { presets: ["es2015"] })) === null || e3 === void 0 ? void 0 : e3.code) || "" : a2;
+    } });
+  })(j2.value, L2.value)), x2 = vue.computed(() => S2.value.isLegal), C2 = (t2 = false) => {
+    const s2 = f2.value.attachShadow({ mode: "open" }), a2 = document.createElement("div");
+    a2.classList.add("code-demo-app"), s2.appendChild(a2), x2.value ? (t2 && (a2.innerHTML = S2.value.html), c$3(s2, S2.value), ((e2, t3, s3) => {
+      const a3 = s3.getScript();
+      if (a3 && Array.from(t3.childNodes).every((e3) => e3.nodeName !== "SCRIPT")) {
+        const s4 = document.createElement("script");
+        s4.appendChild(document.createTextNode(`{const document=window.document.querySelector('#${e2} .demo-wrapper').shadowRoot;
+${a3}}`)), t3.appendChild(s4);
+      }
+    })(e.id, s2, S2.value), b2.value = "0") : b2.value = "auto", w2.value = true;
+  }, M2 = () => {
+    switch (e.type) {
+      case "react":
+        return ((e2) => Promise.all([o$1(h$1, e2.babel), o$1(h$1, e2.react), o$1(h$1, e2.reactDOM)]))(S2.value).then(() => C2());
+      case "vue":
+        return ((e2) => {
+          const t2 = [o$1(h$1, e2.vue)];
+          return e2.useBabel && t2.push(o$1(h$1, e2.babel)), Promise.all(t2);
+        })(S2.value).then(() => C2());
+      default:
+        return ((e2) => e2.useBabel ? o$1(h$1, e2.babel) : Promise.resolve())(S2.value).then(() => C2(true));
+    }
+  };
+  return vue.onMounted(() => {
+    setTimeout(() => {
+      M2();
+    }, 500);
+  }), () => {
+    var t2;
+    return vue.h("div", { class: "code-demo-wrapper", id: e.id }, [w2.value ? null : vue.h("div", { class: ["loading"], innerHTML: '<svg xmlns="http://www.w3.org/2000/svg" class="loading-icon" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/></circle></svg>' }), vue.h("div", { ref: f2, class: "demo-wrapper", style: { display: x2.value && w2.value ? "block" : "none" } }), vue.h("div", { class: "code-wrapper", style: { height: b2.value } }, vue.h("div", { ref: g2, class: "code-container" }, (t2 = n2.default) === null || t2 === void 0 ? void 0 : t2.call(n2))), vue.h("div", { class: "code-demo-footer" }, [S2.value.isLegal ? vue.h("button", { class: ["toggle-button", { down: !y2.value }], onClick: () => {
+      b2.value = y2.value ? "0" : `${g2.value.clientHeight + 13.8}px`, y2.value = !y2.value;
+    } }) : null, e.title ? vue.h("span", { class: "title" }, decodeURIComponent(e.title)) : null, S2.value.isLegal && L2.value.jsfiddle !== false ? vue.h("form", { className: "code-demo-jsfiddle", target: "_blank", action: "https://jsfiddle.net/api/post/library/pure/", method: "post" }, [vue.h("input", { type: "hidden", name: "html", value: S2.value.html }), vue.h("input", { type: "hidden", name: "js", value: S2.value.js }), vue.h("input", { type: "hidden", name: "css", value: S2.value.css }), vue.h("input", { type: "hidden", name: "wrap", value: "1" }), vue.h("input", { type: "hidden", name: "panel_js", value: "3" }), vue.h("input", { type: "hidden", name: "resources", value: [...S2.value.cssLib, ...S2.value.jsLib].join(",") }), vue.h("button", { type: "submit", className: "button", innerHTML: '<svg class="icon" viewBox="0 0 1170 1024" xmlns="http://www.w3.org/2000/svg" width="228.516" height="200"><defs><style/></defs><path d="M1028.571 441.143q63.429 26.286 102.572 83.143t39.143 126.571q0 93.714-67.429 160.286T940 877.714q-2.286 0-6.571-.285t-6-.286H232q-97.143-5.714-164.571-71.714T0 645.143q0-62.857 31.429-116t84-84q-6.858-22.286-6.858-46.857 0-65.715 46.858-112T269.143 240q54.286 0 98.286 33.143 42.857-88 127.142-141.714t186.572-53.715q94.857 0 174.857 46t126.571 124.857 46.572 172q0 3.429-.286 10.286t-.286 10.286zm-761.142 152q0 69.714 48 110.286T434.286 744q78.285 0 137.143-56.571-9.143-11.429-27.143-32.286t-24.857-28.857q-38.286 37.143-82.286 37.143-31.429 0-53.429-19.143t-22-50q0-30.286 22-49.715T436 525.143q25.143 0 48.286 12T526 568.57t37.143 42.858 39.428 46.857 44 42.857T702 732.57t69.429 12q69.142 0 116.857-40.857T936 594.857q0-69.143-48-109.714T769.714 444.57Q688 444.571 632 500l53.143 61.714q37.714-36.571 81.143-36.571 29.714 0 52.571 18.857t22.857 48q0 32.571-21.143 52.286T766.857 664q-24.571 0-47.143-12t-41.143-31.429-37.428-42.857-39.714-46.857T557.143 488 502 456.571t-67.714-12q-69.715 0-118.286 40.286t-48.571 108.286z"/></svg>', ariaLabel: "JSFiddle", "data-tip": "JSFiddle" })]) : null, S2.value.isLegal && L2.value.codepen === false ? null : vue.h("form", { className: "code-demo-codepen", target: "_blank", action: "https://codepen.io/pen/define", method: "post" }, [vue.h("input", { type: "hidden", name: "data", value: JSON.stringify({ html: S2.value.html, js: S2.value.js, css: S2.value.css, js_external: S2.value.jsLib.join(";"), css_external: S2.value.cssLib.join(";"), layout: S2.value.codepenLayout, html_pre_processor: j2.value ? j2.value.html[1] : "none", js_pre_processor: j2.value ? j2.value.js[1] : S2.value.jsx ? "babel" : "none", css_pre_processor: j2.value ? j2.value.css[1] : "none", editors: S2.value.codepenEditors }) }), vue.h("button", { type: "submit", innerHTML: '<svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="200" height="200"><defs><style/></defs><path d="M123.429 668L468 897.714V692.571L277.143 565.143zM88 585.714L198.286 512 88 438.286v147.428zm468 312L900.571 668 746.857 565.143 556 692.57v205.143zM512 616l155.429-104L512 408 356.571 512zM277.143 458.857L468 331.43V126.286L123.429 356zM825.714 512L936 585.714V438.286zm-78.857-53.143L900.571 356 556 126.286v205.143zM1024 356v312q0 23.429-19.429 36.571l-468 312Q524.571 1024 512 1024t-24.571-7.429l-468-312Q0 691.43 0 668V356q0-23.429 19.429-36.571l468-312Q499.429 0 512 0t24.571 7.429l468 312Q1024 332.57 1024 356z"/></svg>', className: "button", ariaLabel: "Codepen", "data-tip": "Codepen" })])])]);
+  };
 } });
 var chart = "";
 const loadingSvgString = '<svg xmlns="http://www.w3.org/2000/svg" class="loading-icon" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/></circle></svg>', parseChartConfig = (str) => JSON.parse(str, (_key, value) => {
@@ -2450,11 +2552,11 @@ var ChartJS = vue.defineComponent({ name: "ChartJS", props: { title: { type: Str
   }), () => [e.title ? vue.h("div", { class: "chart-title" }, e.title) : null, r2.value ? vue.h("div", { class: ["chart-loading-wrapper"], innerHTML: loadingSvgString }) : null, vue.h("div", { ref: t2, class: "chart-wrapper", id: e.id, style: { display: r2.value ? "none" : "block" } }, vue.h("canvas", { ref: i2, height: 400 }))];
 } });
 var flowchart = "";
-var s$1 = { x: 0, y: 0, "line-width": 2, "line-length": 40, "text-margin": 8, "font-size": 14, "font-color": "#8DA1AC", "line-color": "#8DA1AC", "element-color": "black", fill: "white", "yes-text": "Yes", "no-text": "No", "arrow-end": "block", scale: 1 }, c$3 = __spreadProps(__spreadValues({}, s$1), { symbols: { start: { class: "start-element", "font-color": "#fff", fill: "#595959", "line-width": "0px" }, end: { class: "end-element", "font-color": "#fff", fill: "#595959", "line-width": "0px" }, operation: { class: "operation-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" }, inputoutput: { class: "inputoutput-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" }, subroutine: { class: "subroutine-element", "font-color": "#fff", fill: "#FF485E", "element-color": "#fff", "line-color": "red" }, condition: { class: "condition-element", "font-color": "#fff", fill: "#FF485E", "line-width": "0px" }, parallel: { class: "parallel-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" } } }), a$2 = __spreadProps(__spreadValues({}, s$1), { "line-width": 1, symbols: { start: { class: "start-element", fill: "#ccc", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, end: { class: "end-element", fill: "#ccc", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, operation: { class: "operation-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, inputoutput: { class: "inputoutput-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, subroutine: { class: "subroutine-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, condition: { class: "condition-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, parallel: { class: "parallel-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" } } }), f$2 = { ant: c$3, vue: __spreadProps(__spreadValues({}, s$1), { symbols: { start: { class: "start-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" }, end: { class: "end-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" }, operation: { class: "operation-element", "font-color": "#fff", fill: "#00BC7D", "line-width": "0px" }, inputoutput: { class: "inputoutput-element", "font-color": "#fff", fill: "#EB4D5D", "line-width": "0px" }, subroutine: { class: "subroutine-element", "font-color": "#fff", fill: "#937AC4", "element-color": "#fff", "line-color": "red" }, condition: { class: "condition-element", "font-color": "#fff", fill: "#FFB500", "line-width": "0px" }, parallel: { class: "parallel-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" } } }), pie: a$2 }, p$2 = vue.defineComponent({ name: "FlowChart", props: { code: { type: String, required: true }, id: { type: String, required: true }, preset: { type: String, default: "vue" } }, setup(e) {
+var s$1 = { x: 0, y: 0, "line-width": 2, "line-length": 40, "text-margin": 8, "font-size": 14, "font-color": "#8DA1AC", "line-color": "#8DA1AC", "element-color": "black", fill: "white", "yes-text": "Yes", "no-text": "No", "arrow-end": "block", scale: 1 }, c$2 = __spreadProps(__spreadValues({}, s$1), { symbols: { start: { class: "start-element", "font-color": "#fff", fill: "#595959", "line-width": "0px" }, end: { class: "end-element", "font-color": "#fff", fill: "#595959", "line-width": "0px" }, operation: { class: "operation-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" }, inputoutput: { class: "inputoutput-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" }, subroutine: { class: "subroutine-element", "font-color": "#fff", fill: "#FF485E", "element-color": "#fff", "line-color": "red" }, condition: { class: "condition-element", "font-color": "#fff", fill: "#FF485E", "line-width": "0px" }, parallel: { class: "parallel-element", "font-color": "#fff", fill: "#1890ff", "line-width": "0px" } } }), a$1 = __spreadProps(__spreadValues({}, s$1), { "line-width": 1, symbols: { start: { class: "start-element", fill: "#ccc", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, end: { class: "end-element", fill: "#ccc", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, operation: { class: "operation-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, inputoutput: { class: "inputoutput-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, subroutine: { class: "subroutine-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, condition: { class: "condition-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" }, parallel: { class: "parallel-element", fill: "#f1f1f1", "line-width": "1px", "line-color": "#5c6ac4", "font-color": "#000" } } }), f$1 = { ant: c$2, vue: __spreadProps(__spreadValues({}, s$1), { symbols: { start: { class: "start-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" }, end: { class: "end-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" }, operation: { class: "operation-element", "font-color": "#fff", fill: "#00BC7D", "line-width": "0px" }, inputoutput: { class: "inputoutput-element", "font-color": "#fff", fill: "#EB4D5D", "line-width": "0px" }, subroutine: { class: "subroutine-element", "font-color": "#fff", fill: "#937AC4", "element-color": "#fff", "line-color": "red" }, condition: { class: "condition-element", "font-color": "#fff", fill: "#FFB500", "line-width": "0px" }, parallel: { class: "parallel-element", "font-color": "#fff", fill: "#2F495F", "line-width": "0px" } } }), pie: a$1 }, p = vue.defineComponent({ name: "FlowChart", props: { code: { type: String, required: true }, id: { type: String, required: true }, preset: { type: String, default: "vue" } }, setup(e) {
   let s2, c2;
   const a2 = vue.ref(), p2 = vue.ref(true), d2 = vue.ref(1), u2 = vue.computed(() => {
-    const l2 = f$2[e.preset];
-    return l2 || (console.warn(`[md-enhance:flowchart] Unknown preset: ${e.preset}`), f$2.vue);
+    const l2 = f$1[e.preset];
+    return l2 || (console.warn(`[md-enhance:flowchart] Unknown preset: ${e.preset}`), f$1.vue);
   }), m2 = (e2) => e2 < 419 ? 0.8 : e2 > 1280 ? 1 : 0.9;
   return vue.onMounted(() => {
     Promise.all([Promise.resolve().then(function() {
@@ -2471,7 +2573,7 @@ var s$1 = { x: 0, y: 0, "line-width": 2, "line-length": 40, "text-margin": 8, "f
   }), () => [p2.value ? vue.h("div", { class: ["flowchart-loading-wrapper"], innerHTML: '<svg xmlns="http://www.w3.org/2000/svg" class="loading-icon" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.3333333333333333s"/></circle><circle cx="50" cy="50" r="0" fill="none" stroke="currentColor" stroke-width="2"><animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/><animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.6666666666666666s"/></circle></svg>' }) : null, vue.h("div", { ref: a2, class: ["flowchart-wrapper", e.preset], id: e.id, style: { display: p2.value ? "none" : "block" } })];
 } });
 var mermaid = "";
-const d$3 = () => vue.h(T$2, { name: "loading" }, () => ["0s", "-0.333s", "-0.667s"].map((r2) => vue.h("circle", { cx: 50, cy: 50, r: 0, fill: "none", stroke: "currentColor", strokeWidth: "2" }, [vue.h("animate", { attributeName: "r", repeatCount: "indefinite", dur: "1s", values: "0;40", keyTimes: "0;1", keySplines: "0 0.2 0.8 1", calcMode: "spline", begin: r2 }), vue.h("animate", { attributeName: "opacity", repeatCount: "indefinite", dur: "1s", values: "1;0", keyTimes: "0;1", keySplines: "0.2 0 0.8 1", calcMode: "spline", begin: r2 })]))), n$2 = (e) => ({ dark: e, background: e ? "#1e1e1e" : "#fff", primaryColor: e ? "#389d70" : "#4abf8a", primaryBorderColor: e ? "#389d70" : "#4abf8a", primaryTextColor: "#fff", secondaryColor: "#f39c12", secondaryBorderColor: e ? "#fff" : "#000", secondaryTextColor: e ? "#ddd" : "#333", tertiaryColor: e ? "#22182d" : "#eeeaf3", tertiaryBorderColor: e ? "#fff" : "#000", tertiaryTextColor: e ? "#ddd" : "#333", noteBkgColor: e ? "#f6d365" : "#fff5ad", noteTextColor: "#242424", noteBorderColor: e ? "#f6d365" : "#333", lineColor: e ? "#d3d3d3" : "#333", textColor: e ? "#fff" : "#242424", mainBkg: e ? "#389d70" : "#4abf8a", errorBkgColor: "#eb4d5d", errorTextColor: "#fff", nodeBorder: e ? "#389d70" : "#4abf8a", nodeTextColor: e ? "#fff" : "#242424", signalTextColor: e ? "#9e9e9e" : "#242424", classText: "#fff", labelColor: "#fff", fillType0: e ? "#cf1322" : "#f1636e", fillType1: "#f39c12", fillType2: "#2ecc71", fillType3: "#fa541c", fillType4: "#25a55b", fillType5: "#13c2c2", fillType6: "#096dd9", fillType7: "#aa6fe9" });
+const d$2 = () => vue.h(T$2, { name: "loading" }, () => ["0s", "-0.333s", "-0.667s"].map((r2) => vue.h("circle", { cx: 50, cy: 50, r: 0, fill: "none", stroke: "currentColor", strokeWidth: "2" }, [vue.h("animate", { attributeName: "r", repeatCount: "indefinite", dur: "1s", values: "0;40", keyTimes: "0;1", keySplines: "0 0.2 0.8 1", calcMode: "spline", begin: r2 }), vue.h("animate", { attributeName: "opacity", repeatCount: "indefinite", dur: "1s", values: "1;0", keyTimes: "0;1", keySplines: "0.2 0 0.8 1", calcMode: "spline", begin: r2 })]))), n$2 = (e) => ({ dark: e, background: e ? "#1e1e1e" : "#fff", primaryColor: e ? "#389d70" : "#4abf8a", primaryBorderColor: e ? "#389d70" : "#4abf8a", primaryTextColor: "#fff", secondaryColor: "#f39c12", secondaryBorderColor: e ? "#fff" : "#000", secondaryTextColor: e ? "#ddd" : "#333", tertiaryColor: e ? "#22182d" : "#eeeaf3", tertiaryBorderColor: e ? "#fff" : "#000", tertiaryTextColor: e ? "#ddd" : "#333", noteBkgColor: e ? "#f6d365" : "#fff5ad", noteTextColor: "#242424", noteBorderColor: e ? "#f6d365" : "#333", lineColor: e ? "#d3d3d3" : "#333", textColor: e ? "#fff" : "#242424", mainBkg: e ? "#389d70" : "#4abf8a", errorBkgColor: "#eb4d5d", errorTextColor: "#fff", nodeBorder: e ? "#389d70" : "#4abf8a", nodeTextColor: e ? "#fff" : "#242424", signalTextColor: e ? "#9e9e9e" : "#242424", classText: "#fff", labelColor: "#fff", fillType0: e ? "#cf1322" : "#f1636e", fillType1: "#f39c12", fillType2: "#2ecc71", fillType3: "#fa541c", fillType4: "#25a55b", fillType5: "#13c2c2", fillType6: "#096dd9", fillType7: "#aa6fe9" });
 var s = vue.defineComponent({ name: "MermaidChart", props: { id: { type: String, required: true } }, setup(r2) {
   const i2 = vue.ref(""), s2 = vue.ref();
   let f2;
@@ -2497,13 +2599,13 @@ var s = vue.defineComponent({ name: "MermaidChart", props: { id: { type: String,
     });
   }), vue.onBeforeUnmount(() => {
     f2.disconnect();
-  }), () => vue.h("div", { ref: s2, class: ["md-enhance-mermaid", { loading: !i2.value }] }, i2.value ? vue.h("div", { class: "content", innerHTML: i2.value }) : vue.h(d$3));
+  }), () => vue.h("div", { ref: s2, class: ["md-enhance-mermaid", { loading: !i2.value }] }, i2.value ? vue.h("div", { class: "content", innerHTML: i2.value }) : vue.h(d$2));
 } });
 var index$3 = "";
 var leagueGothic = "";
 var sourceSansPro = "";
 const n$1 = () => vue.h(T$2, { name: "loading" }, () => ["0s", "-0.333s", "-0.667s"].map((s2) => vue.h("circle", { cx: 50, cy: 50, r: 0, fill: "none", stroke: "currentColor", strokeWidth: "2" }, [vue.h("animate", { attributeName: "r", repeatCount: "indefinite", dur: "1s", values: "0;40", keyTimes: "0;1", keySplines: "0 0.2 0.8 1", calcMode: "spline", begin: s2 }), vue.h("animate", { attributeName: "opacity", repeatCount: "indefinite", dur: "1s", values: "1;0", keyTimes: "0;1", keySplines: "0.2 0 0.8 1", calcMode: "spline", begin: s2 })])));
-var o$1 = vue.defineComponent({ name: "PresentationViewer", props: { id: { type: String, required: true }, theme: { type: String, default: "auto" } }, setup(s2) {
+var o = vue.defineComponent({ name: "PresentationViewer", props: { id: { type: String, required: true }, theme: { type: String, default: "auto" } }, setup(s2) {
   const r2 = usePageFrontmatter(), o2 = vue.ref(""), u2 = vue.ref(false), p2 = vue.ref(), d2 = vue.ref();
   let m2;
   return vue.onMounted(() => {
@@ -2535,7 +2637,7 @@ var o$1 = vue.defineComponent({ name: "PresentationViewer", props: { id: { type:
     m2 == null || m2.destroy();
   }), () => vue.h("div", { ref: p2, class: { "md-enhance-presentation": true, loading: u2.value } }, [u2.value ? vue.h(n$1) : null, vue.h("div", { ref: d2, class: ["reveal", "reveal-viewport"] }, vue.h("div", { class: "slides", style: { display: u2.value ? "none" : "block" }, innerHTML: `<section data-markdown data-separator="^\\r?\\n---\\r?\\n$" data-separator-vertical="^\\r?\\n--\\r?\\n$"><script type="text/template">${o2.value}<\/script></section>` }))]);
 } });
-var p$1 = defineClientAppEnhance(({ app: o2 }) => {
+var i$3 = defineClientAppEnhance(({ app: o$12 }) => {
   Promise.resolve().then(function() {
     return align$1;
   }), Promise.resolve().then(function() {
@@ -2544,14 +2646,33 @@ var p$1 = defineClientAppEnhance(({ app: o2 }) => {
     return footnote$1;
   }), Promise.resolve().then(function() {
     return image$1;
-  }), ChartJS.name && o2.component("ChartJS", ChartJS), t.name && (o2.component("CodeGroup", t), o2.component("CodeGroupItem", a$3)), p$2.name && o2.component("FlowChart", p$2), s.name && o2.component("MermaidChart", s), o$1.name && o2.component("PresentationViewer", o$1), Promise.resolve().then(function() {
+  }), ChartJS.name && o$12.component("ChartJS", ChartJS), y$1.name && o$12.component("CodeDemo", y$1), t.name && (o$12.component("CodeGroup", t), o$12.component("CodeGroupItem", a$2)), p.name && o$12.component("FlowChart", p), s.name && o$12.component("MermaidChart", s), o.name && o$12.component("PresentationViewer", o), Promise.resolve().then(function() {
     return tasklist$1;
   }), Promise.resolve().then(function() {
     return tex$1;
-  }), Promise.resolve().then(function() {
-    return katex_min$1;
   });
 });
+const useThemeData = () => useThemeData$1();
+const useThemeLocaleData = () => useThemeLocaleData$1();
+const useIconPrefix = () => vue.computed(() => useThemeData().value.iconPrefix);
+const usePure = () => vue.computed(() => Boolean(useThemeData().value.pure));
+const useMobile = () => {
+  const themeData2 = useThemeData();
+  const isMobile = vue.ref(false);
+  const mobileHandler = () => {
+    isMobile.value = window.innerWidth <= (themeData2.value.mobileBreakPoint || 719);
+  };
+  vue.onMounted(() => {
+    mobileHandler();
+    window.addEventListener("orientationchange", mobileHandler, false);
+    window.addEventListener("resize", mobileHandler, false);
+  });
+  vue.onUnmounted(() => {
+    window.removeEventListener("orientationchange", mobileHandler, false);
+    window.removeEventListener("resize", mobileHandler, false);
+  });
+  return isMobile;
+};
 const useNavigate = () => {
   const router = vueRouter.useRouter();
   const route = vueRouter.useRoute();
@@ -2579,10 +2700,6 @@ const useAutoLink = (item) => {
     link: resolved.name === "404" ? item : resolved.fullPath
   };
 };
-const useThemeData = () => useThemeData$1();
-const useThemeLocaleData = () => useThemeLocaleData$1();
-const useIconPrefix = () => vue.computed(() => useThemeData().value.iconPrefix);
-const usePure = () => vue.computed(() => Boolean(useThemeData().value.pure));
 const resolveRepoType = (repo) => !isLinkHttp(repo) || /github\.com/.test(repo) ? "GitHub" : /bitbucket\.org/.test(repo) ? "Bitbucket" : /gitlab\.com/.test(repo) ? "GitLab" : /gitee\.com/.test(repo) ? "Gitee" : null;
 const editLinkPatterns = {
   GitHub: ":repo/edit/:branch/:path",
@@ -2722,7 +2839,7 @@ const usePageInfo = () => {
     tag: tag2.value,
     isOriginal: frontmatter.value.isOriginal,
     readingTime: page2.value.readingTime,
-    pageview: "pageview" in frontmatter.value ? frontmatter.value.pageview : true,
+    pageview: "pageview" in frontmatter.value ? frontmatter.value.pageview : false,
     color: !pure.value,
     hint: !pure.value
   });
@@ -3000,7 +3117,7 @@ const renderChildren = (children) => {
     ]);
   }));
 };
-const sidebarData = { "/note/cs/co/": ["README.md", { "text": "Combinational Logic", "collapsable": true, "prefix": "Introduction-To-DigitalLogic/", "children": ["Combinational-Logic1.md", "Combinational-Logic2.md", "Combinational-Logic3.md", "Combinational-Logic4.md"] }, { "text": "Digital System", "collapsable": true, "prefix": "digital-system/", "children": ["digital-system1.md", "digital-system2.md", "digital-system3.md"] }, { "text": "Memory", "collapsable": true, "prefix": "Memory/", "children": ["Introduction-to-Computer-Memory-and-Cache-Memory.md", "Internal-Memory.md", "External-Memory.md"] }, { "text": "MIPS", "collapsable": true, "prefix": "MIPS/", "children": ["MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E81.md", "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E82.md", "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E83.md"] }], "/note/cs/os/": ["README.md", "Interrupt-and-system-call.md", "CPU-Scheduling.md", "Process-Management.md", "core-process-and-thread.md", "Memory-in-os.md", "Virtual-Memory.md", { "text": "Assembly language", "collapsable": true, "prefix": "asm/", "children": ["gnu-gdb-std.md", "llvm-std.md", "x86_64-asm-std1.md", "x86_64-asm-std2.md", "Y86-64-processer-arch.md"] }], "/note/cs/coding/cpp/": ["README.md", { "text": "Getting Started Guide", "collapsable": true, "prefix": "start/", "children": ["cpp-std1.md", "cpp-std2.md", "cpp-std3.md"] }, { "text": "Related Knowledge Guide", "collapsable": true, "prefix": "related/", "children": ["Block-Collection-std.md", "char-array-pointer.md", "const-and-static-const.md", "cpp-oop-std.md", "Searching-Algorithms.md", "argc-argv.md", "cpp-pointer-thinking.md", "recursion-practice.md"] }], "/note/ds/": [], "/note/it/": [], "/note/fork/": [], "/note/app/": [] };
+const sidebarData = { "/note/ds/": [], "/note/it/": [], "/note/fork/": [], "/note/app/": [], "/note/cs/co/": ["README.md", { "text": "Combinational Logic", "collapsable": true, "prefix": "Introduction-To-DigitalLogic/", "children": ["Combinational-Logic1.md", "Combinational-Logic2.md", "Combinational-Logic3.md", "Combinational-Logic4.md"] }, { "text": "Digital System", "collapsable": true, "prefix": "digital-system/", "children": ["digital-system1.md", "digital-system2.md", "digital-system3.md"] }, { "text": "Memory", "collapsable": true, "prefix": "Memory/", "children": ["Introduction-to-Computer-Memory-and-Cache-Memory.md", "Internal-Memory.md", "External-Memory.md"] }, { "text": "MIPS", "collapsable": true, "prefix": "MIPS/", "children": ["MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E81.md", "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E82.md", "MIPS\u6C47\u7F16\u8BED\u8A00\u7B80\u6613\u5165\u95E83.md"] }], "/note/cs/os/": ["README.md", "Interrupt-and-system-call.md", "CPU-Scheduling.md", "Process-Management.md", "core-process-and-thread.md", "Memory-in-os.md", "Virtual-Memory.md", { "text": "Assembly language", "collapsable": true, "prefix": "asm/", "children": ["gnu-gdb-std.md", "llvm-std.md", "x86_64-asm-std1.md", "x86_64-asm-std2.md", "Y86-64-processer-arch.md"] }], "/note/cs/coding/cpp/": ["README.md", { "text": "Getting Started Guide", "collapsable": true, "prefix": "start/", "children": ["cpp-std1.md", "cpp-std2.md", "cpp-std3.md"] }, { "text": "Related Knowledge Guide", "collapsable": true, "prefix": "related/", "children": ["Block-Collection-std.md", "char-array-pointer.md", "const-and-static-const.md", "cpp-oop-std.md", "Searching-Algorithms.md", "argc-argv.md", "cpp-pointer-thinking.md", "recursion-practice.md"] }], "/en/": ["README.md"] };
 const resolvePrefix = (prefix2 = "", path = "") => path.startsWith("/") ? path : `${ensureEndingSlash(prefix2)}${path}`;
 const headerToSidebarItem = (header, headingDepth) => {
   const page2 = usePageData();
@@ -3019,15 +3136,28 @@ const resolveHeadingSidebarItems = (headingDepth) => {
 const resolveArraySidebarItems = (sidebarConfig, headingDepth, prefix2 = "") => {
   const page2 = usePageData();
   const route = vueRouter.useRoute();
+  if (!Array.isArray(sidebarConfig)) {
+    console.warn(`Expecting array, but getting invalid sidebar config${prefix2 ? ` under ${prefix2}` : ""} with:`, sidebarConfig);
+    return [];
+  }
   const handleChildItem = (item, pathPrefix = prefix2) => {
     var _a;
     const childItem = isString(item) ? useAutoLink(resolvePrefix(pathPrefix, item)) : item.link ? __spreadValues(__spreadValues({}, item), !isLinkExternal(item.link) ? { link: useAutoLink(resolvePrefix(pathPrefix, item.link)).link } : {}) : item;
     if ("children" in childItem) {
       const prefix3 = resolvePrefix(pathPrefix, childItem.prefix);
+      const children = childItem.children === "structure" ? sidebarData[prefix3] : childItem.children;
+      if (!Array.isArray(children)) {
+        console.warn(`Expecting array, but getting invalid sidebar config${prefix3 ? ` under ${prefix3}` : ""} with:`, children);
+        return __spreadProps(__spreadValues({
+          type: "group"
+        }, childItem), {
+          children: []
+        });
+      }
       return __spreadProps(__spreadValues({
         type: "group"
       }, childItem), {
-        children: childItem.children === "structure" ? sidebarData[prefix3].map((item2) => handleChildItem(item2, prefix3)) : childItem.children.map((item2) => handleChildItem(item2, prefix3))
+        children: children.map((item2) => handleChildItem(item2, prefix3))
       });
     }
     return __spreadProps(__spreadValues({
@@ -3082,19 +3212,15 @@ var CommonWrapper = vue.defineComponent({
     sidebar: {
       type: Boolean,
       default: true
-    },
-    toggleSidebar: {
-      type: Boolean,
-      default: false
     }
   },
   setup(props, { slots }) {
     const router = vueRouter.useRouter();
     const page2 = usePageData();
     const frontmatter = usePageFrontmatter();
-    const themeData2 = useThemeData();
     const themeLocale = useThemeLocaleData();
     const { isGlobalEncrypted, validateGlobalToken } = useGlobalEcrypt();
+    const isMobile = useMobile();
     const hideNavbar = vue.ref(false);
     const enableNavbar = vue.computed(() => {
       if (props.navbar === false)
@@ -3109,9 +3235,13 @@ var CommonWrapper = vue.defineComponent({
         return false;
       return frontmatter.value.sidebar !== false && sidebarItems.value.length !== 0 && !frontmatter.value.home;
     });
-    const isSidebarOpen = vue.ref(false);
-    const toggleSidebar = (to) => {
-      isSidebarOpen.value = typeof to === "boolean" ? to : !isSidebarOpen.value;
+    const isMobileSidebarOpen = vue.ref(false);
+    const isDesktopSidebarOpen = vue.ref(true);
+    const toggleMobileSidebar = (value2) => {
+      isMobileSidebarOpen.value = typeof value2 === "boolean" ? value2 : !isMobileSidebarOpen.value;
+    };
+    const toggleDesktopSidebar = (value2) => {
+      isDesktopSidebarOpen.value = typeof value2 === "boolean" ? value2 : !isDesktopSidebarOpen.value;
     };
     const touchStart = { x: 0, y: 0 };
     const onTouchStart = (e) => {
@@ -3123,62 +3253,56 @@ var CommonWrapper = vue.defineComponent({
       const dy = e.changedTouches[0].clientY - touchStart.y;
       if (Math.abs(dx) > Math.abs(dy) * 1.5 && Math.abs(dx) > 40) {
         if (dx > 0 && touchStart.x <= 80)
-          toggleSidebar(true);
+          toggleMobileSidebar(true);
         else
-          toggleSidebar(false);
+          toggleMobileSidebar(false);
       }
     };
     const enableToc = vue.computed(() => frontmatter.value.toc || themeLocale.value.toc !== false && frontmatter.value.toc !== false);
-    const containerClass = vue.computed(() => [
-      "theme-container",
-      {
-        "no-navbar": !enableNavbar.value,
-        "no-sidebar": !enableSidebar.value,
-        "disable-sidebar": !enableNavbar.value && !props.toggleSidebar,
-        "has-toc": enableToc.value,
-        "hide-navbar": hideNavbar.value,
-        "sidebar-open": isSidebarOpen.value
-      },
-      frontmatter.value.containerClass || ""
-    ]);
     const getScrollTop = () => window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    const handler = () => {
-      if (window.innerWidth > (themeData2.value.mobileBreakPoint || 719))
-        toggleSidebar(false);
-    };
     let unregisterRouterHook;
     let lastDistance = 0;
     const scrollHandler = throttle__default["default"](() => {
       const distance = getScrollTop();
       if (lastDistance < distance && distance > 58) {
-        if (!isSidebarOpen.value)
+        if (!isMobileSidebarOpen.value)
           hideNavbar.value = true;
       } else
         hideNavbar.value = false;
       lastDistance = distance;
     }, 300);
+    vue.watch(isMobile, (value2) => {
+      if (!value2)
+        toggleMobileSidebar(false);
+    });
     vue.onMounted(() => {
       unregisterRouterHook = router.afterEach(() => {
-        toggleSidebar(false);
+        toggleMobileSidebar(false);
       });
-      window.addEventListener("orientationchange", handler, false);
-      window.addEventListener("resize", handler, false);
       window.addEventListener("scroll", scrollHandler);
     });
     vue.onUnmounted(() => {
       unregisterRouterHook();
-      window.removeEventListener("orientationchange", handler, false);
-      window.removeEventListener("resize", handler, false);
       window.removeEventListener("scroll", scrollHandler);
     });
     return () => {
       var _a;
       return vue.h("div", {
-        class: containerClass.value,
+        class: [
+          "theme-container",
+          {
+            "no-navbar": !enableNavbar.value,
+            "no-sidebar": !enableSidebar.value && !(slots.sidebar || slots.sidebarTop || slots.sidebarBottom),
+            "has-toc": enableToc.value,
+            "hide-navbar": hideNavbar.value,
+            "sidebar-open": isMobile.value ? isMobileSidebarOpen.value : isDesktopSidebarOpen.value
+          },
+          frontmatter.value.containerClass || ""
+        ],
         onTouchStart,
         onTouchEnd
       }, isGlobalEncrypted.value ? vue.h(PasswordModal, { full: true, onVerify: validateGlobalToken }) : [
-        enableNavbar.value ? vue.h(vue.resolveComponent("Navbar"), { onToggleSidebar: () => toggleSidebar() }, {
+        enableNavbar.value ? vue.h(vue.resolveComponent("Navbar"), { onToggleSidebar: () => toggleMobileSidebar() }, {
           left: () => {
             var _a2;
             return (_a2 = slots.navbarLeft) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
@@ -3200,15 +3324,23 @@ var CommonWrapper = vue.defineComponent({
             return (_a2 = slots.navScreenBottom) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
           }
         }) : null,
-        vue.h(vue.Transition, { name: "fade" }, () => isSidebarOpen.value ? vue.h("div", {
+        vue.h(vue.Transition, { name: "fade" }, () => isMobileSidebarOpen.value ? vue.h("div", {
           class: "sidebar-mask",
-          onClick: () => toggleSidebar(false)
+          onClick: () => toggleMobileSidebar(false)
         }) : null),
-        vue.h(vue.resolveComponent("Sidebar"), {}, {
-          default: slots.sidebar ? () => {
-            var _a2;
-            return (_a2 = slots.sidebar) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
-          } : void 0,
+        vue.h(vue.Transition, { name: "fade" }, () => isMobile.value ? null : vue.h("div", {
+          class: "toggle-sidebar-wrapper",
+          onClick: () => toggleDesktopSidebar()
+        }, vue.h("span", {
+          class: [
+            "arrow",
+            isDesktopSidebarOpen.value ? "left" : "right"
+          ]
+        }))),
+        vue.h(vue.resolveComponent("Sidebar"), {}, __spreadProps(__spreadValues({}, slots.sidebar ? { default: () => {
+          var _a2;
+          return (_a2 = slots.sidebar) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
+        } } : {}), {
           top: () => {
             var _a2;
             return (_a2 = slots.sidebarTop) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
@@ -3217,7 +3349,7 @@ var CommonWrapper = vue.defineComponent({
             var _a2;
             return (_a2 = slots.sidebarBottom) === null || _a2 === void 0 ? void 0 : _a2.call(slots);
           }
-        }),
+        })),
         (_a = slots.default) === null || _a === void 0 ? void 0 : _a.call(slots),
         vue.h(PageFooter)
       ]);
@@ -3319,8 +3451,8 @@ var HomeFeatures = vue.defineComponent({
       return features.value.length ? vue.h("div", { class: "features" }, (_a = frontmatter.value.features) === null || _a === void 0 ? void 0 : _a.map((feature) => {
         const children = [
           getIcon(feature.icon),
-          vue.h("h2", feature.title),
-          vue.h("p", feature.details)
+          vue.h("h2", { innerHTML: feature.title }),
+          vue.h("p", { innerHTML: feature.details })
         ];
         return feature.link ? isLinkExternal(feature.link) ? vue.h("a", {
           class: "feature link",
@@ -3344,6 +3476,16 @@ var HomeHero = vue.defineComponent({
   setup() {
     const frontmatter = usePageFrontmatter();
     const siteLocale = useSiteLocaleData();
+    const heroText = vue.computed(() => {
+      if (frontmatter.value.heroText === null)
+        return null;
+      return frontmatter.value.heroText || siteLocale.value.title || "Hello";
+    });
+    const tagline = vue.computed(() => {
+      if (frontmatter.value.tagline === null)
+        return null;
+      return frontmatter.value.tagline || siteLocale.value.description || "Welcome to your VuePress site";
+    });
     const heroImage = vue.computed(() => {
       if (!frontmatter.value.heroImage)
         return null;
@@ -3354,17 +3496,7 @@ var HomeHero = vue.defineComponent({
         return null;
       return withBase(frontmatter.value.heroImageDark);
     });
-    const heroText = vue.computed(() => {
-      if (frontmatter.value.heroText === null)
-        return null;
-      return frontmatter.value.heroText || siteLocale.value.title || "Hello";
-    });
     const heroAlt = vue.computed(() => frontmatter.value.heroAlt || heroText.value || "hero");
-    const tagline = vue.computed(() => {
-      if (frontmatter.value.tagline === null)
-        return null;
-      return frontmatter.value.tagline || siteLocale.value.description || "Welcome to your VuePress site";
-    });
     const actions = vue.computed(() => {
       if (!isArray(frontmatter.value.actions))
         return [];
@@ -3996,9 +4128,9 @@ var ToggleFullScreen = vue.defineComponent({
   setup() {
     const themeLocale = useThemeLocaleData();
     const FullScreen = vue.resolveComponent("FullScreen");
-    const fullScreenLocale = vue.computed(() => themeLocale.value.outlookLocales.fullscreen);
+    const fullscreenLocale = vue.computed(() => themeLocale.value.outlookLocales.fullscreen);
     return () => vue.h("div", { class: "fullscreen-wrapper" }, [
-      vue.h("label", { class: "full-screen-title", for: "full-screen-switch" }, fullScreenLocale.value),
+      vue.h("label", { class: "full-screen-title", for: "full-screen-switch" }, fullscreenLocale.value),
       vue.h(FullScreen, { id: "full-screen-switch" })
     ]);
   }
@@ -4086,7 +4218,7 @@ var OutlookSettings = vue.defineComponent({
     const pure = usePure();
     const enableDarkmode = vue.computed(() => themeData2.value.darkmode !== "disable" && themeData2.value.darkmode !== "force-dark");
     const enableThemeColor = vue.computed(() => !pure.value && Boolean(themeData2.value.themeColor));
-    const enableFullScreen = vue.computed(() => !pure.value && themeData2.value.fullScreen);
+    const enableFullScreen = vue.computed(() => !pure.value && themeData2.value.fullscreen);
     return () => vue.h(ClientOnly, () => [
       enableThemeColor.value ? vue.h(ThemeColor) : null,
       enableDarkmode.value ? vue.h(AppearanceMode) : null,
@@ -4104,7 +4236,7 @@ var OutlookButton = vue.defineComponent({
     const open = vue.ref(false);
     const enableDarkmode = vue.computed(() => themeData2.value.darkmode !== "disable" && themeData2.value.darkmode !== "force-dark");
     const enableThemeColor = vue.computed(() => !pure.value && Boolean(themeData2.value.themeColor));
-    const enableFullScreen = vue.computed(() => !pure.value && themeData2.value.fullScreen);
+    const enableFullScreen = vue.computed(() => !pure.value && themeData2.value.fullscreen);
     vue.watch(() => route.path, () => {
       open.value = false;
     });
@@ -4249,29 +4381,23 @@ var NavScreen = vue.defineComponent({
   },
   emits: ["close"],
   setup(props, { emit, slots }) {
-    const themeData2 = useThemeData();
     const route = vueRouter.useRoute();
-    const screen = vue.ref();
+    const isMobile = useMobile();
     const body = vue.ref();
     const isLocked = core.useScrollLock(body);
-    const handler = () => {
-      if (window.innerWidth > (themeData2.value.mobileBreakPoint || 719) && props.active) {
+    vue.watch(isMobile, (value2) => {
+      if (!value2 && props.active)
         emit("close");
-      }
-    };
+    });
     vue.watch(() => route.path, () => {
       isLocked.value = false;
       emit("close");
     });
     vue.onMounted(() => {
-      window.addEventListener("orientationchange", handler, false);
-      window.addEventListener("resize", handler, false);
       body.value = document.body;
     });
     vue.onBeforeUnmount(() => {
       isLocked.value = false;
-      window.removeEventListener("orientationchange", handler, false);
-      window.removeEventListener("resize", handler, false);
     });
     return () => vue.h(vue.Transition, {
       name: "fade",
@@ -4283,7 +4409,7 @@ var NavScreen = vue.defineComponent({
       }
     }, () => {
       var _a, _b;
-      return props.active ? vue.h("div", { id: "nav-screen", ref: screen }, vue.h("div", { class: "container" }, [
+      return props.active ? vue.h("div", { id: "nav-screen" }, vue.h("div", { class: "container" }, [
         (_a = slots.before) === null || _a === void 0 ? void 0 : _a.call(slots),
         vue.h(NavScreenLinks),
         vue.h("div", { class: "outlook-wrapper" }, vue.h(OutlookSettings)),
@@ -4298,7 +4424,7 @@ var Navbar = vue.defineComponent({
   emits: ["toggle-sidebar"],
   setup(_props, { emit, slots }) {
     const themeLocale = useThemeLocaleData();
-    const isMobile = vue.ref(false);
+    const isMobile = useMobile();
     const showScreen = vue.ref(false);
     const navbar2 = vue.ref();
     const siteBrand = vue.ref();
@@ -4512,6 +4638,334 @@ var Sidebar = vue.defineComponent({
 var clientAppEnhance8 = defineClientAppEnhance(({ app }) => {
   app.component("Sidebar", Sidebar);
 });
+const icons = { "Email": '<svg xmlns="http://www.w3.org/2000/svg" class="icon email-icon" viewBox="0 0 1024 1024" ariaLabelledby="email"><circle cx="512" cy="512" r="512" fill="#1384FF" />,<path d="M299.372 313.572H722.93c28.945 0 52.61 21.845 52.975 48.787L511.333 500.35 246.76 362.481c.182-27.003 23.666-48.97 52.611-48.97zm-52.671 101.702l-.243 244.121c0 27.186 23.848 49.395 52.914 49.395H722.93c29.127 0 52.975-22.21 52.975-49.395V415.152L517.522 546.71a13.957 13.957 0 01-12.682 0L246.7 415.274z" fill="#fff" /></svg>', "Bilibili": '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1647096571217" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3911" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256"><defs><style type="text/css"></style></defs><path d="M512 0c282.774588 0 512 229.225412 512 512s-229.225412 512-512 512S0 794.774588 0 512 229.225412 0 512 0z m-115.380706 224.015059c-6.324706-5.12-14.968471-7.137882-23.582118-1.385412l-3.222588 3.192471-1.897412 2.349176c-4.427294 6.806588-3.794824 17.558588 1.897412 23.250824l44.815059 44.815058h-96.015059l-5.571764 0.451765c-51.862588 5.632-93.605647 46.200471-93.605648 98.725647v246.422588l0.150589 5.270589c2.951529 48.941176 46.501647 90.714353 99.026823 90.714353h16.022588l0.180706 3.764706c1.927529 17.076706 16.865882 28.250353 31.804236 28.250352 15.992471 0 32.015059-16.022588 32.015058-32.015058h227.177412l0.210824 3.764706c1.957647 17.076706 17.076706 28.250353 34.996706 28.250352 15.992471 0 28.792471-12.8 32.015058-32.015058h12.8l5.571765-0.150589a99.749647 99.749647 0 0 0 93.605647-99.056941V395.444706l-0.481882-5.571765a101.918118 101.918118 0 0 0-101.918118-90.413176h-99.177412l44.784942-44.815059 1.897411-2.349177c4.427294-6.806588 3.794824-17.558588-1.897411-23.250823-6.384941-6.384941-19.184941-6.384941-25.6 0l-76.8 76.8h-70.384942l-76.8-79.992471z m302.802824 126.614588c19.215059 0 35.207529 15.992471 38.4 38.4v249.584941l-0.752942 4.969412c-4.216471 22.287059-16.745412 33.430588-37.647058 33.430588H325.029647l-3.794823-0.210823c-17.468235-1.927529-31.623529-17.287529-34.635295-38.189177v-249.584941l0.210824-3.614118c1.837176-17.92 17.227294-34.785882 38.219294-34.785882z m-188.80753 211.184941c-12.8 12.8-12.8 32.015059-35.177412 32.015059-9.637647 0-22.407529-15.992471-22.407529-15.992471-3.192471-6.415059-6.415059-6.415059-9.607529-6.415058-6.384941 0-9.607529 6.415059-6.384942 12.8v6.415058c9.577412 15.962353 25.6 28.792471 44.784942 28.792471 12.8 0 22.407529-6.415059 32.015058-15.992471 6.384941 9.577412 19.184941 15.962353 31.984942 15.962353 19.215059 0 38.4-12.769882 44.815058-28.762353v-6.415058c-3.222588-9.607529-6.415059-15.992471-12.8-12.8-3.222588 0-9.637647 3.192471-9.637647 6.415058 0 0-9.577412 15.962353-22.377411 15.962353-22.407529 0-22.407529-15.962353-35.20753-31.984941z m-64-121.584941l-124.777412 22.407529 9.577412 44.784942 124.80753-22.40753-9.60753-44.784941z m128 0l-9.577412 44.784941 121.584942 22.40753 12.8-44.784942-124.80753-22.407529z" p-id="3912" fill="#f7539f"></path></svg>', "GitHub": '<svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 1024 1024" ariaLabelledby="github"><circle cx="512" cy="512" r="512" fill="#171515" />,<path d="M509.423 146.442c-200.317 0-362.756 162.42-362.756 362.8 0 160.266 103.936 296.24 248.109 344.217 18.139 3.327 24.76-7.872 24.76-17.486 0-8.613-.313-31.427-.49-61.702-100.912 21.923-122.205-48.63-122.205-48.63-16.495-41.91-40.28-53.067-40.28-53.067-32.937-22.51 2.492-22.053 2.492-22.053 36.407 2.566 55.568 37.386 55.568 37.386 32.362 55.438 84.907 39.43 105.58 30.143 3.296-23.444 12.667-39.43 23.032-48.498-80.557-9.156-165.246-40.28-165.246-179.297 0-39.604 14.135-71.988 37.342-97.348-3.731-9.178-16.18-46.063 3.556-96.009 0 0 30.46-9.754 99.76 37.19 28.937-8.048 59.97-12.071 90.823-12.211 30.807.14 61.843 4.165 90.822 12.21 69.26-46.944 99.663-37.189 99.663-37.189 19.792 49.946 7.34 86.831 3.61 96.01 23.25 25.359 37.29 57.742 37.29 97.347 0 139.366-84.82 170.033-165.637 179.013 13.026 11.2 24.628 33.342 24.628 67.182 0 48.498-.445 87.627-.445 99.521 0 9.702 6.535 20.988 24.945 17.444 144.03-48.067 247.881-183.95 247.881-344.175 0-200.378-162.442-362.798-362.802-362.798z" fill="#fff" /></svg>', "Linkedin": '<svg xmlns="http://www.w3.org/2000/svg" class="icon linkedin-icon" viewBox="0 0 1024 1024" ariaLabelledby="linkedin"><circle cx="512" cy="512" r="512" fill="#4376B1" />,<path d="M838.301 555.94v225.157h-130.54V571.03c0-52.746-18.847-88.766-66.112-88.766-36.069 0-57.496 24.25-66.959 47.732-3.436 8.391-4.322 20.045-4.322 31.814v219.277h-130.55s1.752-355.784 0-392.613h130.56v55.637c-.263.438-.633.867-.867 1.285h.866v-1.285c17.349-26.694 48.287-64.856 117.651-64.856 85.884 0 150.273 56.114 150.273 176.685zm-535.05-356.72c-44.655 0-73.87 29.314-73.87 67.826 0 37.695 28.368 67.855 72.157 67.855h.847c45.532 0 73.842-30.16 73.842-67.855-.866-38.512-28.31-67.825-72.975-67.825zM237.14 781.098h130.5V388.474h-130.5v392.623z" fill="#F1F2F2" /></svg>', "QQ": '<svg xmlns="http://www.w3.org/2000/svg" class="icon qq-icon" viewBox="0 0 1024 1024" ariaLabelledby="qq"><circle cx="512" cy="512" r="512" fill="#5EAADE" />,<path d="M729.46 627.3c-3.157-39.628-24.045-83.747-32.624-105.91l-22.084-57.047c-.702-23.73 6.312-78.322-30.511-146.61s-110.82-74.446-124.497-75.147c-13.677-.701-99.248-1.403-141.331 72.945-42.084 74.347-30.745 148.812-30.745 148.812l-23.523 57.478c-.001.002-10.962 26.223-20.43 58.135-9.469 31.914-18.938 82.064-9.469 92.234 9.47 10.17 43.837-46.643 46.993-51.903 0 0 2.456 27.18 8.943 41.383l.81 1.776.33.723.38.826.3.652.444.96.203.436a281.465 281.465 0 0 0 1.917 4.025l.189.386c.231.473.468.953.711 1.442l.146.292c6.886 13.807 18.61 33.823 37.443 50.42l.018.016-1.184.387c-10.667 3.516-31.694 11.21-40.625 19.82-1.717 1.655-2.987 3.344-3.65 5.045-5.376 13.794 4.208 15.43 20.575 16.366 16.366.934 94.923 3.04 132.564-2.221.407-.056.787-.114 1.17-.171 2.711.094 5.324.142 7.83.16l.151.002c.836.005 1.663.008 2.475.008.496 0 1.015-.002 1.542-.006l.21-.001a222.593 222.593 0 0 0 5.462-.107c.26.038.508.076.778.114 37.642 5.26 116.198 3.156 132.564 2.22 16.366-.934 25.951-2.571 20.574-16.365-4.302-11.037-34.175-21.62-45.956-25.413a141.388 141.388 0 0 0 7.958-7.645l.237-.245a142.494 142.494 0 0 0 2.53-2.702c42.435-46.643 38.928-76.101 40.682-92.935 0 0 35.775 51.553 43.488 53.306 7.713 1.754 10.169-6.31 7.012-45.94z" fill="#fff" /></svg>', "Weibo": '<svg xmlns="http://www.w3.org/2000/svg" class="icon weibo-icon" viewBox="0 0 1024 1024" ariaLabelledby="weibo"><circle cx="512" cy="512" r="512" fill="#E6162D" />,<path d="M745.314 454.802c9.652 0 17.869-7.258 19.239-16.728a8.39 8.39 0 0 0 .261-2.12C779.445 302.233 657.02 325.25 657.02 325.25c-10.869 0-19.567 8.94-19.567 20.089 0 10.97 8.698 19.907 19.567 19.907 87.95-19.732 68.54 69.649 68.54 69.649-.004 11.06 8.842 19.908 19.754 19.908z" fill="#fff" />,<path d="M731.054 221.409c-42.342-10.077-85.862-1.393-98.055.981-.938.09-1.829.994-2.697 1.17-.415.088-.673.532-.673.532-12.045 3.457-20.828 14.77-20.828 28.14 0 15.932 12.694 29.034 28.564 29.034 0 0 15.39-2.097 25.846-6.252 10.364-4.246 98.012-3.16 141.576 71.17 23.734 54.247 10.428 90.553 8.778 96.387 0 0-5.653 14.095-5.653 27.973 0 16.024 12.694 26.083 28.433 26.083 13.169 0 24.211-1.821 27.452-24.447h.172c46.768-158.386-57.183-232.81-132.915-250.771zm-44.083 282.78c-28.28-5.579-14.519-21.062-14.519-21.062s27.67-46.38-5.482-80.099c-41.104-41.761-140.966 5.314-140.966 5.314-38.144 12.032-28.02-5.49-22.629-35.31 0-35.13-11.844-94.596-113.445-59.47-101.49 35.309-188.654 159.03-188.654 159.03-60.603 82.207-52.56 145.747-52.56 145.747 15.128 140.268 161.749 178.772 275.782 187.89 119.967 9.564 281.905-42.045 330.988-148.064 49.105-106.193-40.126-148.22-68.515-153.975zM433.387 766.675c-119.124 5.658-215.394-55.053-215.394-135.851 0-80.887 96.27-145.748 215.394-151.328 119.162-5.58 215.634 44.333 215.634 125.052.002 80.79-96.475 156.626-215.634 162.127z" fill="#fff" />,<path d="M409.603 532.773c-119.77 14.249-105.943 128.31-105.943 128.31s-1.22 36.117 32.126 54.513c70.084 38.593 142.248 15.224 178.723-32.634 36.474-47.888 15.086-164.346-104.906-150.189zM379.39 692.856c-22.343 2.665-40.385-10.437-40.385-29.463 0-18.94 16.02-38.768 38.387-41.143 25.694-2.485 42.431 12.56 42.431 31.588-.003 18.936-18.128 36.449-40.433 39.018zm70.626-61.146c-7.59 5.754-16.893 4.958-20.892-1.948-4.175-6.726-2.607-17.52 5.046-23.19 8.863-6.714 18.105-4.779 22.106 1.958 4.02 6.893 1.153 17.246-6.26 23.18z" fill="#fff" /></svg>' };
+const categoryMap = { "category": { "/": { "path": "/category/", "map": { "Campus": { "path": "/category/campus/", "keys": ["v-44222a2b", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194"] }, "Plansantgoat": { "path": "/category/plansantgoat/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2"] }, "Tech": { "path": "/category/tech/", "keys": ["v-4a0d9aac", "v-35f4823e"] }, "Others": { "path": "/category/others/", "keys": ["v-d77b10a8", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-5b1bac34", "v-5ee9fede"] }, "Readnote": { "path": "/category/readnote/", "keys": ["v-43aebe0d", "v-6788e968"] } } }, "/en/": { "path": "/en/category/", "map": { "Campus": { "path": "/en/category/campus/", "keys": ["v-11f40fb0", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee"] }, "Plansantgoat": { "path": "/en/category/plansantgoat/", "keys": ["v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-3d2de22e"] }, "Tech": { "path": "/en/category/tech/", "keys": ["v-31ebd918", "v-7b37039c"] }, "Others": { "path": "/en/category/others/", "keys": ["v-6be65cc0", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-bb6cab5c", "v-7ccd43de"] }, "Readnote": { "path": "/en/category/readnote/", "keys": ["v-09190221", "v-5d7f5108"] } } } }, "tag": { "/": { "path": "/tag/", "map": {} }, "/en/": { "path": "/en/tag/", "map": {} } } };
+if (void 0) {
+  (void 0).accept();
+  if (__VUE_HMR_RUNTIME__.updateBlogCategory) {
+    __VUE_HMR_RUNTIME__.updateBlogCategory(categoryMap);
+  }
+}
+const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-31ebd918", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-31ebd918", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } } };
+if (void 0) {
+  (void 0).accept();
+  if (__VUE_HMR_RUNTIME__.updateBlogType) {
+    __VUE_HMR_RUNTIME__.updateBlogType(typeMap);
+  }
+}
+const i$2 = vue.ref(categoryMap), u$2 = (e = "") => {
+  const p2 = vueRouter.useRouter(), n2 = vueRouter.useRoute(), u2 = useRouteLocale();
+  return vue.computed(() => {
+    var o2;
+    const m2 = e || ((o2 = usePageFrontmatter().value.blog) === null || o2 === void 0 ? void 0 : o2.key) || "", r2 = p2.getRoutes(), s2 = i$2.value[m2][u2.value], l2 = { path: s2.path, map: {} };
+    for (const e2 in s2.map) {
+      const o3 = s2.map[e2];
+      l2.map[e2] = { path: o3.path, items: [] };
+      for (const a2 of o3.keys) {
+        const o4 = r2.find(({ name: t2 }) => t2 === a2);
+        if (o4) {
+          const a3 = j(p2, o4.path);
+          l2.map[e2].items.push({ path: a3.path, info: a3.meta });
+        }
+      }
+      n2.path === o3.path && (l2.currentItems = l2.map[e2].items);
+    }
+    return l2;
+  });
+};
+const l$1 = vue.ref(typeMap), c$1 = (e = "") => {
+  const p2 = vueRouter.useRouter(), s2 = useRouteLocale();
+  return vue.computed(() => {
+    var o2;
+    const m2 = e || ((o2 = usePageFrontmatter().value.blog) === null || o2 === void 0 ? void 0 : o2.key) || "", r2 = p2.getRoutes(), n2 = l$1.value[m2][s2.value], i2 = { path: n2.path, items: [] };
+    for (const e2 of n2.keys) {
+      const o3 = r2.find(({ name: t2 }) => t2 === e2);
+      if (o3) {
+        const e3 = j(p2, o3.path);
+        i2.items.push({ path: e3.path, info: e3.meta });
+      }
+    }
+    return i2;
+  });
+};
+const categoryMapSymbol = Symbol.for("categoryMap");
+const useCategoryMap = () => {
+  const categoryMap2 = vue.inject(categoryMapSymbol);
+  if (!categoryMap2) {
+    throw new Error("useCategoryMap() is called without provider.");
+  }
+  return categoryMap2;
+};
+const setupCategoryMap = () => {
+  const categoryMap2 = u$2("category");
+  vue.provide(categoryMapSymbol, categoryMap2);
+};
+const useBlogOptions = () => {
+  const themeData2 = useThemeData();
+  const themeLocale = useThemeLocaleData();
+  return vue.computed(() => __spreadValues(__spreadValues({}, themeData2.value.blog), themeLocale.value.blog));
+};
+const tagMapSymbol = Symbol.for("tagMap");
+const useTagMap = () => {
+  const tagMap = vue.inject(tagMapSymbol);
+  if (!tagMap) {
+    throw new Error("useTagMap() is called without provider.");
+  }
+  return tagMap;
+};
+const setupTagMap = () => {
+  const tagMap = u$2("tag");
+  vue.provide(tagMapSymbol, tagMap);
+};
+const useArticleAuthor = (info) => {
+  const themeLocale = useThemeLocaleData();
+  return vue.computed(() => {
+    const { author } = info.value;
+    if (author)
+      return S$1(author);
+    if (author === false)
+      return [];
+    return S$1(themeLocale.value.author, false);
+  });
+};
+const useArticleCategory = (info) => {
+  const categoryMap2 = useCategoryMap();
+  return vue.computed(() => w$2(info.value.category).map((name) => ({
+    name,
+    path: categoryMap2.value.map[name].path
+  })));
+};
+const useArticleTag = (info) => {
+  const tagMap = useTagMap();
+  return vue.computed(() => O$2(info.value.tag).map((name) => ({
+    name,
+    path: tagMap.value.map[name].path
+  })));
+};
+const useArticleDate = (info) => {
+  const pageLang = usePageLang();
+  return vue.computed(() => {
+    const { date } = info.value;
+    return date ? _$1(date, { lang: pageLang.value, type: "date" }) : null;
+  });
+};
+const useArticleInfo = (info) => {
+  const blogOptions = useBlogOptions();
+  const author = useArticleAuthor(info);
+  const category2 = useArticleCategory(info);
+  const tag2 = useArticleTag(info);
+  const date = useArticleDate(info);
+  const pure = usePure();
+  return vue.reactive({
+    config: blogOptions.value.articleInfo || [
+      "Author",
+      "Original",
+      "Date",
+      "PageView",
+      "Category",
+      "Tag",
+      "ReadingTime"
+    ],
+    author: author.value,
+    category: category2.value,
+    date: date.value,
+    tag: tag2.value,
+    isOriginal: info.value.isOriginal,
+    readingTime: info.value.readingTime,
+    color: !pure.value,
+    hint: !pure.value
+  });
+};
+const articlesSymbol = Symbol.for("articles");
+const useArticles = () => {
+  const articles = vue.inject(articlesSymbol);
+  if (!articles) {
+    throw new Error("useArticles() is called without provider.");
+  }
+  return articles;
+};
+const setupArticles = () => {
+  const articles = c$1("article");
+  vue.provide(articlesSymbol, articles);
+};
+const encryptedArticlesSymbol = Symbol.for("encryptedArticles");
+const useEncryptedArticles = () => {
+  const encryptedArticles = vue.inject(encryptedArticlesSymbol);
+  if (!encryptedArticles) {
+    throw new Error("useEncryptedArticles() is called without provider.");
+  }
+  return encryptedArticles;
+};
+const setupEncryptedArticles = () => {
+  const encryptedArticles = c$1("encrypted");
+  vue.provide(encryptedArticlesSymbol, encryptedArticles);
+};
+const slidesSymbol = Symbol.for("slides");
+const useSlides = () => {
+  const slides = vue.inject(slidesSymbol);
+  if (!slides) {
+    throw new Error("useSlides() is called without provider.");
+  }
+  return slides;
+};
+const setupSlides = () => {
+  const slides = c$1("slide");
+  vue.provide(slidesSymbol, slides);
+};
+const starsSymbol = Symbol.for("stars");
+const useStars = () => {
+  const stars = vue.inject(starsSymbol);
+  if (!stars) {
+    throw new Error("useStars() is called without provider.");
+  }
+  return stars;
+};
+const setupStars = () => {
+  const stars = c$1("star");
+  vue.provide(starsSymbol, stars);
+};
+const timelinesSymbol = Symbol.for("timelines");
+const useTimelines = () => {
+  const timelines = vue.inject(timelinesSymbol);
+  if (!timelines) {
+    throw new Error("useTimelines() is called without provider.");
+  }
+  return timelines;
+};
+const setupTimelines = () => {
+  const timelines = c$1("timeline");
+  const timelineItems2 = vue.computed(() => {
+    const timelineItems3 = [];
+    timelines.value.items.forEach(({ info, path }) => {
+      var _a;
+      const { year, month, day } = ((_a = _$1(info.date, { type: "date" })) === null || _a === void 0 ? void 0 : _a.detail) || {};
+      if (year && month && day) {
+        if (!timelineItems3[0] || timelineItems3[0].year !== year)
+          timelineItems3.unshift({ year, items: [] });
+        timelineItems3[0].items.push({
+          date: `${month}/${day}`,
+          info,
+          path
+        });
+      }
+    });
+    return __spreadProps(__spreadValues({}, timelines.value), {
+      config: timelineItems3.reverse()
+    });
+  });
+  vue.provide(timelinesSymbol, timelineItems2);
+};
+const setupBlog = () => {
+  setupArticles();
+  setupCategoryMap();
+  setupEncryptedArticles();
+  setupSlides();
+  setupStars();
+  setupTagMap();
+  setupTimelines();
+};
+var socialMedia = "";
+var SocialMedia = vue.defineComponent({
+  name: "SocialMedia",
+  setup() {
+    const frontmatter = usePageFrontmatter();
+    const blogOptions = useBlogOptions();
+    const isPure = usePure();
+    const mediaLinks = vue.computed(() => {
+      const { socialMedia: socialMedia2 } = frontmatter.value;
+      const config = socialMedia2 === false ? false : blogOptions.value.medias || false;
+      if (config)
+        return Object.entries(config).map(([media, url]) => ({
+          name: media,
+          icon: icons[media],
+          url
+        }));
+      return [];
+    });
+    return () => mediaLinks.value.length ? vue.h("div", { class: "social-media-wrapper" }, mediaLinks.value.map(({ name, icon, url }) => vue.h("a", __spreadProps(__spreadValues({
+      class: "social-media",
+      href: url,
+      rel: "noopener noreferrer",
+      target: "_blank",
+      ariaLabel: name
+    }, isPure.value ? {} : { "data-balloon-pos": "up" }), {
+      innerHTML: icon
+    })))) : null;
+  }
+});
+var bloggerInfo = "";
+var BloggerInfo = vue.defineComponent({
+  name: "BloggerInfo",
+  setup() {
+    const blogOptions = useBlogOptions();
+    const siteLocale = useSiteLocaleData();
+    const themeLocale = useThemeLocaleData();
+    const articles = useArticles();
+    const categoryMap2 = useCategoryMap();
+    const tagMap = useTagMap();
+    const timelines = useTimelines();
+    const navigate = useNavigate();
+    const bloggerName = vue.computed(() => {
+      var _a;
+      return blogOptions.value.name || ((_a = S$1(themeLocale.value.author)[0]) === null || _a === void 0 ? void 0 : _a.name) || siteLocale.value.title;
+    });
+    const bloggerAvatar = vue.computed(() => blogOptions.value.avatar || themeLocale.value.logo);
+    const locale = vue.computed(() => themeLocale.value.blogLocales);
+    const intro = vue.computed(() => blogOptions.value.intro);
+    return () => vue.h("div", {
+      class: "blogger-info",
+      vocab: "https://schema.org/",
+      typeof: "Person"
+    }, [
+      vue.h("div", __spreadValues({
+        class: "blogger"
+      }, intro.value ? {
+        style: { cursor: "pointer" },
+        ariaLabel: locale.value.intro,
+        "data-balloon-pos": "down",
+        role: "navigation",
+        onClick: () => navigate(intro.value)
+      } : {}), [
+        bloggerAvatar.value ? vue.h("img", {
+          class: [
+            "blogger-avatar",
+            {
+              round: blogOptions.value.roundAvatar
+            }
+          ],
+          src: withBase(bloggerAvatar.value),
+          property: "image",
+          alt: "Blogger Avatar"
+        }) : null,
+        bloggerName.value ? vue.h("div", { class: "blogger-name", property: "name" }, bloggerName.value) : null,
+        blogOptions.value.description ? vue.h("div", {
+          class: "blogger-description",
+          innerHTML: blogOptions.value.description
+        }) : null,
+        intro.value ? vue.h("meta", { property: "url", content: withBase(intro.value) }) : null
+      ]),
+      vue.h("div", { class: "num-wrapper" }, [
+        vue.h("div", { onClick: () => navigate(articles.value.path) }, [
+          vue.h("div", { class: "num" }, articles.value.items.length),
+          vue.h("div", locale.value.article)
+        ]),
+        vue.h("div", { onClick: () => navigate(categoryMap2.value.path) }, [
+          vue.h("div", { class: "num" }, Object.keys(categoryMap2.value.map).length),
+          vue.h("div", locale.value.category)
+        ]),
+        vue.h("div", { onClick: () => navigate(tagMap.value.path) }, [
+          vue.h("div", { class: "num" }, Object.keys(tagMap.value.map).length),
+          vue.h("div", locale.value.tag)
+        ]),
+        vue.h("div", { onClick: () => navigate(timelines.value.path) }, [
+          vue.h("div", { class: "num" }, timelines.value.items.length),
+          vue.h("div", locale.value.timeline)
+        ])
+      ]),
+      vue.h(SocialMedia)
+    ]);
+  }
+});
 const CategoryIcon = () => vue.h(T$2, { name: "category" }, () => vue.h("path", {
   d: "M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"
 }));
@@ -4575,223 +5029,6 @@ const EmptyIcon = vue.defineComponent({
     });
   }
 });
-const categoryMap = { "category": { "/": { "path": "/category/", "map": { "Campus": { "path": "/category/campus/", "keys": ["v-44222a2b", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194"] }, "Plansantgoat": { "path": "/category/plansantgoat/", "keys": ["v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2"] }, "Tech": { "path": "/category/tech/", "keys": ["v-4a0d9aac", "v-35f4823e"] }, "Others": { "path": "/category/others/", "keys": ["v-d77b10a8", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-5b1bac34", "v-5ee9fede"] }, "Readnote": { "path": "/category/readnote/", "keys": ["v-43aebe0d", "v-6788e968"] } } }, "/en/": { "path": "/en/category/", "map": { "Campus": { "path": "/en/category/campus/", "keys": ["v-11f40fb0", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee"] }, "Plansantgoat": { "path": "/en/category/plansantgoat/", "keys": ["v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-3d2de22e"] }, "Tech": { "path": "/en/category/tech/", "keys": ["v-31ebd918", "v-7b37039c"] }, "Others": { "path": "/en/category/others/", "keys": ["v-6be65cc0", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-bb6cab5c", "v-7ccd43de"] }, "Readnote": { "path": "/en/category/readnote/", "keys": ["v-09190221", "v-5d7f5108"] } } } }, "tag": { "/": { "path": "/tag/", "map": {} }, "/en/": { "path": "/en/tag/", "map": {} } } };
-if (void 0) {
-  (void 0).accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogCategory) {
-    __VUE_HMR_RUNTIME__.updateBlogCategory(categoryMap);
-  }
-}
-const typeMap = { "article": { "/": { "path": "/article/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/article/", "keys": ["v-31ebd918", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } }, "encrypted": { "/": { "path": "/encrypted/", "keys": [] }, "/en/": { "path": "/en/encrypted/", "keys": [] } }, "slide": { "/": { "path": "/slides/", "keys": [] }, "/en/": { "path": "/en/slides/", "keys": [] } }, "star": { "/": { "path": "/star/", "keys": ["v-29fd0dbe"] }, "/en/": { "path": "/en/star/", "keys": ["v-8e37b474"] } }, "timeline": { "/": { "path": "/timeline/", "keys": ["v-4a0d9aac", "v-29fd0dbe", "v-bf122048", "v-19e6422d", "v-7298b233", "v-32cf6e12", "v-35f4823e", "v-43aebe0d", "v-6788e968", "v-305a8c7c", "v-e5c82a16", "v-bb9ee262", "v-4c0cfbb5", "v-d77b10a8", "v-96f1b332", "v-44222a2b", "v-312126dc", "v-67c84b92", "v-932a8ff6", "v-cf968ea8", "v-0e97fe94", "v-0a942eda", "v-19e499ea", "v-44ee0888", "v-46c750ec", "v-d0c9012e", "v-863d18b2", "v-5b1bac34", "v-358584d6", "v-0209a562", "v-5ee9fede", "v-a7227758", "v-6980d3aa", "v-6b935194", "v-4a3483a8"] }, "/en/": { "path": "/en/timeline/", "keys": ["v-31ebd918", "v-8e37b474", "v-60edd6ce", "v-51df5799", "v-970b9578", "v-6a965b73", "v-7b37039c", "v-09190221", "v-5d7f5108", "v-e7ab2626", "v-2d573e24", "v-8843f2be", "v-6be65cc0", "v-722094e3", "v-11f40fb0", "v-ac7e866c", "v-c27fa9f4", "v-e0021dce", "v-6009b506", "v-e984b748", "v-6a70c21e", "v-8b9169c2", "v-12245cf4", "v-aea9f80e", "v-421d31a4", "v-5fb7bd6a", "v-bb6cab5c", "v-4a3e56a4", "v-b979c1fa", "v-7ccd43de", "v-73985c68", "v-d95a2a12", "v-4ab1acee", "v-3d2de22e", "v-46d7f540"] } } };
-if (void 0) {
-  (void 0).accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogType) {
-    __VUE_HMR_RUNTIME__.updateBlogType(typeMap);
-  }
-}
-const i$3 = vue.ref(categoryMap), u$3 = (e = "") => {
-  const p2 = vueRouter.useRouter(), n2 = vueRouter.useRoute(), u2 = useRouteLocale();
-  return vue.computed(() => {
-    var o2;
-    const m2 = e || ((o2 = usePageFrontmatter().value.blog) === null || o2 === void 0 ? void 0 : o2.key) || "", r2 = p2.getRoutes(), s2 = i$3.value[m2][u2.value], l2 = { path: s2.path, map: {} };
-    for (const e2 in s2.map) {
-      const o3 = s2.map[e2];
-      l2.map[e2] = { path: o3.path, items: [] };
-      for (const a2 of o3.keys) {
-        const o4 = r2.find(({ name: t2 }) => t2 === a2);
-        if (o4) {
-          const a3 = j(p2, o4.path);
-          l2.map[e2].items.push({ path: a3.path, info: a3.meta });
-        }
-      }
-      n2.path === o3.path && (l2.currentItems = l2.map[e2].items);
-    }
-    return l2;
-  });
-};
-const l$2 = vue.ref(typeMap), c$2 = (e = "") => {
-  const p2 = vueRouter.useRouter(), s2 = useRouteLocale();
-  return vue.computed(() => {
-    var o2;
-    const m2 = e || ((o2 = usePageFrontmatter().value.blog) === null || o2 === void 0 ? void 0 : o2.key) || "", r2 = p2.getRoutes(), n2 = l$2.value[m2][s2.value], i2 = { path: n2.path, items: [] };
-    for (const e2 of n2.keys) {
-      const o3 = r2.find(({ name: t2 }) => t2 === e2);
-      if (o3) {
-        const e3 = j(p2, o3.path);
-        i2.items.push({ path: e3.path, info: e3.meta });
-      }
-    }
-    return i2;
-  });
-};
-const categoryMapSymbol = Symbol.for("categoryMap");
-const useCategoryMap = () => {
-  const categoryMap2 = vue.inject(categoryMapSymbol);
-  if (!categoryMap2) {
-    throw new Error("useCategoryMap() is called without provider.");
-  }
-  return categoryMap2;
-};
-const setupCategoryMap = () => {
-  const categoryMap2 = u$3("category");
-  vue.provide(categoryMapSymbol, categoryMap2);
-};
-const useBlogOptions = () => {
-  const themeData2 = useThemeData();
-  const themeLocale = useThemeLocaleData();
-  return vue.computed(() => __spreadValues(__spreadValues({}, themeData2.value.blog), themeLocale.value.blog));
-};
-const tagMapSymbol = Symbol.for("tagMap");
-const useTagMap = () => {
-  const tagMap = vue.inject(tagMapSymbol);
-  if (!tagMap) {
-    throw new Error("useTagMap() is called without provider.");
-  }
-  return tagMap;
-};
-const setupTagMap = () => {
-  const tagMap = u$3("tag");
-  vue.provide(tagMapSymbol, tagMap);
-};
-const useArticleAuthor = (info) => {
-  const themeLocale = useThemeLocaleData();
-  return vue.computed(() => {
-    const { author } = info.value;
-    if (author)
-      return S$1(author);
-    if (author === false)
-      return [];
-    return S$1(themeLocale.value.author, false);
-  });
-};
-const useArticleCategory = (info) => {
-  const categoryMap2 = useCategoryMap();
-  return vue.computed(() => w$2(info.value.category).map((name) => ({
-    name,
-    path: categoryMap2.value.map[name].path
-  })));
-};
-const useArticleTag = (info) => {
-  const tagMap = useTagMap();
-  return vue.computed(() => O$2(info.value.tag).map((name) => ({
-    name,
-    path: tagMap.value.map[name].path
-  })));
-};
-const useArticleDate = (info) => {
-  const pageLang = usePageLang();
-  return vue.computed(() => {
-    const { date } = info.value;
-    return date ? _$1(date, { lang: pageLang.value, type: "date" }) : null;
-  });
-};
-const useArticleInfo = (info) => {
-  const blogOptions = useBlogOptions();
-  const author = useArticleAuthor(info);
-  const category2 = useArticleCategory(info);
-  const tag2 = useArticleTag(info);
-  const date = useArticleDate(info);
-  const pure = usePure();
-  return vue.reactive({
-    config: blogOptions.value.articleInfo,
-    author: author.value,
-    category: category2.value,
-    date: date.value,
-    tag: tag2.value,
-    isOriginal: info.value.isOriginal,
-    readingTime: info.value.readingTime,
-    color: !pure.value,
-    hint: !pure.value
-  });
-};
-const articlesSymbol = Symbol.for("articles");
-const useArticles = () => {
-  const articles = vue.inject(articlesSymbol);
-  if (!articles) {
-    throw new Error("useArticles() is called without provider.");
-  }
-  return articles;
-};
-const setupArticles = () => {
-  const articles = c$2("article");
-  vue.provide(articlesSymbol, articles);
-};
-const encryptedArticlesSymbol = Symbol.for("encryptedArticles");
-const useEncryptedArticles = () => {
-  const encryptedArticles = vue.inject(encryptedArticlesSymbol);
-  if (!encryptedArticles) {
-    throw new Error("useEncryptedArticles() is called without provider.");
-  }
-  return encryptedArticles;
-};
-const setupEncryptedArticles = () => {
-  const encryptedArticles = c$2("encrypted");
-  vue.provide(encryptedArticlesSymbol, encryptedArticles);
-};
-const slidesSymbol = Symbol.for("slides");
-const useSlides = () => {
-  const slides = vue.inject(slidesSymbol);
-  if (!slides) {
-    throw new Error("useSlides() is called without provider.");
-  }
-  return slides;
-};
-const setupSlides = () => {
-  const slides = c$2("slide");
-  vue.provide(slidesSymbol, slides);
-};
-const starsSymbol = Symbol.for("stars");
-const useStars = () => {
-  const stars = vue.inject(starsSymbol);
-  if (!stars) {
-    throw new Error("useStars() is called without provider.");
-  }
-  return stars;
-};
-const setupStars = () => {
-  const stars = c$2("star");
-  vue.provide(starsSymbol, stars);
-};
-const timelinesSymbol = Symbol.for("timelines");
-const useTimelines = () => {
-  const timelines = vue.inject(timelinesSymbol);
-  if (!timelines) {
-    throw new Error("useTimelines() is called without provider.");
-  }
-  return timelines;
-};
-const setupTimelines = () => {
-  const timelines = c$2("timeline");
-  const timelineItems2 = vue.computed(() => {
-    const timelineItems3 = [];
-    timelines.value.items.forEach(({ info, path }) => {
-      var _a;
-      const { year, month, day } = ((_a = _$1(info.date, { type: "date" })) === null || _a === void 0 ? void 0 : _a.detail) || {};
-      if (year && month && day) {
-        if (!timelineItems3[0] || timelineItems3[0].year !== year)
-          timelineItems3.unshift({ year, items: [] });
-        timelineItems3[0].items.push({
-          date: `${month}/${day}`,
-          info,
-          path
-        });
-      }
-    });
-    return __spreadProps(__spreadValues({}, timelines.value), {
-      config: timelineItems3.reverse()
-    });
-  });
-  vue.provide(timelinesSymbol, timelineItems2);
-};
-const setupBlog = () => {
-  setupArticles();
-  setupCategoryMap();
-  setupEncryptedArticles();
-  setupSlides();
-  setupStars();
-  setupTagMap();
-  setupTimelines();
-};
 var articleItem = "";
 var ArticleItem = vue.defineComponent({
   name: "ArticleItem",
@@ -4844,7 +5081,7 @@ var ArticleList = vue.defineComponent({
     const router = vueRouter.useRouter();
     const blogOptions = useBlogOptions();
     const currentPage = vue.ref(1);
-    const articlePerPage = vue.computed(() => blogOptions.value.articlePerPage);
+    const articlePerPage = vue.computed(() => blogOptions.value.articlePerPage || 10);
     const currentArticles = vue.computed(() => props.items.slice((currentPage.value - 1) * articlePerPage.value, currentPage.value * articlePerPage.value));
     const updatePage = (page2) => {
       currentPage.value = page2;
@@ -4929,115 +5166,12 @@ var BlogHero = vue.defineComponent({
         onClick: () => {
           var _a;
           window.scrollTo({
-            top: window.innerHeight - (((_a = document.querySelector(".navbar")) === null || _a === void 0 ? void 0 : _a.clientHeight) || 0),
+            top: document.body.clientHeight - (((_a = document.querySelector(".navbar")) === null || _a === void 0 ? void 0 : _a.clientHeight) || 0),
             behavior: "smooth"
           });
         }
       }, [vue.h(SlideDownIcon), vue.h(SlideDownIcon)]) : null
     ]) : null;
-  }
-});
-const icons = { "Email": '<svg xmlns="http://www.w3.org/2000/svg" class="icon email-icon" viewBox="0 0 1024 1024" ariaLabelledby="email"><circle cx="512" cy="512" r="512" fill="#1384FF" />,<path d="M299.372 313.572H722.93c28.945 0 52.61 21.845 52.975 48.787L511.333 500.35 246.76 362.481c.182-27.003 23.666-48.97 52.611-48.97zm-52.671 101.702l-.243 244.121c0 27.186 23.848 49.395 52.914 49.395H722.93c29.127 0 52.975-22.21 52.975-49.395V415.152L517.522 546.71a13.957 13.957 0 01-12.682 0L246.7 415.274z" fill="#fff" /></svg>', "Bilibili": '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1647096571217" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3911" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256"><defs><style type="text/css"></style></defs><path d="M512 0c282.774588 0 512 229.225412 512 512s-229.225412 512-512 512S0 794.774588 0 512 229.225412 0 512 0z m-115.380706 224.015059c-6.324706-5.12-14.968471-7.137882-23.582118-1.385412l-3.222588 3.192471-1.897412 2.349176c-4.427294 6.806588-3.794824 17.558588 1.897412 23.250824l44.815059 44.815058h-96.015059l-5.571764 0.451765c-51.862588 5.632-93.605647 46.200471-93.605648 98.725647v246.422588l0.150589 5.270589c2.951529 48.941176 46.501647 90.714353 99.026823 90.714353h16.022588l0.180706 3.764706c1.927529 17.076706 16.865882 28.250353 31.804236 28.250352 15.992471 0 32.015059-16.022588 32.015058-32.015058h227.177412l0.210824 3.764706c1.957647 17.076706 17.076706 28.250353 34.996706 28.250352 15.992471 0 28.792471-12.8 32.015058-32.015058h12.8l5.571765-0.150589a99.749647 99.749647 0 0 0 93.605647-99.056941V395.444706l-0.481882-5.571765a101.918118 101.918118 0 0 0-101.918118-90.413176h-99.177412l44.784942-44.815059 1.897411-2.349177c4.427294-6.806588 3.794824-17.558588-1.897411-23.250823-6.384941-6.384941-19.184941-6.384941-25.6 0l-76.8 76.8h-70.384942l-76.8-79.992471z m302.802824 126.614588c19.215059 0 35.207529 15.992471 38.4 38.4v249.584941l-0.752942 4.969412c-4.216471 22.287059-16.745412 33.430588-37.647058 33.430588H325.029647l-3.794823-0.210823c-17.468235-1.927529-31.623529-17.287529-34.635295-38.189177v-249.584941l0.210824-3.614118c1.837176-17.92 17.227294-34.785882 38.219294-34.785882z m-188.80753 211.184941c-12.8 12.8-12.8 32.015059-35.177412 32.015059-9.637647 0-22.407529-15.992471-22.407529-15.992471-3.192471-6.415059-6.415059-6.415059-9.607529-6.415058-6.384941 0-9.607529 6.415059-6.384942 12.8v6.415058c9.577412 15.962353 25.6 28.792471 44.784942 28.792471 12.8 0 22.407529-6.415059 32.015058-15.992471 6.384941 9.577412 19.184941 15.962353 31.984942 15.962353 19.215059 0 38.4-12.769882 44.815058-28.762353v-6.415058c-3.222588-9.607529-6.415059-15.992471-12.8-12.8-3.222588 0-9.637647 3.192471-9.637647 6.415058 0 0-9.577412 15.962353-22.377411 15.962353-22.407529 0-22.407529-15.962353-35.20753-31.984941z m-64-121.584941l-124.777412 22.407529 9.577412 44.784942 124.80753-22.40753-9.60753-44.784941z m128 0l-9.577412 44.784941 121.584942 22.40753 12.8-44.784942-124.80753-22.407529z" p-id="3912" fill="#f7539f"></path></svg>', "GitHub": '<svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 1024 1024" ariaLabelledby="github"><circle cx="512" cy="512" r="512" fill="#171515" />,<path d="M509.423 146.442c-200.317 0-362.756 162.42-362.756 362.8 0 160.266 103.936 296.24 248.109 344.217 18.139 3.327 24.76-7.872 24.76-17.486 0-8.613-.313-31.427-.49-61.702-100.912 21.923-122.205-48.63-122.205-48.63-16.495-41.91-40.28-53.067-40.28-53.067-32.937-22.51 2.492-22.053 2.492-22.053 36.407 2.566 55.568 37.386 55.568 37.386 32.362 55.438 84.907 39.43 105.58 30.143 3.296-23.444 12.667-39.43 23.032-48.498-80.557-9.156-165.246-40.28-165.246-179.297 0-39.604 14.135-71.988 37.342-97.348-3.731-9.178-16.18-46.063 3.556-96.009 0 0 30.46-9.754 99.76 37.19 28.937-8.048 59.97-12.071 90.823-12.211 30.807.14 61.843 4.165 90.822 12.21 69.26-46.944 99.663-37.189 99.663-37.189 19.792 49.946 7.34 86.831 3.61 96.01 23.25 25.359 37.29 57.742 37.29 97.347 0 139.366-84.82 170.033-165.637 179.013 13.026 11.2 24.628 33.342 24.628 67.182 0 48.498-.445 87.627-.445 99.521 0 9.702 6.535 20.988 24.945 17.444 144.03-48.067 247.881-183.95 247.881-344.175 0-200.378-162.442-362.798-362.802-362.798z" fill="#fff" /></svg>', "Linkedin": '<svg xmlns="http://www.w3.org/2000/svg" class="icon linkedin-icon" viewBox="0 0 1024 1024" ariaLabelledby="linkedin"><circle cx="512" cy="512" r="512" fill="#4376B1" />,<path d="M838.301 555.94v225.157h-130.54V571.03c0-52.746-18.847-88.766-66.112-88.766-36.069 0-57.496 24.25-66.959 47.732-3.436 8.391-4.322 20.045-4.322 31.814v219.277h-130.55s1.752-355.784 0-392.613h130.56v55.637c-.263.438-.633.867-.867 1.285h.866v-1.285c17.349-26.694 48.287-64.856 117.651-64.856 85.884 0 150.273 56.114 150.273 176.685zm-535.05-356.72c-44.655 0-73.87 29.314-73.87 67.826 0 37.695 28.368 67.855 72.157 67.855h.847c45.532 0 73.842-30.16 73.842-67.855-.866-38.512-28.31-67.825-72.975-67.825zM237.14 781.098h130.5V388.474h-130.5v392.623z" fill="#F1F2F2" /></svg>', "QQ": '<svg xmlns="http://www.w3.org/2000/svg" class="icon qq-icon" viewBox="0 0 1024 1024" ariaLabelledby="qq"><circle cx="512" cy="512" r="512" fill="#5EAADE" />,<path d="M729.46 627.3c-3.157-39.628-24.045-83.747-32.624-105.91l-22.084-57.047c-.702-23.73 6.312-78.322-30.511-146.61s-110.82-74.446-124.497-75.147c-13.677-.701-99.248-1.403-141.331 72.945-42.084 74.347-30.745 148.812-30.745 148.812l-23.523 57.478c-.001.002-10.962 26.223-20.43 58.135-9.469 31.914-18.938 82.064-9.469 92.234 9.47 10.17 43.837-46.643 46.993-51.903 0 0 2.456 27.18 8.943 41.383l.81 1.776.33.723.38.826.3.652.444.96.203.436a281.465 281.465 0 0 0 1.917 4.025l.189.386c.231.473.468.953.711 1.442l.146.292c6.886 13.807 18.61 33.823 37.443 50.42l.018.016-1.184.387c-10.667 3.516-31.694 11.21-40.625 19.82-1.717 1.655-2.987 3.344-3.65 5.045-5.376 13.794 4.208 15.43 20.575 16.366 16.366.934 94.923 3.04 132.564-2.221.407-.056.787-.114 1.17-.171 2.711.094 5.324.142 7.83.16l.151.002c.836.005 1.663.008 2.475.008.496 0 1.015-.002 1.542-.006l.21-.001a222.593 222.593 0 0 0 5.462-.107c.26.038.508.076.778.114 37.642 5.26 116.198 3.156 132.564 2.22 16.366-.934 25.951-2.571 20.574-16.365-4.302-11.037-34.175-21.62-45.956-25.413a141.388 141.388 0 0 0 7.958-7.645l.237-.245a142.494 142.494 0 0 0 2.53-2.702c42.435-46.643 38.928-76.101 40.682-92.935 0 0 35.775 51.553 43.488 53.306 7.713 1.754 10.169-6.31 7.012-45.94z" fill="#fff" /></svg>', "Weibo": '<svg xmlns="http://www.w3.org/2000/svg" class="icon weibo-icon" viewBox="0 0 1024 1024" ariaLabelledby="weibo"><circle cx="512" cy="512" r="512" fill="#E6162D" />,<path d="M745.314 454.802c9.652 0 17.869-7.258 19.239-16.728a8.39 8.39 0 0 0 .261-2.12C779.445 302.233 657.02 325.25 657.02 325.25c-10.869 0-19.567 8.94-19.567 20.089 0 10.97 8.698 19.907 19.567 19.907 87.95-19.732 68.54 69.649 68.54 69.649-.004 11.06 8.842 19.908 19.754 19.908z" fill="#fff" />,<path d="M731.054 221.409c-42.342-10.077-85.862-1.393-98.055.981-.938.09-1.829.994-2.697 1.17-.415.088-.673.532-.673.532-12.045 3.457-20.828 14.77-20.828 28.14 0 15.932 12.694 29.034 28.564 29.034 0 0 15.39-2.097 25.846-6.252 10.364-4.246 98.012-3.16 141.576 71.17 23.734 54.247 10.428 90.553 8.778 96.387 0 0-5.653 14.095-5.653 27.973 0 16.024 12.694 26.083 28.433 26.083 13.169 0 24.211-1.821 27.452-24.447h.172c46.768-158.386-57.183-232.81-132.915-250.771zm-44.083 282.78c-28.28-5.579-14.519-21.062-14.519-21.062s27.67-46.38-5.482-80.099c-41.104-41.761-140.966 5.314-140.966 5.314-38.144 12.032-28.02-5.49-22.629-35.31 0-35.13-11.844-94.596-113.445-59.47-101.49 35.309-188.654 159.03-188.654 159.03-60.603 82.207-52.56 145.747-52.56 145.747 15.128 140.268 161.749 178.772 275.782 187.89 119.967 9.564 281.905-42.045 330.988-148.064 49.105-106.193-40.126-148.22-68.515-153.975zM433.387 766.675c-119.124 5.658-215.394-55.053-215.394-135.851 0-80.887 96.27-145.748 215.394-151.328 119.162-5.58 215.634 44.333 215.634 125.052.002 80.79-96.475 156.626-215.634 162.127z" fill="#fff" />,<path d="M409.603 532.773c-119.77 14.249-105.943 128.31-105.943 128.31s-1.22 36.117 32.126 54.513c70.084 38.593 142.248 15.224 178.723-32.634 36.474-47.888 15.086-164.346-104.906-150.189zM379.39 692.856c-22.343 2.665-40.385-10.437-40.385-29.463 0-18.94 16.02-38.768 38.387-41.143 25.694-2.485 42.431 12.56 42.431 31.588-.003 18.936-18.128 36.449-40.433 39.018zm70.626-61.146c-7.59 5.754-16.893 4.958-20.892-1.948-4.175-6.726-2.607-17.52 5.046-23.19 8.863-6.714 18.105-4.779 22.106 1.958 4.02 6.893 1.153 17.246-6.26 23.18z" fill="#fff" /></svg>' };
-var socialMedia = "";
-var SocialMedia = vue.defineComponent({
-  name: "SocialMedia",
-  setup() {
-    const frontmatter = usePageFrontmatter();
-    const blogOptions = useBlogOptions();
-    const isPure = usePure();
-    const mediaLinks = vue.computed(() => {
-      const { socialMedia: socialMedia2 } = frontmatter.value;
-      const config = socialMedia2 === false ? false : blogOptions.value.medias || false;
-      if (config)
-        return Object.entries(config).map(([media, url]) => ({
-          name: media,
-          icon: icons[media],
-          url
-        }));
-      return [];
-    });
-    return () => mediaLinks.value.length ? vue.h("div", { class: "social-media-wrapper" }, mediaLinks.value.map(({ name, icon, url }) => vue.h("a", __spreadProps(__spreadValues({
-      class: "social-media",
-      href: url,
-      rel: "noopener noreferrer",
-      target: "_blank",
-      ariaLabel: name
-    }, isPure.value ? {} : { "data-balloon-pos": "up" }), {
-      innerHTML: icon
-    })))) : null;
-  }
-});
-var bloggerInfo = "";
-var BloggerInfo = vue.defineComponent({
-  name: "BloggerInfo",
-  setup() {
-    const blogOptions = useBlogOptions();
-    const siteLocale = useSiteLocaleData();
-    const themeLocale = useThemeLocaleData();
-    const articles = useArticles();
-    const categoryMap2 = useCategoryMap();
-    const tagMap = useTagMap();
-    const timelines = useTimelines();
-    const navigate = useNavigate();
-    const bloggerName = vue.computed(() => {
-      var _a;
-      return blogOptions.value.name || ((_a = S$1(themeLocale.value.author)[0]) === null || _a === void 0 ? void 0 : _a.name) || siteLocale.value.title;
-    });
-    const bloggerAvatar = vue.computed(() => blogOptions.value.avatar || themeLocale.value.logo);
-    const locale = vue.computed(() => themeLocale.value.blogLocales);
-    const intro = vue.computed(() => blogOptions.value.intro);
-    return () => vue.h("div", {
-      class: "blogger-info",
-      vocab: "https://schema.org/",
-      typeof: "Person"
-    }, [
-      vue.h("div", __spreadValues({
-        class: "blogger"
-      }, intro.value ? {
-        style: { cursor: "pointer" },
-        ariaLabel: locale.value.intro,
-        "data-balloon-pos": "down",
-        role: "navigation",
-        onClick: () => navigate(intro.value)
-      } : {}), [
-        bloggerAvatar.value ? vue.h("img", {
-          class: [
-            "avatar",
-            {
-              round: blogOptions.value.roundAvatar
-            }
-          ],
-          src: withBase(bloggerAvatar.value),
-          property: "image",
-          alt: "Blogger Avatar"
-        }) : null,
-        bloggerName.value ? vue.h("div", { class: "name", property: "name" }, bloggerName.value) : null,
-        blogOptions.value.description ? vue.h("div", {
-          class: "description",
-          innerHTML: blogOptions.value.description
-        }) : null,
-        intro.value ? vue.h("meta", { property: "url", content: withBase(intro.value) }) : null
-      ]),
-      vue.h("div", { class: "num-wrapper" }, [
-        vue.h("div", { onClick: () => navigate(articles.value.path) }, [
-          vue.h("div", { class: "num" }, articles.value.items.length),
-          vue.h("div", locale.value.article)
-        ]),
-        vue.h("div", { onClick: () => navigate(categoryMap2.value.path) }, [
-          vue.h("div", { class: "num" }, Object.keys(categoryMap2.value.map).length),
-          vue.h("div", locale.value.category)
-        ]),
-        vue.h("div", { onClick: () => navigate(tagMap.value.path) }, [
-          vue.h("div", { class: "num" }, Object.keys(tagMap.value.map).length),
-          vue.h("div", locale.value.tag)
-        ]),
-        vue.h("div", { onClick: () => navigate(timelines.value.path) }, [
-          vue.h("div", { class: "num" }, timelines.value.items.length),
-          vue.h("div", locale.value.timeline)
-        ])
-      ]),
-      vue.h(SocialMedia)
-    ]);
   }
 });
 var categoryList = "";
@@ -5094,7 +5228,7 @@ var TimelineList = vue.defineComponent({
     const hint = vue.computed(() => themeLocale.value.blogLocales.timeline);
     return () => vue.h("div", { class: "timeline-list-wrapper" }, [
       vue.h("div", {
-        class: "title",
+        class: "timeline-list-title",
         onClick: () => navigate(timelines.value.path)
       }, [
         vue.h(TimelineIcon),
@@ -5102,10 +5236,10 @@ var TimelineList = vue.defineComponent({
         hint.value
       ]),
       vue.h("hr"),
-      vue.h("div", { class: "content" }, vue.h("ul", { class: "timeline-list" }, timelines.value.config.map(({ year, items }, index2) => vue.h(DropTransition, { delay: 0.08 * (index2 + 1) }, () => vue.h("li", [
-        vue.h("h3", { class: "year" }, year),
-        vue.h("ul", { class: "year-wrapper" }, items.map(({ date, info, path }) => vue.h("li", [
-          vue.h("span", { class: "date" }, date),
+      vue.h("div", { class: "timeline-content" }, vue.h("ul", { class: "timeline-list" }, timelines.value.config.map(({ year, items }, index2) => vue.h(DropTransition, { delay: 0.08 * (index2 + 1) }, () => vue.h("li", [
+        vue.h("h3", { class: "timeline-year" }, year),
+        vue.h("ul", { class: "timeline-year-wrapper" }, items.map(({ date, info, path }) => vue.h("li", { class: "timeline-item" }, [
+          vue.h("span", { class: "timeline-date" }, date),
           vue.h(vueRouter.RouterLink, {
             class: "timeline-title",
             to: path
@@ -5136,8 +5270,8 @@ var InfoList = vue.defineComponent({
       ["timeline", TimelineIcon]
     ];
     return () => vue.h("div", { class: "blog-info-list" }, [
-      vue.h("div", { class: "switch-wrapper" }, buttons.map(([key, icon]) => vue.h("button", {
-        class: "switch-button",
+      vue.h("div", { class: "blog-type-wrapper" }, buttons.map(([key, icon]) => vue.h("button", {
+        class: "blog-type-button",
         onClick: () => {
           active.value = key;
         }
@@ -5306,15 +5440,15 @@ var TimelineItems = vue.defineComponent({
       children: []
     })));
     return () => vue.h("div", { class: "timeline-wrapper" }, vue.h("ul", { class: "timeline-content" }, [
-      vue.h(DropTransition, () => vue.h("li", { class: "desc" }, hint.value)),
+      vue.h(DropTransition, () => vue.h("li", { class: "motto" }, hint.value)),
       vue.h(vue.resolveComponent("TOC"), { items: items.value }),
       ...timelines.value.config.map(({ year, items: items2 }, index2) => vue.h(DropTransition, { delay: 0.08 * (index2 + 1), type: "group" }, () => [
-        vue.h("h3", { key: "title", id: year, class: "year" }, vue.h("span", year)),
-        vue.h("li", { key: "content", class: "year-list" }, [
-          vue.h("ul", { class: "year-wrapper" }, items2.map(({ date, info, path }) => vue.h("li", [
-            vue.h("span", { class: "date" }, date),
+        vue.h("h3", { key: "title", id: year, class: "timeline-year-title" }, vue.h("span", year)),
+        vue.h("li", { key: "content", class: "timeline-year-list" }, [
+          vue.h("ul", { class: "timeline-year-wrapper" }, items2.map(({ date, info, path }) => vue.h("li", { class: "timeline-item" }, [
+            vue.h("span", { class: "timeline-date" }, date),
             vue.h(vueRouter.RouterLink, {
-              class: "title",
+              class: "timeline-title",
               to: path
             }, () => info.title)
           ])))
@@ -5359,25 +5493,26 @@ var BlogPage = vue.defineComponent({
 });
 var layout$1 = "";
 var clientAppEnhance9 = defineClientAppEnhance(({ app }) => {
+  app.component("BloggerInfo", BloggerInfo);
   app.component("BlogHome", BlogHome);
   app.component("BlogPage", BlogPage);
 });
 const clientAppEnhances = [
   clientAppEnhance0,
-  p$5,
+  p$4,
   clientAppEnhance2,
   clientAppEnhance3,
   y$2,
-  p$1,
+  i$3,
   clientAppEnhance6,
   clientAppEnhance7,
   clientAppEnhance8,
   clientAppEnhance9
 ];
 var backToTop = "";
-const d$2 = () => vue.h(T$2, { name: "back-to-top" }, () => [vue.h("path", { d: "M512 843.2c-36.2 0-66.4-13.6-85.8-21.8-10.8-4.6-22.6 3.6-21.8 15.2l7 102c.4 6.2 7.6 9.4 12.6 5.6l29-22c3.6-2.8 9-1.8 11.4 2l41 64.2c3 4.8 10.2 4.8 13.2 0l41-64.2c2.4-3.8 7.8-4.8 11.4-2l29 22c5 3.8 12.2.6 12.6-5.6l7-102c.8-11.6-11-20-21.8-15.2-19.6 8.2-49.6 21.8-85.8 21.8z" }), vue.h("path", { d: "m795.4 586.2-96-98.2C699.4 172 513 32 513 32S324.8 172 324.8 488l-96 98.2c-3.6 3.6-5.2 9-4.4 14.2L261.2 824c1.8 11.4 14.2 17 23.6 10.8L419 744s41.4 40 94.2 40c52.8 0 92.2-40 92.2-40l134.2 90.8c9.2 6.2 21.6.6 23.6-10.8l37-223.8c.4-5.2-1.2-10.4-4.8-14zM513 384c-34 0-61.4-28.6-61.4-64s27.6-64 61.4-64c34 0 61.4 28.6 61.4 64S547 384 513 384z" })]);
-d$2.displayName = "BacktoTopIcon";
-var i$2 = vue.defineComponent({ name: "BackToTop", props: { threshold: { type: Number, default: 300 } }, setup(o2) {
+const d$1 = () => vue.h(T$2, { name: "back-to-top" }, () => [vue.h("path", { d: "M512 843.2c-36.2 0-66.4-13.6-85.8-21.8-10.8-4.6-22.6 3.6-21.8 15.2l7 102c.4 6.2 7.6 9.4 12.6 5.6l29-22c3.6-2.8 9-1.8 11.4 2l41 64.2c3 4.8 10.2 4.8 13.2 0l41-64.2c2.4-3.8 7.8-4.8 11.4-2l29 22c5 3.8 12.2.6 12.6-5.6l7-102c.8-11.6-11-20-21.8-15.2-19.6 8.2-49.6 21.8-85.8 21.8z" }), vue.h("path", { d: "m795.4 586.2-96-98.2C699.4 172 513 32 513 32S324.8 172 324.8 488l-96 98.2c-3.6 3.6-5.2 9-4.4 14.2L261.2 824c1.8 11.4 14.2 17 23.6 10.8L419 744s41.4 40 94.2 40c52.8 0 92.2-40 92.2-40l134.2 90.8c9.2 6.2 21.6.6 23.6-10.8l37-223.8c.4-5.2-1.2-10.4-4.8-14zM513 384c-34 0-61.4-28.6-61.4-64s27.6-64 61.4-64c34 0 61.4 28.6 61.4 64S547 384 513 384z" })]);
+d$1.displayName = "BacktoTopIcon";
+var i$1 = vue.defineComponent({ name: "BackToTop", props: { threshold: { type: Number, default: 300 } }, setup(o2) {
   const r2 = usePageFrontmatter(), i2 = useThemeData$1(), v2 = x$1({ "/": { "backToTop": "\u8FD4\u56DE\u9876\u90E8" }, "/en/": { "backToTop": "Back to top" } }), b2 = vue.ref(0), T2 = vue.computed(() => {
     const { backToTop: e } = i2.value;
     return typeof e == "number" ? e : o2.threshold;
@@ -5393,19 +5528,19 @@ var i$2 = vue.defineComponent({ name: "BackToTop", props: { threshold: { type: N
     window.removeEventListener("scroll", k2);
   }), () => vue.h(vue.Transition, { name: "fade" }, () => f2.value ? vue.h("button", { class: "back-to-top", ariaLabel: v2.value.backToTop, "data-balloon-pos": "left", onClick: () => {
     window.scrollTo({ top: 0, behavior: "smooth" }), b2.value = 0;
-  } }, vue.h(d$2)) : null);
+  } }, vue.h(d$1)) : null);
 } });
 var photoswipe = "";
 var defaultSkin = "";
-const _ = ".theme-hope-content :not(a) > img", c$1 = { "/": { "close": "\u5173\u95ED", "fullscreen": "\u5207\u6362\u5168\u5C4F", "share": "\u5206\u4EAB", "zoom": "\u7F29\u653E", "prev": "\u4E0A\u4E00\u4E2A (\u5DE6\u7BAD\u5934)", "next": "\u4E0B\u4E00\u4E2A (\u53F3\u7BAD\u5934)", "buttons": [{ "id": "qq", "label": "\u5206\u4EAB\u5230 QQ", "url": "https://connect.qq.com/widget/shareqq/iframe_index.html?url={{url}}&title={{text}}&pics={{image_url}}" }, { "id": "qzone", "label": "\u5206\u4EAB\u5230 Qzone", "url": "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{url}}&title={{text}}&pics={{image_url}}" }, { "id": "weibo", "label": "\u5206\u4EAB\u5230 Weibo", "url": "http://service.weibo.com/share/share.php?url={{url}}&title={{text}}&content=utf8&pic={{image_url}}" }, { "id": "download", "label": "\u4E0B\u8F7D\u56FE\u7247", "url": "{{raw_image_url}}", "download": true }] }, "/en/": { "close": "Close", "fullscreen": "Switch to full screen", "share": "Share", "zoom": "Zoom in/out", "prev": "Prev (Arrow Left)", "next": "Next (Arrow Right)", "buttons": [{ "id": "facebook", "label": "Share on Facebook", "url": "https://www.facebook.com/sharer/sharer.php?u={{url}}" }, { "id": "twitter", "label": "Tweet", "url": "https://twitter.com/intent/tweet?text={{text}}&url={{url}}" }, { "id": "pinterest", "label": "Pin it", "url": "http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}" }, { "id": "download", "label": "Download image", "url": "{{raw_image_url}}", "download": true }] } }, d$1 = 500, u$2 = {}, w = (e) => ({ src: e.src, w: e.naturalWidth, h: e.naturalHeight, title: e.alt });
-var h$1 = vue.defineComponent({ name: "PhotoSwipe", setup() {
-  const t2 = vueRouter.useRoute(), l2 = x$1(c$1), p2 = () => {
+const _ = ".theme-hope-content :not(a) > img", c = { "/": { "close": "\u5173\u95ED", "fullscreen": "\u5207\u6362\u5168\u5C4F", "share": "\u5206\u4EAB", "zoom": "\u7F29\u653E", "prev": "\u4E0A\u4E00\u4E2A (\u5DE6\u7BAD\u5934)", "next": "\u4E0B\u4E00\u4E2A (\u53F3\u7BAD\u5934)", "buttons": [{ "id": "qq", "label": "\u5206\u4EAB\u5230 QQ", "url": "https://connect.qq.com/widget/shareqq/iframe_index.html?url={{url}}&title={{text}}&pics={{image_url}}" }, { "id": "qzone", "label": "\u5206\u4EAB\u5230 Qzone", "url": "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{url}}&title={{text}}&pics={{image_url}}" }, { "id": "weibo", "label": "\u5206\u4EAB\u5230 Weibo", "url": "http://service.weibo.com/share/share.php?url={{url}}&title={{text}}&content=utf8&pic={{image_url}}" }, { "id": "download", "label": "\u4E0B\u8F7D\u56FE\u7247", "url": "{{raw_image_url}}", "download": true }] }, "/en/": { "close": "Close", "fullscreen": "Switch to full screen", "share": "Share", "zoom": "Zoom in/out", "prev": "Prev (Arrow Left)", "next": "Next (Arrow Right)", "buttons": [{ "id": "facebook", "label": "Share on Facebook", "url": "https://www.facebook.com/sharer/sharer.php?u={{url}}" }, { "id": "twitter", "label": "Tweet", "url": "https://twitter.com/intent/tweet?text={{text}}&url={{url}}" }, { "id": "pinterest", "label": "Pin it", "url": "http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}" }, { "id": "download", "label": "Download image", "url": "{{raw_image_url}}", "download": true }] } }, d = 500, u$1 = {}, w = (e) => ({ src: e.src, w: e.naturalWidth, h: e.naturalHeight, title: e.alt });
+var h = vue.defineComponent({ name: "PhotoSwipe", setup() {
+  const t2 = vueRouter.useRoute(), l2 = x$1(c), p2 = () => {
     const e = document.querySelector(".pswp");
     Promise.all([Promise.resolve().then(function() {
       return /* @__PURE__ */ _interopNamespace(require("photoswipe"));
     }), Promise.resolve().then(function() {
       return /* @__PURE__ */ _interopNamespace(require("photoswipe/dist/photoswipe-ui-default"));
-    }), new Promise((e2) => setTimeout(e2, d$1)).then(() => ((e2) => {
+    }), new Promise((e2) => setTimeout(e2, d)).then(() => ((e2) => {
       const t3 = [], s2 = Array.from(document.querySelectorAll(e2));
       return s2.forEach((e3, s3) => {
         t3[s3] = new Promise((t4, s4) => {
@@ -5415,20 +5550,20 @@ var h$1 = vue.defineComponent({ name: "PhotoSwipe", setup() {
     })(_))]).then(([t3, s2, o2]) => {
       o2.elements.forEach((p3, a2) => {
         p3.addEventListener("click", () => {
-          new t3.default(e, s2.default, o2.infos, __spreadProps(__spreadValues({ shareButtons: l2.value.buttons }, u$2), { index: a2 })).init();
+          new t3.default(e, s2.default, o2.infos, __spreadProps(__spreadValues({ shareButtons: l2.value.buttons }, u$1), { index: a2 })).init();
         });
       });
     });
   };
   return vue.watch(() => t2.path, () => p2()), vue.onMounted(() => p2()), { locale: l2 };
 } });
-const m$1 = { class: "pswp", tabindex: "-1", role: "dialog", "aria-hidden": "true" }, v$1 = vue.createElementVNode("div", { class: "pswp__bg" }, null, -1), f$1 = { class: "pswp__scroll-wrap" }, b$1 = vue.createElementVNode("div", { class: "pswp__container" }, [vue.createCommentVNode(" don\u2019t modify these 3 pswp__item elements, data is added later on "), vue.createElementVNode("div", { class: "pswp__item" }), vue.createElementVNode("div", { class: "pswp__item" }), vue.createElementVNode("div", { class: "pswp__item" })], -1), P = { class: "pswp__ui pswp__ui--hidden" }, S = { class: "pswp__top-bar" }, O = vue.createElementVNode("div", { class: "pswp__counter" }, null, -1), g = ["title"], E = ["title"], y$1 = ["title"], I = ["title"], T = vue.createElementVNode("div", { class: "pswp__preloader" }, [vue.createElementVNode("div", { class: "pswp__preloader__icn" }, [vue.createElementVNode("div", { class: "pswp__preloader__cut" }, [vue.createElementVNode("div", { class: "pswp__preloader__donut" })])])], -1), W = vue.createElementVNode("div", { class: "pswp__share-modal pswp__share-modal--hidden pswp__single-tap" }, [vue.createElementVNode("div", { class: "pswp__share-tooltip" })], -1), k = ["title"], x = ["title"], C = vue.createElementVNode("div", { class: "pswp__caption" }, [vue.createElementVNode("div", { class: "pswp__caption__center" })], -1);
-h$1.render = function(e, t2, s2, o2, r2, _2) {
-  return vue.openBlock(), vue.createElementBlock(vue.Fragment, null, [vue.createCommentVNode(" Root element of PhotoSwipe. Must have class pswp. "), vue.createElementVNode("div", m$1, [vue.createCommentVNode(" Background of PhotoSwipe. \n    It\u2019s a separate element, as animating opacity is faster than rgba()."), v$1, vue.createCommentVNode(" Slides wrapper with overflow:hidden. "), vue.createElementVNode("div", f$1, [vue.createCommentVNode(" Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. "), b$1, vue.createCommentVNode(" Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. "), vue.createElementVNode("div", P, [vue.createElementVNode("div", S, [vue.createCommentVNode("  Controls are self-explanatory. Order can be changed. "), O, vue.createElementVNode("button", { class: "pswp__button pswp__button--close", title: e.locale.close }, null, 8, g), vue.createElementVNode("button", { class: "pswp__button pswp__button--share", title: e.locale.share }, null, 8, E), vue.createElementVNode("button", { class: "pswp__button pswp__button--fs", title: e.locale.fullscreen }, null, 8, y$1), vue.createElementVNode("button", { class: "pswp__button pswp__button--zoom", title: e.locale.zoom }, null, 8, I), vue.createCommentVNode(" Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR "), vue.createCommentVNode(" element will get class pswp__preloader--active when preloader is running "), T]), W, vue.createElementVNode("button", { class: "pswp__button pswp__button--arrow--left", title: e.locale.prev }, null, 8, k), vue.createElementVNode("button", { class: "pswp__button pswp__button--arrow--right", title: e.locale.next }, null, 8, x), C])])])], 2112);
-}, h$1.__file = "src/client/components/PhotoSwipe.vue";
+const m = { class: "pswp", tabindex: "-1", role: "dialog", "aria-hidden": "true" }, v = vue.createElementVNode("div", { class: "pswp__bg" }, null, -1), f = { class: "pswp__scroll-wrap" }, b = vue.createElementVNode("div", { class: "pswp__container" }, [vue.createCommentVNode(" don\u2019t modify these 3 pswp__item elements, data is added later on "), vue.createElementVNode("div", { class: "pswp__item" }), vue.createElementVNode("div", { class: "pswp__item" }), vue.createElementVNode("div", { class: "pswp__item" })], -1), P = { class: "pswp__ui pswp__ui--hidden" }, S = { class: "pswp__top-bar" }, O = vue.createElementVNode("div", { class: "pswp__counter" }, null, -1), g = ["title"], E = ["title"], y = ["title"], I = ["title"], T = vue.createElementVNode("div", { class: "pswp__preloader" }, [vue.createElementVNode("div", { class: "pswp__preloader__icn" }, [vue.createElementVNode("div", { class: "pswp__preloader__cut" }, [vue.createElementVNode("div", { class: "pswp__preloader__donut" })])])], -1), W = vue.createElementVNode("div", { class: "pswp__share-modal pswp__share-modal--hidden pswp__single-tap" }, [vue.createElementVNode("div", { class: "pswp__share-tooltip" })], -1), k = ["title"], x = ["title"], C = vue.createElementVNode("div", { class: "pswp__caption" }, [vue.createElementVNode("div", { class: "pswp__caption__center" })], -1);
+h.render = function(e, t2, s2, o2, r2, _2) {
+  return vue.openBlock(), vue.createElementBlock(vue.Fragment, null, [vue.createCommentVNode(" Root element of PhotoSwipe. Must have class pswp. "), vue.createElementVNode("div", m, [vue.createCommentVNode(" Background of PhotoSwipe. \n    It\u2019s a separate element, as animating opacity is faster than rgba()."), v, vue.createCommentVNode(" Slides wrapper with overflow:hidden. "), vue.createElementVNode("div", f, [vue.createCommentVNode(" Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. "), b, vue.createCommentVNode(" Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. "), vue.createElementVNode("div", P, [vue.createElementVNode("div", S, [vue.createCommentVNode("  Controls are self-explanatory. Order can be changed. "), O, vue.createElementVNode("button", { class: "pswp__button pswp__button--close", title: e.locale.close }, null, 8, g), vue.createElementVNode("button", { class: "pswp__button pswp__button--share", title: e.locale.share }, null, 8, E), vue.createElementVNode("button", { class: "pswp__button pswp__button--fs", title: e.locale.fullscreen }, null, 8, y), vue.createElementVNode("button", { class: "pswp__button pswp__button--zoom", title: e.locale.zoom }, null, 8, I), vue.createCommentVNode(" Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR "), vue.createCommentVNode(" element will get class pswp__preloader--active when preloader is running "), T]), W, vue.createElementVNode("button", { class: "pswp__button pswp__button--arrow--left", title: e.locale.prev }, null, 8, k), vue.createElementVNode("button", { class: "pswp__button pswp__button--arrow--right", title: e.locale.next }, null, 8, x), C])])])], 2112);
+}, h.__file = "src/client/components/PhotoSwipe.vue";
 const clientAppRootComponents = [
-  i$2,
-  h$1
+  i$1,
+  h
 ];
 var clientAppSetup0 = defineClientAppSetup(() => {
   return;
@@ -5456,8 +5591,8 @@ var clientAppSetup1 = defineClientAppSetup(() => {
   useNprogress();
 });
 var button = "";
-const n = { "selector": '.theme-hope-content div[class*="language-"] pre', "pure": false }, a$1 = () => !!navigator && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/iu.test(navigator.userAgent);
-var l$1 = defineClientAppSetup(() => {
+const n = { "selector": '.theme-hope-content div[class*="language-"] pre', "pure": false }, a = () => !!navigator && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/iu.test(navigator.userAgent);
+var l = defineClientAppSetup(() => {
   const o2 = vueRouter.useRoute(), l2 = x$1({ "/": { "copy": "\u590D\u5236\u6210\u529F \u{1F389}", "hint": "\u590D\u5236\u4EE3\u7801" }, "/en/": { "copy": "Copied successfully \u{1F389}", "hint": "Copy code" } });
   let i2;
   const p2 = (e) => {
@@ -5477,135 +5612,27 @@ var l$1 = defineClientAppSetup(() => {
     }, n.delay || 500);
   };
   vue.onMounted(() => {
-    i2 = new F(), a$1() && !n.showInMobile || d2();
+    i2 = new F(), a() && !n.showInMobile || d2();
   }), vue.watch(() => o2.path, () => {
-    a$1() && !n.showInMobile || d2();
+    a() && !n.showInMobile || d2();
   });
 });
-var codeDemo = "";
-const o = { "useBabel": false, "jsLib": [], "cssLib": [], "codepenLayout": "left", "codepenEditors": "101", "babel": "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js", "vue": "https://cdn.jsdelivr.net/npm/vue@next/dist/vue.global.prod.js", "react": "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js", "reactDOM": "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" }, a = { html: { types: ["html", "slim", "haml", "md", "markdown", "vue"], map: { html: "none", vue: "none", md: "markdown" } }, js: { types: ["js", "javascript", "coffee", "coffeescript", "ts", "typescript", "ls", "livescript"], map: { js: "none", javascript: "none", coffee: "coffeescript", ls: "livescript", ts: "typescript" } }, css: { types: ["css", "less", "sass", "scss", "stylus", "styl"], map: { css: "none", styl: "stylus" } } }, r$1 = (e, t2, s2) => {
-  const n2 = document.createElement(e);
-  return t2 && Object.keys(t2).forEach((e2) => {
-    if (e2.indexOf("data"))
-      n2[e2] = t2[e2];
-    else {
-      const s3 = e2.replace("data", "");
-      n2.dataset[s3] = t2[e2];
-    }
-  }), s2 && s2.forEach((e2) => {
-    n2.appendChild(e2);
-  }), n2;
-}, c = (e) => __spreadProps(__spreadValues(__spreadValues({}, o), e), { jsLib: Array.from(/* @__PURE__ */ new Set([...o.jsLib || [], ...e.jsLib || []])), cssLib: Array.from(/* @__PURE__ */ new Set([...o.cssLib || [], ...e.cssLib || []])) }), d = (e, t2) => {
-  if (e[t2] !== void 0)
-    return e[t2];
-  const s2 = new Promise((e2) => {
-    const s3 = document.createElement("script");
-    s3.src = t2, document.getElementsByTagName("body")[0].appendChild(s3), s3.onload = () => {
-      e2();
-    };
-  });
-  return e[t2] = s2, s2;
-}, l = (e) => e.replace(/<br \/>/g, "<br>").replace(/<((\S+)[^<]*?)\s+\/>/g, "<$1></$2>"), p = (e) => `<div id="app">
-${l(e)}
-</div>`, i$1 = (e) => `${e.replace("export default ", "const $reactApp = ").replace(/App\.__style__(\s*)=(\s*)`([\s\S]*)?`/, "")};
-ReactDOM.render(React.createElement($reactApp), document.getElementById("app"))`, m = (e) => e.replace(/export\s+default\s*\{(\n*[\s\S]*)\n*\}\s*;?$/u, "Vue.createApp({$1}).mount('#app')").replace(/export\s+default\s*define(Async)?Component\s*\(\s*\{(\n*[\s\S]*)\n*\}\s*\)\s*;?$/u, "Vue.createApp({$1}).mount('#app')").trim(), u$1 = (e) => `(function(exports){var module={};module.exports=exports;${e};return module.exports.__esModule?module.exports.default:module.exports;})({})`, h = (e, t2) => Array.from(e.querySelectorAll(`.${t2}`)), v = (e, t2, s2, n2) => {
-  const o2 = e.classList.contains("down");
-  t2.style.height = o2 ? `${s2.clientHeight + 13.8}px` : "0", o2 ? (n2.classList.add("show-link"), e.classList.remove("down")) : (n2.classList.remove("show-link"), e.classList.add("down"));
-}, y = ({ html: e, js: t2, css: s2, jsLib: n2, jsx: o2, cssLib: a2, codepenEditors: c2, codepenLayout: d2 }, l2) => r$1("form", { className: "code-demo-codepen", target: "_blank", action: "https://codepen.io/pen/define", method: "post" }, [r$1("input", { type: "hidden", name: "data", value: JSON.stringify({ html: e, js: t2, css: s2, js_external: n2.join(";"), css_external: a2.join(";"), layout: d2, html_pre_processor: l2 ? l2.html[1] : "none", js_pre_processor: l2 ? l2.js[1] : o2 ? "babel" : "none", css_pre_processor: l2 ? l2.css[1] : "none", editors: c2 }) }), r$1("button", { type: "submit", innerHTML: '<svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="200" height="200"><defs><style/></defs><path d="M123.429 668L468 897.714V692.571L277.143 565.143zM88 585.714L198.286 512 88 438.286v147.428zm468 312L900.571 668 746.857 565.143 556 692.57v205.143zM512 616l155.429-104L512 408 356.571 512zM277.143 458.857L468 331.43V126.286L123.429 356zM825.714 512L936 585.714V438.286zm-78.857-53.143L900.571 356 556 126.286v205.143zM1024 356v312q0 23.429-19.429 36.571l-468 312Q524.571 1024 512 1024t-24.571-7.429l-468-312Q0 691.43 0 668V356q0-23.429 19.429-36.571l468-312Q499.429 0 512 0t24.571 7.429l468 312Q1024 332.57 1024 356z"/></svg>', className: "button", datatip: "Codepen" })]), f = ({ code: e, codeType: t2, container: s2, innerHTML: n2 = false }) => {
-  const { id: o2 } = s2, a2 = h(s2, "demo-wrapper")[0], c2 = h(s2, "code-wrapper")[0], d2 = h(s2, "code")[0], l2 = h(s2, "code-demo-footer")[0], p2 = decodeURIComponent(s2.dataset.title || ""), i2 = a2.attachShadow({ mode: "open" }), m2 = document.createElement("div");
-  if (m2.classList.add("code-demo-app"), i2.appendChild(m2), e.isLegal) {
-    n2 && (m2.innerHTML = e.html), ((e2, t4) => {
-      if (t4.css && Array.from(e2.childNodes).every((e3) => e3.nodeName !== "STYLE")) {
-        const s3 = r$1("style", { innerHTML: t4.css });
-        e2.appendChild(s3);
-      }
-    })(i2, e), ((e2, t4, s3) => {
-      const n3 = s3.getScript();
-      if (n3 && Array.from(t4.childNodes).every((e3) => e3.nodeName !== "SCRIPT")) {
-        const s4 = document.createElement("script");
-        s4.appendChild(document.createTextNode(`{const document=window.document.querySelector('#${e2} .demo-wrapper').shadowRoot;
-${n3}}`)), t4.appendChild(s4);
-      }
-    })(o2, i2, e);
-    const t3 = r$1("button", { className: "expand down" });
-    l2.appendChild(t3), l2.appendChild(r$1("span", { className: "title", innerHTML: p2 })), t3.addEventListener("click", v.bind(null, t3, c2, d2, l2)), c2.style.height = "0", e.jsfiddle !== false && l2.appendChild((({ html: e2, js: t4, css: s3, jsLib: n3, cssLib: o3 }) => r$1("form", { className: "code-demo-jsfiddle", target: "_blank", action: "https://jsfiddle.net/api/post/library/pure/", method: "post" }, [r$1("input", { type: "hidden", name: "html", value: e2 }), r$1("input", { type: "hidden", name: "js", value: t4 }), r$1("input", { type: "hidden", name: "css", value: s3 }), r$1("input", { type: "hidden", name: "wrap", value: "1" }), r$1("input", { type: "hidden", name: "panel_js", value: "3" }), r$1("input", { type: "hidden", name: "resources", value: [...o3, ...n3].join(",") }), r$1("button", { type: "submit", className: "button", innerHTML: '<svg class="icon" viewBox="0 0 1170 1024" xmlns="http://www.w3.org/2000/svg" width="228.516" height="200"><defs><style/></defs><path d="M1028.571 441.143q63.429 26.286 102.572 83.143t39.143 126.571q0 93.714-67.429 160.286T940 877.714q-2.286 0-6.571-.285t-6-.286H232q-97.143-5.714-164.571-71.714T0 645.143q0-62.857 31.429-116t84-84q-6.858-22.286-6.858-46.857 0-65.715 46.858-112T269.143 240q54.286 0 98.286 33.143 42.857-88 127.142-141.714t186.572-53.715q94.857 0 174.857 46t126.571 124.857 46.572 172q0 3.429-.286 10.286t-.286 10.286zm-761.142 152q0 69.714 48 110.286T434.286 744q78.285 0 137.143-56.571-9.143-11.429-27.143-32.286t-24.857-28.857q-38.286 37.143-82.286 37.143-31.429 0-53.429-19.143t-22-50q0-30.286 22-49.715T436 525.143q25.143 0 48.286 12T526 568.57t37.143 42.858 39.428 46.857 44 42.857T702 732.57t69.429 12q69.142 0 116.857-40.857T936 594.857q0-69.143-48-109.714T769.714 444.57Q688 444.571 632 500l53.143 61.714q37.714-36.571 81.143-36.571 29.714 0 52.571 18.857t22.857 48q0 32.571-21.143 52.286T766.857 664q-24.571 0-47.143-12t-41.143-31.429-37.428-42.857-39.714-46.857T557.143 488 502 456.571t-67.714-12q-69.715 0-118.286 40.286t-48.571 108.286z"/></svg>', datatip: "JSFiddle" })]))(e)), e.codepen !== false && l2.appendChild(y(e));
-  } else
-    a2.style.display = "none", c2.style.height = "auto", l2.appendChild(r$1("span", { className: "title", innerHTML: p2 })), l2.appendChild(y(e, t2)), l2.style.height = "40px";
-  s2.setAttribute("demo-inited", "");
-}, L = () => {
-  setTimeout(() => {
-    const e = h(document, "code-demo-wrapper"), t2 = {};
-    Promise.all(e.map((e2) => {
-      if (e2.hasAttribute("demo-inited"))
-        return Promise.resolve();
-      const s2 = decodeURIComponent(e2.dataset.type || "normal"), n2 = JSON.parse(decodeURIComponent(e2.dataset.config || "{}")), o2 = ((e3) => {
-        const t3 = Object.keys(e3), s3 = { html: [], js: [], css: [], isLegal: false };
-        return ["html", "js", "css"].forEach((n3) => {
-          const o3 = t3.filter((e4) => a[n3].types.includes(e4));
-          if (o3.length) {
-            const t4 = o3[0];
-            s3[n3] = [e3[t4].replace(/^\n|\n$/g, ""), a[n3].map[t4] || t4];
-          }
-        }), s3.isLegal = !(s3.html.length && s3.html[1] !== "none" || s3.js.length && s3.js[1] !== "none" || s3.css.length && s3.css[1] !== "none"), s3;
-      })(JSON.parse(decodeURIComponent(e2.dataset.code || "{}")));
-      switch (s2) {
-        case "react": {
-          const s3 = ((e3, t3) => {
-            const s4 = c(t3);
-            return __spreadProps(__spreadValues({}, s4), { html: p(""), js: i$1(e3.js[0] || ""), css: e3.css[0] || (e3.js[0] ? e3.js[0].replace(/App\.__style__(?:\s*)=(?:\s*)`([\s\S]*)?`/, "$1").trim() : ""), isLegal: e3.isLegal, jsLib: [s4.react, s4.reactDOM, ...s4.jsLib], jsx: true, getScript: () => {
-              var t4, s5;
-              const n3 = ((s5 = (t4 = window.Babel) === null || t4 === void 0 ? void 0 : t4.transform(e3.js[0] || "", { presets: ["es2015", "react"] })) === null || s5 === void 0 ? void 0 : s5.code) || "";
-              return `window.ReactDOM.render(window.React.createElement(${u$1(n3)}), document.firstElementChild)`;
-            } });
-          })(o2, n2);
-          return Promise.all([d(t2, s3.babel), d(t2, s3.react), d(t2, s3.reactDOM)]).then(() => f({ code: s3, codeType: o2, container: e2 }));
-        }
-        case "vue": {
-          const s3 = ((e3, t3) => {
-            const s4 = c(t3), n3 = e3.html[0] || "", o3 = /<template>([\s\S]+)<\/template>/u.exec(n3), a3 = /<script(\s*lang=(['"])(.*?)\2)?>([\s\S]+)<\/script>/u.exec(n3), r2 = /<style(\s*lang=(['"])(.*?)\2)?\s*(?:scoped)?>([\s\S]+)<\/style>/u.exec(n3), d2 = o3 ? o3[1].replace(/^\n|\n$/g, "") : "", [l2 = "", i2 = ""] = a3 ? [a3[4].replace(/^\n|\n$/g, ""), a3[3]] : [], [h2 = "", v2 = ""] = r2 ? [r2[4].replace(/^\n|\n$/g, ""), r2[3]] : [], y2 = i2 === "" && (v2 === "" || v2 === "css");
-            return __spreadProps(__spreadValues({}, s4), { html: p(d2), js: m(l2), css: h2, isLegal: y2, jsLib: [s4.vue, ...s4.jsLib], getScript: () => {
-              var e4, s5;
-              const n4 = t3.useBabel ? ((s5 = (e4 = window.Babel) === null || e4 === void 0 ? void 0 : e4.transform(l2, { presets: ["es2015"] })) === null || s5 === void 0 ? void 0 : s5.code) || "" : l2.replace(/export\s+default/u, "return");
-              return `const app=window.document.createElement('div');document.firstElementChild.appendChild(app);const appOptions=${u$1(n4)};appOptions.template=\`${d2.replace("`", '\\`"')}\`;window.Vue.createApp(appOptions).mount(app);`;
-            } });
-          })(o2, n2), a2 = [d(t2, s3.vue)];
-          return s3.useBabel && a2.push(d(t2, s3.babel)), Promise.all(a2).then(() => f({ code: s3, codeType: o2, container: e2 }));
-        }
-        default: {
-          const s3 = ((e3, t3) => {
-            const s4 = c(t3), n3 = e3.js[0] || "";
-            return __spreadProps(__spreadValues({}, s4), { html: l(e3.html[0] || ""), js: n3, css: e3.css[0] || "", isLegal: e3.isLegal, getScript: () => {
-              var e4;
-              return s4.useBabel ? ((e4 = window.Babel.transform(n3, { presets: ["es2015"] })) === null || e4 === void 0 ? void 0 : e4.code) || "" : n3;
-            } });
-          })(o2, n2);
-          return (s3.useBabel ? d(t2, s3.babel) : Promise.resolve()).then(() => f({ code: s3, codeType: o2, container: e2, innerHTML: true }));
-        }
-      }
-    }));
-  }, 500);
-};
-var b = defineClientAppSetup(() => {
-  const e = vueRouter.useRoute();
-  vue.watch(() => e.path, () => L()), vue.onMounted(() => L());
-});
-var clientAppSetup4 = defineClientAppSetup(() => {
+var clientAppSetup3 = defineClientAppSetup(() => {
   setupBlog();
 });
-var clientAppSetup5 = defineClientAppSetup(() => {
+var clientAppSetup4 = defineClientAppSetup(() => {
   setupDarkMode();
 });
-var clientAppSetup6 = defineClientAppSetup(() => {
+var clientAppSetup5 = defineClientAppSetup(() => {
   setupSidebarItems();
 });
 const clientAppSetups = [
   clientAppSetup0,
   clientAppSetup1,
-  l$1,
-  b,
+  l,
+  clientAppSetup3,
   clientAppSetup4,
-  clientAppSetup5,
-  clientAppSetup6
+  clientAppSetup5
 ];
 const routeItems = [
   ["v-8daa1a0e", "/", { "title": "\u535A\u5BA2\u4E3B\u9875", "icon": "home", "type": "home", "readingTime": { "minutes": 0.13, "words": 38 }, "excerpt": "", "date": "2022-03-14T04:06:13.000Z" }, ["/index.html", "/README.md"]],
@@ -9315,27 +9342,6 @@ const data$2h = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -9420,27 +9426,6 @@ const data$2g = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -9691,27 +9676,6 @@ const data$2f = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -9838,27 +9802,6 @@ const data$2e = {
           "property": "og:locale:alternate",
           "content": "zh-CN"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -9941,27 +9884,6 @@ const data$2d = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -10057,27 +9979,6 @@ const data$2c = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2020-01-25T00:00:00.000Z"
         }
@@ -10158,27 +10059,6 @@ const data$2b = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -10271,20 +10151,6 @@ const data$2a = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -10426,20 +10292,6 @@ const data$29 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u4F5C\u6587\u7EB8\u6761,\u5F18\u6811"
         }
@@ -10546,20 +10398,6 @@ const data$28 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -10655,20 +10493,6 @@ const data$27 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -10824,20 +10648,6 @@ const data$26 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u592E\u89C6\u65B0\u95FB"
         }
@@ -10937,20 +10747,6 @@ const data$25 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u4F5C\u6587\u7EB8\u6761"
         }
@@ -11045,27 +10841,6 @@ const data$24 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -11237,20 +11012,6 @@ const data$23 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -11345,20 +11106,6 @@ const data$22 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -11463,20 +11210,6 @@ const data$21 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -11571,20 +11304,6 @@ const data$20 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -11689,20 +11408,6 @@ const data$1$ = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -11802,20 +11507,6 @@ const data$1_ = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -11909,20 +11600,6 @@ const data$1Z = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -12027,20 +11704,6 @@ const data$1Y = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -12135,20 +11798,6 @@ const data$1X = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -12252,20 +11901,6 @@ const data$1W = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u767D\u57A9\u7EAA\u602A\u4EBA"
         }
@@ -12360,27 +11995,6 @@ const data$1V = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -12553,20 +12167,6 @@ const data$1U = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -12666,20 +12266,6 @@ const data$1T = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u5C0F\u733F"
         }
@@ -12774,27 +12360,6 @@ const data$1S = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -13018,20 +12583,6 @@ const data$1R = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "cee-roo"
         }
@@ -13126,20 +12677,6 @@ const data$1Q = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -13270,20 +12807,6 @@ const data$1P = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -13378,20 +12901,6 @@ const data$1O = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -13497,20 +13006,6 @@ const data$1N = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u5C0F\u733F"
         }
@@ -13605,20 +13100,6 @@ const data$1M = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -13723,20 +13204,6 @@ const data$1L = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -13831,20 +13298,6 @@ const data$1K = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -13974,20 +13427,6 @@ const data$1J = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -14082,20 +13521,6 @@ const data$1I = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -14200,20 +13625,6 @@ const data$1H = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u5C0F\u733F"
         }
@@ -14308,20 +13719,6 @@ const data$1G = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
         }
       ],
       [
@@ -14426,20 +13823,6 @@ const data$1F = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u7F57\u7FD4,Bilibili"
         }
@@ -14534,20 +13917,6 @@ const data$1E = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -14689,20 +14058,6 @@ const data$1D = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u4F5C\u6587\u7EB8\u6761,\u5F18\u6811"
         }
@@ -14809,20 +14164,6 @@ const data$1C = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -14923,20 +14264,6 @@ const data$1B = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u5F18\u6811"
         }
@@ -15003,9 +14330,15 @@ const data$1B = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1648115565e3,
+    "updatedTime": 1648115565e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.46,
@@ -15075,20 +14408,6 @@ const data$1A = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -15193,20 +14512,6 @@ const data$1z = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u4F5C\u6587\u7EB8\u6761"
         }
@@ -15301,27 +14606,6 @@ const data$1y = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -15493,20 +14777,6 @@ const data$1x = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -15601,20 +14871,6 @@ const data$1w = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -15719,20 +14975,6 @@ const data$1v = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -15827,20 +15069,6 @@ const data$1u = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -15945,20 +15173,6 @@ const data$1t = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -16058,20 +15272,6 @@ const data$1s = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -16165,20 +15365,6 @@ const data$1r = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -16283,20 +15469,6 @@ const data$1q = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -16390,20 +15562,6 @@ const data$1p = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -16508,20 +15666,6 @@ const data$1o = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -16616,27 +15760,6 @@ const data$1n = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -16809,20 +15932,6 @@ const data$1m = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -16917,20 +16026,6 @@ const data$1l = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -17035,20 +16130,6 @@ const data$1k = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u9E23\u7802\u4E3F\u6C99\u6C99\u6C99"
         }
@@ -17148,20 +16229,6 @@ const data$1j = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -17256,27 +16323,6 @@ const data$1i = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -17500,20 +16546,6 @@ const data$1h = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "cee-roo"
         }
@@ -17608,20 +16640,6 @@ const data$1g = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -17752,20 +16770,6 @@ const data$1f = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -17860,20 +16864,6 @@ const data$1e = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -17979,20 +16969,6 @@ const data$1d = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u5C0F\u733F"
         }
@@ -18087,20 +17063,6 @@ const data$1c = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -18205,20 +17167,6 @@ const data$1b = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u539F\u521B\u52A8\u529B"
         }
@@ -18313,20 +17261,6 @@ const data$1a = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -18456,20 +17390,6 @@ const data$19 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "Bilibili@\u97E9\u4F73\u660E\u5F18\u6811"
         }
@@ -18564,20 +17484,6 @@ const data$18 = {
         {
           "property": "og:locale:alternate",
           "content": "zh-CN"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
         }
       ],
       [
@@ -18682,20 +17588,6 @@ const data$17 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "\u7F57\u7FD4,Bilibili"
         }
@@ -18783,27 +17675,6 @@ const data$16 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -19077,27 +17948,6 @@ const data$15 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -19183,27 +18033,6 @@ const data$14 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2022-03-24T00:00:00.000Z"
         }
@@ -19232,9 +18061,15 @@ const data$14 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1648115565e3,
+    "updatedTime": 1648115565e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.15,
@@ -19297,27 +18132,6 @@ const data$13 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -19477,27 +18291,6 @@ const data$12 = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2022-03-14T00:00:00.000Z"
         }
@@ -19604,27 +18397,6 @@ const data$11 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -19757,9 +18529,15 @@ const data$11 = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1648115565e3,
+    "updatedTime": 1648115565e3,
+    "contributors": [
+      {
+        "name": "hanjiaming",
+        "email": "47519540+guomaimang@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 9.41,
@@ -19822,27 +18600,6 @@ const data$10 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -19960,27 +18717,6 @@ const data$$ = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -20173,27 +18909,6 @@ const data$_ = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -20378,12 +19093,12 @@ const data$_ = {
   ],
   "git": {
     "createdTime": 1647230773e3,
-    "updatedTime": 1648025754e3,
+    "updatedTime": 1648115565e3,
     "contributors": [
       {
         "name": "hanjiaming",
         "email": "47519540+guomaimang@users.noreply.github.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
@@ -20447,27 +19162,6 @@ const data$Z = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -20645,27 +19339,6 @@ const data$Y = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -20790,27 +19463,6 @@ const data$X = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -20952,27 +19604,6 @@ const data$W = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -21132,27 +19763,6 @@ const data$V = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -21232,27 +19842,6 @@ const data$U = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -21461,27 +20050,6 @@ const data$T = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -21715,27 +20283,6 @@ const data$S = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -21934,27 +20481,6 @@ const data$R = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -22035,27 +20561,6 @@ const data$Q = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -22247,27 +20752,6 @@ const data$P = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -22545,27 +21029,6 @@ const data$O = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -22751,27 +21214,6 @@ const data$N = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -22857,27 +21299,6 @@ const data$M = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -22957,27 +21378,6 @@ const data$L = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -23137,27 +21537,6 @@ const data$K = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -23384,27 +21763,6 @@ const data$J = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -23578,20 +21936,6 @@ const data$I = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:author",
           "content": "educba"
         }
@@ -23684,27 +22028,6 @@ const data$H = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -23784,27 +22107,6 @@ const data$G = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -24007,27 +22309,6 @@ const data$F = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -24200,27 +22481,6 @@ const data$E = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -24338,27 +22598,6 @@ const data$D = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -24574,27 +22813,6 @@ const data$C = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -24786,27 +23004,6 @@ const data$B = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -24930,27 +23127,6 @@ const data$A = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -25030,27 +23206,6 @@ const data$z = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -25184,27 +23339,6 @@ const data$y = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -25333,27 +23467,6 @@ const data$x = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -25465,27 +23578,6 @@ const data$w = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -25615,27 +23707,6 @@ const data$v = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -25911,27 +23982,6 @@ const data$u = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -26024,27 +24074,6 @@ const data$t = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -26231,27 +24260,6 @@ const data$s = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -26331,27 +24339,6 @@ const data$r = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ],
       [
@@ -26630,27 +24617,6 @@ const data$q = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -26773,27 +24739,6 @@ const data$p = {
       [
         "meta",
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "article:published_time",
           "content": "2021-05-01T00:00:00.000Z"
         }
@@ -26910,27 +24855,6 @@ const data$o = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27001,27 +24925,6 @@ const data$n = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -27094,27 +24997,6 @@ const data$m = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27185,27 +25067,6 @@ const data$l = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -27278,27 +25139,6 @@ const data$k = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27369,27 +25209,6 @@ const data$j = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -27462,27 +25281,6 @@ const data$i = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27553,27 +25351,6 @@ const data$h = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -27647,27 +25424,6 @@ const data$g = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27738,27 +25494,6 @@ const data$f = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -27831,27 +25566,6 @@ const data$e = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -27922,27 +25636,6 @@ const data$d = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -28015,27 +25708,6 @@ const data$c = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28107,27 +25779,6 @@ const data$b = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28198,27 +25849,6 @@ const data$a = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -28292,27 +25922,6 @@ const data$9 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28384,27 +25993,6 @@ const data$8 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -28478,27 +26066,6 @@ const data$7 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28571,27 +26138,6 @@ const data$6 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28662,27 +26208,6 @@ const data$5 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -28756,27 +26281,6 @@ const data$4 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -28848,27 +26352,6 @@ const data$3 = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -28942,27 +26425,6 @@ const data$2 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -29035,27 +26497,6 @@ const data$1 = {
           "property": "og:locale:alternate",
           "content": "en-US"
         }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
-        }
       ]
     ]
   },
@@ -29127,27 +26568,6 @@ const data = {
         {
           "property": "og:locale:alternate",
           "content": "en-US"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        }
-      ],
-      [
-        "meta",
-        {
-          "name": "twitter:image:alt",
-          "content": "\u5F18\u6811"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:author",
-          "content": "HongShu"
         }
       ]
     ]
@@ -29241,11 +26661,17 @@ var _404$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty
 var Layout = vue.defineComponent({
   name: "Layout",
   setup() {
+    const themeData2 = useThemeData();
+    const themeLocale = useThemeLocaleData();
     const page2 = usePageData();
     const frontmatter = usePageFrontmatter();
+    const isMobile = useMobile();
+    const sidebarDisplay = vue.computed(() => themeLocale.value.blog.sidebarDisplay || themeData2.value.blog.sidebarDisplay || "mobile");
     return () => [
       vue.h(SkipLink),
-      vue.h(vue.resolveComponent("CommonWrapper"), () => frontmatter.value.home ? vue.h(vue.resolveComponent("HomePage")) : vue.h(FadeSlideY, () => vue.h(vue.resolveComponent("NormalPage"), { key: page2.value.path })))
+      vue.h(vue.resolveComponent("CommonWrapper"), {}, __spreadValues(__spreadValues({
+        default: () => frontmatter.value.home ? vue.h(vue.resolveComponent("HomePage")) : vue.h(FadeSlideY, () => vue.h(vue.resolveComponent("NormalPage"), { key: page2.value.path }))
+      }, sidebarDisplay.value !== "none" ? { navScreenBottom: () => vue.h(vue.resolveComponent("BloggerInfo")) } : {}), !isMobile.value && sidebarDisplay.value === "always" ? { sidebar: () => vue.h(vue.resolveComponent("BloggerInfo")) } : {}))
     ];
   }
 });
@@ -29271,16 +26697,16 @@ var Blog = vue.defineComponent({
   name: "Blog",
   setup() {
     const frontmatter = usePageFrontmatter();
+    const isMobile = useMobile();
     return () => [
       vue.h(SkipLink),
-      vue.h(vue.resolveComponent("CommonWrapper"), { sidebar: false, sidebarLinks: false }, {
-        navScreenBottom: () => vue.h(BloggerInfo),
-        sidebar: () => vue.h(InfoList),
+      vue.h(vue.resolveComponent("CommonWrapper"), { sidebar: false }, __spreadValues({
         default: () => frontmatter.value.home ? vue.h(BlogHome) : vue.h("main", { class: "page blog", id: "main-content" }, vue.h("div", { class: "blog-page-wrapper" }, [
           vue.h(BlogPage),
           vue.h(DropTransition, { delay: 0.16 }, () => vue.h(InfoPanel))
-        ]))
-      })
+        ])),
+        navScreenBottom: () => vue.h(BloggerInfo)
+      }, isMobile.value ? { sidebar: () => vue.h(InfoList) } : {}))
     ];
   }
 });
@@ -29317,10 +26743,5 @@ var tex = "";
 var tex$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": tex
-}, Symbol.toStringTag, { value: "Module" }));
-var katex_min = "";
-var katex_min$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": katex_min
 }, Symbol.toStringTag, { value: "Module" }));
 exports.createVueApp = createVueApp;
