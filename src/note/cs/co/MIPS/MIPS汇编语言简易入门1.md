@@ -1,15 +1,9 @@
 ---
 article: false
 date: 2021-05-01
-
-
 ---
 
 # MIPS汇编语言简易入门1
-
-
-
-<audio controls="" src="https://hssvr01.oss-cn-zhangjiakou.aliyuncs.com/hongshu/file/2021/02/20210202182514688.mp3" autoplay="" loop="" style="display: inline-block; max-width: 100%; box-sizing: border-box;"></audio>
 
 > 汇编语言（Assembly Language）是任何一种用于电子计算机、微处理器、微控制器或其他可编程器件的低级语言，亦称为符号语言。在汇编语言中，用助记符代替机器指令的操作码，用地址符号或标号代替指令或操作数的地址。在不同的设备中，汇编语言对应着不同的机器语言指令集，通过汇编过程转换成机器指令。特定的汇编语言和特定的机器语言指令集是一一对应的，不同平台之间不可直接移植。
 >

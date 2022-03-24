@@ -1,8 +1,6 @@
 ---
 article: false
 date: 2021-05-01
-
-
 ---
 
 # MIPS汇编语言简易入门3
