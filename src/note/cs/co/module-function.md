@@ -4,7 +4,7 @@ date: 2021-05-01
 index: 1
 ---
 
-# 计算机组件，功能和互连
+# Components & Interconnects
 
 ## 计算机组件
 
