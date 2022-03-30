@@ -6,7 +6,7 @@ index: 6
 
 ---
 
-# 通信标准
+# Communication Standards
 
 - FF: 父父进程
 - F1: 适用于算法1的父进程

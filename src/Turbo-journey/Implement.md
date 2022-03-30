@@ -6,7 +6,7 @@ index: 3
 
 ---
 
-# 实现细节
+# Implement & Paradigm 
 
 ## 前言
 

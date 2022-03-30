@@ -1,0 +1,1 @@
+import{_ as e,o as t,a,d as r,b as s}from"./app.fc756588.js";const o={},c={id:"father-father-process",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#father-father-process","aria-hidden":"true"},"#",-1),h=s(" Father Father Process"),n=[_,h];function d(f,i){return t(),a("h1",c,n)}var p=e(o,[["render",d]]);export{p as default};
