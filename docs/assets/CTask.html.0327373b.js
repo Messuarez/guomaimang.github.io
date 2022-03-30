@@ -1,0 +1,1 @@
+import{_ as e,o as t,a,d as s,b as o}from"./app.23db12da.js";const c={},r={id:"\u5B50\u8FDB\u7A0B",tabindex:"-1"},_=s("a",{class:"header-anchor",href:"#\u5B50\u8FDB\u7A0B","aria-hidden":"true"},"#",-1),n=o(" \u5B50\u8FDB\u7A0B"),d=[_,n];function h(i,f){return t(),a("h1",r,d)}var m=e(c,[["render",h]]);export{m as default};
