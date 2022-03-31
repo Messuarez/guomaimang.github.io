@@ -97,5 +97,20 @@ while (1){
 }
 ```
 
+## 流程说明
 
+- 程序进入后只有FF
+- 每一次添加event后，将执行
+  - 创建FF1
+    - do something
+    - 创建C1 - C4 （因为每个Team一定只有4个人）
+    - do something
+    - 关闭C1 - C4
+  - 创建FF2
+    - do something
+    - 创建C1 - C4 （因为每个Team一定只有4个人）
+    - do something
+    - 关闭C1 - C4
+  - 结束FF1
+  - 结束FF2
 

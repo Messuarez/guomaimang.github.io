@@ -11,7 +11,7 @@ index: 6
 - FF: 父父进程
 - F1: 适用于算法1的父进程
 - F2: 适用于算法2的父进程
-- Cx: 子进程x
+- Cx: 子进程x，每个F有4个C，C1-C4
 
 ## 实现方法
 
@@ -19,57 +19,71 @@ index: 6
 
 <img src="https://pic.hanjiaming.com.cn/2022/03/31/78fde2568af7d.png" alt="1648657448192.png" style="zoom:50%;" />
 
-传输方式: char [26]
+## 消息内容规范
 
-## Usage
+传输方式: char [101]
 
-| index    | 0    | 1    | 2    | 3    | 4    | 5    |
-| -------- | ---- | ---- | ---- | ---- | ---- | ---- |
-| **char** | 'N'  | 25   | 33   | 31   | 46   | 9    |
+- 在字符串的buf里以`$`分隔块。
+- 共3+有个块
+  - 第一个块表示信号字符，是一个大写字母
+  - 第二个块表示传递的struct类型i, 是一个str(num)（是我们自己定义的，请查看下面的表）
+  - 第三+个块表示传递的struct中的变量
+- 如果你要手动拼装string，别忘了让有效字符的下一位为 ascii 0
+
+举例：信号为N，要传输一个struct(该struct 类型在文档中的标号为3，里面有1个字符串abc和4个数字12, 23, 11和33，那么传递的就应该是 `N$3abc$12$23$11$33`
 
 ## FF -> F
 
-| arg0 | arg1 | arg2 | arg3 | Meaning                                   |
-| ---- | ---- | ---- | ---- | ----------------------------------------- |
-| P    | /    | /    | /    | Tell FF1 and FF2 to ask children to Print |
-| E    | /    | /    | /    | Tell FF1 and FF2 to end process           |
-|      |      |      |      |                                           |
-|      |      |      |      |                                           |
-|      |      |      |      |                                           |
-|      |      |      |      |                                           |
-|      |      |      |      |                                           |
+| signal | arg  | Meaning                                   |
+| ------ | ---- | ----------------------------------------- |
+| P      | /    | Tell FF1 and FF2 to ask children to Print |
+| E      | /    | Tell FF1 and FF2 to end process           |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
 
 ## F -> FF
 
-| arg0 | arg1 | arg2 | arg3 | Meaning |
-| ---- | ---- | ---- | ---- | ------- |
-|      |      |      |      |         |
-|      |      |      |      |         |
-|      |      |      |      |         |
-|      |      |      |      |         |
-|      |      |      |      |         |
-|      |      |      |      |         |
-|      |      |      |      |         |
+| signal | arg  | Meaning |
+| ------ | ---- | ------- |
+|        |      |         |
+|        |      |         |
+|        |      |         |
+|        |      |         |
+|        |      |         |
+|        |      |         |
+|        |      |         |
 
 ## F -> C
 
-| arg0 | arg1            | arg2 | arg3 | Meaning             |
-| ---- | --------------- | ---- | ---- | ------------------- |
-| A    | add which event | /    | /    | add event           |
-| P    | /               | /    | /    | Tell child to print |
-|      |                 |      |      |                     |
-|      |                 |      |      |                     |
-|      |                 |      |      |                     |
-|      |                 |      |      |                     |
-| E    | /               | /    | /    | end process         |
+| signal | arg1        | Meaning             |
+| ------ | ----------- | ------------------- |
+| T      | which event | try to add event    |
+| A      | which event | add event           |
+| P      | /           | Tell child to print |
+|        |             |                     |
+|        |             |                     |
+|        |             |                     |
+|        |             |                     |
+| E      | /           | end process         |
+
+添加事件注意事项：先尝试添加，等大家都无异议后再执行
 
 ## C -> F
 
-| arg0 | arg1       | arg2 | arg3 | Meaning                                                   |
-| ---- | ---------- | ---- | ---- | --------------------------------------------------------- |
-| Y    | /          | /    | /    | tell FF the target event will be added is acceptable      |
-| N    | what event | /    | /    | tell FF the target event will be added is  not acceptable |
-| N    | /          | /    | /    |                                                           |
-|      |            |      |      |                                                           |
-|      |            |      |      |                                                           |
-|      |            |      |      |                                                           |
+| signal | arg        | Meaning                                                   |
+| ------ | ---------- | --------------------------------------------------------- |
+| Y      | /          | tell FF the target event will be added is acceptable      |
+| N      | what event | tell FF the target event will be added is  not acceptable |
+| N      | "!"        | tell FF the target event will be added is  not acceptable |
+|        |            |                                                           |
+|        |            |                                                           |
+|        |            |                                                           |
+
+为什么两个N？第一种是在传递哪一个冲突（如果多个则传输多次），第二种是告诉所有冲突时间都传输完了，是个标志
+
+## 关于全局变量
+
+全局变量不需要传输，因为fork()会把全局变量信息copy。而且一旦copy不需要改动。
