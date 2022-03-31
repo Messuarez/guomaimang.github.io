@@ -105,7 +105,7 @@ F1和F2需要知道的外部变量有
 
 ### 团队库
 
-团队会随时添加，由FF把string处理成buf后，
+团队会随时添加，由FF把string处理成buf后，传递给F1/F2
 
 ```c
 team teamArr[256];
