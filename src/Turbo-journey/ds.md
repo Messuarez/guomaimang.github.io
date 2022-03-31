@@ -54,7 +54,11 @@ typedef struct{
 ```c
 // 类型编号 3
 typedef struct{
-  team whichTeam[11];
+  char whichTeam[11];	
+  int manager; 	// 从职员库中索引定位
+  int member1;	// 从职员库中索引定位
+  int member2;	// 从职员库中索引定位
+  int member3;	// 从职员库中索引定位
   
   int holdDay; 		// 0-17
   int startTime;  // 9-17
@@ -65,7 +69,13 @@ typedef struct{
 }event;
 ```
 
-## 变量
+## Cx的全局变量
+
+### 外部变量
+
+Cx需要知道的外部变量有
+
+- 将要添加的会议: F1/F2通过pipe传递struct实现
 
 ### 日历
 
@@ -73,18 +83,32 @@ typedef struct{
 event myCalendar[40];
 ```
 
-## 全局变量
+## FF的全局变量
 
-### 团队库
+### 职员库 (Const)
 
-```c
-team teamArr[256];
-```
-
-### 职员库
+需要注意的是，职员的数量是已知的。一共就8个人。不需要要后续添加。
 
 ```c
 person personArr[1024];
+```
+
+## F1/F2的全局变量
+
+### 外部变量
+
+F1和F2需要知道的外部变量有
+
+- 将要添加的会议: FF通过pipe传递struct实现
+- 无法添加的会议: C通过pipe传递struct实现
+- 职员库：通过Fork从FF获取
+
+### 团队库
+
+团队会随时添加，由FF把string处理成buf后，
+
+```c
+team teamArr[256];
 ```
 
 ### 待处理会议队列
@@ -97,4 +121,3 @@ person personArr[1024];
 // 添加被替代的事件
 // 如果事件不能被安排，则不会被重新放到队列
 ```
-

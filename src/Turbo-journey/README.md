@@ -5,7 +5,23 @@ index: 0
 
 ---
 
-# Project Repost
+# Dev Document
+
+**COMP 2421 Group Project Development Document**
+
+## 怎样查看
+
+<img src="https://pic.hanjiaming.com.cn/2022/03/31/a01af642388f3.png" alt="1648703839436.png" style="zoom:25%;" />
+
+可通过目录快速翻阅。
+临时存放于此站点，完成Project之后将放到Projects所在仓库。
+
+## 怎样更新
+
+- wechat发起讨论
+- 直接在页面下方留言处留言
+
+------
 
 ## 情景模拟
 
@@ -93,4 +109,3 @@ index: 0
 You may form a group of 3 - 5 persons for this project. The project must be implemented using programming **language C** and it must be successfully executed on **ANY ONE of Linux Servers** (*apollo or apollo2*) in the Department of Computing. 
 
 We accept only the C-source code file(s). We simply compile your source code file(s) and then execute the compiled program. If you use any additional library files in your application, you should have ***sought the approval\*** from us first. Those additional library files should be included in your submission and declare clearly how they are applied in your application.
-

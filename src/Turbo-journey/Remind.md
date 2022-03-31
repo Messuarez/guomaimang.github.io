@@ -53,7 +53,3 @@ index: 1
   - 你可以在Teams中找到所有的信息和资料
 - Github 充当代码协作平台
   - 建议使用Github Desktop，以高效率
-
-## 其他注意事项
-
-- 使用字符串，记得让char的长度加1，且string 的结尾是 ascii 0，即char[4] = 0
