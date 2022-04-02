@@ -73,8 +73,6 @@ typedef struct typeEvent{
 }event;
 ```
 
-------
-
 ## FF的全局变量
 
 ### 职员库 (Const)
@@ -94,8 +92,6 @@ person personArr[1024];
 ```c
 team teamArr[256];
 ```
-
-------
 
 ## F1/F2的全局变量
 
@@ -133,8 +129,6 @@ team teamArr[256];
 // 添加被替代的事件
 // 如果事件不能被安排，则不会被重新放到队列
 ```
-
-------
 
 ## Cx的全局变量
 
