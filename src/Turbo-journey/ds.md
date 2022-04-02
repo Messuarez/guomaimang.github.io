@@ -14,11 +14,12 @@ index: 5
 // 类型编号 1
 typedef struct typePerson{
   int index;
-  char name[11];
  
   int manageTeam; // 管理的团队的团队的id 无则 = -1
   int asMember;   // 作为几个团队的member？ 限制最多是3个
   // 一个人最多参与 3 个团队，即 1 <= asManager + asMember <= 3
+  
+  char name[11];  // 放到最后，方便读取
 }person;
 ```
 
@@ -28,7 +29,6 @@ typedef struct typePerson{
 // 类型编号 2
 typedef struct typeTeam{
   int index;
-  char name[11];
   
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
@@ -36,6 +36,7 @@ typedef struct typeTeam{
   int member3;	// 从职员库中索引定位
   // 不使用数组的原因：方便pipe传输
   
+  char name[11];
 }team;
 ```
 
@@ -56,7 +57,6 @@ typedef struct typeTeam{
 typedef struct typeEvent{
   int index;
   
-  char whichTeam[11];	
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
   int member2;	// 从职员库中索引定位
@@ -67,6 +67,8 @@ typedef struct typeEvent{
   int endTime;		// 10-18
   
   int priority;   // FCFS 中可无视
+  
+  char whichTeam[11];	
  
 }event;
 ```
