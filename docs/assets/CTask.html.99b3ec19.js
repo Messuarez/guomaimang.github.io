@@ -1,0 +1,1 @@
+import{_ as e,o as s,a as c,d as o,b as t}from"./app.9c46293c.js";const a={},r={id:"child-process",tabindex:"-1"},d=o("a",{class:"header-anchor",href:"#child-process","aria-hidden":"true"},"#",-1),_=t(" Child Process"),n=[d,_];function h(i,l){return s(),c("h1",r,n)}var p=e(a,[["render",h]]);export{p as default};
