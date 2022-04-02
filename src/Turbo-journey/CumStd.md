@@ -52,7 +52,7 @@ index: 6
 |        |      |                                           |
 | F      | /    | Tell FF1 and FF2 to end process           |
 
-For signal E, G, FF should pass message to two F via two pipes
+For signal E, G, FF should pass message to two F via two pipes.
 
 ## F -> FF
 
