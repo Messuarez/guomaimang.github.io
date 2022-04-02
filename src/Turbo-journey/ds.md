@@ -55,6 +55,7 @@ typedef struct typeTeam{
 // 类型编号 3
 typedef struct typeEvent{
   int index;
+  
   char whichTeam[11];	
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
