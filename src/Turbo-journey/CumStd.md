@@ -34,6 +34,10 @@ index: 6
 
 举例：信号为N，要传输一个struct(该struct 类型在文档中的标号为3，里面有1个字符串abc和4个数字12, 23, 11和33，那么传递的就应该是 `N$3$abc$12$23$11$33`
 
+注： int数组的标号为50. 格式为第一个数字n表示长度，后面n个用$隔开的数字表示数组内容。
+例子： `N$50$3$2$-1$5` 传递了一个长度为3， 内容为[2,-1,5]的数组
+
+
 ## FF -> F
 
 | signal | arg  | Meaning                                                      |
@@ -77,16 +81,15 @@ index: 6
 
 ## C -> F
 
-| signal | arg        | Meaning                                                   |
-| ------ | ---------- | --------------------------------------------------------- |
-| Y      | /          | tell FF the target event will be added is acceptable      |
-| N      | what event | tell FF the target event will be added is  not acceptable |
-| N      | "!"        | tell FF the target event will be added is  not acceptable |
-|        |            |                                                           |
-|        |            |                                                           |
-|        |            |                                                           |
+| signal | arg          | Meaning                                                   |
+| ------ | ----------   | --------------------------------------------------------- |
+| Y      | /            | tell FF the target event will be added is acceptable      |
+| N      | an int array | tell FF the target events will be added is  not acceptable, and return the conflict event id |
+|        |              |                                                           |
+|        |              |                                                           |
+|        |              |                                                           |
 
-为什么两个N？第一种是在传递哪一个冲突（如果多个则传输多次），第二种是告诉所有冲突时间都传输完了，是个标志
+
 
 ## 关于全局变量
 
