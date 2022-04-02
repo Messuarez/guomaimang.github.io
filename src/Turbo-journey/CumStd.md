@@ -40,17 +40,19 @@ index: 6
 
 ## FF -> F
 
-| signal | arg  | Meaning                                                      |
-| ------ | ---- | ------------------------------------------------------------ |
-| P      | /    | Tell FF1 and FF2 to ask children to Print                    |
-| E      | /    | Pass a event to F, FF should pass this to two F via two pipes |
-| F      | /    | Tell FF1 and FF2 to end process                              |
-|        |      |                                                              |
-|        |      |                                                              |
-|        |      |                                                              |
-|        |      |                                                              |
-|        |      |                                                              |
-|        |      |                                                              |
+| signal | arg  | Meaning                                   |
+| ------ | ---- | ----------------------------------------- |
+| P      | /    | Tell FF1 and FF2 to ask children to Print |
+| E      | /    | Pass a event to F                         |
+| G      | /    | Pass a new group information to F         |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
+|        |      |                                           |
+| F      | /    | Tell FF1 and FF2 to end process           |
+
+For signal E, G, FF should pass message to two F via two pipes
 
 ## F -> FF
 
