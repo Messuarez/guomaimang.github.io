@@ -1,1 +1,0 @@
-import{_ as e,o as t,a,d as o,b as r}from"./app.9c46293c.js";const s={},n={id:"python-for-data",tabindex:"-1"},c=o("a",{class:"header-anchor",href:"#python-for-data","aria-hidden":"true"},"#",-1),d=r(" Python for Data"),_=[c,d];function h(i,f){return t(),a("h1",n,_)}var p=e(s,[["render",h]]);export{p as default};

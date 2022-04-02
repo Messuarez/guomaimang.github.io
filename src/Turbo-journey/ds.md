@@ -13,7 +13,7 @@ index: 5
 ```c
 // 类型编号 1
 typedef struct{
-  int index = 0;
+  int index;
   char name[11];
  
   int manageTeam; // 管理的团队的团队的id 无则 = -1
@@ -27,7 +27,7 @@ typedef struct{
 ```c
 // 类型编号 2
 typedef struct{
-  int index = 0;
+  int index;
   char name[11];
   
   int manager; 	// 从职员库中索引定位
@@ -54,7 +54,7 @@ typedef struct{
 ```c
 // 类型编号 3
 typedef struct{
-  index = 0;
+  int index;
   char whichTeam[11];	
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
