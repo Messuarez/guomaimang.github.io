@@ -19,7 +19,7 @@ index: 6
 
 星状，每条链路通过两个unnamed pipe 实现
 
-<img src="https://pic.hanjiaming.com.cn/2022/03/31/78fde2568af7d.png" alt="1648657448192.png" style="zoom:50%;" />
+<img src="https://pic.hanjiaming.com.cn/2022/03/31/78fde2568af7d.png" alt="1648657448192.png" style="zoom: 25%;" />
 
 ## 消息内容规范
 
@@ -68,16 +68,16 @@ For signal E, G, FF should pass message to two F via two pipes.
 
 ## F -> C
 
-| signal | arg1        | Meaning             |
-| ------ | ----------- | ------------------- |
-| T      | an event A  | try to add event    |
-| A      | /           | confirm add event A |
-| C      | /           | cancel event A      |
-| P      | /           | Tell child to print |
-|        |             |                     |
-|        |             |                     |
-|        |             |                     |
-| F      | /           | end process         |
+| signal | arg1       | Meaning             |
+| ------ | ---------- | ------------------- |
+| T      | an event A | try to add event    |
+| A      | /          | confirm add event A |
+| C      | /          | cancel event A      |
+| P      | /          | Tell child to print |
+|        |            |                     |
+|        |            |                     |
+|        |            |                     |
+| F      | /          | end process         |
 
 添加事件注意事项：先尝试添加，等大家都无异议后再执行
 

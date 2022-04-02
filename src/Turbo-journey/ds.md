@@ -13,7 +13,7 @@ index: 5
 ```c
 // 类型编号 1
 typedef struct typePerson{
-  int index;
+  int index; 			
  
   int manageTeam; // 管理的团队的团队的id 无则 = -1
   int asMember;   // 作为几个团队的member？ 限制最多是3个
@@ -28,7 +28,7 @@ typedef struct typePerson{
 ```c
 // 类型编号 2
 typedef struct typeTeam{
-  int index;
+  int index;		 
   
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
@@ -73,6 +73,8 @@ typedef struct typeEvent{
 }event;
 ```
 
+------
+
 ## Cx的全局变量
 
 ### 外部变量
@@ -88,6 +90,8 @@ int myCalendar[18][9];
 ```
 储存的是编码， 共享外部的 eventArr[] 进行定位
 
+------
+
 ## FF的全局变量
 
 ### 职员库 (Const)
@@ -97,6 +101,18 @@ int myCalendar[18][9];
 ```c
 person personArr[1024];
 ```
+
+### 团队库
+
+- 团队会随时添加
+- FF自身需要维护
+- FF更新时要把更新信息传递给两个F
+
+```c
+team teamArr[256];
+```
+
+------
 
 ## F1/F2的全局变量
 
@@ -108,18 +124,18 @@ F1和F2需要知道的外部变量有
 - 无法添加的会议: C通过pipe传递struct实现
 - 职员库：通过Fork从FF获取
 
-### 团队库
-
-团队会随时添加，由FF把string处理成buf后，传递给F1/F2
-
-```c
-team teamArr[256];
-```
-
 ### 会议库
 
 ```c
 event eventArr[256];
+```
+
+### 团队库
+
+- FF更新时要把更新信息传递给两个F
+
+```c
+team teamArr[256];
 ```
 
 ### 待处理会议队列
