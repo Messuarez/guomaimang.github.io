@@ -36,15 +36,17 @@ index: 6
 
 ## FF -> F
 
-| signal | arg  | Meaning                                   |
-| ------ | ---- | ----------------------------------------- |
-| P      | /    | Tell FF1 and FF2 to ask children to Print |
-| E      | /    | Tell FF1 and FF2 to end process           |
-|        |      |                                           |
-|        |      |                                           |
-|        |      |                                           |
-|        |      |                                           |
-|        |      |                                           |
+| signal | arg  | Meaning                                                      |
+| ------ | ---- | ------------------------------------------------------------ |
+| P      | /    | Tell FF1 and FF2 to ask children to Print                    |
+| E      | /    | Pass a event to F, FF should pass this to two F via two pipes |
+| F      | /    | Tell FF1 and FF2 to end process                              |
+|        |      |                                                              |
+|        |      |                                                              |
+|        |      |                                                              |
+|        |      |                                                              |
+|        |      |                                                              |
+|        |      |                                                              |
 
 ## F -> FF
 
@@ -69,7 +71,7 @@ index: 6
 |        |             |                     |
 |        |             |                     |
 |        |             |                     |
-| E      | /           | end process         |
+| F      | /           | end process         |
 
 添加事件注意事项：先尝试添加，等大家都无异议后再执行
 
