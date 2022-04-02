@@ -65,8 +65,8 @@ index: 6
 | signal | arg1        | Meaning             |
 | ------ | ----------- | ------------------- |
 | T      | an event A  | try to add event    |
-| A      | /           | add event           |
-| C      | /           | cancel event        |
+| A      | /           | confirm add event A |
+| C      | /           | cancel event A      |
 | P      | /           | Tell child to print |
 |        |             |                     |
 |        |             |                     |
