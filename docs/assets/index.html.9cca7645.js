@@ -1,1 +1,0 @@
-import{_ as a,o as e,a as t,d as o,b as s}from"./app.76e33eac.js";const i={},n={id:"data-visualization",tabindex:"-1"},c=o("a",{class:"header-anchor",href:"#data-visualization","aria-hidden":"true"},"#",-1),r=s(" Data Visualization"),d=[c,r];function _(h,l){return e(),t("h1",n,d)}var u=a(i,[["render",_]]);export{u as default};
