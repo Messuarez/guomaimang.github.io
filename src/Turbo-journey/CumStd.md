@@ -64,10 +64,10 @@ index: 6
 
 | signal | arg1        | Meaning             |
 | ------ | ----------- | ------------------- |
-| T      | which event | try to add event    |
-| A      | which event | add event           |
+| T      | an event A  | try to add event    |
+| A      | /           | add event           |
+| C      | /           | cancel event        |
 | P      | /           | Tell child to print |
-|        |             |                     |
 |        |             |                     |
 |        |             |                     |
 |        |             |                     |
