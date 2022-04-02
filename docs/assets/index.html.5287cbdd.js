@@ -1,1 +1,0 @@
-import{_ as a,o as e,a as s,d as t,b as o}from"./app.e03d7337.js";const n={},c={id:"data-analysis",tabindex:"-1"},r=t("a",{class:"header-anchor",href:"#data-analysis","aria-hidden":"true"},"#",-1),d=o(" Data Analysis"),_=[r,d];function i(h,l){return e(),s("h1",c,_)}var x=a(n,[["render",i]]);export{x as default};
