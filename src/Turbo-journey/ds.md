@@ -12,7 +12,7 @@ index: 5
 
 ```c
 // 类型编号 1
-typedef struct{
+typedef struct typePerson{
   int index;
   char name[11];
  
@@ -26,7 +26,7 @@ typedef struct{
 
 ```c
 // 类型编号 2
-typedef struct{
+typedef struct typeTeam{
   int index;
   char name[11];
   
@@ -53,7 +53,7 @@ typedef struct{
 
 ```c
 // 类型编号 3
-typedef struct{
+typedef struct typeEvent{
   int index;
   char whichTeam[11];	
   int manager; 	// 从职员库中索引定位
@@ -81,8 +81,9 @@ Cx需要知道的外部变量有
 ### 日历
 
 ```c
-event myCalendar[18][9];
+int myCalendar[18][9];
 ```
+储存的是编码， 共享外部的 eventArr[] 进行定位
 
 ## FF的全局变量
 
@@ -110,6 +111,12 @@ F1和F2需要知道的外部变量有
 
 ```c
 team teamArr[256];
+```
+
+### 会议库
+
+```c
+event eventArr[256];
 ```
 
 ### 待处理会议队列
