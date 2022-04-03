@@ -31,10 +31,8 @@ typedef struct typeTeam{
   int index;		 
   
   int manager; 	// 从职员库中索引定位
-  int member1;	// 从职员库中索引定位
-  int member2;	// 从职员库中索引定位
-  int member3;	// 从职员库中索引定位
-  // 不使用数组的原因：方便pipe传输
+  int memberCount; //how many member
+  int member[3];	// 从职员库中索引定位
   
   char name[11];
 }team;
@@ -59,9 +57,8 @@ typedef struct typeEvent{
   
   int teamID;
   int manager; 	// 从职员库中索引定位
-  int member1;	// 从职员库中索引定位
-  int member2;	// 从职员库中索引定位
-  int member3;	// 从职员库中索引定位
+  int memberCount; //how many member
+  int member[3];	// 从职员库中索引定位
   
   int holdDay; 		// 0-17
   int startTime;  // 9-17
