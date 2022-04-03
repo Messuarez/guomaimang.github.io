@@ -57,6 +57,7 @@ typedef struct typeTeam{
 typedef struct typeEvent{
   int index;
   
+  int teamID;
   int manager; 	// 从职员库中索引定位
   int member1;	// 从职员库中索引定位
   int member2;	// 从职员库中索引定位
