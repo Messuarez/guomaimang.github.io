@@ -112,7 +112,7 @@ event eventArr[256];
 - FF更新时要把更新信息传递给两个F
 
 ```c
-team teamArr[256];
+team teamArr[5];
 ```
 
 是否有必要实施会议库有待讨论......
