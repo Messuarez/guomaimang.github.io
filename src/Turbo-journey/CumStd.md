@@ -58,7 +58,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 
 | signal | arg  | Meaning |
 | ------ | ---- | ------- |
-|        |      |         |
+| O      | /    |         |
 |        |      |         |
 |        |      |         |
 |        |      |         |

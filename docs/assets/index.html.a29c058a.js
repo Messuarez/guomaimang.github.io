@@ -1,1 +1,0 @@
-import{_ as e,o as t,a,d,b as o}from"./app.bbbf835d.js";const r={},s={id:"related-knowledge-guide",tabindex:"-1"},n=d("a",{class:"header-anchor",href:"#related-knowledge-guide","aria-hidden":"true"},"#",-1),c=o(" Related Knowledge Guide"),_=[n,c];function i(l,h){return t(),a("h1",s,_)}var u=e(r,[["render",i]]);export{u as default};
