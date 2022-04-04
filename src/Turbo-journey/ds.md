@@ -13,7 +13,7 @@ index: 5
 ```c
 // 类型编号 1
 typedef struct typePerson{
-  int index; 			
+  int index; 			// also in array
  
   int manageTeam; // 管理的团队的团队的id 无则 = -1
   int asMember;   // 作为几个团队的member？ 限制最多是3个
@@ -28,13 +28,14 @@ typedef struct typePerson{
 ```c
 // 类型编号 2
 typedef struct typeTeam{
-  int index;		 
+  int index;		 		// also in array
   
-  int manager; 	// 从职员库中索引定位
-  int memberCount; //how many member
-  int member[3];	// 从职员库中索引定位
+  int manager; 			// 从职员库中索引定位
+  int memberCount;  // how many member
+  int member[3];	  // 从职员库中索引定位
   
   char name[11];
+  char project[10];
 }team;
 ```
 
@@ -51,12 +52,13 @@ typedef struct typeTeam{
 <img src="https://pic.hanjiaming.com.cn/2022/03/31/58556d3f486b8.png" alt="1648695637629.png" style="zoom:50%;" />
 
 ```c
+// event struct
 // 类型编号 3
 typedef struct typeEvent{
   int index;
   
-  int teamID;
-  int manager; 	// 从职员库中索引定位
+  int teamID;			// team index, also in array
+  int manager; 		// 从职员库中索引定位
   int memberCount; //how many member
   int member[3];	// 从职员库中索引定位
   
@@ -66,7 +68,8 @@ typedef struct typeEvent{
   
   int priority;   // FCFS 中可无视
   
-  char whichTeam[11];	
+  char name[11];	//team name
+  char project[10];	// project name
  
 }event;
 ```
@@ -78,7 +81,7 @@ typedef struct typeEvent{
 需要注意的是，职员的数量是已知的。一共就8个人。不需要要后续添加。
 
 ```c
-person personArr[1024];
+person personArr[8];
 ```
 
 ### 团队库
@@ -87,8 +90,10 @@ person personArr[1024];
 - FF自身需要维护
 - FF更新时要把更新信息传递给两个F
 
+![1649083379796.png](https://pic.hanjiaming.com.cn/2022/04/04/c135da257a2d7.png)
+
 ```c
-team teamArr[256];
+team teamArr[5];
 ```
 
 ## F1/F2的全局变量
