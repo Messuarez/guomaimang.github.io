@@ -87,7 +87,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 | ------ | ----------   | --------------------------------------------------------- |
 | Y      | /            | tell FF the target event will be added is acceptable      |
 | N      | an int array | tell FF the target events will be added is  not acceptable, and return the conflict event id |
-|        |              |                                                           |
+| D      | /            | Job is Done.                                              |
 |        |              |                                                           |
 |        |              |                                                           |
 
