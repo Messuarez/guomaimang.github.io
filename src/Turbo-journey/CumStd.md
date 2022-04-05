@@ -74,7 +74,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 | A      | /          | confirm add event A |
 | C      | /          | cancel event A      |
 | P      | /          | Tell child to print |
-|        |            |                     |
+| I      | a person P | Tell child the information itself |
 |        |            |                     |
 |        |            |                     |
 | F      | /          | end process         |
