@@ -75,7 +75,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 | C      | /          | cancel event A      |
 | P      | /          | Tell child to print |
 | I      | a person P | Tell child the information itself |
-|        |            |                     |
+| R      | two date A B | Ask child how many meetings there are between A and B |
 |        |            |                     |
 | F      | /          | end process         |
 
@@ -88,7 +88,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 | Y      | /            | tell FF the target event will be added is acceptable      |
 | N      | an int array | tell FF the target events will be added is  not acceptable, and return the conflict event id |
 | D      | /            | Job is Done.                                              |
-|        |              |                                                           |
+| A      | an int X     | number of meetings between A and B                        |
 |        |              |                                                           |
 
 
