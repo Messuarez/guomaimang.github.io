@@ -1,1 +1,0 @@
-import{_ as e,o as s,a as t,d as a,b as r}from"./app.faf65c13.js";const o={},c={id:"father-process2",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#father-process2","aria-hidden":"true"},"#",-1),n=r(" Father Process2"),d=[_,n];function h(i,f){return s(),t("h1",c,d)}var p=e(o,[["render",h]]);export{p as default};
