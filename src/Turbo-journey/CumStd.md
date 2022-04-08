@@ -73,7 +73,7 @@ For signal E, G, FF should pass message to two F via two pipes.
 | T      | an event A | try to add event    |
 | A      | /          | confirm add event A |
 | C      | /          | cancel event A      |
-| P      | /          | Tell child to print |
+| P      | fd         | Tell child to print |
 | I      | a person P | Tell child the information itself |
 | R      | two date A B | Ask child how many meetings there are between A and B |
 |        |            |                     |
